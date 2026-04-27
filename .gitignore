@@ -1,0 +1,89 @@
+# ========================
+# .NET / C#
+# ========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+*.pdb
+*.ilk
+*.meta
+*.exp
+*.lib
+TestResults/
+[Tt]emp/
+[Ll]ogs/
+[Oo]ut/
+*.ncrunch*
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework migrations (keep migrations, ignore snapshots? No, keep all)
+# Keep Migrations folder
+
+# ========================
+# Sensitive configuration
+# ========================
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.json
+!appsettings.*.json.example
+*.env
+.env
+.env.*
+secrets.json
+usersecrets/
+
+# ========================
+# JetBrains Rider / IntelliJ
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ========================
+# Visual Studio
+# ========================
+.vs/
+*.rsuser
+*.vbw
+
+# ========================
+# React / Node.js (frontend)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp/
+frontend/.pnp.js
+
+# ========================
+# OS / Editor
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
