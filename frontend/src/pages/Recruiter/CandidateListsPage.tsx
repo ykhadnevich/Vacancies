@@ -9,9 +9,8 @@ import Card from '../../components/ui/Card'
 import Icon from '../../components/ui/Icon'
 import Badge from '../../components/ui/Badge'
 import EmptyState from '../../components/ui/EmptyState'
-import {
-    BareInput, FieldRow, mutedText, pageHeader, pageTitle, pageWrap, textareaStyle,
-} from './VacanciesPage'
+import { mutedText, pageHeader, pageTitle, pageWrap, textareaStyle } from './_styles'
+import { BareInput, FieldRow } from './_fields'
 
 function ListForm({ onCreated }: { onCreated: () => void }) {
     const t = useT()

@@ -156,7 +156,7 @@ function RegisterPage() {
                             background: '#fef2f2', borderRadius: 8,
                             padding: '8px 12px',
                         }}>
-                            {(mutation.error as any)?.response?.status === 409
+                            {(mutation.error as { response?: { status?: number } })?.response?.status === 409
                                 ? t('auth.errExists')
                                 : t('common.error')}
                         </p>

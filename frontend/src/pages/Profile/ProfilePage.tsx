@@ -59,6 +59,8 @@ function ProfilePage() {
     const [saveState, setSaveState] = useState<'idle' | 'saved' | 'error'>('idle')
 
     useEffect(() => {
+        // Sync local edit state when remote profile arrives.
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         if (profile) setDisplayName(profile.displayName ?? '')
     }, [profile])
 

@@ -10,7 +10,7 @@ export async function migrateLegacyCache(): Promise<void> {
     try {
         await set(QUERY_STORAGE_KEY, legacy)
     } catch {
-
+        // ignore — best-effort migration
     } finally {
         localStorage.removeItem(LEGACY_LOCALSTORAGE_KEY)
     }

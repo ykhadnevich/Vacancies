@@ -10,7 +10,7 @@ import Card from '../../components/ui/Card'
 import Icon from '../../components/ui/Icon'
 import { useLanguage } from '../../i18n/LanguageContext'
 import EmptyState from '../../components/ui/EmptyState'
-import { mutedText, pageHeader, pageTitle, pageWrap } from './VacanciesPage'
+import { mutedText, pageHeader, pageTitle, pageWrap } from './_styles'
 import CandidateDetailDrawer from '../../components/recruiter/CandidateDetailDrawer'
 import CandidateCard from '../../components/recruiter/CandidateCard'
 
@@ -45,6 +45,8 @@ function VacancyResultsPage() {
     })
 
     useEffect(() => {
+        // Stagger animation: reset on results change, then rAF-trigger entry.
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setStaggerReady(false)
         const rafId = requestAnimationFrame(() => setStaggerReady(true))
         return () => cancelAnimationFrame(rafId)

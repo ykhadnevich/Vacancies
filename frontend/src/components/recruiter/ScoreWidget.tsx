@@ -38,7 +38,11 @@ interface ScoreWidgetProps {
 function ScoreWidget({ score, verdict, confidence }: ScoreWidgetProps) {
     const t = useT()
     const [filled, setFilled] = useState(false)
-    useEffect(() => { setFilled(true) }, [])
+    // Animation entry: render at 0%, then trigger CSS transition to value.
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setFilled(true)
+    }, [])
 
     const meta          = verdictMeta(verdict)
     const lowConfidence = typeof confidence === 'number' && confidence < 0.7

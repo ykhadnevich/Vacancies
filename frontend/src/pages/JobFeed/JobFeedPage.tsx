@@ -298,6 +298,7 @@ function JobFeedPage() {
         if (v6Query.data) return null
         const iso = snapshotQuery.data?.executedAt
         if (!iso) return null
+        // eslint-disable-next-line react-hooks/purity
         const diffMs = Date.now() - new Date(iso).getTime()
         const min = Math.floor(diffMs / 60_000)
         if (min < 1)    return tr('search.snapshotFresh')

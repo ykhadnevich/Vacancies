@@ -120,7 +120,11 @@ function ToastCard({ toast, onDismiss }: { toast: ToastMessage; onDismiss: () =>
     const colors = VARIANT_COLORS[toast.variant]
     const t = useT()
     const [mounted, setMounted] = useState(false)
-    useEffect(() => { setMounted(true) }, [])
+    // Animation entry: render with mounted=false, then trigger CSS transition.
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setMounted(true)
+    }, [])
     return (
         <div
             role="status"
@@ -166,6 +170,7 @@ function ToastCard({ toast, onDismiss }: { toast: ToastMessage; onDismiss: () =>
 }
 
 /** Returns the toast API. Throws if called outside <code>ToastProvider</code>. */
+// eslint-disable-next-line react-refresh/only-export-components
 export function useToast(): ToastApi {
     const api = useContext(ToastContext)
     if (!api) throw new Error('useToast must be used inside <ToastProvider>')

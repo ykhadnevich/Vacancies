@@ -46,6 +46,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     return <ThemeContext.Provider value={api}>{children}</ThemeContext.Provider>
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useTheme(): ThemeApi {
     const api = useContext(ThemeContext)
     if (!api) throw new Error('useTheme must be used inside <ThemeProvider>')

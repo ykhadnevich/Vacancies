@@ -51,7 +51,7 @@ export const useAuthStore = create<AuthStore>((set) => ({
         try {
             await del(QUERY_STORAGE_KEY)
         } catch {
-
+            // ignore — clean logout shouldn't fail on cache delete
         }
         queryClient.clear()
         set({ token: null, userId: null, email: null, role: 'Candidate', isAuthenticated: false })

@@ -69,7 +69,7 @@ export function classifyTier(term: string): EvidenceTier {
 
         if (/[A-Z]/.test(raw) && /[0-9]/.test(raw)) return 1
 
-        if (/[A-Za-z][.\/\-+#][A-Za-z0-9]/.test(raw)) return 1
+        if (/[A-Za-z][./\-+#][A-Za-z0-9]/.test(raw)) return 1
 
         if (/^[A-Z][a-zA-Z0-9]*$/.test(raw)) return 1
 

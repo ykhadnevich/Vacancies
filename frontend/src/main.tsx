@@ -46,6 +46,7 @@ void evictIfOversize()
 setInterval(() => { void evictIfOversize() }, 1000 * 60 * 5)
 attachMultiTabSync(queryClient)
 
+// eslint-disable-next-line react-refresh/only-export-components
 function ErrorBoundaryFallback() {
     const t = useT()
     return (
