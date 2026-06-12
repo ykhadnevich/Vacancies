@@ -1,0 +1,95 @@
+# ----------------------------------------------------------------------------
+# docker-compose.production.yml
+#
+# Runs on the EC2 instance. Two services:
+#   - caddy : reverse proxy + auto Let's Encrypt SSL on ports 80 / 443.
+#   - api   : the .NET 8 Vacancies API on port 8080 (not exposed to host —
+#             only reachable through Caddy).
+#
+# RDS Postgres is external (NOT in this compose) — the API reads its
+# connection string from SSM Parameter Store at startup, via the IAM
+# instance profile attached to the EC2 host (see aws-setup/
+# iam-ec2-ssm-read.json + iam-ec2-s3-cv.json).
+#
+# Deploy flow on EC2 (typical run from /home/ec2-user/vacancies):
+#   docker compose -f docker-compose.production.yml pull api
+#   docker compose -f docker-compose.production.yml up -d
+#
+# GitHub Actions deploy SCPs a new `image.tar.gz`, runs `docker load`, then
+# `docker compose up -d` to roll the api container.
+# ----------------------------------------------------------------------------
+
+services:
+
+  caddy:
+    image: caddy:2.8-alpine
+    container_name: vacancies-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"  # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data       # Let's Encrypt account + certs (persistent!)
+      - caddy_config:/config
+    environment:
+      # Set this on the EC2 host (e.g. via /etc/environment) so Caddy can
+      # bind a Let's Encrypt cert against the right hostname. For raw
+      # Elastic IP usage without a custom domain, set this to the EC2
+      # public DNS, e.g.:
+      #   API_HOSTNAME=ec2-12-34-56-78.eu-central-1.compute.amazonaws.com
+      API_HOSTNAME: ${API_HOSTNAME:-localhost}
+      # ACME contact email — Let's Encrypt sends expiry warnings here.
+      ACME_EMAIL: ${ACME_EMAIL:-yankhodnevitsch@gmail.com}
+    depends_on:
+      api:
+        condition: service_healthy
+    networks:
+      - vacancies-net
+
+  api:
+    # Replaced on each deploy by `docker load` + `docker tag vacancies-api:<sha>
+    # vacancies-api:latest`. Image lives on the EC2 host only — no registry.
+    image: vacancies-api:latest
+    container_name: vacancies-api
+    restart: unless-stopped
+    expose:
+      - "8080"  # internal-only; Caddy reverse-proxies localhost:8080
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      # All real config (Jwt:Key, GeminiApiKey, ConnectionStrings:Default,
+      # Cors:AllowedOrigins, S3:CvBucket) comes from SSM at startup — the
+      # API container reads SSM via the EC2 instance profile, no static
+      # AWS creds. We DO need AWS region so the SDK doesn't ask EC2 IMDS
+      # repeatedly.
+      AWS_REGION: eu-central-1
+      AWS_DEFAULT_REGION: eu-central-1
+      # DISABLED post-backfill. The 316-row legacy backlog was drained on
+      # 2026-06-01; future scrapes either sync-normalize on the request path
+      # (SyncNormalizeTimeout = 300 s in v6 handler) or get picked up the
+      # next time the user retries the same query. Keeping the worker ON
+      # 24/7 burns $3-6/day even without traffic.
+      BackgroundWorkers__EnableVacancyAnalysis: "false"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    # t3.micro has ~900 MB usable RAM. Cap the .NET container so a runaway
+    # allocation doesn't take down Caddy too. Adjust upward on t4g.small.
+    deploy:
+      resources:
+        limits:
+          memory: 700M
+    networks:
+      - vacancies-net
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+networks:
+  vacancies-net:
+    driver: bridge

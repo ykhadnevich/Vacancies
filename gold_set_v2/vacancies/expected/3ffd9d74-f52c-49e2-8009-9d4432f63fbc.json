@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "3ffd9d74-f52c-49e2-8009-9d4432f63fbc",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Engineer",
+    "uk": "Data Engineer"
+  },
+  "role_title_raw": "Data Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "data engineering",
+    "data pipelines",
+    "SQL",
+    "Python"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

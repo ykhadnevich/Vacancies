@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "14d44732-38a4-439e-b07c-970665253c75",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Engineer",
+    "uk": "Senior Data Engineer"
+  },
+  "role_title_raw": "Senior Data Engineer Управління сховищ даних, аналітичних та облікових систем",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "data warehousing",
+    "SQL",
+    "data architecture",
+    "ETL",
+    "Python",
+    "Java",
+    "Data Warehouse",
+    "Kafka",
+    "CI/CD",
+    "MS SQL",
+    "data structures",
+    "Oracle",
+    "NoSQL"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "bachelor",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

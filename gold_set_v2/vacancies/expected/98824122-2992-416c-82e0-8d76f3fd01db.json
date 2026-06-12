@@ -1,0 +1,52 @@
+{
+  "vacancy_id": "98824122-2992-416c-82e0-8d76f3fd01db",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Engineer",
+    "uk": "Data Engineer"
+  },
+  "role_title_raw": "Data Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "data pipelines",
+    "data architecture",
+    "scalable data solutions",
+    "Python",
+    "SQL",
+    "Git",
+    "Java",
+    "Scala",
+    "Databricks",
+    "AWS",
+    "Azure",
+    "GCP",
+    "PostgreSQL",
+    "SQL Server",
+    "Airflow",
+    "Snowflake",
+    "BigQuery",
+    "Docker",
+    "CI/CD"
+  ],
+  "nice_to_have_skills": [
+    "Agile",
+    "Scrum"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": [
+    "12-month contract"
+  ]
+}

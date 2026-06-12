@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager / Product Owner",
+    "uk": "Product Manager / Product Owner"
+  },
+  "role_title_raw": "Product Manager / Product Owner",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product management",
+    "API integrations",
+    "B2B platforms",
+    "PRDs",
+    "user stories",
+    "aggregator platforms",
+    "Agile",
+    "Scrum",
+    "API",
+    "Jira",
+    "Amplitude"
+  ],
+  "nice_to_have_skills": [
+    "iGaming domain"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

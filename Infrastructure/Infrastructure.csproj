@@ -11,17 +11,30 @@
     </ItemGroup>
 
     <ItemGroup>
+      <!-- CR1 — original PDF binaries persist in S3 (SSE-S3 encrypted) instead
+           of being thrown away after text extraction. AWSSDK.S3 brings in
+           AWSSDK.Core automatically; both honour the default credential
+           chain (EC2 instance profile in prod, AWS_PROFILE / env vars
+           locally). Version 4.x is the .NET 8 line. -->
+      <PackageReference Include="AWSSDK.S3" Version="4.0.15" />
       <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
       <PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         <PrivateAssets>all</PrivateAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
       <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
-      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+      <PackageReference Include="Pgvector.EntityFrameworkCore" Version="0.2.0" />
       <PackageReference Include="PdfPig" Version="0.1.14" />
       <PackageReference Include="System.ServiceModel.Syndication" Version="8.0.0" />
     </ItemGroup>

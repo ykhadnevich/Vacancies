@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager (E-commerce)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product management",
+    "D2C",
+    "funnel architecture",
+    "A/B testing",
+    "unit economics",
+    "positioning",
+    "Tier-1 markets",
+    "AI tools",
+    "Amplitude"
+  ],
+  "nice_to_have_skills": [
+    "AI-first workflows",
+    "nutraceuticals/hardware"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

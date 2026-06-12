@@ -1,4 +1,4 @@
-﻿using Application.Common.Interfaces;
+﻿using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using Domain.Entities;
 using Domain.Enums;
@@ -9,17 +9,24 @@ namespace Infrastructure.JobSources.Scraping;
 public class DjinniScraperService : IJobSourceService
 {
     private readonly HttpClient _httpClient;
-    private readonly IJobDescriptionFetcher _descriptionFetcher;
 
     public string SourceName => "djinni";
 
-    public DjinniScraperService(HttpClient httpClient, IJobDescriptionFetcher descriptionFetcher)
+    // IJobDescriptionFetcher was previously injected to do a second GET per
+    // card for the description text. We now pull the description out of the
+    // already-loaded HTML in ExtractDescription, so the dependency is gone
+    // — halving the request load on Djinni.
+    public DjinniScraperService(HttpClient httpClient)
     {
         _httpClient = httpClient;
-        _descriptionFetcher = descriptionFetcher;
         _httpClient.DefaultRequestHeaders.Add("User-Agent",
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36");
     }
+
+    // (A) Cap concurrent detail-page fetches so Djinni's anti-bot doesn't see
+    //     a 60-request burst. With ParallelDetailFetchLimit=3 a typical search
+    //     finishes in ~3-6 seconds while staying under the rate-limit radar.
+    private const int ParallelDetailFetchLimit = 3;
 
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
     string keywords,
@@ -31,15 +38,25 @@ public class DjinniScraperService : IJobSourceService
 
     await Task.Delay(500, token);
 
-    var jobUrls = await CollectJobUrlsAsync(keywords, token);
 
-    if (jobUrls.Count == 0)
+    var jobCards = await CollectJobCardsAsync(keywords, token);
+
+    if (jobCards.Count == 0)
         return new List<JobVacancy>();
 
-    var jobs = await Task.WhenAll(jobUrls.Select(async url =>
+    using var sem = new SemaphoreSlim(ParallelDetailFetchLimit, ParallelDetailFetchLimit);
+
+    var jobs = await Task.WhenAll(jobCards.Select(async card =>
     {
+        await sem.WaitAsync(token);
         try
         {
+            var (url, applicantCount, respondsQuickly, cardPublishedAt) = card;
+
+            // (B) Single fetch per card. We previously made two requests to the
+            //     same URL: one here for title/company/salary, another via
+            //     IJobDescriptionFetcher for the description. Now we parse all
+            //     four out of the one HTML payload — half the load on Djinni.
             var html = await _httpClient.GetStringAsync(url, token);
             var doc = new HtmlDocument();
             doc.LoadHtml(html);
@@ -48,13 +65,31 @@ public class DjinniScraperService : IJobSourceService
             if (string.IsNullOrEmpty(pageTitle)) return null;
 
             pageTitle = pageTitle.Replace(" – Djinni", "").Trim();
-            var title = pageTitle.Contains(" в ")
-                ? pageTitle.Split(" в ")[0].Trim()
-                : pageTitle;
 
-            var company = pageTitle.Contains(" в ")
-                ? pageTitle.Split(" в ")[1].Trim()
-                : string.Empty;
+
+            string title;
+            string company;
+            int sepIndex = -1;
+            int sepLen = 0;
+            foreach (var sep in new[] { " в ", " at " })
+            {
+                var idx = pageTitle.LastIndexOf(sep, StringComparison.Ordinal);
+                if (idx > sepIndex)
+                {
+                    sepIndex = idx;
+                    sepLen   = sep.Length;
+                }
+            }
+            if (sepIndex > 0)
+            {
+                title   = pageTitle[..sepIndex].Trim();
+                company = pageTitle[(sepIndex + sepLen)..].Trim();
+            }
+            else
+            {
+                title   = pageTitle;
+                company = string.Empty;
+            }
 
             var salary = doc.DocumentNode
                 .SelectSingleNode("//*[contains(@class,'public-salary-item')]")?.InnerText.Trim();
@@ -64,13 +99,16 @@ public class DjinniScraperService : IJobSourceService
                 company: company,
                 url: url,
                 source: JobSource.Djinni,
-                publishedAt: DateTime.UtcNow,
+                publishedAt: cardPublishedAt ?? DateTime.UtcNow,
                 salary: salary != null ? new Domain.ValueObjects.Salary(salary) : null
             );
 
-            var description = await _descriptionFetcher.FetchDescriptionAsync(url, token);
-            if (description != null)
-                job.UpdateDescription(StripHtml(description));
+
+            job.SetCompanySignals(applicantCount, respondsQuickly);
+
+            var description = ExtractDescription(doc);
+            if (!string.IsNullOrWhiteSpace(description))
+                job.UpdateDescription(description);
 
             return job;
         }
@@ -78,14 +116,51 @@ public class DjinniScraperService : IJobSourceService
         {
             return null;
         }
+        finally
+        {
+            sem.Release();
+        }
     }));
 
     return jobs.Where(j => j != null).Cast<JobVacancy>().ToList();
     }
 
-    private async Task<List<string>> CollectJobUrlsAsync(string keywords, CancellationToken token)
+
+    /// <summary>
+    /// Pulls the description text out of an already-loaded Djinni job page.
+    /// Tries the canonical selectors in order and falls back to any element
+    /// whose class name contains "description" — defensive against Djinni's
+    /// occasional CSS-class renames.
+    /// </summary>
+    private static string? ExtractDescription(HtmlDocument doc)
     {
-        var urls = new List<string>();
+        string[] candidateXPaths =
+        {
+            "//div[contains(@class,'job-post__description')]",
+            "//div[contains(@class,'profile-page__public-info')]",
+            "//div[contains(@class,'description-text')]",
+            "//*[contains(@class,'mb-4') and contains(@class,'profile-page')]",
+            "//*[@id='job-description']",
+            "//*[contains(@class,'description') and not(self::script) and not(self::style)]",
+        };
+
+        foreach (var xpath in candidateXPaths)
+        {
+            var node = doc.DocumentNode.SelectSingleNode(xpath);
+            if (node is null) continue;
+            var raw = node.InnerHtml;
+            if (string.IsNullOrWhiteSpace(raw)) continue;
+            var cleaned = StripHtml(raw);
+            if (!string.IsNullOrWhiteSpace(cleaned)) return cleaned;
+        }
+        return null;
+    }
+
+
+    private async Task<List<(string Url, int? ApplicantCount, bool? RespondsQuickly, DateTime? PublishedAt)>> CollectJobCardsAsync(
+        string keywords, CancellationToken token)
+    {
+        var cards = new List<(string Url, int? ApplicantCount, bool? RespondsQuickly, DateTime? PublishedAt)>();
 
         for (int page = 1; page <= 4; page++)
         {
@@ -95,24 +170,60 @@ public class DjinniScraperService : IJobSourceService
             var doc = new HtmlDocument();
             doc.LoadHtml(html);
 
-            var cards = doc.DocumentNode
+            var jobCards = doc.DocumentNode
                 .SelectNodes("//div[contains(@class,'job-item') and contains(@id,'job-item-')]");
 
-            if (cards is null || cards.Count == 0) break;
+            if (jobCards is null || jobCards.Count == 0) break;
 
-            foreach (var card in cards)
+            foreach (var card in jobCards)
             {
                 var link = card.SelectSingleNode(".//a[contains(@class,'job_item__header-link')]");
-                var relativeUrl = link?.GetAttributeValue("href", null);
-                if (!string.IsNullOrEmpty(relativeUrl))
-                    urls.Add($"https://djinni.co{relativeUrl}");
+                var relativeUrl = link?.GetAttributeValue("href", string.Empty);
+                if (string.IsNullOrEmpty(relativeUrl)) continue;
+
+                var url = $"https://djinni.co{relativeUrl}";
+
+
+                var cardText = card.InnerText;
+                DateTime? publishedAt = null;
+
+
+                var timeNode = card.SelectSingleNode(".//time[@datetime]");
+                if (timeNode != null && DateTime.TryParse(
+                    timeNode.GetAttributeValue("datetime", ""), out var timeAttr))
+                    publishedAt = DateTime.SpecifyKind(timeAttr, DateTimeKind.Utc);
+
+
+                if (!publishedAt.HasValue)
+                {
+                    var pubMatch = Regex.Match(cardText, @"[Оо]публіковано\s+(.{5,25})", RegexOptions.None);
+                    if (pubMatch.Success)
+                        publishedAt = UkrainianDateParser.TryParse(pubMatch.Groups[1].Value);
+                }
+
+
+                int? applicantCount = null;
+                var countMatch = Regex.Match(cardText, @"(\d+)\s*(відгук|application|відповід)", RegexOptions.IgnoreCase);
+                if (countMatch.Success && int.TryParse(countMatch.Groups[1].Value, out var cnt))
+                    applicantCount = cnt;
+
+
+                var cardHtml = card.OuterHtml;
+                bool? respondsQuickly = null;
+                if (cardHtml.Contains("Відповідає швидко", StringComparison.OrdinalIgnoreCase) ||
+                    cardHtml.Contains("Actively responds", StringComparison.OrdinalIgnoreCase))
+                    respondsQuickly = true;
+                else if (cardHtml.Contains("Відповідає") || cardHtml.Contains("responds"))
+                    respondsQuickly = false;
+
+                cards.Add((url, applicantCount, respondsQuickly, publishedAt));
             }
 
             if (page < 4)
                 await Task.Delay(300, token);
         }
 
-        return urls;
+        return cards;
     }
 
     private static string StripHtml(string html)

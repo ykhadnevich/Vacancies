@@ -1,0 +1,236 @@
+{
+  "batch_idx": 8,
+  "cv_id": "21_engineering_manager_senior",
+  "n_pairs": 12,
+  "rater": "Claude Sonnet 4.6 (sub-agent)",
+  "ratings": [
+    {
+      "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+      "A": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "28db1992-92f0-4e90-8831-1fb7aeaeff58",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "470bd7f3-e358-42dd-84d4-4f11a1e04dcd",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+      "A": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "51048422-c940-428f-b81d-3cb63f7ed76a",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "a15d8779-efec-447e-b7ef-31912946efd2",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "cab34c74-4f37-4f51-94a2-7ae9bd65b1cc",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "e4b7da99-705a-49d0-9a7b-74d48a95ae5a",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    }
+  ]
+}

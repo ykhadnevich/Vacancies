@@ -1,0 +1,70 @@
+{
+  "seniority": "junior",
+  "target_roles": ["Junior Product Manager", "Mobile Product Manager"],
+  "domain_skills": [
+    "Market research",
+    "Competitive analysis",
+    "Hypothesis validation",
+    "ICE framework",
+    "MVP scope definition",
+    "Roadmapping",
+    "Unit economics",
+    "Mobile monetization",
+    "Amplitude",
+    "Financial modeling",
+    "Customer discovery",
+    "Business Model Canvas",
+    "MVP methodology",
+    "Rapid iteration",
+    "C#",
+    "ASP.NET Core",
+    "Design patterns",
+    "Application architecture",
+    "React",
+    "GitHub Actions",
+    "Agile/Scrum"
+  ],
+  "technical_skills": [
+    ".NET Core",
+    "EF Core",
+    "JavaScript",
+    "TypeScript",
+    "SQL",
+    "NoSQL databases",
+    "REST API",
+    "Git",
+    "Docker",
+    "AWS basics",
+    "Excel",
+    "Google Sheets"
+  ],
+  "unverified_skills": [
+    "Analytical thinking",
+    "Data-driven decision making",
+    "Technical communication",
+    "Cross-functional collaboration",
+    "Quick learner",
+    "Adaptable"
+  ],
+  "experience": [
+    {"title": "AI Photo Enhancement App (Training Project)", "type": "COURSE", "duration_months": 3, "years_ago": 0},
+    {"title": "FPV Drone Flight Controller Testing Platform", "type": "COURSE", "duration_months": 1, "years_ago": 0},
+    {"title": ".NET Development Training", "type": "COURSE", "duration_months": 3, "years_ago": 0},
+    {"title": "AcademicHub Platform", "type": "PET_PROJECT", "duration_months": 6, "years_ago": 0}
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Software Engineering and Business Analysis",
+    "is_relevant": true,
+    "status": "in_progress",
+    "current_year": 4,
+    "graduation_year": 2025
+  },
+  "english_level": "B2",
+  "languages": [
+    {"language": "Ukrainian", "level": "native"},
+    {"language": "English", "level": "B2"}
+  ],
+  "has_real_product_experience": false,
+  "career_switcher": true
+}

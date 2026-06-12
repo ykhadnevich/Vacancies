@@ -1,0 +1,166 @@
+{
+  "agent": "L",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, fresh-vacancy pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "22_data_engineer_senior",
+      "ratings": [
+        {
+          "vacancy_id": "workua_6184441",
+          "match_quality": 0,
+          "rationale": "CAD/mechanical design engineer (CATIA, sheet metal, 3D printers) — no overlap with data engineering."
+        },
+        {
+          "vacancy_id": "workua_4037602",
+          "match_quality": 0,
+          "rationale": "AutoCAD design engineer in energy, onsite Sumy — no overlap with data pipelines or analytics stack."
+        },
+        {
+          "vacancy_id": "workua_8167305",
+          "match_quality": 0,
+          "rationale": "Microwave/RF DefTech hardware engineer (HFSS, ADS) — completely unrelated to data engineering."
+        },
+        {
+          "vacancy_id": "workua_2185110",
+          "match_quality": 0,
+          "rationale": "Chief Accountant requiring 5y tax/payroll/import-export experience — no transferable data engineering skills."
+        },
+        {
+          "vacancy_id": "workua_6196810",
+          "match_quality": 0,
+          "rationale": "SMM specialist for Instagram retail content — completely unrelated to data engineering."
+        },
+        {
+          "vacancy_id": "826101-business-development-manager",
+          "match_quality": 0,
+          "rationale": "Sales/BD role focused on project sales and CRM — no overlap with data engineering."
+        }
+      ]
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "ratings": [
+        {
+          "vacancy_id": "workua_7379146",
+          "match_quality": 0,
+          "rationale": "Electrical engineering design role using AutoCAD — no frontend/web overlap."
+        },
+        {
+          "vacancy_id": "workua_8026338",
+          "match_quality": 0,
+          "rationale": "Service engineer for radiation equipment with driving license — completely unrelated to frontend."
+        },
+        {
+          "vacancy_id": "workua_8167305",
+          "match_quality": 0,
+          "rationale": "RF/microwave DefTech hardware engineer — no overlap with React frontend development."
+        },
+        {
+          "vacancy_id": "822381-creative-marketing-manager",
+          "match_quality": 0,
+          "rationale": "Creative marketing role focused on copywriting and performance marketing — no engineering overlap."
+        },
+        {
+          "vacancy_id": "workua_8167137",
+          "match_quality": 0,
+          "rationale": "Communication coordinator requiring Ukrainian writing skills — no overlap with frontend engineering."
+        }
+      ]
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "ratings": [
+        {
+          "vacancy_id": "workua_7379359",
+          "match_quality": 0,
+          "rationale": "Architectural/construction design engineer — completely unrelated to iOS development."
+        },
+        {
+          "vacancy_id": "workua_896330",
+          "match_quality": 0,
+          "rationale": "Senior construction engineer estimating works/repairs — no overlap with mobile development."
+        },
+        {
+          "vacancy_id": "workua_6184441",
+          "match_quality": 0,
+          "rationale": "CAD mechanical engineer (CATIA, sheet metal) — no overlap with iOS engineering."
+        },
+        {
+          "vacancy_id": "802321-partnership-manager",
+          "match_quality": 0,
+          "rationale": "B2B partnership/sales role around Microsoft tech — no iOS engineering overlap."
+        },
+        {
+          "vacancy_id": "829910-business-development-manager-sales-manager-it",
+          "match_quality": 0,
+          "rationale": "Pure IT outsourcing sales role (full sales cycle, US market) — no mobile dev overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "ratings": [
+        {
+          "vacancy_id": "workua_7379146",
+          "match_quality": 0,
+          "rationale": "Electrical design engineer with AutoCAD — no overlap with Android engineering."
+        },
+        {
+          "vacancy_id": "workua_7306804",
+          "match_quality": 0,
+          "rationale": "Solar energy engineer (commissioning, diagnostics) — unrelated to Android development."
+        },
+        {
+          "vacancy_id": "workua_4037602",
+          "match_quality": 0,
+          "rationale": "Mechanical design engineer (AutoCAD, Sumy onsite) — no Android engineering overlap."
+        },
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 2,
+          "rationale": "iGaming PM needs API/SDK literacy — faint adjacency from mobile dev background, but PM role differs fundamentally."
+        },
+        {
+          "vacancy_id": "workua_8167137",
+          "match_quality": 0,
+          "rationale": "Communication coordinator requiring Ukrainian writing skills — no engineering overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "ratings": [
+        {
+          "vacancy_id": "824148-business-developer-at-24play",
+          "match_quality": 0,
+          "rationale": "Business developer in gamedev — pure sales role, no QA/SDET overlap."
+        },
+        {
+          "vacancy_id": "workua_7379359",
+          "match_quality": 0,
+          "rationale": "Architectural design engineer for buildings — no overlap with QA automation."
+        },
+        {
+          "vacancy_id": "workua_7306804",
+          "match_quality": 0,
+          "rationale": "Solar energy engineer doing commissioning and diagnostics — unrelated to software QA."
+        },
+        {
+          "vacancy_id": "workua_8049168",
+          "match_quality": 0,
+          "rationale": "SMM manager doing Instagram/Telegram content and graphic design — no QA overlap."
+        },
+        {
+          "vacancy_id": "825498-customer-success-manager",
+          "match_quality": 2,
+          "rationale": "B2B SaaS CSM — software product context only; account management and consulting are not QA work."
+        },
+        {
+          "vacancy_id": "819395-business-development-manager",
+          "match_quality": 2,
+          "rationale": "IT outsource sales mentions SDLC/Web App tech awareness — faint technical adjacency, but pure sales role; C1 English exceeds CV B2."
+        }
+      ]
+    }
+  ]
+}

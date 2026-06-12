@@ -1,0 +1,53 @@
+{
+  "vacancy_id": "e092834f-91a9-4d83-b334-fa02167ba004",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior AI-Assisted .NET Developer",
+    "uk": "Senior AI-assisted .NET розробник"
+  },
+  "role_title_raw": "Senior Software Engineer / AI-Assisted Developer (.NET Core + GitHub Copilot + APIs)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET Core",
+    "GitHub Copilot",
+    "AI-assisted development",
+    "REST API",
+    "cloud",
+    "agentic workflows",
+    ".NET",
+    "ASP.NET Core",
+    "SQL Server",
+    "Angular",
+    "TypeScript",
+    "Selenium",
+    "Postman",
+    "CI/CD",
+    "Azure",
+    "ChatGPT",
+    "unit testing",
+    "integration testing",
+    "debugging"
+  ],
+  "nice_to_have_skills": [
+    "Cursor",
+    "Claude",
+    "microservices",
+    "TDD"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

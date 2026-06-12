@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "e1e366c2-9d8e-446e-8d41-d8f8414f4d3f",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Head of Amazon Growth",
+    "uk": "Head of Amazon Growth"
+  },
+  "role_title_raw": "Head of Amazon Growth (US, EU)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "Amazon marketplace operations",
+    "category strategy",
+    "P&L ownership",
+    "brand growth",
+    "team leadership",
+    "supplements / health & wellness domain",
+    "Analytical thinking",
+    "Leadership",
+    "Analytics",
+    "Product Management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

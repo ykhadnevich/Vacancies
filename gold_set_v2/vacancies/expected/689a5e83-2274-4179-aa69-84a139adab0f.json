@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Developer",
+    "uk": "Senior .NET розробник"
+  },
+  "role_title_raw": "Senior .NET Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET Core",
+    "SQL",
+    "microservices",
+    "Kafka",
+    "SOLID"
+  ],
+  "nice_to_have_skills": [
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "Prometheus",
+    "Loki"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Trainee .NET Azure Cloud Developer",
+    "uk": "Trainee .NET Azure Cloud розробник"
+  },
+  "role_title_raw": "Trainee .NET Azure Cloud Engineer",
+  "seniority_required": "intern",
+  "must_have_skills": [
+    "C#",
+    ".NET basics",
+    "Azure basics",
+    "cloud fundamentals",
+    ".NET",
+    "Azure Functions",
+    "SQL",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD",
+    "Azure DevOps"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": [
+    "trainee-only position"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "00d0ccdb-07a0-49a3-a691-efa93961fa2c",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product roadmap",
+    "funnel metrics",
+    "CVR",
+    "AOV",
+    "A/B testing",
+    "checkout optimization",
+    "operational efficiency",
+    "analytics",
+    "ownership",
+    "Product Management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": [
+    "must overlap with US PST timezone"
+  ]
+}

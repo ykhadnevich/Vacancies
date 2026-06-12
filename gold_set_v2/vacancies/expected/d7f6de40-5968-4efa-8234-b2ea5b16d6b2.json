@@ -1,0 +1,50 @@
+{
+  "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Mobile Developer",
+    "uk": "Senior Mobile розробник"
+  },
+  "role_title_raw": "Senior Mobile Engineer (Swift + Flutter )",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Swift",
+    "Flutter",
+    "Dart",
+    "iOS native",
+    "cross-platform mobile",
+    "UIKit",
+    "iOS",
+    "Xcode",
+    "Android",
+    "SwiftUI",
+    "Clean Architecture",
+    "async/await",
+    "GitHub Actions",
+    "MVC",
+    "MVVM",
+    "REST API",
+    "Firebase",
+    "Analytics",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Kotlin",
+    "Web3"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "crypto",
+    "uk": "крипто"
+  },
+  "anti_requirements": []
+}

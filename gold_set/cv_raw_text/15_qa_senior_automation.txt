@@ -1,0 +1,63 @@
+Roman Vasylenko
+Senior QA Automation Engineer · 8 years · Selenium + Playwright + API · Dnipro → remote
+r.vasylenko@example.com · github.com/rvasylenko
+Summary
+QA інженер з 8 років досвіду, з них 6 — full automation. Побудував test automation з нуля для
+3 проектів (Java/TestNG, Python/pytest, TypeScript/Playwright). Strong у API testing, CI
+integration, test pyramid design. Team-lead для 4 QAs у поточному проекті.
+Experience
+QA Lead / Senior SDET — Ajax Systems (security IoT, B2C+B2B)
+Nov 2022 — Present · Kyiv (remote) · PRODUCTION
+• Test automation для mobile + web admin console + REST API. Stack: Playwright (TS) +
+pytest + Appium.
+• CI integration на GitLab CI — full E2E suite runs in 28 min on 8 parallel agents. Reduced from
+1.5h before parallelization.
+• Lead для 4 QA engineers — mentoring, code review, hiring (interviewed 30+, hired 3).
+• Driving test pyramid migration: shifted ratio from 70% E2E / 25% integration / 5% unit, до
+25/45/30 over 18 months.
+Senior SDET — EPAM (client: large US healthcare insurer)
+Mar 2020 — Oct 2022 · Dnipro (hybrid) · PRODUCTION
+• API + UI automation на Java 11 + RestAssured + Selenium 4 + TestNG + Maven.
+• Performance testing з JMeter + Grafana dashboards (baseline + SLA monitoring).
+• Migration з Selenium 3 → 4 — refactored ~600 tests; introduced Page Object Model where
+missing.
+QA Engineer (mid) — SoftServe (outsource — fintech client)
+Aug 2018 — Feb 2020 · Lviv · PRODUCTION
+• Manual + automation mix (60/40). Built initial automation framework на Selenium WebDriver
++ Java + Cucumber.
+• API testing — Postman → Newman (CI), JIRA + Zephyr for test management.
+Junior QA Manual — Luxoft
+Jun 2017 — Jul 2018 · Dnipro · PRODUCTION
+• First QA role — manual testing of trading platform desktop app.
+QA Intern — Datrics
+Feb 2017 — Apr 2017 · Dnipro · INTERNSHIP
+• Internship — exploratory testing + bug reporting on data-science platform MVP.
+Skills
+Automation frameworks: Playwright (TS, daily), Selenium WebDriver (Java, 5+ years), Appium
+(mobile), Cypress (basic, evaluated for project), Cucumber (BDD).
+Languages: Java (advanced — daily 5 years), TypeScript (intermediate), Python (intermediate —
+pytest, data processing), Groovy (Jenkins pipelines), basic Bash.
+API testing: RestAssured (Java), Postman, Newman, pytest-requests, contract testing (Pact
+basics).
+CI/CD: GitLab CI (advanced), Jenkins (mature), GitHub Actions, Docker (containerized test envs).
+Performance: JMeter (5 projects), Gatling (basic), Grafana dashboards for monitoring.
+
+Test management: Jira + Zephyr Scale, TestRail, Allure reporting, TestNG/JUnit/pytest reports.
+Methodology: Test pyramid design, shift-left QA, BDD, exploratory testing, risk-based test
+prioritization.
+DBs / tools: SQL (PostgreSQL, MySQL — daily for test data setup), MongoDB (basic), Kafka
+consumer scripts for event verification, Wiremock for service virtualization.
+Education
+Dnipro University of Technology (former NMU)
+Master's in Computer Engineering · 2015–2017 · Completed
+Dnipro University of Technology
+Bachelor's in Computer Engineering · 2011–2015 · Completed
+Certifications: ISTQB Advanced Test Automation Engineer (2021), ISTQB Foundation (2017).
+AWS Cloud Practitioner (2023).
+Languages
+• Ukrainian — native
+• English — B2 (daily client calls)
+• Russian — native
+Target Roles
+QA Lead · Senior SDET · Test Architect · QA Manager (next step). Не цікавлять positions на 100%
+manual testing.

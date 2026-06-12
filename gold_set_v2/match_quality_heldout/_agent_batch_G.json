@@ -1,0 +1,50 @@
+[
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_ids": [
+      "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+      "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "337599ae-96e8-48ab-88bb-80eddf6df903",
+      "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "e09c21f3-6c72-4ebe-97d2-fe53bc014778"
+    ]
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_ids": [
+      "fd125a93-ce97-4995-abce-547c10bbdead",
+      "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+      "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+      "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "886a40a7-50d9-43d1-b38a-244903aae0ee",
+      "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9"
+    ]
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_ids": [
+      "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+      "745f0820-5b22-462d-b636-c496405427f6",
+      "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+      "89950026-e1d4-45c0-886c-f7700a96ba40",
+      "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+      "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+      "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7"
+    ]
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_ids": [
+      "f95c3798-6c5c-4d18-a746-af67b51242e4",
+      "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+      "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "a44313fb-396b-4e17-81ce-7477515de7f9",
+      "994c5af7-8f40-41b2-9c63-0f64a78322c1",
+      "c1fae7c2-ca09-4a3e-92d0-60636378bf39",
+      "738bbdbd-27ea-44bf-a5a8-994cf5e24e23"
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "agent": "C",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out, primary pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+          "role_title_en": "Payment Product Manager",
+          "match_quality": 0,
+          "rationale": "Corporate lawyer CV vs Product Manager in fintech/payments — no PM, backlog, A/B testing, payment systems experience. Different professional family."
+        },
+        {
+          "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Lawyer CV vs Engineering Manager requiring Java, AWS, Spring, React — zero technical or engineering leadership overlap."
+        },
+        {
+          "vacancy_id": "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+          "role_title_en": "Personal Assistant / Operations Manager",
+          "match_quality": 2,
+          "rationale": "Lawyer has coordination/communication/research skills (transferable) but different professional family; Warsaw onsite anti-flag and no PA experience."
+        },
+        {
+          "vacancy_id": "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+          "role_title_en": "Junior Data Engineer / Analyst",
+          "match_quality": 0,
+          "rationale": "Lawyer CV vs Junior Data Engineer requiring Python, ML, data modeling — no programming or data skills present."
+        },
+        {
+          "vacancy_id": "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+          "role_title_en": "Manual QA",
+          "match_quality": 0,
+          "rationale": "Lawyer CV vs Manual QA in e-commerce — no QA, testing, or Magento experience; different professional family."
+        },
+        {
+          "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+          "role_title_en": "Frontend Developer",
+          "match_quality": 0,
+          "rationale": "Lawyer CV vs Vue/TypeScript Frontend Developer — zero coding experience, completely different field."
+        },
+        {
+          "vacancy_id": "15227172-726d-4cc6-8ab1-966690742f53",
+          "role_title_en": "Machine Learning Engineer",
+          "match_quality": 0,
+          "rationale": "Lawyer CV vs ML Engineer requiring Python, LLM, RAG, TypeScript — zero ML or programming background."
+        },
+        {
+          "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+          "role_title_en": "Senior .NET Developer",
+          "match_quality": 0,
+          "rationale": "Lawyer CV vs Senior .NET Developer requiring C#, SQL, OOP — no software engineering background, different field."
+        }
+      ]
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+          "role_title_en": "Product Owner",
+          "match_quality": 0,
+          "rationale": "English teacher CV vs Product Owner in crypto/web3 — no product, blockchain, or PM experience. Completely different field."
+        },
+        {
+          "vacancy_id": "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+          "role_title_en": "Senior Product Marketing Manager",
+          "match_quality": 0,
+          "rationale": "Teacher CV vs Product Marketing Manager in DefTech — no marketing, GTM, or B2B tech background."
+        },
+        {
+          "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Teacher CV vs Engineering Manager requiring TypeScript, Node.js, AWS Lambda — zero engineering experience."
+        },
+        {
+          "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+          "role_title_en": "Manual QA",
+          "match_quality": 0,
+          "rationale": "Teacher CV vs Manual QA requiring API testing, MongoDB, Redis, Linux — no QA or technical infrastructure background."
+        },
+        {
+          "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+          "role_title_en": "Trainee Data Analyst",
+          "match_quality": 0,
+          "rationale": "Senior teacher CV vs Trainee Data Analyst (SQL, Python, Excel) — no data skills; seniority and field mismatch."
+        },
+        {
+          "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+          "role_title_en": "Frontend Developer",
+          "match_quality": 0,
+          "rationale": "Teacher CV vs React/TypeScript Frontend Developer — no coding experience, completely different field."
+        },
+        {
+          "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+          "role_title_en": "Senior AI / Machine Learning Engineer",
+          "match_quality": 0,
+          "rationale": "Teacher CV vs Senior AI/ML Engineer requiring Python, FastAPI, Kubernetes, Neo4j — zero ML or programming experience."
+        },
+        {
+          "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+          "role_title_en": "Cloud Network Developer",
+          "match_quality": 0,
+          "rationale": "Teacher CV vs Cloud Network Engineer requiring Azure, AWS, BGP, VPC — zero networking or cloud expertise."
+        }
+      ]
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "e7009e48-85a2-4062-9edb-2e6a02878203",
+          "role_title_en": "Product Manager",
+          "match_quality": 0,
+          "rationale": "Senior accountant CV vs Product Manager in DefTech/drone autonomy — no product management or defense tech background."
+        },
+        {
+          "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Accountant CV vs Engineering Manager in DefTech requiring CI/CD, high-load systems — no engineering leadership experience."
+        },
+        {
+          "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+          "role_title_en": "Marketing Operations Manager",
+          "match_quality": 0,
+          "rationale": "Accountant CV vs Marketing Operations Manager requiring ASO, mobile marketing, campaigns — no marketing background."
+        },
+        {
+          "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+          "role_title_en": "SQL / Data Engineer",
+          "match_quality": 2,
+          "rationale": "Accountant has Power BI, Excel, Power Query (some analytics overlap), but missing SQL, Snowflake, Databricks, Python, pipelines — adjacent yet distinct family."
+        },
+        {
+          "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+          "role_title_en": "AI / ML Engineer",
+          "match_quality": 0,
+          "rationale": "Accountant CV vs AI/ML Engineer requiring Python, LLM, RAG, agentic systems — zero ML or programming experience."
+        },
+        {
+          "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+          "role_title_en": "Senior Manual QA",
+          "match_quality": 0,
+          "rationale": "Accountant CV vs Senior Manual QA in DefTech — no testing experience, completely different professional family."
+        },
+        {
+          "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+          "role_title_en": "Senior Frontend Developer",
+          "match_quality": 0,
+          "rationale": "Accountant CV vs Senior Frontend Developer requiring React, Next.js, TypeScript — zero coding experience."
+        },
+        {
+          "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+          "role_title_en": "Middle .NET Developer",
+          "match_quality": 0,
+          "rationale": "Accountant CV vs .NET Developer requiring C#, EF, ASP.NET — no programming background despite fintech domain context."
+        }
+      ]
+    }
+  ]
+}

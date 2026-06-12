@@ -1,0 +1,396 @@
+{
+  "agent": "J",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, expansion pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+          "role_title_en": "Product Manager / Product Owner",
+          "match_quality": 4,
+          "rationale": "Designer to senior PM: UX-adjacent angle but no product/API/Agile experience and seniority gap; cross-family."
+        },
+        {
+          "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+          "role_title_en": "Senior Frontend Developer",
+          "match_quality": 2,
+          "rationale": "Designer with HTML/CSS only; lacks React/TypeScript/Vue/Angular; senior frontend role is cross-family mismatch."
+        },
+        {
+          "vacancy_id": "60349f54-8bc7-4a4f-bd20-185d8267483e",
+          "role_title_en": "Product Marketing Manager",
+          "match_quality": 2,
+          "rationale": "Designer with no B2B tech marketing, GTM, positioning, or hardware experience; cross-family adjacency only."
+        },
+        {
+          "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 2,
+          "rationale": "Designer to Java engineering management lead role; no engineering management or coding background; complete mismatch."
+        },
+        {
+          "vacancy_id": "ee8f6c3c-7ebb-4f40-a5ec-496251200090",
+          "role_title_en": "Junior / Middle QA",
+          "match_quality": 2,
+          "rationale": "Designer with no mobile/manual testing experience; cross-family with minimal transferable skill."
+        }
+      ]
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+          "role_title_en": "Middle DevOps",
+          "match_quality": 6,
+          "rationale": "Junior DevOps for middle role: covers Docker/AWS/K8s/Ansible/Linux/Bash/Python but 1-level seniority gap and limited years."
+        },
+        {
+          "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 2,
+          "rationale": "DevOps junior to senior C#/.NET backend: no .NET, EF Core, RGS expertise; cross-family with Docker overlap only."
+        },
+        {
+          "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+          "role_title_en": "Lead Fullstack Developer",
+          "match_quality": 2,
+          "rationale": "Junior DevOps to lead fullstack .NET+React: cross-family plus 2+ seniority levels off; only Docker/AWS/Terraform overlap."
+        },
+        {
+          "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+          "role_title_en": "Data Engineer",
+          "match_quality": 4,
+          "rationale": "Cross-family but some infra/scripting overlap; lacks SQL stored procedures, data integration, data mining experience."
+        },
+        {
+          "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+          "role_title_en": "QA",
+          "match_quality": 2,
+          "rationale": "Junior DevOps to QA Fintech: no manual testing, Postman, Swagger, PCI DSS background; cross-family minimal overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+          "role_title_en": "Product Manager",
+          "match_quality": 2,
+          "rationale": "Recruiter to mobile PM: no product management, AI tooling, prototyping, hypothesis testing; minimal stakeholder overlap."
+        },
+        {
+          "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+          "role_title_en": "Senior Growth Marketing Manager",
+          "match_quality": 0,
+          "rationale": "HR recruiter to senior growth marketing: no SaaS marketing, experimentation, content distribution, or AI product experience."
+        },
+        {
+          "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 2,
+          "rationale": "Recruiter to engineering manager: some team/hiring-adjacent context but no TypeScript/Node/Lambda/CI-CD or delivery management."
+        },
+        {
+          "vacancy_id": "6f0c7789-99d6-420f-b1c4-1e9a9951bbd4",
+          "role_title_en": "Embedded QA",
+          "match_quality": 0,
+          "rationale": "HR recruiter to embedded QA: no firmware, IoT, hardware QA, or API testing skills; complete mismatch."
+        },
+        {
+          "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+          "role_title_en": "Trainee Data Analyst",
+          "match_quality": 0,
+          "rationale": "HR recruiter to data analyst trainee: no SQL, Python, data analysis foundation; complete mismatch, no career restart fit."
+        }
+      ]
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "30423512-dc91-4ba2-a448-c65a6754f372",
+          "role_title_en": "Junior QA",
+          "match_quality": 0,
+          "rationale": "Nurse to mobile games QA: no manual testing, iOS/Android, test cases experience; complete mismatch."
+        },
+        {
+          "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+          "role_title_en": "SMM Manager",
+          "match_quality": 2,
+          "rationale": "Nurse with healthcare domain knowledge for healthcare SMM; lacks SMM, content creation, copywriting, analytics skills."
+        },
+        {
+          "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+          "role_title_en": "Frontend Developer",
+          "match_quality": 0,
+          "rationale": "Nurse to React/TypeScript frontend developer: no programming experience whatsoever; complete mismatch."
+        },
+        {
+          "vacancy_id": "f22cca4c-492a-4d6d-b4de-df08c3730b41",
+          "role_title_en": "Senior ML / Computer Vision Developer",
+          "match_quality": 0,
+          "rationale": "Nurse to senior ML/CV engineer: no Python, PyTorch, computer vision, or embedded inference skills; complete mismatch."
+        },
+        {
+          "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+          "role_title_en": "Business Data Analyst",
+          "match_quality": 0,
+          "rationale": "Nurse to business data analyst: no SQL, BI, ETL, ML, or data modeling skills; complete mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+          "role_title_en": "Junior Product Manager",
+          "match_quality": 0,
+          "rationale": "Senior cardiologist to junior PM edtech: no product management, analytics, hypothesis testing; complete cross-family mismatch."
+        },
+        {
+          "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+          "role_title_en": "Senior Mechanical & Structural Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Cardiologist to mechanical/structural engineering manager: no mechanical engineering or aerospace background; complete mismatch."
+        },
+        {
+          "vacancy_id": "b241fdec-2364-4385-9461-a14c9d278979",
+          "role_title_en": "Product Marketing Manager",
+          "match_quality": 0,
+          "rationale": "Cardiologist to B2B SaaS product marketing: no positioning, GTM, sales enablement experience; complete cross-family mismatch."
+        },
+        {
+          "vacancy_id": "166ff5b4-0ca5-40e8-ba41-074f2b5d9aa8",
+          "role_title_en": "Senior Machine Learning Engineer",
+          "match_quality": 0,
+          "rationale": "Cardiologist to senior ML engineer: no Python, TensorFlow, MLOps, NLP, or cloud skills; complete mismatch."
+        },
+        {
+          "vacancy_id": "c6f91d1b-d2f6-49eb-8e69-0405a2fbe1cd",
+          "role_title_en": "Data Analyst",
+          "match_quality": 0,
+          "rationale": "Cardiologist to banking data analyst: no SQL, data governance, or banking data experience; complete mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+          "role_title_en": "Product Manager",
+          "match_quality": 2,
+          "rationale": "Corporate lawyer to senior e-commerce PM: no funnel, A/B testing, unit economics, Amplitude; only stakeholder negotiation adjacency."
+        },
+        {
+          "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+          "role_title_en": "Junior Product Marketing Manager",
+          "match_quality": 0,
+          "rationale": "Lawyer to junior product marketing: no marketing funnels, hypothesis testing, analytics; complete cross-family mismatch."
+        },
+        {
+          "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+          "role_title_en": "Senior Mechanical & Structural Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Lawyer to mechanical engineering manager: no engineering background; complete mismatch."
+        },
+        {
+          "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+          "role_title_en": "CRM Data Analyst",
+          "match_quality": 0,
+          "rationale": "Lawyer to CRM analyst: no SQL, Python, predictive modeling, or ML skills; complete mismatch."
+        },
+        {
+          "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+          "role_title_en": "QA Automation",
+          "match_quality": 0,
+          "rationale": "Lawyer to QA automation: no test automation, Playwright, performance testing, Kubernetes; complete mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "2306e535-ce66-4b70-90e5-4d9f053723e1",
+          "role_title_en": "Senior Product Manager",
+          "match_quality": 2,
+          "rationale": "Teacher to senior PM consulting: C1 English and stakeholder skills but no product strategy, roadmap, analytics, experimentation."
+        },
+        {
+          "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+          "role_title_en": "Marketing Operations Manager",
+          "match_quality": 0,
+          "rationale": "Teacher to marketing operations: no ASO, mobile app marketing, campaign management, or analytics experience; complete mismatch."
+        },
+        {
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "role_title_en": "Tech Lead .NET Developer",
+          "match_quality": 0,
+          "rationale": "Teacher to tech lead .NET: no C#/.NET, architecture, or high-load systems experience; complete mismatch."
+        },
+        {
+          "vacancy_id": "30a8adf3-869f-4761-8dbb-3b438b333135",
+          "role_title_en": "Senior QA Automation",
+          "match_quality": 0,
+          "rationale": "Teacher to senior QA automation: no Playwright, TypeScript, CI/CD, Cypress; complete cross-family mismatch."
+        },
+        {
+          "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+          "role_title_en": "Senior ML Engineer",
+          "match_quality": 0,
+          "rationale": "Teacher to senior ML engineer: no Python, PyTorch, MLOps, deep learning, recommender systems; complete mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+          "role_title_en": "Product Manager",
+          "match_quality": 2,
+          "rationale": "Accountant to HRTech PM: no product management, roadmap, AI features, Agile, Amplitude; cross-family minimal adjacency."
+        },
+        {
+          "vacancy_id": "76518482-59d2-4e96-bedc-cde1817b241c",
+          "role_title_en": "Senior Data Analyst",
+          "match_quality": 4,
+          "rationale": "Accountant with Excel/Power BI/SQL-adjacent + financial/investment domain; lacks Tableau/Looker/A-B testing depth; partial transferable fit."
+        },
+        {
+          "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+          "role_title_en": "Senior Growth Marketing Manager",
+          "match_quality": 0,
+          "rationale": "Accountant to senior SaaS growth marketing: no SaaS marketing, experimentation, AI products; complete mismatch."
+        },
+        {
+          "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+          "role_title_en": "Senior / Tech Lead Mobile Developer",
+          "match_quality": 0,
+          "rationale": "Accountant to mobile tech lead: no React Native, Swift, Flutter, mobile architecture; complete mismatch."
+        },
+        {
+          "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 0,
+          "rationale": "Accountant to senior data scientist healthcare: no Python, ML, PyTorch, EHR data, predictive models; complete mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+          "role_title_en": "Product Manager",
+          "match_quality": 6,
+          "rationale": "Growth marketer to MarTech PM: strong A/B testing, CTR/CR/CPA/ROI, AI tools, analytical thinking match; cross-role to product."
+        },
+        {
+          "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+          "role_title_en": "Creative Marketing Manager",
+          "match_quality": 6,
+          "rationale": "Growth marketer to creative marketing healthcare: strong performance marketing match; lacks deep creative production/R&D focus."
+        },
+        {
+          "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+          "role_title_en": "Junior Data Analyst",
+          "match_quality": 2,
+          "rationale": "Mid marketer to junior trainee analyst: SQL/BigQuery/Looker overlap but onsite trainee program with 2-level seniority drop mismatch."
+        },
+        {
+          "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+          "role_title_en": "Android Team Lead",
+          "match_quality": 2,
+          "rationale": "Marketer to Android team lead: no Kotlin, Unity, Flutter, mobile dev leadership; complete cross-family mismatch."
+        },
+        {
+          "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+          "role_title_en": "Middle Data Scientist",
+          "match_quality": 2,
+          "rationale": "Marketer to data scientist: SQL/BigQuery exposure only; lacks Python, ML, high-load systems; cross-family minimal."
+        }
+      ]
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+          "role_title_en": "Product Manager",
+          "match_quality": 0,
+          "rationale": "Humanities professor to PM monetization: no product, subscription, unit economics, A/B testing, analytics; complete mismatch."
+        },
+        {
+          "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+          "role_title_en": "Marketing Operations Manager",
+          "match_quality": 0,
+          "rationale": "Professor to marketing operations: no ASO, mobile app marketing, campaign management; complete mismatch."
+        },
+        {
+          "vacancy_id": "05e3fb53-42e1-4d26-af6b-b3f22c29be61",
+          "role_title_en": "Middle AI/ML Engineer",
+          "match_quality": 0,
+          "rationale": "Professor to AI/ML engineer: no Python, Palantir, LLM, ML frameworks; complete mismatch."
+        },
+        {
+          "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+          "role_title_en": "Junior Data Analyst",
+          "match_quality": 0,
+          "rationale": "Professor to junior data analyst: no Excel, SQL, Power BI, Python; complete mismatch."
+        },
+        {
+          "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Humanities professor to engineering manager SaaS: no engineering management or SaaS experience; complete mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "n_pairs": 4,
+      "ratings": [
+        {
+          "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+          "role_title_en": "Director of Product, Security & DevOps",
+          "match_quality": 6,
+          "rationale": "Mid security engineer to director role: strong security/DevOps skills match but director-level seniority gap and product strategy unknown."
+        },
+        {
+          "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+          "role_title_en": "Middle .NET Backend Developer",
+          "match_quality": 4,
+          "rationale": "Security engineer to .NET backend: no .NET Core, EF Core, MongoDB; security review adjacency but cross-family mismatch."
+        },
+        {
+          "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+          "role_title_en": "Senior / Tech Lead Mobile Developer",
+          "match_quality": 2,
+          "rationale": "Security engineer to mobile tech lead: no React Native, Swift, Flutter, mobile architecture; minimal MobSF/mobile-sec adjacency."
+        },
+        {
+          "vacancy_id": "6aa5df92-1622-4e6b-8d45-cf4c237c5971",
+          "role_title_en": "Data Engineer",
+          "match_quality": 4,
+          "rationale": "Security engineer to data engineer: Python/SQL overlap but no ETL pipelines, Pandas, NumPy, Oracle; infra adjacency only."
+        }
+      ]
+    }
+  ]
+}

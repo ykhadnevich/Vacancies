@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Business Data Analyst",
+    "uk": "Business Data Analyst"
+  },
+  "role_title_raw": "Business Data Analyst",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SQL",
+    "business analytics",
+    "data modeling",
+    "BI",
+    "ETL",
+    "ML",
+    "AI"
+  ],
+  "nice_to_have_skills": [
+    "Python",
+    "Power BI",
+    "SAP"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "energy",
+    "uk": "енергетика"
+  },
+  "anti_requirements": []
+}

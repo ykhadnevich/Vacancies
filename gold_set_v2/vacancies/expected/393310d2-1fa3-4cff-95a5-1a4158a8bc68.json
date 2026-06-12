@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack .NET Developer",
+    "uk": "Senior Fullstack .NET розробник"
+  },
+  "role_title_raw": "Middle to Senior Full Stack .Net Engineer (IRC293868)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET Core Web API",
+    "SOA",
+    "AWS",
+    "React",
+    "TypeScript",
+    "unit testing",
+    "ASP.NET Core",
+    "cloud"
+  ],
+  "nice_to_have_skills": [
+    "gRPC",
+    "Micro Frontend Architecture",
+    "AWS S3",
+    "AWS Lambda",
+    "Python"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

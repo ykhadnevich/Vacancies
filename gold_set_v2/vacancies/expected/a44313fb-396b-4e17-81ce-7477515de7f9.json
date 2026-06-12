@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle iOS Developer",
+    "uk": "Middle iOS розробник"
+  },
+  "role_title_raw": "Middle iOS Developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Swift",
+    "UIKit",
+    "SwiftUI",
+    "REST API",
+    "Git",
+    "iOS",
+    "Clean Architecture",
+    "MVC",
+    "MVVM"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

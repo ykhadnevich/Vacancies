@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "cab34c74-4f37-4f51-94a2-7ae9bd65b1cc",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Head of Engineering",
+    "uk": "Head of Engineering"
+  },
+  "role_title_raw": "Head of Engineering",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "technical leadership",
+    "P&L responsibility",
+    "pre-sales",
+    "engineering excellence",
+    "business strategy",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Mentorship"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

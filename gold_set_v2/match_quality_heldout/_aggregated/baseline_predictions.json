@@ -1,0 +1,2805 @@
+{
+  "schema_version": "baseline_predictions_v1",
+  "generated_at": "2026-06-09T22:04:23.9811693Z",
+  "n_pairs": 398,
+  "baselines": {
+    "tfidf_cosine": {
+      "description": "TF-IDF char_wb 3..5 n-grams, smoothed IDF, sublinear TF, cosine similarity. Multilingual-safe (UK/EN).",
+      "score_range": "[0, 1]",
+      "spearman_vs_gold_quick": 0.6664
+    },
+    "bm25_norm": {
+      "description": "BM25 Okapi (k1=1.5, b=0.75) over vacancy corpus, per-CV min-max normalised to [0,1].",
+      "score_range": "[0, 1]",
+      "spearman_vs_gold_quick": 0.5893
+    }
+  },
+  "predictions": [
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+      "gold": 0,
+      "tfidf_cosine": 0.01688,
+      "bm25_norm": 5E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "15227172-726d-4cc6-8ab1-966690742f53",
+      "gold": 0,
+      "tfidf_cosine": 0.027043,
+      "bm25_norm": 4.8E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+      "gold": 0,
+      "tfidf_cosine": 0.036168,
+      "bm25_norm": 4.1E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+      "gold": 0,
+      "tfidf_cosine": 0.050333,
+      "bm25_norm": 5E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+      "gold": 0,
+      "tfidf_cosine": 0.029873,
+      "bm25_norm": 0.08509
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+      "gold": 0,
+      "tfidf_cosine": 0.018301,
+      "bm25_norm": 5.5E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "gold": 0,
+      "tfidf_cosine": 0.051565,
+      "bm25_norm": 3.6E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+      "gold": 2,
+      "tfidf_cosine": 0.047024,
+      "bm25_norm": 5.2E-05
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+      "gold": 0,
+      "tfidf_cosine": 0.063666,
+      "bm25_norm": 0.163153
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+      "gold": 0,
+      "tfidf_cosine": 0.030376,
+      "bm25_norm": 0.000173
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+      "gold": 0,
+      "tfidf_cosine": 0.017139,
+      "bm25_norm": 0.000271
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+      "gold": 0,
+      "tfidf_cosine": 0.042524,
+      "bm25_norm": 0.203981
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+      "gold": 0,
+      "tfidf_cosine": 0.030983,
+      "bm25_norm": 0.000242
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+      "gold": 0,
+      "tfidf_cosine": 0.022008,
+      "bm25_norm": 0.000198
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+      "gold": 0,
+      "tfidf_cosine": 0.07606,
+      "bm25_norm": 0.477681
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+      "gold": 0,
+      "tfidf_cosine": 0.084634,
+      "bm25_norm": 0.236596
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+      "gold": 0,
+      "tfidf_cosine": 0.027284,
+      "bm25_norm": 4.8E-05
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+      "gold": 0,
+      "tfidf_cosine": 0.036336,
+      "bm25_norm": 0.127571
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+      "gold": 2,
+      "tfidf_cosine": 0.063594,
+      "bm25_norm": 0.337291
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "gold": 0,
+      "tfidf_cosine": 0.039886,
+      "bm25_norm": 0.100239
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+      "gold": 0,
+      "tfidf_cosine": 0.029232,
+      "bm25_norm": 7.1E-05
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "gold": 0,
+      "tfidf_cosine": 0.046489,
+      "bm25_norm": 0.073226
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+      "gold": 0,
+      "tfidf_cosine": 0.038666,
+      "bm25_norm": 0.068501
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "e7009e48-85a2-4062-9edb-2e6a02878203",
+      "gold": 0,
+      "tfidf_cosine": 0.036542,
+      "bm25_norm": 0.160428
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "25630527-064b-4211-9697-730a04a25a26",
+      "gold": 4,
+      "tfidf_cosine": 0.085438,
+      "bm25_norm": 0.190991
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "gold": 2,
+      "tfidf_cosine": 0.031334,
+      "bm25_norm": 3.2E-05
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "7d309556-2e31-465a-a802-6a405051875d",
+      "gold": 6,
+      "tfidf_cosine": 0.213495,
+      "bm25_norm": 0.629415
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "caf7ce6b-f789-461e-ba10-ae0c5eb8ce35",
+      "gold": 4,
+      "tfidf_cosine": 0.10487,
+      "bm25_norm": 0.277052
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+      "gold": 6,
+      "tfidf_cosine": 0.149781,
+      "bm25_norm": 0.146357
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "6bcc3a0a-f614-41c3-9e96-fded168f4ed9",
+      "gold": 2,
+      "tfidf_cosine": 0.089169,
+      "bm25_norm": 0.123678
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "gold": 6,
+      "tfidf_cosine": 0.089499,
+      "bm25_norm": 0.135378
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+      "gold": 2,
+      "tfidf_cosine": 0.109679,
+      "bm25_norm": 0.275232
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+      "gold": 2,
+      "tfidf_cosine": 0.032245,
+      "bm25_norm": 0.055441
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+      "gold": 0,
+      "tfidf_cosine": 0.02138,
+      "bm25_norm": 3.6E-05
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+      "gold": 0,
+      "tfidf_cosine": 0.052133,
+      "bm25_norm": 0.093952
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+      "gold": 4,
+      "tfidf_cosine": 0.083132,
+      "bm25_norm": 0.095487
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+      "gold": 0,
+      "tfidf_cosine": 0.035011,
+      "bm25_norm": 2.6E-05
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+      "gold": 2,
+      "tfidf_cosine": 0.037735,
+      "bm25_norm": 0.049392
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+      "gold": 4,
+      "tfidf_cosine": 0.143967,
+      "bm25_norm": 0.396465
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+      "gold": 2,
+      "tfidf_cosine": 0.061646,
+      "bm25_norm": 0.135225
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "gold": 8,
+      "tfidf_cosine": 0.185027,
+      "bm25_norm": 0.334612
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+      "gold": 6,
+      "tfidf_cosine": 0.22361,
+      "bm25_norm": 0.614262
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+      "gold": 2,
+      "tfidf_cosine": 0.048151,
+      "bm25_norm": 0.085752
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+      "gold": 4,
+      "tfidf_cosine": 0.128941,
+      "bm25_norm": 0.200596
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "gold": 2,
+      "tfidf_cosine": 0.115466,
+      "bm25_norm": 0.5604
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "27165f02-0dfc-4503-af0e-d6755cf5a49e",
+      "gold": 0,
+      "tfidf_cosine": 0.05782,
+      "bm25_norm": 0.000162
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "gold": 0,
+      "tfidf_cosine": 0.065415,
+      "bm25_norm": 0.203006
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "44aae2a7-4fda-4323-948f-e51fa99d933b",
+      "gold": 0,
+      "tfidf_cosine": 0.018439,
+      "bm25_norm": 0.00015
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "60349f54-8bc7-4a4f-bd20-185d8267483e",
+      "gold": 0,
+      "tfidf_cosine": 0.030691,
+      "bm25_norm": 0.000162
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "727b163f-8aaf-4926-9ae0-d554f00661ad",
+      "gold": 0,
+      "tfidf_cosine": 0.028466,
+      "bm25_norm": 0.000132
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+      "gold": 0,
+      "tfidf_cosine": 0.036771,
+      "bm25_norm": 0.000162
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+      "gold": 0,
+      "tfidf_cosine": 0.083885,
+      "bm25_norm": 0.446132
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+      "gold": 0,
+      "tfidf_cosine": 0.053564,
+      "bm25_norm": 0.253763
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "0e5df96a-74d3-44e3-98fb-db96653b6942",
+      "gold": 4,
+      "tfidf_cosine": 0.06309,
+      "bm25_norm": 0.098025
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+      "gold": 2,
+      "tfidf_cosine": 0.032679,
+      "bm25_norm": 0.054866
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+      "gold": 2,
+      "tfidf_cosine": 0.135717,
+      "bm25_norm": 0.201334
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+      "gold": 2,
+      "tfidf_cosine": 0.058769,
+      "bm25_norm": 0.043513
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "b66e9aad-8110-4d6e-87c9-e05f626b5ee4",
+      "gold": 2,
+      "tfidf_cosine": 0.088401,
+      "bm25_norm": 0.127336
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+      "gold": 4,
+      "tfidf_cosine": 0.118638,
+      "bm25_norm": 0.173886
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+      "gold": 4,
+      "tfidf_cosine": 0.086963,
+      "bm25_norm": 0.340633
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+      "gold": 4,
+      "tfidf_cosine": 0.105762,
+      "bm25_norm": 0.368963
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+      "gold": 2,
+      "tfidf_cosine": 0.109656,
+      "bm25_norm": 0.383425
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "gold": 4,
+      "tfidf_cosine": 0.082261,
+      "bm25_norm": 0.131902
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "gold": 2,
+      "tfidf_cosine": 0.083884,
+      "bm25_norm": 0.180159
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "6cd2d98d-5897-4c4b-b0b1-f2ce2b2a76ee",
+      "gold": 6,
+      "tfidf_cosine": 0.154891,
+      "bm25_norm": 0.433578
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+      "gold": 8,
+      "tfidf_cosine": 0.110187,
+      "bm25_norm": 0.133245
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+      "gold": 4,
+      "tfidf_cosine": 0.075556,
+      "bm25_norm": 0.151788
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+      "gold": 6,
+      "tfidf_cosine": 0.101402,
+      "bm25_norm": 0.287531
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "87451c8f-0db8-43c8-bac2-52381453653b",
+      "gold": 2,
+      "tfidf_cosine": 0.03654,
+      "bm25_norm": 0.054884
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+      "gold": 2,
+      "tfidf_cosine": 0.044073,
+      "bm25_norm": 0.116211
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+      "gold": 2,
+      "tfidf_cosine": 0.10626,
+      "bm25_norm": 0.256168
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+      "gold": 6,
+      "tfidf_cosine": 0.092783,
+      "bm25_norm": 0.207398
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "gold": 2,
+      "tfidf_cosine": 0.02663,
+      "bm25_norm": 3.4E-05
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+      "gold": 2,
+      "tfidf_cosine": 0.064824,
+      "bm25_norm": 0.207636
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "gold": 2,
+      "tfidf_cosine": 0.042083,
+      "bm25_norm": 0.053527
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+      "gold": 8,
+      "tfidf_cosine": 0.281,
+      "bm25_norm": 0.871004
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "26815abc-ac5e-4925-9f24-96e48277262d",
+      "gold": 2,
+      "tfidf_cosine": 0.116721,
+      "bm25_norm": 0.311418
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+      "gold": 2,
+      "tfidf_cosine": 0.089942,
+      "bm25_norm": 0.109312
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "acf2b942-1198-4208-b40e-882c1058918c",
+      "gold": 6,
+      "tfidf_cosine": 0.143065,
+      "bm25_norm": 0.578807
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "2ca61d84-5691-41a7-a4e8-b2601e8f3458",
+      "gold": 2,
+      "tfidf_cosine": 0.062609,
+      "bm25_norm": 0.442568
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+      "gold": 0,
+      "tfidf_cosine": 0.028883,
+      "bm25_norm": 9.4E-05
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+      "gold": 2,
+      "tfidf_cosine": 0.064684,
+      "bm25_norm": 0.382472
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+      "gold": 2,
+      "tfidf_cosine": 0.075121,
+      "bm25_norm": 0.205336
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+      "gold": 2,
+      "tfidf_cosine": 0.038498,
+      "bm25_norm": 0.177449
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+      "gold": 0,
+      "tfidf_cosine": 0.055744,
+      "bm25_norm": 7.2E-05
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+      "gold": 0,
+      "tfidf_cosine": 0.028355,
+      "bm25_norm": 5.9E-05
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+      "gold": 4,
+      "tfidf_cosine": 0.107994,
+      "bm25_norm": 0.510723
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "3bd35b6f-3631-4819-9227-8e8fe124717d",
+      "gold": 4,
+      "tfidf_cosine": 0.091388,
+      "bm25_norm": 0.39656
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+      "gold": 6,
+      "tfidf_cosine": 0.183491,
+      "bm25_norm": 1
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "306f9ac1-1597-4b57-8eda-fc4b17b43590",
+      "gold": 2,
+      "tfidf_cosine": 0.023452,
+      "bm25_norm": 0.050513
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "gold": 2,
+      "tfidf_cosine": 0.175956,
+      "bm25_norm": 0.54709
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+      "gold": 6,
+      "tfidf_cosine": 0.132137,
+      "bm25_norm": 0.336851
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+      "gold": 6,
+      "tfidf_cosine": 0.261137,
+      "bm25_norm": 0.625068
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "30100c1f-f7eb-4d38-90f6-1eb69f9013d0",
+      "gold": 2,
+      "tfidf_cosine": 0.04835,
+      "bm25_norm": 2.8E-05
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "gold": 0,
+      "tfidf_cosine": 0.023675,
+      "bm25_norm": 2.8E-05
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+      "gold": 2,
+      "tfidf_cosine": 0.038075,
+      "bm25_norm": 0.037378
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+      "gold": 2,
+      "tfidf_cosine": 0.042663,
+      "bm25_norm": 3E-05
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+      "gold": 6,
+      "tfidf_cosine": 0.293833,
+      "bm25_norm": 0.780151
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "b97a4400-92c0-45ef-a310-f77229ee28b5",
+      "gold": 6,
+      "tfidf_cosine": 0.364577,
+      "bm25_norm": 0.825797
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+      "gold": 0,
+      "tfidf_cosine": 0.043299,
+      "bm25_norm": 0.081835
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "gold": 2,
+      "tfidf_cosine": 0.153924,
+      "bm25_norm": 0.157854
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+      "gold": 2,
+      "tfidf_cosine": 0.064756,
+      "bm25_norm": 0.172176
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+      "gold": 0,
+      "tfidf_cosine": 0.031938,
+      "bm25_norm": 8.6E-05
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+      "gold": 2,
+      "tfidf_cosine": 0.039837,
+      "bm25_norm": 0.076869
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "gold": 0,
+      "tfidf_cosine": 0.026169,
+      "bm25_norm": 7.3E-05
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+      "gold": 2,
+      "tfidf_cosine": 0.04076,
+      "bm25_norm": 0.064056
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+      "gold": 0,
+      "tfidf_cosine": 0.025263,
+      "bm25_norm": 7.1E-05
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+      "gold": 0,
+      "tfidf_cosine": 0.029921,
+      "bm25_norm": 7.7E-05
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+      "gold": 0,
+      "tfidf_cosine": 0.02186,
+      "bm25_norm": 6.1E-05
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "gold": 2,
+      "tfidf_cosine": 0.125407,
+      "bm25_norm": 0.267022
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "4da12442-b7ac-4c81-abb4-71aa7f1c16a2",
+      "gold": 2,
+      "tfidf_cosine": 0.293454,
+      "bm25_norm": 0.688003
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+      "gold": 6,
+      "tfidf_cosine": 0.210075,
+      "bm25_norm": 0.703882
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+      "gold": 0,
+      "tfidf_cosine": 0.084191,
+      "bm25_norm": 0.499105
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+      "gold": 0,
+      "tfidf_cosine": 0.065176,
+      "bm25_norm": 0.245121
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+      "gold": 0,
+      "tfidf_cosine": 0.012663,
+      "bm25_norm": 0.000118
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+      "gold": 0,
+      "tfidf_cosine": 0.06345,
+      "bm25_norm": 0.363326
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+      "gold": 0,
+      "tfidf_cosine": 0.033131,
+      "bm25_norm": 0.000121
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+      "gold": 0,
+      "tfidf_cosine": 0.033228,
+      "bm25_norm": 8.9E-05
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+      "gold": 0,
+      "tfidf_cosine": 0.046863,
+      "bm25_norm": 0.260628
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+      "gold": 0,
+      "tfidf_cosine": 0.093684,
+      "bm25_norm": 0.351336
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "gold": 0,
+      "tfidf_cosine": 0.04848,
+      "bm25_norm": 0.126702
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+      "gold": 0,
+      "tfidf_cosine": 0.03747,
+      "bm25_norm": 0.08647
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+      "gold": 0,
+      "tfidf_cosine": 0.111293,
+      "bm25_norm": 0.330574
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+      "gold": 0,
+      "tfidf_cosine": 0.025952,
+      "bm25_norm": 5.2E-05
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+      "gold": 0,
+      "tfidf_cosine": 0.035137,
+      "bm25_norm": 0.077355
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "gold": 0,
+      "tfidf_cosine": 0.082088,
+      "bm25_norm": 0.266642
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+      "gold": 0,
+      "tfidf_cosine": 0.047946,
+      "bm25_norm": 0.252917
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "8177a254-3728-4f81-b23d-59881458e60b",
+      "gold": 2,
+      "tfidf_cosine": 0.154164,
+      "bm25_norm": 0.145397
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "a80fa449-881d-418a-9fbf-647eb9458e41",
+      "gold": 6,
+      "tfidf_cosine": 0.203343,
+      "bm25_norm": 0.465919
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "gold": 2,
+      "tfidf_cosine": 0.092023,
+      "bm25_norm": 0.041005
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "gold": 4,
+      "tfidf_cosine": 0.173427,
+      "bm25_norm": 0.802577
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+      "gold": 8,
+      "tfidf_cosine": 0.268182,
+      "bm25_norm": 0.630508
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "gold": 6,
+      "tfidf_cosine": 0.107486,
+      "bm25_norm": 0.148744
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "337599ae-96e8-48ab-88bb-80eddf6df903",
+      "gold": 4,
+      "tfidf_cosine": 0.080101,
+      "bm25_norm": 0.127424
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "gold": 4,
+      "tfidf_cosine": 0.078561,
+      "bm25_norm": 0.072682
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+      "gold": 2,
+      "tfidf_cosine": 0.102477,
+      "bm25_norm": 0.161885
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "gold": 4,
+      "tfidf_cosine": 0.33645,
+      "bm25_norm": 0.861171
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+      "gold": 2,
+      "tfidf_cosine": 0.102591,
+      "bm25_norm": 0.107133
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+      "gold": 2,
+      "tfidf_cosine": 0.079925,
+      "bm25_norm": 0.137843
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "gold": 2,
+      "tfidf_cosine": 0.114406,
+      "bm25_norm": 0.264766
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "gold": 2,
+      "tfidf_cosine": 0.053429,
+      "bm25_norm": 3.4E-05
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+      "gold": 2,
+      "tfidf_cosine": 0.133256,
+      "bm25_norm": 0.19415
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "gold": 4,
+      "tfidf_cosine": 0.280412,
+      "bm25_norm": 0.849222
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+      "gold": 8,
+      "tfidf_cosine": 0.127763,
+      "bm25_norm": 0.508419
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "745f0820-5b22-462d-b636-c496405427f6",
+      "gold": 6,
+      "tfidf_cosine": 0.21682,
+      "bm25_norm": 0.599934
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+      "gold": 2,
+      "tfidf_cosine": 0.044502,
+      "bm25_norm": 0.170144
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+      "gold": 4,
+      "tfidf_cosine": 0.048424,
+      "bm25_norm": 0.096213
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+      "gold": 4,
+      "tfidf_cosine": 0.047461,
+      "bm25_norm": 0.217013
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "gold": 2,
+      "tfidf_cosine": 0.083784,
+      "bm25_norm": 0.049451
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+      "gold": 8,
+      "tfidf_cosine": 0.274558,
+      "bm25_norm": 0.729132
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+      "gold": 8,
+      "tfidf_cosine": 0.252495,
+      "bm25_norm": 0.77657
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "f95c3798-6c5c-4d18-a746-af67b51242e4",
+      "gold": 6,
+      "tfidf_cosine": 0.177991,
+      "bm25_norm": 0.440574
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "gold": 2,
+      "tfidf_cosine": 0.056569,
+      "bm25_norm": 0.119956
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+      "gold": 4,
+      "tfidf_cosine": 0.165198,
+      "bm25_norm": 0.692059
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "gold": 2,
+      "tfidf_cosine": 0.036012,
+      "bm25_norm": 0.062996
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+      "gold": 2,
+      "tfidf_cosine": 0.086463,
+      "bm25_norm": 0.3156
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "994c5af7-8f40-41b2-9c63-0f64a78322c1",
+      "gold": 2,
+      "tfidf_cosine": 0.053603,
+      "bm25_norm": 0.123895
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "c1fae7c2-ca09-4a3e-92d0-60636378bf39",
+      "gold": 6,
+      "tfidf_cosine": 0.180569,
+      "bm25_norm": 0.350506
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+      "gold": 4,
+      "tfidf_cosine": 0.186458,
+      "bm25_norm": 0.756343
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+      "gold": 4,
+      "tfidf_cosine": 0.137975,
+      "bm25_norm": 0.490201
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+      "gold": 4,
+      "tfidf_cosine": 0.114144,
+      "bm25_norm": 0.349535
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "gold": 0,
+      "tfidf_cosine": 0.060802,
+      "bm25_norm": 0.133271
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+      "gold": 4,
+      "tfidf_cosine": 0.132475,
+      "bm25_norm": 0.24654
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+      "gold": 2,
+      "tfidf_cosine": 0.062885,
+      "bm25_norm": 0.217462
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+      "gold": 6,
+      "tfidf_cosine": 0.14984,
+      "bm25_norm": 0.234764
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "be17f702-3859-4297-9de3-ed4ebe9e385a",
+      "gold": 4,
+      "tfidf_cosine": 0.122674,
+      "bm25_norm": 0.24477
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+      "gold": 0,
+      "tfidf_cosine": 0.096015,
+      "bm25_norm": 0.145147
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+      "gold": 4,
+      "tfidf_cosine": 0.121366,
+      "bm25_norm": 0.282691
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+      "gold": 2,
+      "tfidf_cosine": 0.080908,
+      "bm25_norm": 0.154618
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+      "gold": 6,
+      "tfidf_cosine": 0.216953,
+      "bm25_norm": 0.374842
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+      "gold": 2,
+      "tfidf_cosine": 0.06062,
+      "bm25_norm": 0.028413
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+      "gold": 2,
+      "tfidf_cosine": 0.066696,
+      "bm25_norm": 0.024479
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "gold": 0,
+      "tfidf_cosine": 0.080691,
+      "bm25_norm": 0.132691
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+      "gold": 2,
+      "tfidf_cosine": 0.047194,
+      "bm25_norm": 0.049277
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "b6c105bb-c61d-4876-b19e-917e65947f4b",
+      "gold": 4,
+      "tfidf_cosine": 0.072798,
+      "bm25_norm": 0.120198
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "d2e4be03-4166-490a-b365-da422328abd7",
+      "gold": 2,
+      "tfidf_cosine": 0.060091,
+      "bm25_norm": 0.099488
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "gold": 2,
+      "tfidf_cosine": 0.075644,
+      "bm25_norm": 0.14298
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "gold": 0,
+      "tfidf_cosine": 0.160068,
+      "bm25_norm": 0.470822
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "80a397d2-ccfb-4b84-acf7-8926a6640d50",
+      "gold": 2,
+      "tfidf_cosine": 0.048498,
+      "bm25_norm": 3.1E-05
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+      "gold": 4,
+      "tfidf_cosine": 0.035505,
+      "bm25_norm": 2.5E-05
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+      "gold": 2,
+      "tfidf_cosine": 0.030459,
+      "bm25_norm": 2.1E-05
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "27ade056-b7b9-489b-af77-53fc12dcd5b0",
+      "gold": 2,
+      "tfidf_cosine": 0.016915,
+      "bm25_norm": 2.3E-05
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+      "gold": 2,
+      "tfidf_cosine": 0.078671,
+      "bm25_norm": 0.127622
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+      "gold": 0,
+      "tfidf_cosine": 0.038861,
+      "bm25_norm": 0.044846
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+      "gold": 4,
+      "tfidf_cosine": 0.176678,
+      "bm25_norm": 0.607753
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+      "gold": 6,
+      "tfidf_cosine": 0.227853,
+      "bm25_norm": 0.882249
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "gold": 0,
+      "tfidf_cosine": 0.074877,
+      "bm25_norm": 0.183962
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+      "gold": 4,
+      "tfidf_cosine": 0.146726,
+      "bm25_norm": 0.509461
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+      "gold": 0,
+      "tfidf_cosine": 0.080827,
+      "bm25_norm": 0.069375
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+      "gold": 0,
+      "tfidf_cosine": 0.058117,
+      "bm25_norm": 0.225212
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+      "gold": 8,
+      "tfidf_cosine": 0.13435,
+      "bm25_norm": 0.371648
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "16899fdd-9080-444d-b6f1-0f84a096a608",
+      "gold": 4,
+      "tfidf_cosine": 0.167834,
+      "bm25_norm": 0.590135
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+      "gold": 4,
+      "tfidf_cosine": 0.159539,
+      "bm25_norm": 1
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+      "gold": 4,
+      "tfidf_cosine": 0.046078,
+      "bm25_norm": 0.058353
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "gold": 2,
+      "tfidf_cosine": 0.056055,
+      "bm25_norm": 0.15009
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+      "gold": 2,
+      "tfidf_cosine": 0.164813,
+      "bm25_norm": 0.824714
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "446e7574-dd06-4f38-983b-f41d2e21252d",
+      "gold": 4,
+      "tfidf_cosine": 0.150601,
+      "bm25_norm": 0.563983
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+      "gold": 4,
+      "tfidf_cosine": 0.09085,
+      "bm25_norm": 0.205057
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "bc85925f-e306-40dd-b476-0ad83a210bfb",
+      "gold": 2,
+      "tfidf_cosine": 0.122339,
+      "bm25_norm": 0.299705
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+      "gold": 4,
+      "tfidf_cosine": 0.09283,
+      "bm25_norm": 0.349754
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+      "gold": 4,
+      "tfidf_cosine": 0.113875,
+      "bm25_norm": 0.350956
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "c89b5447-b5eb-49e6-bff0-147f13b336de",
+      "gold": 2,
+      "tfidf_cosine": 0.099472,
+      "bm25_norm": 0.180066
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+      "gold": 4,
+      "tfidf_cosine": 0.098134,
+      "bm25_norm": 0.253094
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "gold": 2,
+      "tfidf_cosine": 0.079141,
+      "bm25_norm": 0.428511
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "705ffb5a-db10-4785-bd7f-a90db4721c6d",
+      "gold": 2,
+      "tfidf_cosine": 0.100331,
+      "bm25_norm": 0.210208
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+      "gold": 6,
+      "tfidf_cosine": 0.181774,
+      "bm25_norm": 0.657046
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "eed0122a-4452-438f-bf05-a25257066b12",
+      "gold": 6,
+      "tfidf_cosine": 0.12451,
+      "bm25_norm": 0.154865
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+      "gold": 2,
+      "tfidf_cosine": 0.097368,
+      "bm25_norm": 0.151684
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "e7d46dc9-e4c3-41d5-a67e-0ecd2c23b536",
+      "gold": 6,
+      "tfidf_cosine": 0.228321,
+      "bm25_norm": 0.672715
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+      "gold": 2,
+      "tfidf_cosine": 0.025729,
+      "bm25_norm": 2.5E-05
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+      "gold": 4,
+      "tfidf_cosine": 0.093136,
+      "bm25_norm": 0.19836
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+      "gold": 0,
+      "tfidf_cosine": 0.06435,
+      "bm25_norm": 0.11823
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "gold": 0,
+      "tfidf_cosine": 0.073998,
+      "bm25_norm": 0.088873
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "gold": 4,
+      "tfidf_cosine": 0.111085,
+      "bm25_norm": 0.241256
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+      "gold": 2,
+      "tfidf_cosine": 0.03817,
+      "bm25_norm": 0.07925
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "3172a681-cbf9-4121-af90-7fe350a62caf",
+      "gold": 4,
+      "tfidf_cosine": 0.052561,
+      "bm25_norm": 2.6E-05
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+      "gold": 2,
+      "tfidf_cosine": 0.10016,
+      "bm25_norm": 0.140983
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "gold": 2,
+      "tfidf_cosine": 0.076099,
+      "bm25_norm": 0.086283
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+      "gold": 4,
+      "tfidf_cosine": 0.11436,
+      "bm25_norm": 0.492804
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+      "gold": 2,
+      "tfidf_cosine": 0.117188,
+      "bm25_norm": 0.718269
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "60349f54-8bc7-4a4f-bd20-185d8267483e",
+      "gold": 2,
+      "tfidf_cosine": 0.075708,
+      "bm25_norm": 0.182908
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "gold": 2,
+      "tfidf_cosine": 0.045531,
+      "bm25_norm": 6.2E-05
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "ee8f6c3c-7ebb-4f40-a5ec-496251200090",
+      "gold": 2,
+      "tfidf_cosine": 0.078215,
+      "bm25_norm": 0.376405
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+      "gold": 6,
+      "tfidf_cosine": 0.416727,
+      "bm25_norm": 0.895791
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "gold": 2,
+      "tfidf_cosine": 0.178576,
+      "bm25_norm": 0.300333
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+      "gold": 2,
+      "tfidf_cosine": 0.12802,
+      "bm25_norm": 0.182353
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+      "gold": 4,
+      "tfidf_cosine": 0.119283,
+      "bm25_norm": 0.184838
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+      "gold": 2,
+      "tfidf_cosine": 0.076075,
+      "bm25_norm": 0.067332
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+      "gold": 2,
+      "tfidf_cosine": 0.039698,
+      "bm25_norm": 0.073208
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "gold": 0,
+      "tfidf_cosine": 0.069538,
+      "bm25_norm": 0.073208
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+      "gold": 2,
+      "tfidf_cosine": 0.055316,
+      "bm25_norm": 0.072064
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "6f0c7789-99d6-420f-b1c4-1e9a9951bbd4",
+      "gold": 0,
+      "tfidf_cosine": 0.018093,
+      "bm25_norm": 7.1E-05
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+      "gold": 0,
+      "tfidf_cosine": 0.043812,
+      "bm25_norm": 0.232808
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "30423512-dc91-4ba2-a448-c65a6754f372",
+      "gold": 0,
+      "tfidf_cosine": 0.059148,
+      "bm25_norm": 0.36739
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+      "gold": 2,
+      "tfidf_cosine": 0.086361,
+      "bm25_norm": 0.532177
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+      "gold": 0,
+      "tfidf_cosine": 0.029529,
+      "bm25_norm": 0.000101
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "f22cca4c-492a-4d6d-b4de-df08c3730b41",
+      "gold": 0,
+      "tfidf_cosine": 0.070571,
+      "bm25_norm": 0.443514
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+      "gold": 0,
+      "tfidf_cosine": 0.015999,
+      "bm25_norm": 0.000115
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+      "gold": 0,
+      "tfidf_cosine": 0.090555,
+      "bm25_norm": 0.438598
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+      "gold": 0,
+      "tfidf_cosine": 0.191541,
+      "bm25_norm": 1
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "b241fdec-2364-4385-9461-a14c9d278979",
+      "gold": 0,
+      "tfidf_cosine": 0.055417,
+      "bm25_norm": 0.13264
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "166ff5b4-0ca5-40e8-ba41-074f2b5d9aa8",
+      "gold": 0,
+      "tfidf_cosine": 0.076781,
+      "bm25_norm": 0.078867
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "c6f91d1b-d2f6-49eb-8e69-0405a2fbe1cd",
+      "gold": 0,
+      "tfidf_cosine": 0.057734,
+      "bm25_norm": 4.5E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+      "gold": 2,
+      "tfidf_cosine": 0.046746,
+      "bm25_norm": 0.06031
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+      "gold": 0,
+      "tfidf_cosine": 0.037905,
+      "bm25_norm": 4.8E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+      "gold": 0,
+      "tfidf_cosine": 0.022156,
+      "bm25_norm": 0.093857
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+      "gold": 0,
+      "tfidf_cosine": 0.015548,
+      "bm25_norm": 5.2E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+      "gold": 0,
+      "tfidf_cosine": 0.040269,
+      "bm25_norm": 3.9E-05
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "2306e535-ce66-4b70-90e5-4d9f053723e1",
+      "gold": 2,
+      "tfidf_cosine": 0.090461,
+      "bm25_norm": 0.47805
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "gold": 0,
+      "tfidf_cosine": 0.082664,
+      "bm25_norm": 0.188481
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "gold": 0,
+      "tfidf_cosine": 0.048197,
+      "bm25_norm": 0.000249
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "30a8adf3-869f-4761-8dbb-3b438b333135",
+      "gold": 0,
+      "tfidf_cosine": 0.043667,
+      "bm25_norm": 0.201863
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+      "gold": 0,
+      "tfidf_cosine": 0.061435,
+      "bm25_norm": 0.529948
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+      "gold": 2,
+      "tfidf_cosine": 0.041646,
+      "bm25_norm": 0.064349
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "76518482-59d2-4e96-bedc-cde1817b241c",
+      "gold": 4,
+      "tfidf_cosine": 0.160648,
+      "bm25_norm": 0.704269
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "gold": 0,
+      "tfidf_cosine": 0.056287,
+      "bm25_norm": 0.185144
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "gold": 0,
+      "tfidf_cosine": 0.015888,
+      "bm25_norm": 0.084107
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+      "gold": 0,
+      "tfidf_cosine": 0.020244,
+      "bm25_norm": 0.111683
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+      "gold": 6,
+      "tfidf_cosine": 0.119881,
+      "bm25_norm": 0.340762
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+      "gold": 6,
+      "tfidf_cosine": 0.214282,
+      "bm25_norm": 0.411949
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+      "gold": 2,
+      "tfidf_cosine": 0.080095,
+      "bm25_norm": 0.172923
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "gold": 2,
+      "tfidf_cosine": 0.056224,
+      "bm25_norm": 0.102269
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+      "gold": 2,
+      "tfidf_cosine": 0.057999,
+      "bm25_norm": 0.123334
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+      "gold": 0,
+      "tfidf_cosine": 0.098781,
+      "bm25_norm": 0.000176
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "gold": 0,
+      "tfidf_cosine": 0.041122,
+      "bm25_norm": 0.000181
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "05e3fb53-42e1-4d26-af6b-b3f22c29be61",
+      "gold": 0,
+      "tfidf_cosine": 0.020384,
+      "bm25_norm": 0.000146
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+      "gold": 0,
+      "tfidf_cosine": 0.043512,
+      "bm25_norm": 0.000167
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+      "gold": 0,
+      "tfidf_cosine": 0.051963,
+      "bm25_norm": 0.000202
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+      "gold": 6,
+      "tfidf_cosine": 0.143941,
+      "bm25_norm": 0.201664
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+      "gold": 4,
+      "tfidf_cosine": 0.047736,
+      "bm25_norm": 0.060639
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "gold": 2,
+      "tfidf_cosine": 0.036733,
+      "bm25_norm": 0.039474
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "6aa5df92-1622-4e6b-8d45-cf4c237c5971",
+      "gold": 4,
+      "tfidf_cosine": 0.079332,
+      "bm25_norm": 0.094978
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_7379359",
+      "gold": 0,
+      "tfidf_cosine": 0.034169,
+      "bm25_norm": 0.031382
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_4037602",
+      "gold": 0,
+      "tfidf_cosine": 0.055542,
+      "bm25_norm": 0.0523
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_8167305",
+      "gold": 0,
+      "tfidf_cosine": 0.028576,
+      "bm25_norm": 0.025404
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_8163117",
+      "gold": 0,
+      "tfidf_cosine": 0.006193,
+      "bm25_norm": 1.8E-05
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_7510312",
+      "gold": 0,
+      "tfidf_cosine": 0.014022,
+      "bm25_norm": 1.1E-05
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_8163894",
+      "gold": 0,
+      "tfidf_cosine": 0.013253,
+      "bm25_norm": 0.040353
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "workua_8103537",
+      "gold": 0,
+      "tfidf_cosine": 0.039443,
+      "bm25_norm": 1.9E-05
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "workua_6184441",
+      "gold": 0,
+      "tfidf_cosine": 0.022651,
+      "bm25_norm": 0.063231
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "workua_8026338",
+      "gold": 0,
+      "tfidf_cosine": 0.032562,
+      "bm25_norm": 0.065338
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "824148-business-developer-at-24play",
+      "gold": 0,
+      "tfidf_cosine": 0.051755,
+      "bm25_norm": 0.040226
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "workua_8107944",
+      "gold": 2,
+      "tfidf_cosine": 0.020692,
+      "bm25_norm": 3.4E-05
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "workua_7553728",
+      "gold": 0,
+      "tfidf_cosine": 0.028896,
+      "bm25_norm": 2.5E-05
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "workua_6425878",
+      "gold": 0,
+      "tfidf_cosine": 0.003387,
+      "bm25_norm": 1E-05
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "workua_4037602",
+      "gold": 0,
+      "tfidf_cosine": 0.046835,
+      "bm25_norm": 0.067847
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "workua_896330",
+      "gold": 0,
+      "tfidf_cosine": 0.027019,
+      "bm25_norm": 0.1142
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "workua_8167305",
+      "gold": 0,
+      "tfidf_cosine": 0.012691,
+      "bm25_norm": 0.032956
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "workua_7928484",
+      "gold": 0,
+      "tfidf_cosine": 0.005235,
+      "bm25_norm": 9E-06
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "workua_8077371",
+      "gold": 0,
+      "tfidf_cosine": 0.035808,
+      "bm25_norm": 2.7E-05
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.03153,
+      "bm25_norm": 2.4E-05
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "workua_8160465",
+      "gold": 0,
+      "tfidf_cosine": 0.031968,
+      "bm25_norm": 3.7E-05
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "workua_8167305",
+      "gold": 0,
+      "tfidf_cosine": 0.030311,
+      "bm25_norm": 0.108679
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "workua_6891325",
+      "gold": 0,
+      "tfidf_cosine": 0.01773,
+      "bm25_norm": 0.067206
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "workua_8026338",
+      "gold": 0,
+      "tfidf_cosine": 0.045284,
+      "bm25_norm": 0.086245
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "798427-business-development-manager-bizdev",
+      "gold": 0,
+      "tfidf_cosine": 0.085588,
+      "bm25_norm": 0.142772
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "829450-partnership-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.092255,
+      "bm25_norm": 0.297214
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "825416-marketing-manager-select-form",
+      "gold": 0,
+      "tfidf_cosine": 0.076401,
+      "bm25_norm": 2.4E-05
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "824148-business-developer-at-24play",
+      "gold": 0,
+      "tfidf_cosine": 0.0605,
+      "bm25_norm": 3.3E-05
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "workua_7306804",
+      "gold": 0,
+      "tfidf_cosine": 0.002292,
+      "bm25_norm": 3.3E-05
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "workua_6891325",
+      "gold": 0,
+      "tfidf_cosine": 0.008318,
+      "bm25_norm": 2.8E-05
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "816893-chief-accountant",
+      "gold": 2,
+      "tfidf_cosine": 0.023741,
+      "bm25_norm": 0.145256
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "824915-junior-marketing-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.019201,
+      "bm25_norm": 0.063413
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "830673-account-manager-payment-analyst",
+      "gold": 4,
+      "tfidf_cosine": 0.043259,
+      "bm25_norm": 0.091775
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "workua_8166963",
+      "gold": 0,
+      "tfidf_cosine": 0.014806,
+      "bm25_norm": 4.3E-05
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "workua_6184441",
+      "gold": 0,
+      "tfidf_cosine": 0.03083,
+      "bm25_norm": 0.043891
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "workua_4037602",
+      "gold": 0,
+      "tfidf_cosine": 0.060158,
+      "bm25_norm": 0.053354
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "workua_8167305",
+      "gold": 0,
+      "tfidf_cosine": 0.014204,
+      "bm25_norm": 0.025916
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "workua_2185110",
+      "gold": 0,
+      "tfidf_cosine": 0.004143,
+      "bm25_norm": 1.8E-05
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "workua_6196810",
+      "gold": 0,
+      "tfidf_cosine": 0.015296,
+      "bm25_norm": 3E-05
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "826101-business-development-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.05107,
+      "bm25_norm": 1.4E-05
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "workua_7379146",
+      "gold": 0,
+      "tfidf_cosine": 0.030245,
+      "bm25_norm": 0.040277
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "workua_8026338",
+      "gold": 0,
+      "tfidf_cosine": 0.018027,
+      "bm25_norm": 0.036921
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "workua_8167305",
+      "gold": 0,
+      "tfidf_cosine": 0.017886,
+      "bm25_norm": 0.021098
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "822381-creative-marketing-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.032535,
+      "bm25_norm": 2E-05
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "workua_8167137",
+      "gold": 0,
+      "tfidf_cosine": 0.005047,
+      "bm25_norm": 1.9E-05
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "workua_7379359",
+      "gold": 0,
+      "tfidf_cosine": 0.028873,
+      "bm25_norm": 0.034878
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "workua_896330",
+      "gold": 0,
+      "tfidf_cosine": 0.026646,
+      "bm25_norm": 0.097836
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "workua_6184441",
+      "gold": 0,
+      "tfidf_cosine": 0.021362,
+      "bm25_norm": 0.047816
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "802321-partnership-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.026289,
+      "bm25_norm": 0.031588
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "829910-business-development-manager-sales-manager-it",
+      "gold": 0,
+      "tfidf_cosine": 0.062165,
+      "bm25_norm": 0.019968
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "workua_7379146",
+      "gold": 0,
+      "tfidf_cosine": 0.044519,
+      "bm25_norm": 0.052909
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "workua_7306804",
+      "gold": 0,
+      "tfidf_cosine": 0.011884,
+      "bm25_norm": 0.040988
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "workua_4037602",
+      "gold": 0,
+      "tfidf_cosine": 0.041582,
+      "bm25_norm": 0.057058
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.054169,
+      "bm25_norm": 1.8E-05
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "workua_8167137",
+      "gold": 0,
+      "tfidf_cosine": 0.011059,
+      "bm25_norm": 2.3E-05
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "824148-business-developer-at-24play",
+      "gold": 0,
+      "tfidf_cosine": 0.047237,
+      "bm25_norm": 0.053857
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "workua_7379359",
+      "gold": 0,
+      "tfidf_cosine": 0.027783,
+      "bm25_norm": 0.05946
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "workua_7306804",
+      "gold": 0,
+      "tfidf_cosine": 0.003042,
+      "bm25_norm": 2.2E-05
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "workua_8049168",
+      "gold": 0,
+      "tfidf_cosine": 0.0492,
+      "bm25_norm": 0.073245
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "825498-customer-success-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.022747,
+      "bm25_norm": 2.3E-05
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "819395-business-development-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.032259,
+      "bm25_norm": 2.3E-05
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 6,
+      "tfidf_cosine": 0.098637,
+      "bm25_norm": 0.292053
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "workua_7920825",
+      "gold": 4,
+      "tfidf_cosine": 0.142417,
+      "bm25_norm": 0.538714
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "workua_6292172",
+      "gold": 2,
+      "tfidf_cosine": 0.053584,
+      "bm25_norm": 0.164301
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "799002-customer-success-manager",
+      "gold": 4,
+      "tfidf_cosine": 0.072515,
+      "bm25_norm": 0.433685
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "workua_8164518",
+      "gold": 2,
+      "tfidf_cosine": 0.045572,
+      "bm25_norm": 0.066315
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 4,
+      "tfidf_cosine": 0.116063,
+      "bm25_norm": 0.371367
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "829408-account-project-manager-digital-agency",
+      "gold": 4,
+      "tfidf_cosine": 0.062304,
+      "bm25_norm": 0.243865
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "822445-creative-marketing-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.053642,
+      "bm25_norm": 0.18086
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "829754-senior-smm-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.0609,
+      "bm25_norm": 0.09402
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 4,
+      "tfidf_cosine": 0.08229,
+      "bm25_norm": 0.218776
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "820172-content-marketing-manager-execution-project-r",
+      "gold": 4,
+      "tfidf_cosine": 0.141176,
+      "bm25_norm": 0.243158
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "workua_8047032",
+      "gold": 2,
+      "tfidf_cosine": 0.016225,
+      "bm25_norm": 0.078351
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "workua_6560119",
+      "gold": 2,
+      "tfidf_cosine": 0.023681,
+      "bm25_norm": 0.056694
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "workua_7153495",
+      "gold": 2,
+      "tfidf_cosine": 0.041317,
+      "bm25_norm": 0.146222
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "798884-application-security-engineer",
+      "gold": 6,
+      "tfidf_cosine": 0.143051,
+      "bm25_norm": 0.21893
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "workua_6891325",
+      "gold": 2,
+      "tfidf_cosine": 0.016476,
+      "bm25_norm": 0.03574
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "workua_8049168",
+      "gold": 0,
+      "tfidf_cosine": 0.035968,
+      "bm25_norm": 2.1E-05
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "824914-senior-application-security-engineer",
+      "gold": 8,
+      "tfidf_cosine": 0.266145,
+      "bm25_norm": 0.827535
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "824959-application-security-engineer",
+      "gold": 8,
+      "tfidf_cosine": 0.232823,
+      "bm25_norm": 0.728279
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "798884-application-security-engineer",
+      "gold": 8,
+      "tfidf_cosine": 0.364204,
+      "bm25_norm": 1
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "workua_8026338",
+      "gold": 0,
+      "tfidf_cosine": 0.031341,
+      "bm25_norm": 0.056688
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "828740-broker-manager-affiliate-account-manager-cryp",
+      "gold": 2,
+      "tfidf_cosine": 0.028643,
+      "bm25_norm": 1.4E-05
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "798884-application-security-engineer",
+      "gold": 4,
+      "tfidf_cosine": 0.081543,
+      "bm25_norm": 0.093017
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "workua_8026338",
+      "gold": 0,
+      "tfidf_cosine": 0.040574,
+      "bm25_norm": 0.050835
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "workua_7963539",
+      "gold": 2,
+      "tfidf_cosine": 0.035705,
+      "bm25_norm": 2.1E-05
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "workua_7272364",
+      "gold": 2,
+      "tfidf_cosine": 0.00924,
+      "bm25_norm": 2.7E-05
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "828050-senior-marketing-manager-v2v-it",
+      "gold": 0,
+      "tfidf_cosine": 0.065718,
+      "bm25_norm": 3.9E-05
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.059185,
+      "bm25_norm": 0.11171
+    },
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_id": "workua_7590802",
+      "gold": 0,
+      "tfidf_cosine": 0.003731,
+      "bm25_norm": 2.3E-05
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "825081-hr-business-partner-operations-manager",
+      "gold": 6,
+      "tfidf_cosine": 0.138399,
+      "bm25_norm": 0.787292
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "workua_8078130",
+      "gold": 6,
+      "tfidf_cosine": 0.108552,
+      "bm25_norm": 0.970279
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "830263-account-manager-igaming",
+      "gold": 2,
+      "tfidf_cosine": 0.0746,
+      "bm25_norm": 0.214762
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "817533-customer-success-manager-full-cycle-proiekt-y",
+      "gold": 2,
+      "tfidf_cosine": 0.055003,
+      "bm25_norm": 0.276432
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "workua_7642363",
+      "gold": 2,
+      "tfidf_cosine": 0.041777,
+      "bm25_norm": 0.332733
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "826882-technical-writer-product-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.102944,
+      "bm25_norm": 0.519868
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "workua_7553728",
+      "gold": 0,
+      "tfidf_cosine": 0.033551,
+      "bm25_norm": 7.8E-05
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "804889-junior-business-development-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.032687,
+      "bm25_norm": 0.000112
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "workua_8163915",
+      "gold": 0,
+      "tfidf_cosine": 0.006159,
+      "bm25_norm": 1.4E-05
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.046165,
+      "bm25_norm": 0.061299
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "829408-account-project-manager-digital-agency",
+      "gold": 0,
+      "tfidf_cosine": 0.035935,
+      "bm25_norm": 4.2E-05
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "workua_6196810",
+      "gold": 0,
+      "tfidf_cosine": 0.013978,
+      "bm25_norm": 5.6E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "workua_6177913",
+      "gold": 8,
+      "tfidf_cosine": 0.054461,
+      "bm25_norm": 0.454695
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "workua_7967898",
+      "gold": 8,
+      "tfidf_cosine": 0.260955,
+      "bm25_norm": 1
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "workua_8165226",
+      "gold": 8,
+      "tfidf_cosine": 0.06596,
+      "bm25_norm": 0.294497
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "workua_8167065",
+      "gold": 2,
+      "tfidf_cosine": 0.005756,
+      "bm25_norm": 2.5E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "workua_8164599",
+      "gold": 2,
+      "tfidf_cosine": 0.003867,
+      "bm25_norm": 3.6E-05
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.062106,
+      "bm25_norm": 0.137724
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "workua_8166963",
+      "gold": 2,
+      "tfidf_cosine": 0.038639,
+      "bm25_norm": 0.470155
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "825081-hr-business-partner-operations-manager",
+      "gold": 2,
+      "tfidf_cosine": 0.07405,
+      "bm25_norm": 0.000178
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "workua_7649278",
+      "gold": 0,
+      "tfidf_cosine": 0.015817,
+      "bm25_norm": 0.171761
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "workua_7419703",
+      "gold": 10,
+      "tfidf_cosine": 0.069273,
+      "bm25_norm": 0.608482
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "workua_8115171",
+      "gold": 10,
+      "tfidf_cosine": 0.065027,
+      "bm25_norm": 0.555812
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "workua_6869203",
+      "gold": 8,
+      "tfidf_cosine": 0.031849,
+      "bm25_norm": 0.176268
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "workua_8005767",
+      "gold": 2,
+      "tfidf_cosine": 0.003153,
+      "bm25_norm": 4.7E-05
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "workua_7462015",
+      "gold": 0,
+      "tfidf_cosine": 0.022093,
+      "bm25_norm": 0.09057
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "828798-business-development-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.080047,
+      "bm25_norm": 0.236128
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "822445-creative-marketing-manager",
+      "gold": 8,
+      "tfidf_cosine": 0.221727,
+      "bm25_norm": 1
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "814252-crm-content-email-marketing-intern-bez-dosvid",
+      "gold": 2,
+      "tfidf_cosine": 0.087827,
+      "bm25_norm": 0.164064
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "828050-senior-marketing-manager-v2v-it",
+      "gold": 6,
+      "tfidf_cosine": 0.176033,
+      "bm25_norm": 0.342143
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "829324-digital-account-manager-seo-technical-operati",
+      "gold": 4,
+      "tfidf_cosine": 0.082914,
+      "bm25_norm": 0.253649
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "818660-junior-middle-customer-success-manager-accoun",
+      "gold": 4,
+      "tfidf_cosine": 0.078574,
+      "bm25_norm": 0.079957
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.119321,
+      "bm25_norm": 0.277782
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "816894-crm-content-manager-email-marketing-sms-push",
+      "gold": 4,
+      "tfidf_cosine": 0.11084,
+      "bm25_norm": 0.328904
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "795208-content-manager-news-researcher-media-pop-cul",
+      "gold": 2,
+      "tfidf_cosine": 0.121504,
+      "bm25_norm": 0.453325
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "workua_7715103",
+      "gold": 0,
+      "tfidf_cosine": 0.00183,
+      "bm25_norm": 1E-05
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_id": "830205-game-product-manager",
+      "gold": 0,
+      "tfidf_cosine": 0.057042,
+      "bm25_norm": 0.000119
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Chief Accountant",
+    "Senior Accountant",
+    "Reporting Manager"
+  ],
+  "domain_skills": [
+    "UA GAAP",
+    "IFRS reporting",
+    "Monthly close",
+    "Financial reporting",
+    "Group consolidation",
+    "Audit support",
+    "VAT compliance",
+    "Excise tax compliance",
+    "Profit tax",
+    "Withholding tax",
+    "Inventory accounting",
+    "Cost analysis",
+    "Bank reconciliation",
+    "Accounts payable",
+    "Fixed assets accounting",
+    "1C 8.3",
+    "1C 7.7",
+    "MeDoc",
+    "Excel",
+    "Power Query",
+    "Pivot tables",
+    "Privat24 Business",
+    "SAP B1",
+    "QuickBooks",
+    "Power BI",
+    "Google Sheets",
+    "VBA",
+    "US GAAP awareness",
+    "SOX awareness"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Nemiroff Holding",
+      "type": "PRODUCTION",
+      "duration_months": 38,
+      "years_ago": 0
+    },
+    {
+      "title": "EVA",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 3
+    },
+    {
+      "title": "FOZZY Group",
+      "type": "PRODUCTION",
+      "duration_months": 35,
+      "years_ago": 6
+    },
+    {
+      "title": "KPMG Ukraine",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Accounting and Audit",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2017
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "Russian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

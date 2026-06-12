@@ -25,4 +25,19 @@ public class CurrentUserService : ICurrentUserService
 
     public bool IsAuthenticated =>
         _httpContextAccessor.HttpContext?.User.Identity?.IsAuthenticated ?? false;
+
+    public string? IpAddress
+    {
+        // X-Forwarded-For rewrites this via UseForwardedHeaders.
+        get => _httpContextAccessor.HttpContext?.Connection.RemoteIpAddress?.ToString();
+    }
+
+    public string? UserAgent
+    {
+        get
+        {
+            var ua = _httpContextAccessor.HttpContext?.Request.Headers.UserAgent.ToString();
+            return string.IsNullOrWhiteSpace(ua) ? null : ua;
+        }
+    }
 }

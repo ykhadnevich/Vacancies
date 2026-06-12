@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "c4d29040-194b-4e77-be4b-41eda7e89d25",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Data Engineer",
+    "uk": "Middle Data Engineer"
+  },
+  "role_title_raw": "Data Engineer Middle (SAP Datasphere, Databricks)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SAP Datasphere",
+    "Databricks",
+    "SQL",
+    "Python",
+    "ETL",
+    "Scala",
+    "Spark"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

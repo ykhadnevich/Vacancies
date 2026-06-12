@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "8bd19a6e-d5f4-4850-890e-a30b94912130",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "iOS Developer",
+    "uk": "iOS розробник"
+  },
+  "role_title_raw": "iOS RTC Software Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Swift",
+    "Objective-C",
+    "WebRTC",
+    "real-time communication",
+    "video/audio calls optimization",
+    "iOS"
+  ],
+  "nice_to_have_skills": [
+    "Java",
+    "Kotlin",
+    "TypeScript",
+    "Bash",
+    "Python"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

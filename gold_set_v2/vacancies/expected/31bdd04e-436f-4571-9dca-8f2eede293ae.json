@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior / Tech Lead Mobile Developer",
+    "uk": "Senior / Tech Lead Mobile розробник"
+  },
+  "role_title_raw": "Senior/Tech Lead Mobile Developer - Risora",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "React Native",
+    "TypeScript",
+    "JavaScript",
+    "mobile architecture",
+    "team leadership",
+    "Swift",
+    "Flutter",
+    "AI"
+  ],
+  "nice_to_have_skills": [
+    "Node.js",
+    "PostgreSQL"
+  ],
+  "min_years_experience": 6,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

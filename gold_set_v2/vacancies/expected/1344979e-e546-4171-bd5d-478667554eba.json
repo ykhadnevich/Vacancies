@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Manager",
+    "uk": "Engineering Manager"
+  },
+  "role_title_raw": "Engineering Manager, Core Platform | Remote | Europe",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "engineering management",
+    "team leadership",
+    "SaaS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": [
+    "Europe-only"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "2c329996-85c5-4956-b9a7-cac4c46a45ef",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "iOS Developer",
+    "uk": "iOS розробник"
+  },
+  "role_title_raw": "iOS Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Swift",
+    "SwiftUI",
+    "UIKit",
+    "Combine",
+    "async/await",
+    "REST API",
+    "iOS",
+    "Clean Architecture",
+    "CI/CD",
+    "MVVM"
+  ],
+  "nice_to_have_skills": [
+    "Firebase"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

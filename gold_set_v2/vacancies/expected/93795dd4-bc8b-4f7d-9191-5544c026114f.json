@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "93795dd4-bc8b-4f7d-9191-5544c026114f",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Frontend Developer",
+    "uk": "Frontend розробник"
+  },
+  "role_title_raw": "Frontend Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "REST API",
+    "HTML",
+    "CSS",
+    "Next.js",
+    "analytics"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Manual QA",
+    "uk": "Manual QA"
+  },
+  "role_title_raw": "Manual QA",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "manual testing",
+    "Magento",
+    "e-commerce QA",
+    "test documentation",
+    "Scrum",
+    "Agile",
+    "regression testing"
+  ],
+  "nice_to_have_skills": [
+    "Playwright",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "test automation",
+    "JIRA",
+    "Git"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": [
+    "onsite (Kryvyi Rih / Shostka)"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "CRM Data Analyst",
+    "uk": "CRM Data Analyst"
+  },
+  "role_title_raw": "CRM Data Analyst",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "SQL",
+    "CRM analytics",
+    "predictive modeling",
+    "Python",
+    "ML basics",
+    "ML"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "telecom",
+    "uk": "телеком"
+  },
+  "anti_requirements": []
+}

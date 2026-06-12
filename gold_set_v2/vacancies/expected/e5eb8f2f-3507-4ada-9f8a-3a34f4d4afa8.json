@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Product Manager",
+    "uk": "Junior Product Manager"
+  },
+  "role_title_raw": "Junior Product Manager (Marketing)",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "product management basics",
+    "affiliate marketing",
+    "funnel optimization",
+    "hypothesis testing",
+    "analytics",
+    "Grafana",
+    "analytical thinking"
+  ],
+  "nice_to_have_skills": [
+    "AI tools"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

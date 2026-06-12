@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "b8505fa5-13f0-40b4-8961-b5cd084477dc",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Full Stack Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Vue.js",
+    "PostgreSQL",
+    "WebSockets",
+    "REST API",
+    "React",
+    "asynchronous programming",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "React",
+    "ORMs",
+    "CI/CD",
+    "cloud",
+    "backend architecture",
+    "SaaS",
+    "AI tools"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

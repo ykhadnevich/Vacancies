@@ -1,4 +1,9 @@
 # ========================
+# EvalTool outputs
+# ========================
+results/
+
+# ========================
 # .NET / C#
 # ========================
 bin/
@@ -35,14 +40,17 @@ artifacts/
 # ========================
 appsettings.Development.json
 appsettings.Production.json
+appsettings.Local.json
 appsettings.*.json
-!appsettings.json
-!appsettings.*.json.example
+!**/appsettings.json
+!**/appsettings.*.json.example
 *.env
 .env
 .env.*
 secrets.json
 usersecrets/
+*.dump
+*.bak
 
 # ========================
 # JetBrains Rider / IntelliJ

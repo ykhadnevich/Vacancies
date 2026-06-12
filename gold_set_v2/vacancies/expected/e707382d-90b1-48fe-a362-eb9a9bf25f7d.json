@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "e707382d-90b1-48fe-a362-eb9a9bf25f7d",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Frontend Developer",
+    "uk": "Frontend розробник"
+  },
+  "role_title_raw": "Frontend Розробник",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "SPA",
+    "Vite",
+    "Web Performance",
+    "WordPress custom themes",
+    "CSS",
+    "Tailwind CSS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "80bec801-fe95-4b26-9c93-9189071754b7",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "DevOps",
+    "uk": "DevOps"
+  },
+  "role_title_raw": "DevOps Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "ICT systems",
+    "cybersecurity",
+    "vulnerability management",
+    "cloud infrastructure",
+    "Linux",
+    "Azure DevOps",
+    "DNS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "bachelor",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

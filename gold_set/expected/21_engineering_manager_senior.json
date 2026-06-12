@@ -1,0 +1,106 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Senior Engineering Manager",
+    "Director of Engineering",
+    "Director of Platform"
+  ],
+  "domain_skills": [
+    "People management",
+    "1:1s",
+    "Performance reviews",
+    "Hiring pipelines",
+    "System design interviews",
+    "OKR planning",
+    "Capacity planning",
+    "Roadmap negotiation",
+    "Incident postmortems",
+    "On-call policy design",
+    "Service-oriented architecture",
+    "Monolith to microservices migration",
+    "Python",
+    "Django",
+    "PostgreSQL",
+    "AWS",
+    "Notion",
+    "Linear",
+    "Slack",
+    "Greenhouse",
+    "PagerDuty",
+    "FastAPI",
+    "Django Rest Framework",
+    "Redis",
+    "Kafka",
+    "EC2",
+    "RDS",
+    "Lambda",
+    "S3",
+    "Kubernetes",
+    "Flask",
+    "Loom",
+    "Figma",
+    "Lattice",
+    "Jira"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Preply",
+      "type": "PRODUCTION",
+      "duration_months": 26,
+      "years_ago": 0
+    },
+    {
+      "title": "Genesis",
+      "type": "PRODUCTION",
+      "duration_months": 21,
+      "years_ago": 2
+    },
+    {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 22,
+      "years_ago": 4
+    },
+    {
+      "title": "EPAM",
+      "type": "PRODUCTION",
+      "duration_months": 24,
+      "years_ago": 6
+    },
+    {
+      "title": "Ciklum",
+      "type": "PRODUCTION",
+      "duration_months": 35,
+      "years_ago": 8
+    },
+    {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 12,
+      "years_ago": 11
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Software Engineering",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2014
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

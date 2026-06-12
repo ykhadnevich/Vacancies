@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Frontend Developer",
+    "uk": "Senior Frontend розробник"
+  },
+  "role_title_raw": "Senior Frontend Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "frontend architecture",
+    "Vue",
+    "Angular",
+    "SCSS",
+    "unit testing"
+  ],
+  "nice_to_have_skills": [
+    "iGaming domain"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

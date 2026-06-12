@@ -1,0 +1,59 @@
+# Non-tech queries for Layer 6 held-out expansion (Variant B).
+# Targets professional families absent from the original dev gold set:
+# legal, healthcare, HR, marketing, finance, education, security.
+# These will pair with both the 14 dev CVs (mostly tech) and the 11 fresh CVs
+# (covering exactly these families).
+# One query per line. Comments start with #.
+
+# Legal
+Lawyer
+Юрист
+Corporate Lawyer
+Legal Counsel
+
+# Healthcare / medical (selective — many of these won't be on tech boards)
+Sales Manager Pharma
+Medical Sales Representative
+Healthcare Project Manager
+Clinical Operations
+
+# HR
+HR Manager
+IT Recruiter
+Talent Acquisition Manager
+Recruiter
+HR Business Partner
+
+# Marketing
+Marketing Manager
+Growth Marketing Manager
+Performance Marketing Manager
+Digital Marketing Manager
+Content Marketing Manager
+SEO Specialist
+
+# Finance / accounting
+Chief Accountant
+Senior Accountant
+Financial Analyst
+Financial Controller
+
+# Sales (recruiter / business adjacent)
+Sales Manager
+Business Development Manager
+Account Manager
+Customer Success Manager
+
+# Education (rare on Ukrainian IT boards but try)
+English Teacher
+Academic Coordinator
+
+# Security (more likely on IT boards)
+Security Engineer
+Application Security Engineer
+Information Security Manager
+
+# Designer (also rare deliberate)
+Product Designer
+UX Designer
+UI Designer

@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "979d43f2-d52d-450d-88be-a955614331ab",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "TechOps",
+    "uk": "TechOps"
+  },
+  "role_title_raw": "TechOps Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Linux",
+    "Docker",
+    "cloud",
+    "monitoring",
+    "IoT platforms"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "Cassandra",
+    "Kafka",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Prometheus",
+    "Grafana",
+    "ELK",
+    "Terraform",
+    "Ansible",
+    "NoSQL"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

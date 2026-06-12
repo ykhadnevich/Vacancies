@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Personal Assistant / Operations Manager",
+    "uk": "Personal Assistant / Operations Manager"
+  },
+  "role_title_raw": "Manager to an Entrepreneur  Location - Warsaw",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "administrative support",
+    "calendar management",
+    "research",
+    "coordination",
+    "communication",
+    "ChatGPT"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Warsaw",
+    "city_uk": "Варшава",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": [
+    "must be based in Warsaw"
+  ]
+}

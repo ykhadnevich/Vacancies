@@ -1,0 +1,213 @@
+{
+  "cv_id": "yan_pm",
+  "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+  "cv_summary": {
+    "seniority": "junior",
+    "target_roles": [
+      "Junior Product Manager",
+      "Mobile Product Manager"
+    ],
+    "domain_skills": [
+      "Market research",
+      "Competitive analysis",
+      "Hypothesis validation",
+      "ICE framework",
+      "MVP scope definition",
+      "Roadmapping",
+      "Unit economics",
+      "Mobile monetization",
+      "Amplitude",
+      "Financial modeling",
+      "Customer discovery",
+      "Business Model Canvas",
+      "MVP methodology",
+      "Rapid iteration",
+      "C#",
+      "ASP.NET Core",
+      "Design patterns",
+      "Application architecture",
+      "React",
+      "GitHub Actions",
+      "Agile/Scrum"
+    ],
+    "technical_skills": [
+      ".NET Core",
+      "EF Core",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "NoSQL databases",
+      "REST API",
+      "Git",
+      "Docker",
+      "AWS basics",
+      "Excel",
+      "Google Sheets"
+    ],
+    "unverified_skills": [
+      "Analytical thinking",
+      "Data-driven decision making",
+      "Technical communication",
+      "Cross-functional collaboration",
+      "Quick learner",
+      "Adaptable"
+    ],
+    "experience": [
+      {
+        "title": "AI Photo Enhancement App (Training Project)",
+        "type": "COURSE",
+        "duration_months": 3,
+        "years_ago": 0
+      },
+      {
+        "title": "FPV Drone Flight Controller Testing Platform",
+        "type": "COURSE",
+        "duration_months": 1,
+        "years_ago": 0
+      },
+      {
+        "title": ".NET Development Training",
+        "type": "COURSE",
+        "duration_months": 3,
+        "years_ago": 0
+      },
+      {
+        "title": "AcademicHub Platform",
+        "type": "PET_PROJECT",
+        "duration_months": 6,
+        "years_ago": 0
+      }
+    ],
+    "education": {
+      "degree": "bachelor",
+      "field": "Software Engineering and Business Analysis",
+      "is_relevant": true,
+      "status": "in_progress",
+      "current_year": 4,
+      "graduation_year": 2025
+    },
+    "english_level": "B2",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "B2"
+      }
+    ],
+    "has_real_product_experience": false,
+    "career_switcher": true
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Creative Marketing Manager",
+      "uk": "Creative Marketing Manager"
+    },
+    "role_title_raw": "Creative Marketing Manager (Wellbeing product)",
+    "seniority_required": "not_specified",
+    "must_have_skills": [
+      "creative marketing",
+      "performance marketing",
+      "content production",
+      "R&D campaigns",
+      "AI-first marketing"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": 3,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": true,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "healthcare",
+      "uk": "healthcare"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.545,
+      "reason_en": "Cross-domain transition. Partial match. Gaps: Meta, TikTok, CPA, RoAS, CR, Design, User Acquisition, Product Marketing.",
+      "reason_uk": "Перехід між доменами. Часткова відповідність. Брак: Meta, TikTok, CPA, RoAS, CR, Design, User Acquisition, Product Marketing.",
+      "evidence": {
+        "matched_skills": [],
+        "missing_must_haves": [
+          "креативна стратегія",
+          "креативний ресерч",
+          "аналітичні навички",
+          "Meta",
+          "TikTok",
+          "CPA",
+          "RoAS",
+          "CR",
+          "Design",
+          "User Acquisition",
+          "Product Marketing"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.545,
+      "reason_en": "Partial match. Strengths: experience depth, language requirements. Gaps: creative strategy, creative research, competitive research.",
+      "reason_uk": "Часткова відповідність. Переваги: глибина досвіду, мовні вимоги. Брак: creative strategy, creative research, competitive research.",
+      "evidence": {
+        "matched_skills": [],
+        "missing_must_haves": [
+          "creative strategy",
+          "creative research",
+          "competitive research",
+          "creative hypothesis generation",
+          "creative concept development",
+          "briefing designers",
+          "briefing production",
+          "creative test analysis",
+          "audience insights",
+          "brainstorming facilitation",
+          "Meta",
+          "TikTok",
+          "CPA",
+          "RoAS",
+          "CR",
+          "analytical skills"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.47000000000000003,
+      "reason_en": "Weak match. Strengths: language requirements, education background. Gaps: Creative strategy, Creative iteration.",
+      "reason_uk": "Слабка відповідність. Переваги: мовні вимоги, освіта. Брак: Creative strategy, Creative iteration.",
+      "evidence": {
+        "matched_skills": [],
+        "missing_must_haves": [
+          "Creative strategy",
+          "Creative iteration",
+          "Creative research",
+          "Competitive research",
+          "Analytical skills",
+          "Performance marketing",
+          "Creative concept development",
+          "Briefing designers",
+          "Briefing production",
+          "Analyzing test results",
+          "Audience insights",
+          "Brainstorming",
+          "Facilitation",
+          "Meta",
+          "TikTok"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

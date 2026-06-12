@@ -1,0 +1,224 @@
+{
+  "ratings": [
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths GCP/Kubernetes correct; SOC 2 listed as gap but CV has 'SOC2 compliance' (minor inaccuracy). Cross-domain context+strengths+gaps all present. Under 30 words. UK tech terms preserved."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "All claims verifiable: IaC/SSO correctly listed as gaps, GCP/Kubernetes matched. Cross-domain context present. Concise and informative; tools named specifically."
+      }
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+      "candidate_A": {
+        "factual_accuracy": 6,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "'Cloud' as gap is questionable (CV has AWS/GCP/Azure expertise). Missed salient cross-domain context (DevOps→DefTech). Tools named but context flag absent."
+      },
+      "candidate_B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Cross-domain context present and accurate. FinOps gap valid. 'Cloud' gap still slightly off given CV cloud breadth. Specific tools named."
+      }
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+      "candidate_A": {
+        "factual_accuracy": 4,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Says 'Kubernetes→fintech' but vacancy is B2B SaaS (factual error). 'Senior overqualified for Senior DevOps role' is contradictory — both are senior. Tool gaps Nomad/Consul correct."
+      },
+      "candidate_B": {
+        "factual_accuracy": 6,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "'Senior overqualified' for senior role is inaccurate (same seniority). 'Cross-domain transition' generic without specifying domains. Tool list correct but context flags weak."
+      }
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Cross-domain C#→fintech accurate. Strengths/gaps correct. Missed salient seniority gap (junior CV, middle vacancy) — significant for user decision. Tools named specifically."
+      },
+      "candidate_B": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Near-identical to A. Cross-domain accurate, tools correct, but missed junior→middle seniority mismatch flag. Tools brand-named."
+      }
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "candidate_A": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "'Senior overqualified for middle role' invents seniority — vacancy says not_specified. Cross-domain noted. Role-family mismatch (Data Eng→ML) not flagged. Tool gaps specific."
+      },
+      "candidate_B": {
+        "factual_accuracy": 6,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Role family mismatch with specific role names (Data Engineer→ML Engineer) is actionable. 'Middle ML Engineer' seniority invented. Duplicated 'Partial match' is awkward. Over 30 words."
+      }
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 8,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Senior→junior overqualification accurate, cross-domain present but generic. SQL/Postman strengths verified, Swagger/API gaps valid. Context-flag mentioned but tool transition not specified."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 10,
+        "uk_term_preservation": 10,
+        "rationale": "Includes specific role short (junior QA Manual) and named transition (Playwright→banking). All claims verifiable. Highly actionable."
+      }
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 8,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Role family mismatch with specific names (SWE→Senior Full Stack). Strengths/gaps verified. Missed middle→senior seniority gap flag. Tools brand-named."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 4,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "'Role family mismatch' is generic without naming roles — fails specificity. Strengths/gaps still named but context phrasing template-like, transferable to many pairs."
+      }
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 4,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Missed salient senior→junior overqualification flag and cross-domain context. Tools correctly named. No actionable framing for user decision."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Cross-domain mentioned generically without specifying domains/roles. Missed salient overqualification flag (Senior→Strong Junior). Tools listed correctly."
+      }
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Role family mismatch named (PM→Creative Marketing). Cross-domain noted. Duplicated 'Partial match' is awkward; 'consumer apps' slightly off (healthcare). No strengths because matched is empty — correct."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "'Cross-domain transition' generic; missed role family mismatch (PM→Marketing) which is the salient flag. Gaps listed but list-heavy without framing."
+      }
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Cross-domain generic — both are QA roles; e-commerce vs Ajax (consumer hardware) borderline salient. Missed Playwright as strength. Tools listed but missed anti-flag (3-6 month contract)."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths include Playwright correctly. No cross-domain claim — defensible since both QA. Missed contract anti-flag warning, which is critical actionable info."
+      }
+    }
+  ]
+}

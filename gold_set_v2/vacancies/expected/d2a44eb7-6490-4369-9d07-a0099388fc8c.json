@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "d2a44eb7-6490-4369-9d07-a0099388fc8c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "DevOps / Cloud",
+    "uk": "DevOps / Cloud"
+  },
+  "role_title_raw": "DevOps Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "AWS",
+    "EC2",
+    "RDS",
+    "S3",
+    "VPC",
+    "IAM",
+    "Terraform",
+    "CloudFormation",
+    "GitHub Actions",
+    "GitLab CI",
+    "Docker",
+    "cloud",
+    "CI/CD",
+    "Grafana",
+    "DNS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "media",
+    "uk": "медіа"
+  },
+  "anti_requirements": [
+    "onsite only (Kyiv)"
+  ]
+}

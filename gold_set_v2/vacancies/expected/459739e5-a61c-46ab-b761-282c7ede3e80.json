@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "459739e5-a61c-46ab-b761-282c7ede3e80",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "MASTER Software Developer",
+    "uk": "MASTER розробник"
+  },
+  "role_title_raw": "MASTER of Developer (Спеціаліст з розробки)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Microsoft SQL Server",
+    "WebSockets",
+    "MASTER ERP",
+    "database design",
+    "REST API"
+  ],
+  "nice_to_have_skills": [
+    "1C",
+    "high-load systems"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Odesa",
+    "city_uk": "Одеса",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

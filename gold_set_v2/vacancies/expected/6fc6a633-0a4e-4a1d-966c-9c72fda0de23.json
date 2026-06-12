@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "6fc6a633-0a4e-4a1d-966c-9c72fda0de23",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Frontend Developer",
+    "uk": "Senior Frontend розробник"
+  },
+  "role_title_raw": "Senior Frontend Developer (React and React Native)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Redux",
+    "GraphQL",
+    "REST API",
+    "Webpack",
+    "Vite",
+    "CI/CD",
+    "Jest",
+    "Cypress",
+    "React Native",
+    "performance optimization"
+  ],
+  "nice_to_have_skills": [
+    "micro frontends",
+    "Storybook",
+    "Material UI",
+    "Tailwind",
+    "WebAssembly",
+    "WebSockets"
+  ],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

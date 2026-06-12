@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "1349357c-7645-4062-a983-ce07ba203d09",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Education Community Manager",
+    "uk": "Junior Education Community Manager"
+  },
+  "role_title_raw": "Junior Education Community Manager",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "community management",
+    "university partnerships",
+    "event organization",
+    "stakeholder management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "bachelor",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

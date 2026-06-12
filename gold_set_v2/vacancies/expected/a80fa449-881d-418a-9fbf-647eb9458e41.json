@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "a80fa449-881d-418a-9fbf-647eb9458e41",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager / Business Analyst",
+    "uk": "Product Manager / Business Analyst"
+  },
+  "role_title_raw": "Product Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product ownership",
+    "business analysis",
+    "stakeholder management",
+    "requirements gathering",
+    "SDLC",
+    "Agile",
+    "technical specifications",
+    "product metrics",
+    "Documentation",
+    "Jira"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

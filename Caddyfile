@@ -1,0 +1,77 @@
+# ----------------------------------------------------------------------------
+# Caddyfile — vacancies API reverse proxy
+#
+# Caddy automatically obtains and renews a Let's Encrypt cert for whatever
+# hostname is bound below. {$API_HOSTNAME} is substituted from the env var
+# the compose file passes in (typically the EC2 public DNS, e.g.
+# ec2-1-2-3-4.eu-central-1.compute.amazonaws.com — Let's Encrypt allows
+# certs on that domain).
+#
+# Rate limiting is intentionally NOT configured here — the .NET API enforces
+# it at the application layer (CR5, see API/Program.cs). Doing it in Caddy
+# too would need the third-party caddy-ratelimit plugin and would double-
+# count requests with no real benefit.
+#
+# Timeouts are long because the v6 Gemini-backed scoring endpoint can take
+# 60-130 s on a cold run. Default Caddy timeouts (~30 s) would 504 those.
+# ----------------------------------------------------------------------------
+
+{
+    # Global options
+    email {$ACME_EMAIL}
+    # Set ACME to staging for first-time deploys to avoid Let's Encrypt rate
+    # limits; switch to production after a single successful provision.
+    # acme_ca https://acme-staging-v02.api.letsencrypt.org/directory
+}
+
+{$API_HOSTNAME} {
+    log {
+        output stdout
+        format json
+        level INFO
+    }
+
+    # Strip noisy auto-generated favicon requests before they hit the API.
+    handle /favicon.ico {
+        respond 204
+    }
+
+    # Liveness / readiness — Caddy serves them straight through.
+    handle /health* {
+        reverse_proxy api:8080
+    }
+
+    # Everything else goes to the API. Long timeouts accommodate cold
+    # Gemini calls. Headers below preserve original client info so the
+    # API rate limiter can partition by real IP, not the proxy IP.
+    handle {
+        reverse_proxy api:8080 {
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+            header_up X-Forwarded-Proto {scheme}
+            header_up X-Forwarded-Host {host}
+
+            transport http {
+                read_timeout 600s
+                write_timeout 600s
+                dial_timeout 10s
+                response_header_timeout 600s
+            }
+        }
+    }
+
+    # Hardening headers. CORS is handled by the API (CR4 whitelist),
+    # so we don't set Access-Control-* here.
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        # Caddy auto-adds Server: Caddy; suppress to reduce fingerprinting.
+        -Server
+    }
+
+    # Gzip + zstd compression on responses. Saves egress $ on
+    # CloudFront-uncached API JSON payloads.
+    encode zstd gzip
+}

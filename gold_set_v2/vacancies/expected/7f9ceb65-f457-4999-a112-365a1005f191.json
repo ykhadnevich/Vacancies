@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle .NET Backend Developer",
+    "uk": "Middle .NET Backend розробник"
+  },
+  "role_title_raw": ".NET backend developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    ".NET Core",
+    "Entity Framework Core",
+    "PostgreSQL",
+    "MongoDB",
+    "mobile backend",
+    ".NET",
+    "EF Core"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

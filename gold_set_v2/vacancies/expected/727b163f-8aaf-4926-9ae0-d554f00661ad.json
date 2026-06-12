@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "727b163f-8aaf-4926-9ae0-d554f00661ad",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Creatio Developer",
+    "uk": "Middle Creatio розробник"
+  },
+  "role_title_raw": "Middle Creatio Developer C# / .NET",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Creatio platform",
+    "C#",
+    ".NET",
+    "WCF",
+    "Web API",
+    "business processes",
+    "SQL",
+    "ASP.NET",
+    "JavaScript",
+    "TypeScript",
+    "Angular",
+    "PostgreSQL",
+    "MS SQL",
+    "SOLID",
+    "CI/CD",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Docker"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager (Monetization)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product monetization",
+    "subscription models",
+    "unit economics",
+    "A/B testing",
+    "analytics"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

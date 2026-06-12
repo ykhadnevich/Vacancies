@@ -1,0 +1,58 @@
+Olha Dubova
+Frontend Developer · 4 years · React + TypeScript · Kyiv, remote
+o.dubova@example.com · github.com/odubova · linkedin.com/in/odubova
+Summary
+Frontend developer з 4-річним досвідом, спеціалізація — React + TypeScript. Last 2 роки — на
+B2B SaaS dashboard product (40+ pages, complex tabular data, real-time updates). Strong у
+component architecture, accessibility, performance optimization. Working knowledge Node.js BFF
+layer.
+Experience
+Frontend Developer — Effa Health (B2B SaaS, clinical workflow)
+Apr 2024 — Present · Kyiv (remote) · PRODUCTION
+• Web app для US clinic operations — React 18 + TypeScript + Vite + Tanstack Query/Router
++ Zustand + Tailwind CSS.
+• Built complex data-grid screen (TanStack Table virtualization, server-side filtering/sorting,
+~10k rows scroll smoothly).
+• Accessibility audit + remediation: WCAG 2.1 AA compliance for 30+ screens (used axe-core in
+CI).
+• Storybook component library — 80+ documented components, shared with design team via
+Chromatic.
+Frontend Developer — SoftServe (outsource, B2B fintech client)
+Sep 2022 — Mar 2024 · Lviv (hybrid) · PRODUCTION
+• Banking back-office UI для EU client — React 17 + Redux Toolkit + Material UI. Team of 5
+frontends.
+• Migrated codebase from JavaScript to TypeScript (incrementally, 60% coverage at handover).
+• Built BFF layer на Node.js + Express для aggregating microservices (5 endpoints).
+Junior Frontend Developer — Sigma Software
+Jun 2021 — Aug 2022 · Kyiv · PRODUCTION
+• First commercial role. React 16 + Redux. B2B insurance product (German client).
+Frontend Intern — EPAM
+Mar 2021 — May 2021 · Kyiv · INTERNSHIP
+• 3-month internship — React fundamentals training + small landing page builds.
+Skills
+Core: JavaScript (advanced, ES2022), TypeScript (advanced, daily 2+ years), HTML5 (semantic,
+accessibility), CSS3 (Flexbox, Grid, animations).
+Frameworks/Libraries: React 16-18 (advanced — hooks, suspense, concurrent features),
+Next.js (intermediate — App Router, RSC), Redux Toolkit, Zustand, Tanstack Query (React Query),
+Tanstack Router, React Hook Form, Zod.
+Styling: Tailwind CSS (advanced), CSS Modules, styled-components, Material UI, Chakra UI,
+shadcn/ui.
+Build/Tooling: Vite, Webpack (basic), ESLint, Prettier, Husky + lint-staged, GitHub Actions for CI.
+Testing: Jest, React Testing Library, Playwright (E2E, basic), Storybook + Chromatic.
+Data viz: Recharts, Chart.js, basic D3.js.
+Backend awareness: Node.js + Express (BFF only), REST + GraphQL clients (Apollo + urql),
+WebSockets (socket.io).
+
+Tools: Git, GitHub, Jira, Figma (dev mode), Linear, Slack.
+Education
+NTUU Kyiv Polytechnic Institute (KPI)
+Bachelor's in Software Engineering · 2017–2021 · Completed
+Online courses: Frontend Masters (TypeScript, Advanced React), Kent C. Dodds Epic React
+workshop (2023).
+Languages
+• Ukrainian — native
+• English — B2 (daily standups with US client)
+Target Roles
+Mid/Senior Frontend Developer (React) · Frontend Engineer · Full-Stack (FE-heavy, Node.js BFF).
+Цікавлять product-companies. Не цікавлять roles на чистому Vue/Angular або на jQuery
+legacy.

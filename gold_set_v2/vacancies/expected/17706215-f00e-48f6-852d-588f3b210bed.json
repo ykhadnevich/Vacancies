@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "17706215-f00e-48f6-852d-588f3b210bed",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "CEO for B2C Product",
+    "uk": "CEO для B2C продукту"
+  },
+  "role_title_raw": "CEO for B2C Product (US Market)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "executive leadership",
+    "business strategy",
+    "P&L ownership",
+    "data-driven decision making",
+    "entrepreneurship",
+    "BI",
+    "iOS",
+    "analytics",
+    "A/B testing",
+    "leadership",
+    "mentorship"
+  ],
+  "nice_to_have_skills": [
+    "mental health / wellness domain"
+  ],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

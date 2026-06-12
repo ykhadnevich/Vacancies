@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "c6f91d1b-d2f6-49eb-8e69-0405a2fbe1cd",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Analyst",
+    "uk": "Data Analyst"
+  },
+  "role_title_raw": "Data Analyst (Data Governance team)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SQL",
+    "data governance",
+    "data quality",
+    "banking data",
+    "data analysis",
+    "data structures"
+  ],
+  "nice_to_have_skills": [
+    "ETL",
+    "Python",
+    "Power BI",
+    "Tableau"
+  ],
+  "min_years_experience": 3,
+  "education_required": "bachelor",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

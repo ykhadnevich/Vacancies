@@ -1,0 +1,158 @@
+{
+  "batch_idx": 2,
+  "cv_id": "14_frontend_mid_react",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+      "match_quality": 6,
+      "rationale": "Fullstack JS/TS/React/Node/Express/GraphQL all ✓. Postgres/SQL/NoSQL backend skills not in CV (frontend-focused). Clean Arch unclear. 4.8>3y. DefTech cross-domain."
+    },
+    {
+      "vacancy_id": "f95c3798-6c5c-4d18-a746-af67b51242e4",
+      "match_quality": 2,
+      "rationale": "Vue/Quasar/Laravel/PHP stack — CV is React only. Major framework mismatch."
+    },
+    {
+      "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+      "match_quality": 2,
+      "rationale": "Vue + Python + PHP + Laravel — fundamental stack mismatch with React/TS CV."
+    },
+    {
+      "vacancy_id": "fcb6785a-31ea-49b5-b736-dffbeb0040c8",
+      "match_quality": 2,
+      "rationale": "Vue 3/Nuxt/Composition API stack — CV is React. Despite TS/SPA/REST overlap, framework mismatch."
+    },
+    {
+      "vacancy_id": "27ade056-b7b9-489b-af77-53fc12dcd5b0",
+      "match_quality": 2,
+      "rationale": "Vue 3/Nuxt 3/Pinia — CV is React. iGaming cross-domain."
+    },
+    {
+      "vacancy_id": "459739e5-a61c-46ab-b761-282c7ede3e80",
+      "match_quality": 0,
+      "rationale": "MASTER ERP / MSSQL — backend ERP role, completely different from frontend dev."
+    },
+    {
+      "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+      "match_quality": 4,
+      "rationale": "Junior role — middle candidate over-qualified by 1 level (4.8y vs 1y). Stack matches React/TS/Redux."
+    },
+    {
+      "vacancy_id": "44aae2a7-4fda-4323-948f-e51fa99d933b",
+      "match_quality": 8,
+      "rationale": "React/Next.js/TS/JS/AI-assisted dev all match. Vue listed but as alternative. 5y min vs 4.8y borderline. Strong core fit."
+    },
+    {
+      "vacancy_id": "4fe970a4-27fe-4bdc-a8c8-2b16a0d95eb1",
+      "match_quality": 2,
+      "rationale": "Pixi.js/game dev specialization + Vue 3 — CV has neither. Senior 5y vs middle 4.8y."
+    },
+    {
+      "vacancy_id": "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+      "match_quality": 10,
+      "rationale": "Exceptional: React/JS/HTML/CSS/REST/Git/TS all trivial matches. Next.js + Figma nice-to-haves both in CV. Middle role aligned."
+    },
+    {
+      "vacancy_id": "7d309556-2e31-465a-a802-6a405051875d",
+      "match_quality": 0,
+      "rationale": "Python/CV/ML role — frontend dev has zero ML/Python. Completely different field."
+    },
+    {
+      "vacancy_id": "55ebf38b-7158-4f14-8f14-ecd4ebb1d94c",
+      "match_quality": 4,
+      "rationale": "Junior level + 4.8y over-qualified. Basic React/TS stack matches."
+    },
+    {
+      "vacancy_id": "831d1409-2a93-442e-ac85-e501d73afa61",
+      "match_quality": 2,
+      "rationale": "Vue 3/Nuxt 3 stack — CV is React."
+    },
+    {
+      "vacancy_id": "6fc6a633-0a4e-4a1d-966c-9c72fda0de23",
+      "match_quality": 6,
+      "rationale": "Stack matches strong (React/TS/Redux/GraphQL/REST/Webpack/Vite/Jest). Senior 7y vs middle 4.8y — significant under-qualification."
+    },
+    {
+      "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+      "match_quality": 6,
+      "rationale": "Most stack matches but Angular is listed as must-have — CV is React only. Middle ✓."
+    },
+    {
+      "vacancy_id": "93795dd4-bc8b-4f7d-9191-5544c026114f",
+      "match_quality": 10,
+      "rationale": "Exceptional: React/JS/TS/REST/HTML/CSS/Next.js all match. Analytics — CV has Chart.js/D3/Recharts. Clean fit."
+    },
+    {
+      "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+      "match_quality": 2,
+      "rationale": "Vue.js/Vue 3 stack mismatch + onsite Kyiv anti-flag adds risk."
+    },
+    {
+      "vacancy_id": "88f1b524-c41f-402c-a366-7067dc043159",
+      "match_quality": 2,
+      "rationale": "Vue 3/Composition API stack — CV is React. Senior level gap."
+    },
+    {
+      "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+      "match_quality": 10,
+      "rationale": "Exceptional: React 19/TS/Vite/Tailwind/Shadcn/TanStack Query/TanStack Table/Recharts/Jest — EVERY tool exactly in CV. Perfect modern React fit."
+    },
+    {
+      "vacancy_id": "865772ea-3eee-494e-b36a-3ebc5558f2a3",
+      "match_quality": 2,
+      "rationale": "Angular/RxJS/NgRx — CV is React. Plus onsite Warsaw anti-flag."
+    },
+    {
+      "vacancy_id": "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+      "match_quality": 2,
+      "rationale": "Angular/RxJS stack — CV is React only."
+    },
+    {
+      "vacancy_id": "e707382d-90b1-48fe-a362-eb9a9bf25f7d",
+      "match_quality": 6,
+      "rationale": "React/Vite/Tailwind core matches. WordPress custom themes is unusual specialization not in CV. DefTech cross-domain."
+    },
+    {
+      "vacancy_id": "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+      "match_quality": 2,
+      "rationale": "Vue/Nuxt 3 stack + senior level (4.8y short) + EU location anti-flag."
+    },
+    {
+      "vacancy_id": "a24e9b83-2cbb-4b81-bfb1-5cf1fb104467",
+      "match_quality": 0,
+      "rationale": "PHP 7/OneBox/MariaDB/jQuery/SMARTY — legacy PHP stack, completely different from modern React TS."
+    },
+    {
+      "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "match_quality": 6,
+      "rationale": "React/Next.js/TS/JS/WebSockets/Webpack/Vite/Redux strong match. Senior 5y vs 4.8y borderline. Warsaw onsite anti-flag."
+    },
+    {
+      "vacancy_id": "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+      "match_quality": 8,
+      "rationale": "Next.js/React/Redux Toolkit/TS/Tailwind core matches. CV has TanStack Query (alternative to RTK Query). framer-motion/GSAP specific gaps but minor."
+    },
+    {
+      "vacancy_id": "eb06260a-ef10-40dd-8b76-bb70a1760c2a",
+      "match_quality": 6,
+      "rationale": "Tech perfect match (React/TS/Redux/REST/Git). ANTI 1099 contractor (US tax structure) is location-specific concern."
+    },
+    {
+      "vacancy_id": "bc85925f-e306-40dd-b476-0ad83a210bfb",
+      "match_quality": 0,
+      "rationale": "Vue Tech Lead — Vue mismatch + lead level vs middle. Two fundamental gaps."
+    },
+    {
+      "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+      "match_quality": 6,
+      "rationale": "React core ✓ but Vue/Angular listed as must — candidate React-only. Senior 5y vs middle 4.8y borderline."
+    },
+    {
+      "vacancy_id": "f9174250-646e-4845-9610-d8dc4efb954c",
+      "match_quality": 2,
+      "rationale": "Pixi/Phaser/HTML5 Canvas game dev specialization — CV has no game dev experience."
+    }
+  ]
+}

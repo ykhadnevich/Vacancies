@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "865772ea-3eee-494e-b36a-3ebc5558f2a3",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Frontend Developer",
+    "uk": "Senior Frontend розробник"
+  },
+  "role_title_raw": "Senior Frontend Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Angular",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "RxJS",
+    "NgRx",
+    "Jest",
+    "REST API",
+    "SOLID",
+    "Webpack",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "GitLab CI",
+    "Docker",
+    "NGINX",
+    "Node.js"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Warsaw",
+    "city_uk": "Варшава",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": [
+    "on-site only (Warsaw office)"
+  ]
+}

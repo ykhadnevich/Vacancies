@@ -1,0 +1,168 @@
+{
+  "agent": "D",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out, primary pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+          "role_title_en": "Product Manager (C2C logistics)",
+          "match_quality": 4,
+          "rationale": "Marketing CV vs standard PM in logistics — cross-family adjacent; no growth focus, no logistics/C2C domain, missing PM craft."
+        },
+        {
+          "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+          "role_title_en": "Product Manager (B2B SaaS)",
+          "match_quality": 4,
+          "rationale": "Classic PM (vision, roadmap, 0-to-1) — A/B testing/analytics overlap but missing PM craft, no growth/CAC focus in posting."
+        },
+        {
+          "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+          "role_title_en": "Marketing Operations Manager",
+          "match_quality": 8,
+          "rationale": "Mobile app marketing, analytics, campaign management all match; ASO gap is single nice-to-have; mid seniority, C1 met, 6y exp."
+        },
+        {
+          "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+          "role_title_en": "Automation QA Team Lead",
+          "match_quality": 0,
+          "rationale": "Marketing CV vs QA automation lead (Selenium/Playwright/Java) — totally different field, no overlap."
+        },
+        {
+          "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+          "role_title_en": "Data Engineer",
+          "match_quality": 2,
+          "rationale": "Only SQL overlaps; no stored procedures, ETL, or data engineering background — different family with superficial overlap."
+        },
+        {
+          "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+          "role_title_en": "QA Engineer (Fintech)",
+          "match_quality": 2,
+          "rationale": "Postman/SQL superficial overlap but no manual testing, PCI DSS, or QA background — different family."
+        },
+        {
+          "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+          "role_title_en": "Frontend Developer (Vue)",
+          "match_quality": 0,
+          "rationale": "Marketing CV vs Vue.js dev — zero engineering skills, different field entirely."
+        },
+        {
+          "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+          "role_title_en": "Cloud Network Engineer",
+          "match_quality": 0,
+          "rationale": "Marketing CV vs cloud networking (Azure/AWS/BGP/VPC) — totally different field, zero overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+          "role_title_en": "Product Manager (fintech)",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs fintech PM with SaaS/A-B testing/accounting domain — totally different field."
+        },
+        {
+          "vacancy_id": "60349f54-8bc7-4a4f-bd20-185d8267483e",
+          "role_title_en": "Product Marketing Manager (DefTech)",
+          "match_quality": 0,
+          "rationale": "Political ecology professor vs hardware B2B product marketing — totally different field, no realistic chance."
+        },
+        {
+          "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+          "role_title_en": "Senior/Tech Lead Mobile Developer",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs React Native tech lead — totally different field, zero engineering background."
+        },
+        {
+          "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs Python ML/fraud detection — totally different field, no technical skills."
+        },
+        {
+          "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+          "role_title_en": "SQL/Data Engineer",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs SQL/Snowflake/Python data engineer — totally different field."
+        },
+        {
+          "vacancy_id": "27165f02-0dfc-4503-af0e-d6755cf5a49e",
+          "role_title_en": "QA Engineer (DefTech)",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs Playwright/Python QA — totally different field; military anti-requirement also fires."
+        },
+        {
+          "vacancy_id": "44aae2a7-4fda-4323-948f-e51fa99d933b",
+          "role_title_en": "Frontend Developer (AI Tooling)",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs React/TypeScript frontend dev — totally different field."
+        },
+        {
+          "vacancy_id": "727b163f-8aaf-4926-9ae0-d554f00661ad",
+          "role_title_en": "Middle Creatio Developer (C#/.NET)",
+          "match_quality": 0,
+          "rationale": "Humanities professor vs C#/.NET/Creatio platform dev — totally different field, zero engineering."
+        }
+      ]
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+          "role_title_en": "Middle Azure DevOps",
+          "match_quality": 6,
+          "rationale": "Security-DevOps overlap (Key Vault/Entra ID security IAM concepts); candidate is AWS not Azure, missing Terraform/AKS specifics — adjacent transferable."
+        },
+        {
+          "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+          "role_title_en": "Middle DevOps",
+          "match_quality": 6,
+          "rationale": "Security-DevOps adjacency; candidate has Bash/Python/Git/CI exposure but lacks K8s/Helm/Ansible direct experience — partial fit."
+        },
+        {
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "role_title_en": "Senior Backend Developer (.NET)",
+          "match_quality": 2,
+          "rationale": "Security engineer vs C#/.NET/EF Core backend dev — no .NET stack; security background doesn't substitute for pure dev role."
+        },
+        {
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "role_title_en": "Tech Lead .NET Developer",
+          "match_quality": 2,
+          "rationale": "Security mid vs Tech Lead .NET — no C#/.NET, no proven leadership, seniority off by 2 levels; only superficial high-load adjacency."
+        },
+        {
+          "vacancy_id": "87451c8f-0db8-43c8-bac2-52381453653b",
+          "role_title_en": "C#/.NET Developer + MS SQL Admin",
+          "match_quality": 2,
+          "rationale": "Security engineer vs C#/.NET + DBA — no .NET, no T-SQL/DBA experience; only OOP/API superficial overlap."
+        },
+        {
+          "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+          "role_title_en": "Manual QA Engineer",
+          "match_quality": 2,
+          "rationale": "Security pen-testing vs manual QA — superficial API testing/Linux overlap but different professional family."
+        },
+        {
+          "vacancy_id": "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+          "role_title_en": "Senior Data Engineer",
+          "match_quality": 2,
+          "rationale": "Security engineer vs Spark/Scala/Java ETL — Python/SQL/AWS overlap but no data engineering family experience."
+        },
+        {
+          "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+          "role_title_en": "Senior Data Scientist (fraud detection)",
+          "match_quality": 2,
+          "rationale": "Security engineer vs ML data scientist — Python/AWS/Snowflake/fraud-detection adjacency but no ML/pandas/scikit-learn background."
+        }
+      ]
+    }
+  ]
+}

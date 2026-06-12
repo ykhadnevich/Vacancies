@@ -1,0 +1,578 @@
+{
+  "batch_idx": 5,
+  "cv_id": "19_mobile_ios_mid",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6 (sub-agent)",
+  "ratings": [
+    {
+      "vacancy_id": "0c269701-4e43-4767-a42c-f88a25d8e179",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "1a176b19-5ba5-4ca2-8e6a-c5238bf74e6c",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "290ea2fc-b808-4943-9496-094392bc595d",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "2c329996-85c5-4956-b9a7-cac4c46a45ef",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "2e707afc-5d10-42be-b364-fa2e1f3119b4",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "4265f244-a5ea-43c5-9daa-f9dd73f5089b",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "4282937a-c8f7-4849-b638-23a38a6125be",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "495bf8f5-5006-401a-966f-ba29bb0b9990",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "4d5a6aaf-6c65-4642-95ae-280665fbaf0e",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "6d3456fc-d1d2-419b-aeaf-49e724a932a6",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "6dc7352a-6f08-4b53-8bb4-8e0e7893f342",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "776f2b42-8d59-4a57-9631-dd65e54d2ee5",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "78f9e1ef-a9ec-4f57-beab-8cff04a1dbff",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "7c684e0a-d23e-4299-bbf6-388d55d29704",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "8bd19a6e-d5f4-4850-890e-a30b94912130",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "98a268d8-d06c-497a-a0aa-dbb57274dd49",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "cc498796-b031-411c-828e-3c0ea1d06b67",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 10,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    },
+    {
+      "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+      "A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      },
+      "B": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10
+      }
+    }
+  ]
+}

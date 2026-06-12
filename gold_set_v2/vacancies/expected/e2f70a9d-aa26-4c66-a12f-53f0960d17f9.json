@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product management",
+    "customer research",
+    "hypothesis validation",
+    "accounting domain",
+    "SaaS",
+    "Data Analysis",
+    "A/B Testing"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Manager",
+    "uk": "Engineering Manager"
+  },
+  "role_title_raw": "Engineering Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "engineering management",
+    "defence tech leadership",
+    "military software delivery",
+    "CI/CD",
+    "High-load systems"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": [
+    "preference for veterans / former military"
+  ]
+}

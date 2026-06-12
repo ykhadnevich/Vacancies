@@ -1,0 +1,16 @@
+# Job search queries for vacancy scraper.
+# One query per line. Lines starting with # are comments.
+# Queries are passed verbatim to work.ua search.
+
+.NET Developer
+Frontend Developer
+Fullstack Developer
+iOS Developer
+Android Developer
+DevOps Engineer
+Machine Learning Engineer
+Data Engineer
+Data Analyst
+QA Engineer
+Product Manager
+Engineering Manager

@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Creative Marketing Manager",
+    "uk": "Creative Marketing Manager"
+  },
+  "role_title_raw": "Creative Marketing Manager (Wellbeing product)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "creative marketing",
+    "performance marketing",
+    "content production",
+    "R&D campaigns",
+    "AI-first marketing"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

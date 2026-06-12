@@ -1,0 +1,2052 @@
+{
+  "total_pairs": 392,
+  "n_agents": 14,
+  "stratification": "by ideal verdict (Strong/Partial/Weak/Mismatch/NoIdeal)",
+  "rationale": "Round-robin per verdict bucket — each agent gets proportional mix",
+  "batches": [
+    {
+      "agent_idx": 1,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "d65761e3-32e6-4e8b-b696-bc54ab640df1",
+          "ideal_score": 0.1428
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+          "ideal_score": 0.6388
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+          "ideal_score": 0.6385
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "f95c3798-6c5c-4d18-a746-af67b51242e4",
+          "ideal_score": 0.56
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "705ffb5a-db10-4785-bd7f-a90db4721c6d",
+          "ideal_score": 0.695
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "5790bd48-b784-452f-8cf6-fc910af837a4",
+          "ideal_score": 0.5577
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "b858c350-cfd0-4754-b8de-bcc148277fbc",
+          "ideal_score": 0.6043
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "78f9e1ef-a9ec-4f57-beab-8cff04a1dbff",
+          "ideal_score": 0.741
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+          "ideal_score": 0.625
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "0e5df96a-74d3-44e3-98fb-db96653b6942",
+          "ideal_score": 0.705
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "28db1992-92f0-4e90-8831-1fb7aeaeff58",
+          "ideal_score": 0.685
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+          "ideal_score": 0.6512
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "109db1b9-8020-4ac5-9bab-2255b3eb371c",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+          "ideal_score": 0.545
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "05e537ca-170b-478f-a33d-b477f5f08223",
+          "ideal_score": 0.585
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+          "ideal_score": 0.5342
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+          "ideal_score": 0.7475
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+          "ideal_score": 0.8024
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "4282937a-c8f7-4849-b638-23a38a6125be",
+          "ideal_score": 0.8
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "ideal_score": 0.9309
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "6d596e90-e06f-4f84-94a1-68dd13c55dda",
+          "ideal_score": 0.75
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+          "ideal_score": 0.77
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+          "ideal_score": 0.8218
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "4253e611-c662-48d4-9957-43e034573ef8",
+          "ideal_score": 0.2725
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+          "ideal_score": 0.34
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "98824122-2992-416c-82e0-8d76f3fd01db",
+          "ideal_score": 0.3736
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "4da12442-b7ac-4c81-abb4-71aa7f1c16a2",
+          "ideal_score": 0.4225
+        }
+      ]
+    },
+    {
+      "agent_idx": 2,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+          "ideal_score": 0.1653
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "b35b6cf4-aa8a-41c1-a477-e4c732ff30d8",
+          "ideal_score": 0.5857
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+          "ideal_score": 0.595
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "fcb6785a-31ea-49b5-b736-dffbeb0040c8",
+          "ideal_score": 0.6325
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "7f73376b-78a3-457d-9406-17f0e5a9b1f5",
+          "ideal_score": 0.7025
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+          "ideal_score": 0.5832
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "bec5ca01-0546-4fe7-99ef-7148c52f1415",
+          "ideal_score": 0.5857
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+          "ideal_score": 0.5
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "8c03a6e9-b372-4802-84be-7d939d6ccb5a",
+          "ideal_score": 0.645
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "19210103-9c82-4ac6-86cc-9870639e1a51",
+          "ideal_score": 0.5633
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "470bd7f3-e358-42dd-84d4-4f11a1e04dcd",
+          "ideal_score": 0.5825
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "7c4af3e5-3f44-492d-bc16-54a5ef6b7259",
+          "ideal_score": 0.7025
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "1349357c-7645-4062-a983-ce07ba203d09",
+          "ideal_score": 0.535
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+          "ideal_score": 0.695
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "102d5d77-0ccb-4640-be6e-8e2595afe705",
+          "ideal_score": 0.7386
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "b06bd250-91c9-48dd-acad-9ef77e4e669e",
+          "ideal_score": 0.7016
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "f6f58a71-977a-44c4-b648-e67c9c3b10b8",
+          "ideal_score": 0.575
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "99e2c825-164a-4a60-9100-b16472b835e5",
+          "ideal_score": 0.53
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "27ade056-b7b9-489b-af77-53fc12dcd5b0",
+          "ideal_score": 0.7593
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "495bf8f5-5006-401a-966f-ba29bb0b9990",
+          "ideal_score": 0.8214
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "0fbf3c7e-1326-48c5-8282-e34a064e0dc9",
+          "ideal_score": 0.755
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "745f0820-5b22-462d-b636-c496405427f6",
+          "ideal_score": 0.7629
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "c6f91d1b-d2f6-49eb-8e69-0405a2fbe1cd",
+          "ideal_score": 0.7675
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "a10929c5-ac46-4c90-89c9-8e1712fb7886",
+          "ideal_score": 0.8107
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "6f0c7789-99d6-420f-b1c4-1e9a9951bbd4",
+          "ideal_score": 0.3413
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+          "ideal_score": 0.3393
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "a31718c1-d53c-4047-8dcd-27242b325074",
+          "ideal_score": 0.3625
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+          "ideal_score": 0.28
+        }
+      ]
+    },
+    {
+      "agent_idx": 3,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+          "ideal_score": 0.215
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "bc543292-a35f-4023-8fa0-c6832cc9b181",
+          "ideal_score": 0.67
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "459739e5-a61c-46ab-b761-282c7ede3e80",
+          "ideal_score": 0.56
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+          "ideal_score": 0.725
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "80a397d2-ccfb-4b84-acf7-8926a6640d50",
+          "ideal_score": 0.5825
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "62cc4061-6558-40ec-929c-36e4be0fa751",
+          "ideal_score": 0.5882
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "c2540672-87d0-40ce-8028-248dc4d6c75d",
+          "ideal_score": 0.67
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "8bd19a6e-d5f4-4850-890e-a30b94912130",
+          "ideal_score": 0.723
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+          "ideal_score": 0.5706
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+          "ideal_score": 0.5462
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+          "ideal_score": 0.7158
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "1e9c93ce-886a-4f5d-902d-7058ada55541",
+          "ideal_score": 0.665
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+          "ideal_score": 0.545
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+          "ideal_score": 0.5921
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+          "ideal_score": 0.5033
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+          "ideal_score": 0.5033
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+          "ideal_score": 0.6083
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "44aae2a7-4fda-4323-948f-e51fa99d933b",
+          "ideal_score": 0.7989
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+          "ideal_score": 0.75
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "285e37ac-fb2f-4e2b-b9dc-bb9efcde53a5",
+          "ideal_score": 0.7804
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+          "ideal_score": 0.7717
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "caf7ce6b-f789-461e-ba10-ae0c5eb8ce35",
+          "ideal_score": 0.7833
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "b97a4400-92c0-45ef-a310-f77229ee28b5",
+          "ideal_score": 0.8
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "b8742e2e-2199-4909-adcf-ecb95460c650",
+          "ideal_score": 0.3025
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "10882f1b-d489-4a8c-a0b6-917b51d8f1b4",
+          "ideal_score": 0.3525
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+          "ideal_score": 0.3113
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "a2414078-ec50-47f6-b3c6-81295e7d63fa",
+          "ideal_score": 0.2828
+        }
+      ]
+    },
+    {
+      "agent_idx": 4,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+          "ideal_score": null
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "be17f702-3859-4297-9de3-ed4ebe9e385a",
+          "ideal_score": 0.6757
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "4fe970a4-27fe-4bdc-a8c8-2b16a0d95eb1",
+          "ideal_score": 0.6642
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "05a4bfae-8d25-4a58-97af-73064742578a",
+          "ideal_score": 0.6875
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "ab1ee914-639b-47a5-9e8c-8bb0c747fc7d",
+          "ideal_score": 0.62
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "6d908d9f-c748-4be8-8c15-50fed8a03135",
+          "ideal_score": 0.568
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "c6056a80-614a-47d1-b3fc-1f602ebd71ff",
+          "ideal_score": 0.5375
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "98a268d8-d06c-497a-a0aa-dbb57274dd49",
+          "ideal_score": 0.7375
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "c1fae7c2-ca09-4a3e-92d0-60636378bf39",
+          "ideal_score": 0.5923
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "24ad01fe-a2f7-466c-9ff6-e556000b0a99",
+          "ideal_score": 0.6067
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "a15d8779-efec-447e-b7ef-31912946efd2",
+          "ideal_score": 0.5803
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+          "ideal_score": 0.6175
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "a7d2295c-6344-421c-a07b-0e2d8ffb3877",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+          "ideal_score": 0.6619
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+          "ideal_score": 0.5575
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "16899fdd-9080-444d-b6f1-0f84a096a608",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+          "ideal_score": 0.575
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+          "ideal_score": 0.9314
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "7c684e0a-d23e-4299-bbf6-388d55d29704",
+          "ideal_score": 0.77
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "4aca1974-cf5d-46c2-b9c6-a70bf5219fe0",
+          "ideal_score": 0.875
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "acf2b942-1198-4208-b40e-882c1058918c",
+          "ideal_score": 0.755
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "ddabf002-f81b-4aaf-9499-88c1743fb91f",
+          "ideal_score": 0.7964
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+          "ideal_score": 0.8429
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+          "ideal_score": 0.4338
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+          "ideal_score": 0.25
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+          "ideal_score": 0.3475
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "b54b635f-f2b9-49e9-9657-26e936568978",
+          "ideal_score": 0.336
+        }
+      ]
+    },
+    {
+      "agent_idx": 5,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "15227172-726d-4cc6-8ab1-966690742f53",
+          "ideal_score": 0.6057
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "c6bedf09-951e-45db-9b95-e60a496810d7",
+          "ideal_score": 0.5661
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "7d309556-2e31-465a-a802-6a405051875d",
+          "ideal_score": 0.6131
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "13b32c13-4659-4c2f-8634-2ebdcb86b8f3",
+          "ideal_score": 0.665
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+          "ideal_score": 0.6575
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "884a9333-9a1d-4537-ba9b-658d99373980",
+          "ideal_score": 0.6575
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "d8b58559-406c-4c06-8cd6-f7c35a172adc",
+          "ideal_score": 0.695
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+          "ideal_score": 0.513
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "da16012a-9276-4ecb-8d71-8d1945d94b6a",
+          "ideal_score": 0.6075
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "337599ae-96e8-48ab-88bb-80eddf6df903",
+          "ideal_score": 0.6575
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "cab34c74-4f37-4f51-94a2-7ae9bd65b1cc",
+          "ideal_score": 0.6383
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+          "ideal_score": 0.6013
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "a80fa449-881d-418a-9fbf-647eb9458e41",
+          "ideal_score": 0.6625
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+          "ideal_score": 0.6373
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+          "ideal_score": 0.56
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "1f3b8b6e-c937-4511-8f1f-30c4df4f4fec",
+          "ideal_score": 0.5
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+          "ideal_score": 0.62
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "55ebf38b-7158-4f14-8f14-ecd4ebb1d94c",
+          "ideal_score": 0.905
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+          "ideal_score": 0.8167
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "6bcc3a0a-f614-41c3-9e96-fded168f4ed9",
+          "ideal_score": 0.7925
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+          "ideal_score": 0.8436
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "59cb605a-3205-4ea6-8730-145723cbf85c",
+          "ideal_score": 0.7815
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "f9d92cb8-91e3-4b65-bfbd-2473ab04e884",
+          "ideal_score": 0.7665
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+          "ideal_score": 0.2731
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "5583da88-e62f-4e2c-adc8-5007ec60956c",
+          "ideal_score": 0.3475
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "00d0ccdb-07a0-49a3-a691-efa93961fa2c",
+          "ideal_score": 0.3025
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "d2a44eb7-6490-4369-9d07-a0099388fc8c",
+          "ideal_score": 0.3713
+        }
+      ]
+    },
+    {
+      "agent_idx": 6,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "166ff5b4-0ca5-40e8-ba41-074f2b5d9aa8",
+          "ideal_score": 0.73
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "cb2b150f-b44b-4a0f-b483-89da55db4144",
+          "ideal_score": 0.6178
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "831d1409-2a93-442e-ac85-e501d73afa61",
+          "ideal_score": 0.705
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "262c3cda-d6cb-4bbf-9ba1-810a35e726e7",
+          "ideal_score": 0.7175
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "cee3fdd2-5262-4b4e-a461-68892b894b47",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "912d23f3-8459-4b3d-8d46-d7d6e62b322c",
+          "ideal_score": 0.5923
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "dd8bd6cd-b830-449f-b69c-41e777551d18",
+          "ideal_score": 0.645
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+          "ideal_score": 0.6307
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "db1c9d2a-b3d2-40a3-9f0c-965e0e041d7d",
+          "ideal_score": 0.6892
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "3dce7c15-7613-4deb-b5b8-a234e9a1b8fd",
+          "ideal_score": 0.705
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "e4b7da99-705a-49d0-9a7b-74d48a95ae5a",
+          "ideal_score": 0.6825
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "92f69ae8-a1b8-4ff8-94a3-0a4acab44d98",
+          "ideal_score": 0.5
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "27502427-31c4-42e7-95fb-f021aa147ed7",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+          "ideal_score": 0.535
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+          "ideal_score": 0.59
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+          "ideal_score": 0.53
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "6fc6a633-0a4e-4a1d-966c-9c72fda0de23",
+          "ideal_score": 0.7633
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "cc498796-b031-411c-828e-3c0ea1d06b67",
+          "ideal_score": 0.8364
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "89bd98dc-7338-4568-8080-eb086b9fc3eb",
+          "ideal_score": 0.75
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "c4d29040-194b-4e77-be4b-41eda7e89d25",
+          "ideal_score": 0.8393
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+          "ideal_score": 0.7658
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "84eaf0ec-b42b-4dcb-b5e7-0516355510f7",
+          "ideal_score": 0.3
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "8069bfd7-f6e8-4c30-aaa0-e7582603ec09",
+          "ideal_score": 0.2773
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+          "ideal_score": 0.3212
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "2306e535-ce66-4b70-90e5-4d9f053723e1",
+          "ideal_score": 0.325
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+          "ideal_score": 0.3329
+        }
+      ]
+    },
+    {
+      "agent_idx": 7,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "1c5647c9-a848-4fcd-b742-c9a2508a7d9b",
+          "ideal_score": 0.5609
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+          "ideal_score": 0.682
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+          "ideal_score": 0.7086
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "30100c1f-f7eb-4d38-90f6-1eb69f9013d0",
+          "ideal_score": 0.5825
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+          "ideal_score": 0.6692
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "923463ed-0b3e-4018-9d75-5f7eaec451c5",
+          "ideal_score": 0.6918
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "fe1da4db-20e6-4c94-8577-067a243a7568",
+          "ideal_score": 0.56
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+          "ideal_score": 0.515
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "ideal_score": 0.6936
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "427e84c3-b873-4e3c-9af8-d43f1f45909c",
+          "ideal_score": 0.695
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+          "ideal_score": 0.665
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+          "ideal_score": 0.7198
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+          "ideal_score": 0.6075
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "b241fdec-2364-4385-9461-a14c9d278979",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "38df2a39-e173-4108-8c5b-52afb1c526b3",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+          "ideal_score": 0.5859
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "2bb764c0-e55e-4503-8362-2f8db87893e2",
+          "ideal_score": 0.52
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+          "ideal_score": 0.5729
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "93795dd4-bc8b-4f7d-9191-5544c026114f",
+          "ideal_score": 0.755
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+          "ideal_score": 0.9073
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "9e0729ad-6ccd-4948-af56-a325f8fcead0",
+          "ideal_score": 0.7582
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+          "ideal_score": 0.8075
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "068b6104-9042-404f-a23e-a8399f3c7e90",
+          "ideal_score": 0.755
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+          "ideal_score": 0.3358
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+          "ideal_score": 0.2831
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+          "ideal_score": 0.295
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+          "ideal_score": 0.2825
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "00d0ccdb-07a0-49a3-a691-efa93961fa2c",
+          "ideal_score": 0.25
+        }
+      ]
+    },
+    {
+      "agent_idx": 8,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "219bf29a-d44c-498f-a00d-358d5a962a64",
+          "ideal_score": 0.665
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+          "ideal_score": 0.7311
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "88f1b524-c41f-402c-a366-7067dc043159",
+          "ideal_score": 0.7175
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "30423512-dc91-4ba2-a448-c65a6754f372",
+          "ideal_score": 0.545
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "ee8f6c3c-7ebb-4f40-a5ec-496251200090",
+          "ideal_score": 0.623
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "9c76720b-6f90-46ce-8a57-001fcca261ba",
+          "ideal_score": 0.5462
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "0c269701-4e43-4767-a42c-f88a25d8e179",
+          "ideal_score": 0.6932
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+          "ideal_score": 0.6692
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "e092834f-91a9-4d83-b334-fa02167ba004",
+          "ideal_score": 0.6275
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "745aea15-9729-4349-b78e-c2f10631d181",
+          "ideal_score": 0.665
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+          "ideal_score": 0.6725
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "306f9ac1-1597-4b57-8eda-fc4b17b43590",
+          "ideal_score": 0.68
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "60349f54-8bc7-4a4f-bd20-185d8267483e",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+          "ideal_score": 0.5138
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+          "ideal_score": 0.5643
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "2ca61d84-5691-41a7-a4e8-b2601e8f3458",
+          "ideal_score": 0.52
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+          "ideal_score": 0.85
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+          "ideal_score": 0.7873
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "d866c45f-6779-43b8-9f16-1738fab05d0a",
+          "ideal_score": 0.8
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "25630527-064b-4211-9697-730a04a25a26",
+          "ideal_score": 0.8
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+          "ideal_score": 0.8638
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "865772ea-3eee-494e-b36a-3ebc5558f2a3",
+          "ideal_score": 0.3725
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "1a176b19-5ba5-4ca2-8e6a-c5238bf74e6c",
+          "ideal_score": 0.26
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+          "ideal_score": 0.3025
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "0c7b3e11-9612-41e1-a47b-91c5c7282d57",
+          "ideal_score": 0.42
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "0806777a-efc2-420b-9295-44b1de798eb9",
+          "ideal_score": 0.4631
+        }
+      ]
+    },
+    {
+      "agent_idx": 9,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "26815abc-ac5e-4925-9f24-96e48277262d",
+          "ideal_score": 0.695
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "d3619987-777c-41c9-a7b0-794be197f391",
+          "ideal_score": 0.56
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+          "ideal_score": 0.6595
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "311617f7-3161-4a8b-bcb4-485b5b3490fe",
+          "ideal_score": 0.6025
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "f4c04d99-177e-4cfc-8bb6-abb305bf378b",
+          "ideal_score": 0.667
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "9f3afa0b-f1de-4f3c-bb42-302ad3d54ce2",
+          "ideal_score": 0.5188
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+          "ideal_score": 0.5462
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+          "ideal_score": 0.6213
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "e840f997-37f1-42cc-9c3a-190803906352",
+          "ideal_score": 0.6307
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+          "ideal_score": 0.545
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "14d44732-38a4-439e-b07c-970665253c75",
+          "ideal_score": 0.7423
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "586789fc-ae73-463c-8668-5a256daed9e6",
+          "ideal_score": 0.7336
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "c89b5447-b5eb-49e6-bff0-147f13b336de",
+          "ideal_score": 0.595
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+          "ideal_score": 0.6514
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "80bec801-fe95-4b26-9c93-9189071754b7",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+          "ideal_score": 0.555
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+          "ideal_score": 0.6157
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "e707382d-90b1-48fe-a362-eb9a9bf25f7d",
+          "ideal_score": 0.7959
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+          "ideal_score": 0.9259
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "ea921836-cb7a-43dd-8f61-574724779c9b",
+          "ideal_score": 0.75
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "3bd35b6f-3631-4819-9227-8e8fe124717d",
+          "ideal_score": 0.7833
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "3172a681-cbf9-4121-af90-7fe350a62caf",
+          "ideal_score": 0.75
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+          "ideal_score": 0.3564
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "2e707afc-5d10-42be-b364-fa2e1f3119b4",
+          "ideal_score": 0.3525
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "51048422-c940-428f-b81d-3cb63f7ed76a",
+          "ideal_score": 0.3025
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "314b593b-f49d-4d84-8c9c-232192f82f03",
+          "ideal_score": 0.4583
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "17706215-f00e-48f6-852d-588f3b210bed",
+          "ideal_score": 0.35
+        }
+      ]
+    },
+    {
+      "agent_idx": 10,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "312f7cc7-fbe1-4506-83ed-e6d6f2ef7294",
+          "ideal_score": 0.72
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+          "ideal_score": 0.69
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "a24e9b83-2cbb-4b81-bfb1-5cf1fb104467",
+          "ideal_score": 0.5231
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "358605d1-053d-4231-9e42-df64f32771d1",
+          "ideal_score": 0.7175
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "0f28ff56-d10e-4946-9a98-c269be0e145e",
+          "ideal_score": 0.5939
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "9f88dd86-c147-4681-9567-4b87fe913b97",
+          "ideal_score": 0.5525
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "290ea2fc-b808-4943-9496-094392bc595d",
+          "ideal_score": 0.735
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+          "ideal_score": 0.5751
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+          "ideal_score": 0.611
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+          "ideal_score": 0.581
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+          "ideal_score": 0.6725
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+          "ideal_score": 0.6307
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "8177a254-3728-4f81-b23d-59881458e60b",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "e1e366c2-9d8e-446e-8d41-d8f8414f4d3f",
+          "ideal_score": 0.545
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+          "ideal_score": 0.65
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "979d43f2-d52d-450d-88be-a955614331ab",
+          "ideal_score": 0.64
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+          "ideal_score": 0.5325
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+          "ideal_score": 0.575
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "30a8adf3-869f-4761-8dbb-3b438b333135",
+          "ideal_score": 0.7675
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+          "ideal_score": 0.8313
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "f7bdc749-1e34-4587-9435-4735496f0f50",
+          "ideal_score": 0.75
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "76d248b1-a0fe-4538-a71a-f5e1db7cc9a4",
+          "ideal_score": 0.89
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "41c84563-a9f5-4721-a71d-bc41345d02ff",
+          "ideal_score": 0.845
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+          "ideal_score": 0.3783
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+          "ideal_score": 0.25
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+          "ideal_score": 0.314
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "cdc7757a-a09b-42b9-b1d2-12a69069931f",
+          "ideal_score": 0.4675
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+          "ideal_score": 0.4973
+        }
+      ]
+    },
+    {
+      "agent_idx": 11,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+          "ideal_score": 0.6704
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+          "ideal_score": 0.545
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+          "ideal_score": 0.7382
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+          "ideal_score": 0.645
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "178cbb0b-0920-4531-987e-bf4d7245e372",
+          "ideal_score": 0.5629
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "aa515efb-39a4-4fe7-b3a7-b496339c0447",
+          "ideal_score": 0.645
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "4d5a6aaf-6c65-4642-95ae-280665fbaf0e",
+          "ideal_score": 0.5379
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+          "ideal_score": 0.6755
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+          "ideal_score": 0.5
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "994c5af7-8f40-41b2-9c63-0f64a78322c1",
+          "ideal_score": 0.7204
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "76518482-59d2-4e96-bedc-cde1817b241c",
+          "ideal_score": 0.7317
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+          "ideal_score": 0.6764
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+          "ideal_score": 0.7033
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "b6d8744a-03c5-4ba3-80e2-b09b3988b8c3",
+          "ideal_score": 0.6615
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+          "ideal_score": 0.53
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "05e3fb53-42e1-4d26-af6b-b3f22c29be61",
+          "ideal_score": 0.8052
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+          "ideal_score": 0.7546
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+          "ideal_score": 0.8396
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "2e66909d-1064-43d6-8d97-43dd9af72df1",
+          "ideal_score": 0.8214
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+          "ideal_score": 0.7957
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "44979ab6-0336-4ff7-8abd-055c929aee2b",
+          "ideal_score": 0.7959
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "eb06260a-ef10-40dd-8b76-bb70a1760c2a",
+          "ideal_score": 0.412
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+          "ideal_score": 0.4483
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+          "ideal_score": 0.3025
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "ideal_score": 0.4789
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+          "ideal_score": 0.47
+        }
+      ]
+    },
+    {
+      "agent_idx": 12,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "446e7574-dd06-4f38-983b-f41d2e21252d",
+          "ideal_score": 0.575
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "f22cca4c-492a-4d6d-b4de-df08c3730b41",
+          "ideal_score": 0.7025
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "bc85925f-e306-40dd-b476-0ad83a210bfb",
+          "ideal_score": 0.5917
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+          "ideal_score": 0.6275
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "24a6f183-0008-4366-be98-dd096a767f23",
+          "ideal_score": 0.575
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "b66e9aad-8110-4d6e-87c9-e05f626b5ee4",
+          "ideal_score": 0.6736
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "6d3456fc-d1d2-419b-aeaf-49e724a932a6",
+          "ideal_score": 0.7125
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+          "ideal_score": 0.56
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+          "ideal_score": 0.725
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+          "ideal_score": 0.5879
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "6358ab7b-9f86-43a8-804e-056476eb93e6",
+          "ideal_score": 0.637
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "a078f3fa-04f1-415d-9d47-02081edbc699",
+          "ideal_score": 0.505
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "eed0122a-4452-438f-bf05-a25257066b12",
+          "ideal_score": 0.605
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+          "ideal_score": 0.5886
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "c2b7f8bf-9e50-4206-9456-c34d66a0057d",
+          "ideal_score": 0.5167
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+          "ideal_score": 0.53
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+          "ideal_score": 0.7662
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+          "ideal_score": 0.8283
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+          "ideal_score": 0.8348
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "3ffd9d74-f52c-49e2-8009-9d4432f63fbc",
+          "ideal_score": 0.8
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+          "ideal_score": 0.815
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+          "ideal_score": 0.782
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "27165f02-0dfc-4503-af0e-d6755cf5a49e",
+          "ideal_score": 0.3454
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "4265f244-a5ea-43c5-9daa-f9dd73f5089b",
+          "ideal_score": 0.3825
+        },
+        {
+          "cv_id": "21_engineering_manager_senior",
+          "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+          "ideal_score": 0.3138
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+          "ideal_score": 0.283
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "a7d2295c-6344-421c-a07b-0e2d8ffb3877",
+          "ideal_score": 0.44
+        }
+      ]
+    },
+    {
+      "agent_idx": 13,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "48396d9e-bc1c-4cf2-a5fe-9c4ef9dbf7e0",
+          "ideal_score": 0.6979
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+          "ideal_score": 0.5429
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+          "ideal_score": 0.6875
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+          "ideal_score": 0.5975
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "2c20d3af-c032-4a9f-ae27-5f6c681381b3",
+          "ideal_score": 0.5692
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "b8505fa5-13f0-40b4-8961-b5cd084477dc",
+          "ideal_score": 0.6029
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+          "ideal_score": 0.705
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+          "ideal_score": 0.745
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+          "ideal_score": 0.5825
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "b6c105bb-c61d-4876-b19e-917e65947f4b",
+          "ideal_score": 0.7414
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "6aa5df92-1622-4e6b-8d45-cf4c237c5971",
+          "ideal_score": 0.705
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+          "ideal_score": 0.6092
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "99e2c825-164a-4a60-9100-b16472b835e5",
+          "ideal_score": 0.655
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "f974f87e-cafa-47f7-9678-0ea58afb6b0c",
+          "ideal_score": 0.6158
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "727b163f-8aaf-4926-9ae0-d554f00661ad",
+          "ideal_score": 0.6608
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+          "ideal_score": 0.5783
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+          "ideal_score": 0.5367
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "91b11a12-a711-433d-8522-aabfb16b2256",
+          "ideal_score": 0.7999
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "d2e4be03-4166-490a-b365-da422328abd7",
+          "ideal_score": 0.77
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+          "ideal_score": 0.7775
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "51dcc6a5-6e9e-44ac-9a2d-ff2e5bf9d627",
+          "ideal_score": 0.764
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+          "ideal_score": 0.815
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "6cd2d98d-5897-4c4b-b0b1-f2ce2b2a76ee",
+          "ideal_score": 0.8867
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "2a605218-858a-4179-8219-c4a4032e6765",
+          "ideal_score": 0.25
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "6dc7352a-6f08-4b53-8bb4-8e0e7893f342",
+          "ideal_score": 0.2725
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "7444a9aa-83b5-481d-b693-fb1cb1f1a9e6",
+          "ideal_score": 0.3925
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+          "ideal_score": 0.37
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "e7009e48-85a2-4062-9edb-2e6a02878203",
+          "ideal_score": 0.47
+        }
+      ]
+    },
+    {
+      "agent_idx": 14,
+      "size": 28,
+      "pairs": [
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+          "ideal_score": 0.6367
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "fc5d3bd0-0fde-4d6f-9220-169f0b98ed7d",
+          "ideal_score": 0.715
+        },
+        {
+          "cv_id": "14_frontend_mid_react",
+          "vacancy_id": "f9174250-646e-4845-9610-d8dc4efb954c",
+          "ideal_score": 0.55
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "6a47a8ba-138d-4d6b-ad39-8f7b913f95bb",
+          "ideal_score": 0.7025
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+          "ideal_score": 0.6
+        },
+        {
+          "cv_id": "17_realformat_swe_fullstack",
+          "vacancy_id": "b855ffc9-c236-4f56-ad08-c338a27bc0c4",
+          "ideal_score": 0.62
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "776f2b42-8d59-4a57-9631-dd65e54d2ee5",
+          "ideal_score": 0.6158
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+          "ideal_score": 0.6418
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+          "ideal_score": 0.6875
+        },
+        {
+          "cv_id": "20_mobile_android_senior",
+          "vacancy_id": "f0c9a922-3edb-433a-b340-3d0414262c2c",
+          "ideal_score": 0.611
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+          "ideal_score": 0.7275
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+          "ideal_score": 0.6925
+        },
+        {
+          "cv_id": "4_senior_product_manager",
+          "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+          "ideal_score": 0.7
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+          "ideal_score": 0.7395
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "87451c8f-0db8-43c8-bac2-52381453653b",
+          "ideal_score": 0.6425
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+          "ideal_score": 0.7187
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+          "ideal_score": 0.5075
+        },
+        {
+          "cv_id": "13_ml_senior_engineer",
+          "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+          "ideal_score": 0.8609
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "2c329996-85c5-4956-b9a7-cac4c46a45ef",
+          "ideal_score": 0.84
+        },
+        {
+          "cv_id": "1_senior_backend_engineer",
+          "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+          "ideal_score": 0.7732
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "652bba37-6fd1-4b69-8d78-4aad7264cd37",
+          "ideal_score": 0.8832
+        },
+        {
+          "cv_id": "2_mid_data_analyst",
+          "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+          "ideal_score": 0.875
+        },
+        {
+          "cv_id": "7_devops_senior",
+          "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+          "ideal_score": 0.835
+        },
+        {
+          "cv_id": "15_qa_senior_automation",
+          "vacancy_id": "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+          "ideal_score": 0.317
+        },
+        {
+          "cv_id": "19_mobile_ios_mid",
+          "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+          "ideal_score": 0.285
+        },
+        {
+          "cv_id": "22_data_engineer_senior",
+          "vacancy_id": "795db424-ce9f-46a2-bdcf-9a337742115d",
+          "ideal_score": 0.3362
+        },
+        {
+          "cv_id": "5_junior_backend_engineer",
+          "vacancy_id": "ec9c676d-8504-4123-aac0-038fc306fcf7",
+          "ideal_score": 0.4583
+        },
+        {
+          "cv_id": "yan_pm",
+          "vacancy_id": "ea48f066-6a13-443f-b34c-263c386fd837",
+          "ideal_score": 0.395
+        }
+      ]
+    }
+  ]
+}

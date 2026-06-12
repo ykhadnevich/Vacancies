@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle / Senior Frontend Developer",
+    "uk": "Middle / Senior Frontend розробник"
+  },
+  "role_title_raw": "Middle/Senior Frontend Developer (Angular) at Fleet Chaser",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Angular",
+    "TypeScript",
+    "JavaScript",
+    "RxJS",
+    "B2B SaaS",
+    "real-time updates",
+    "REST API",
+    "HTML",
+    "CSS",
+    "HTTP",
+    "code review"
+  ],
+  "nice_to_have_skills": [
+    "performance optimization"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

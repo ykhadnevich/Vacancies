@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "f22cca4c-492a-4d6d-b4de-df08c3730b41",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior ML / Computer Vision Developer",
+    "uk": "Senior ML / Computer Vision розробник"
+  },
+  "role_title_raw": "Senior Machine Learning / Computer Vision Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "computer vision",
+    "object detection",
+    "segmentation",
+    "tracking",
+    "embedded inference",
+    "Jetson",
+    "ARM64",
+    "real-time CV",
+    "Git",
+    "ML",
+    "OpenCV",
+    "PyTorch",
+    "TensorFlow",
+    "Linux",
+    "Docker"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

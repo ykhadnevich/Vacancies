@@ -1,0 +1,72 @@
+Anastasiya Kovalchuk
+Senior Android Engineer · 7 years · Kotlin / Jetpack Compose / KMP · Kyiv
+a.kovalchuk@example.com · github.com/akovalchuk · linkedin.com/in/akovalchuk
+Summary
+Android-розробниця з 7 років production досвіду. Спеціалізація: modern Android stack (Kotlin,
+Jetpack Compose, Coroutines + Flow, Hilt). Shipped 3 production apps з 10M+ downloads
+загалом. Останній рік — tech lead для Android team з 4 розробників. Active KMP (Kotlin
+Multiplatform) practitioner — shared business logic з iOS на 2 features.
+Experience
+Senior Android Engineer / Tech Lead — MacPaw (CleanMyMac maker, Setapp)
+Jan 2023 — Present · Kyiv (remote-hybrid) · PRODUCTION
+• Tech lead Android team (4 engineers) на Setapp mobile companion app — sprint planning,
+code review ownership, hiring loop (interviewed 18, hired 2).
+• Migrated entire app з XML+ViewModel до 100% Jetpack Compose протягом 9 місяців —
+incremental feature-by-feature, no big-bang rewrite.
+• KMP pilot: shared subscription validation + analytics модулі з iOS team — 4500 LOC shared,
+30% reduction у platform-divergence bugs.
+• Performance audit + fix: cold start 2.4s → 1.2s через App Startup library + lazy module
+loading + R8 optimization.
+Senior Android Engineer — Grammarly
+Aug 2020 — Dec 2022 · Kyiv · PRODUCTION
+• Worked on Grammarly Keyboard for Android — Kotlin, custom IME (input method editor)
+framework, on-device ML inference (TFLite).
+• Migrated REST API client з RxJava до Coroutines + Flow — eliminated entire category of
+subscription leaks (Crashlytics non-fatal events ↓ 60%).
+• Set up Modularization (29 Gradle modules) — clean architecture layers, faster incremental
+builds (35% reduction).
+Android Engineer (mid → senior) — Genesis (Universe Group apps)
+Sep 2018 — Jul 2020 · Kyiv · PRODUCTION
+• B2C subscription apps — Kotlin, RxJava, Dagger 2, Room. 2 апки shipped до production.
+Junior Android Developer — Ciklum
+May 2017 — Aug 2018 · Kyiv · PRODUCTION
+• First role — Java + Kotlin mix, MVP architecture, Retrofit, ButterKnife. Banking client
+(Norwegian).
+Android Intern — EPAM
+Feb 2017 — Apr 2017 · Kyiv · INTERNSHIP
+• 3-month bootcamp — Android fundamentals + Java basics.
+Skills
+Languages: Kotlin (advanced, daily 7 years), Java (intermediate, legacy maintenance), Bash,
+KDoc.
+UI: Jetpack Compose (advanced — daily 2.5 years), XML Views (5+ years, deep), Material You
+(M3) theming, custom Canvas drawing, animations (Compose + classic transitions).
+
+Async: Coroutines (advanced, daily 4 years), Flow (StateFlow/SharedFlow patterns), structured
+concurrency, RxJava 2/3 (legacy maintenance).
+Architecture: MVVM, MVI (preferred for new code), Clean Architecture, modularization
+(feature/data/domain split), Hilt (current), Dagger 2 (legacy), Koin (some side projects).
+Jetpack: Navigation, Room, DataStore, WorkManager, Paging 3, ViewModel, Lifecycle, CameraX.
+Compose Navigation, Compose Lifecycle.
+KMP: shipped 2 shared modules in production (Ktor, kotlinx.serialization, kotlinx.coroutines,
+SQLDelight).
+Build / Tooling: Gradle (Kotlin DSL, version catalogs, convention plugins), R8/ProGuard, build
+flavors, Gradle Managed Devices, KSP.
+CI/CD: GitHub Actions, Bitrise, Fastlane, Firebase App Distribution, Play Console Internal Testing.
+Testing: JUnit, MockK, Turbine (Flow testing), Compose UI tests, Espresso (legacy), Roborazzi
+screenshot tests, Maestro (E2E flows).
+Tools: Android Studio, Charles Proxy, LeakCanary, Android Profiler, perfetto traces, Firebase
+Crashlytics + Performance + Remote Config, Sentry, Amplitude.
+Education
+NTUU Kyiv Polytechnic Institute (KPI)
+Master's in Computer Science · 2015–2017 · Completed
+NTUU Kyiv Polytechnic Institute (KPI)
+Bachelor's in Computer Science · 2011–2015 · Completed
+Talks / community: speaker at Kyiv Android User Group meetup 2024 ("Compose performance
+pitfalls"); regular reviewer on Android Weekly newsletter (volunteer 2023+).
+Languages
+• Ukrainian — native
+• English — C1 (conference talks, written design docs)
+Target Roles
+Senior / Staff Android Engineer · Android Tech Lead · Mobile Platform Engineer (KMP) ·
+Engineering Manager (Android track, longer term). Цікавлять product B2C/B2B apps; не
+зацікавлена у pure Java legacy ролях.

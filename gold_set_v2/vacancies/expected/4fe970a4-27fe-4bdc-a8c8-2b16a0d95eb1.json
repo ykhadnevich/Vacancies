@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "4fe970a4-27fe-4bdc-a8c8-2b16a0d95eb1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Frontend Developer",
+    "uk": "Senior Frontend розробник"
+  },
+  "role_title_raw": "Senior Frontend Developer / Pixi.js",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "Pixi.js",
+    "game development",
+    "frontend architecture",
+    "code review",
+    "OOP",
+    "Vue 3",
+    "asynchronous programming"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

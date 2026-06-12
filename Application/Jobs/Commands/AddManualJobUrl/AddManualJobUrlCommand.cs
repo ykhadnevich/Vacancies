@@ -1,8 +1,13 @@
+using Application.Common.Auditing;
 using MediatR;
 
 namespace Application.Jobs.Commands.AddManualJobUrl;
 
-public record AddManualJobUrlCommand(string Url, string? Alias = null) : IRequest<AddManualJobUrlResult>;
+public record AddManualJobUrlCommand(string Url, string? Alias = null)
+    : IRequest<AddManualJobUrlResult>, IAuditableRequest
+{
+    public string AuditAction => "AddManualJobUrl";
+}
 
 public class AddManualJobUrlResult
 {

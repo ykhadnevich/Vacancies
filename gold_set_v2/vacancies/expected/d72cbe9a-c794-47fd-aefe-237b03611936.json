@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior ML Engineer",
+    "uk": "Senior ML інженер"
+  },
+  "role_title_raw": "Senior ML Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "MLOps",
+    "AWS",
+    "recommender systems",
+    "deep learning",
+    "ML",
+    "cloud",
+    "SQL"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

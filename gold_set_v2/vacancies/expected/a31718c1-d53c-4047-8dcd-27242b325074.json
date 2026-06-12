@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "a31718c1-d53c-4047-8dcd-27242b325074",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Science Infrastructure Developer",
+    "uk": "Data Science Infrastructure розробник"
+  },
+  "role_title_raw": "Data Science Infrastructure Software Engineer [GenAI] — hybrid work in Warsaw",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Python",
+    "data infrastructure",
+    "GenAI",
+    "ML platform",
+    "frameworks",
+    "CI/CD",
+    "backend architecture",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "Kotlin",
+    "Java",
+    "Bash",
+    "Terraform"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Warsaw",
+    "city_uk": "Варшава",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": [
+    "hybrid Warsaw"
+  ]
+}

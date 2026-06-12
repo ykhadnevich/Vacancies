@@ -1,0 +1,91 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "Software Engineer",
+    "Full-Stack Developer",
+    "Frontend Engineer"
+  ],
+  "domain_skills": [
+    "JavaScript",
+    "ReactJS",
+    "AngularJS",
+    "ExpressJS",
+    "NodeJS",
+    "jQuery",
+    "HTML",
+    "CSS",
+    "React Native",
+    "Java",
+    "Spring",
+    "Maven",
+    "MongoDB",
+    "SQL",
+    "Docker",
+    "Tomcat",
+    "Heroku",
+    "CircleCI",
+    "REST",
+    "Application development",
+    "Scripting",
+    "Automation",
+    "Web application design",
+    "UI testing",
+    "Requirements gathering",
+    "Grunt",
+    "ExponentJS",
+    "Socket.io",
+    "MySQL",
+    "OAuth",
+    "PassportJS",
+    "Google Maps API",
+    "YouTube API"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [
+    "Analytical thinking",
+    "Results-driven delivery"
+  ],
+  "experience": [
+    {
+      "title": "Walmart, Inc.",
+      "type": "PRODUCTION",
+      "duration_months": 60,
+      "years_ago": 10
+    },
+    {
+      "title": "PicoShell",
+      "type": "PET_PROJECT",
+      "duration_months": 0,
+      "years_ago": 0
+    },
+    {
+      "title": "TagMe",
+      "type": "PET_PROJECT",
+      "duration_months": 0,
+      "years_ago": 0
+    },
+    {
+      "title": "Roadtrip Mood Music Generator",
+      "type": "PET_PROJECT",
+      "duration_months": 0,
+      "years_ago": 0
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Computer Science",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2012
+  },
+  "english_level": "native",
+  "languages": [
+    {
+      "language": "English",
+      "level": "native"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

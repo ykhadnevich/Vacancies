@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Backend Developer",
+    "uk": "Senior .NET Backend розробник"
+  },
+  "role_title_raw": "Senior Backend .NET developer (French-speaking)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "microservices",
+    "cloud",
+    "French language",
+    "SQL",
+    "Docker",
+    "SQL Server",
+    "MongoDB",
+    "Postman",
+    "Cypress",
+    "Playwright",
+    "Kubernetes",
+    "Terraform",
+    "REST API"
+  ],
+  "nice_to_have_skills": [
+    "AI-assisted development"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": [
+    "French language fluency required"
+  ]
+}

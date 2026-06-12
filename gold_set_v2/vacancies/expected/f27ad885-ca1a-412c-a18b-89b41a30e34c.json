@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Embedded Software Developer",
+    "uk": "Embedded розробник"
+  },
+  "role_title_raw": "Embedded Software Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "C",
+    "C++",
+    "embedded firmware",
+    "ARM Cortex-M",
+    "UART",
+    "SPI",
+    "I2C",
+    "CAN",
+    "sensors integration",
+    "real-time systems",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "ArduPilot",
+    "MAVLink",
+    "DroneCAN",
+    "UAVCAN",
+    "Python"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

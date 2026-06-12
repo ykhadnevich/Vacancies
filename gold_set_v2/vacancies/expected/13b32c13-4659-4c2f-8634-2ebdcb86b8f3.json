@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "13b32c13-4659-4c2f-8634-2ebdcb86b8f3",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "QA",
+    "uk": "QA"
+  },
+  "role_title_raw": "QA (firmware)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "firmware testing",
+    "embedded testing",
+    "hardware QA",
+    "test planning"
+  ],
+  "nice_to_have_skills": [
+    "Python",
+    "bash",
+    "Linux"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

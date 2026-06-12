@@ -1,0 +1,62 @@
+[
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_ids": [
+      "05f8724b-1999-4847-875e-6eff702c5eae"
+    ]
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_ids": [
+      "6148a8b1-eb6b-4744-9c14-45672c0654ee"
+    ]
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_ids": [
+      "7f9ceb65-f457-4999-a112-365a1005f191"
+    ]
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_ids": [
+      "b81c5a4d-bc82-440a-a8ba-84129682ca16"
+    ]
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_ids": [
+      "7d309556-2e31-465a-a802-6a405051875d"
+    ]
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_ids": [
+      "30860e73-5ce6-4455-bde6-6a3799713735"
+    ]
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_ids": [
+      "3dc10175-c589-40ac-a2cc-e6b7351b94be"
+    ]
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_ids": [
+      "3719c00a-f57e-4827-abd2-c9030c06d52f"
+    ]
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_ids": [
+      "738933d5-c8bb-4d76-9050-aed91775329d"
+    ]
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_ids": [
+      "a80fa449-881d-418a-9fbf-647eb9458e41"
+    ]
+  }
+]

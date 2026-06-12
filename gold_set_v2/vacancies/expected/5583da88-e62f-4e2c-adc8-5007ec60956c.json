@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "5583da88-e62f-4e2c-adc8-5007ec60956c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Android Developer",
+    "uk": "Junior Android розробник"
+  },
+  "role_title_raw": "Junior Android Developer (Gambling)",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "fast pipeline development",
+    "Android",
+    "Coroutines",
+    "Clean Architecture",
+    "Firebase",
+    "MVVM"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": [
+    "gambling vertical"
+  ]
+}

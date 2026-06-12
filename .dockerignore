@@ -1,0 +1,67 @@
+# ----------------------------------------------------------------------------
+# .dockerignore — keep the build context small. Anything matched here is NOT
+# uploaded to the Docker daemon when `docker build` runs, which both speeds
+# up builds and avoids accidentally baking secrets / dev artifacts into the
+# image.
+# ----------------------------------------------------------------------------
+
+# .NET build outputs
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# IDEs
+**/.vs/
+**/.idea/
+**/*.user
+**/*.suo
+**/*.userosscache
+
+# Tests + eval artifacts (not needed in runtime image)
+**/Application.Tests/
+**/Domain.Tests/
+**/Infrastructure.Tests/
+results/
+eval_history/
+gold_set/
+gold_set_v2/
+EvalTool/bin/
+EvalTool/obj/
+
+# Python ML service is decoupled in production
+MLService/
+ml/
+
+# Frontend — built and deployed separately to S3 + CloudFront
+frontend/
+
+# Local dev artifacts
+**/.env
+**/.env.*
+appsettings.Development.json
+appsettings.Production.json
+Backup/
+src/
+
+# Docs + handoffs (don't bake into image)
+*.md
+docs/
+PROMPT_FOR_NEXT_CHAT.md
+UpgradeLog.htm
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Stray dev files
+output.log
+truncate.sql
+db_fix_*.sql
+setup_db.sql
+
+# OS junk
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini

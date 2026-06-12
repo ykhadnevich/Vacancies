@@ -1,0 +1,40 @@
+[
+  {
+    "cv_id": "3_junior_designer_career_switcher",
+    "vacancy_ids": [
+      "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+      "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+      "f12c7a06-9702-45ca-b20c-504afa184bc4",
+      "b1e435b2-21fe-4628-b239-0a945b66811e",
+      "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+      "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+      "2ca61d84-5691-41a7-a4e8-b2601e8f3458"
+    ]
+  },
+  {
+    "cv_id": "6_devops_junior",
+    "vacancy_ids": [
+      "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+      "b97a4400-92c0-45ef-a310-f77229ee28b5",
+      "fd125a93-ce97-4995-abce-547c10bbdead",
+      "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+      "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+      "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+      "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "30100c1f-f7eb-4d38-90f6-1eb69f9013d0"
+    ]
+  },
+  {
+    "cv_id": "6_hr_recruiter_generic",
+    "vacancy_ids": [
+      "03019334-1f10-4736-a42a-009422d3ff61",
+      "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+      "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+      "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+      "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+      "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+      "bf3c13b6-3f30-416b-997a-2e3eced40e98"
+    ]
+  }
+]

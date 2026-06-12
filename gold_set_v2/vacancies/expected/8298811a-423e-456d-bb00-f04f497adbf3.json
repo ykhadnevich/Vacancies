@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "SQL / Data Engineer",
+    "uk": "SQL / Data Engineer"
+  },
+  "role_title_raw": "SQL/Data Engineer (L2)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SQL",
+    "data pipelines",
+    "data quality",
+    "monitoring",
+    "Snowflake",
+    "Databricks",
+    "Power BI",
+    "SQL Server",
+    "Python"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

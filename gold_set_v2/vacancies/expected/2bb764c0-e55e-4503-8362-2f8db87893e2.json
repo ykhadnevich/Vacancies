@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "2bb764c0-e55e-4503-8362-2f8db87893e2",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Software Architect / Product Architect",
+    "uk": "Software Architect / Product Architect"
+  },
+  "role_title_raw": "Product Architect ID64562",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "software architecture",
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "system design",
+    "code review"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

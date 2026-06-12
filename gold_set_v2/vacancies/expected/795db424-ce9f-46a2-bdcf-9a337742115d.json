@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "795db424-ce9f-46a2-bdcf-9a337742115d",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Scientist",
+    "uk": "Data Scientist"
+  },
+  "role_title_raw": "Data Scientist (ЗСУ)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "visualization",
+    "high-load AI projects",
+    "pandas",
+    "NumPy",
+    "matplotlib",
+    "scikit-learn",
+    "BI",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "ETL",
+    "RAG"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": [
+    "military service position"
+  ]
+}

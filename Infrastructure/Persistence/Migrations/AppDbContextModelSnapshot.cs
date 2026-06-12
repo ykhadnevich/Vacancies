@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
+using Pgvector;
 
 #nullable disable
 
@@ -17,9 +18,10 @@ namespace Infrastructure.Persistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0")
+                .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
+            NpgsqlModelBuilderExtensions.HasPostgresExtension(modelBuilder, "vector");
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
             modelBuilder.Entity("Domain.Entities.ApplicationTracker", b =>
@@ -31,10 +33,25 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<DateTime>("AddedAt")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<DateTime?>("AnalyzedAt")
+                        .HasColumnType("timestamp without time zone");
+
                     b.Property<string>("Company")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("character varying(200)");
+
+                    b.Property<string>("CvFileName")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("GapsEn")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<string>("GapsUk")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
 
                     b.Property<bool>("IsManuallyAdded")
                         .HasColumnType("boolean");
@@ -42,13 +59,36 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<Guid?>("JobVacancyId")
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Location")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
                     b.Property<string>("Notes")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<string>("PipelineVersion")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("ReasonShort")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<string>("RecommendationEn")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<string>("RecommendationUk")
                         .HasMaxLength(2000)
                         .HasColumnType("character varying(2000)");
 
                     b.Property<string>("Salary")
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
+
+                    b.Property<double?>("Score")
+                        .HasColumnType("double precision");
 
                     b.Property<string>("SeniorityLevel")
                         .IsRequired()
@@ -57,6 +97,14 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<string>("StrengthsEn")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<string>("StrengthsUk")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -74,10 +122,30 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Verdict")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("_matchedSkills")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("MatchedSkills");
+
+                    b.Property<string>("_missingMustHaves")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("MissingMustHaves");
+
                     b.Property<string>("_pipelineSteps")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("PipelineSteps");
+
+                    b.Property<string>("_subScores")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("SubScores");
+
+                    b.Property<string>("_triggeredAntiFlags")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("TriggeredAntiFlags");
 
                     b.HasKey("Id");
 
@@ -88,6 +156,202 @@ namespace Infrastructure.Persistence.Migrations
                     b.ToTable("Applications");
                 });
 
+            modelBuilder.Entity("Domain.Entities.AuditEntry", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasMaxLength(128)
+                        .HasColumnType("varchar(128)");
+
+                    b.Property<Guid?>("EntityId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("EntityType")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<string>("IpAddress")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<string>("Outcome")
+                        .IsRequired()
+                        .HasMaxLength(32)
+                        .HasColumnType("varchar(32)");
+
+                    b.Property<string>("PayloadJson")
+                        .HasColumnType("jsonb");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("UserAgent")
+                        .HasMaxLength(512)
+                        .HasColumnType("varchar(512)");
+
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Timestamp")
+                        .HasDatabaseName("ix_audit_entries_timestamp");
+
+                    b.HasIndex("UserId", "Timestamp")
+                        .HasDatabaseName("ix_audit_entries_user_timestamp");
+
+                    b.HasIndex("EntityType", "EntityId", "Timestamp")
+                        .HasDatabaseName("ix_audit_entries_entity_timestamp");
+
+                    b.ToTable("AuditEntries", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.CandidateList", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<Guid>("RecruiterUserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RecruiterUserId", "CreatedAt")
+                        .HasDatabaseName("ix_candidate_lists_recruiter_created");
+
+                    b.ToTable("CandidateLists", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.CandidateListMembership", b =>
+                {
+                    b.Property<Guid>("CandidateListId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("RecruiterCandidateId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("AddedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("CandidateListId", "RecruiterCandidateId");
+
+                    b.HasIndex("RecruiterCandidateId")
+                        .HasDatabaseName("ix_candidate_list_memberships_candidate");
+
+                    b.ToTable("CandidateListMemberships", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.CandidateScore", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("RecruiterCandidateId")
+                        .HasColumnType("uuid");
+
+                    b.Property<double>("Score")
+                        .HasColumnType("double precision");
+
+                    b.Property<DateTime>("ScoredAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ScoringResultJson")
+                        .IsRequired()
+                        .HasColumnType("jsonb");
+
+                    b.Property<string>("ScoringVersion")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("varchar(256)");
+
+                    b.Property<Guid>("VacancyId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VacancyId", "RecruiterCandidateId")
+                        .IsUnique()
+                        .HasDatabaseName("ux_candidate_scores_vacancy_candidate");
+
+                    b.HasIndex("VacancyId", "Score")
+                        .HasDatabaseName("ix_candidate_scores_vacancy_score");
+
+                    b.ToTable("CandidateScores", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.GeminiCostLogEntry", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Calls")
+                        .HasColumnType("integer");
+
+                    b.Property<double>("CostUsd")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("DurationMs")
+                        .HasColumnType("double precision");
+
+                    b.Property<long>("InputTokens")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Keywords")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<long>("OutputTokens")
+                        .HasColumnType("bigint");
+
+                    b.Property<Guid>("RequestId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("RequestKind")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("character varying(64)");
+
+                    b.Property<string>("Stage")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("character varying(64)");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RequestId");
+
+                    b.HasIndex("Timestamp");
+
+                    b.ToTable("GeminiCostLog", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.JobVacancy", b =>
                 {
                     b.Property<Guid>("Id")
@@ -96,6 +360,9 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<DateTime>("AggregatedAt")
                         .HasColumnType("timestamp without time zone");
+
+                    b.Property<int?>("ApplicantCount")
+                        .HasColumnType("integer");
 
                     b.Property<Guid?>("CanonicalJobId")
                         .HasColumnType("uuid");
@@ -112,6 +379,9 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
+                    b.Property<Vector>("Embedding")
+                        .HasColumnType("vector(768)");
+
                     b.Property<bool>("IsDuplicate")
                         .HasColumnType("boolean");
 
@@ -122,8 +392,14 @@ namespace Infrastructure.Persistence.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("character varying(200)");
 
+                    b.Property<Guid?>("OwnerUserId")
+                        .HasColumnType("uuid");
+
                     b.Property<DateTime>("PublishedAt")
                         .HasColumnType("timestamp without time zone");
+
+                    b.Property<bool?>("RecruiterRespondsQuickly")
+                        .HasColumnType("boolean");
 
                     b.Property<string>("SeniorityLevel")
                         .IsRequired()
@@ -142,6 +418,22 @@ namespace Infrastructure.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("VacancyAnalysisJson")
+                        .HasColumnType("text");
+
+                    b.Property<string>("VacancyAnalysisModelVersion")
+                        .HasMaxLength(64)
+                        .HasColumnType("character varying(64)");
+
+                    b.Property<DateTime?>("VacancyAnalyzedAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("VacancyExpansionVersion")
+                        .HasColumnType("text");
+
+                    b.Property<string>("VacancyMustHavesExpanded")
+                        .HasColumnType("text");
+
                     b.Property<string>("WorkFormat")
                         .IsRequired()
                         .HasColumnType("text");
@@ -150,11 +442,67 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.HasIndex("Company");
 
+                    b.HasIndex("OwnerUserId")
+                        .HasDatabaseName("ix_job_vacancies_owner")
+                        .HasFilter("\"OwnerUserId\" IS NOT NULL");
+
                     b.HasIndex("PublishedAt");
 
                     b.HasIndex("Source");
 
                     b.ToTable("JobVacancies");
+                });
+
+            modelBuilder.Entity("Domain.Entities.RecruiterCandidate", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("AddedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("CandidateName")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("CvHash")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<string>("CvNormalizedJson")
+                        .HasColumnType("jsonb");
+
+                    b.Property<string>("CvRawText")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("LastError")
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("NormalizationModelVersion")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<Guid>("RecruiterUserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RecruiterUserId", "AddedAt")
+                        .HasDatabaseName("ix_recruiter_candidates_recruiter_added");
+
+                    b.HasIndex("RecruiterUserId", "CvHash")
+                        .HasDatabaseName("ix_recruiter_candidates_recruiter_hash");
+
+                    b.ToTable("RecruiterCandidates", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.SavedUrl", b =>
@@ -164,8 +512,8 @@ namespace Infrastructure.Persistence.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Alias")
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp without time zone");
@@ -189,6 +537,112 @@ namespace Infrastructure.Persistence.Migrations
                     b.ToTable("SavedUrls");
                 });
 
+            modelBuilder.Entity("Domain.Entities.ScoringCacheEntry", b =>
+                {
+                    b.Property<string>("CvHash")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<Guid>("VacancyId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ScoringVersion")
+                        .HasMaxLength(256)
+                        .HasColumnType("varchar(256)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("GapsEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("GapsUk")
+                        .HasColumnType("text");
+
+                    b.Property<double?>("JudgeScore")
+                        .HasColumnType("double precision");
+
+                    b.Property<int?>("JudgeVerdict")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MonoResultJson")
+                        .HasColumnType("jsonb");
+
+                    b.Property<string>("RecommendationEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("RecommendationUk")
+                        .HasColumnType("text");
+
+                    b.Property<string>("StrengthsEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("StrengthsUk")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("CvHash", "VacancyId", "ScoringVersion");
+
+                    b.HasIndex("CreatedAt")
+                        .HasDatabaseName("ix_scoring_cache_created");
+
+                    b.HasIndex("VacancyId", "ScoringVersion")
+                        .HasDatabaseName("ix_scoring_cache_vacancy_version");
+
+                    b.ToTable("ScoringCache", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.SkillVocabularyEntry", b =>
+                {
+                    b.Property<string>("CanonicalLower")
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Canonical")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<decimal>("Confidence")
+                        .HasColumnType("numeric(3,2)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Domain")
+                        .IsRequired()
+                        .HasMaxLength(32)
+                        .HasColumnType("varchar(32)");
+
+                    b.Property<string>("ModelVersion")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<string>("Source")
+                        .IsRequired()
+                        .HasMaxLength(32)
+                        .HasColumnType("varchar(32)");
+
+                    b.Property<string>("SynonymsJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("CanonicalLower");
+
+                    b.HasIndex("CreatedAt")
+                        .HasDatabaseName("ix_skill_vocab_created");
+
+                    b.HasIndex("Domain")
+                        .HasDatabaseName("ix_skill_vocab_domain");
+
+                    b.ToTable("SkillVocabulary", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.UserProfile", b =>
                 {
                     b.Property<Guid>("Id")
@@ -202,12 +656,36 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<Vector>("CvEmbedding")
+                        .HasColumnType("vector(768)");
+
+                    b.Property<string>("CvFileKey")
+                        .HasMaxLength(512)
+                        .HasColumnType("character varying(512)");
+
                     b.Property<string>("CvFileUrl")
                         .HasMaxLength(500)
                         .HasColumnType("character varying(500)");
 
                     b.Property<string>("CvRawText")
                         .HasColumnType("text");
+
+                    b.Property<string>("CvSkillsExpanded")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CvSkillsExpansionVersion")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CvSummary")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CvSummaryModelVersion")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("CvVersionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasDefaultValueSql("gen_random_uuid()");
 
                     b.Property<string>("DisplayName")
                         .HasMaxLength(100)
@@ -218,13 +696,13 @@ namespace Infrastructure.Persistence.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("character varying(256)");
 
+                    b.Property<decimal?>("ExpectedSalary")
+                        .HasColumnType("numeric");
+
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
-
-                    b.Property<decimal?>("ExpectedSalary")
-                        .HasColumnType("numeric");
 
                     b.Property<string>("PreferredLocation")
                         .HasMaxLength(200)
@@ -233,6 +711,11 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<string>("PreferredWorkFormat")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int>("Role")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
 
                     b.Property<string>("SeniorityLevel")
                         .IsRequired()
@@ -251,6 +734,76 @@ namespace Infrastructure.Persistence.Migrations
                         .IsUnique();
 
                     b.ToTable("UserProfiles");
+                });
+
+            modelBuilder.Entity("Domain.Entities.UserSearchSnapshot", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("ExecutedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Keywords")
+                        .IsRequired()
+                        .HasMaxLength(512)
+                        .HasColumnType("varchar(512)");
+
+                    b.Property<string>("QueryHash")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<string>("ResponseJson")
+                        .IsRequired()
+                        .HasColumnType("jsonb");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExecutedAt")
+                        .HasDatabaseName("ix_user_search_snapshots_executed");
+
+                    b.HasIndex("UserId", "QueryHash")
+                        .IsUnique()
+                        .HasDatabaseName("ux_user_search_snapshots_user_query");
+
+                    b.ToTable("UserSearchSnapshots", (string)null);
+                });
+
+            modelBuilder.Entity("Infrastructure.Persistence.Entities.RelevanceExplanation", b =>
+                {
+                    b.Property<Guid>("CvVersionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("JobId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("GeneratedAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("ModelVersion")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<float>("Score")
+                        .HasColumnType("real");
+
+                    b.HasKey("CvVersionId", "JobId");
+
+                    b.HasIndex("CvVersionId");
+
+                    b.HasIndex("JobId");
+
+                    b.ToTable("RelevanceExplanations", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.JobVacancy", b =>

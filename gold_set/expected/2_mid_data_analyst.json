@@ -1,0 +1,108 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "Data Analyst",
+    "Product Analyst",
+    "BI Analyst"
+  ],
+  "domain_skills": [
+    "SQL",
+    "Cohort analysis",
+    "Funnel decomposition",
+    "Product analytics",
+    "Amplitude",
+    "Tableau",
+    "Self-service dashboards",
+    "Marketing attribution",
+    "dbt",
+    "Data modeling",
+    "Snowflake",
+    "Mode Analytics",
+    "Python",
+    "pandas",
+    "scipy",
+    "PostgreSQL",
+    "Looker",
+    "Excel",
+    "Vintage analysis",
+    "Power BI"
+  ],
+  "technical_skills": [
+    "BigQuery",
+    "Redshift",
+    "Metabase",
+    "Mixpanel",
+    "Google Analytics 4",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "Star schema",
+    "Dimensional modeling",
+    "A/B test design",
+    "Sample size",
+    "MDE",
+    "Sequential testing",
+    "z-tests",
+    "Mann-Whitney",
+    "Correlation",
+    "Regression",
+    "Survival analysis",
+    "Git",
+    "Jira",
+    "Notion"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Selecta Online",
+      "type": "PRODUCTION",
+      "duration_months": 27,
+      "years_ago": 0
+    },
+    {
+      "title": "Monobank (Universal Bank)",
+      "type": "PRODUCTION",
+      "duration_months": 17,
+      "years_ago": 2
+    },
+    {
+      "title": "Kernel Trade",
+      "type": "INTERNSHIP",
+      "duration_months": 2,
+      "years_ago": 4
+    },
+    {
+      "title": "Personal Tableau Public profile",
+      "type": "PET_PROJECT",
+      "duration_months": 6,
+      "years_ago": 0
+    },
+    {
+      "title": "Microblog у Substack",
+      "type": "PET_PROJECT",
+      "duration_months": 6,
+      "years_ago": 0
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Applied Statistics",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2022
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

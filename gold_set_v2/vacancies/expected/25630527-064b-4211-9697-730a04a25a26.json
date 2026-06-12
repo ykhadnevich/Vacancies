@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "25630527-064b-4211-9697-730a04a25a26",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Data Analyst",
+    "uk": "Middle Data Analyst"
+  },
+  "role_title_raw": "Middle Data Analyst",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SQL",
+    "product analytics",
+    "BI",
+    "data visualization",
+    "Python",
+    "Matplotlib",
+    "Agile",
+    "data analysis"
+  ],
+  "nice_to_have_skills": [
+    "Databricks",
+    "cloud"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "AdTech",
+    "uk": "AdTech"
+  },
+  "anti_requirements": []
+}

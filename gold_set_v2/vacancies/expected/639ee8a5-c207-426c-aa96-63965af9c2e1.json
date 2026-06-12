@@ -1,0 +1,55 @@
+{
+  "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior DevOps",
+    "uk": "Senior DevOps"
+  },
+  "role_title_raw": "Senior DevOps engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "CI/CD",
+    "Linux",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Terraform",
+    "Bash",
+    "containers",
+    "Helm",
+    "cloud",
+    "IaC",
+    "Ansible",
+    "GCP",
+    "VPC",
+    "Python",
+    "Prometheus",
+    "Grafana",
+    "Elasticsearch",
+    "HAProxy",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Redis",
+    "RabbitMQ",
+    "Kafka"
+  ],
+  "nice_to_have_skills": [
+    "high-load systems"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

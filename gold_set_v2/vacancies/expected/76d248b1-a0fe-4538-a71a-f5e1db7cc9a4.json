@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "76d248b1-a0fe-4538-a71a-f5e1db7cc9a4",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Data Analyst",
+    "uk": "Junior Data Analyst"
+  },
+  "role_title_raw": "Junior Data Analyst (Ohayu at Genesis)",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "SQL",
+    "data analysis",
+    "product analytics",
+    "Tableau"
+  ],
+  "nice_to_have_skills": [
+    "Python",
+    "JavaScript",
+    "Amplitude"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "telecom",
+    "uk": "телеком"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "912d23f3-8459-4b3d-8d46-d7d6e62b322c",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Full-Stack Developer (React Native + Node.js)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "React Native",
+    "Node.js",
+    "Express.js",
+    "REST API",
+    "AppsFlyer",
+    "PostHog",
+    "Amplitude",
+    "mobile analytics",
+    "JavaScript",
+    "Express",
+    "PostgreSQL",
+    "MongoDB",
+    "Firebase"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD",
+    "ChatGPT"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

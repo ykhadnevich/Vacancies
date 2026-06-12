@@ -1,0 +1,29 @@
+{
+  "vacancy_id": "eed0122a-4452-438f-bf05-a25257066b12",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "MarTech",
+    "uk": "MarTech"
+  },
+  "anti_requirements": []
+}

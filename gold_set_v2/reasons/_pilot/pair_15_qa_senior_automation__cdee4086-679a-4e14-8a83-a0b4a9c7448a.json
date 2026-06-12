@@ -1,0 +1,217 @@
+{
+  "cv_id": "15_qa_senior_automation",
+  "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+  "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+      "QA Lead",
+      "Senior SDET",
+      "Test Architect"
+    ],
+    "domain_skills": [
+      "Playwright",
+      "Selenium WebDriver",
+      "Appium",
+      "Cucumber",
+      "Java",
+      "TypeScript",
+      "Python",
+      "pytest",
+      "TestNG",
+      "JUnit",
+      "RestAssured",
+      "Postman",
+      "Newman",
+      "API testing",
+      "JMeter",
+      "GitLab CI",
+      "Jenkins",
+      "GitHub Actions",
+      "Docker",
+      "Page Object Model",
+      "Test pyramid design",
+      "BDD",
+      "Shift-left QA",
+      "Exploratory testing",
+      "Jira",
+      "Zephyr",
+      "TestRail",
+      "Allure",
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "Maven"
+    ],
+    "technical_skills": [
+      "Cypress",
+      "Gatling",
+      "Grafana",
+      "Groovy",
+      "Bash",
+      "MongoDB",
+      "Kafka",
+      "Wiremock",
+      "Pact"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "Ajax Systems",
+        "type": "PRODUCTION",
+        "duration_months": 42,
+        "years_ago": 0
+      },
+      {
+        "title": "EPAM",
+        "type": "PRODUCTION",
+        "duration_months": 31,
+        "years_ago": 4
+      },
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 18,
+        "years_ago": 6
+      },
+      {
+        "title": "Luxoft",
+        "type": "PRODUCTION",
+        "duration_months": 13,
+        "years_ago": 8
+      },
+      {
+        "title": "Datrics",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 9
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Engineering",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2017
+    },
+    "english_level": "B2",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "Russian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "B2"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Senior Python QA Automation",
+      "uk": "Senior Python QA Automation"
+    },
+    "role_title_raw": "Python QA Automation Engineer (Web + Mobile)",
+    "seniority_required": "senior",
+    "must_have_skills": [
+      "Python",
+      "Selenium",
+      "Appium",
+      "PyTest",
+      "test automation frameworks",
+      "test automation"
+    ],
+    "nice_to_have_skills": [
+      "Playwright",
+      "Jenkins",
+      "GitHub Actions"
+    ],
+    "min_years_experience": null,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": true,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "e-commerce",
+      "uk": "e-commerce"
+    },
+    "anti_requirements": [
+      "3-6 month contract"
+    ]
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.7925,
+      "reason_en": "Cross-domain transition. Strong match. Strengths: Appium, PyTest. Gaps: Selenium, Python test automation.",
+      "reason_uk": "Перехід між доменами. Сильна відповідність. Переваги: Appium, PyTest. Брак: Selenium, Python test automation.",
+      "evidence": {
+        "matched_skills": [
+          "Appium",
+          "PyTest",
+          "Playwright",
+          "Jenkins",
+          "GitHub Actions"
+        ],
+        "missing_must_haves": [
+          "Python test automation",
+          "Selenium",
+          "test automation frameworks"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.8615000000000002,
+      "reason_en": "Strong match. Strengths: Python, Appium. Gaps: missing Selenium, test automation frameworks.",
+      "reason_uk": "Сильна відповідність. Переваги: Python, Appium. Брак: немає Selenium, test automation frameworks.",
+      "evidence": {
+        "matched_skills": [
+          "Python",
+          "Appium",
+          "PyTest",
+          "Playwright",
+          "Jenkins",
+          "GitHub Actions"
+        ],
+        "missing_must_haves": [
+          "Selenium",
+          "test automation frameworks"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.8615000000000002,
+      "reason_en": "Strong match. Strengths: Python, Appium. Gaps: missing Selenium, test automation frameworks.",
+      "reason_uk": "Сильна відповідність. Переваги: Python, Appium. Брак: немає Selenium, test automation frameworks.",
+      "evidence": {
+        "matched_skills": [
+          "Python",
+          "Appium",
+          "PyTest",
+          "Playwright",
+          "Jenkins",
+          "GitHub Actions"
+        ],
+        "missing_must_haves": [
+          "Selenium",
+          "test automation frameworks"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

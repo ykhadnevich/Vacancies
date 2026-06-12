@@ -1,0 +1,87 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "HR Recruiter",
+    "IT Recruiter",
+    "Talent Acquisition Manager"
+  ],
+  "domain_skills": [
+    "Full-cycle recruitment",
+    "Tech sourcing",
+    "Boolean search",
+    "LinkedIn Recruiter",
+    "X-Ray search",
+    "Sales Navigator",
+    "Hunter.io",
+    "Apollo.io",
+    "Lemon.io",
+    "Djinni",
+    "Greenhouse",
+    "Workable",
+    "Lever",
+    "ATS migration",
+    "Candidate screening",
+    "Hiring manager calibration",
+    "Compensation benchmarking",
+    "Employer branding",
+    "Candidate experience",
+    "Time-to-hire optimization",
+    "Notion",
+    "Slack",
+    "Google Sheets",
+    "Excel"
+  ],
+  "technical_skills": [
+    "AmazingHiring",
+    "Loom",
+    "Pivot tables"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Restream",
+      "type": "PRODUCTION",
+      "duration_months": 28,
+      "years_ago": 0
+    },
+    {
+      "title": "TechMagic",
+      "type": "PRODUCTION",
+      "duration_months": 10,
+      "years_ago": 2
+    },
+    {
+      "title": "OLX Group Ukraine",
+      "type": "PRODUCTION",
+      "duration_months": 7,
+      "years_ago": 3
+    },
+    {
+      "title": "Genesis Investments",
+      "type": "INTERNSHIP",
+      "duration_months": 2,
+      "years_ago": 4
+    }
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Psychology",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2022
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

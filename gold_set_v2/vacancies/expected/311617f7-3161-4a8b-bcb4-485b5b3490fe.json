@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "311617f7-3161-4a8b-bcb4-485b5b3490fe",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Device QA",
+    "uk": "Device QA"
+  },
+  "role_title_raw": "Device QA Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "hardware testing",
+    "device QA",
+    "security systems",
+    "manual testing"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Tech Lead .NET Developer",
+    "uk": "Tech Lead .NET розробник"
+  },
+  "role_title_raw": "Tech Lead .NET Developer у продуктову компанію",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "architecture",
+    "high-load systems",
+    "team leadership"
+  ],
+  "nice_to_have_skills": [
+    "Azure"
+  ],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

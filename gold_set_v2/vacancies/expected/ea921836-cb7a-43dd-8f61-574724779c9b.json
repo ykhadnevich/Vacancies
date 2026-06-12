@@ -1,0 +1,31 @@
+{
+  "vacancy_id": "ea921836-cb7a-43dd-8f61-574724779c9b",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Android Developer",
+    "uk": "Senior Android розробник"
+  },
+  "role_title_raw": "Senior Android (Kotlin) Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "Android"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "d3619987-777c-41c9-a7b0-794be197f391",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Machine Learning Engineer",
+    "uk": "Junior Machine Learning інженер"
+  },
+  "role_title_raw": "Junior Machine Learning Engineer",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "Python",
+    "ML basics",
+    "data pipelines",
+    "deployment",
+    "ML",
+    "computer vision",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "Airflow",
+    "Kafka",
+    "BigQuery",
+    "dbt",
+    "FastAPI",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "API"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

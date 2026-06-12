@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "6f0c7789-99d6-420f-b1c4-1e9a9951bbd4",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Embedded QA",
+    "uk": "Embedded QA"
+  },
+  "role_title_raw": "Embedded QA Engineer (Warsaw)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "embedded testing",
+    "firmware testing",
+    "IoT testing",
+    "API testing",
+    "hardware QA",
+    "Jira"
+  ],
+  "nice_to_have_skills": [
+    "Linux"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Warsaw",
+    "city_uk": "Варшава",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "hybrid Warsaw"
+  ]
+}

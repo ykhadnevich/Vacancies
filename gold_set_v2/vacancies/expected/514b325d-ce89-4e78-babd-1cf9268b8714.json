@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Backend Developer",
+    "uk": "Senior .NET Backend розробник"
+  },
+  "role_title_raw": "Senior Software Engineer (.NET Backend) in Thunderbolt (#1177)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET 8",
+    "ASP.NET Core",
+    "PostgreSQL",
+    "Entity Framework Core",
+    "Redis",
+    "microservices",
+    ".NET",
+    "caching",
+    "Docker",
+    "EF Core"
+  ],
+  "nice_to_have_skills": [
+    "AWS S3",
+    "Docker",
+    "JWT",
+    "Google Auth",
+    "LocalStack",
+    "CI/CD",
+    "Jenkins"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

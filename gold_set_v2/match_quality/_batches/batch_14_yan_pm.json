@@ -1,0 +1,158 @@
+{
+  "batch_idx": 14,
+  "cv_id": "yan_pm",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+      "match_quality": 2,
+      "rationale": "PM/PO energy domain (EMS/BESS/PV/VPP) + Azure DevOps — domain too specific + 0y prod exp."
+    },
+    {
+      "vacancy_id": "99e2c825-164a-4a60-9100-b16472b835e5",
+      "match_quality": 2,
+      "rationale": "PMM 4y B2B international sales — marketing role + 4y exp gap (CV 0y)."
+    },
+    {
+      "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+      "match_quality": 2,
+      "rationale": "Inbound Marketing Manager middle 3y — marketing role + 3y exp gap."
+    },
+    {
+      "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+      "match_quality": 4,
+      "rationale": "PM B2B SaaS 4y — strong PM toolkit match (CV has hypothesis/roadmap/A/B/Analytics) but 4y exp expectation."
+    },
+    {
+      "vacancy_id": "16899fdd-9080-444d-b6f1-0f84a096a608",
+      "match_quality": 10,
+      "rationale": "Perfect Junior PM fit: management basics/hypothesis testing/analytics/stakeholder comm — all CV core. Junior ✓ + edtech transferable."
+    },
+    {
+      "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+      "match_quality": 6,
+      "rationale": "Junior PMM 1y — close to junior level. Marketing funnels/hypothesis/analytics/AI tools match but marketing focus differs from PM."
+    },
+    {
+      "vacancy_id": "1f3b8b6e-c937-4511-8f1f-30c4df4f4fec",
+      "match_quality": 2,
+      "rationale": "PMM B2B SaaS 3y C1 — Marketing role + experience expectation."
+    },
+    {
+      "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+      "match_quality": 4,
+      "rationale": "MarTech PM 4y — A/B testing in CV but smartlink/affiliate domain + 4y exp gap."
+    },
+    {
+      "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+      "match_quality": 4,
+      "rationale": "PM 4y monetization/subscription/unit economics — unit economics ✓ in CV but 4y exp expectation."
+    },
+    {
+      "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+      "match_quality": 6,
+      "rationale": "PM mobile-first/AI tooling/hypothesis testing — mobile PM matches CV target_role! 3y exp gap moderate."
+    },
+    {
+      "vacancy_id": "2bb764c0-e55e-4503-8362-2f8db87893e2",
+      "match_quality": 2,
+      "rationale": "Software Architect 7y PHP/MySQL — different role + dramatic exp gap."
+    },
+    {
+      "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+      "match_quality": 4,
+      "rationale": "PM fintech accounting 3y — customer research/hypothesis/A/B in CV but 3y exp + accounting specific."
+    },
+    {
+      "vacancy_id": "00d0ccdb-07a0-49a3-a691-efa93961fa2c",
+      "match_quality": 2,
+      "rationale": "PM e-comm 3y C1 + ANTI US PST timezone — multiple blockers."
+    },
+    {
+      "vacancy_id": "2ca61d84-5691-41a7-a4e8-b2601e8f3458",
+      "match_quality": 6,
+      "rationale": "UA/ASO Manager — mobile growth/unit economics (in CV)/performance marketing. Mobile focus matches CV target_role. 3y exp moderate gap."
+    },
+    {
+      "vacancy_id": "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+      "match_quality": 8,
+      "rationale": "Junior PM iGaming — basics/funnel/hypothesis/analytics all in CV. Junior ✓. iGaming domain specific but role-level fit strong."
+    },
+    {
+      "vacancy_id": "0806777a-efc2-420b-9295-44b1de798eb9",
+      "match_quality": 0,
+      "rationale": "Senior PMM 5y B2B SaaS — Marketing role + senior level."
+    },
+    {
+      "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+      "match_quality": 4,
+      "rationale": "PM HRTech 4y — toolkit match but 4y exp + HRTech specific."
+    },
+    {
+      "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+      "match_quality": 6,
+      "rationale": "Junior/Middle PMM 1y B1 — A/B/funnels/monetization/market research in CV. Close to junior level."
+    },
+    {
+      "vacancy_id": "17706215-f00e-48f6-852d-588f3b210bed",
+      "match_quality": 0,
+      "rationale": "CEO for B2C lead 7y — executive level, 0y candidate cannot apply."
+    },
+    {
+      "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+      "match_quality": 4,
+      "rationale": "PO crypto 3y — backlog mgmt/Agile in CV but 3y exp + crypto/PSP specific."
+    },
+    {
+      "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+      "match_quality": 10,
+      "rationale": "Perfect Junior PM edtech: basics/hypothesis/analytics/stakeholder comm — all in CV. Junior 1y matches 0y career switcher."
+    },
+    {
+      "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+      "match_quality": 2,
+      "rationale": "Senior PM/PO iGaming 4y — senior + 4y exp + iGaming aggregator specific."
+    },
+    {
+      "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+      "match_quality": 4,
+      "rationale": "PM logistics 4y international C2C — 4y exp gap + logistics domain."
+    },
+    {
+      "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+      "match_quality": 0,
+      "rationale": "Creative Marketing Manager — different role."
+    },
+    {
+      "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+      "match_quality": 4,
+      "rationale": "Payment PM fintech 4y — 4y exp + payment systems/banking specific."
+    },
+    {
+      "vacancy_id": "a7d2295c-6344-421c-a07b-0e2d8ffb3877",
+      "match_quality": 0,
+      "rationale": "Senior PM iGaming 5y C1 — senior + 5y exp + iGaming specific."
+    },
+    {
+      "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+      "match_quality": 2,
+      "rationale": "Senior PM e-comm 4y D2C Tier-1 — senior + 4y exp + Tier-1 markets focus."
+    },
+    {
+      "vacancy_id": "e7009e48-85a2-4062-9edb-2e6a02878203",
+      "match_quality": 0,
+      "rationale": "Senior PM DefTech 5y drone/NATO — military domain + senior level."
+    },
+    {
+      "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+      "match_quality": 2,
+      "rationale": "SMM Manager 2y — Marketing role, social media specialist."
+    },
+    {
+      "vacancy_id": "ea48f066-6a13-443f-b34c-263c386fd837",
+      "match_quality": 0,
+      "rationale": "COO executive 5y C1 — executive level, 0y career switcher cannot apply."
+    }
+  ]
+}

@@ -1,8 +1,15 @@
-﻿using MediatR;
+﻿using Application.Common.Auditing;
+using MediatR;
 
 namespace Application.Jobs.Commands.RefreshSavedUrl;
 
-public record RefreshSavedUrlCommand(Guid SavedUrlId) : IRequest<RefreshSavedUrlResult>;
+public record RefreshSavedUrlCommand(Guid SavedUrlId)
+    : IRequest<RefreshSavedUrlResult>, IAuditableRequest, IAuditableEntity
+{
+    public string AuditAction     => "RefreshSavedUrl";
+    public string AuditEntityType => "SavedUrl";
+    public Guid   AuditEntityId   => SavedUrlId;
+}
 
 public class RefreshSavedUrlResult
 {

@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "7f73376b-78a3-457d-9406-17f0e5a9b1f5",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle SDET",
+    "uk": "Middle SDET"
+  },
+  "role_title_raw": "Middle SDET",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    "Unreal Engine",
+    "test automation",
+    "testing frameworks",
+    ".NET",
+    "REST API",
+    "ASP.NET",
+    "EF Core",
+    "Blazor",
+    "JIRA"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD",
+    "JUnit",
+    "GitLab CI",
+    "Jenkins"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

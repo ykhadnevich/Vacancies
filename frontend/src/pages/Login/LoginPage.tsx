@@ -3,11 +3,13 @@ import { useNavigate, Link } from 'react-router-dom'
 import { useMutation } from '@tanstack/react-query'
 import { authApi } from '../../api/authApi'
 import { useAuthStore } from '../../store/authStore'
+import { useT } from '../../i18n/useT'
 
 function LoginPage() {
     const [email, setEmail]       = useState('')
     const [password, setPassword] = useState('')
     const [showPass, setShowPass] = useState(false)
+    const t = useT()
 
     const { login } = useAuthStore()
     const navigate  = useNavigate()
@@ -50,14 +52,14 @@ function LoginPage() {
                 padding: 32,
                 boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
             }}>
-                <h2 style={{ marginBottom: 8, textAlign: 'center', fontSize: 22 }}>Увійти</h2>
+                <h2 style={{ marginBottom: 8, textAlign: 'center', fontSize: 22 }}>{t('auth.signIn')}</h2>
                 <p style={{ textAlign: 'center', color: '#6b7280', fontSize: 14, marginBottom: 24 }}>
-                    З поверненням до Вакансіо
+                    {t('auth.signIn')} — Вакансіо
                 </p>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
 
-                    {/* Email */}
+                    {}
                     <div>
                         <label style={labelStyle}>Email</label>
                         <input
@@ -71,9 +73,9 @@ function LoginPage() {
                         />
                     </div>
 
-                    {/* Password */}
+                    {}
                     <div>
-                        <label style={labelStyle}>Пароль</label>
+                        <label style={labelStyle}>{t('auth.password')}</label>
                         <div style={{ position: 'relative' }}>
                             <input
                                 style={{ ...inputStyle, paddingRight: 44 }}
@@ -81,7 +83,7 @@ function LoginPage() {
                                 value={password}
                                 onChange={e => setPassword(e.target.value)}
                                 onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-                                placeholder="Мінімум 6 символів"
+                                placeholder={t('auth.passwordPlaceholder')}
                                 autoComplete="current-password"
                             />
                             <button
@@ -99,18 +101,18 @@ function LoginPage() {
                         </div>
                     </div>
 
-                    {/* Error */}
+                    {}
                     {mutation.isError && (
                         <p style={{
                             color: '#dc2626', fontSize: 14, margin: 0,
                             background: '#fef2f2', borderRadius: 8,
                             padding: '8px 12px',
                         }}>
-                            Невірний email або пароль
+                            {t('auth.errInvalid')}
                         </p>
                     )}
 
-                    {/* Submit */}
+                    {}
                     <button
                         onClick={handleSubmit}
                         disabled={mutation.isPending || !canSubmit}
@@ -123,13 +125,12 @@ function LoginPage() {
                             transition: 'opacity 0.15s',
                         }}
                     >
-                        {mutation.isPending ? 'Вхід...' : 'Увійти'}
+                        {mutation.isPending ? t('common.loading') : t('auth.signIn')}
                     </button>
 
                     <p style={{ textAlign: 'center', fontSize: 14, color: '#6b7280', margin: 0 }}>
-                        Немає акаунту?{' '}
                         <Link to="/register" style={{ color: '#2563eb', fontWeight: 600 }}>
-                            Зареєструватись
+                            {t('auth.toRegister')}
                         </Link>
                     </p>
                 </div>

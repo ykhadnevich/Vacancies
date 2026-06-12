@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "1a176b19-5ba5-4ca2-8e6a-c5238bf74e6c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "System Administrator",
+    "uk": "Системний адміністратор"
+  },
+  "role_title_raw": "Системний адміністратор",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Windows 10/11",
+    "macOS",
+    "Linux",
+    "TCP/IP",
+    "DHCP",
+    "NAT",
+    "Firewall",
+    "VLAN",
+    "VPN",
+    "IPSec",
+    "WireGuard",
+    "VMware",
+    "Proxmox",
+    "Hyper-V",
+    "SIP",
+    "Active Directory",
+    "RDS",
+    "DNS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": [
+    "onsite only"
+  ]
+}

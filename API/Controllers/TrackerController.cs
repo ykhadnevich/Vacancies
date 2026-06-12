@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers;
 
-public class TrackerController : BaseController
+public sealed class TrackerController : BaseController
 {
     private readonly ICurrentUserService _currentUser;
 

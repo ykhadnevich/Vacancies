@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "SMM Manager",
+    "uk": "SMM Manager"
+  },
+  "role_title_raw": "SMM manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "SMM",
+    "content creation",
+    "copywriting",
+    "social media analytics",
+    "e-commerce or health domain"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

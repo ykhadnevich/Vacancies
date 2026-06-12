@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product management",
+    "roadmap",
+    "stakeholder management",
+    "HRTech domain",
+    "AI features",
+    "Postman",
+    "Swagger",
+    "Agile",
+    "Scrum",
+    "Kanban",
+    "API",
+    "Amplitude"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "HR tech",
+    "uk": "HR tech"
+  },
+  "anti_requirements": []
+}

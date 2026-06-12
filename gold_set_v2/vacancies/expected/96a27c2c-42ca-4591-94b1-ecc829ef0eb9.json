@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Engineer",
+    "uk": "Data Engineer"
+  },
+  "role_title_raw": "Data engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "DWH",
+    "Apache Airflow",
+    "dbt",
+    "ETL",
+    "ELT",
+    "SQL",
+    "Python",
+    "Airflow",
+    "BigQuery"
+  ],
+  "nice_to_have_skills": [
+    "cloud"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

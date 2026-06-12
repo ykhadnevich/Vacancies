@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "1e9c93ce-886a-4f5d-902d-7058ada55541",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Marketing Manager",
+    "uk": "Product Marketing Manager"
+  },
+  "role_title_raw": "Product Marketing Manager",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "product marketing",
+    "positioning",
+    "messaging",
+    "go-to-market",
+    "EdTech marketing",
+    "user research",
+    "Tableau",
+    "Amplitude",
+    "A/B testing",
+    "ownership"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "edtech",
+    "uk": "edtech"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Developer",
+    "uk": "Senior .NET розробник"
+  },
+  "role_title_raw": "Senior/Middle .Net Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET MVC",
+    "ASP.NET Core",
+    "MS SQL",
+    "NoSQL",
+    "Entity Framework",
+    "SQL",
+    "EF Core"
+  ],
+  "nice_to_have_skills": [
+    "Umbraco",
+    "Optimizely",
+    "Azure"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

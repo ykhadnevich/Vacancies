@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Owner",
+    "uk": "Product Owner"
+  },
+  "role_title_raw": "Product Owner (Crypto Product)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product ownership",
+    "crypto / web3",
+    "wallet / payments",
+    "roadmap",
+    "analytics",
+    "metrics (activation, retention)",
+    "blockchain",
+    "Agile",
+    "Scrum",
+    "ownership",
+    "Jira",
+    "Product Management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "crypto",
+    "uk": "крипто"
+  },
+  "anti_requirements": []
+}

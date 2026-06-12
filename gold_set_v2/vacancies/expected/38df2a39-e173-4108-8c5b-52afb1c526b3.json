@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "38df2a39-e173-4108-8c5b-52afb1c526b3",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "C#/.NET Developer + MS SQL Administrator",
+    "uk": "C#/.NET розробник + адміністратор MS SQL Server"
+  },
+  "role_title_raw": "Розробник C#/.NET / Адміністратор MS SQL Server",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "MS SQL Server",
+    "database administration",
+    "T-SQL",
+    "SQL",
+    "OOP",
+    "API"
+  ],
+  "nice_to_have_skills": [
+    "IIS",
+    "REST API",
+    "Git"
+  ],
+  "min_years_experience": null,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "insurance",
+    "uk": "страхування"
+  },
+  "anti_requirements": []
+}

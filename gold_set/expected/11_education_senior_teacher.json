@@ -1,0 +1,93 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Head of English Department",
+    "Senior English Teacher",
+    "Academic Coordinator"
+  ],
+  "domain_skills": [
+    "English language teaching",
+    "CLIL",
+    "Task-based learning",
+    "Communicative approach",
+    "Formative assessment",
+    "Differentiated instruction",
+    "Flipped classroom",
+    "CEFR-aligned curriculum design",
+    "Lesson planning",
+    "Cambridge FCE preparation",
+    "Cambridge CAE preparation",
+    "IELTS preparation",
+    "Materials adaptation",
+    "Classroom management",
+    "Mentoring junior teachers",
+    "Lesson observation",
+    "Department management",
+    "Google Classroom",
+    "Zoom",
+    "Microsoft Teams",
+    "Quizlet",
+    "Kahoot",
+    "Padlet",
+    "Mentimeter",
+    "Canva",
+    "Wordwall"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Lviv Lyceum #28",
+      "type": "PRODUCTION",
+      "duration_months": 44,
+      "years_ago": 0
+    },
+    {
+      "title": "Lviv Gymnasium #45",
+      "type": "PRODUCTION",
+      "duration_months": 72,
+      "years_ago": 4
+    },
+    {
+      "title": "School #87 Lviv",
+      "type": "PRODUCTION",
+      "duration_months": 48,
+      "years_ago": 10
+    },
+    {
+      "title": "Ivan Franko Lviv National University",
+      "type": "INTERNSHIP",
+      "duration_months": 4,
+      "years_ago": 14
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "English Philology and Pedagogy",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2012
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    },
+    {
+      "language": "Polish",
+      "level": "B2"
+    },
+    {
+      "language": "German",
+      "level": "A2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

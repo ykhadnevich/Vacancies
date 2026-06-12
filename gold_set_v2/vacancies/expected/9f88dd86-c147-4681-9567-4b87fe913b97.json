@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "9f88dd86-c147-4681-9567-4b87fe913b97",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Trainee Fullstack Developer",
+    "uk": "Trainee Fullstack розробник"
+  },
+  "role_title_raw": "Trainee Full-Stack Developer",
+  "seniority_required": "intern",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "programming fundamentals",
+    "passion for engineering",
+    "React",
+    "Node.js",
+    "Python",
+    "Git"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

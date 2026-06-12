@@ -1,0 +1,31 @@
+{
+  "vacancy_id": "3dce7c15-7613-4deb-b5b8-a234e9a1b8fd",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Android Developer",
+    "uk": "Middle Android розробник"
+  },
+  "role_title_raw": "Middle Android Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "Android"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

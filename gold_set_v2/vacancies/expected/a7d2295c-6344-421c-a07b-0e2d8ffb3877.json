@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "a7d2295c-6344-421c-a07b-0e2d8ffb3877",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product management",
+    "iGaming",
+    "casino / sports betting",
+    "business intelligence",
+    "platform technology"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "cdc7757a-a09b-42b9-b1d2-12a69069931f",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Full-Stack Engineer with strong .NET (Angular or React)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "Angular",
+    "React",
+    "legacy systems support",
+    "SQL",
+    "ASP.NET Core",
+    "microservices",
+    "API"
+  ],
+  "nice_to_have_skills": [
+    "Azure",
+    "AWS",
+    "Docker",
+    "CI/CD"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

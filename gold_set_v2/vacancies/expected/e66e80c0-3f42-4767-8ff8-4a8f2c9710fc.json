@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "QA Automation",
+    "uk": "QA Automation"
+  },
+  "role_title_raw": "QA Automation Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "test automation",
+    "API automation",
+    "backend automation",
+    "performance testing",
+    "load testing",
+    "QA strategy",
+    "Postman",
+    "Playwright",
+    "Kubernetes"
+  ],
+  "nice_to_have_skills": [
+    "Go",
+    "AWS",
+    "GCP",
+    "Azure",
+    "cloud"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

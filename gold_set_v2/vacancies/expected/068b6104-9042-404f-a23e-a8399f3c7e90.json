@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "068b6104-9042-404f-a23e-a8399f3c7e90",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle SRE",
+    "uk": "Middle SRE"
+  },
+  "role_title_raw": "Middle Site Reliability Engineer (CDN & DevOps)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "CDN",
+    "CI/CD",
+    "Linux",
+    "cloud",
+    "performance investigations",
+    "caching",
+    "Bash",
+    "GitLab CI",
+    "Python",
+    "HTTP"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "AWS",
+    "DNS"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

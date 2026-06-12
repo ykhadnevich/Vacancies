@@ -1,0 +1,87 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "Senior Legal Counsel",
+    "Head of Legal",
+    "Corporate Counsel"
+  ],
+  "domain_skills": [
+    "Corporate law",
+    "Contract law",
+    "M&A transactional",
+    "Due diligence",
+    "SPA drafting",
+    "SHA drafting",
+    "MSA drafting",
+    "DPA drafting",
+    "NDA drafting",
+    "SaaS B2B contracts",
+    "GDPR compliance",
+    "DPIA",
+    "AML compliance",
+    "KYC",
+    "Sanctions screening",
+    "Antimonopoly law",
+    "Employment law",
+    "Negotiation",
+    "Microsoft Word",
+    "DocuSign",
+    "iManage",
+    "Ironclad",
+    "PowerPoint",
+    "Outlook"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Preply",
+      "type": "PRODUCTION",
+      "duration_months": 24,
+      "years_ago": 0
+    },
+    {
+      "title": "Sayenko Kharenko",
+      "type": "PRODUCTION",
+      "duration_months": 32,
+      "years_ago": 2
+    },
+    {
+      "title": "EY Law Ukraine",
+      "type": "PRODUCTION",
+      "duration_months": 12,
+      "years_ago": 5
+    },
+    {
+      "title": "Asters Law Firm",
+      "type": "INTERNSHIP",
+      "duration_months": 2,
+      "years_ago": 6
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Commercial Law",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2020
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    },
+    {
+      "language": "Polish",
+      "level": "B1"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

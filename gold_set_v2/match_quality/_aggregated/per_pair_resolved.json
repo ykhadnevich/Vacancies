@@ -1,0 +1,2348 @@
+[
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+    "match_quality": 6,
+    "rationale": "Strong ML tech fit (Python/PyTorch/TF/Docker/SQL/NoSQL/NLP). Specific gaps: biometric ID, OSINT, face/object analysis (CV has YOLO but not biometric). DefTech domain cross-family."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+    "match_quality": 8,
+    "rationale": "Senior DS for fraud/identity, all core skills match (Python/ML/sklearn/AWS/SQL). Snowflake gap (CV has Databricks/BigQuery). 6.6>5y, C1>B2. Fraud=recsys-adjacent."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "b35b6cf4-aa8a-41c1-a477-e4c732ff30d8",
+    "match_quality": 4,
+    "rationale": "DefTech RL/autonomy/unmanned systems specialized — CV has supervised/NLP/recsys, no RL. Cross-family despite Python/DL/PyTorch overlap."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "bc543292-a35f-4023-8fa0-c6832cc9b181",
+    "match_quality": 6,
+    "rationale": "Strong core ML fit (Python/TF/PyTorch/sklearn/AWS/CV via YOLO). Missing specific data pipeline stack: Airflow (has Kubeflow), Kafka, BigQuery, dbt, GCP, Azure."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "be17f702-3859-4297-9de3-ed4ebe9e385a",
+    "match_quality": 6,
+    "rationale": ".NET is significant gap (CV has Go/Bash, no .NET). Seniority off (lead vs senior), 6.6y=6y min borderline. C1 ✓. E-commerce=recsys-adjacent."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "15227172-726d-4cc6-8ab1-966690742f53",
+    "match_quality": 6,
+    "rationale": "LLM/RAG/agents fit core (CV has RAG explicitly). TypeScript is real gap. Otherwise strong."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "c6bedf09-951e-45db-9b95-e60a496810d7",
+    "match_quality": 4,
+    "rationale": "Lead seniority — candidate senior, under-qualified by 1 level. 6.6y<7y min. CV lacks explicit ML team leadership/strategy evidence. FastAPI gap."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "166ff5b4-0ca5-40e8-ba41-074f2b5d9aa8",
+    "match_quality": 10,
+    "rationale": "Exceptional fit: senior ML, all core ML tech (Python/TF/PyTorch/sklearn/AWS/MLOps/NLP/CV/RecSys/distributed) match exactly. GCP/Azure missing but AWS dominates. C1>B2, 6.6>5y."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "cb2b150f-b44b-4a0f-b483-89da55db4144",
+    "match_quality": 4,
+    "rationale": "Middle seniority + mobile app ML (CV is server-side) + Tableau gap + healthcare cross-domain. Over-qualified for middle role."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "84eaf0ec-b42b-4dcb-b5e7-0516355510f7",
+    "match_quality": 2,
+    "rationale": "Quant Researcher = different specialization (mathematician). Plus anti_flag: EST timezone (Ukraine→EST 8h diff). Cross-family."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "1c5647c9-a848-4fcd-b742-c9a2508a7d9b",
+    "match_quality": 4,
+    "rationale": "Python Developer role (not ML eng), middle seniority over-qualified. ML deployment skills match but role intent off — candidate seeks ML eng not generic Python dev."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+    "match_quality": 4,
+    "rationale": "Medical imaging/3D/X-ray specialized — CV has CV (YOLO) but not medical. Healthcare cross-domain. Core ML/PyTorch fits."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "219bf29a-d44c-498f-a00d-358d5a962a64",
+    "match_quality": 6,
+    "rationale": "RAG/LLM/Postgres core matches. LangGraph framework specific gap, FastAPI gap. Strong otherwise."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+    "match_quality": 8,
+    "rationale": "LLM/RAG/eval pipelines all in CV. Postgres ✓. Prompt eng/agentic — CV has RAG which is adjacent. Strong AI eng fit."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "26815abc-ac5e-4925-9f24-96e48277262d",
+    "match_quality": 8,
+    "rationale": "Senior ML w/ applied ML/MLOps/Go/TF/PyTorch — all match (CV has Go explicitly, rare). Airflow gap (Kubeflow), BigQuery/Snowflake missing. Strong fit."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "d3619987-777c-41c9-a7b0-794be197f391",
+    "match_quality": 2,
+    "rationale": "Junior role, 1y min — senior 6.6y is massively over-qualified. Role intent mismatch."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "312f7cc7-fbe1-4506-83ed-e6d6f2ef7294",
+    "match_quality": 8,
+    "rationale": "Senior ML w/ comprehensive stack — PyTorch/TF/ONNX/MLOps/NLP/SQL/NoSQL all match. Tabular (CV has XGBoost/LightGBM). FastAPI gap. Government domain transferable."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+    "match_quality": 6,
+    "rationale": "Real-time scoring/large-scale ML/K8s/AWS — core matches. Neo4j (identity graphs), FastAPI, GCP all gaps. MarTech transferable."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+    "match_quality": 6,
+    "rationale": "Speech Processing specialization — CV has NLP not specifically speech. Otherwise Python/ML/DL/prod fit. Telecom cross-domain."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+    "match_quality": 0,
+    "rationale": "Growth Marketing Manager — completely different field. Not engineering."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "05e3fb53-42e1-4d26-af6b-b3f22c29be61",
+    "match_quality": 4,
+    "rationale": "Middle seniority + Palantir Foundry/AIP specific stack gap. Core ML/NLP/LLM fit but Palantir is hard requirement, candidate would need to learn."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "446e7574-dd06-4f38-983b-f41d2e21252d",
+    "match_quality": 6,
+    "rationale": "RAG/LLM/Python core match. AWS Bedrock specific (CV has AWS via SageMaker, not Bedrock). FastAPI gap, MCP gap. 6.6>6y borderline."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "f22cca4c-492a-4d6d-b4de-df08c3730b41",
+    "match_quality": 6,
+    "rationale": "CV/object detection match (CV has YOLOv4, TensorRT for real-time). Jetson/ARM64/embedded inference gaps. DefTech cross-domain."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+    "match_quality": 6,
+    "rationale": "Same template as candidate 4 — core ML fits but Airflow/Kafka/BigQuery/dbt/FastAPI/GCP/Azure gaps."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "48396d9e-bc1c-4cf2-a5fe-9c4ef9dbf7e0",
+    "match_quality": 10,
+    "rationale": "Exceptional: open-source LLM/fine-tuning/RAG/NLP/HuggingFace/vector DBs all in CV (Pinecone explicit). PyTorch/TF/Docker/K8s match. Over-qualified for min 3y but role aligned."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+    "match_quality": 0,
+    "rationale": "Java Developer — completely different field. Not ML."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "91b11a12-a711-433d-8522-aabfb16b2256",
+    "match_quality": 8,
+    "rationale": "ML Scientist with research+prod scale — CV has both. Python/ML/sklearn/AWS/SQL match. Snowflake gap. Fraud detection adjacent to recsys."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+    "match_quality": 6,
+    "rationale": "GenAI/RAG/AWS core fits. Bedrock-specific stack (Lambda/S3/DynamoDB) less explicit in CV. Cloud architecture present."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "fc5d3bd0-0fde-4d6f-9220-169f0b98ed7d",
+    "match_quality": 8,
+    "rationale": "Excellent fit: MLflow+Kubeflow are EXACTLY in CV. K8s/Docker/containers/MLOps/AWS match. GCP/Azure gaps but AWS-only is OK."
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+    "match_quality": 10,
+    "rationale": "Exceptional: recsys explicitly called out (CV has DLRM, SASRec, two-tower — perfect match). PyTorch/TF/sklearn/MLOps/AWS/DL/SQL all match."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+    "match_quality": 6,
+    "rationale": "Fullstack JS/TS/React/Node/Express/GraphQL all ✓. Postgres/SQL/NoSQL backend skills not in CV (frontend-focused). Clean Arch unclear. 4.8>3y. DefTech cross-domain."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "f95c3798-6c5c-4d18-a746-af67b51242e4",
+    "match_quality": 2,
+    "rationale": "Vue/Quasar/Laravel/PHP stack — CV is React only. Major framework mismatch."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+    "match_quality": 2,
+    "rationale": "Vue + Python + PHP + Laravel — fundamental stack mismatch with React/TS CV."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "fcb6785a-31ea-49b5-b736-dffbeb0040c8",
+    "match_quality": 2,
+    "rationale": "Vue 3/Nuxt/Composition API stack — CV is React. Despite TS/SPA/REST overlap, framework mismatch."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "27ade056-b7b9-489b-af77-53fc12dcd5b0",
+    "match_quality": 2,
+    "rationale": "Vue 3/Nuxt 3/Pinia — CV is React. iGaming cross-domain."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "459739e5-a61c-46ab-b761-282c7ede3e80",
+    "match_quality": 0,
+    "rationale": "MASTER ERP / MSSQL — backend ERP role, completely different from frontend dev."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+    "match_quality": 4,
+    "rationale": "Junior role — middle candidate over-qualified by 1 level (4.8y vs 1y). Stack matches React/TS/Redux."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "44aae2a7-4fda-4323-948f-e51fa99d933b",
+    "match_quality": 8,
+    "rationale": "React/Next.js/TS/JS/AI-assisted dev all match. Vue listed but as alternative. 5y min vs 4.8y borderline. Strong core fit."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "4fe970a4-27fe-4bdc-a8c8-2b16a0d95eb1",
+    "match_quality": 2,
+    "rationale": "Pixi.js/game dev specialization + Vue 3 — CV has neither. Senior 5y vs middle 4.8y."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+    "match_quality": 10,
+    "rationale": "Exceptional: React/JS/HTML/CSS/REST/Git/TS all trivial matches. Next.js + Figma nice-to-haves both in CV. Middle role aligned."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "7d309556-2e31-465a-a802-6a405051875d",
+    "match_quality": 0,
+    "rationale": "Python/CV/ML role — frontend dev has zero ML/Python. Completely different field."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "55ebf38b-7158-4f14-8f14-ecd4ebb1d94c",
+    "match_quality": 4,
+    "rationale": "Junior level + 4.8y over-qualified. Basic React/TS stack matches."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "831d1409-2a93-442e-ac85-e501d73afa61",
+    "match_quality": 2,
+    "rationale": "Vue 3/Nuxt 3 stack — CV is React."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "6fc6a633-0a4e-4a1d-966c-9c72fda0de23",
+    "match_quality": 6,
+    "rationale": "Stack matches strong (React/TS/Redux/GraphQL/REST/Webpack/Vite/Jest). Senior 7y vs middle 4.8y — significant under-qualification."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+    "match_quality": 6,
+    "rationale": "Most stack matches but Angular is listed as must-have — CV is React only. Middle ✓."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "93795dd4-bc8b-4f7d-9191-5544c026114f",
+    "match_quality": 10,
+    "rationale": "Exceptional: React/JS/TS/REST/HTML/CSS/Next.js all match. Analytics — CV has Chart.js/D3/Recharts. Clean fit."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+    "match_quality": 2,
+    "rationale": "Vue.js/Vue 3 stack mismatch + onsite Kyiv anti-flag adds risk."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "88f1b524-c41f-402c-a366-7067dc043159",
+    "match_quality": 2,
+    "rationale": "Vue 3/Composition API stack — CV is React. Senior level gap."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+    "match_quality": 10,
+    "rationale": "Exceptional: React 19/TS/Vite/Tailwind/Shadcn/TanStack Query/TanStack Table/Recharts/Jest — EVERY tool exactly in CV. Perfect modern React fit."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "865772ea-3eee-494e-b36a-3ebc5558f2a3",
+    "match_quality": 2,
+    "rationale": "Angular/RxJS/NgRx — CV is React. Plus onsite Warsaw anti-flag."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+    "match_quality": 2,
+    "rationale": "Angular/RxJS stack — CV is React only."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "e707382d-90b1-48fe-a362-eb9a9bf25f7d",
+    "match_quality": 6,
+    "rationale": "React/Vite/Tailwind core matches. WordPress custom themes is unusual specialization not in CV. DefTech cross-domain."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+    "match_quality": 2,
+    "rationale": "Vue/Nuxt 3 stack + senior level (4.8y short) + EU location anti-flag."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "a24e9b83-2cbb-4b81-bfb1-5cf1fb104467",
+    "match_quality": 0,
+    "rationale": "PHP 7/OneBox/MariaDB/jQuery/SMARTY — legacy PHP stack, completely different from modern React TS."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+    "match_quality": 6,
+    "rationale": "React/Next.js/TS/JS/WebSockets/Webpack/Vite/Redux strong match. Senior 5y vs 4.8y borderline. Warsaw onsite anti-flag."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+    "match_quality": 8,
+    "rationale": "Next.js/React/Redux Toolkit/TS/Tailwind core matches. CV has TanStack Query (alternative to RTK Query). framer-motion/GSAP specific gaps but minor."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "eb06260a-ef10-40dd-8b76-bb70a1760c2a",
+    "match_quality": 6,
+    "rationale": "Tech perfect match (React/TS/Redux/REST/Git). ANTI 1099 contractor (US tax structure) is location-specific concern."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "bc85925f-e306-40dd-b476-0ad83a210bfb",
+    "match_quality": 0,
+    "rationale": "Vue Tech Lead — Vue mismatch + lead level vs middle. Two fundamental gaps."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+    "match_quality": 6,
+    "rationale": "React core ✓ but Vue/Angular listed as must — candidate React-only. Senior 5y vs middle 4.8y borderline."
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "f9174250-646e-4845-9610-d8dc4efb954c",
+    "match_quality": 2,
+    "rationale": "Pixi/Phaser/HTML5 Canvas game dev specialization — CV has no game dev experience."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "705ffb5a-db10-4785-bd7f-a90db4721c6d",
+    "match_quality": 4,
+    "rationale": "Manual QA focus + middle role — senior automation candidate over-qualified. Stack overlaps (Postman/REST/SQL) but role intent off."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "4253e611-c662-48d4-9957-43e034573ef8",
+    "match_quality": 2,
+    "rationale": "Junior + manual mobile focus + ANTI Kyiv onsite. Major over-qualification."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "7f73376b-78a3-457d-9406-17f0e5a9b1f5",
+    "match_quality": 2,
+    "rationale": "C#/.NET/ASP.NET/Blazor/Unreal Engine stack — CV is Java/Python/JS (no C#). Game-engine context unusual."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "6f0c7789-99d6-420f-b1c4-1e9a9951bbd4",
+    "match_quality": 2,
+    "rationale": "Embedded/firmware/IoT/hardware specialization — CV has no embedded experience. ANTI Warsaw."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "80a397d2-ccfb-4b84-acf7-8926a6640d50",
+    "match_quality": 4,
+    "rationale": "Networking products + IoT specialization. Mixed manual/automation but specific domain gap."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "b8742e2e-2199-4909-adcf-ecb95460c650",
+    "match_quality": 0,
+    "rationale": "ANTI volunteer position + over-qualified manual QA at edtech."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "05a4bfae-8d25-4a58-97af-73064742578a",
+    "match_quality": 6,
+    "rationale": "Senior automation + Selenium/API/CI/Docker/Kafka/K8s all match. C#/.NET stack is mismatch (CV is Java). 5y<8.7y ✓."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "ab1ee914-639b-47a5-9e8c-8bb0c747fc7d",
+    "match_quality": 6,
+    "rationale": "JS/TS test automation (Playwright family in CV) ✓. Healthcare cross-domain. Senior CV, 3y min over-qualified."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+    "match_quality": 8,
+    "rationale": "Python/Selenium/Appium/pytest exact match — all in CV. Playwright/Jenkins/GHActions nice-to-haves also in CV. ANTI 3-6 month contract limits engagement."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "13b32c13-4659-4c2f-8634-2ebdcb86b8f3",
+    "match_quality": 2,
+    "rationale": "Firmware/embedded/hardware QA — completely different specialization."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+    "match_quality": 4,
+    "rationale": "Mostly manual focus + middle role. Mongo/Redis/Elasticsearch backend infrastructure matches (CV has Mongo) but role intent off."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "262c3cda-d6cb-4bbf-9ba1-810a35e726e7",
+    "match_quality": 4,
+    "rationale": "Manual + middle. Senior automation candidate over-qualified."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "cee3fdd2-5262-4b4e-a461-68892b894b47",
+    "match_quality": 2,
+    "rationale": "GIS/3D/situational awareness software — niche DefTech specialization, no overlap with CV."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "30100c1f-f7eb-4d38-90f6-1eb69f9013d0",
+    "match_quality": 4,
+    "rationale": "Mixed software+electronics+AI systems testing — partial overlap, specific electronics specialization."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+    "match_quality": 10,
+    "rationale": "Exceptional: test automation/API/backend/perf/load (CV has JMeter+Gatling)/Postman/Playwright all match. K8s adjacent. Senior 5y<8.7y. Perfect SDET fit."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "30423512-dc91-4ba2-a448-c65a6754f372",
+    "match_quality": 2,
+    "rationale": "Junior + mobile games testing specialization. Major mismatch."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "ee8f6c3c-7ebb-4f40-a5ec-496251200090",
+    "match_quality": 4,
+    "rationale": "Mobile manual testing focus + junior/middle. Over-qualified."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "311617f7-3161-4a8b-bcb4-485b5b3490fe",
+    "match_quality": 2,
+    "rationale": "Hardware/device QA / security systems — non-software focus."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "f4c04d99-177e-4cfc-8bb6-abb305bf378b",
+    "match_quality": 4,
+    "rationale": "Manual focus + middle + Azure DevOps (CV has GitLab CI/Jenkins/GHActions). Role intent off."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "358605d1-053d-4231-9e42-df64f32771d1",
+    "match_quality": 4,
+    "rationale": "Mostly manual + 2y << 8.7y. Playwright/Cypress in CV but role intent manual-focused."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "30a8adf3-869f-4761-8dbb-3b438b333135",
+    "match_quality": 8,
+    "rationale": "Senior automation + JS/TS/Playwright/Cypress/Git/Postman/GHActions/SQL/Jira all match. Frontend-specific Vue/Tailwind tools minor gap. Strong fit."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+    "match_quality": 2,
+    "rationale": "Junior banking QA — major over-qualification (8.7y senior vs 1y junior)."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+    "match_quality": 8,
+    "rationale": "Team Lead matches target_roles (QA Lead). Java/JS/TS/Python/Selenium/Playwright/Cypress/CI all in CV. Leadership target ✓. Zoho platform specific gap."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+    "match_quality": 4,
+    "rationale": "Manual QA + DefTech — CV is automation-focused. Role intent mismatch."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+    "match_quality": 4,
+    "rationale": "Manual + high-load/Grafana match — Grafana ✓ in CV. PCI DSS specific. Mostly manual focus."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "27165f02-0dfc-4503-af0e-d6755cf5a49e",
+    "match_quality": 2,
+    "rationale": "ANTI military service position — eliminates fit regardless of automation skill match."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+    "match_quality": 2,
+    "rationale": "Strong Junior + manual + edtech — over-qualified by ~7 years."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "2a605218-858a-4179-8219-c4a4032e6765",
+    "match_quality": 0,
+    "rationale": "ANTI non-software (demining quality control) — completely different field."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "6a47a8ba-138d-4d6b-ad39-8f7b913f95bb",
+    "match_quality": 6,
+    "rationale": "Backend API testing + Postman/Grafana/Postgres/A/B — backend infra matches CV. Manual focus moderate. Video streaming specific."
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+    "match_quality": 2,
+    "rationale": "Manual Magento e-comm + 1y junior + ANTI onsite small cities. Multiple mismatches."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "5790bd48-b784-452f-8cf6-fc910af837a4",
+    "match_quality": 6,
+    "rationale": "React/Node/REST/Mongo/Docker/SQL/Git core matches. TS/Python/Go/Postgres/Redis/K8s/AWS/GCP/Vue mostly missing. 5y >= 3y."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "b858c350-cfd0-4754-b8de-bcc148277fbc",
+    "match_quality": 6,
+    "rationale": "JS/Node/React core ✓. TS/Python/Go/AI integration gaps. Senior 5y ✓."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+    "match_quality": 4,
+    "rationale": "Heavy NestJS/Next/Kafka/Terraform/K8s/event-driven specific stack — most not in CV. Node/React/Mongo/Docker partial."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "bec5ca01-0546-4fe7-99ef-7148c52f1415",
+    "match_quality": 4,
+    "rationale": "PHP/Laravel — not in CV. React/REST/HTML/CSS/SQL match but PHP is core requirement."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "62cc4061-6558-40ec-929c-36e4be0fa751",
+    "match_quality": 6,
+    "rationale": "Java ✓ (rare match), Node/React/Docker/CI/REST/Git ✓. TS/Next/Vue/.NET/cloud gaps. Senior 5y ✓."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "c2540672-87d0-40ce-8028-248dc4d6c75d",
+    "match_quality": 8,
+    "rationale": "Strong fit: React/Node/JS/REST/Express/HTML/CSS/Angular — all in CV. Middle ✓, 5y > 3y. Minor TS/SCSS gaps."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "6d908d9f-c748-4be8-8c15-50fed8a03135",
+    "match_quality": 2,
+    "rationale": "PHP 8.1+/CodeIgniter stack — CV is Java/JS/Angular. Major mismatch."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "c6056a80-614a-47d1-b3fc-1f602ebd71ff",
+    "match_quality": 2,
+    "rationale": "PHP + healthcare workflows — PHP not in CV."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "884a9333-9a1d-4537-ba9b-658d99373980",
+    "match_quality": 6,
+    "rationale": "JS/Node/React ✓. TS/Next/AI agents/Vercel gaps. 5y > 2y over-qualified."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "d8b58559-406c-4c06-8cd6-f7c35a172adc",
+    "match_quality": 6,
+    "rationale": "Node/JS/React/REST/Express/HTML/CSS/Mongo/Git core ✓. TS/Vue/Telegram bots gaps. 5y > 2y."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+    "match_quality": 2,
+    "rationale": "PHP/Laravel/Python stack + ANTI affiliate marketing experience required. Major mismatches."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "912d23f3-8459-4b3d-8d46-d7d6e62b322c",
+    "match_quality": 6,
+    "rationale": "React Native + Node/Express/REST/Mongo all in CV. Analytics tools (AppsFlyer/PostHog/Amplitude) and Firebase gaps. 5y > 2y."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "dd8bd6cd-b830-449f-b69c-41e777551d18",
+    "match_quality": 8,
+    "rationale": "Strong: JS/Node/React/REST/HTTP/Git all match. Middle ✓, 5y > 3y. Socket.io→WebSockets adjacent. TS minor gap."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "8069bfd7-f6e8-4c30-aaa0-e7582603ec09",
+    "match_quality": 2,
+    "rationale": "Vue 3/Nuxt stack + ANTI Lviv onsite — CV is Angular/React."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "923463ed-0b3e-4018-9d75-5f7eaec451c5",
+    "match_quality": 6,
+    "rationale": "React/Node/Express/JS ✓. TS/Next/Supabase/Postgres/GraphQL gaps. Senior 4y match."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "fe1da4db-20e6-4c94-8577-067a243a7568",
+    "match_quality": 4,
+    "rationale": "Junior 1y vs CV 5y — over-qualified. TS/Next/Postgres/Redis gaps."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+    "match_quality": 2,
+    "rationale": "C#/.NET/Dynamics CRM stack — CV has no .NET. ANTI 6-month contract limit."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "9c76720b-6f90-46ce-8a57-001fcca261ba",
+    "match_quality": 6,
+    "rationale": "React/Node/Express/REST ✓. TS/NestJS/Postgres/Redis/TypeORM gaps. 5y > 3y."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "9f3afa0b-f1de-4f3c-bb42-302ad3d54ce2",
+    "match_quality": 2,
+    "rationale": "C#/.NET/Azure stack — major mismatch with Java/JS CV."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "0f28ff56-d10e-4946-9a98-c269be0e145e",
+    "match_quality": 6,
+    "rationale": "JS/React/Node/CSS/REST/Express/Angular ✓. TS/NestJS/Postgres gaps. Senior 5y ✓."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "9f88dd86-c147-4681-9567-4b87fe913b97",
+    "match_quality": 0,
+    "rationale": "Trainee/intern level — 5y senior way over-qualified."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "178cbb0b-0920-4531-987e-bf4d7245e372",
+    "match_quality": 2,
+    "rationale": "PHP 7.4 legacy modernization — PHP not in CV."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "aa515efb-39a4-4fe7-b3a7-b496339c0447",
+    "match_quality": 2,
+    "rationale": "C#/.NET/ASP.NET stack mismatch."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "24a6f183-0008-4366-be98-dd096a767f23",
+    "match_quality": 4,
+    "rationale": "Python/Django mismatch (CV has Java/JS). React/Docker partial. Senior 5y ✓."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "b66e9aad-8110-4d6e-87c9-e05f626b5ee4",
+    "match_quality": 8,
+    "rationale": "Strong Java fullstack match: Java/Spring/Spring Boot/Angular/SQL/MySQL/Docker all in CV. TS/MSSQL/K8s/GitLab CI gaps. Middle ✓, 5y > 3y."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "2c20d3af-c032-4a9f-ae27-5f6c681381b3",
+    "match_quality": 2,
+    "rationale": "C#/.NET/Azure stack — major mismatch."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "b8505fa5-13f0-40b4-8961-b5cd084477dc",
+    "match_quality": 6,
+    "rationale": "JS/Node/React/REST/Git ✓. TS/Vue/Postgres/WebSockets (Socket.io adjacent) gaps. 5y > 2y."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "d2e4be03-4166-490a-b365-da422328abd7",
+    "match_quality": 8,
+    "rationale": "Basic Node/React/JS match cleanly. Middle ✓, 5y > 3y. TS minor gap."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+    "match_quality": 6,
+    "rationale": "React/Node ✓. AI tooling adoption/mentorship — not explicit in CV but Senior 5y fits leadership prep."
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "b855ffc9-c236-4f56-ad08-c338a27bc0c4",
+    "match_quality": 2,
+    "rationale": "PHP stack — not in CV. DefTech."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "78f9e1ef-a9ec-4f57-beab-8cff04a1dbff",
+    "match_quality": 8,
+    "rationale": "Swift/SwiftUI/CocoaPods/REST/MVVM/in-app purchases (StoreKit in CV)/CI(Bitrise)/iOS — all match. 1y min, 4.8y over-qualified."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "4282937a-c8f7-4849-b638-23a38a6125be",
+    "match_quality": 10,
+    "rationale": "Perfect: Swift/UIKit/SwiftUI/REST/iOS/MVC/MVVM/Git all in CV. Middle ✓, 4.8>3y. Fintech transferable."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+    "match_quality": 0,
+    "rationale": "Unity/C# game dev — completely different platform from native iOS."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "495bf8f5-5006-401a-966f-ba29bb0b9990",
+    "match_quality": 10,
+    "rationale": "Perfect: Swift/UIKit/SwiftUI/REST/Clean Arch (in CV)/iOS/design patterns. Middle ✓."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "8bd19a6e-d5f4-4850-890e-a30b94912130",
+    "match_quality": 6,
+    "rationale": "Swift/Obj-C match. WebRTC/real-time video specific (AVFoundation in CV is adjacent but not WebRTC)."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+    "match_quality": 8,
+    "rationale": "Swift/UIKit/SwiftUI/REST/iOS/OOP/SOLID all match. High-load not explicit but mid-iOS handles it. Middle ✓."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "98a268d8-d06c-497a-a0aa-dbb57274dd49",
+    "match_quality": 4,
+    "rationale": "Junior + over-qualified. SQL not in CV (Core Data instead)."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "7c684e0a-d23e-4299-bbf6-388d55d29704",
+    "match_quality": 10,
+    "rationale": "Exceptional: HealthKit exactly in CV (rare match!). Swift/SwiftUI/UIKit/iOS native/async-await all match. Middle ✓."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+    "match_quality": 2,
+    "rationale": "Flutter/Dart — CV is native iOS, no Flutter experience."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+    "match_quality": 10,
+    "rationale": "Perfect: Swift/UIKit/SwiftUI/REST/Git/iOS/Clean Arch/MVC/MVVM — all in CV. Middle ✓."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+    "match_quality": 4,
+    "rationale": "Mobile dev requires BOTH iOS native AND Android native (Kotlin) — CV is iOS-only."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "cc498796-b031-411c-828e-3c0ea1d06b67",
+    "match_quality": 8,
+    "rationale": "Swift/SwiftUI/UIKit/REST/Git/iOS all match. Fastlane in CV. 1y min, over-qualified."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+    "match_quality": 0,
+    "rationale": "Marketing Operations Manager — completely different role, not engineering."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "0c269701-4e43-4767-a42c-f88a25d8e179",
+    "match_quality": 6,
+    "rationale": "Junior 1y vs middle 4.8y — over-qualification. All tech in CV. TunnelKit/VPN specific."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+    "match_quality": 6,
+    "rationale": "Swift/UIKit/SwiftUI/REST/CI all match. Web3/blockchain specialization not in CV. Senior 5y borderline vs 4.8y."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "1a176b19-5ba5-4ca2-8e6a-c5238bf74e6c",
+    "match_quality": 0,
+    "rationale": "System Administrator — completely different field. ANTI onsite."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+    "match_quality": 0,
+    "rationale": "Fullstack JS/React — iOS dev has no web stack."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+    "match_quality": 6,
+    "rationale": "Swift/UIKit/iOS/SwiftUI/Clean Arch/MVVM all match. Flutter/Android required but candidate iOS-only. Senior 5y borderline."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "2e707afc-5d10-42be-b364-fa2e1f3119b4",
+    "match_quality": 0,
+    "rationale": "ANTI volunteer position, no salary."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "290ea2fc-b808-4943-9496-094392bc595d",
+    "match_quality": 8,
+    "rationale": "Strong: Swift/Obj-C/UIKit/MVVM/VIPER (in CV!)/Clean Arch/in-app purchases/iOS/Xcode all match. RevenueCat/AppsFlyer/Amplitude specific gaps."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+    "match_quality": 0,
+    "rationale": "Mobile Games QA Tester — QA role + ANTI onsite. Not dev."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "4d5a6aaf-6c65-4642-95ae-280665fbaf0e",
+    "match_quality": 2,
+    "rationale": "Flutter/Dart — CV is native iOS."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+    "match_quality": 2,
+    "rationale": "React Native + Lead level — neither in CV (middle 4.8y, native iOS only)."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "6d3456fc-d1d2-419b-aeaf-49e724a932a6",
+    "match_quality": 6,
+    "rationale": "Swift/UIKit/SwiftUI/iOS/REST match. Kotlin Multiplatform specific — CV is pure iOS native."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "4265f244-a5ea-43c5-9daa-f9dd73f5089b",
+    "match_quality": 4,
+    "rationale": "WebKit/WKWebView/JS injection — niche browser customization specialty. ANTI browser fork."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+    "match_quality": 4,
+    "rationale": "Junior + iOS basics — middle 4.8y over-qualified."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "6dc7352a-6f08-4b53-8bb4-8e0e7893f342",
+    "match_quality": 0,
+    "rationale": "Apple Developer Farmer (ID farming/antidetect) — ANTI gray-area work."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "776f2b42-8d59-4a57-9631-dd65e54d2ee5",
+    "match_quality": 4,
+    "rationale": "Lead level + team management — middle candidate under-qualified. iOS native ✓ but iGaming + WebView focus."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "2c329996-85c5-4956-b9a7-cac4c46a45ef",
+    "match_quality": 10,
+    "rationale": "Perfect: Swift/SwiftUI/UIKit/Combine (in CV)/async-await/REST/Clean Arch/MVVM/CI all match. Healthcare transferable (CV has HealthKit)."
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+    "match_quality": 0,
+    "rationale": "Flutter + ANTI volunteer — Flutter not in CV plus no salary."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+    "match_quality": 6,
+    "rationale": "Middle + frontend expectations dilute fit. Backend C#/.NET/EF Core/SQL core matches. Senior 6.6y over-qualified."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+    "match_quality": 10,
+    "rationale": "Perfect: C#/ASP.NET Core/EF Core/Postgres/Docker/REST/CI/CD all in CV. Azure DevOps→GitHub Actions equivalent. Senior ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+    "match_quality": 6,
+    "rationale": "Backend C#/.NET/ASP.NET Core/SQL/testing match. Angular/TS frontend gap. ANTI Norway travel acceptable."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "8c03a6e9-b372-4802-84be-7d939d6ccb5a",
+    "match_quality": 6,
+    "rationale": "C#/.NET/ASP.NET Core/SQL/Docker/Git match. Oracle PL/SQL specific (CV is Postgres). Banking domain transferable."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+    "match_quality": 6,
+    "rationale": "Backend C#/.NET/microservices/REST/Azure/SQL/Clean Arch match. React/micro frontends/TS frontend gap. Middle role under-utilizes senior."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+    "match_quality": 2,
+    "rationale": "ANTI French language fluency required — CV has Ukrainian + English B2 only. Dealbreaker despite C#/.NET match."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "c1fae7c2-ca09-4a3e-92d0-60636378bf39",
+    "match_quality": 6,
+    "rationale": "C#/.NET/Postgres/AWS/SQL/Git match. JS/TS/Node/React frontend stack gap. Browser extensions specific."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "da16012a-9276-4ecb-8d71-8d1945d94b6a",
+    "match_quality": 6,
+    "rationale": ".NET MAUI (mobile) not in CV. C#/.NET/REST/Clean Arch/SOLID/MVVM/MVC/Git match. 3y vs 6.6y."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "db1c9d2a-b3d2-40a3-9f0c-965e0e041d7d",
+    "match_quality": 6,
+    "rationale": "Junior/Middle role + 2y min — senior 6.6y over-qualified. Stack matches."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+    "match_quality": 8,
+    "rationale": "Tech Lead matches target_role exactly. C#/.NET/architecture/high-load all match. 7y vs 6.6y borderline. Team leadership transferable from senior."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+    "match_quality": 8,
+    "rationale": "All core C#/.NET/ASP.NET Core/EF Core/Postgres/MSSQL/microservices match. RNG/RGS iGaming domain specific gap. Senior ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "e092834f-91a9-4d83-b334-fa02167ba004",
+    "match_quality": 8,
+    "rationale": "C#/.NET/ASP.NET Core/REST/cloud/SQL/CI/CD/Azure match. AI-assisted/Copilot tooling expectation. Angular gap."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+    "match_quality": 8,
+    "rationale": "C#/.NET/ASP.NET Core/cloud/REST match. Azure focus (CV is AWS-primary, has Azure AD). Strong fit."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "e840f997-37f1-42cc-9c3a-190803906352",
+    "match_quality": 6,
+    "rationale": "C#/ASP.NET Core/REST/SQL/.NET/AWS/Azure match. Angular 9+ frontend gap."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+    "match_quality": 10,
+    "rationale": "Perfect: C#/.NET 8/ASP.NET Core/Postgres/EF Core/Redis/microservices/Docker — every must in CV. Senior 5y ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+    "match_quality": 6,
+    "rationale": "Backend C#/.NET/AWS/Terraform/Docker/CI/CD/Redis/Datadog all in CV. Frontend stack (Next/Vue/Angular) gap. Lead 7y vs senior 6.6y borderline."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+    "match_quality": 4,
+    "rationale": "Node/Angular/Express stack mismatch (CV is .NET-focused). C#/.NET/SQL ok but role is fullstack JS+.NET."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+    "match_quality": 10,
+    "rationale": "Perfect: C#/.NET/ASP.NET Core/SQL/microservices/Kafka — all in CV. Kafka explicit match. Senior 5y ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+    "match_quality": 10,
+    "rationale": "Perfect: all must-haves (C#/.NET/ASP.NET Core/EF Core/Postgres/microservices/CI/CD/Docker/SOLID/REST/perf) in CV. Senior 5y ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+    "match_quality": 0,
+    "rationale": "News Feed Editor — completely different field (journalism)."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+    "match_quality": 6,
+    "rationale": ".NET Core/EF Core/Postgres/Mongo all in CV. Middle role — senior over-qualified. Mobile backend domain specific."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+    "match_quality": 4,
+    "rationale": "Creatio platform/CRM customization is specific framework not in CV. C# transferable but specialty gap."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+    "match_quality": 10,
+    "rationale": "Exceptional: C#/.NET/ASP.NET Core/Postgres/AWS/CI/CD/GitHub Actions/Datadog/Grafana/Docker/K8s/Helm/Kafka/Terraform — VIRTUALLY EVERY must-have in CV."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+    "match_quality": 10,
+    "rationale": "Exceptional: C#/.NET/Postgres/Mongo/Redis/RabbitMQ/Kafka/Prometheus/Grafana/Docker/gRPC/CI/CD/Clean Arch — every must in CV."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+    "match_quality": 10,
+    "rationale": "Perfect: C#/.NET/ASP.NET MVC/ASP.NET Core/MS SQL/NoSQL/EF Core all in CV. Senior 3y < 6.6y."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+    "match_quality": 0,
+    "rationale": "Embedded firmware (C/C++/ARM/UART/SPI) — completely different specialization."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+    "match_quality": 10,
+    "rationale": "Perfect: C#/ASP.NET Core/EF Core/SQL/CI/CD/Azure DevOps/Docker/AKS/REST all in CV. Senior 5y ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+    "match_quality": 10,
+    "rationale": "Perfect: C#/.NET/REST/NUnit/xUnit (in CV)/MSTest/unit testing/SQL/OOP/SOLID all match. Senior 5y ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+    "match_quality": 8,
+    "rationale": "C#/.NET 8/Azure/.NET/cloud/ASP.NET Core/microservices/Docker/REST/SQL/testing all match. DeFi domain specific. Senior 5y ✓."
+  },
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+    "match_quality": 10,
+    "rationale": "Tech Lead matches target. C#/.NET/AWS/EC2/RDS/SQS/S3/CloudFront/Redis/Linux/Docker/microservices — every AWS service in CV. Go/Node nice-to-have gaps."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "d65761e3-32e6-4e8b-b696-bc54ab640df1",
+    "match_quality": 6,
+    "rationale": "Kotlin/Compose/CI/Coroutines/Clean Arch/MVVM all match. ANTI contract June-Dec + hybrid Kraków limits engagement."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "0e5df96a-74d3-44e3-98fb-db96653b6942",
+    "match_quality": 6,
+    "rationale": "Minimal must-haves (Kotlin/Android SDK) trivially met. Middle role — senior 9y over-qualified."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "19210103-9c82-4ac6-86cc-9870639e1a51",
+    "match_quality": 2,
+    "rationale": "Flutter/Dart — CV is Android native, no Flutter experience."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "0fbf3c7e-1326-48c5-8282-e34a064e0dc9",
+    "match_quality": 8,
+    "rationale": "All Kotlin/Android SDK/REST/Clean Arch/Git/async match. Compose/Firebase nice-to-haves in CV. 3y vs 9y over-qualified."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+    "match_quality": 0,
+    "rationale": "Junior internship + ANTI onsite-only. Major over-qualification + location."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+    "match_quality": 0,
+    "rationale": "Fullstack JS/React/Node — completely different field from Android."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "285e37ac-fb2f-4e2b-b9dc-bb9efcde53a5",
+    "match_quality": 8,
+    "rationale": "All Kotlin/Java/Android/REST/Coroutines/Clean Arch/CI/MVVM/Firebase/testing match. Middle role — 9y senior over-qualified."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "10882f1b-d489-4a8c-a0b6-917b51d8f1b4",
+    "match_quality": 0,
+    "rationale": "ANTI volunteer position, no salary."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "24ad01fe-a2f7-466c-9ff6-e556000b0a99",
+    "match_quality": 2,
+    "rationale": "Flutter 3.x/Dart stack — CV is Android native."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "4aca1974-cf5d-46c2-b9c6-a70bf5219fe0",
+    "match_quality": 10,
+    "rationale": "Perfect: Kotlin/Compose/MVVM/MVI/Hilt/Coroutines/Flow — every must EXPLICITLY in CV. Senior 5y."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+    "match_quality": 0,
+    "rationale": "Mobile QA Tester — different role + ANTI onsite."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "337599ae-96e8-48ab-88bb-80eddf6df903",
+    "match_quality": 8,
+    "rationale": "Android Team Lead matches target_role. Kotlin/Java/Android all in CV. Flutter mentioned but not blocker. Team leadership transferable from 9y senior."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "6bcc3a0a-f614-41c3-9e96-fded168f4ed9",
+    "match_quality": 10,
+    "rationale": "Perfect: Kotlin/Android SDK/mobile arch/Compose/SOLID/Clean Arch all match. Senior 4y < 9y."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "5583da88-e62f-4e2c-adc8-5007ec60956c",
+    "match_quality": 0,
+    "rationale": "Junior 1y + ANTI gambling vertical — multiple blockers."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "3dce7c15-7613-4deb-b5b8-a234e9a1b8fd",
+    "match_quality": 6,
+    "rationale": "Minimal must-haves met. Middle role over-qualified for 9y senior."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "89bd98dc-7338-4568-8080-eb086b9fc3eb",
+    "match_quality": 8,
+    "rationale": "Senior Android with minimal must-haves all in CV. Strong fit."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+    "match_quality": 4,
+    "rationale": "Cross-platform (Unity/Flutter/RN/Xamarin/C#) expectations — CV is Android native (Kotlin/Java). ANTI 2026 apps requirement."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "427e84c3-b873-4e3c-9af8-d43f1f45909c",
+    "match_quality": 8,
+    "rationale": "Kotlin/Android SDK/perf/Compose/Clean Arch/CI/MVVM/Git all match. 3y vs 9y over-qualified."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "9e0729ad-6ccd-4948-af56-a325f8fcead0",
+    "match_quality": 8,
+    "rationale": "Kotlin/Java/Android/Coroutines/Clean Arch/CI/MVVM/Git match. HMI/middleware/automotive domain specific."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+    "match_quality": 0,
+    "rationale": "Flutter + ANTI volunteer."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "745aea15-9729-4349-b78e-c2f10631d181",
+    "match_quality": 8,
+    "rationale": "Kotlin/Java/Android/mobile arch/multithreading/concurrency all match. Agritech transferable."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "d866c45f-6779-43b8-9f16-1738fab05d0a",
+    "match_quality": 8,
+    "rationale": "Kotlin/Android/Compose/OOP match. IoT/device integration specific domain."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+    "match_quality": 0,
+    "rationale": "Unity/C# game dev — different platform."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "ea921836-cb7a-43dd-8f61-574724779c9b",
+    "match_quality": 8,
+    "rationale": "Senior Android with minimal must-haves all in CV."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+    "match_quality": 2,
+    "rationale": "Flutter/Dart mismatch."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "f7bdc749-1e34-4587-9435-4735496f0f50",
+    "match_quality": 8,
+    "rationale": "Senior Android minimal must-haves all met."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "994c5af7-8f40-41b2-9c63-0f64a78322c1",
+    "match_quality": 10,
+    "rationale": "Exceptional: KMP (Kotlin Multiplatform in CV explicitly!) + Compose + MVI + Clean Arch + Coroutines all perfect matches. Telemetry/TDD adjacent."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+    "match_quality": 4,
+    "rationale": "Requires BOTH iOS Swift AND Android — CV is Android-only, no iOS."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "b6c105bb-c61d-4876-b19e-917e65947f4b",
+    "match_quality": 8,
+    "rationale": "All Kotlin/Java/Android/REST/Compose/SOLID/Coroutines/JUnit match. Middle role over-qualified."
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "f0c9a922-3edb-433a-b340-3d0414262c2c",
+    "match_quality": 4,
+    "rationale": "Junior 9y over-qualified. KMP/Coroutines in CV but role intent off."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "28db1992-92f0-4e90-8831-1fb7aeaeff58",
+    "match_quality": 8,
+    "rationale": "Strong EM fit: engineering management/architecture/leadership/AWS/K8s all in CV. Node.js stack but EM role less hands-on. C1 ✓, 7y ≤ 11.7y."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "470bd7f3-e358-42dd-84d4-4f11a1e04dcd",
+    "match_quality": 6,
+    "rationale": "Principal Manager EM + AI/ML leadership specific. CV is general SWE EM, no AI/ML leadership track record."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+    "match_quality": 8,
+    "rationale": "Senior EM with minimal must-haves (EM/leadership/delivery) — all in CV. Strong fit."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "a15d8779-efec-447e-b7ef-31912946efd2",
+    "match_quality": 6,
+    "rationale": "Solution Architect role with multi-language requirements (Java/Node/C#/Go) — CV is Python-only. Pre-sales specific."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "cab34c74-4f37-4f51-94a2-7ae9bd65b1cc",
+    "match_quality": 6,
+    "rationale": "Head of Engineering with P&L responsibility + pre-sales. CV is senior EM, not director-level P&L. Multi-cloud expected."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "e4b7da99-705a-49d0-9a7b-74d48a95ae5a",
+    "match_quality": 10,
+    "rationale": "Perfect: Backend engineering leadership/data workflows/scalability/Python/AWS/K8s — every must in CV. CV target_role matches."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+    "match_quality": 6,
+    "rationale": "EM/leadership/delivery match. TS/Node stack but EM role. Lambda/S3 ✓. MarTech-pharma domain specific."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+    "match_quality": 4,
+    "rationale": "EM fit but ANTI Europe-only — location constraint."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "51048422-c940-428f-b81d-3cb63f7ed76a",
+    "match_quality": 4,
+    "rationale": "Go + AI/LLM products specific — neither in CV. ANTI hybrid."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+    "match_quality": 4,
+    "rationale": "Java team leadership — CV is Python. ANTI explicitly excludes hands-on coding (CV is hands-on Python)."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+    "match_quality": 4,
+    "rationale": "DefTech EM + ANTI preference for veterans/military. Specific domain + bias."
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+    "match_quality": 0,
+    "rationale": "Mechanical/Structural EM aerospace — ANTI non-software engineering. Different field."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+    "match_quality": 8,
+    "rationale": "All ETL/SQL/Python/DWH/MSSQL/MySQL/Postgres/AWS/Azure/NoSQL/Oracle/API match. Middle role — senior 8.6y over-qualified."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "6d596e90-e06f-4f84-94a1-68dd13c55dda",
+    "match_quality": 10,
+    "rationale": "Perfect: DWH/pipelines/ETL/SQL/Python/data quality — all in CV. Senior 5y < 8.6y."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "98824122-2992-416c-82e0-8d76f3fd01db",
+    "match_quality": 6,
+    "rationale": "All tech matches (Databricks/AWS/Azure/GCP/Airflow/Snowflake/BigQuery). ANTI 12-month contract limits engagement."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "7c4af3e5-3f44-492d-bc16-54a5ef6b7259",
+    "match_quality": 4,
+    "rationale": "Data Science role (Python/ML/model deployment) — CV is Data Engineering. Some Python overlap."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "745f0820-5b22-462d-b636-c496405427f6",
+    "match_quality": 8,
+    "rationale": "All DE tech (pipelines/Python/SQL/ETL/Spark/Databricks/Azure/Airflow) match. AI-assisted/agentic tooling expectation."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "a31718c1-d53c-4047-8dcd-27242b325074",
+    "match_quality": 6,
+    "rationale": "Data Science Infrastructure — ML platform focus partial overlap. ANTI hybrid Warsaw."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+    "match_quality": 8,
+    "rationale": "SQL/pipelines/monitoring/Snowflake/Databricks/Python all match. Power BI specific tool."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+    "match_quality": 10,
+    "rationale": "Perfect: DWH/Airflow/dbt/ETL/ELT/SQL/Python/BigQuery — all explicitly in CV."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+    "match_quality": 2,
+    "rationale": "Azure-specific stack + OSINT/GIS/image processing specialization + ANTI military service."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+    "match_quality": 4,
+    "rationale": "Junior + ML focus — senior 8.6y over-qualified."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "acf2b942-1198-4208-b40e-882c1058918c",
+    "match_quality": 8,
+    "rationale": "Comprehensive stack match (Databricks/Snowflake/BigQuery/Airflow/Spark/dbt/Terraform/Docker/K8s/multi-cloud). Middle role over-qualifies senior."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+    "match_quality": 2,
+    "rationale": "ML Engineer (biometric/face/OSINT) — CV is Data Engineer, no ML focus."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+    "match_quality": 10,
+    "rationale": "Perfect: pipelines/ETL/DWH/SQL/Python/Git/Scala/Spark/Java/AWS/NoSQL — every must in CV. Kafka/K8s/Grafana nice-to-haves ✓."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "92f69ae8-a1b8-4ff8-94a3-0a4acab44d98",
+    "match_quality": 4,
+    "rationale": "General Software Dev (Spring/Java for gambling) — CV is DE. Some Java overlap but role intent off."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "c4d29040-194b-4e77-be4b-41eda7e89d25",
+    "match_quality": 8,
+    "rationale": "Databricks/SQL/Python/ETL/Scala/Spark all match. SAP Datasphere specific platform."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+    "match_quality": 4,
+    "rationale": "Senior Data Scientist (predictive models/EHR/healthcare) — CV is DE. Some Python/Spark/SQL overlap."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+    "match_quality": 4,
+    "rationale": "Middle DS — CV is DE. Some overlap but role intent off."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+    "match_quality": 4,
+    "rationale": "Data Analyst (BI/product analytics) — CV is DE/platform. Different role."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "14d44732-38a4-439e-b07c-970665253c75",
+    "match_quality": 10,
+    "rationale": "Perfect: DWH/SQL/architecture/ETL/Python/Java/Kafka/CI/MS SQL/NoSQL — all in CV. Senior 5y match."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+    "match_quality": 6,
+    "rationale": "BI Developer focus (Tableau/MS SQL/T-SQL/data modeling) — CV has DE skills but BI-Tableau focus differs."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+    "match_quality": 6,
+    "rationale": "SQL/data integration/data mining match. Stored procedures/triggers is older DBA-style work."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "2e66909d-1064-43d6-8d97-43dd9af72df1",
+    "match_quality": 8,
+    "rationale": "All pipelines/SQL/Python/ETL/cloud/Git/dbt match. Airflow/GCP nice-to-haves ✓ in CV. Middle role over-qualifies."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "6358ab7b-9f86-43a8-804e-056476eb93e6",
+    "match_quality": 4,
+    "rationale": "Lead Data Scientist (pricing/promotions/personalization) — CV is DE. ML retail specialization required."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "3ffd9d74-f52c-49e2-8009-9d4432f63fbc",
+    "match_quality": 8,
+    "rationale": "Minimal DE must-haves (engineering/pipelines/SQL/Python) all in CV. Senior ✓."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "6aa5df92-1622-4e6b-8d45-cf4c237c5971",
+    "match_quality": 8,
+    "rationale": "Python/ETL/integration/quality/Pandas/NumPy/SQL/Oracle all match. Senior 8.6 over-qualified for 3y."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "51dcc6a5-6e9e-44ac-9a2d-ff2e5bf9d627",
+    "match_quality": 10,
+    "rationale": "Perfect: ETL/ELT/Postgres/dbt/Python/SQL/data engineering — all in CV. Multi-cloud/DWH/BigQuery/Snowflake nice-to-haves ✓."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "7444a9aa-83b5-481d-b693-fb1cb1f1a9e6",
+    "match_quality": 4,
+    "rationale": "All DE tech matches (ETL/SQL/Python/Postgres/Airflow/CI). ANTI military service position."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+    "match_quality": 4,
+    "rationale": "Quantitative Data Scientist (FX trading) — CV is DE. Quant ML specialization required."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "652bba37-6fd1-4b69-8d78-4aad7264cd37",
+    "match_quality": 10,
+    "rationale": "Exceptional: SQL/DWH/dimensional modeling (CV explicit!)/SCD/partitioning/BigQuery/Snowflake/Redshift/Python/pandas/Airflow — every must in CV. dbt ✓."
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "795db424-ce9f-46a2-bdcf-9a337742115d",
+    "match_quality": 2,
+    "rationale": "Data Scientist + ANTI military service."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+    "match_quality": 6,
+    "rationale": "SQL match. Credit risk + portfolio + banking reporting specific domain — CV is product analytics focused."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+    "match_quality": 0,
+    "rationale": "Junior intern + ANTI onsite + trainee program — major over-qualification + location."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "c6f91d1b-d2f6-49eb-8e69-0405a2fbe1cd",
+    "match_quality": 6,
+    "rationale": "SQL/data analysis match. Banking + data governance specific domain."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "caf7ce6b-f789-461e-ba10-ae0c5eb8ce35",
+    "match_quality": 6,
+    "rationale": "SQL/Python/pandas/numpy/AI tools match. Credit scoring + ML basics is mixed DA/DS — CV is pure DA."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "ddabf002-f81b-4aaf-9499-88c1743fb91f",
+    "match_quality": 8,
+    "rationale": "Marketing analytics adjacent to product analytics. SQL/Power BI/Tableau/Looker/A/B testing all in CV. Real estate domain specific."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+    "match_quality": 0,
+    "rationale": "Trainee + ANTI program."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "306f9ac1-1597-4b57-8eda-fc4b17b43590",
+    "match_quality": 8,
+    "rationale": "Minimal must-haves (SQL/BI/business insights) easily met. 2y < 3.7y."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "25630527-064b-4211-9697-730a04a25a26",
+    "match_quality": 10,
+    "rationale": "Perfect: SQL/product analytics (CV explicit)/BI/data viz/Python/Matplotlib/data analysis — all match. Middle ✓."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "586789fc-ae73-463c-8668-5a256daed9e6",
+    "match_quality": 6,
+    "rationale": "SQL/Postgres/Power BI match. CRM + payment systems specific."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "3bd35b6f-3631-4819-9227-8e8fe124717d",
+    "match_quality": 6,
+    "rationale": "Same template as caf7ce6b — SQL/Python/pandas match, credit scoring + ML basics specific."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+    "match_quality": 6,
+    "rationale": "DE/ETL/BI Developer mixed role — CV is DA. SQL/Power BI/DWH match but ETL focus differs."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "76d248b1-a0fe-4538-a71a-f5e1db7cc9a4",
+    "match_quality": 6,
+    "rationale": "Junior 1y — middle 3.7y over-qualified. Tech matches (SQL/Tableau/Python)."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "76518482-59d2-4e96-bedc-cde1817b241c",
+    "match_quality": 8,
+    "rationale": "Senior 5y vs middle 3.7y — under-qualified by years but stack (SQL/Postgres/Power BI/Tableau/Looker/A/B) match. Financial domain specific."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+    "match_quality": 6,
+    "rationale": "SQL/BI/data modeling match. Business analytics + energy + ML focus mixed."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "a078f3fa-04f1-415d-9d47-02081edbc699",
+    "match_quality": 2,
+    "rationale": "Data Governance Expert (gov registers/metadata) — specific specialization, CV is analytics."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+    "match_quality": 10,
+    "rationale": "Perfect: SQL/product analytics (CV explicit!)/BI/AI tools — all match. Tableau/Power BI/Looker nice-to-haves all in CV."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+    "match_quality": 4,
+    "rationale": "Senior DS — CV is middle DA. Some Python/SQL/ML overlap but role intent off."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+    "match_quality": 8,
+    "rationale": "SQL/forecasting (CV has time-series/survival)/BI/Data analysis all match. Middle ✓."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+    "match_quality": 6,
+    "rationale": "SQL/Python/ML basics match. CRM specialty + telecom domain."
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+    "match_quality": 10,
+    "rationale": "Perfect: SQL/product analytics/BI/Python/Pandas/Power BI/Tableau — all in CV. Middle ✓."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "109db1b9-8020-4ac5-9bab-2255b3eb371c",
+    "match_quality": 6,
+    "rationale": "Retail PM (assortment/supplier/pricing) — CV is B2B SaaS/fintech PM. Excel/Data analysis match."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+    "match_quality": 2,
+    "rationale": "Junior PMM (1y) — senior 6.1y over-qualified, plus marketing not PM."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "1349357c-7645-4062-a983-ce07ba203d09",
+    "match_quality": 0,
+    "rationale": "Junior Education Community Manager — different role entirely."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+    "match_quality": 6,
+    "rationale": "MarTech PM (smartlink/affiliate/CR/CPA/ROI). A/B testing in CV. SQL nice ✓. Performance marketing focus."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "1e9c93ce-886a-4f5d-902d-7058ada55541",
+    "match_quality": 4,
+    "rationale": "Product Marketing Manager (positioning/GTM/EdTech marketing) — Marketing role, not PM. Tableau/Amplitude/A/B in CV."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+    "match_quality": 2,
+    "rationale": "Creative Marketing Manager (R&D campaigns/AI-first marketing) — Marketing not PM."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+    "match_quality": 8,
+    "rationale": "Strong PM: monetization/subscription/unit economics/A/B/analytics all in CV. Stripe Billing ✓ exact."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "a7d2295c-6344-421c-a07b-0e2d8ffb3877",
+    "match_quality": 6,
+    "rationale": "Senior PM iGaming — senior ✓ but iGaming/casino/sports betting domain specific."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+    "match_quality": 8,
+    "rationale": "PM toolkit match: roadmap/stakeholder/Agile/Amplitude/Postman/Swagger all in CV. HRTech + AI focus."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "a80fa449-881d-418a-9fbf-647eb9458e41",
+    "match_quality": 4,
+    "rationale": "PM/BA hybrid (2y) — senior over-qualified, BA-leaning rather than product strategy."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "00d0ccdb-07a0-49a3-a691-efa93961fa2c",
+    "match_quality": 6,
+    "rationale": "Strong PM match (funnel/CVR/AOV/A/B/checkout/analytics) — all in CV. ANTI US PST timezone."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+    "match_quality": 8,
+    "rationale": "Payment PM/fintech — payment rails + Stripe ✓ in CV. A/B testing ✓. Strong domain fit."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+    "match_quality": 4,
+    "rationale": "Senior PMM (product marketing) DefTech — Marketing not PM."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "2306e535-ce66-4b70-90e5-4d9f053723e1",
+    "match_quality": 6,
+    "rationale": "Senior PM (strategy/roadmap/analytics/experimentation) — all in CV. ANTI contract limits."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+    "match_quality": 6,
+    "rationale": "PO crypto/web3/wallet — crypto domain specific. PM/PO transferable."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "b241fdec-2364-4385-9461-a14c9d278979",
+    "match_quality": 6,
+    "rationale": "PMM B2B SaaS — Marketing not PM, but B2B SaaS domain ✓ in CV."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+    "match_quality": 0,
+    "rationale": "Personal Assistant/Ops Manager — different role entirely. ANTI Warsaw."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "60349f54-8bc7-4a4f-bd20-185d8267483e",
+    "match_quality": 4,
+    "rationale": "PMM DefTech hardware — Marketing not PM."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+    "match_quality": 8,
+    "rationale": "PM mobile-first/Western/AI tooling/hypothesis testing — all strong PM toolkit match."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+    "match_quality": 6,
+    "rationale": "Senior PM hardware products (video surveillance/intercom) — senior ✓ but hardware domain specific."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "c89b5447-b5eb-49e6-bff0-147f13b336de",
+    "match_quality": 0,
+    "rationale": "Event Marketing Manager — different role."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "8177a254-3728-4f81-b23d-59881458e60b",
+    "match_quality": 8,
+    "rationale": "PM banking/payment/Open Banking/AI — payment+banking integration ✓ (Stripe in CV). 5y match."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "e1e366c2-9d8e-446e-8d41-d8f8414f4d3f",
+    "match_quality": 4,
+    "rationale": "Head of Amazon Growth (P&L/category strategy/supplements) — Amazon ops specialization."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+    "match_quality": 4,
+    "rationale": "PM/PO energy (EMS/BESS/PV/VPP) — energy domain very specific."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+    "match_quality": 8,
+    "rationale": "PM fintech accounting SaaS — customer research/hypothesis/A/B/SaaS all in CV. Strong fit."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+    "match_quality": 4,
+    "rationale": "PM retail FMCG (pricing/lifecycle/assortment matrix) — retail FMCG specific."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "eed0122a-4452-438f-bf05-a25257066b12",
+    "match_quality": 8,
+    "rationale": "Minimal must-have (product management) trivially met. MarTech transferable."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "99e2c825-164a-4a60-9100-b16472b835e5",
+    "match_quality": 4,
+    "rationale": "Product Marketing Manager retail (GTM/ICP/JTBD/PMF/ABM) — Marketing not PM."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "f974f87e-cafa-47f7-9678-0ea58afb6b0c",
+    "match_quality": 6,
+    "rationale": "Product Delivery/Project Manager hybrid — SDLC/Scrum/Kanban/Jira transferable. PM/PjM mix."
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+    "match_quality": 10,
+    "rationale": "Exceptional B2B SaaS PM match: vision/hypothesis/roadmap/GTM/0-to-1/A/B/Analytics/Amplitude — all in CV. Target_role ✓."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "05e537ca-170b-478f-a33d-b477f5f08223",
+    "match_quality": 6,
+    "rationale": "Senior 5y — junior 2.2y under-qualified. Stack (C#/.NET/ASP.NET/EF Core/Docker/REST/Agile/testing) all in CV."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+    "match_quality": 4,
+    "rationale": "Middle Fullstack + React/TS/Azure — junior under-qualified + frontend stack not in CV depth."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "102d5d77-0ccb-4640-be6e-8e2595afe705",
+    "match_quality": 8,
+    "rationale": "Middle 2y — matches junior 2.2y. C#/.NET/ASP.NET Core/SQL/REST/SQL Server/Git all in CV. Strong fit."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "b06bd250-91c9-48dd-acad-9ef77e4e669e",
+    "match_quality": 6,
+    "rationale": "Middle 3y — under by 0.8y. C#/.NET/Postgres/Docker/CI/Git/Jira/testing match. Redis/RabbitMQ/distributed systems gaps."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+    "match_quality": 4,
+    "rationale": "Senior 5y — junior 2.2y under-qualified by 2.8y, despite full stack match."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+    "match_quality": 2,
+    "rationale": "SRE role (Linux/Bash/Ansible/Zabbix/Nginx/HAProxy) — not backend dev. Different specialization."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+    "match_quality": 6,
+    "rationale": "Middle 3y .NET — close to junior. C#/.NET/EF Core/MS SQL/ASP.NET/TDD/OOP/patterns match. WebForms legacy specific."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+    "match_quality": 4,
+    "rationale": "Senior 5y — junior 2.2y under-qualified. Stack matches."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+    "match_quality": 4,
+    "rationale": "Senior backend insurance — under-qualified. Azure/Datadog stack."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+    "match_quality": 0,
+    "rationale": "News Feed Editor — completely different field."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "59cb605a-3205-4ea6-8730-145723cbf85c",
+    "match_quality": 6,
+    "rationale": "Middle .NET banking — close to junior. C#/.NET/Docker/async-await/EF Core/Postgres/REST/Git match."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "27502427-31c4-42e7-95fb-f021aa147ed7",
+    "match_quality": 6,
+    "rationale": "Junior/Middle Fullstack — junior-friendly. ASP.NET Core/EF/SQL Server/REST/.NET/Git all in CV. Angular/TS/Neo4J gaps."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+    "match_quality": 4,
+    "rationale": "Senior 5y consumer apps — under-qualified by 2.8y."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+    "match_quality": 6,
+    "rationale": "Middle Fullstack .NET edtech — close to junior level. C#/.NET/ASP.NET/SQL/EF Core/OOP/patterns match. Frontend frameworks moderate gap."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "38df2a39-e173-4108-8c5b-52afb1c526b3",
+    "match_quality": 6,
+    "rationale": "C#/.NET + MS SQL DBA hybrid — junior-friendly. C#/.NET/MS SQL/T-SQL/OOP/API match. DBA admin specific."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+    "match_quality": 4,
+    "rationale": "Senior 4y Fullstack + React/AWS/TS — under-qualified + frontend stack gap."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "0c7b3e11-9612-41e1-a47b-91c5c7282d57",
+    "match_quality": 0,
+    "rationale": ".NET Subject Matter Expert lead 8y — major over-qualification for junior 2.2y."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+    "match_quality": 4,
+    "rationale": "Senior 5y — junior under-qualified."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "314b593b-f49d-4d84-8c9c-232192f82f03",
+    "match_quality": 0,
+    "rationale": "News editor — different field."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+    "match_quality": 4,
+    "rationale": "Creatio platform-specific CRM development — niche skill not in CV."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "cdc7757a-a09b-42b9-b1d2-12a69069931f",
+    "match_quality": 4,
+    "rationale": "Senior 5y Fullstack + Angular/React legacy — under-qualified + frontend gap."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+    "match_quality": 6,
+    "rationale": "Senior 3y — junior 2.2y under by 0.8y. C#/.NET/ASP.NET MVC/ASP.NET Core/MS SQL/EF stack matches."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+    "match_quality": 0,
+    "rationale": "Tech Lead 7y — major under-qualification for junior."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+    "match_quality": 4,
+    "rationale": "Senior 5y iGaming — junior under-qualified."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+    "match_quality": 2,
+    "rationale": "Senior 5y Fullstack + Dynamics CRM + ANTI 6-month contract — multiple blockers."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "727b163f-8aaf-4926-9ae0-d554f00661ad",
+    "match_quality": 4,
+    "rationale": "Creatio Developer middle — Creatio specific platform skill not in CV."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+    "match_quality": 2,
+    "rationale": "Senior/Lead Fullstack + Node/Angular/ETL — under-qualified + frontend/JS stack gap."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+    "match_quality": 4,
+    "rationale": "Senior backend iGaming — junior under-qualified."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "87451c8f-0db8-43c8-bac2-52381453653b",
+    "match_quality": 6,
+    "rationale": "Same as 38df2a39 template. C#/.NET/MS SQL/DBA junior-friendly."
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "ec9c676d-8504-4123-aac0-038fc306fcf7",
+    "match_quality": 2,
+    "rationale": "Senior 5y Fullstack + Vue.js/WMS/logistics — under-qualified + Vue stack not in CV."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+    "match_quality": 10,
+    "rationale": "Perfect: K8s/CI/Linux/HA/Helm/Grafana/Prometheus/ES all in CV. Banking transferable."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+    "match_quality": 10,
+    "rationale": "Senior DevOps fintech with SOC2 (in CV ✓) + GCP/K8s/Terraform/IAM all match. C1 ✓."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "f6f58a71-977a-44c4-b648-e67c9c3b10b8",
+    "match_quality": 4,
+    "rationale": "Support specialist for Azure Integration Platform — not DevOps engineering."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "a10929c5-ac46-4c90-89c9-8e1712fb7886",
+    "match_quality": 8,
+    "rationale": "All AWS stack (EC2/S3/RDS/ECS/EKS/Lambda/VPC) + Terraform/K8s/Helm/GitLab CI/Jenkins/Prom/Grafana/ELK in CV. Middle role over-qualifies senior."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+    "match_quality": 0,
+    "rationale": "Account Farming + ANTI gray-area work."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+    "match_quality": 0,
+    "rationale": "Trainee .NET Developer — different field + ANTI trainee."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "b97a4400-92c0-45ef-a310-f77229ee28b5",
+    "match_quality": 8,
+    "rationale": "DevOps with AWS/GCP/CI/HA/Docker/Linux/K8s/Jenkins/GHActions/Bash/Python/Grafana — all in CV. WPEngine/DigitalOcean specific."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "a2414078-ec50-47f6-b3c6-81295e7d63fa",
+    "match_quality": 2,
+    "rationale": "Senior Fullstack PHP/Laravel/React — completely different stack. ANTI part-time."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+    "match_quality": 8,
+    "rationale": "Senior DevOps + Linux/Docker/K8s/CI/Ansible/Terraform/Python/GCP/Grafana/Loki/Prom/ELK all match. AI infra/GPU workloads specific."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "b54b635f-f2b9-49e9-9657-26e936568978",
+    "match_quality": 4,
+    "rationale": "Automation/CI/Terraform match but ANTI US PST timezone."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "f9d92cb8-91e3-4b65-bfbd-2473ab04e884",
+    "match_quality": 8,
+    "rationale": "Strong Middle DevOps — AWS/GCP/CI/Terraform/K8s/Docker/IaC/Bash/Python/HA all in CV. Middle role over-qualifies."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "d2a44eb7-6490-4369-9d07-a0099388fc8c",
+    "match_quality": 6,
+    "rationale": "AWS/Terraform/GHActions/Docker match. ANTI onsite Kyiv."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+    "match_quality": 4,
+    "rationale": "Azure-specific stack + ANTI EST timezone (13:30-22:00 Kyiv)."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+    "match_quality": 2,
+    "rationale": "Senior Backend C#/.NET iGaming — different role (dev not DevOps)."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "068b6104-9042-404f-a23e-a8399f3c7e90",
+    "match_quality": 8,
+    "rationale": "Middle SRE — SRE matches target_role. CDN/CI/Linux/Bash/GitLab CI/Python/HTTP all in CV."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+    "match_quality": 6,
+    "rationale": "Cloud Network Developer specialty (BGP/Private Link/L4-L7 LB) — networking-focused, partial DevOps overlap."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+    "match_quality": 8,
+    "rationale": "Middle DevOps gov — Linux/K8s/CI/Docker/Helm/Ansible/Prom/Grafana/Loki/Postgres/GitLab CI/GHActions all in CV."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "80bec801-fe95-4b26-9c93-9189071754b7",
+    "match_quality": 6,
+    "rationale": "DevOps gov — cybersec/vuln/cloud/Linux/Azure DevOps match. ICT systems specific govt context."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "3172a681-cbf9-4121-af90-7fe350a62caf",
+    "match_quality": 6,
+    "rationale": "Junior/Middle DevOps — Terraform/K8s/clouds/GCP match. Windows Server/AD niche admin focus."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "979d43f2-d52d-450d-88be-a955614331ab",
+    "match_quality": 6,
+    "rationale": "TechOps junior 2y — Linux/Docker/cloud/monitoring match. IoT specific. Over-qualified."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "41c84563-a9f5-4721-a71d-bc41345d02ff",
+    "match_quality": 10,
+    "rationale": "Exceptional: Terraform/Terragrunt/IaC/CI/observability/Docker/K8s/Helm/Argo CD (in CV ✓!)/GHActions/Prom/Grafana/AWS/Python/Go all match."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "b6d8744a-03c5-4ba3-80e2-b09b3988b8c3",
+    "match_quality": 8,
+    "rationale": "IT Infra Team Lead — IaC/BCDR/monitoring/incident/team leadership/Azure/AWS/Docker/K8s/Terraform/Python/Bash all match. Lead matches CV senior level."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "44979ab6-0336-4ff7-8abd-055c929aee2b",
+    "match_quality": 8,
+    "rationale": "DevOps — CI/Docker/Linux/Bash/monitoring/Python/Ansible/Jenkins/Prom/Grafana all in CV."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "c2b7f8bf-9e50-4206-9456-c34d66a0057d",
+    "match_quality": 2,
+    "rationale": "Node.js/TypeScript Developer + AI/LLM — backend dev role, not DevOps."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+    "match_quality": 10,
+    "rationale": "Exceptional Senior DevOps B2B SaaS — CI/Linux/Docker/K8s/AWS/Terraform/Helm/IaC/Ansible/GCP/Prom/Grafana/HAProxy/Postgres/Redis/Kafka — ALL in CV."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+    "match_quality": 6,
+    "rationale": "Director Product+Security+DevOps — product+DevOps lead hybrid. CV is engineering-focused."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "6cd2d98d-5897-4c4b-b0b1-f2ce2b2a76ee",
+    "match_quality": 10,
+    "rationale": "Exceptional Senior DevOps — AWS/K8s/Terraform/Docker/CI/distributed/Helm/GHActions/Ansible/Azure/GCP/Python/Bash/Prom/Grafana — every must in CV."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+    "match_quality": 8,
+    "rationale": "AWS+ECS/EKS/Lambda/containers/serverless/CI/Git/Terraform/Helm/Linux all match. Multi-DB (Oracle/MSSQL) breadth."
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+    "match_quality": 8,
+    "rationale": "Middle DevOps — CI/AWS/Terraform/Docker/K8s/Linux/Ansible/Postgres/Python/Bash/ELK all in CV. Multi-cloud nice."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+    "match_quality": 2,
+    "rationale": "PM/PO energy domain (EMS/BESS/PV/VPP) + Azure DevOps — domain too specific + 0y prod exp."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "99e2c825-164a-4a60-9100-b16472b835e5",
+    "match_quality": 2,
+    "rationale": "PMM 4y B2B international sales — marketing role + 4y exp gap (CV 0y)."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+    "match_quality": 2,
+    "rationale": "Inbound Marketing Manager middle 3y — marketing role + 3y exp gap."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+    "match_quality": 4,
+    "rationale": "PM B2B SaaS 4y — strong PM toolkit match (CV has hypothesis/roadmap/A/B/Analytics) but 4y exp expectation."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "16899fdd-9080-444d-b6f1-0f84a096a608",
+    "match_quality": 10,
+    "rationale": "Perfect Junior PM fit: management basics/hypothesis testing/analytics/stakeholder comm — all CV core. Junior ✓ + edtech transferable."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "9e33aa4f-afc6-4c49-89e8-e4baeab80332",
+    "match_quality": 6,
+    "rationale": "Junior PMM 1y — close to junior level. Marketing funnels/hypothesis/analytics/AI tools match but marketing focus differs from PM."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "1f3b8b6e-c937-4511-8f1f-30c4df4f4fec",
+    "match_quality": 2,
+    "rationale": "PMM B2B SaaS 3y C1 — Marketing role + experience expectation."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+    "match_quality": 4,
+    "rationale": "MarTech PM 4y — A/B testing in CV but smartlink/affiliate domain + 4y exp gap."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+    "match_quality": 4,
+    "rationale": "PM 4y monetization/subscription/unit economics — unit economics ✓ in CV but 4y exp expectation."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "c3b4a29b-0ab4-4d8c-b117-6294d2dc7241",
+    "match_quality": 6,
+    "rationale": "PM mobile-first/AI tooling/hypothesis testing — mobile PM matches CV target_role! 3y exp gap moderate."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "2bb764c0-e55e-4503-8362-2f8db87893e2",
+    "match_quality": 2,
+    "rationale": "Software Architect 7y PHP/MySQL — different role + dramatic exp gap."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+    "match_quality": 4,
+    "rationale": "PM fintech accounting 3y — customer research/hypothesis/A/B in CV but 3y exp + accounting specific."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "00d0ccdb-07a0-49a3-a691-efa93961fa2c",
+    "match_quality": 2,
+    "rationale": "PM e-comm 3y C1 + ANTI US PST timezone — multiple blockers."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "2ca61d84-5691-41a7-a4e8-b2601e8f3458",
+    "match_quality": 6,
+    "rationale": "UA/ASO Manager — mobile growth/unit economics (in CV)/performance marketing. Mobile focus matches CV target_role. 3y exp moderate gap."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+    "match_quality": 8,
+    "rationale": "Junior PM iGaming — basics/funnel/hypothesis/analytics all in CV. Junior ✓. iGaming domain specific but role-level fit strong."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "0806777a-efc2-420b-9295-44b1de798eb9",
+    "match_quality": 0,
+    "rationale": "Senior PMM 5y B2B SaaS — Marketing role + senior level."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "34dbdcad-a90b-4d99-b483-20700560429c",
+    "match_quality": 4,
+    "rationale": "PM HRTech 4y — toolkit match but 4y exp + HRTech specific."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+    "match_quality": 6,
+    "rationale": "Junior/Middle PMM 1y B1 — A/B/funnels/monetization/market research in CV. Close to junior level."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "17706215-f00e-48f6-852d-588f3b210bed",
+    "match_quality": 0,
+    "rationale": "CEO for B2C lead 7y — executive level, 0y candidate cannot apply."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+    "match_quality": 4,
+    "rationale": "PO crypto 3y — backlog mgmt/Agile in CV but 3y exp + crypto/PSP specific."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+    "match_quality": 10,
+    "rationale": "Perfect Junior PM edtech: basics/hypothesis/analytics/stakeholder comm — all in CV. Junior 1y matches 0y career switcher."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+    "match_quality": 2,
+    "rationale": "Senior PM/PO iGaming 4y — senior + 4y exp + iGaming aggregator specific."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+    "match_quality": 4,
+    "rationale": "PM logistics 4y international C2C — 4y exp gap + logistics domain."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+    "match_quality": 0,
+    "rationale": "Creative Marketing Manager — different role."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+    "match_quality": 4,
+    "rationale": "Payment PM fintech 4y — 4y exp + payment systems/banking specific."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "a7d2295c-6344-421c-a07b-0e2d8ffb3877",
+    "match_quality": 0,
+    "rationale": "Senior PM iGaming 5y C1 — senior + 5y exp + iGaming specific."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+    "match_quality": 2,
+    "rationale": "Senior PM e-comm 4y D2C Tier-1 — senior + 4y exp + Tier-1 markets focus."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "e7009e48-85a2-4062-9edb-2e6a02878203",
+    "match_quality": 0,
+    "rationale": "Senior PM DefTech 5y drone/NATO — military domain + senior level."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+    "match_quality": 2,
+    "rationale": "SMM Manager 2y — Marketing role, social media specialist."
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_id": "ea48f066-6a13-443f-b34c-263c386fd837",
+    "match_quality": 0,
+    "rationale": "COO executive 5y C1 — executive level, 0y career switcher cannot apply."
+  }
+]

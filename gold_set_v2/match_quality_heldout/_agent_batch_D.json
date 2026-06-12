@@ -1,0 +1,41 @@
+[
+  {
+    "cv_id": "16_marketing_mid_growth",
+    "vacancy_ids": [
+      "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+      "9a897ce1-5611-457b-8528-44b176fd3cab",
+      "d12c42fa-20a2-4828-895e-916488950dde",
+      "3719c00a-f57e-4827-abd2-c9030c06d52f",
+      "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+      "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+      "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+      "585161dc-1435-4472-9e0f-354d7d03c828"
+    ]
+  },
+  {
+    "cv_id": "18_academic_professor_humanities",
+    "vacancy_ids": [
+      "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+      "60349f54-8bc7-4a4f-bd20-185d8267483e",
+      "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "f81356d6-fe08-4fe1-a811-d7499fc35553",
+      "8298811a-423e-456d-bb00-f04f497adbf3",
+      "27165f02-0dfc-4503-af0e-d6755cf5a49e",
+      "44aae2a7-4fda-4323-948f-e51fa99d933b",
+      "727b163f-8aaf-4926-9ae0-d554f00661ad"
+    ]
+  },
+  {
+    "cv_id": "23_security_engineer_mid",
+    "vacancy_ids": [
+      "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+      "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+      "fd125a93-ce97-4995-abce-547c10bbdead",
+      "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "87451c8f-0db8-43c8-bac2-52381453653b",
+      "b1e435b2-21fe-4628-b239-0a945b66811e",
+      "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+      "f81356d6-fe08-4fe1-a811-d7499fc35553"
+    ]
+  }
+]

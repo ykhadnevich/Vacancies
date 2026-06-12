@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "6bcc3a0a-f614-41c3-9e96-fded168f4ed9",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Android Developer",
+    "uk": "Senior Android розробник"
+  },
+  "role_title_raw": "Strong Middle/Senior Android Developer - Pawchamp",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "mobile architecture",
+    "consumer apps",
+    "Android",
+    "Jetpack Compose",
+    "SOLID",
+    "Clean Architecture"
+  ],
+  "nice_to_have_skills": [
+    "Junit",
+    "CI/CD",
+    "GraphQL"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

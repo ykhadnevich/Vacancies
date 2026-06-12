@@ -1,0 +1,109 @@
+[
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_ids": [
+      "5ef4320d-971c-4970-ab94-ea72fa40034b",
+      "ff8aad4f-4fde-42bd-b481-5c835e59c02e"
+    ]
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_ids": [
+      "acf2b942-1198-4208-b40e-882c1058918c",
+      "26815abc-ac5e-4925-9f24-96e48277262d",
+      "646f93ed-8a4a-4498-9e5e-100b979a2153"
+    ]
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_ids": [
+      "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+      "03019334-1f10-4736-a42a-009422d3ff61",
+      "3bd35b6f-3631-4819-9227-8e8fe124717d"
+    ]
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_ids": [
+      "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "5ef4320d-971c-4970-ab94-ea72fa40034b",
+      "306f9ac1-1597-4b57-8eda-fc4b17b43590"
+    ]
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_ids": [
+      "4da12442-b7ac-4c81-abb4-71aa7f1c16a2",
+      "345c5e8b-15dc-4059-ab9d-43e73ad6c446"
+    ]
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_ids": [
+      "caf7ce6b-f789-461e-ba10-ae0c5eb8ce35",
+      "25630527-064b-4211-9697-730a04a25a26",
+      "72392282-8ab8-4dc6-bb02-b7c4ade1205f"
+    ]
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_ids": [
+      "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+      "6bcc3a0a-f614-41c3-9e96-fded168f4ed9"
+    ]
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_ids": [
+      "30860e73-5ce6-4455-bde6-6a3799713735",
+      "76cb5abd-f975-4f55-94b3-c26544c18e56",
+      "d9b764c5-1599-4a77-a575-8933485cebd2"
+    ]
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_ids": [
+      "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+      "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "3f5fed6c-6ab0-4eb3-b440-249da7fba361"
+    ]
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_ids": [
+      "0e5df96a-74d3-44e3-98fb-db96653b6942",
+      "af405332-ae34-46e9-8ec8-89ed0ff6484e"
+    ]
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_ids": [
+      "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+      "b66e9aad-8110-4d6e-87c9-e05f626b5ee4"
+    ]
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_ids": [
+      "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+      "cd68e1e0-c8b1-4237-8dea-facd3c803c68"
+    ]
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_ids": [
+      "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+      "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "6cd2d98d-5897-4c4b-b0b1-f2ce2b2a76ee"
+    ]
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_ids": [
+      "8177a254-3728-4f81-b23d-59881458e60b",
+      "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "fd125a93-ce97-4995-abce-547c10bbdead"
+    ]
+  }
+]

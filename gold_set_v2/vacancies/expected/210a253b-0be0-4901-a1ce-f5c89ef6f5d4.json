@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Backend Developer",
+    "uk": "Senior Backend розробник"
+  },
+  "role_title_raw": "Senior Backend Developer (.NET / Azure)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "Azure",
+    "ASP.NET Core",
+    "SQL",
+    "cloud",
+    "Azure Functions",
+    "Azure DevOps",
+    "Swagger",
+    "JavaScript",
+    "DataDog",
+    "REST API",
+    "OpenAPI"
+  ],
+  "nice_to_have_skills": [
+    "Angular",
+    "Redis"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "insurance",
+    "uk": "страхування"
+  },
+  "anti_requirements": []
+}

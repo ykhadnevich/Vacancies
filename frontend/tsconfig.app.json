@@ -18,7 +18,11 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
+    // erasableSyntaxOnly disabled: existing code uses runtime `enum`
+    // (src/types/job.ts, src/types/tracker.ts). Re-enable + convert
+    // those enums to `as const` objects if/when isolatedDeclarations
+    // becomes a goal.
+    "erasableSyntaxOnly": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]

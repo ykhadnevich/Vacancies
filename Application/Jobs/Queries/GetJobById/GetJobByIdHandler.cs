@@ -34,6 +34,7 @@ public class GetJobByIdHandler : IRequestHandler<GetJobByIdQuery, JobVacancyDto?
             Category = job.Category,
             RelevanceScore = job.RelevanceScore?.Value,
             RelevanceStage = job.RelevanceScore?.Stage.ToString(),
+            RelevanceReason = job.Reason,
             IsDuplicate = job.IsDuplicate,
             IsManuallyAdded = job.IsManuallyAdded,
             PublishedAt = job.PublishedAt

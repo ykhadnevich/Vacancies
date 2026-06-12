@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "76518482-59d2-4e96-bedc-cde1817b241c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Analyst",
+    "uk": "Senior Data Analyst"
+  },
+  "role_title_raw": "Senior Data Analyst",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "SQL",
+    "financial / investment data",
+    "BI",
+    "PostgreSQL",
+    "Power BI",
+    "Tableau",
+    "Looker",
+    "Grafana",
+    "A/B testing"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

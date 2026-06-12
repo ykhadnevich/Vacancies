@@ -1,16 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Infrastructure.Persistence;
 
 #nullable disable
 
 namespace Infrastructure.Persistence.Migrations
 {
-    /// <inheritdoc />
+    [DbContext(typeof(AppDbContext))]
+    [Migration("20260427000000_AddPasswordHash")]
     public partial class AddPasswordHash : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            // Додаємо колонку з тимчасовим default — щоб не впасти на існуючих рядках
             migrationBuilder.AddColumn<string>(
                 name: "PasswordHash",
                 table: "UserProfiles",
@@ -20,7 +22,6 @@ namespace Infrastructure.Persistence.Migrations
                 defaultValue: "");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(

@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior / Lead Fullstack Developer",
+    "uk": "Senior / Lead Fullstack розробник"
+  },
+  "role_title_raw": "Senior/Lead Software Engineer (Node.js/Angular/.NET)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "Node.js",
+    "Angular",
+    ".NET",
+    "C#",
+    "ETL",
+    "Express",
+    "SQL",
+    "API"
+  ],
+  "nice_to_have_skills": [
+    "AWS",
+    "MySQL",
+    "MongoDB",
+    "NoSQL",
+    "mentorship"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

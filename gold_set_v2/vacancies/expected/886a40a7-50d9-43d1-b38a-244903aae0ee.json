@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior AI Engineer",
+    "uk": "Senior AI інженер"
+  },
+  "role_title_raw": "Senior AI Engineer (AWS/Bedrock)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "AWS Bedrock",
+    "AWS",
+    "AI/ML",
+    "GenAI",
+    "cloud architecture",
+    "cloud",
+    "CI/CD",
+    "RAG",
+    "Python",
+    "Lambda",
+    "S3",
+    "DynamoDB",
+    "AI"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "Docker",
+    "ML",
+    "PyTorch"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

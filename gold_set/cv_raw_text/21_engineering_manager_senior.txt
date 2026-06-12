@@ -1,0 +1,74 @@
+Dmytro Hrushevsky
+Senior Engineering Manager · 10 years total (4 EM + 6 IC) · Kyiv
+d.hrushevsky@example.com · linkedin.com/in/dhrushevsky
+Summary
+Engineering Manager з 4-річним досвідом people management + 6 років як IC backend
+engineer. Lead-ив команди 5-12 інженерів у B2B SaaS та B2C продуктах. Strong focus: hiring
+pipeline, performance management, technical strategy alongside Product/Design partners,
+incident response, on-call culture. Backend background — досі читаю code reviews, не пишу
+production code last 2 роки.
+Experience
+Senior Engineering Manager — Preply (EdTech, B2C marketplace)
+Mar 2024 — Present · Kyiv (remote) · PRODUCTION
+• Manage 2 backend teams (12 engineers total) — Payments + Marketplace Search. Direct
+reports: 2 tech leads + 1 senior engineer.
+• Hiring: closed 4 senior backend hires + 1 staff engineer за 11 місяців. Built phone-screen +
+system-design loop with 70% senior offer-acceptance rate.
+• Drove company-wide migration з Python 2.7 monolith → Python 3.11 + service-oriented
+architecture (Q1-Q3 2024). 6 services extracted, zero customer-facing incidents.
+• Set up engineering quarterly OKRs alongside CTO; chair monthly tech-strategy meeting.
+Engineering Manager — Genesis (Universe Group)
+Jun 2022 — Feb 2024 · Kyiv · PRODUCTION
+• Manage backend team (7 engineers) для one consumer subscription app, ~3M MAU.
+Inherited team з 2 misses on annual OKRs — rebuilt sprint review + planning rituals, hit 5/5
+OKRs next year.
+• Coached 3 mid engineers до senior level (formal promotion process — calibration with
+skip-level + HR).
+• Owned on-call rotation policy + SLO targets — p95 API latency target 200ms, achieved
+184ms over rolling 90 days.
+Tech Lead — SoftServe
+Aug 2020 — May 2022 · Lviv · PRODUCTION
+• Tech lead, 5-engineer team на US healthcare client. Mix of architecture decisions + 30-40%
+IC time.
+• Architected microservices split з Python monolith для 1 client; project delivered on schedule.
+Senior Backend Engineer — EPAM
+Jul 2018 — Jul 2020 · Lviv · PRODUCTION
+• Python + Django Rest Framework + PostgreSQL + AWS. Client projects in fintech +
+e-commerce.
+Mid → Senior Backend Engineer — Ciklum
+Aug 2015 — Jun 2018 · Kyiv · PRODUCTION
+• Multi-client work in Django + Flask. Promoted to Senior in 2017.
+Junior Backend Developer — SoftServe
+Jul 2014 — Jul 2015 · Lviv · PRODUCTION
+• First commercial role — Django ORM, PostgreSQL, REST APIs.
+
+Skills
+People management: 1:1s, performance reviews, calibration cycles, promotion cases, PIP cases
+(handled 2), hiring pipelines (phone screen + system design + culture loops), interview
+scorecards, hiring committee chairing.
+Organizational: OKR planning, capacity planning, roadmap negotiation with Product,
+cross-functional alignment, incident postmortems (blameless), engineering culture documents,
+on-call policy design.
+Strategy + architecture (advisory now): service-oriented architecture,
+monolith→microservices migration patterns, API contract design, technical risk assessment,
+build-vs-buy analysis.
+Engineering background (read-only now): Python, Django, FastAPI, PostgreSQL, Redis, Kafka,
+AWS (EC2, RDS, Lambda, S3), Kubernetes (basic).
+Tools (daily): Notion, Linear (was Jira earlier), Slack, Loom, Figma (read-only for product
+reviews), Lattice (performance reviews), Greenhouse (hiring), Pager Duty.
+Frameworks (managerial): Stripe-style "manager-as-multiplier", Camille Fournier playbook,
+Ben Horowitz on hard things, Andy Grove HOM.
+Education
+NTUU Kyiv Polytechnic Institute (KPI)
+Master's in Software Engineering · 2012–2014 · Completed
+NTUU Kyiv Polytechnic Institute (KPI)
+Bachelor's in Software Engineering · 2008–2012 · Completed
+Continuing education: "Become an Effective Software Engineering Manager" (James Stanier
+book — book club at Preply 2024); LeadDev Conference (London, 2023, attended).
+Languages
+• Ukrainian — native
+• English — C1 (daily — written engineering docs, executive presentations)
+Target Roles
+Senior Engineering Manager · Director of Engineering · Director of Platform · Head of Backend.
+Цікавлять product B2C / B2B SaaS на scale 50-200+ engineers. Не зацікавлений у IC senior
+engineer ролях (готовий повернутись lower у дуже виключних випадках).

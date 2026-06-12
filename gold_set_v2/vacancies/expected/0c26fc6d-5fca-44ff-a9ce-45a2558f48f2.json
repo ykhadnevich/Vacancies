@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Android Developer",
+    "uk": "Junior Android розробник"
+  },
+  "role_title_raw": "Junior Android Developer (стажер)",
+  "seniority_required": "intern",
+  "must_have_skills": [
+    "Kotlin",
+    "Jetpack Compose",
+    "XML Layouts",
+    "MVVM",
+    "MVI",
+    "Retrofit",
+    "OkHttp",
+    "Room",
+    "Kotlin Coroutines",
+    "Flow",
+    "Agile"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "onsite-only internship"
+  ]
+}

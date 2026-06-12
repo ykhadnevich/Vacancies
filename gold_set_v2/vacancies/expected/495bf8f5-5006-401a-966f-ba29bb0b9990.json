@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "495bf8f5-5006-401a-966f-ba29bb0b9990",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle iOS Developer",
+    "uk": "Middle iOS розробник"
+  },
+  "role_title_raw": "Middle iOS Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Swift",
+    "UIKit",
+    "SwiftUI",
+    "REST API",
+    "clean architecture",
+    "iOS",
+    "design patterns"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "telecom",
+    "uk": "телеком"
+  },
+  "anti_requirements": []
+}

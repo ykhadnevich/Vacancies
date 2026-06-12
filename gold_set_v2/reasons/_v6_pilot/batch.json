@@ -1,0 +1,2176 @@
+{
+ "batch_idx": "pilot",
+ "n_pairs": 10,
+ "pairs": [
+  {
+   "cv_id": "7_devops_senior",
+   "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "Senior SRE",
+     "Senior DevOps Engineer",
+     "Platform Engineer"
+    ],
+    "domain_skills": [
+     "Kubernetes",
+     "ArgoCD",
+     "Kustomize",
+     "AWS",
+     "EKS",
+     "RDS",
+     "S3",
+     "Lambda",
+     "CloudFront",
+     "GCP",
+     "Terraform",
+     "Helm",
+     "Prometheus",
+     "Grafana",
+     "Datadog",
+     "Loki",
+     "Tempo",
+     "OpenTelemetry",
+     "Thanos",
+     "PagerDuty",
+     "GitHub Actions",
+     "Jenkins",
+     "Bitbucket",
+     "Docker",
+     "Ansible",
+     "VMware vSphere",
+     "Linux administration",
+     "Bash",
+     "SLO",
+     "Multi-cloud architecture",
+     "GitOps"
+    ],
+    "technical_skills": [
+     "OpenShift",
+     "Pulumi",
+     "Azure",
+     "Route53",
+     "GKE",
+     "Cloud SQL",
+     "Pub/Sub",
+     "GitLab CI",
+     "Flux",
+     "Istio",
+     "Linkerd",
+     "Python",
+     "Go",
+     "SOC2 compliance",
+     "Vault",
+     "Pod Security Policies",
+     "Perl"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Astound Commerce",
+      "type": "PRODUCTION",
+      "duration_months": 46,
+      "years_ago": 0
+     },
+     {
+      "title": "Wix.com",
+      "type": "PRODUCTION",
+      "duration_months": 27,
+      "years_ago": 4
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 17,
+      "years_ago": 6
+     },
+     {
+      "title": "N-iX",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 8
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Science",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2018
+    },
+    "english_level": "C1",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "C1"
+     },
+     {
+      "language": "German",
+      "level": "A2"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Senior DevOps",
+     "uk": "Senior DevOps"
+    },
+    "role_title_raw": "Senior DevOps Engineer (Infrastructure, Security and Compliance)",
+    "seniority_required": "senior",
+    "must_have_skills": [
+     "DevOps",
+     "IT security",
+     "compliance",
+     "ISO 27001",
+     "SOC 2",
+     "vendor management",
+     "cloud infrastructure",
+     "GCP",
+     "Kubernetes",
+     "Terraform",
+     "IAM"
+    ],
+    "nice_to_have_skills": [
+     "Python",
+     "Go"
+    ],
+    "min_years_experience": 5,
+    "education_required": "not_specified",
+    "english_required": "C1",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "fintech",
+     "uk": "фінтех"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.785,
+     "reason_en": "Cross-domain Kubernetes→fintech transition. Strong match. Strengths: GCP, Kubernetes. Gaps: ISO 27001, SOC 2.",
+     "reason_uk": "Перехід Kubernetes→fintech. Сильна відповідність. Переваги: GCP, Kubernetes. Брак: ISO 27001, SOC 2.",
+     "evidence": {
+      "matched_skills": [
+       "GCP",
+       "Kubernetes",
+       "Terraform",
+       "Python",
+       "Go"
+      ],
+      "missing_must_haves": [
+       "IaC",
+       "SSO",
+       "IAM",
+       "secrets",
+       "vulnerability management",
+       "ISO 27001",
+       "SOC 2"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.785,
+     "reason_en": "Cross-domain Kubernetes → fintech. Strong match. Strengths: GCP, Kubernetes. Gaps: IaC, SSO.",
+     "reason_uk": "Перехід Kubernetes → fintech. Сильна відповідність. Переваги: GCP, Kubernetes. Брак: IaC, SSO.",
+     "evidence": {
+      "matched_skills": [
+       "GCP",
+       "Kubernetes",
+       "Terraform",
+       "Python",
+       "Go"
+      ],
+      "missing_must_haves": [
+       "IaC",
+       "SSO",
+       "IAM",
+       "secrets",
+       "vulnerability management",
+       "ISO 27001",
+       "SOC 2"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "7_devops_senior",
+   "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "Senior SRE",
+     "Senior DevOps Engineer",
+     "Platform Engineer"
+    ],
+    "domain_skills": [
+     "Kubernetes",
+     "ArgoCD",
+     "Kustomize",
+     "AWS",
+     "EKS",
+     "RDS",
+     "S3",
+     "Lambda",
+     "CloudFront",
+     "GCP",
+     "Terraform",
+     "Helm",
+     "Prometheus",
+     "Grafana",
+     "Datadog",
+     "Loki",
+     "Tempo",
+     "OpenTelemetry",
+     "Thanos",
+     "PagerDuty",
+     "GitHub Actions",
+     "Jenkins",
+     "Bitbucket",
+     "Docker",
+     "Ansible",
+     "VMware vSphere",
+     "Linux administration",
+     "Bash",
+     "SLO",
+     "Multi-cloud architecture",
+     "GitOps"
+    ],
+    "technical_skills": [
+     "OpenShift",
+     "Pulumi",
+     "Azure",
+     "Route53",
+     "GKE",
+     "Cloud SQL",
+     "Pub/Sub",
+     "GitLab CI",
+     "Flux",
+     "Istio",
+     "Linkerd",
+     "Python",
+     "Go",
+     "SOC2 compliance",
+     "Vault",
+     "Pod Security Policies",
+     "Perl"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Astound Commerce",
+      "type": "PRODUCTION",
+      "duration_months": 46,
+      "years_ago": 0
+     },
+     {
+      "title": "Wix.com",
+      "type": "PRODUCTION",
+      "duration_months": 27,
+      "years_ago": 4
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 17,
+      "years_ago": 6
+     },
+     {
+      "title": "N-iX",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 8
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Science",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2018
+    },
+    "english_level": "C1",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "C1"
+     },
+     {
+      "language": "German",
+      "level": "A2"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Senior DevOps",
+     "uk": "Senior DevOps"
+    },
+    "role_title_raw": "Senior DevOps Engineer",
+    "seniority_required": "senior",
+    "must_have_skills": [
+     "Linux",
+     "Docker",
+     "Kubernetes",
+     "CI/CD",
+     "AI infrastructure",
+     "GPU workloads",
+     "Ansible",
+     "Terraform",
+     "Python",
+     "GCP",
+     "Grafana",
+     "Loki",
+     "Prometheus",
+     "ELK"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": null,
+    "education_required": "not_specified",
+    "english_required": "not_specified",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": false,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "DefTech",
+     "uk": "DefTech"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.8214285714285715,
+     "reason_en": "Strong match. Strengths: Docker, Ansible, Terraform. Gaps: Cloud, ELK.",
+     "reason_uk": "Сильна відповідність. Переваги: Docker, Ansible, Terraform. Брак: Cloud, ELK.",
+     "evidence": {
+      "matched_skills": [
+       "Docker",
+       "Ansible",
+       "Terraform",
+       "python",
+       "GCP",
+       "grafana",
+       "loki",
+       "prometheus"
+      ],
+      "missing_must_haves": [
+       "linux",
+       "Cloud",
+       "alloy",
+       "ELK",
+       "FinOps",
+       "AI"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.8214285714285715,
+     "reason_en": "Cross-domain Kubernetes→DefTech transition. Strong match. Strengths: Docker, Ansible, Terraform. Gaps: Cloud, FinOps.",
+     "reason_uk": "Перехід Kubernetes→DefTech. Сильна відповідність. Переваги: Docker, Ansible, Terraform. Брак: Cloud, FinOps.",
+     "evidence": {
+      "matched_skills": [
+       "Docker",
+       "Ansible",
+       "Terraform",
+       "python",
+       "GCP",
+       "grafana",
+       "loki",
+       "prometheus"
+      ],
+      "missing_must_haves": [
+       "linux",
+       "Cloud",
+       "alloy",
+       "ELK",
+       "FinOps",
+       "AI"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "7_devops_senior",
+   "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "Senior SRE",
+     "Senior DevOps Engineer",
+     "Platform Engineer"
+    ],
+    "domain_skills": [
+     "Kubernetes",
+     "ArgoCD",
+     "Kustomize",
+     "AWS",
+     "EKS",
+     "RDS",
+     "S3",
+     "Lambda",
+     "CloudFront",
+     "GCP",
+     "Terraform",
+     "Helm",
+     "Prometheus",
+     "Grafana",
+     "Datadog",
+     "Loki",
+     "Tempo",
+     "OpenTelemetry",
+     "Thanos",
+     "PagerDuty",
+     "GitHub Actions",
+     "Jenkins",
+     "Bitbucket",
+     "Docker",
+     "Ansible",
+     "VMware vSphere",
+     "Linux administration",
+     "Bash",
+     "SLO",
+     "Multi-cloud architecture",
+     "GitOps"
+    ],
+    "technical_skills": [
+     "OpenShift",
+     "Pulumi",
+     "Azure",
+     "Route53",
+     "GKE",
+     "Cloud SQL",
+     "Pub/Sub",
+     "GitLab CI",
+     "Flux",
+     "Istio",
+     "Linkerd",
+     "Python",
+     "Go",
+     "SOC2 compliance",
+     "Vault",
+     "Pod Security Policies",
+     "Perl"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Astound Commerce",
+      "type": "PRODUCTION",
+      "duration_months": 46,
+      "years_ago": 0
+     },
+     {
+      "title": "Wix.com",
+      "type": "PRODUCTION",
+      "duration_months": 27,
+      "years_ago": 4
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 17,
+      "years_ago": 6
+     },
+     {
+      "title": "N-iX",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 8
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Science",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2018
+    },
+    "english_level": "C1",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "C1"
+     },
+     {
+      "language": "German",
+      "level": "A2"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Senior DevOps",
+     "uk": "Senior DevOps"
+    },
+    "role_title_raw": "Senior DevOps engineer",
+    "seniority_required": "senior",
+    "must_have_skills": [
+     "CI/CD",
+     "Linux",
+     "Docker",
+     "Kubernetes",
+     "AWS",
+     "Terraform",
+     "Bash",
+     "containers",
+     "Helm",
+     "cloud",
+     "IaC",
+     "Ansible",
+     "GCP",
+     "VPC",
+     "Python",
+     "Prometheus",
+     "Grafana",
+     "Elasticsearch",
+     "HAProxy",
+     "PostgreSQL",
+     "MySQL",
+     "MongoDB",
+     "Redis",
+     "RabbitMQ",
+     "Kafka"
+    ],
+    "nice_to_have_skills": [
+     "high-load systems"
+    ],
+    "min_years_experience": 5,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "B2B SaaS",
+     "uk": "B2B SaaS"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.7146153846153847,
+     "reason_en": "Cross-domain Kubernetes→fintech. Senior overqualified for Senior DevOps role. Partial match. Strengths: Kubernetes, Vault. Gaps: Nomad, Consul.",
+     "reason_uk": "Перехід Kubernetes→fintech. Senior переоцінений для Senior DevOps ролі. Часткова відповідність. Переваги: Kubernetes, Vault. Брак: Nomad, Consul.",
+     "evidence": {
+      "matched_skills": [
+       "Kubernetes",
+       "Vault",
+       "Terraform",
+       "GKE",
+       "Helm",
+       "ArgoCD",
+       "Ansible",
+       "Google Cloud Platform",
+       "GCP",
+       "Docker",
+       "Bash",
+       "Python",
+       "Prometheus",
+       "Grafana"
+      ],
+      "missing_must_haves": [
+       "CI/CD",
+       "Nomad",
+       "HashiCorp Stack",
+       "Consul",
+       "Packer",
+       "Argo Rollouts",
+       "Flux CD",
+       "SSO integration",
+       "Infrastructure as Code",
+       "IaC",
+       "VPC",
+       "Firewall",
+       "Cloud Storage",
+       "Compute Engine",
+       "Artifact Registry",
+       "Containerization",
+       "containerd",
+       "Podman",
+       "GitLab",
+       "Operating Systems",
+       "Linux",
+       "Debian",
+       "RHEL",
+       "Windows Family",
+       "Networking Fundamentals",
+       "switching",
+       "routing",
+       "load balancing",
+       "name resolution",
+       "Logging",
+       "Monitoring",
+       "VictoriaMetrics",
+       "ELK Stack",
+       "Elasticsearch",
+       "Logstash",
+       "Kibana",
+       "Traffic Management",
+       "HAProxy",
+       "KrakenD",
+       "Kubernetes Gateway API",
+       "Databases",
+       "Data Stores",
+       "PostgreSQL",
+       "MySQL",
+       "MongoDB",
+       "Caching",
+       "Message Brokers",
+       "Redis",
+       "Memcached",
+       "RabbitMQ",
+       "Kafka"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.7146153846153847,
+     "reason_en": "Senior overqualified for role; cross-domain transition. Partial match. Strengths: Kubernetes, Vault. Gaps: Nomad, Consul.",
+     "reason_uk": "Senior перекваліфікований для ролі; перехід між доменами. Часткова відповідність. Переваги: Kubernetes, Vault. Брак: Nomad, Consul.",
+     "evidence": {
+      "matched_skills": [
+       "Kubernetes",
+       "Vault",
+       "Terraform",
+       "GKE",
+       "Helm",
+       "ArgoCD",
+       "Ansible",
+       "Google Cloud Platform",
+       "GCP",
+       "Docker",
+       "Bash",
+       "Python",
+       "Prometheus",
+       "Grafana"
+      ],
+      "missing_must_haves": [
+       "CI/CD",
+       "Nomad",
+       "HashiCorp Stack",
+       "Consul",
+       "Packer",
+       "Argo Rollouts",
+       "Flux CD",
+       "SSO integration",
+       "Infrastructure as Code",
+       "IaC",
+       "VPC",
+       "Firewall",
+       "Cloud Storage",
+       "Compute Engine",
+       "Artifact Registry",
+       "Containerization",
+       "containerd",
+       "Podman",
+       "GitLab",
+       "Operating Systems",
+       "Linux",
+       "Debian",
+       "RHEL",
+       "Windows Family",
+       "Networking Fundamentals",
+       "switching",
+       "routing",
+       "load balancing",
+       "name resolution",
+       "Logging",
+       "Monitoring",
+       "VictoriaMetrics",
+       "ELK Stack",
+       "Elasticsearch",
+       "Logstash",
+       "Kibana",
+       "Traffic Management",
+       "HAProxy",
+       "KrakenD",
+       "Kubernetes Gateway API",
+       "Databases",
+       "Data Stores",
+       "PostgreSQL",
+       "MySQL",
+       "MongoDB",
+       "Caching",
+       "Message Brokers",
+       "Redis",
+       "Memcached",
+       "RabbitMQ",
+       "Kafka"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "5_junior_backend_engineer",
+   "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+   "cv_summary": {
+    "seniority": "junior",
+    "target_roles": [
+     "Junior .NET Developer",
+     "Junior Backend Engineer",
+     "Junior Full-Stack"
+    ],
+    "domain_skills": [
+     "C#",
+     "ASP.NET Core",
+     "EF Core",
+     "PostgreSQL",
+     "Docker",
+     "Git",
+     "Jira",
+     "Confluence",
+     "xUnit",
+     "Moq",
+     "RESTful API design",
+     "SOLID principles",
+     "Clean Architecture",
+     "async/await",
+     "Dependency Injection",
+     "Design patterns",
+     "Application architecture",
+     "Agile/Scrum",
+     "SQL Server",
+     "GitHub Actions",
+     "JWT",
+     "SwiftUI"
+    ],
+    "technical_skills": [
+     ".NET Core",
+     "JavaScript",
+     "HTML",
+     "CSS",
+     "LINQ"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 26,
+      "years_ago": 0
+     },
+     {
+      "title": "N-iX",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 3
+     },
+     {
+      "title": "Multi-user todo app",
+      "type": "COURSE",
+      "duration_months": 3,
+      "years_ago": 3
+     },
+     {
+      "title": "Compiler for toy language",
+      "type": "COURSE",
+      "duration_months": 3,
+      "years_ago": 3
+     },
+     {
+      "title": "Database design course final",
+      "type": "COURSE",
+      "duration_months": 3,
+      "years_ago": 3
+     },
+     {
+      "title": "Habit Tracker",
+      "type": "PET_PROJECT",
+      "duration_months": 6,
+      "years_ago": 0
+     }
+    ],
+    "education": {
+     "degree": "bachelor",
+     "field": "Software Engineering",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2024
+    },
+    "english_level": "B1",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "B1"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Middle .NET Developer",
+     "uk": "Middle .NET розробник"
+    },
+    "role_title_raw": "Middle / Strong Middle .NET Developer",
+    "seniority_required": "middle",
+    "must_have_skills": [
+     "C#",
+     ".NET",
+     "Entity Framework",
+     "ADO.NET",
+     "MS SQL Server",
+     "ASP.NET",
+     "ASP.NET WebForms",
+     "TDD",
+     "unit testing",
+     "OOP",
+     "design patterns",
+     "SQL",
+     "EF Core",
+     "Integration Testing"
+    ],
+    "nice_to_have_skills": [
+     "Azure",
+     "third-party integrations"
+    ],
+    "min_years_experience": 3,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "fintech",
+     "uk": "фінтех"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.6487179487179487,
+     "reason_en": "Cross-domain C#→fintech transition. Partial match. Strengths: .NET, C#. Gaps: ADO.NET, TDD.",
+     "reason_uk": "Перехід C#→fintech. Часткова відповідність. Переваги: .NET, C#. Брак: ADO.NET, TDD.",
+     "evidence": {
+      "matched_skills": [
+       ".NET",
+       "C#",
+       "EF Core",
+       "ASP.NET",
+       "design patterns"
+      ],
+      "missing_must_haves": [
+       "ADO.NET",
+       "MS SQL Server",
+       "ASP.NET WebForms",
+       "TDD",
+       "unit testing",
+       "integration testing",
+       "OOD",
+       "integration solutions"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.6487179487179487,
+     "reason_en": "Cross-domain C# → fintech. Partial match. Strengths: .NET, C#. Gaps: ADO.NET, TDD.",
+     "reason_uk": "Перехід C# → fintech. Часткова відповідність. Переваги: .NET, C#. Брак: ADO.NET, TDD.",
+     "evidence": {
+      "matched_skills": [
+       ".NET",
+       "C#",
+       "EF Core",
+       "ASP.NET",
+       "design patterns"
+      ],
+      "missing_must_haves": [
+       "ADO.NET",
+       "MS SQL Server",
+       "ASP.NET WebForms",
+       "TDD",
+       "unit testing",
+       "integration testing",
+       "OOD",
+       "integration solutions"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "22_data_engineer_senior",
+   "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "Senior Data Engineer",
+     "Staff Data Engineer",
+     "Data Platform Engineer"
+    ],
+    "domain_skills": [
+     "Python",
+     "SQL",
+     "Spark",
+     "PySpark",
+     "Scala",
+     "dbt",
+     "Airflow",
+     "Snowflake",
+     "Snowpipe Streaming",
+     "BigQuery",
+     "Redshift",
+     "Databricks",
+     "Delta Lake",
+     "Kafka",
+     "Debezium",
+     "Kafka Connect",
+     "AWS S3",
+     "AWS Glue",
+     "AWS EMR",
+     "Trino",
+     "Feast",
+     "Postgres CDC",
+     "Dimensional modeling",
+     "Incremental materializations",
+     "Bash",
+     "Java",
+     "FastAPI",
+     "pandas",
+     "Apache Beam",
+     "Dagster",
+     "Prefect",
+     "Kinesis",
+     "Data Vault",
+     "Slowly changing dimensions",
+     "EventBridge",
+     "IAM",
+     "Lambda",
+     "Pub/Sub",
+     "Cloud Storage",
+     "Git",
+     "GitHub Actions",
+     "Terraform",
+     "Looker",
+     "Mode Analytics",
+     "Great Expectations",
+     "Monte Carlo",
+     "OpenLineage"
+    ],
+    "technical_skills": [
+     "Pandas"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Restream",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 0
+     },
+     {
+      "title": "Grammarly",
+      "type": "PRODUCTION",
+      "duration_months": 40,
+      "years_ago": 3
+     },
+     {
+      "title": "Genesis",
+      "type": "PRODUCTION",
+      "duration_months": 20,
+      "years_ago": 6
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 12,
+      "years_ago": 8
+     },
+     {
+      "title": "EPAM",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Science",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2017
+    },
+    "english_level": "C1",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "C1"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Machine Learning Engineer",
+     "uk": "Machine Learning інженер"
+    },
+    "role_title_raw": "Machine learning engineer",
+    "seniority_required": "not_specified",
+    "must_have_skills": [
+     "Python",
+     "ML",
+     "biometric identification",
+     "face / object analysis",
+     "OSINT",
+     "AI agents",
+     "Git",
+     "OOP",
+     "deep learning",
+     "NLP",
+     "Tensorflow",
+     "PyTorch",
+     "Docker",
+     "data structures",
+     "SQL",
+     "NoSQL"
+    ],
+    "nice_to_have_skills": [
+     "Airflow",
+     "concurrency"
+    ],
+    "min_years_experience": 3,
+    "education_required": "not_specified",
+    "english_required": "not_specified",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "DefTech",
+     "uk": "DefTech"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.568,
+     "reason_en": "Senior overqualified for middle role. Cross-domain Python/SQL to DefTech. Partial match. Strengths: Python, SQL. Gaps: DS, MLE, Tensorflow, Keras.",
+     "reason_uk": "Senior перекваліфікований для middle ролі. Перехід Python/SQL до DefTech. Часткова відповідність. Переваги: Python, SQL. Брак: DS, MLE, Tensorflow, Keras.",
+     "evidence": {
+      "matched_skills": [
+       "Python",
+       "Git",
+       "SQL",
+       "Airflow"
+      ],
+      "missing_must_haves": [
+       "DS",
+       "MLE",
+       "математичний бекграунд",
+       "алгоритми і структури даних",
+       "ООП",
+       "машинне навчання",
+       "глибоке навчання",
+       "NLP",
+       "Tabular Data ML",
+       "Tensorflow",
+       "Keras",
+       "PyTorch",
+       "Docker",
+       "NoSQL",
+       "feature engineering"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.568,
+     "reason_en": "Partial match. Different role family — Senior Data Engineer → Machine Learning Engineer; Senior overqualified for middle ML Engineer role. Partial match. Strengths: Python, SQL. Gaps: DS, MLE, Tensorflow.",
+     "reason_uk": "Часткова відповідність. Інша роль — Senior Data Engineer → Machine Learning Engineer; Senior перекваліфікований для middle ML Engineer ролі. Часткова відповідність. Переваги: Python, SQL. Брак: DS, MLE, Tensorflow.",
+     "evidence": {
+      "matched_skills": [
+       "Python",
+       "Git",
+       "SQL",
+       "Airflow"
+      ],
+      "missing_must_haves": [
+       "DS",
+       "MLE",
+       "математичний бекграунд",
+       "алгоритми і структури даних",
+       "ООП",
+       "машинне навчання",
+       "глибоке навчання",
+       "NLP",
+       "Tabular Data ML",
+       "Tensorflow",
+       "Keras",
+       "PyTorch",
+       "Docker",
+       "NoSQL",
+       "feature engineering"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "15_qa_senior_automation",
+   "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "QA Lead",
+     "Senior SDET",
+     "Test Architect"
+    ],
+    "domain_skills": [
+     "Playwright",
+     "Selenium WebDriver",
+     "Appium",
+     "Cucumber",
+     "Java",
+     "TypeScript",
+     "Python",
+     "pytest",
+     "TestNG",
+     "JUnit",
+     "RestAssured",
+     "Postman",
+     "Newman",
+     "API testing",
+     "JMeter",
+     "GitLab CI",
+     "Jenkins",
+     "GitHub Actions",
+     "Docker",
+     "Page Object Model",
+     "Test pyramid design",
+     "BDD",
+     "Shift-left QA",
+     "Exploratory testing",
+     "Jira",
+     "Zephyr",
+     "TestRail",
+     "Allure",
+     "PostgreSQL",
+     "MySQL",
+     "SQL",
+     "Maven"
+    ],
+    "technical_skills": [
+     "Cypress",
+     "Gatling",
+     "Grafana",
+     "Groovy",
+     "Bash",
+     "MongoDB",
+     "Kafka",
+     "Wiremock",
+     "Pact"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Ajax Systems",
+      "type": "PRODUCTION",
+      "duration_months": 42,
+      "years_ago": 0
+     },
+     {
+      "title": "EPAM",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 4
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 18,
+      "years_ago": 6
+     },
+     {
+      "title": "Luxoft",
+      "type": "PRODUCTION",
+      "duration_months": 13,
+      "years_ago": 8
+     },
+     {
+      "title": "Datrics",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Engineering",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2017
+    },
+    "english_level": "B2",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "Russian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "B2"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Junior QA",
+     "uk": "Junior QA"
+    },
+    "role_title_raw": "Junior QA Manual Engineer",
+    "seniority_required": "junior",
+    "must_have_skills": [
+     "manual testing",
+     "test cases",
+     "banking software",
+     "Postman",
+     "Swagger",
+     "integration testing",
+     "regression testing",
+     "Jira",
+     "SQL"
+    ],
+    "nice_to_have_skills": [
+     "CI/CD",
+     "Agile",
+     "Scrum"
+    ],
+    "min_years_experience": 1,
+    "education_required": "not_specified",
+    "english_required": "not_specified",
+    "location": {
+     "city_en": "Lviv",
+     "city_uk": "Львів",
+     "remote": false,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "banking",
+     "uk": "банкінг"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.6939285714285715,
+     "reason_en": "Senior overqualified for junior role; cross-domain transition. Partial match. Strengths: SQL, Postman. Gaps: Swagger, API.",
+     "reason_uk": "Senior переоцінений для junior ролі; перехід між доменами. Часткова відповідність. Переваги: SQL, Postman. Брак: Swagger, API.",
+     "evidence": {
+      "matched_skills": [
+       "SQL",
+       "Postman",
+       "Jmeter",
+       "Jira"
+      ],
+      "missing_must_haves": [
+       "Swagger",
+       "web-додатків",
+       "API"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.6939285714285715,
+     "reason_en": "Senior overqualified for junior QA Manual role; Cross-domain Playwright → banking. Partial match. Strengths: SQL, Postman. Gaps: Swagger, API.",
+     "reason_uk": "Senior переоцінений для junior QA Manual ролі; Перехід Playwright → banking. Часткова відповідність. Переваги: SQL, Postman. Брак: Swagger, API.",
+     "evidence": {
+      "matched_skills": [
+       "SQL",
+       "Postman",
+       "Jmeter",
+       "Jira"
+      ],
+      "missing_must_haves": [
+       "Swagger",
+       "web-додатків",
+       "API"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "17_realformat_swe_fullstack",
+   "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+   "cv_summary": {
+    "seniority": "middle",
+    "target_roles": [
+     "Software Engineer",
+     "Full-Stack Developer",
+     "Frontend Engineer"
+    ],
+    "domain_skills": [
+     "JavaScript",
+     "ReactJS",
+     "AngularJS",
+     "ExpressJS",
+     "NodeJS",
+     "jQuery",
+     "HTML",
+     "CSS",
+     "React Native",
+     "Java",
+     "Spring",
+     "Maven",
+     "MongoDB",
+     "SQL",
+     "Docker",
+     "Tomcat",
+     "Heroku",
+     "CircleCI",
+     "REST",
+     "Application development",
+     "Scripting",
+     "Automation",
+     "Web application design",
+     "UI testing",
+     "Requirements gathering",
+     "Grunt",
+     "ExponentJS",
+     "Socket.io",
+     "MySQL",
+     "OAuth",
+     "PassportJS",
+     "Google Maps API",
+     "YouTube API"
+    ],
+    "technical_skills": [],
+    "unverified_skills": [
+     "Analytical thinking",
+     "Results-driven delivery"
+    ],
+    "experience": [
+     {
+      "title": "Walmart, Inc.",
+      "type": "PRODUCTION",
+      "duration_months": 60,
+      "years_ago": 10
+     },
+     {
+      "title": "PicoShell",
+      "type": "PET_PROJECT",
+      "duration_months": 0,
+      "years_ago": 0
+     },
+     {
+      "title": "TagMe",
+      "type": "PET_PROJECT",
+      "duration_months": 0,
+      "years_ago": 0
+     },
+     {
+      "title": "Roadtrip Mood Music Generator",
+      "type": "PET_PROJECT",
+      "duration_months": 0,
+      "years_ago": 0
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Science",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2012
+    },
+    "english_level": "native",
+    "languages": [
+     {
+      "language": "English",
+      "level": "native"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Senior Fullstack Developer",
+     "uk": "Senior Fullstack розробник"
+    },
+    "role_title_raw": "Senior Full Stack Developer",
+    "seniority_required": "senior",
+    "must_have_skills": [
+     "Node.js",
+     "NestJS",
+     "React",
+     "Next.js",
+     "MongoDB",
+     "PostgreSQL",
+     "Kafka",
+     "Redis",
+     "GraphQL",
+     "Apollo Federation",
+     "microservices",
+     "event-driven architecture",
+     "AI-assisted development",
+     "Tailwind",
+     "Terraform",
+     "Kubernetes",
+     "Docker",
+     "design patterns",
+     "performance optimization"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": 5,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "other",
+     "uk": "інше"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.6694444444444443,
+     "reason_en": "Different role family — Software Engineer → Senior Full Stack Developer. Partial match. Strengths: React, Node.js. Gaps: Kafka, Next.js.",
+     "reason_uk": "Інша роль — Software Engineer → Senior Full Stack Developer. Часткова відповідність. Переваги: React, Node.js. Брак: Kafka, Next.js.",
+     "evidence": {
+      "matched_skills": [
+       "React",
+       "Node.js",
+       "MongoDB",
+       "Docker"
+      ],
+      "missing_must_haves": [
+       "highload systems",
+       "microservices",
+       "event-driven",
+       "design patterns",
+       "performance",
+       "scaling",
+       "web application security",
+       "distributed systems",
+       "Kafka",
+       "queues",
+       "Next.js",
+       "SSR",
+       "data flow",
+       "Nest",
+       "PostgreSQL",
+       "Redis",
+       "GraphQL",
+       "Apollo Federation",
+       "Tailwind",
+       "ShadCN",
+       "Terraform",
+       "Kebernetes",
+       "CDN"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.6694444444444443,
+     "reason_en": "Role family mismatch. Partial match. Strengths: React, Node.js. Gaps: Kafka, Next.js.",
+     "reason_uk": "Невідповідність сімейства ролей. Часткова відповідність. Переваги: React, Node.js. Брак: Kafka, Next.js.",
+     "evidence": {
+      "matched_skills": [
+       "React",
+       "Node.js",
+       "MongoDB",
+       "Docker"
+      ],
+      "missing_must_haves": [
+       "highload systems",
+       "microservices",
+       "event-driven",
+       "design patterns",
+       "performance",
+       "scaling",
+       "web application security",
+       "distributed systems",
+       "Kafka",
+       "queues",
+       "Next.js",
+       "SSR",
+       "data flow",
+       "Nest",
+       "PostgreSQL",
+       "Redis",
+       "GraphQL",
+       "Apollo Federation",
+       "Tailwind",
+       "ShadCN",
+       "Terraform",
+       "Kebernetes",
+       "CDN"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "15_qa_senior_automation",
+   "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "QA Lead",
+     "Senior SDET",
+     "Test Architect"
+    ],
+    "domain_skills": [
+     "Playwright",
+     "Selenium WebDriver",
+     "Appium",
+     "Cucumber",
+     "Java",
+     "TypeScript",
+     "Python",
+     "pytest",
+     "TestNG",
+     "JUnit",
+     "RestAssured",
+     "Postman",
+     "Newman",
+     "API testing",
+     "JMeter",
+     "GitLab CI",
+     "Jenkins",
+     "GitHub Actions",
+     "Docker",
+     "Page Object Model",
+     "Test pyramid design",
+     "BDD",
+     "Shift-left QA",
+     "Exploratory testing",
+     "Jira",
+     "Zephyr",
+     "TestRail",
+     "Allure",
+     "PostgreSQL",
+     "MySQL",
+     "SQL",
+     "Maven"
+    ],
+    "technical_skills": [
+     "Cypress",
+     "Gatling",
+     "Grafana",
+     "Groovy",
+     "Bash",
+     "MongoDB",
+     "Kafka",
+     "Wiremock",
+     "Pact"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Ajax Systems",
+      "type": "PRODUCTION",
+      "duration_months": 42,
+      "years_ago": 0
+     },
+     {
+      "title": "EPAM",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 4
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 18,
+      "years_ago": 6
+     },
+     {
+      "title": "Luxoft",
+      "type": "PRODUCTION",
+      "duration_months": 13,
+      "years_ago": 8
+     },
+     {
+      "title": "Datrics",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Engineering",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2017
+    },
+    "english_level": "B2",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "Russian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "B2"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Strong Junior Manual QA",
+     "uk": "Strong Junior Manual QA"
+    },
+    "role_title_raw": "Strong Junior Manual QA Engineer",
+    "seniority_required": "junior",
+    "must_have_skills": [
+     "manual testing",
+     "mobile testing",
+     "edutainment apps",
+     "Postman",
+     "Swagger",
+     "REST API",
+     "Jira",
+     "HTTP"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": 1,
+    "education_required": "not_specified",
+    "english_required": "B1",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": false,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "edtech",
+     "uk": "edtech"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.5825,
+     "reason_en": "Partial match. Strengths: Postman, Jira. Gaps: Swagger, Testomat.",
+     "reason_uk": "Часткова відповідність. Переваги: Postman, Jira. Брак: Swagger, Testomat.",
+     "evidence": {
+      "matched_skills": [
+       "Postman",
+       "Jira"
+      ],
+      "missing_must_haves": [
+       "теорія тестування",
+       "Chrome DevTools",
+       "Swagger",
+       "Testomat",
+       "HTTP",
+       "REST API",
+       "JSON",
+       "тестувати API"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.5825,
+     "reason_en": "Cross-domain transition. Partial match. Strengths: Postman, Jira. Gaps: Swagger, Testomat, HTTP, JSON, REST API.",
+     "reason_uk": "Перехід між доменами. Часткова відповідність. Переваги: Postman, Jira. Брак: Swagger, Testomat, HTTP, JSON, REST API.",
+     "evidence": {
+      "matched_skills": [
+       "Postman",
+       "Jira"
+      ],
+      "missing_must_haves": [
+       "теорія тестування",
+       "Chrome DevTools",
+       "Swagger",
+       "Testomat",
+       "HTTP",
+       "REST API",
+       "JSON",
+       "тестувати API"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "yan_pm",
+   "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+   "cv_summary": {
+    "seniority": "junior",
+    "target_roles": [
+     "Junior Product Manager",
+     "Mobile Product Manager"
+    ],
+    "domain_skills": [
+     "Market research",
+     "Competitive analysis",
+     "Hypothesis validation",
+     "ICE framework",
+     "MVP scope definition",
+     "Roadmapping",
+     "Unit economics",
+     "Mobile monetization",
+     "Amplitude",
+     "Financial modeling",
+     "Customer discovery",
+     "Business Model Canvas",
+     "MVP methodology",
+     "Rapid iteration",
+     "C#",
+     "ASP.NET Core",
+     "Design patterns",
+     "Application architecture",
+     "React",
+     "GitHub Actions",
+     "Agile/Scrum"
+    ],
+    "technical_skills": [
+     ".NET Core",
+     "EF Core",
+     "JavaScript",
+     "TypeScript",
+     "SQL",
+     "NoSQL databases",
+     "REST API",
+     "Git",
+     "Docker",
+     "AWS basics",
+     "Excel",
+     "Google Sheets"
+    ],
+    "unverified_skills": [
+     "Analytical thinking",
+     "Data-driven decision making",
+     "Technical communication",
+     "Cross-functional collaboration",
+     "Quick learner",
+     "Adaptable"
+    ],
+    "experience": [
+     {
+      "title": "AI Photo Enhancement App (Training Project)",
+      "type": "COURSE",
+      "duration_months": 3,
+      "years_ago": 0
+     },
+     {
+      "title": "FPV Drone Flight Controller Testing Platform",
+      "type": "COURSE",
+      "duration_months": 1,
+      "years_ago": 0
+     },
+     {
+      "title": ".NET Development Training",
+      "type": "COURSE",
+      "duration_months": 3,
+      "years_ago": 0
+     },
+     {
+      "title": "AcademicHub Platform",
+      "type": "PET_PROJECT",
+      "duration_months": 6,
+      "years_ago": 0
+     }
+    ],
+    "education": {
+     "degree": "bachelor",
+     "field": "Software Engineering and Business Analysis",
+     "is_relevant": true,
+     "status": "in_progress",
+     "current_year": 4,
+     "graduation_year": 2025
+    },
+    "english_level": "B2",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "B2"
+     }
+    ],
+    "has_real_product_experience": false,
+    "career_switcher": true
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Creative Marketing Manager",
+     "uk": "Creative Marketing Manager"
+    },
+    "role_title_raw": "Creative Marketing Manager (Wellbeing product)",
+    "seniority_required": "not_specified",
+    "must_have_skills": [
+     "creative marketing",
+     "performance marketing",
+     "content production",
+     "R&D campaigns",
+     "AI-first marketing"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": 3,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "healthcare",
+     "uk": "healthcare"
+    },
+    "anti_requirements": []
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.545,
+     "reason_en": "Partial match. Different role family — Junior Product Manager → Creative Marketing Manager; Cross-domain Market research → consumer apps. Partial match. Gaps: Meta, TikTok, CPA, RoAS.",
+     "reason_uk": "Часткова відповідність. Інша роль — Junior Product Manager → Creative Marketing Manager; Перехід Market research → consumer apps. Часткова відповідність. Брак: Meta, TikTok, CPA, RoAS.",
+     "evidence": {
+      "matched_skills": [],
+      "missing_must_haves": [
+       "креативна стратегія",
+       "креативний ресерч",
+       "аналітичні навички",
+       "Meta",
+       "TikTok",
+       "CPA",
+       "RoAS",
+       "CR",
+       "Design",
+       "User Acquisition",
+       "Product Marketing"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.545,
+     "reason_en": "Cross-domain transition. Partial match. Gaps: Meta, TikTok, CPA, RoAS, CR, Design, User Acquisition, Product Marketing.",
+     "reason_uk": "Перехід між доменами. Часткова відповідність. Брак: Meta, TikTok, CPA, RoAS, CR, Design, User Acquisition, Product Marketing.",
+     "evidence": {
+      "matched_skills": [],
+      "missing_must_haves": [
+       "креативна стратегія",
+       "креативний ресерч",
+       "аналітичні навички",
+       "Meta",
+       "TikTok",
+       "CPA",
+       "RoAS",
+       "CR",
+       "Design",
+       "User Acquisition",
+       "Product Marketing"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  },
+  {
+   "cv_id": "15_qa_senior_automation",
+   "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+   "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+     "QA Lead",
+     "Senior SDET",
+     "Test Architect"
+    ],
+    "domain_skills": [
+     "Playwright",
+     "Selenium WebDriver",
+     "Appium",
+     "Cucumber",
+     "Java",
+     "TypeScript",
+     "Python",
+     "pytest",
+     "TestNG",
+     "JUnit",
+     "RestAssured",
+     "Postman",
+     "Newman",
+     "API testing",
+     "JMeter",
+     "GitLab CI",
+     "Jenkins",
+     "GitHub Actions",
+     "Docker",
+     "Page Object Model",
+     "Test pyramid design",
+     "BDD",
+     "Shift-left QA",
+     "Exploratory testing",
+     "Jira",
+     "Zephyr",
+     "TestRail",
+     "Allure",
+     "PostgreSQL",
+     "MySQL",
+     "SQL",
+     "Maven"
+    ],
+    "technical_skills": [
+     "Cypress",
+     "Gatling",
+     "Grafana",
+     "Groovy",
+     "Bash",
+     "MongoDB",
+     "Kafka",
+     "Wiremock",
+     "Pact"
+    ],
+    "unverified_skills": [],
+    "experience": [
+     {
+      "title": "Ajax Systems",
+      "type": "PRODUCTION",
+      "duration_months": 42,
+      "years_ago": 0
+     },
+     {
+      "title": "EPAM",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 4
+     },
+     {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 18,
+      "years_ago": 6
+     },
+     {
+      "title": "Luxoft",
+      "type": "PRODUCTION",
+      "duration_months": 13,
+      "years_ago": 8
+     },
+     {
+      "title": "Datrics",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+     }
+    ],
+    "education": {
+     "degree": "master",
+     "field": "Computer Engineering",
+     "is_relevant": true,
+     "status": "completed",
+     "current_year": null,
+     "graduation_year": 2017
+    },
+    "english_level": "B2",
+    "languages": [
+     {
+      "language": "Ukrainian",
+      "level": "native"
+     },
+     {
+      "language": "Russian",
+      "level": "native"
+     },
+     {
+      "language": "English",
+      "level": "B2"
+     }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+   },
+   "vacancy_analysis": {
+    "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+     "en": "Senior Python QA Automation",
+     "uk": "Senior Python QA Automation"
+    },
+    "role_title_raw": "Python QA Automation Engineer (Web + Mobile)",
+    "seniority_required": "senior",
+    "must_have_skills": [
+     "Python",
+     "Selenium",
+     "Appium",
+     "PyTest",
+     "test automation frameworks",
+     "test automation"
+    ],
+    "nice_to_have_skills": [
+     "Playwright",
+     "Jenkins",
+     "GitHub Actions"
+    ],
+    "min_years_experience": null,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+     "city_en": null,
+     "city_uk": null,
+     "remote": true,
+     "hybrid": false
+    },
+    "domain_context": {
+     "en": "e-commerce",
+     "uk": "e-commerce"
+    },
+    "anti_requirements": [
+     "3-6 month contract"
+    ]
+   },
+   "candidates": {
+    "candidate_A": {
+     "score": 0.7925,
+     "reason_en": "Cross-domain transition. Strong match. Strengths: Appium, PyTest. Gaps: Selenium, Python test automation.",
+     "reason_uk": "Перехід між доменами. Сильна відповідність. Переваги: Appium, PyTest. Брак: Selenium, Python test automation.",
+     "evidence": {
+      "matched_skills": [
+       "Appium",
+       "PyTest",
+       "Playwright",
+       "Jenkins",
+       "GitHub Actions"
+      ],
+      "missing_must_haves": [
+       "Python test automation",
+       "Selenium",
+       "test automation frameworks"
+      ],
+      "triggered_anti_flags": []
+     }
+    },
+    "candidate_B": {
+     "score": 0.7925,
+     "reason_en": "Strong match. Strengths: Appium, PyTest, Playwright. Gaps: Selenium, Python test automation.",
+     "reason_uk": "Сильна відповідність. Переваги: Appium, PyTest, Playwright. Брак: Selenium, Python test automation.",
+     "evidence": {
+      "matched_skills": [
+       "Appium",
+       "PyTest",
+       "Playwright",
+       "Jenkins",
+       "GitHub Actions"
+      ],
+      "missing_must_haves": [
+       "Python test automation",
+       "Selenium",
+       "test automation frameworks"
+      ],
+      "triggered_anti_flags": []
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "b6c105bb-c61d-4876-b19e-917e65947f4b",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Android Developer",
+    "uk": "Middle Android розробник"
+  },
+  "role_title_raw": "Android Engineer Middle (Delivery)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "high-load systems",
+    "REST API",
+    "Java",
+    "Android",
+    "Jetpack Compose",
+    "OOP",
+    "SOLID",
+    "Coroutines",
+    "JUnit"
+  ],
+  "nice_to_have_skills": [
+    "AI tools"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,261 @@
+{
+  "cv_id": "22_data_engineer_senior",
+  "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+  "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+      "Senior Data Engineer",
+      "Staff Data Engineer",
+      "Data Platform Engineer"
+    ],
+    "domain_skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "PySpark",
+      "Scala",
+      "dbt",
+      "Airflow",
+      "Snowflake",
+      "Snowpipe Streaming",
+      "BigQuery",
+      "Redshift",
+      "Databricks",
+      "Delta Lake",
+      "Kafka",
+      "Debezium",
+      "Kafka Connect",
+      "AWS S3",
+      "AWS Glue",
+      "AWS EMR",
+      "Trino",
+      "Feast",
+      "Postgres CDC",
+      "Dimensional modeling",
+      "Incremental materializations",
+      "Bash",
+      "Java",
+      "FastAPI",
+      "pandas",
+      "Apache Beam",
+      "Dagster",
+      "Prefect",
+      "Kinesis",
+      "Data Vault",
+      "Slowly changing dimensions",
+      "EventBridge",
+      "IAM",
+      "Lambda",
+      "Pub/Sub",
+      "Cloud Storage",
+      "Git",
+      "GitHub Actions",
+      "Terraform",
+      "Looker",
+      "Mode Analytics",
+      "Great Expectations",
+      "Monte Carlo",
+      "OpenLineage"
+    ],
+    "technical_skills": [
+      "Pandas"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "Restream",
+        "type": "PRODUCTION",
+        "duration_months": 31,
+        "years_ago": 0
+      },
+      {
+        "title": "Grammarly",
+        "type": "PRODUCTION",
+        "duration_months": 40,
+        "years_ago": 3
+      },
+      {
+        "title": "Genesis",
+        "type": "PRODUCTION",
+        "duration_months": 20,
+        "years_ago": 6
+      },
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 12,
+        "years_ago": 8
+      },
+      {
+        "title": "EPAM",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 9
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Science",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2017
+    },
+    "english_level": "C1",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "C1"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Machine Learning Engineer",
+      "uk": "Machine Learning інженер"
+    },
+    "role_title_raw": "Machine learning engineer",
+    "seniority_required": "not_specified",
+    "must_have_skills": [
+      "Python",
+      "ML",
+      "biometric identification",
+      "face / object analysis",
+      "OSINT",
+      "AI agents",
+      "Git",
+      "OOP",
+      "deep learning",
+      "NLP",
+      "Tensorflow",
+      "PyTorch",
+      "Docker",
+      "data structures",
+      "SQL",
+      "NoSQL"
+    ],
+    "nice_to_have_skills": [
+      "Airflow",
+      "concurrency"
+    ],
+    "min_years_experience": 3,
+    "education_required": "not_specified",
+    "english_required": "not_specified",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": true,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "DefTech",
+      "uk": "DefTech"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.568,
+      "reason_en": "Senior overqualified for middle role. Cross-domain Python/SQL to DefTech. Partial match. Strengths: Python, SQL. Gaps: DS, MLE, Tensorflow, Keras.",
+      "reason_uk": "Senior перекваліфікований для middle ролі. Перехід Python/SQL до DefTech. Часткова відповідність. Переваги: Python, SQL. Брак: DS, MLE, Tensorflow, Keras.",
+      "evidence": {
+        "matched_skills": [
+          "Python",
+          "Git",
+          "SQL",
+          "Airflow"
+        ],
+        "missing_must_haves": [
+          "DS",
+          "MLE",
+          "математичний бекграунд",
+          "алгоритми і структури даних",
+          "ООП",
+          "машинне навчання",
+          "глибоке навчання",
+          "NLP",
+          "Tabular Data ML",
+          "Tensorflow",
+          "Keras",
+          "PyTorch",
+          "Docker",
+          "NoSQL",
+          "feature engineering"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.5725,
+      "reason_en": "Partial match. Strengths: Python, Git. Gaps: DS, MLE, mathematics.",
+      "reason_uk": "Часткова відповідність. Переваги: Python, Git. Брак: DS, MLE, mathematics.",
+      "evidence": {
+        "matched_skills": [
+          "Python",
+          "Git",
+          "SQL",
+          "Airflow"
+        ],
+        "missing_must_haves": [
+          "DS",
+          "MLE",
+          "mathematics",
+          "algorithms",
+          "data structures",
+          "OOP",
+          "machine learning",
+          "deep learning",
+          "NLP",
+          "Tabular Data ML",
+          "Tensorflow",
+          "Keras",
+          "PyTorch",
+          "Docker",
+          "NoSQL"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.5653684210526315,
+      "reason_en": "Partial match. Strengths: Python, Git. Gaps: DS, MLE, mathematics.",
+      "reason_uk": "Часткова відповідність. Переваги: Python, Git. Брак: DS, MLE, mathematics.",
+      "evidence": {
+        "matched_skills": [
+          "Python",
+          "Git",
+          "SQL",
+          "Airflow"
+        ],
+        "missing_must_haves": [
+          "DS",
+          "MLE",
+          "mathematics",
+          "algorithms",
+          "data structures",
+          "machine learning",
+          "deep learning",
+          "NLP",
+          "Tabular Data ML",
+          "Tensorflow",
+          "Keras",
+          "PyTorch",
+          "production code",
+          "feature engineering",
+          "Docker",
+          "NoSQL"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

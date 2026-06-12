@@ -1,0 +1,54 @@
+{
+  "vacancy_id": "59cb605a-3205-4ea6-8730-145723cbf85c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle .NET Developer",
+    "uk": "Middle .NET розробник"
+  },
+  "role_title_raw": "Middle .Net developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "microservices",
+    "Docker",
+    "concurrency",
+    "async/await",
+    "EF Core",
+    "PostgreSQL",
+    "SQLite",
+    "Linux",
+    "REST API",
+    "Oracle",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "GCP",
+    "CI/CD",
+    "Jenkins",
+    "GitHub Actions",
+    "RabbitMQ",
+    "OOP",
+    "SOLID",
+    "DDD",
+    "design patterns"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

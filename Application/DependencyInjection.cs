@@ -20,6 +20,21 @@ public static class DependencyInjection
             typeof(IPipelineBehavior<,>),
             typeof(ValidationBehavior<,>));
 
+        services.AddTransient(
+            typeof(IPipelineBehavior<,>),
+            typeof(RequireRecruiterBehavior<,>));
+        services.AddTransient(
+            typeof(IPipelineBehavior<,>),
+            typeof(RequireVacancyOwnershipBehavior<,>));
+        services.AddTransient(
+            typeof(IPipelineBehavior<,>),
+            typeof(RequireCandidateListOwnershipBehavior<,>));
+
+        // Registered last → runs innermost in the pipeline. Writes only on success.
+        services.AddTransient(
+            typeof(IPipelineBehavior<,>),
+            typeof(AuditingBehavior<,>));
+
         return services;
     }
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_ids": [
+      "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+      "9159aa36-e2fc-43d4-a631-cbfdca113944",
+      "fd125a93-ce97-4995-abce-547c10bbdead",
+      "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+      "cdee4086-679a-4e14-8a83-a0b4a9c7448a"
+    ]
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_ids": [
+      "c3d15a9b-99df-4782-88e4-284757b99b3a",
+      "be17f702-3859-4297-9de3-ed4ebe9e385a",
+      "c1d841b8-8552-4d42-a314-6b281eea45d6",
+      "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+      "92cbfd7a-b6e9-4c09-97e9-772e0a011318"
+    ]
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_ids": [
+      "627e7223-26d4-4daf-ada9-13bd47943ccf",
+      "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+      "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+      "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f"
+    ]
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_ids": [
+      "b6c105bb-c61d-4876-b19e-917e65947f4b",
+      "d2e4be03-4166-490a-b365-da422328abd7",
+      "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "80a397d2-ccfb-4b84-acf7-8926a6640d50"
+    ]
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_ids": [
+      "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+      "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+      "27ade056-b7b9-489b-af77-53fc12dcd5b0",
+      "3719c00a-f57e-4827-abd2-c9030c06d52f",
+      "c1d841b8-8552-4d42-a314-6b281eea45d6"
+    ]
+  }
+]

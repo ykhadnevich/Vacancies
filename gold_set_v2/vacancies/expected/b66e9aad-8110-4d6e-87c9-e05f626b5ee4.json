@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "b66e9aad-8110-4d6e-87c9-e05f626b5ee4",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Fullstack Developer",
+    "uk": "Middle Fullstack розробник"
+  },
+  "role_title_raw": "Middle Fullstack (Java + Angular) developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Java",
+    "Angular",
+    "TypeScript",
+    "REST API",
+    "SQL",
+    "Spring",
+    "HTML",
+    "Spring Boot",
+    "SCSS",
+    "MySQL",
+    "MSSQL",
+    "GitLab CI",
+    "Kubernetes",
+    "Docker"
+  ],
+  "nice_to_have_skills": [
+    "IAM",
+    "Kotlin"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "agritech",
+    "uk": "агротех"
+  },
+  "anti_requirements": []
+}

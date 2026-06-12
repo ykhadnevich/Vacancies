@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "05e537ca-170b-478f-a33d-b477f5f08223",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Developer",
+    "uk": "Senior .NET розробник"
+  },
+  "role_title_raw": "Senior .Net Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET",
+    "SQL",
+    "business process automation",
+    "REST API",
+    "EF Core",
+    "Docker",
+    "Agile",
+    "Scrum",
+    "unit testing",
+    "integration testing"
+  ],
+  "nice_to_have_skills": [
+    "S3"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Engineer",
+    "uk": "Senior Data Engineer"
+  },
+  "role_title_raw": "Senior Data Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "data pipelines",
+    "ETL",
+    "data warehousing",
+    "SQL",
+    "Python",
+    "Git",
+    "Scala",
+    "Spark",
+    "Java",
+    "AWS",
+    "NoSQL"
+  ],
+  "nice_to_have_skills": [
+    "Kafka",
+    "Kubernetes",
+    "Grafana"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

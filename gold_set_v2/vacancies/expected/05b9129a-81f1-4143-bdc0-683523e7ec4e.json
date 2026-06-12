@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Backend Developer",
+    "uk": "Senior Backend розробник"
+  },
+  "role_title_raw": "Senior Backend Engineer (RGS/RNG Platform)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "RNG/RGS platforms",
+    "ASP.NET Core",
+    "EF Core",
+    "PostgreSQL",
+    "MSSQL",
+    "concurrency",
+    "microservices"
+  ],
+  "nice_to_have_skills": [
+    "iGaming domain",
+    "Docker",
+    "Kubernetes",
+    "Redis",
+    "Azure",
+    "AWS",
+    "CI/CD",
+    "GitHub Actions",
+    "Azure DevOps",
+    "DDD",
+    "Clean Architecture"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

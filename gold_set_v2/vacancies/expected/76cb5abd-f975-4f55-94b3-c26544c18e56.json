@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Engineer",
+    "uk": "Data Engineer"
+  },
+  "role_title_raw": "Data Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "ETL",
+    "data pipelines",
+    "SQL",
+    "Python",
+    "data warehousing",
+    "MSSQL",
+    "MySQL",
+    "PostgreSQL",
+    "AWS",
+    "Azure",
+    "NoSQL",
+    "Oracle",
+    "API"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "energy",
+    "uk": "енергетика"
+  },
+  "anti_requirements": []
+}

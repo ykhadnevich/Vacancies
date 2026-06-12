@@ -1,0 +1,238 @@
+{
+  "cv_id": "7_devops_senior",
+  "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+  "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+      "Senior SRE",
+      "Senior DevOps Engineer",
+      "Platform Engineer"
+    ],
+    "domain_skills": [
+      "Kubernetes",
+      "ArgoCD",
+      "Kustomize",
+      "AWS",
+      "EKS",
+      "RDS",
+      "S3",
+      "Lambda",
+      "CloudFront",
+      "GCP",
+      "Terraform",
+      "Helm",
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "Loki",
+      "Tempo",
+      "OpenTelemetry",
+      "Thanos",
+      "PagerDuty",
+      "GitHub Actions",
+      "Jenkins",
+      "Bitbucket",
+      "Docker",
+      "Ansible",
+      "VMware vSphere",
+      "Linux administration",
+      "Bash",
+      "SLO",
+      "Multi-cloud architecture",
+      "GitOps"
+    ],
+    "technical_skills": [
+      "OpenShift",
+      "Pulumi",
+      "Azure",
+      "Route53",
+      "GKE",
+      "Cloud SQL",
+      "Pub/Sub",
+      "GitLab CI",
+      "Flux",
+      "Istio",
+      "Linkerd",
+      "Python",
+      "Go",
+      "SOC2 compliance",
+      "Vault",
+      "Pod Security Policies",
+      "Perl"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "Astound Commerce",
+        "type": "PRODUCTION",
+        "duration_months": 46,
+        "years_ago": 0
+      },
+      {
+        "title": "Wix.com",
+        "type": "PRODUCTION",
+        "duration_months": 27,
+        "years_ago": 4
+      },
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 17,
+        "years_ago": 6
+      },
+      {
+        "title": "N-iX",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 8
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Science",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2018
+    },
+    "english_level": "C1",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "C1"
+      },
+      {
+        "language": "German",
+        "level": "A2"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Senior DevOps",
+      "uk": "Senior DevOps"
+    },
+    "role_title_raw": "Senior DevOps Engineer",
+    "seniority_required": "senior",
+    "must_have_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AI infrastructure",
+      "GPU workloads",
+      "Ansible",
+      "Terraform",
+      "Python",
+      "GCP",
+      "Grafana",
+      "Loki",
+      "Prometheus",
+      "ELK"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": null,
+    "education_required": "not_specified",
+    "english_required": "not_specified",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": false,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "DefTech",
+      "uk": "DefTech"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.8750000000000001,
+      "reason_en": "Strong match. Strengths: Docker, Kubernetes, Ansible. Gaps: missing Linux, Alloy.",
+      "reason_uk": "Сильна відповідність. Переваги: Docker, Kubernetes, Ansible. Брак: немає Linux, Alloy.",
+      "evidence": {
+        "matched_skills": [
+          "Docker",
+          "Kubernetes",
+          "Ansible",
+          "Terraform",
+          "Python",
+          "GCP",
+          "Grafana",
+          "Loki",
+          "Prometheus"
+        ],
+        "missing_must_haves": [
+          "Linux",
+          "Alloy",
+          "ELK"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.8,
+      "reason_en": "Strong match. Strengths: Docker, Ansible, Terraform. Gaps: linux, cloud, Alloy.",
+      "reason_uk": "Сильна відповідність. Переваги: Docker, Ansible, Terraform. Брак: linux, cloud, Alloy.",
+      "evidence": {
+        "matched_skills": [
+          "Docker",
+          "Ansible",
+          "Terraform",
+          "Python",
+          "GCP",
+          "Grafana",
+          "Loki",
+          "Prometheus"
+        ],
+        "missing_must_haves": [
+          "linux",
+          "cloud",
+          "Alloy",
+          "ELK",
+          "FinOps",
+          "architectural thinking",
+          "security",
+          "vulnerability scanning"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.8214285714285715,
+      "reason_en": "Cross-domain Kubernetes→DefTech transition. Strong match. Strengths: Docker, Ansible, Terraform. Gaps: Cloud, FinOps.",
+      "reason_uk": "Перехід Kubernetes→DefTech. Сильна відповідність. Переваги: Docker, Ansible, Terraform. Брак: Cloud, FinOps.",
+      "evidence": {
+        "matched_skills": [
+          "Docker",
+          "Ansible",
+          "Terraform",
+          "python",
+          "GCP",
+          "grafana",
+          "loki",
+          "prometheus"
+        ],
+        "missing_must_haves": [
+          "linux",
+          "Cloud",
+          "alloy",
+          "ELK",
+          "FinOps",
+          "AI"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

@@ -2,7 +2,11 @@
 
 public enum ScoringStage
 {
-    PreFilter,   // Stage 1 — власний алгоритм
-    Embedding,   // Stage 2 — cosine similarity
-    LlmRerank    // Stage 3 — LLM
+    PreFilter,
+    Embedding,
+    LlmRerank,
+    MlBiEncoder,
+    MlCrossEncoder,
+    LlmCalibrated,
+    Gemini
 }

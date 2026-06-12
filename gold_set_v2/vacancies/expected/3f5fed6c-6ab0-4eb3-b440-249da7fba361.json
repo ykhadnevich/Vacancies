@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Scientist",
+    "uk": "Senior Data Scientist"
+  },
+  "role_title_raw": "Data scientist",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "Deep Learning",
+    "Speech Processing",
+    "production ML",
+    "Git",
+    "Docker"
+  ],
+  "nice_to_have_skills": [
+    "Azure",
+    "AWS"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "telecom",
+    "uk": "телеком"
+  },
+  "anti_requirements": []
+}

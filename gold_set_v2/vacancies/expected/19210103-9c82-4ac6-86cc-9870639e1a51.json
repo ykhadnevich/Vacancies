@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "19210103-9c82-4ac6-86cc-9870639e1a51",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Flutter Developer",
+    "uk": "Flutter розробник"
+  },
+  "role_title_raw": "Flutter Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Flutter",
+    "Dart",
+    "AI-enabled systems",
+    "iOS",
+    "Android",
+    "REST API",
+    "SQLite",
+    "Clean Architecture",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD",
+    "GitHub Actions",
+    "Agile",
+    "Scrum",
+    "Swift",
+    "Kotlin"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

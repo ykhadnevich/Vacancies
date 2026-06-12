@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Data Engineer / Analyst",
+    "uk": "Junior Data Engineer / Analyst"
+  },
+  "role_title_raw": "Junior Data Engineer/Analyst",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "Python",
+    "ML basics",
+    "data modeling",
+    "ML"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

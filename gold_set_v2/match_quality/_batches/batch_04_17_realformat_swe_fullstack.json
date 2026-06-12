@@ -1,0 +1,158 @@
+{
+  "batch_idx": 4,
+  "cv_id": "17_realformat_swe_fullstack",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "5790bd48-b784-452f-8cf6-fc910af837a4",
+      "match_quality": 6,
+      "rationale": "React/Node/REST/Mongo/Docker/SQL/Git core matches. TS/Python/Go/Postgres/Redis/K8s/AWS/GCP/Vue mostly missing. 5y >= 3y."
+    },
+    {
+      "vacancy_id": "b858c350-cfd0-4754-b8de-bcc148277fbc",
+      "match_quality": 6,
+      "rationale": "JS/Node/React core ✓. TS/Python/Go/AI integration gaps. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+      "match_quality": 4,
+      "rationale": "Heavy NestJS/Next/Kafka/Terraform/K8s/event-driven specific stack — most not in CV. Node/React/Mongo/Docker partial."
+    },
+    {
+      "vacancy_id": "bec5ca01-0546-4fe7-99ef-7148c52f1415",
+      "match_quality": 4,
+      "rationale": "PHP/Laravel — not in CV. React/REST/HTML/CSS/SQL match but PHP is core requirement."
+    },
+    {
+      "vacancy_id": "62cc4061-6558-40ec-929c-36e4be0fa751",
+      "match_quality": 6,
+      "rationale": "Java ✓ (rare match), Node/React/Docker/CI/REST/Git ✓. TS/Next/Vue/.NET/cloud gaps. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "c2540672-87d0-40ce-8028-248dc4d6c75d",
+      "match_quality": 8,
+      "rationale": "Strong fit: React/Node/JS/REST/Express/HTML/CSS/Angular — all in CV. Middle ✓, 5y > 3y. Minor TS/SCSS gaps."
+    },
+    {
+      "vacancy_id": "6d908d9f-c748-4be8-8c15-50fed8a03135",
+      "match_quality": 2,
+      "rationale": "PHP 8.1+/CodeIgniter stack — CV is Java/JS/Angular. Major mismatch."
+    },
+    {
+      "vacancy_id": "c6056a80-614a-47d1-b3fc-1f602ebd71ff",
+      "match_quality": 2,
+      "rationale": "PHP + healthcare workflows — PHP not in CV."
+    },
+    {
+      "vacancy_id": "884a9333-9a1d-4537-ba9b-658d99373980",
+      "match_quality": 6,
+      "rationale": "JS/Node/React ✓. TS/Next/AI agents/Vercel gaps. 5y > 2y over-qualified."
+    },
+    {
+      "vacancy_id": "d8b58559-406c-4c06-8cd6-f7c35a172adc",
+      "match_quality": 6,
+      "rationale": "Node/JS/React/REST/Express/HTML/CSS/Mongo/Git core ✓. TS/Vue/Telegram bots gaps. 5y > 2y."
+    },
+    {
+      "vacancy_id": "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+      "match_quality": 2,
+      "rationale": "PHP/Laravel/Python stack + ANTI affiliate marketing experience required. Major mismatches."
+    },
+    {
+      "vacancy_id": "912d23f3-8459-4b3d-8d46-d7d6e62b322c",
+      "match_quality": 6,
+      "rationale": "React Native + Node/Express/REST/Mongo all in CV. Analytics tools (AppsFlyer/PostHog/Amplitude) and Firebase gaps. 5y > 2y."
+    },
+    {
+      "vacancy_id": "dd8bd6cd-b830-449f-b69c-41e777551d18",
+      "match_quality": 8,
+      "rationale": "Strong: JS/Node/React/REST/HTTP/Git all match. Middle ✓, 5y > 3y. Socket.io→WebSockets adjacent. TS minor gap."
+    },
+    {
+      "vacancy_id": "8069bfd7-f6e8-4c30-aaa0-e7582603ec09",
+      "match_quality": 2,
+      "rationale": "Vue 3/Nuxt stack + ANTI Lviv onsite — CV is Angular/React."
+    },
+    {
+      "vacancy_id": "923463ed-0b3e-4018-9d75-5f7eaec451c5",
+      "match_quality": 6,
+      "rationale": "React/Node/Express/JS ✓. TS/Next/Supabase/Postgres/GraphQL gaps. Senior 4y match."
+    },
+    {
+      "vacancy_id": "fe1da4db-20e6-4c94-8577-067a243a7568",
+      "match_quality": 4,
+      "rationale": "Junior 1y vs CV 5y — over-qualified. TS/Next/Postgres/Redis gaps."
+    },
+    {
+      "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+      "match_quality": 2,
+      "rationale": "C#/.NET/Dynamics CRM stack — CV has no .NET. ANTI 6-month contract limit."
+    },
+    {
+      "vacancy_id": "9c76720b-6f90-46ce-8a57-001fcca261ba",
+      "match_quality": 6,
+      "rationale": "React/Node/Express/REST ✓. TS/NestJS/Postgres/Redis/TypeORM gaps. 5y > 3y."
+    },
+    {
+      "vacancy_id": "9f3afa0b-f1de-4f3c-bb42-302ad3d54ce2",
+      "match_quality": 2,
+      "rationale": "C#/.NET/Azure stack — major mismatch with Java/JS CV."
+    },
+    {
+      "vacancy_id": "0f28ff56-d10e-4946-9a98-c269be0e145e",
+      "match_quality": 6,
+      "rationale": "JS/React/Node/CSS/REST/Express/Angular ✓. TS/NestJS/Postgres gaps. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "9f88dd86-c147-4681-9567-4b87fe913b97",
+      "match_quality": 0,
+      "rationale": "Trainee/intern level — 5y senior way over-qualified."
+    },
+    {
+      "vacancy_id": "178cbb0b-0920-4531-987e-bf4d7245e372",
+      "match_quality": 2,
+      "rationale": "PHP 7.4 legacy modernization — PHP not in CV."
+    },
+    {
+      "vacancy_id": "aa515efb-39a4-4fe7-b3a7-b496339c0447",
+      "match_quality": 2,
+      "rationale": "C#/.NET/ASP.NET stack mismatch."
+    },
+    {
+      "vacancy_id": "24a6f183-0008-4366-be98-dd096a767f23",
+      "match_quality": 4,
+      "rationale": "Python/Django mismatch (CV has Java/JS). React/Docker partial. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "b66e9aad-8110-4d6e-87c9-e05f626b5ee4",
+      "match_quality": 8,
+      "rationale": "Strong Java fullstack match: Java/Spring/Spring Boot/Angular/SQL/MySQL/Docker all in CV. TS/MSSQL/K8s/GitLab CI gaps. Middle ✓, 5y > 3y."
+    },
+    {
+      "vacancy_id": "2c20d3af-c032-4a9f-ae27-5f6c681381b3",
+      "match_quality": 2,
+      "rationale": "C#/.NET/Azure stack — major mismatch."
+    },
+    {
+      "vacancy_id": "b8505fa5-13f0-40b4-8961-b5cd084477dc",
+      "match_quality": 6,
+      "rationale": "JS/Node/React/REST/Git ✓. TS/Vue/Postgres/WebSockets (Socket.io adjacent) gaps. 5y > 2y."
+    },
+    {
+      "vacancy_id": "d2e4be03-4166-490a-b365-da422328abd7",
+      "match_quality": 8,
+      "rationale": "Basic Node/React/JS match cleanly. Middle ✓, 5y > 3y. TS minor gap."
+    },
+    {
+      "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+      "match_quality": 6,
+      "rationale": "React/Node ✓. AI tooling adoption/mentorship — not explicit in CV but Senior 5y fits leadership prep."
+    },
+    {
+      "vacancy_id": "b855ffc9-c236-4f56-ad08-c338a27bc0c4",
+      "match_quality": 2,
+      "rationale": "PHP stack — not in CV. DefTech."
+    }
+  ]
+}

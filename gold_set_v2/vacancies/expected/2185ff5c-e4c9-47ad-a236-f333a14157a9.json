@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle DevOps",
+    "uk": "Middle DevOps"
+  },
+  "role_title_raw": "DevOps Engineer (middle) | Web Дія",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Linux",
+    "Kubernetes",
+    "CI/CD",
+    "Docker",
+    "cloud infrastructure",
+    "Helm",
+    "Git",
+    "Ansible",
+    "Prometheus",
+    "Grafana",
+    "Loki",
+    "RabbitMQ",
+    "PostgreSQL",
+    "GitLab CI",
+    "GitHub Actions",
+    "DNS"
+  ],
+  "nice_to_have_skills": [
+    "AWS",
+    "GCP",
+    "Azure"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

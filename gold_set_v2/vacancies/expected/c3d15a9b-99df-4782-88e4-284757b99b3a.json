@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Analyst",
+    "uk": "Data Analyst"
+  },
+  "role_title_raw": "Data Analyst",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SQL",
+    "product analytics",
+    "BI tools",
+    "Python",
+    "Pandas",
+    "BI",
+    "Power BI",
+    "Tableau"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

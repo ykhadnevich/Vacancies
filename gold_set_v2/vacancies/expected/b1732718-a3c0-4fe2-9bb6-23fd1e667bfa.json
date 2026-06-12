@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Product Marketing Manager",
+    "uk": "Senior Product Marketing Manager"
+  },
+  "role_title_raw": "Senior Product Marketing Manager",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product marketing",
+    "positioning",
+    "go-to-market",
+    "B2B tech",
+    "DefTech / military domain",
+    "customer research",
+    "analytical thinking",
+    "ownership"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

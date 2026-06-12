@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager (Intercoms)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product management",
+    "hardware products",
+    "video surveillance",
+    "intercom systems",
+    "B2B product strategy"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

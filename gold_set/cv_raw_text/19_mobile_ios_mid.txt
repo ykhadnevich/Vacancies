@@ -1,0 +1,61 @@
+Yuriy Tkachuk
+iOS Engineer · 4 years · Swift / SwiftUI / UIKit · Kyiv, remote
+y.tkachuk@example.com · github.com/ytkachuk · linkedin.com/in/ytkachuk
+Summary
+iOS-розробник з 4-річним досвідом, спеціалізація — consumer subscription apps на Swift.
+Останні 2 роки — single iOS dev у B2C продукті (~120k MAU, 4.7★ App Store). Strong у
+MVVM-Coordinator, asynchronous Swift Concurrency, performance optimization, in-app purchase
++ StoreKit 2.
+Experience
+iOS Engineer — Reface (AI photo/video, B2C)
+Apr 2024 — Present · Kyiv (remote) · PRODUCTION
+• Sole iOS dev для consumer subscription app — Swift 5.9, SwiftUI + UIKit interop, MVVM-C,
+Combine + Swift Concurrency (async/await, actors).
+• Migrated 80% of legacy UIKit screens на SwiftUI; crash-free sessions піднялись з 99.2% до
+99.7% за 6 місяців (Crashlytics).
+• StoreKit 2 integration для subscriptions — promotional offers, restore-purchase flow,
+server-side receipt validation. Subscription conversion rate +9% (A/B test, n=120k).
+• CI/CD: Bitrise + Fastlane lane для TestFlight + App Store releases. Release cadence — 1
+раз/2 тижні.
+iOS Engineer (junior → mid) — SoftServe (outsource, client: UK fintech)
+Aug 2022 — Mar 2024 · Lviv (hybrid) · PRODUCTION
+• Banking app для UK retail bank — Swift, UIKit, MVVM, Core Data, KeychainAccess, Snapshot
+tests via FBSnapshotTestCase.
+• Built biometric auth (Face ID/Touch ID) + secure pinpad component for sensitive flows.
+• Pair-programming sessions з platform team — code reviews twice weekly.
+Junior iOS Developer — Sigma Software
+Jun 2021 — Jul 2022 · Lviv · PRODUCTION
+• First commercial role — Swift 5, UIKit, Cocoapods, Alamofire. B2C marketplace app (German
+client).
+iOS Intern — EPAM
+Feb 2021 — May 2021 · Lviv · INTERNSHIP
+• 4-month bootcamp + mini-projects on iOS fundamentals.
+Skills
+Languages: Swift (advanced, daily 4 years), Objective-C (basic, legacy maintenance), Bash.
+UI: SwiftUI (advanced — daily 1.5 years), UIKit (advanced, Auto Layout, custom transitions,
+animations), Combine, Swift Concurrency.
+Architecture: MVVM, MVVM-Coordinator, VIPER (legacy projects), Clean Architecture principles,
+dependency injection (Resolver, Swinject).
+Frameworks: Core Data, Core Animation, CoreGraphics, AVFoundation (limited), MapKit, CallKit
+(one feature), HealthKit (briefly).
+StoreKit 2 + monetization: subscription management, promotional offers, App Store Connect
+API, server receipt validation.
+Tooling: Xcode 15, Swift Package Manager, CocoaPods (legacy), Fastlane, Bitrise (CI), GitHub
+Actions, SwiftLint, SwiftFormat.
+
+Testing: XCTest, XCUITest (UI), FBSnapshotTestCase, Quick + Nimble (BDD style), TDD when
+starting new features.
+Other tools: Git, Jira, Figma (dev mode), Charles Proxy, Reveal, Firebase (Crashlytics, Analytics,
+Remote Config), Sentry, Amplitude.
+Education
+NTUU Kyiv Polytechnic Institute (KPI)
+Bachelor's in Computer Engineering · 2017–2021 · Completed
+Online courses: Stanford CS193p — Developing Applications for iOS (audited 2022); Paul
+Hudson Hacking with Swift+ subscriber (2023+); raywenderlich.com book — Combine:
+Asynchronous Programming.
+Languages
+• Ukrainian — native
+• English — B2 (daily code reviews + design conversations)
+Target Roles
+Mid/Senior iOS Engineer · iOS Developer (Swift/SwiftUI) · Mobile Engineer (iOS-first). Цікавлять
+product B2C apps. Не зацікавлений у Objective-C-only legacy maintenance roles.

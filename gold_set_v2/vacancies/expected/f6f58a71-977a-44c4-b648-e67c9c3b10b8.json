@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "f6f58a71-977a-44c4-b648-e67c9c3b10b8",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Azure Integration Platform Support Specialist",
+    "uk": "Azure Integration Platform Support Specialist"
+  },
+  "role_title_raw": "Azure Integration Platform Support Specialist — Tieto Tech Consulting (m/f/d)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Azure",
+    "integration platforms",
+    "support",
+    "troubleshooting",
+    "cloud services",
+    "cloud",
+    "SOAP",
+    "Azure DevOps",
+    "REST API",
+    "Git"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

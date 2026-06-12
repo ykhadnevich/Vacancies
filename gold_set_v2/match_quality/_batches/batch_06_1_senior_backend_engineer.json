@@ -1,0 +1,158 @@
+{
+  "batch_idx": 6,
+  "cv_id": "1_senior_backend_engineer",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+      "match_quality": 6,
+      "rationale": "Middle + frontend expectations dilute fit. Backend C#/.NET/EF Core/SQL core matches. Senior 6.6y over-qualified."
+    },
+    {
+      "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+      "match_quality": 10,
+      "rationale": "Perfect: C#/ASP.NET Core/EF Core/Postgres/Docker/REST/CI/CD all in CV. Azure DevOps→GitHub Actions equivalent. Senior ✓."
+    },
+    {
+      "vacancy_id": "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+      "match_quality": 6,
+      "rationale": "Backend C#/.NET/ASP.NET Core/SQL/testing match. Angular/TS frontend gap. ANTI Norway travel acceptable."
+    },
+    {
+      "vacancy_id": "8c03a6e9-b372-4802-84be-7d939d6ccb5a",
+      "match_quality": 6,
+      "rationale": "C#/.NET/ASP.NET Core/SQL/Docker/Git match. Oracle PL/SQL specific (CV is Postgres). Banking domain transferable."
+    },
+    {
+      "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+      "match_quality": 6,
+      "rationale": "Backend C#/.NET/microservices/REST/Azure/SQL/Clean Arch match. React/micro frontends/TS frontend gap. Middle role under-utilizes senior."
+    },
+    {
+      "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "match_quality": 2,
+      "rationale": "ANTI French language fluency required — CV has Ukrainian + English B2 only. Dealbreaker despite C#/.NET match."
+    },
+    {
+      "vacancy_id": "c1fae7c2-ca09-4a3e-92d0-60636378bf39",
+      "match_quality": 6,
+      "rationale": "C#/.NET/Postgres/AWS/SQL/Git match. JS/TS/Node/React frontend stack gap. Browser extensions specific."
+    },
+    {
+      "vacancy_id": "da16012a-9276-4ecb-8d71-8d1945d94b6a",
+      "match_quality": 6,
+      "rationale": ".NET MAUI (mobile) not in CV. C#/.NET/REST/Clean Arch/SOLID/MVVM/MVC/Git match. 3y vs 6.6y."
+    },
+    {
+      "vacancy_id": "db1c9d2a-b3d2-40a3-9f0c-965e0e041d7d",
+      "match_quality": 6,
+      "rationale": "Junior/Middle role + 2y min — senior 6.6y over-qualified. Stack matches."
+    },
+    {
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "match_quality": 8,
+      "rationale": "Tech Lead matches target_role exactly. C#/.NET/architecture/high-load all match. 7y vs 6.6y borderline. Team leadership transferable from senior."
+    },
+    {
+      "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "match_quality": 8,
+      "rationale": "All core C#/.NET/ASP.NET Core/EF Core/Postgres/MSSQL/microservices match. RNG/RGS iGaming domain specific gap. Senior ✓."
+    },
+    {
+      "vacancy_id": "e092834f-91a9-4d83-b334-fa02167ba004",
+      "match_quality": 8,
+      "rationale": "C#/.NET/ASP.NET Core/REST/cloud/SQL/CI/CD/Azure match. AI-assisted/Copilot tooling expectation. Angular gap."
+    },
+    {
+      "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+      "match_quality": 8,
+      "rationale": "C#/.NET/ASP.NET Core/cloud/REST match. Azure focus (CV is AWS-primary, has Azure AD). Strong fit."
+    },
+    {
+      "vacancy_id": "e840f997-37f1-42cc-9c3a-190803906352",
+      "match_quality": 6,
+      "rationale": "C#/ASP.NET Core/REST/SQL/.NET/AWS/Azure match. Angular 9+ frontend gap."
+    },
+    {
+      "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+      "match_quality": 10,
+      "rationale": "Perfect: C#/.NET 8/ASP.NET Core/Postgres/EF Core/Redis/microservices/Docker — every must in CV. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+      "match_quality": 6,
+      "rationale": "Backend C#/.NET/AWS/Terraform/Docker/CI/CD/Redis/Datadog all in CV. Frontend stack (Next/Vue/Angular) gap. Lead 7y vs senior 6.6y borderline."
+    },
+    {
+      "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+      "match_quality": 4,
+      "rationale": "Node/Angular/Express stack mismatch (CV is .NET-focused). C#/.NET/SQL ok but role is fullstack JS+.NET."
+    },
+    {
+      "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+      "match_quality": 10,
+      "rationale": "Perfect: C#/.NET/ASP.NET Core/SQL/microservices/Kafka — all in CV. Kafka explicit match. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+      "match_quality": 10,
+      "rationale": "Perfect: all must-haves (C#/.NET/ASP.NET Core/EF Core/Postgres/microservices/CI/CD/Docker/SOLID/REST/perf) in CV. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+      "match_quality": 0,
+      "rationale": "News Feed Editor — completely different field (journalism)."
+    },
+    {
+      "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+      "match_quality": 6,
+      "rationale": ".NET Core/EF Core/Postgres/Mongo all in CV. Middle role — senior over-qualified. Mobile backend domain specific."
+    },
+    {
+      "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+      "match_quality": 4,
+      "rationale": "Creatio platform/CRM customization is specific framework not in CV. C# transferable but specialty gap."
+    },
+    {
+      "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+      "match_quality": 10,
+      "rationale": "Exceptional: C#/.NET/ASP.NET Core/Postgres/AWS/CI/CD/GitHub Actions/Datadog/Grafana/Docker/K8s/Helm/Kafka/Terraform — VIRTUALLY EVERY must-have in CV."
+    },
+    {
+      "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "match_quality": 10,
+      "rationale": "Exceptional: C#/.NET/Postgres/Mongo/Redis/RabbitMQ/Kafka/Prometheus/Grafana/Docker/gRPC/CI/CD/Clean Arch — every must in CV."
+    },
+    {
+      "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+      "match_quality": 10,
+      "rationale": "Perfect: C#/.NET/ASP.NET MVC/ASP.NET Core/MS SQL/NoSQL/EF Core all in CV. Senior 3y < 6.6y."
+    },
+    {
+      "vacancy_id": "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+      "match_quality": 0,
+      "rationale": "Embedded firmware (C/C++/ARM/UART/SPI) — completely different specialization."
+    },
+    {
+      "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+      "match_quality": 10,
+      "rationale": "Perfect: C#/ASP.NET Core/EF Core/SQL/CI/CD/Azure DevOps/Docker/AKS/REST all in CV. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+      "match_quality": 10,
+      "rationale": "Perfect: C#/.NET/REST/NUnit/xUnit (in CV)/MSTest/unit testing/SQL/OOP/SOLID all match. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+      "match_quality": 8,
+      "rationale": "C#/.NET 8/Azure/.NET/cloud/ASP.NET Core/microservices/Docker/REST/SQL/testing all match. DeFi domain specific. Senior 5y ✓."
+    },
+    {
+      "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+      "match_quality": 10,
+      "rationale": "Tech Lead matches target. C#/.NET/AWS/EC2/RDS/SQS/S3/CloudFront/Redis/Linux/Docker/microservices — every AWS service in CV. Go/Node nice-to-have gaps."
+    }
+  ]
+}

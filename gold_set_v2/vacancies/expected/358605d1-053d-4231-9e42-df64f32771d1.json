@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "358605d1-053d-4231-9e42-df64f32771d1",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "QA",
+    "uk": "QA"
+  },
+  "role_title_raw": "QA-інженер",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "manual testing",
+    "test cases",
+    "retail systems",
+    "Postman",
+    "Playwright",
+    "Cypress",
+    "iOS",
+    "Android"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

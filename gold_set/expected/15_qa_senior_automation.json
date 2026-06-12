@@ -1,0 +1,111 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "QA Lead",
+    "Senior SDET",
+    "Test Architect"
+  ],
+  "domain_skills": [
+    "Playwright",
+    "Selenium WebDriver",
+    "Appium",
+    "Cucumber",
+    "Java",
+    "TypeScript",
+    "Python",
+    "pytest",
+    "TestNG",
+    "JUnit",
+    "RestAssured",
+    "Postman",
+    "Newman",
+    "API testing",
+    "JMeter",
+    "GitLab CI",
+    "Jenkins",
+    "GitHub Actions",
+    "Docker",
+    "Page Object Model",
+    "Test pyramid design",
+    "BDD",
+    "Shift-left QA",
+    "Exploratory testing",
+    "Jira",
+    "Zephyr",
+    "TestRail",
+    "Allure",
+    "PostgreSQL",
+    "MySQL",
+    "SQL",
+    "Maven"
+  ],
+  "technical_skills": [
+    "Cypress",
+    "Gatling",
+    "Grafana",
+    "Groovy",
+    "Bash",
+    "MongoDB",
+    "Kafka",
+    "Wiremock",
+    "Pact"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Ajax Systems",
+      "type": "PRODUCTION",
+      "duration_months": 42,
+      "years_ago": 0
+    },
+    {
+      "title": "EPAM",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 4
+    },
+    {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 18,
+      "years_ago": 6
+    },
+    {
+      "title": "Luxoft",
+      "type": "PRODUCTION",
+      "duration_months": 13,
+      "years_ago": 8
+    },
+    {
+      "title": "Datrics",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Computer Engineering",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2017
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "Russian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

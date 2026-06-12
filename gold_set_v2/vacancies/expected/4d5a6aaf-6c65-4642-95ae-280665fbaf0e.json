@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "4d5a6aaf-6c65-4642-95ae-280665fbaf0e",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Flutter Developer",
+    "uk": "Senior Flutter розробник"
+  },
+  "role_title_raw": "Senior Mobile Developer (Flutter) (IRC294044)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Flutter",
+    "Dart",
+    "GitHub Actions",
+    "CI/CD",
+    "iOS",
+    "Android",
+    "B2B e-commerce",
+    "REST API",
+    "Scrum",
+    "Agile",
+    "unit testing",
+    "integration testing",
+    "Firebase",
+    "AI tools"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

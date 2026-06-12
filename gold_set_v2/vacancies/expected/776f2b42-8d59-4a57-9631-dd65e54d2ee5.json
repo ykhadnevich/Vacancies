@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "776f2b42-8d59-4a57-9631-dd65e54d2ee5",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Lead iOS Developer",
+    "uk": "Lead iOS розробник"
+  },
+  "role_title_raw": "Lead iOS Developer (Affiliate Marketing)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "Swift",
+    "iOS native",
+    "WebView",
+    "team management",
+    "mobile architecture",
+    "iGaming",
+    "UIKit",
+    "iOS",
+    "Firebase"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 6,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

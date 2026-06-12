@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "c6056a80-614a-47d1-b3fc-1f602ebd71ff",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "AI-Driven Fullstack Developer",
+    "uk": "AI-Driven Fullstack розробник"
+  },
+  "role_title_raw": "AI-Driven Full Stack Developer (PHP + React)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "PHP",
+    "React",
+    "AI-assisted development",
+    "healthcare workflows",
+    "compliance systems",
+    "TypeScript",
+    "REST API",
+    "PostgreSQL"
+  ],
+  "nice_to_have_skills": [
+    "AWS",
+    "Python"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

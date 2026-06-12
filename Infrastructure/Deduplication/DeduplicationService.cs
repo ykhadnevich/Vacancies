@@ -35,11 +35,15 @@ public class DeduplicationService : IDeduplicationService
         return Task.FromResult(new DeduplicationResult(unique, duplicates));
     }
 
+
+    private static readonly System.Text.RegularExpressions.Regex SeniorityWords =
+        new(@"\b(senior|junior|middle|lead)\b",
+            System.Text.RegularExpressions.RegexOptions.Compiled |
+            System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+
     private static string NormalizeTitle(string title) =>
-        title.ToLower()
-            .Replace("senior", "")
-            .Replace("junior", "")
-            .Replace("middle", "")
-            .Replace("lead", "")
-            .Trim();
+        System.Text.RegularExpressions.Regex.Replace(
+            SeniorityWords.Replace(title.ToLower(), ""),
+            @"\s+",
+            " ").Trim();
 }

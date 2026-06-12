@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Manager",
+    "uk": "Engineering Manager"
+  },
+  "role_title_raw": "Engineering Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "engineering management",
+    "team leadership",
+    "MarTech / pharma domain",
+    "delivery management",
+    "TypeScript",
+    "Node.js",
+    "Lambda",
+    "S3",
+    "CI/CD",
+    "Agile"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "MarTech",
+    "uk": "MarTech"
+  },
+  "anti_requirements": []
+}

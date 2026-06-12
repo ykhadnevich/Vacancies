@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle / Senior Flutter Developer",
+    "uk": "Middle / Senior Flutter розробник"
+  },
+  "role_title_raw": "Flutter Developer (Middle/Senior, волонтерство)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Flutter",
+    "Dart",
+    "mobile architecture",
+    "iOS",
+    "Android",
+    "REST API",
+    "CI/CD",
+    "unit testing",
+    "MVC",
+    "MVVM",
+    "Git",
+    "Firebase"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": [
+    "volunteer position"
+  ]
+}

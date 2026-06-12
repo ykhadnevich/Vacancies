@@ -1,4 +1,6 @@
 using MediatR;
+using Application.Common.Enums;
+using Application.Common.Exceptions;
 using Application.Common.Interfaces;
 using Application.Common.KeywordFiltering;
 using Application.DTOs;
@@ -22,6 +24,7 @@ public class GetAggregatedJobsHandler
     private readonly IJobVacancyRepository _jobVacancyRepo;
     private readonly ICurrentUserService _currentUser;
     private readonly IJobDescriptionFetcher _descriptionFetcher;
+    private readonly IReasoningContext _reasoningContext;
     private readonly ILogger<GetAggregatedJobsHandler> _logger;
 
     public GetAggregatedJobsHandler(
@@ -32,6 +35,7 @@ public class GetAggregatedJobsHandler
         IJobVacancyRepository jobVacancyRepo,
         ICurrentUserService currentUser,
         IJobDescriptionFetcher descriptionFetcher,
+        IReasoningContext reasoningContext,
         ILogger<GetAggregatedJobsHandler> logger)
     {
         _sources = sources;
@@ -41,6 +45,7 @@ public class GetAggregatedJobsHandler
         _jobVacancyRepo = jobVacancyRepo;
         _currentUser = currentUser;
         _descriptionFetcher = descriptionFetcher;
+        _reasoningContext = reasoningContext;
         _logger = logger;
     }
 
@@ -153,30 +158,88 @@ public class GetAggregatedJobsHandler
         var duplicateJobs = deduplicationResult.Duplicates;
         int duplicatesRemoved = duplicateJobs.Count;
 
-        var ranPipeline = false;
-        var finalJobs = deduplicated;
 
-        if (query.RunRelevancePipeline && _currentUser.IsAuthenticated)
+        var dbJobsByUrl = await _jobVacancyRepo.GetAllByUrlAsync(CancellationToken.None);
+        var existingUrlSet = new HashSet<string>(dbJobsByUrl.Keys);
+
+
+        var resolvedJobs = deduplicated
+            .Select(j =>
+            {
+                if (!dbJobsByUrl.TryGetValue(j.PrimaryUrl, out var dbJob))
+                    return j;
+
+
+                dbJob.SetCompanySignals(j.ApplicantCount, j.RecruiterRespondsQuickly);
+                return dbJob;
+            })
+            .ToList();
+
+
+        _reasoningContext.Provider = query.ReasoningProvider;
+        _reasoningContext.ScoringModel = query.ScoringModel;
+        _reasoningContext.CvVersion = query.CvVersion;
+        _reasoningContext.IncludeCompetitionSignals = query.IncludeCompetitionSignals;
+        _reasoningContext.IncludeRecencyDecay = query.IncludeRecencyDecay;
+
+        var runPipeline = query.ReasoningProvider != ReasoningProviderType.None;
+        var ranPipeline = false;
+        var finalJobs = resolvedJobs;
+
+        if (runPipeline && _currentUser.IsAuthenticated)
         {
             var userProfile = await _userProfileRepo
                 .GetByIdAsync(_currentUser.UserId!.Value, CancellationToken.None);
 
             if (userProfile is not null)
             {
-                finalJobs = await _relevancePipeline.RunAsync(deduplicated, userProfile, CancellationToken.None);
+
+
+                if (query.CvVersion == CvVersionPreference.Structured
+                    && string.IsNullOrWhiteSpace(userProfile.CvSummary))
+                {
+                    throw new CvNotReadyException();
+                }
+
+                finalJobs = (await _relevancePipeline.RunAsync(resolvedJobs, userProfile, CancellationToken.None)).ToList();
                 ranPipeline = true;
             }
         }
 
-        var allExistingUrls = await _jobVacancyRepo.GetAllUrlsAsync(CancellationToken.None);
-        var existingUrlSet = new HashSet<string>(allExistingUrls);
+
+        var signalUpdates = deduplicated
+            .Where(j => existingUrlSet.Contains(j.PrimaryUrl)
+                     && (j.ApplicantCount.HasValue || j.RecruiterRespondsQuickly.HasValue))
+            .Select(j => (j.PrimaryUrl, j.ApplicantCount, j.RecruiterRespondsQuickly))
+            .ToList();
+        if (signalUpdates.Any())
+            await _jobVacancyRepo.UpdateCompanySignalsAsync(signalUpdates, CancellationToken.None);
+
+
         var newJobs = finalJobs
             .Where(j => !existingUrlSet.Contains(j.PrimaryUrl))
             .ToList();
         if (newJobs.Any())
             await _jobVacancyRepo.AddRangeAsync(newJobs, CancellationToken.None);
 
-        var dtos = finalJobs.Select(MapToDto).ToList();
+
+        if (ranPipeline)
+        {
+            var existingWithScores = finalJobs
+                .Where(j => existingUrlSet.Contains(j.PrimaryUrl) && j.RelevanceScore != null)
+                .Select(j => (j.PrimaryUrl, j.RelevanceScore!.Value, j.RelevanceScore.Stage))
+                .ToList();
+
+            if (existingWithScores.Any())
+                await _jobVacancyRepo.UpdateRelevanceScoresAsync(existingWithScores, CancellationToken.None);
+        }
+
+
+        var sortedJobs = finalJobs
+            .OrderByDescending(j => j.RelevanceScore?.Value ?? -1f)
+            .ToList();
+
+        var dtos = sortedJobs.Select(MapToDto).ToList();
 
         return new GetAggregatedJobsResult
         {
@@ -205,8 +268,11 @@ public class GetAggregatedJobsHandler
             Category = job.Category,
             RelevanceScore = job.RelevanceScore?.Value,
             RelevanceStage = job.RelevanceScore?.Stage.ToString(),
+            RelevanceReason = job.Reason,
             IsDuplicate = job.IsDuplicate,
             IsManuallyAdded = job.IsManuallyAdded,
-            PublishedAt = job.PublishedAt
+            PublishedAt = job.PublishedAt,
+            ApplicantCount = job.ApplicantCount,
+            RecruiterRespondsQuickly = job.RecruiterRespondsQuickly
         };
 }

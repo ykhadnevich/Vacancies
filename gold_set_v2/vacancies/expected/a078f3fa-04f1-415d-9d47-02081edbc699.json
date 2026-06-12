@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "a078f3fa-04f1-415d-9d47-02081edbc699",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Governance Expert",
+    "uk": "Експерт з Data Governance"
+  },
+  "role_title_raw": "Експерт з Data Governance",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "data governance",
+    "data architecture",
+    "metadata management",
+    "government registers",
+    "API"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "cv_id": "8_healthcare_junior",
+    "vacancy_ids": [
+      "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+      "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+      "89950026-e1d4-45c0-886c-f7700a96ba40",
+      "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+      "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+      "f0b686ec-6f37-42c7-9f30-954845668593",
+      "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+      "9159aa36-e2fc-43d4-a631-cbfdca113944"
+    ]
+  },
+  {
+    "cv_id": "9_healthcare_senior",
+    "vacancy_ids": [
+      "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+      "f0b686ec-6f37-42c7-9f30-954845668593",
+      "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+      "d225680a-f1e9-47ce-80b9-29828cb15b01",
+      "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+      "30860e73-5ce6-4455-bde6-6a3799713735"
+    ]
+  }
+]

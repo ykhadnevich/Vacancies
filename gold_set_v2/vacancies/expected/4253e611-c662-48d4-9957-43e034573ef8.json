@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "4253e611-c662-48d4-9957-43e034573ef8",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior QA",
+    "uk": "Junior QA"
+  },
+  "role_title_raw": "Junior QA Еngineer",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "manual testing",
+    "mobile testing",
+    "iOS testing",
+    "Android testing",
+    "bug documentation",
+    "ChatGPT"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "onsite only (Kyiv)"
+  ]
+}

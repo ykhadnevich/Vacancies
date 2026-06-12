@@ -1,0 +1,112 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "Senior Security Engineer",
+    "Application Security Engineer",
+    "Cloud Security Engineer"
+  ],
+  "domain_skills": [
+    "Threat modeling",
+    "STRIDE",
+    "Secure code review",
+    "OWASP Top 10",
+    "Secure SDLC",
+    "Burp Suite",
+    "OWASP ZAP",
+    "Semgrep",
+    "Snyk",
+    "Dependabot",
+    "Pen testing",
+    "MobSF",
+    "AWS IAM",
+    "AWS Config",
+    "AWS GuardDuty",
+    "AWS Security Hub",
+    "Prowler",
+    "SOC 2",
+    "HIPAA",
+    "Splunk",
+    "OAuth 2.0",
+    "OIDC",
+    "JWT",
+    "Python",
+    "Bash",
+    "OWASP ASVS",
+    "OWASP MASVS",
+    "Postman",
+    "nmap",
+    "sqlmap",
+    "Snyk Code",
+    "SonarQube",
+    "CodeQL",
+    "GitHub Advanced Security",
+    "OSV Scanner",
+    "Tenable Nessus",
+    "IAM Access Analyzer",
+    "Steampipe",
+    "GDPR",
+    "ISO 27001",
+    "Datadog Cloud SIEM",
+    "AWS CloudTrail",
+    "Go",
+    "Lua",
+    "TLS",
+    "mTLS",
+    "Git",
+    "GitHub",
+    "Jira",
+    "Notion",
+    "Slack",
+    "Drata",
+    "Vanta"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "iDeals Solutions",
+      "type": "PRODUCTION",
+      "duration_months": 35,
+      "years_ago": 0
+    },
+    {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 20,
+      "years_ago": 3
+    },
+    {
+      "title": "EPAM",
+      "type": "PRODUCTION",
+      "duration_months": 12,
+      "years_ago": 5
+    },
+    {
+      "title": "Bitdefender",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 6
+    }
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Computer Engineering",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2020
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

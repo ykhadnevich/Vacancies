@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "2e66909d-1064-43d6-8d97-43dd9af72df1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Data Engineer",
+    "uk": "Middle Data Engineer"
+  },
+  "role_title_raw": "Data Engineer (Mid-Level)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "data pipelines",
+    "SQL",
+    "Python",
+    "ETL",
+    "cloud (AWS/GCP/Azure)",
+    "Git",
+    "dbt"
+  ],
+  "nice_to_have_skills": [
+    "Airflow",
+    "GCP"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Fullstack Developer",
+    "uk": "Middle Fullstack розробник"
+  },
+  "role_title_raw": "Middle Full Stack (React+.NET) Developer (MedTech, USA)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "React",
+    "microservices",
+    "micro frontends",
+    "BFF",
+    "REST API",
+    "Azure",
+    "SQL",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "OOP",
+    "SOLID",
+    "Clean Architecture",
+    "API"
+  ],
+  "nice_to_have_skills": [
+    "AI tools",
+    "ChatGPT"
+  ],
+  "min_years_experience": 3,
+  "education_required": "bachelor",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Trainee Data Analyst",
+    "uk": "Trainee Data Analyst"
+  },
+  "role_title_raw": "Trainee Data Analyst",
+  "seniority_required": "intern",
+  "must_have_skills": [
+    "data analysis basics",
+    "SQL basics",
+    "Excel",
+    "Python"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "AdTech",
+    "uk": "AdTech"
+  },
+  "anti_requirements": [
+    "trainee program"
+  ]
+}

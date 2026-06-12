@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "24a6f183-0008-4366-be98-dd096a767f23",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior FullStack Developer (Python/React.js)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "Django",
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "Redux",
+    "PostgreSQL",
+    "AWS",
+    "SOLID",
+    "Agile",
+    "Docker",
+    "design patterns"
+  ],
+  "nice_to_have_skills": [
+    "AntDesign"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

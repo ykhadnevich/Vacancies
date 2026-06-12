@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "745f0820-5b22-462d-b636-c496405427f6",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "AI Data Engineer",
+    "uk": "AI Data Engineer"
+  },
+  "role_title_raw": "AI Data Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "data engineering",
+    "data pipelines",
+    "Python",
+    "SQL",
+    "AI-assisted development",
+    "agentic workflows",
+    "ETL",
+    "Spark",
+    "Databricks",
+    "Azure",
+    "Airflow",
+    "AI tools",
+    "AI"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,158 @@
+{
+  "batch_idx": 9,
+  "cv_id": "22_data_engineer_senior",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+      "match_quality": 8,
+      "rationale": "All ETL/SQL/Python/DWH/MSSQL/MySQL/Postgres/AWS/Azure/NoSQL/Oracle/API match. Middle role — senior 8.6y over-qualified."
+    },
+    {
+      "vacancy_id": "6d596e90-e06f-4f84-94a1-68dd13c55dda",
+      "match_quality": 10,
+      "rationale": "Perfect: DWH/pipelines/ETL/SQL/Python/data quality — all in CV. Senior 5y < 8.6y."
+    },
+    {
+      "vacancy_id": "98824122-2992-416c-82e0-8d76f3fd01db",
+      "match_quality": 6,
+      "rationale": "All tech matches (Databricks/AWS/Azure/GCP/Airflow/Snowflake/BigQuery). ANTI 12-month contract limits engagement."
+    },
+    {
+      "vacancy_id": "7c4af3e5-3f44-492d-bc16-54a5ef6b7259",
+      "match_quality": 4,
+      "rationale": "Data Science role (Python/ML/model deployment) — CV is Data Engineering. Some Python overlap."
+    },
+    {
+      "vacancy_id": "745f0820-5b22-462d-b636-c496405427f6",
+      "match_quality": 8,
+      "rationale": "All DE tech (pipelines/Python/SQL/ETL/Spark/Databricks/Azure/Airflow) match. AI-assisted/agentic tooling expectation."
+    },
+    {
+      "vacancy_id": "a31718c1-d53c-4047-8dcd-27242b325074",
+      "match_quality": 6,
+      "rationale": "Data Science Infrastructure — ML platform focus partial overlap. ANTI hybrid Warsaw."
+    },
+    {
+      "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+      "match_quality": 8,
+      "rationale": "SQL/pipelines/monitoring/Snowflake/Databricks/Python all match. Power BI specific tool."
+    },
+    {
+      "vacancy_id": "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+      "match_quality": 10,
+      "rationale": "Perfect: DWH/Airflow/dbt/ETL/ELT/SQL/Python/BigQuery — all explicitly in CV."
+    },
+    {
+      "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+      "match_quality": 2,
+      "rationale": "Azure-specific stack + OSINT/GIS/image processing specialization + ANTI military service."
+    },
+    {
+      "vacancy_id": "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+      "match_quality": 4,
+      "rationale": "Junior + ML focus — senior 8.6y over-qualified."
+    },
+    {
+      "vacancy_id": "acf2b942-1198-4208-b40e-882c1058918c",
+      "match_quality": 8,
+      "rationale": "Comprehensive stack match (Databricks/Snowflake/BigQuery/Airflow/Spark/dbt/Terraform/Docker/K8s/multi-cloud). Middle role over-qualifies senior."
+    },
+    {
+      "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "match_quality": 2,
+      "rationale": "ML Engineer (biometric/face/OSINT) — CV is Data Engineer, no ML focus."
+    },
+    {
+      "vacancy_id": "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+      "match_quality": 10,
+      "rationale": "Perfect: pipelines/ETL/DWH/SQL/Python/Git/Scala/Spark/Java/AWS/NoSQL — every must in CV. Kafka/K8s/Grafana nice-to-haves ✓."
+    },
+    {
+      "vacancy_id": "92f69ae8-a1b8-4ff8-94a3-0a4acab44d98",
+      "match_quality": 4,
+      "rationale": "General Software Dev (Spring/Java for gambling) — CV is DE. Some Java overlap but role intent off."
+    },
+    {
+      "vacancy_id": "c4d29040-194b-4e77-be4b-41eda7e89d25",
+      "match_quality": 8,
+      "rationale": "Databricks/SQL/Python/ETL/Scala/Spark all match. SAP Datasphere specific platform."
+    },
+    {
+      "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+      "match_quality": 4,
+      "rationale": "Senior Data Scientist (predictive models/EHR/healthcare) — CV is DE. Some Python/Spark/SQL overlap."
+    },
+    {
+      "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+      "match_quality": 4,
+      "rationale": "Middle DS — CV is DE. Some overlap but role intent off."
+    },
+    {
+      "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+      "match_quality": 4,
+      "rationale": "Data Analyst (BI/product analytics) — CV is DE/platform. Different role."
+    },
+    {
+      "vacancy_id": "14d44732-38a4-439e-b07c-970665253c75",
+      "match_quality": 10,
+      "rationale": "Perfect: DWH/SQL/architecture/ETL/Python/Java/Kafka/CI/MS SQL/NoSQL — all in CV. Senior 5y match."
+    },
+    {
+      "vacancy_id": "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+      "match_quality": 6,
+      "rationale": "BI Developer focus (Tableau/MS SQL/T-SQL/data modeling) — CV has DE skills but BI-Tableau focus differs."
+    },
+    {
+      "vacancy_id": "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+      "match_quality": 6,
+      "rationale": "SQL/data integration/data mining match. Stored procedures/triggers is older DBA-style work."
+    },
+    {
+      "vacancy_id": "2e66909d-1064-43d6-8d97-43dd9af72df1",
+      "match_quality": 8,
+      "rationale": "All pipelines/SQL/Python/ETL/cloud/Git/dbt match. Airflow/GCP nice-to-haves ✓ in CV. Middle role over-qualifies."
+    },
+    {
+      "vacancy_id": "6358ab7b-9f86-43a8-804e-056476eb93e6",
+      "match_quality": 4,
+      "rationale": "Lead Data Scientist (pricing/promotions/personalization) — CV is DE. ML retail specialization required."
+    },
+    {
+      "vacancy_id": "3ffd9d74-f52c-49e2-8009-9d4432f63fbc",
+      "match_quality": 8,
+      "rationale": "Minimal DE must-haves (engineering/pipelines/SQL/Python) all in CV. Senior ✓."
+    },
+    {
+      "vacancy_id": "6aa5df92-1622-4e6b-8d45-cf4c237c5971",
+      "match_quality": 8,
+      "rationale": "Python/ETL/integration/quality/Pandas/NumPy/SQL/Oracle all match. Senior 8.6 over-qualified for 3y."
+    },
+    {
+      "vacancy_id": "51dcc6a5-6e9e-44ac-9a2d-ff2e5bf9d627",
+      "match_quality": 10,
+      "rationale": "Perfect: ETL/ELT/Postgres/dbt/Python/SQL/data engineering — all in CV. Multi-cloud/DWH/BigQuery/Snowflake nice-to-haves ✓."
+    },
+    {
+      "vacancy_id": "7444a9aa-83b5-481d-b693-fb1cb1f1a9e6",
+      "match_quality": 4,
+      "rationale": "All DE tech matches (ETL/SQL/Python/Postgres/Airflow/CI). ANTI military service position."
+    },
+    {
+      "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+      "match_quality": 4,
+      "rationale": "Quantitative Data Scientist (FX trading) — CV is DE. Quant ML specialization required."
+    },
+    {
+      "vacancy_id": "652bba37-6fd1-4b69-8d78-4aad7264cd37",
+      "match_quality": 10,
+      "rationale": "Exceptional: SQL/DWH/dimensional modeling (CV explicit!)/SCD/partitioning/BigQuery/Snowflake/Redshift/Python/pandas/Airflow — every must in CV. dbt ✓."
+    },
+    {
+      "vacancy_id": "795db424-ce9f-46a2-bdcf-9a337742115d",
+      "match_quality": 2,
+      "rationale": "Data Scientist + ANTI military service."
+    }
+  ]
+}

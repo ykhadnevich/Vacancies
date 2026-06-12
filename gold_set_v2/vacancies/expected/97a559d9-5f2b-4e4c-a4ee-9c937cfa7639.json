@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product management",
+    "FMCG",
+    "market analysis",
+    "pricing",
+    "product lifecycle",
+    "assortment matrix",
+    "retail channels"
+  ],
+  "nice_to_have_skills": [
+    "food production"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "0c269701-4e43-4767-a42c-f88a25d8e179",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior iOS Developer",
+    "uk": "Junior iOS розробник"
+  },
+  "role_title_raw": "Junior iOS Developer",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "Swift 5+",
+    "UIKit",
+    "Combine",
+    "MVC",
+    "MVVM",
+    "Auto Layout",
+    "SnapKit",
+    "GCD",
+    "async/await",
+    "Firebase",
+    "Alamofire",
+    "REST API",
+    "Realm",
+    "TunnelKit",
+    "VPN",
+    "Swift",
+    "iOS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

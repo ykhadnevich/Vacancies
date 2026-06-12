@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior DevOps / SRE",
+    "uk": "Senior DevOps / SRE"
+  },
+  "role_title_raw": "Senior DevOps/SRE Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Kubernetes",
+    "CI/CD",
+    "Linux",
+    "monitoring",
+    "high availability",
+    "banking systems",
+    "Helm",
+    "Grafana",
+    "Prometheus",
+    "Elasticsearch"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,51 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Associate Professor",
+    "Senior Lecturer",
+    "Research Fellow"
+  ],
+  "domain_skills": [
+    "Political ecology",
+    "Critical theory",
+    "International political economy",
+    "Alternative economies",
+    "Corporate social responsibility",
+    "Social movement politics",
+    "Academic research",
+    "Academic writing",
+    "Peer-reviewed publishing",
+    "University teaching",
+    "Conference presentation",
+    "Book authoring",
+    "Book chapter contribution",
+    "Book review writing"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "University of Victoria",
+      "type": "PRODUCTION",
+      "duration_months": 180,
+      "years_ago": 0
+    }
+  ],
+  "education": {
+    "degree": "phd",
+    "field": "Politics",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2009
+  },
+  "english_level": "native",
+  "languages": [
+    {
+      "language": "English",
+      "level": "native"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

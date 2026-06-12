@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "6dc7352a-6f08-4b53-8bb4-8e0e7893f342",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Apple Developer Farmer",
+    "uk": "Apple Developer Farmer"
+  },
+  "role_title_raw": "Farmer IOS / Farmer Apple Development",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Apple Developer account management",
+    "ID farming",
+    "antidetect browsers",
+    "Dolphin",
+    "AdsPower",
+    "virtual cards",
+    "proxies"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": [
+    "affiliate / gray-area work"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Fullstack Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "PHP",
+    "Laravel",
+    "high-load systems",
+    "data parsing",
+    "marketing campaign automation",
+    "Python",
+    "Node.js",
+    "concurrency",
+    "PostgreSQL",
+    "ElasticSearch",
+    "React",
+    "Vue",
+    "Next.js"
+  ],
+  "nice_to_have_skills": [
+    "Selenium",
+    "Playwright",
+    "HTTP",
+    "SaaS"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "media",
+    "uk": "медіа"
+  },
+  "anti_requirements": [
+    "affiliate marketing / arbitrage team experience required"
+  ]
+}

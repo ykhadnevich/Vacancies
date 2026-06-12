@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "705ffb5a-db10-4785-bd7f-a90db4721c6d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "QA Specialist",
+    "uk": "QA Specialist"
+  },
+  "role_title_raw": "Quality Assurance Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "manual testing",
+    "API testing",
+    "test documentation",
+    "Postman",
+    "Swagger",
+    "Agile",
+    "Scrum",
+    "Kanban",
+    "REST API",
+    "SQL"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

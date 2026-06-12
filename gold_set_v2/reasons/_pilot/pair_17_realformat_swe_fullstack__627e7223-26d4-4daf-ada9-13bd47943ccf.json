@@ -1,0 +1,253 @@
+{
+  "cv_id": "17_realformat_swe_fullstack",
+  "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+  "cv_summary": {
+    "seniority": "middle",
+    "target_roles": [
+      "Software Engineer",
+      "Full-Stack Developer",
+      "Frontend Engineer"
+    ],
+    "domain_skills": [
+      "JavaScript",
+      "ReactJS",
+      "AngularJS",
+      "ExpressJS",
+      "NodeJS",
+      "jQuery",
+      "HTML",
+      "CSS",
+      "React Native",
+      "Java",
+      "Spring",
+      "Maven",
+      "MongoDB",
+      "SQL",
+      "Docker",
+      "Tomcat",
+      "Heroku",
+      "CircleCI",
+      "REST",
+      "Application development",
+      "Scripting",
+      "Automation",
+      "Web application design",
+      "UI testing",
+      "Requirements gathering",
+      "Grunt",
+      "ExponentJS",
+      "Socket.io",
+      "MySQL",
+      "OAuth",
+      "PassportJS",
+      "Google Maps API",
+      "YouTube API"
+    ],
+    "technical_skills": [],
+    "unverified_skills": [
+      "Analytical thinking",
+      "Results-driven delivery"
+    ],
+    "experience": [
+      {
+        "title": "Walmart, Inc.",
+        "type": "PRODUCTION",
+        "duration_months": 60,
+        "years_ago": 10
+      },
+      {
+        "title": "PicoShell",
+        "type": "PET_PROJECT",
+        "duration_months": 0,
+        "years_ago": 0
+      },
+      {
+        "title": "TagMe",
+        "type": "PET_PROJECT",
+        "duration_months": 0,
+        "years_ago": 0
+      },
+      {
+        "title": "Roadtrip Mood Music Generator",
+        "type": "PET_PROJECT",
+        "duration_months": 0,
+        "years_ago": 0
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Science",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2012
+    },
+    "english_level": "native",
+    "languages": [
+      {
+        "language": "English",
+        "level": "native"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Senior Fullstack Developer",
+      "uk": "Senior Fullstack розробник"
+    },
+    "role_title_raw": "Senior Full Stack Developer",
+    "seniority_required": "senior",
+    "must_have_skills": [
+      "Node.js",
+      "NestJS",
+      "React",
+      "Next.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Kafka",
+      "Redis",
+      "GraphQL",
+      "Apollo Federation",
+      "microservices",
+      "event-driven architecture",
+      "AI-assisted development",
+      "Tailwind",
+      "Terraform",
+      "Kubernetes",
+      "Docker",
+      "design patterns",
+      "performance optimization"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": 5,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": true,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "other",
+      "uk": "інше"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.6694444444444443,
+      "reason_en": "Role family mismatch. Partial match. Strengths: React, Node.js. Gaps: Kafka, Next.js.",
+      "reason_uk": "Невідповідність сімейства ролей. Часткова відповідність. Переваги: React, Node.js. Брак: Kafka, Next.js.",
+      "evidence": {
+        "matched_skills": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_must_haves": [
+          "highload systems",
+          "microservices",
+          "event-driven",
+          "design patterns",
+          "performance",
+          "scaling",
+          "web application security",
+          "distributed systems",
+          "Kafka",
+          "queues",
+          "Next.js",
+          "SSR",
+          "data flow",
+          "Nest",
+          "PostgreSQL",
+          "Redis",
+          "GraphQL",
+          "Apollo Federation",
+          "Tailwind",
+          "ShadCN",
+          "Terraform",
+          "Kebernetes",
+          "CDN"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.6749999999999999,
+      "reason_en": "Partial match. Strengths: React, Node.js. Gaps: Next.js, Nest.",
+      "reason_uk": "Часткова відповідність. Переваги: React, Node.js. Брак: Next.js, Nest.",
+      "evidence": {
+        "matched_skills": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_must_haves": [
+          "Next.js",
+          "Nest",
+          "PostgreSQL",
+          "Kafka",
+          "Redis",
+          "GraphQL",
+          "Apollo Federation",
+          "Tailwind",
+          "ShadCN",
+          "Terraform",
+          "Kubernetes",
+          "CDN",
+          "Cloudflare",
+          "microservices",
+          "event-driven architecture",
+          "design patterns",
+          "performance optimization",
+          "scalability",
+          "web application security",
+          "distributed systems"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.6795454545454545,
+      "reason_en": "Partial match. Strengths: React, Node.js. Gaps: Next.js, Nest.",
+      "reason_uk": "Часткова відповідність. Переваги: React, Node.js. Брак: Next.js, Nest.",
+      "evidence": {
+        "matched_skills": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_must_haves": [
+          "Next.js",
+          "Nest",
+          "PostgreSQL",
+          "Kafka",
+          "Redis",
+          "GraphQL",
+          "Apollo Federation",
+          "Tailwind",
+          "ShadCN",
+          "Terraform",
+          "CDN",
+          "microservices",
+          "event-driven",
+          "design patterns",
+          "performance optimization",
+          "scalability",
+          "web application security",
+          "distributed systems"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

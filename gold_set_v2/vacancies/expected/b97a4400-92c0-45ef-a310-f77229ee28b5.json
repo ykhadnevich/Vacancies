@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "b97a4400-92c0-45ef-a310-f77229ee28b5",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "DevOps",
+    "uk": "DevOps"
+  },
+  "role_title_raw": "DevOps",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "WPEngine",
+    "DigitalOcean",
+    "AWS",
+    "GCP",
+    "CI/CD",
+    "monitoring",
+    "high availability",
+    "cloud",
+    "Docker",
+    "Linux",
+    "Kubernetes",
+    "Jenkins",
+    "GitHub Actions",
+    "Nginx",
+    "Bash",
+    "Python",
+    "Zabbix",
+    "Grafana"
+  ],
+  "nice_to_have_skills": [
+    "PHP",
+    "Terraform"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "media",
+    "uk": "медіа"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "10882f1b-d489-4a8c-a0b6-917b51d8f1b4",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Android Developer",
+    "uk": "Android розробник"
+  },
+  "role_title_raw": "Android developer (дистанційно)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "Android"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "edtech",
+    "uk": "edtech"
+  },
+  "anti_requirements": [
+    "volunteer position, no stable salary"
+  ]
+}

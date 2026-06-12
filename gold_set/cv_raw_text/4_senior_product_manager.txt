@@ -1,0 +1,78 @@
+Iryna Mykhailenko
+Senior Product Manager · B2B SaaS · 5.5 years
+Kyiv, Ukraine · open to remote / hybrid
+i.mykhailenko@example.com · linkedin.com/in/imykhailenko · imykhailenko.notion.site
+Summary
+Senior Product Manager з 5.5 роками комерційного PM-досвіду у B2B SaaS компаніях (fintech
+infrastructure, dev tools). Спеціалізуюся на data-driven продуктовому плануванні: побудова
+OKR/north-star metrics, A/B-test культура з 0, ownership end-to-end від discovery до GA-launch.
+Останні 2 роки веду продукт з $4M ARR, 12k B2B users; команда — 5 інженерів + designer +
+DA.
+Experience
+Senior Product Manager — Fintech Pulse (B2B accounting API)
+Jan 2024 — Present · Kyiv (hybrid) · PRODUCTION
+API platform для accounting software vendors (SMB market). 12k активних API клієнтів, $4M
+ARR.
+• Власник roadmap-у "Multi-currency support" — discovery з 14 design-partners, spec'd
+6-month roadmap, shipped перші 3 milestone-и за 4 місяці. Adoption у перші 30 днів — 38%
+активних клієнтів. ARR contribution: +$680k annualized.
+• Запустила A/B-testing infrastructure через GrowthBook + Amplitude. За 6 місяців
+проведено 22 експерименти, 9 з статистично значущим winner-impact.
+• Веду weekly product reviews з C-level — DAU/WAU/MAU, feature adoption, NPS, churn
+cohort.
+• Стек: Amplitude, Mixpanel, Tableau, SQL (advanced), Notion, Linear, Figma (review only),
+Postman, Stripe Billing.
+Product Manager — Octopus Energy Ukraine
+Apr 2022 — Dec 2023 · Kyiv · PRODUCTION
+B2C energy retail. PM на customer-facing app (Android + iOS + web) — 350k MAU.
+• Own-product "Smart Tariff Switching" — recommendation engine який пропонує юзеру
+оптимальний тариф based on consumption pattern. Hypothesis-testing у 5 cohorts, shipped
+до 100% UA user base. Conversion to switched tariff: 14% (target 8%).
+• Регулярні usability-tests, planning sprint discovery → spec → handoff. Collaboration з
+4-розробниковою командою + designer + senior data analyst.
+• Стек: Amplitude, Mixpanel, ContentSquare, Figma, Jira, Confluence, SQL.
+Associate Product Manager — EPAM Systems (B2B internal tools)
+Mar 2020 — Mar 2022 · Lviv · PRODUCTION
+Internal-facing PM у platform team — продукт для 6500 EPAM-розробників (allocation + project
+tracking + utilization analytics).
+• Discovery + spec нового workflow для project staffing — раніше manual через Excel, після
+релізу 80% staffing requests through new system. Saved ~12 hours/week per staffing
+manager.
+• Brand-new metric framework для platform health — usage funnel + retention + NPS.
+Product Management Intern — Genesis Investments
+Jun 2019 — Aug 2019 · Kyiv · INTERNSHIP
+Літній intern у portfolio company (mobile gaming product).
+• Підтримка senior PM у data-deep-dives: cohort retention, monetization funnel.
+• Власна mini-feature — "First-time UX nudges" — shipped, +3% D7 retention.
+
+Skills
+Product: Discovery (user interviews, design partners), roadmapping (OKRs, theme-based),
+PRD/RFC writing, RICE/MoSCoW prioritization, sprint planning + retrospectives.
+Analytics & Experimentation: A/B testing design (sample size, MDE, sequential testing), causal
+inference basics, cohort analysis, funnel decomposition, retention curves.
+Tools: Amplitude (advanced, 4+ years), Mixpanel, Tableau (1.5 years), Looker (basic), SQL
+(advanced), Figma (review), Notion (knowledge base owner), Linear, Jira, GrowthBook, Stripe
+Billing.
+Domain: B2B SaaS GTM, API products, fintech basics (payment rails, ACID accounting), energy
+retail (consumption modeling, dynamic pricing).
+Soft: Cross-functional leadership (eng + design + DA), C-level communication, async-first
+documentation culture.
+Education
+Kyiv School of Economics (KSE)
+Master's in Management (MBA-track) · 2017–2019 · Completed.
+Thesis: "Pricing strategy optimization via dynamic willingness-to-pay surveys".
+National University of Kyiv-Mohyla Academy (NaUKMA)
+Bachelor's in Economics · 2013–2017 · Completed.
+Languages
+Ukrainian — native
+English — C1 (Advanced); 4+ years daily with UK/US distributed teams, presented at Product
+School London 2024.
+Polish — A2 (basic conversational).
+Public Speaking / Writing
+Product School London 2024 — talk "Multi-currency at scale: trade-offs no one warned us about"
+(300 attendees, 4.6/5 rating).
+12 Notion-published case studies on product analytics.
+Target Roles
+Senior Product Manager · Principal Product Manager · Head of Product (smaller team).
+NOT interested in: Growth-only PM roles, BizDev-heavy PM, FMCG product roles,
+operations-disguised-as-PM (Bonus Manager, LiveOps Manager).

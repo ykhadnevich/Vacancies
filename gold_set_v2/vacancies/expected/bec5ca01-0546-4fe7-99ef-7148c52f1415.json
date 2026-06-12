@@ -1,0 +1,52 @@
+{
+  "vacancy_id": "bec5ca01-0546-4fe7-99ef-7148c52f1415",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "FullStack Developer (PHP Laravel + React) in AI Product Company",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "PHP",
+    "Laravel",
+    "React",
+    "microservices",
+    "LLM integration",
+    "prompt engineering",
+    "REST API",
+    "WebSockets",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "OOP",
+    "SOLID",
+    "SASS",
+    "SCSS",
+    "MVC",
+    "design patterns",
+    "Git",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "React Native",
+    "LLM",
+    "AWS",
+    "high-load systems"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "AdTech",
+    "uk": "AdTech"
+  },
+  "anti_requirements": []
+}

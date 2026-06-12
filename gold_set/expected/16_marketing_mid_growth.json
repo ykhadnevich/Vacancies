@@ -1,0 +1,104 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "Senior Growth Marketing Manager",
+    "Head of Paid Acquisition",
+    "Performance Marketing Lead"
+  ],
+  "domain_skills": [
+    "Meta Ads",
+    "Google Ads",
+    "TikTok Ads",
+    "Apple Search Ads",
+    "Snapchat Ads",
+    "LinkedIn Ads",
+    "Paid acquisition",
+    "Performance marketing",
+    "Creative testing",
+    "Budget management",
+    "CAC optimization",
+    "ROAS analysis",
+    "Attribution analysis",
+    "Cohort analysis",
+    "AppsFlyer",
+    "Adjust",
+    "Amplitude",
+    "Mixpanel",
+    "Google Analytics 4",
+    "BigQuery",
+    "SQL",
+    "Looker Studio",
+    "HubSpot",
+    "Customer.io",
+    "A/B testing",
+    "Landing page optimization",
+    "Tableau",
+    "Mailchimp",
+    "Salesforce",
+    "Statsig",
+    "VWO",
+    "Optimizely",
+    "Unbounce",
+    "Webflow",
+    "Figma",
+    "Canva",
+    "Snowflake"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [
+    "Stakeholder reporting",
+    "Cross-functional collaboration",
+    "LTV modeling collaboration"
+  ],
+  "experience": [
+    {
+      "title": "Headway",
+      "type": "PRODUCTION",
+      "duration_months": 35,
+      "years_ago": 0
+    },
+    {
+      "title": "Reface",
+      "type": "PRODUCTION",
+      "duration_months": 21,
+      "years_ago": 3
+    },
+    {
+      "title": "iDeals Solutions",
+      "type": "PRODUCTION",
+      "duration_months": 16,
+      "years_ago": 5
+    },
+    {
+      "title": "Genesis Investments",
+      "type": "INTERNSHIP",
+      "duration_months": 4,
+      "years_ago": 7
+    }
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Marketing",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2019
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    },
+    {
+      "language": "Spanish",
+      "level": "A2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

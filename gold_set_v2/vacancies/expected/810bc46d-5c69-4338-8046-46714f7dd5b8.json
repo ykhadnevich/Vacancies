@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "810bc46d-5c69-4338-8046-46714f7dd5b8",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": ".NET Developer",
+    "uk": ".NET розробник"
+  },
+  "role_title_raw": ".NET Engineer (3116)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    ".NET",
+    "C#",
+    "SQL",
+    "microservices",
+    "serverless",
+    "cloud infrastructure"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

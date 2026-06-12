@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Java Developer",
+    "uk": "Java розробник"
+  },
+  "role_title_raw": "Java розробник",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Java",
+    "high-load systems",
+    "web analytics platforms",
+    "ActiveJ",
+    "Spring",
+    "SQL",
+    "Rust",
+    "PostgreSQL",
+    "MySQL",
+    "OOP",
+    "concurrency",
+    "NoSQL",
+    "data structures",
+    "GIT"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "AdTech",
+    "uk": "AdTech"
+  },
+  "anti_requirements": []
+}

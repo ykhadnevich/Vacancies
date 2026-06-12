@@ -1,0 +1,56 @@
+{
+  "vacancy_id": "290ea2fc-b808-4943-9496-094392bc595d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior iOS Developer",
+    "uk": "Senior iOS розробник"
+  },
+  "role_title_raw": "Strong Middle / Senior iOS Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Swift",
+    "Objective-C",
+    "UIKit",
+    "MVVM",
+    "VIPER",
+    "Clean Swift",
+    "RevenueCat",
+    "AppsFlyer",
+    "Amplitude",
+    "Auto Layout",
+    "Gitflow",
+    "in-app purchases",
+    "push notifications",
+    "iOS",
+    "Xcode",
+    "multithreading",
+    "Clean Architecture",
+    "OOP",
+    "performance optimization",
+    "asynchronous programming",
+    "MVC"
+  ],
+  "nice_to_have_skills": [
+    "C++",
+    "Combine",
+    "Swift Concurrency",
+    "Agile",
+    "Scrum",
+    "async/await"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

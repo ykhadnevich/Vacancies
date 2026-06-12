@@ -1,0 +1,71 @@
+Maryna Kovalenko
+Data Analyst · 3 years · SQL · Python · Tableau
+Lviv, Ukraine · willing to relocate / remote
+m.kovalenko@example.com · github.com/marynak · linkedin.com/in/marynak ·
+public.tableau.com/profile/marynak
+Summary
+Data Analyst з 3 роками комерційного досвіду в e-commerce та fintech аналітиці. Сильні
+сторони — складні SQL-запити для investigation-style задач (cohort analysis, funnel
+decomposition), product analytics через Amplitude, побудова self-service Tableau-дашбордів
+для не-технічних стейкхолдерів. Зараз освоюю dbt для data modeling та статистику для
+A/B-test analysis.
+Experience
+Data Analyst — Selecta Online (UK e-commerce)
+Feb 2024 — Present · remote · PRODUCTION
+Marketplace для fashion brands (~80M annual GMV). Команда analytics з 4 людей.
+• Власник product analytics для нової checkout-experience: побудувала funnel
+декомпозицію на 7 кроків, виявила drop-off rate 31% на shipping selection, допомогла
+product-команді запропонувати фікс — після релізу drop-off впав до 18% (+€2.1M
+annualized revenue impact).
+• Спроектувала self-service Tableau-дашборд для marketing team: 8 ключових metrics +
+filters по category/brand/region. Усунула 60% ad-hoc запитів від marketing до data team.
+• Перевела data modeling для marketing attribution з SQL-only підходу на dbt: створила 12
+dbt моделей, написала тести на schema + freshness.
+• Стек: Snowflake, dbt, Tableau, Amplitude, Python (pandas, scipy), Mode Analytics.
+Junior Data Analyst — Monobank (Universal Bank)
+Aug 2022 — Jan 2024 · Kyiv · PRODUCTION
+Retail banking analytics, фокус на credit products.
+• Побудувала когортний аналіз credit card users по vintage groups; результат використано
+в risk-team рішенні про reprice cashback ratio (зменшення expense на ~14% при
+стабільному engagement).
+• Регулярні investigation-задачі: підтримка product team у дослідженні дивних трендів
+(наприклад, 22% drop у new application volume — виявилось зміною ATT prompt у iOS) —
+SQL + Looker + Amplitude.
+• Створила 5 регулярних reports для C-level monthly business review.
+• Стек: PostgreSQL, Looker, Amplitude, Excel, Python (для ad-hoc analysis).
+BI Analyst Intern — Kernel Trade
+Jun 2022 — Jul 2022 · Kyiv (hybrid) · INTERNSHIP
+Літній intern в agribusiness холдингу.
+• Підтримка щомісячного reporting cycle: підготовка даних, оновлення Power BI
+дашбордів, валідація проти джерел.
+• Невелика evidence-investigation: знайшла невідповідність 0.4% у grain export tonnage
+між ERP та logistics system — виявилось misconfigured rounding.
+Skills
+SQL — advanced (window functions, CTEs, complex joins, partitioning, query optimization).
+Working with PostgreSQL, Snowflake, BigQuery, Redshift.
+BI Tools — Tableau (Public + Online — 2+ years daily), Looker (1 year), Power BI (intern level),
+Mode Analytics, Metabase.
+
+Product Analytics — Amplitude (advanced — cohort, funnel, retention), Mixpanel (familiar), Google
+Analytics 4 (basic).
+Programming — Python (pandas, numpy, scipy.stats, basic matplotlib/seaborn). Comfortable
+writing scripts for ad-hoc analysis; not yet production ML.
+Data Modeling — dbt (1 year, ~20 models written + tested), star schema / dimensional modeling
+basics.
+Statistics — A/B test design + analysis (z-tests, Mann-Whitney, sample size calc),
+correlation/regression for exploratory analysis.
+Other — Git, Jira, Notion. Comfortable presenting analysis to non-technical stakeholders.
+Education
+Taras Shevchenko National University of Kyiv
+Master's in Applied Statistics · 2019–2022 · Completed.
+Дипломна робота: "Survival analysis credit-card cohort retention with time-varying covariates"
+(industrial data, NDA).
+Languages
+Ukrainian — native
+English — B2; робочий рівень — daily standups + slack у UK команді.
+Side Projects
+Personal Tableau Public profile з 6 публічних дашбордів про український e-commerce ринок
+(web-scraped data).
+Microblog у Substack про data analytics в банкінгу — ~300 subscribers.
+Target Roles
+Data Analyst (Senior level next step) · Product Analyst · BI Analyst

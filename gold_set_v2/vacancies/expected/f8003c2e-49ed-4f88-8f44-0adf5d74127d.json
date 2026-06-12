@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Developer",
+    "uk": "Senior .NET розробник"
+  },
+  "role_title_raw": "Senior Software Engineer (.NET)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET 8",
+    "Azure",
+    "decentralized financial protocols",
+    ".NET",
+    "cloud",
+    "ASP.NET Core",
+    "microservices",
+    "Docker",
+    "Agile",
+    "Scrum",
+    "REST API",
+    "SQL",
+    "relational databases",
+    "unit testing",
+    "integration testing"
+  ],
+  "nice_to_have_skills": [
+    "Redis",
+    "Azure DevOps",
+    "DataDog"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

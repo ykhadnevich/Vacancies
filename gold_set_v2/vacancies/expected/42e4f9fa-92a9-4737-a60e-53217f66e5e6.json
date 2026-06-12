@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager (C2C міжнародні відправлення)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product management",
+    "international logistics",
+    "C2C platforms",
+    "digital products",
+    "customer journey"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

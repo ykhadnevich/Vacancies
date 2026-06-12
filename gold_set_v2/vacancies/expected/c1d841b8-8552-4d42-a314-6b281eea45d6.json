@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Backend Developer",
+    "uk": "Senior .NET Backend розробник"
+  },
+  "role_title_raw": "Senior .Net Backend Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    "ASP.NET Core",
+    "Dapper",
+    "Entity Framework",
+    "SQL",
+    "CI/CD",
+    "Azure DevOps",
+    "Docker",
+    "AKS",
+    ".NET",
+    "EF Core",
+    "REST API"
+  ],
+  "nice_to_have_skills": [
+    "Snowflake"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

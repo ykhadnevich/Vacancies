@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Azure DevOps",
+    "uk": "Middle Azure DevOps"
+  },
+  "role_title_raw": "Middle Azure DevOps",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Azure",
+    "App Service",
+    "Storage Accounts",
+    "VMs",
+    "VNETs",
+    "App Gateway",
+    "SQLMI",
+    "AKS",
+    "Key Vault",
+    "Entra ID",
+    "Log Analytics",
+    "Azure Monitor",
+    "Azure DevOps",
+    "GitHub Actions",
+    "Terraform",
+    "Docker",
+    "Datadog",
+    "DNS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": [
+    "EST timezone (13:30-22:00 Kyiv time)"
+  ]
+}

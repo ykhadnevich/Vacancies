@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Marketing Operations Manager",
+    "uk": "Marketing Operations Manager"
+  },
+  "role_title_raw": "Marketing Operations Manager",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "marketing operations",
+    "ASO",
+    "mobile app marketing",
+    "analytics",
+    "campaign management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

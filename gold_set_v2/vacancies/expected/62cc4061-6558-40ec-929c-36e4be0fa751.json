@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "62cc4061-6558-40ec-929c-36e4be0fa751",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Fullstack Developer (Technical Consultant)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "React",
+    "mentorship",
+    "Next.js",
+    "Vue",
+    "Java",
+    ".NET",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Docker",
+    "CI/CD",
+    "REST API",
+    "debugging",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "GraphQL"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

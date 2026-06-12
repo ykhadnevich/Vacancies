@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Analyst",
+    "uk": "Data Analyst"
+  },
+  "role_title_raw": "Data Analyst (Analytics & Forecasting Team)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "SQL",
+    "forecasting",
+    "BI",
+    "Data analysis"
+  ],
+  "nice_to_have_skills": [
+    "Python"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

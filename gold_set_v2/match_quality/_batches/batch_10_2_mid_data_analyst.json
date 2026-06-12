@@ -1,0 +1,108 @@
+{
+  "batch_idx": 10,
+  "cv_id": "2_mid_data_analyst",
+  "n_pairs": 20,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+      "match_quality": 6,
+      "rationale": "SQL match. Credit risk + portfolio + banking reporting specific domain — CV is product analytics focused."
+    },
+    {
+      "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+      "match_quality": 0,
+      "rationale": "Junior intern + ANTI onsite + trainee program — major over-qualification + location."
+    },
+    {
+      "vacancy_id": "c6f91d1b-d2f6-49eb-8e69-0405a2fbe1cd",
+      "match_quality": 6,
+      "rationale": "SQL/data analysis match. Banking + data governance specific domain."
+    },
+    {
+      "vacancy_id": "caf7ce6b-f789-461e-ba10-ae0c5eb8ce35",
+      "match_quality": 6,
+      "rationale": "SQL/Python/pandas/numpy/AI tools match. Credit scoring + ML basics is mixed DA/DS — CV is pure DA."
+    },
+    {
+      "vacancy_id": "ddabf002-f81b-4aaf-9499-88c1743fb91f",
+      "match_quality": 8,
+      "rationale": "Marketing analytics adjacent to product analytics. SQL/Power BI/Tableau/Looker/A/B testing all in CV. Real estate domain specific."
+    },
+    {
+      "vacancy_id": "58da89d8-5d4c-41cf-b443-d347b3744620",
+      "match_quality": 0,
+      "rationale": "Trainee + ANTI program."
+    },
+    {
+      "vacancy_id": "306f9ac1-1597-4b57-8eda-fc4b17b43590",
+      "match_quality": 8,
+      "rationale": "Minimal must-haves (SQL/BI/business insights) easily met. 2y < 3.7y."
+    },
+    {
+      "vacancy_id": "25630527-064b-4211-9697-730a04a25a26",
+      "match_quality": 10,
+      "rationale": "Perfect: SQL/product analytics (CV explicit)/BI/data viz/Python/Matplotlib/data analysis — all match. Middle ✓."
+    },
+    {
+      "vacancy_id": "586789fc-ae73-463c-8668-5a256daed9e6",
+      "match_quality": 6,
+      "rationale": "SQL/Postgres/Power BI match. CRM + payment systems specific."
+    },
+    {
+      "vacancy_id": "3bd35b6f-3631-4819-9227-8e8fe124717d",
+      "match_quality": 6,
+      "rationale": "Same template as caf7ce6b — SQL/Python/pandas match, credit scoring + ML basics specific."
+    },
+    {
+      "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+      "match_quality": 6,
+      "rationale": "DE/ETL/BI Developer mixed role — CV is DA. SQL/Power BI/DWH match but ETL focus differs."
+    },
+    {
+      "vacancy_id": "76d248b1-a0fe-4538-a71a-f5e1db7cc9a4",
+      "match_quality": 6,
+      "rationale": "Junior 1y — middle 3.7y over-qualified. Tech matches (SQL/Tableau/Python)."
+    },
+    {
+      "vacancy_id": "76518482-59d2-4e96-bedc-cde1817b241c",
+      "match_quality": 8,
+      "rationale": "Senior 5y vs middle 3.7y — under-qualified by years but stack (SQL/Postgres/Power BI/Tableau/Looker/A/B) match. Financial domain specific."
+    },
+    {
+      "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+      "match_quality": 6,
+      "rationale": "SQL/BI/data modeling match. Business analytics + energy + ML focus mixed."
+    },
+    {
+      "vacancy_id": "a078f3fa-04f1-415d-9d47-02081edbc699",
+      "match_quality": 2,
+      "rationale": "Data Governance Expert (gov registers/metadata) — specific specialization, CV is analytics."
+    },
+    {
+      "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+      "match_quality": 10,
+      "rationale": "Perfect: SQL/product analytics (CV explicit!)/BI/AI tools — all match. Tableau/Power BI/Looker nice-to-haves all in CV."
+    },
+    {
+      "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+      "match_quality": 4,
+      "rationale": "Senior DS — CV is middle DA. Some Python/SQL/ML overlap but role intent off."
+    },
+    {
+      "vacancy_id": "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+      "match_quality": 8,
+      "rationale": "SQL/forecasting (CV has time-series/survival)/BI/Data analysis all match. Middle ✓."
+    },
+    {
+      "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+      "match_quality": 6,
+      "rationale": "SQL/Python/ML basics match. CRM specialty + telecom domain."
+    },
+    {
+      "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+      "match_quality": 10,
+      "rationale": "Perfect: SQL/product analytics/BI/Python/Pandas/Power BI/Tableau — all in CV. Middle ✓."
+    }
+  ]
+}

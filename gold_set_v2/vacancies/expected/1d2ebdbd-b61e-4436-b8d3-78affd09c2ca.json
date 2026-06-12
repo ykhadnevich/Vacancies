@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle .NET Developer",
+    "uk": "Middle .NET розробник"
+  },
+  "role_title_raw": "Middle / Strong Middle .NET Developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "Entity Framework",
+    "ADO.NET",
+    "MS SQL Server",
+    "ASP.NET",
+    "ASP.NET WebForms",
+    "TDD",
+    "unit testing",
+    "OOP",
+    "design patterns",
+    "SQL",
+    "EF Core",
+    "Integration Testing"
+  ],
+  "nice_to_have_skills": [
+    "Azure",
+    "third-party integrations"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

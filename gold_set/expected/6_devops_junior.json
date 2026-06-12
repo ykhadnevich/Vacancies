@@ -1,0 +1,57 @@
+{
+  "seniority": "junior",
+  "target_roles": ["Junior DevOps Engineer", "Junior SRE", "Junior Cloud Engineer"],
+  "domain_skills": [
+    "GitHub Actions",
+    "Docker",
+    "AWS EC2",
+    "AWS RDS",
+    "AWS S3",
+    "AWS IAM",
+    "AWS CloudWatch",
+    "Bash",
+    "kubectl",
+    "Helm",
+    "Ansible",
+    "Linux administration",
+    "shell scripting",
+    "Git",
+    "Jira",
+    "Confluence",
+    "EKS",
+    "Docker Compose"
+  ],
+  "technical_skills": [
+    "GitLab CI",
+    "Jenkins",
+    "GCP",
+    "Terraform",
+    "Python",
+    "Prometheus",
+    "Grafana",
+    "Kubernetes",
+    "ELK",
+    "Docker Swarm"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {"title": "Ciklum", "type": "PRODUCTION", "duration_months": 19, "years_ago": 0},
+    {"title": "GlobalLogic", "type": "INTERNSHIP", "duration_months": 3, "years_ago": 3},
+    {"title": "Personal home lab", "type": "PET_PROJECT", "duration_months": 4, "years_ago": 0}
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Computer Engineering",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2023
+  },
+  "english_level": "B2",
+  "languages": [
+    {"language": "Ukrainian", "level": "native"},
+    {"language": "English", "level": "B2"}
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

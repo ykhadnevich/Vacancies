@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer / AI Adoption Lead",
+    "uk": "Fullstack розробник / AI Adoption Lead"
+  },
+  "role_title_raw": "Fullstack Engineer/AI Adoption Lead",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "fullstack development",
+    "AI tooling adoption",
+    "engineering process improvement",
+    "mentorship",
+    "React",
+    "Node.js"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD",
+    "AWS",
+    "GCP"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

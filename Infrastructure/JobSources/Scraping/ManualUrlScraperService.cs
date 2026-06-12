@@ -97,7 +97,7 @@ public class ManualUrlScraperService : IJobSourceService
 
         foreach (var link in links.Take(100))
         {
-            var href = link.GetAttributeValue("href", null);
+            var href = link.GetAttributeValue("href", string.Empty);
             var title = CleanTitle(link.InnerText);
 
             if (string.IsNullOrEmpty(href) || string.IsNullOrEmpty(title) || title.Length < 5)

@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "92f69ae8-a1b8-4ff8-94a3-0a4acab44d98",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Software Developer",
+    "uk": "Software Developer"
+  },
+  "role_title_raw": "Software Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "gambling technology",
+    "Spring",
+    "concurrency",
+    "CI/CD",
+    "NoSQL",
+    "design patterns"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,56 @@
+{
+  "vacancy_id": "e7d46dc9-e4c3-41d5-a67e-0ecd2c23b536",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle DevOps",
+    "uk": "Middle DevOps"
+  },
+  "role_title_raw": "Middle DevOps Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Linux",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "Argo CD",
+    "GitLab CI",
+    "GitHub Actions",
+    "Nginx",
+    "HAProxy",
+    "Prometheus",
+    "Zabbix",
+    "Bash",
+    "Ansible",
+    "Python",
+    "TCP/IP",
+    "DNS",
+    "PostgreSQL",
+    "Patroni",
+    "CI/CD"
+  ],
+  "nice_to_have_skills": [
+    "high availability",
+    "JVM",
+    ".NET Core",
+    "Node.js",
+    "Kafka",
+    "RabbitMQ",
+    "MongoDB",
+    "MinIO"
+  ],
+  "min_years_experience": 3,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "05a4bfae-8d25-4a58-97af-73064742578a",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Automation QA",
+    "uk": "Senior Automation QA"
+  },
+  "role_title_raw": "Senior Automation QA Engineer (3248)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "test automation",
+    "Selenium",
+    "API testing",
+    "programming",
+    "CI/CD",
+    "Git",
+    "Docker",
+    "C#",
+    ".NET",
+    "microservices",
+    "RabbitMQ",
+    "Kafka",
+    "Kubernetes",
+    "Unit testing",
+    "Integration testing"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

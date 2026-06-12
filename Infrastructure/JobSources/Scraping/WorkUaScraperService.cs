@@ -28,13 +28,21 @@ public class WorkUaScraperService : IJobSourceService
         string keywords,
         string? location = null,
         CancellationToken ct = default)
+        => await FetchJobsPageAsync(keywords, page: 1, ct);
+
+
+    public async Task<IReadOnlyList<JobVacancy>> FetchJobsPageAsync(
+        string keywords,
+        int page,
+        CancellationToken ct = default)
     {
         using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));
         var token = cts.Token;
 
         await Task.Delay(500, token);
 
-        var url = $"https://www.work.ua/jobs/?search={Uri.EscapeDataString(keywords)}";
+        var pageSuffix = page <= 1 ? "" : $"&page={page}";
+        var url = $"https://www.work.ua/jobs/?search={Uri.EscapeDataString(keywords)}{pageSuffix}";
         var html = await _httpClient.GetStringAsync(url, token);
         var jobs = ParseHtml(html);
 
@@ -55,6 +63,17 @@ public class WorkUaScraperService : IJobSourceService
                 var descNode = detailDoc.DocumentNode.SelectSingleNode("//*[@id='job-description']");
                 if (descNode != null)
                     job.UpdateDescription(descNode.InnerText.Trim());
+
+
+                var pageText = detailDoc.DocumentNode.InnerText;
+                var dateMatch = System.Text.RegularExpressions.Regex.Match(
+                    pageText, @"[Вв]акансія від (.{5,25})", System.Text.RegularExpressions.RegexOptions.None);
+                if (dateMatch.Success)
+                {
+                    var parsed = UkrainianDateParser.TryParse(dateMatch.Groups[1].Value);
+                    if (parsed.HasValue)
+                        job.SetPublishedAt(parsed.Value);
+                }
             }
             catch { }
 
@@ -73,7 +92,7 @@ public class WorkUaScraperService : IJobSourceService
         var searchIn = container ?? doc.DocumentNode;
 
         var cards = searchIn.SelectNodes(".//div[contains(@class,'job-link')]");
-        // cards count intentionally not logged in static parse method — logger is on instance
+
 
         if (cards is null) return new List<JobVacancy>();
 
@@ -84,9 +103,9 @@ public class WorkUaScraperService : IJobSourceService
             var titleNode = card.SelectSingleNode(".//h2/a")
                             ?? card.SelectSingleNode(".//h3/a");
 
-            var relativeUrl = titleNode?.GetAttributeValue("href", null);
+            var relativeUrl = titleNode?.GetAttributeValue("href", string.Empty);
 
-            var titleAttr = titleNode?.GetAttributeValue("title", null);
+            var titleAttr = titleNode?.GetAttributeValue("title", string.Empty);
             var title = titleAttr != null && titleAttr.Contains(", вакансія")
                 ? titleAttr.Split(", вакансія")[0].Trim()
                 : titleNode?.InnerText.Trim();

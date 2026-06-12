@@ -1,0 +1,162 @@
+{
+  "agent": "A",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out, primary pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "n_pairs": 7,
+      "ratings": [
+        {
+          "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+          "role_title_en": "Product Manager",
+          "match_quality": 2,
+          "rationale": "Designer CV (Figma/research) vs FMCG retail PM (pricing/assortment matrix). No product mgmt or retail exposure; only superficial user-empathy adjacency."
+        },
+        {
+          "vacancy_id": "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+          "role_title_en": "Middle / Senior Frontend Developer",
+          "match_quality": 2,
+          "rationale": "Junior designer with HTML/CSS only vs Senior Angular/TS/RxJS role (4y). Missing all framework must-haves; tangential frontend overlap only."
+        },
+        {
+          "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+          "role_title_en": "Senior .NET Developer",
+          "match_quality": 0,
+          "rationale": "Designer CV vs Senior .NET/C#/AWS/K8s engineer (5y). Zero backend skills; complete professional mismatch."
+        },
+        {
+          "vacancy_id": "b1e435b2-21fe-4628-b239-0a945b66811e",
+          "role_title_en": "Manual QA",
+          "match_quality": 2,
+          "rationale": "Designer (usability testing) vs Middle Manual QA needing API/Linux/MongoDB/Redis. Usability-testing adjacency only; missing all infra/testing tooling."
+        },
+        {
+          "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+          "role_title_en": "Senior Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Junior designer (career switcher) vs Lead Engineering Manager. No engineering management, no team leadership experience."
+        },
+        {
+          "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 0,
+          "rationale": "Designer CV vs Senior DS in FinTech (Python/ML/scorecards, 5y). No ML, SQL or quantitative background."
+        },
+        {
+          "vacancy_id": "2ca61d84-5691-41a7-a4e8-b2601e8f3458",
+          "role_title_en": "User Acquisition Manager / ASO Specialist",
+          "match_quality": 2,
+          "rationale": "Designer CV vs UA/ASO mobile growth role (unit economics, performance marketing). No analytics or paid-acquisition skills; only creative-asset adjacency."
+        }
+      ]
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+          "role_title_en": "Middle SRE",
+          "match_quality": 6,
+          "rationale": "Junior DevOps vs Middle SRE: strong Linux/Docker/Bash/Ansible/Prometheus/Grafana overlap, but missing Windows Server/IIS/.NET stack; 1 level seniority gap."
+        },
+        {
+          "vacancy_id": "b97a4400-92c0-45ef-a310-f77229ee28b5",
+          "role_title_en": "DevOps",
+          "match_quality": 6,
+          "rationale": "Junior DevOps vs Middle DevOps: covers AWS/Docker/K8s/GitHub Actions/Bash/Grafana. Missing WPEngine/DigitalOcean specifics; seniority off by 1."
+        },
+        {
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 2,
+          "rationale": "DevOps CV vs Senior .NET backend (C#/ASP.NET/EF Core). Only Docker/CI-CD overlap; cross-family, no .NET experience."
+        },
+        {
+          "vacancy_id": "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+          "role_title_en": "Embedded Software Developer",
+          "match_quality": 0,
+          "rationale": "DevOps CV vs Embedded C/C++ firmware (ARM/UART/SPI/CAN). Zero embedded or low-level skills; complete family mismatch."
+        },
+        {
+          "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+          "role_title_en": "Fullstack Developer",
+          "match_quality": 2,
+          "rationale": "DevOps CV vs Middle Fullstack React/Node/TS. No JS/TS/React experience; cross-family with only Git tooling overlap."
+        },
+        {
+          "vacancy_id": "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+          "role_title_en": "Business Data Analyst",
+          "match_quality": 2,
+          "rationale": "DevOps CV vs Middle BDA (SQL/BI/ETL/data modeling). No business analytics or BI tooling; only adjacent data-pipeline familiarity."
+        },
+        {
+          "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+          "role_title_en": "Android Team Lead",
+          "match_quality": 0,
+          "rationale": "Junior DevOps vs Lead Android (Kotlin/Java/Flutter, 4y leadership). No mobile, no Kotlin, no team-lead experience."
+        },
+        {
+          "vacancy_id": "30100c1f-f7eb-4d38-90f6-1eb69f9013d0",
+          "role_title_en": "QA Tester",
+          "match_quality": 2,
+          "rationale": "DevOps CV vs Middle QA Tester (DefTech, electronics/AI testing). No QA methodology background; only general engineering literacy overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+          "role_title_en": "Inbound Marketing Manager",
+          "match_quality": 2,
+          "rationale": "HR recruiter vs Inbound Marketing (SEO/content/SaaS/SQL/A-B). Only employer-branding content adjacency; no SEO or marketing analytics."
+        },
+        {
+          "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+          "role_title_en": "SMM Manager",
+          "match_quality": 2,
+          "rationale": "HR recruiter vs SMM (content/copywriting/social analytics, healthcare). Employer-branding overlap only; no SMM execution or healthcare domain."
+        },
+        {
+          "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+          "role_title_en": "Product Manager / Product Owner",
+          "match_quality": 2,
+          "rationale": "HR recruiter vs PM/PO in energy (EMS/BESS/Agile/Azure DevOps). Stakeholder-management adjacency only; no product ownership or energy domain."
+        },
+        {
+          "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+          "role_title_en": "Android Team Lead",
+          "match_quality": 0,
+          "rationale": "HR recruiter vs Lead Android (Kotlin/Java/Flutter). Zero engineering or mobile skills; complete professional mismatch."
+        },
+        {
+          "vacancy_id": "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+          "role_title_en": "Java Developer",
+          "match_quality": 0,
+          "rationale": "HR recruiter vs Java dev (Spring/SQL/high-load AdTech). Zero programming background; complete mismatch."
+        },
+        {
+          "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+          "role_title_en": "AI / ML Engineer",
+          "match_quality": 0,
+          "rationale": "HR recruiter vs ML Engineer (Python/LLM/RAG/agentic, 4y). Zero ML or programming exposure; complete field mismatch."
+        },
+        {
+          "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+          "role_title_en": "Senior Manual QA",
+          "match_quality": 0,
+          "rationale": "HR recruiter vs Senior Manual QA (DefTech, test cases/regression). No QA methodology or testing experience; field mismatch."
+        },
+        {
+          "vacancy_id": "bf3c13b6-3f30-416b-997a-2e3eced40e98",
+          "role_title_en": "Senior Frontend Developer",
+          "match_quality": 0,
+          "rationale": "HR recruiter vs Senior Frontend (React/TS/Vue/Angular, 5y, iGaming). Zero frontend or programming skills; complete mismatch."
+        }
+      ]
+    }
+  ]
+}

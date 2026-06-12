@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "30a8adf3-869f-4761-8dbb-3b438b333135",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior QA Automation",
+    "uk": "Senior QA Automation"
+  },
+  "role_title_raw": "Quality Assurance Automation Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "test automation",
+    "frontend testing",
+    "CI/CD",
+    "JavaScript",
+    "TypeScript",
+    "Git",
+    "CSS",
+    "Playwright",
+    "Cypress",
+    "Vue.js",
+    "Tailwind CSS",
+    "Postman",
+    "GitHub Actions",
+    "SQL",
+    "Jira"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

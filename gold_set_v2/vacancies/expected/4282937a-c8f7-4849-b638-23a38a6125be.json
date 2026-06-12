@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "4282937a-c8f7-4849-b638-23a38a6125be",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle iOS Developer",
+    "uk": "Middle iOS розробник"
+  },
+  "role_title_raw": "Middle Swift (iOS) Developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Swift",
+    "UIKit",
+    "SwiftUI",
+    "REST API",
+    "iOS",
+    "MVC",
+    "MVVM",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "fintech / wealth management domain"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

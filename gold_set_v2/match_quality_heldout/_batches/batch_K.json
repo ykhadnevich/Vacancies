@@ -1,0 +1,69 @@
+{
+  "agent": "K",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, fresh-vacancy pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "n_pairs": 7,
+      "ratings": [
+        {"vacancy_id": "workua_7379359", "role_title_en": "Architectural and Construction Solutions Design Engineer", "match_quality": 0, "rationale": "Civil/structural engineering for energy sector; zero overlap with .NET backend SWE skillset."},
+        {"vacancy_id": "workua_4037602", "role_title_en": "Design Engineer", "match_quality": 0, "rationale": "AutoCAD mechanical design engineer in Sumy; no overlap with C#/cloud backend."},
+        {"vacancy_id": "workua_8167305", "role_title_en": "Microwave Devices Development Engineer", "match_quality": 0, "rationale": "RF/electronics hardware (HFSS, Altium); completely unrelated to software backend."},
+        {"vacancy_id": "workua_8163117", "role_title_en": "Sales Manager", "match_quality": 0, "rationale": "Ad sales for media; no transferable craft from senior backend engineering."},
+        {"vacancy_id": "workua_7510312", "role_title_en": "International Corporate Law Lawyer", "match_quality": 0, "rationale": "Corporate/tax law; zero overlap with backend engineering."},
+        {"vacancy_id": "workua_8163894", "role_title_en": "Chief Operating Officer with Financial Expertise", "match_quality": 0, "rationale": "Retail COO with P&L/capital management; no engineering overlap."},
+        {"vacancy_id": "workua_8103537", "role_title_en": "Personal Brand Manager, Content Creator", "match_quality": 0, "rationale": "SMM/PR content creation; no overlap with backend engineering craft."}
+      ]
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "n_pairs": 6,
+      "ratings": [
+        {"vacancy_id": "workua_6184441", "role_title_en": "CAD Engineer", "match_quality": 0, "rationale": "CATIA mechanical CAD/3D printing; no overlap with .NET junior backend."},
+        {"vacancy_id": "workua_8026338", "role_title_en": "Service Engineer of Radiation Equipment", "match_quality": 0, "rationale": "Field service engineer requiring driver license; no software overlap."},
+        {"vacancy_id": "824148-business-developer-at-24play", "role_title_en": "Business Developer", "match_quality": 0, "rationale": "Gaming biz-dev/sales role; no transferable skills from junior backend dev."},
+        {"vacancy_id": "workua_8107944", "role_title_en": "IT Sales Manager", "match_quality": 2, "rationale": "IT B2B sales adjacent to tech domain; engineer might converse with CRM/SaaS but no sales craft."},
+        {"vacancy_id": "workua_7553728", "role_title_en": "Microbusiness Customer Service Specialist", "match_quality": 0, "rationale": "Banking client service/active sales; no overlap with backend engineering."},
+        {"vacancy_id": "workua_6425878", "role_title_en": "Personal Microbusiness Client Specialist", "match_quality": 0, "rationale": "Banking corporate sales/credit analysis; zero engineering overlap."}
+      ]
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "n_pairs": 7,
+      "ratings": [
+        {"vacancy_id": "workua_4037602", "role_title_en": "Design Engineer", "match_quality": 0, "rationale": "AutoCAD mechanical design; no overlap with ML engineering."},
+        {"vacancy_id": "workua_896330", "role_title_en": "Senior Construction Engineer", "match_quality": 0, "rationale": "Construction QA/inspection; zero overlap with ML/Python."},
+        {"vacancy_id": "workua_8167305", "role_title_en": "Microwave Devices Development Engineer", "match_quality": 0, "rationale": "RF hardware engineering; no overlap with ML/Python stack."},
+        {"vacancy_id": "workua_7928484", "role_title_en": "Chief Accountant", "match_quality": 0, "rationale": "Accounting in 1C/MS Office; no overlap with ML engineering."},
+        {"vacancy_id": "workua_8077371", "role_title_en": "SMM Manager, Content Creator", "match_quality": 0, "rationale": "Instagram/TikTok content creation; zero overlap with ML."},
+        {"vacancy_id": "830205-game-product-manager", "role_title_en": "Game Product Manager", "match_quality": 2, "rationale": "iGaming PM with analytics; mild adjacency via game analytics but no ML craft used."},
+        {"vacancy_id": "workua_8160465", "role_title_en": "Business Development Manager", "match_quality": 0, "rationale": "Generic biz-dev with CRM; no transferable skills from senior ML engineer."}
+      ]
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "n_pairs": 6,
+      "ratings": [
+        {"vacancy_id": "workua_8167305", "role_title_en": "Microwave Devices Development Engineer", "match_quality": 0, "rationale": "RF hardware engineering; zero overlap with fullstack JS/Java SWE."},
+        {"vacancy_id": "workua_6891325", "role_title_en": "Electronics Diagnostics Engineer", "match_quality": 0, "rationale": "Electronics diagnostics with oscilloscopes; no overlap with web fullstack."},
+        {"vacancy_id": "workua_8026338", "role_title_en": "Service Engineer of Radiation Equipment", "match_quality": 0, "rationale": "Field service engineer with driving license; no overlap with SWE."},
+        {"vacancy_id": "798427-business-development-manager-bizdev", "role_title_en": "Business Development Manager", "match_quality": 0, "rationale": "Crypto biz-dev/sales; no transferable craft from fullstack engineering."},
+        {"vacancy_id": "829450-partnership-manager", "role_title_en": "Partnership Manager", "match_quality": 2, "rationale": "B2B partnerships in IT services/web dev; tech literacy useful but no partnerships sales craft."},
+        {"vacancy_id": "825416-marketing-manager-select-form", "role_title_en": "Marketing Manager", "match_quality": 0, "rationale": "Marketing/content/event organization; no overlap with fullstack engineering."}
+      ]
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "n_pairs": 7,
+      "ratings": [
+        {"vacancy_id": "824148-business-developer-at-24play", "role_title_en": "Business Developer", "match_quality": 0, "rationale": "Gaming sales/biz-dev; no analytics craft used, no transferable skills."},
+        {"vacancy_id": "workua_7306804", "role_title_en": "Energy Engineer", "match_quality": 0, "rationale": "Solar power plant engineer (SES commissioning); no overlap with data analysis."},
+        {"vacancy_id": "workua_6891325", "role_title_en": "Electronics Diagnostics Engineer", "match_quality": 0, "rationale": "Electronics diagnostics; zero overlap with SQL/BI analyst skills."},
+        {"vacancy_id": "816893-chief-accountant", "role_title_en": "Chief Accountant", "match_quality": 2, "rationale": "Lead accountant requiring BAS/M.E.Doc/PSBO; Excel overlap only, no accounting domain."},
+        {"vacancy_id": "824915-junior-marketing-manager", "role_title_en": "Marketing Manager", "match_quality": 0, "rationale": "Junior marketing/content/Instagram; no analyst skills used."},
+        {"vacancy_id": "830673-account-manager-payment-analyst", "role_title_en": "Account Manager, Payment Analyst", "match_quality": 4, "rationale": "Payment analyst with fraud/algorithms; SQL/analytics adjacency to fintech analyst role though account-mgmt focus."},
+        {"vacancy_id": "workua_8166963", "role_title_en": "Logistics Coordinator", "match_quality": 0, "rationale": "Logistics coordination for USA market; no analytics craft used."}
+      ]
+    }
+  ]
+}

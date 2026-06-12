@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "e840f997-37f1-42cc-9c3a-190803906352",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Software Engineer — Angular 9+ / ASP NET Core / C#",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    "ASP.NET Core",
+    "Angular 9+",
+    "REST API",
+    "SQL",
+    ".NET",
+    "SQL Server",
+    "Selenium",
+    "Postman",
+    "AWS",
+    "Azure",
+    "TDD",
+    "OOP",
+    "JavaScript"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

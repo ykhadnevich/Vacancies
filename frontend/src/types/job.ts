@@ -1,25 +1,30 @@
-﻿export enum JobSource {
-    RobotaUa = 0,
-    Jooble = 1,
-    Dou = 2,
-    LinkedIn = 3,
-    WorkUa = 4,
-    Djinni = 5,
-    Manual = 6,
+﻿
+
+
+export enum JobSource {
+    RobotaUa = 'RobotaUa',
+    Jooble   = 'Jooble',
+    DOU      = 'DOU',
+    LinkedIn = 'LinkedIn',
+    WorkUa   = 'WorkUa',
+    Djinni   = 'Djinni',
+    Manual   = 'Manual',
 }
 
 export enum WorkFormat {
-    Office = 0,
-    Remote = 1,
-    Hybrid = 2,
+    Remote       = 'Remote',
+    Office       = 'Office',
+    Hybrid       = 'Hybrid',
+    NotSpecified = 'NotSpecified',
 }
 
 export enum SeniorityLevel {
-    Intern = 0,
-    Junior = 1,
-    Middle = 2,
-    Senior = 3,
-    Lead = 4,
+    Internship   = 'Internship',
+    Junior       = 'Junior',
+    Middle       = 'Middle',
+    Senior       = 'Senior',
+    Lead         = 'Lead',
+    NotSpecified = 'NotSpecified',
 }
 
 export interface JobVacancy {
@@ -36,6 +41,7 @@ export interface JobVacancy {
     seniorityLevel?: SeniorityLevel
     relevanceScore?: number
     relevanceStage?: string
+    relevanceReason?: string
     isDuplicate: boolean
     isManuallyAdded: boolean
     publishedAt?: string
@@ -49,8 +55,11 @@ export interface JobsResponse {
     relevancePipelineRan: boolean
 }
 
+
+export type ReasoningProvider = 'None' | 'Groq' | 'Gemini'
+
 export interface JobSearchParams {
     keywords: string
     location?: string
-    runRelevancePipeline?: boolean
+    reasoningProvider?: ReasoningProvider
 }

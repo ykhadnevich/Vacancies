@@ -1,0 +1,56 @@
+{
+  "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": ".NET Tech Lead",
+    "uk": ".NET Tech Lead"
+  },
+  "role_title_raw": ".NET Tech Lead / Senior Developer in Domain Search Team (#1172)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    ".NET Core",
+    "AWS",
+    "EC2",
+    "RDS",
+    "SNS",
+    "SQS",
+    "S3",
+    "CloudFront",
+    "Redis",
+    "Linux",
+    "Docker",
+    "microservices",
+    "SOLID",
+    "OOP",
+    "Clean Code",
+    "cloud",
+    "Go",
+    "Node.js"
+  ],
+  "nice_to_have_skills": [
+    "Go",
+    "Node.js",
+    "Python",
+    "Java",
+    "ElasticSearch",
+    "Kubernetes",
+    "Terraform"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

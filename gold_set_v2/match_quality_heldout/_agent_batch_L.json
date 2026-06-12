@@ -1,0 +1,54 @@
+[
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_ids": [
+      "workua_6184441",
+      "workua_4037602",
+      "workua_8167305",
+      "workua_2185110",
+      "workua_6196810",
+      "826101-business-development-manager"
+    ]
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_ids": [
+      "workua_7379146",
+      "workua_8026338",
+      "workua_8167305",
+      "822381-creative-marketing-manager",
+      "workua_8167137"
+    ]
+  },
+  {
+    "cv_id": "19_mobile_ios_mid",
+    "vacancy_ids": [
+      "workua_7379359",
+      "workua_896330",
+      "workua_6184441",
+      "802321-partnership-manager",
+      "829910-business-development-manager-sales-manager-it"
+    ]
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_ids": [
+      "workua_7379146",
+      "workua_7306804",
+      "workua_4037602",
+      "830205-game-product-manager",
+      "workua_8167137"
+    ]
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_ids": [
+      "824148-business-developer-at-24play",
+      "workua_7379359",
+      "workua_7306804",
+      "workua_8049168",
+      "825498-customer-success-manager",
+      "819395-business-development-manager"
+    ]
+  }
+]

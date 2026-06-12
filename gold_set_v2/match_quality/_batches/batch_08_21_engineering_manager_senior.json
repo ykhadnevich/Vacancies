@@ -1,0 +1,68 @@
+{
+  "batch_idx": 8,
+  "cv_id": "21_engineering_manager_senior",
+  "n_pairs": 12,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "28db1992-92f0-4e90-8831-1fb7aeaeff58",
+      "match_quality": 8,
+      "rationale": "Strong EM fit: engineering management/architecture/leadership/AWS/K8s all in CV. Node.js stack but EM role less hands-on. C1 ✓, 7y ≤ 11.7y."
+    },
+    {
+      "vacancy_id": "470bd7f3-e358-42dd-84d4-4f11a1e04dcd",
+      "match_quality": 6,
+      "rationale": "Principal Manager EM + AI/ML leadership specific. CV is general SWE EM, no AI/ML leadership track record."
+    },
+    {
+      "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+      "match_quality": 8,
+      "rationale": "Senior EM with minimal must-haves (EM/leadership/delivery) — all in CV. Strong fit."
+    },
+    {
+      "vacancy_id": "a15d8779-efec-447e-b7ef-31912946efd2",
+      "match_quality": 6,
+      "rationale": "Solution Architect role with multi-language requirements (Java/Node/C#/Go) — CV is Python-only. Pre-sales specific."
+    },
+    {
+      "vacancy_id": "cab34c74-4f37-4f51-94a2-7ae9bd65b1cc",
+      "match_quality": 6,
+      "rationale": "Head of Engineering with P&L responsibility + pre-sales. CV is senior EM, not director-level P&L. Multi-cloud expected."
+    },
+    {
+      "vacancy_id": "e4b7da99-705a-49d0-9a7b-74d48a95ae5a",
+      "match_quality": 10,
+      "rationale": "Perfect: Backend engineering leadership/data workflows/scalability/Python/AWS/K8s — every must in CV. CV target_role matches."
+    },
+    {
+      "vacancy_id": "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+      "match_quality": 6,
+      "rationale": "EM/leadership/delivery match. TS/Node stack but EM role. Lambda/S3 ✓. MarTech-pharma domain specific."
+    },
+    {
+      "vacancy_id": "1344979e-e546-4171-bd5d-478667554eba",
+      "match_quality": 4,
+      "rationale": "EM fit but ANTI Europe-only — location constraint."
+    },
+    {
+      "vacancy_id": "51048422-c940-428f-b81d-3cb63f7ed76a",
+      "match_quality": 4,
+      "rationale": "Go + AI/LLM products specific — neither in CV. ANTI hybrid."
+    },
+    {
+      "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "match_quality": 4,
+      "rationale": "Java team leadership — CV is Python. ANTI explicitly excludes hands-on coding (CV is hands-on Python)."
+    },
+    {
+      "vacancy_id": "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+      "match_quality": 4,
+      "rationale": "DefTech EM + ANTI preference for veterans/military. Specific domain + bias."
+    },
+    {
+      "vacancy_id": "de38ef30-2db2-462d-b935-b2a8d5f52b62",
+      "match_quality": 0,
+      "rationale": "Mechanical/Structural EM aerospace — ANTI non-software engineering. Different field."
+    }
+  ]
+}

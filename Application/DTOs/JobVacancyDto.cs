@@ -18,7 +18,12 @@ public class JobVacancyDto
     public string? Category { get; init; }
     public float? RelevanceScore { get; init; }
     public string? RelevanceStage { get; init; }
+    public string? RelevanceReason { get; init; }
     public bool IsDuplicate { get; init; }
     public bool IsManuallyAdded { get; init; }
     public DateTime PublishedAt { get; init; }
+
+
+    public int? ApplicantCount { get; init; }
+    public bool? RecruiterRespondsQuickly { get; init; }
 }

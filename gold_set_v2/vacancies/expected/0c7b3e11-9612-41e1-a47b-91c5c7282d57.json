@@ -1,0 +1,55 @@
+{
+  "vacancy_id": "0c7b3e11-9612-41e1-a47b-91c5c7282d57",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": ".NET Subject Matter Expert",
+    "uk": ".NET експерт"
+  },
+  "role_title_raw": "Subject Matter Expert in .NET",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "CLR",
+    "memory management",
+    "GC",
+    "JIT",
+    "LINQ",
+    "async/await",
+    "pattern matching",
+    "record types",
+    "SQL",
+    "multithreading",
+    "EF Core",
+    "SOLID",
+    "DDD",
+    "Clean Architecture",
+    "MVVM",
+    "design patterns",
+    "data structures",
+    "unit testing",
+    "integration testing",
+    "Git",
+    "mentorship"
+  ],
+  "nice_to_have_skills": [
+    "Agile",
+    "Scrum",
+    "Kanban"
+  ],
+  "min_years_experience": 8,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

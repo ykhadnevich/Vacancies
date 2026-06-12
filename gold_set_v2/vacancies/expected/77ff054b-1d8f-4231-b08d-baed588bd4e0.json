@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Full-Stack Developer (ASP.NET, Angular), avail to come to Norway",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET Core",
+    "Angular",
+    "SQL",
+    "compliance reporting",
+    "TypeScript",
+    "Azure DevOps",
+    "unit testing",
+    "integration testing"
+  ],
+  "nice_to_have_skills": [
+    "ESG/sustainability domain",
+    "Redis",
+    "Azure Functions",
+    "Grafana"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": [
+    "must be available for occasional travel to Norway (Oslo/Fosnavåg)"
+  ]
+}

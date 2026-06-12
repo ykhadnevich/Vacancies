@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "15227172-726d-4cc6-8ab1-966690742f53",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Machine Learning Engineer",
+    "uk": "Machine Learning інженер"
+  },
+  "role_title_raw": "Machine Learning Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Python",
+    "LLM",
+    "agents over LLMs",
+    "research POCs",
+    "ML production",
+    "RAG",
+    "TypeScript"
+  ],
+  "nice_to_have_skills": [
+    "Java"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "f0c9a922-3edb-433a-b340-3d0414262c2c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Kotlin Developer",
+    "uk": "Junior Kotlin розробник"
+  },
+  "role_title_raw": "Kotlin developer (iGaming)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Kotlin",
+    "OOP",
+    "Android SDK",
+    "Kotlin Multiplatform",
+    "REST API",
+    "JSON",
+    "Git",
+    "Android"
+  ],
+  "nice_to_have_skills": [
+    "Coroutines",
+    "RxJava",
+    "SQLite",
+    "PostgreSQL",
+    "CI/CD"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

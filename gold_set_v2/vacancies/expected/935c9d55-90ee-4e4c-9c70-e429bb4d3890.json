@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager / Product Owner",
+    "uk": "Product Manager / Product Owner"
+  },
+  "role_title_raw": "Product manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product ownership",
+    "Agile / Scrum",
+    "EMS",
+    "BESS",
+    "PV",
+    "VPP",
+    "business requirements analysis",
+    "backlog management",
+    "Agile",
+    "Scrum",
+    "Azure DevOps",
+    "microservices",
+    "Jira",
+    "API"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "energy",
+    "uk": "енергетика"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "285e37ac-fb2f-4e2b-b9dc-bb9efcde53a5",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Android Developer",
+    "uk": "Middle Android розробник"
+  },
+  "role_title_raw": "Android Developer Middle",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "telecom domain",
+    "mobile architecture",
+    "Java",
+    "Android",
+    "REST API",
+    "Coroutines",
+    "Clean Architecture",
+    "CI/CD",
+    "MVVM",
+    "Firebase",
+    "unit testing"
+  ],
+  "nice_to_have_skills": [
+    "RxJava",
+    "Jetpack Compose",
+    "performance optimization"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "telecom",
+    "uk": "телеком"
+  },
+  "anti_requirements": []
+}

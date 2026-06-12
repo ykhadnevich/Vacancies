@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Frontend Developer",
+    "uk": "Middle Frontend розробник"
+  },
+  "role_title_raw": "Middle Frontend Developer (React / JavaScript)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "REST API",
+    "Git",
+    "TypeScript"
+  ],
+  "nice_to_have_skills": [
+    "TypeScript",
+    "Next.js",
+    "Figma"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

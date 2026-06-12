@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "b8742e2e-2199-4909-adcf-ecb95460c650",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "QA",
+    "uk": "QA"
+  },
+  "role_title_raw": "QA-інженер (дистанційно)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "manual testing",
+    "QA fundamentals"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "edtech",
+    "uk": "edtech"
+  },
+  "anti_requirements": [
+    "volunteer position"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "vacancy_id": "41c84563-a9f5-4721-a71d-bc41345d02ff",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "DevOps",
+    "uk": "DevOps"
+  },
+  "role_title_raw": "DevOps",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Terraform",
+    "Terragrunt",
+    "IaC",
+    "CI/CD",
+    "observability",
+    "DRP",
+    "Disaster Recovery",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "Argo CD",
+    "GitHub Actions",
+    "Prometheus",
+    "Grafana",
+    "AWS",
+    "EC2",
+    "IAM",
+    "S3",
+    "Python",
+    "Go",
+    "TypeScript"
+  ],
+  "nice_to_have_skills": [
+    "GitLab CI"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

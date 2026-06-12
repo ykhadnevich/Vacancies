@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "d65761e3-32e6-4e8b-b696-bc54ab640df1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Android Developer",
+    "uk": "Android розробник"
+  },
+  "role_title_raw": "Android Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "secure mobile development",
+    "Jetpack Compose",
+    "Android",
+    "CI/CD",
+    "Coroutines",
+    "Clean Architecture",
+    "Agile",
+    "MVVM",
+    "asynchronous programming"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kraków",
+    "city_uk": "Краків",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": [
+    "contract role June-Dec 2026",
+    "hybrid Kraków"
+  ]
+}

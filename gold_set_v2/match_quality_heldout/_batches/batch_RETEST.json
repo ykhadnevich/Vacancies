@@ -1,0 +1,187 @@
+{
+  "agent": "RETEST",
+  "rater": "Claude Opus 4.7 (Anthropic) - Cowork session, held-out, retest pass with rephrased rubric",
+  "n_pairs": 30,
+  "ratings": [
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+      "match_quality_retest": 0,
+      "rationale": "Corporate lawyer vs fintech Payment Product Manager — entirely different careers, no product/payments/fintech skills."
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "match_quality_retest": 0,
+      "rationale": "Senior interventional cardiologist vs mobile games QA tester — completely different professional fields."
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+      "match_quality_retest": 0,
+      "rationale": "Junior nurse with no SQL, BI, or analytics experience vs Data Analyst role — entirely different field."
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+      "match_quality_retest": 0,
+      "rationale": "Senior English teacher vs Senior AI/ML Engineer requiring Python/Kubernetes/Neo4j — totally different careers."
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+      "match_quality_retest": 0,
+      "rationale": "Junior nurse vs Junior Manual QA (Postman, REST API, Jira) — different field, no testing/IT background."
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+      "match_quality_retest": 0,
+      "rationale": "Junior nurse vs Senior .NET Developer — completely unrelated careers and skills."
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+      "match_quality_retest": 0,
+      "rationale": "Junior nurse vs Product Marketing Manager (Tableau, Amplitude, A/B testing) — different field entirely."
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+      "match_quality_retest": 0,
+      "rationale": "IT recruiter vs Senior Manual QA — different professional family, no testing experience."
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+      "match_quality_retest": 0,
+      "rationale": "Growth marketing manager vs Vue Frontend Developer — totally different careers, no JS/Vue/TS coding."
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "match_quality_retest": 0,
+      "rationale": "IT recruiter vs Android Team Lead (Kotlin/Java) — entirely different careers, no mobile development."
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "match_quality_retest": 2,
+      "rationale": "Security engineer vs Tech Lead .NET — different role family, no C#/.NET/architecture leadership; only Git/Jira overlap."
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+      "match_quality_retest": 2,
+      "rationale": "Mid data analyst vs Senior PM for hardware intercoms — different role family, no PM/hardware/B2B intercom experience."
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+      "match_quality_retest": 2,
+      "rationale": "Fullstack JS/Java engineer vs Senior C# backend — no C#/.NET/PostgreSQL/Kafka stack; different ecosystem despite backend overlap."
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+      "match_quality_retest": 2,
+      "rationale": "Fullstack JS/Java SWE vs Senior Data Scientist (Python/ML/DL/Speech) — different role family, no ML/Python/DL experience."
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+      "match_quality_retest": 2,
+      "rationale": "Junior DevOps vs Middle Fullstack (React/Node/TS) — different role family, no React/Node/TypeScript dev experience."
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+      "match_quality_retest": 2,
+      "rationale": "Senior QA automation vs Middle Data Engineer — different family; only SQL/Python overlap, no ETL/warehousing/cloud DE work."
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+      "match_quality_retest": 2,
+      "rationale": "Senior accountant vs SQL/Data Engineer — different field; only Excel/Power BI superficial overlap, no SQL/Python pipelines."
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "match_quality_retest": 4,
+      "rationale": "Senior automation QA vs Mobile Games QA — same QA family but no Android/iOS/Appium-game-context; senior overshoots junior role."
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+      "match_quality_retest": 4,
+      "rationale": "Eng Manager vs PM/PO in energy (EMS/BESS/PV) — adjacent management family, has Agile/Jira but no PO ownership or energy domain."
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+      "match_quality_retest": 4,
+      "rationale": "Senior Android vs Senior iOS (Swift/SwiftUI/Web3) — adjacent mobile family but completely different stack and no crypto/Web3."
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+      "match_quality_retest": 4,
+      "rationale": "Senior Data Engineer vs Data Analyst (credit risk/banking) — adjacent data family, SQL/Python overlap but no credit risk/portfolio analytics."
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+      "match_quality_retest": 6,
+      "rationale": "Security engineer vs Middle DevOps — adjacent infra-family, has AWS/Linux/Git/CI but lacks K8s/Helm/Prometheus/Ansible depth."
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "match_quality_retest": 4,
+      "rationale": "Senior automation QA vs Mobile Games QA — same QA family but no mobile-game testing specifics; over-leveled for tester role."
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+      "match_quality_retest": 4,
+      "rationale": "Fullstack JS/Java SWE vs Fullstack Vue/PHP/Laravel — same fullstack family but completely different stack; no Vue/PHP/Laravel."
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+      "match_quality_retest": 6,
+      "rationale": "Junior .NET dev vs Trainee .NET Azure — C#/.NET/SQL/Git match but over-leveled (junior on trainee) and no Azure experience."
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+      "match_quality_retest": 6,
+      "rationale": "Mid React FE vs Senior Fullstack/AI Adoption Lead — React match but missing Node.js depth, senior level, and AI tooling leadership."
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+      "match_quality_retest": 8,
+      "rationale": "Senior PM with A/B testing, funnels, unit econ, Amplitude — matches D2C e-commerce PM; domain shift from fintech/energy is minor."
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "match_quality_retest": 8,
+      "rationale": "Mid growth marketer with AppsFlyer/Adjust/Amplitude/attribution/A/B testing — strong fit for Marketing Ops; C1 English meets req."
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+      "match_quality_retest": 8,
+      "rationale": "Senior Data Engineer with SQL/ETL/dbt/warehousing — solid fit for DE/ETL/BI role; only Power BI/MS SQL not explicit."
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+      "match_quality_retest": 8,
+      "rationale": "Mid data analyst with SQL/Amplitude/Tableau/product analytics, B2 English, 3+ yrs — solid fit for Data Analyst (consulting)."
+    }
+  ]
+}

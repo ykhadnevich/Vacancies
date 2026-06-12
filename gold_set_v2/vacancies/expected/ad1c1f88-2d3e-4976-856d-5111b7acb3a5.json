@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Frontend Developer",
+    "uk": "Senior Frontend розробник"
+  },
+  "role_title_raw": "Frontend Vue.js Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Vue.js",
+    "TypeScript",
+    "JavaScript",
+    "real-time data",
+    "trading UI",
+    "financial data visualization",
+    "WebSockets",
+    "CSS",
+    "Nuxt 3",
+    "REST API",
+    "Tailwind CSS",
+    "SCSS",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Web3",
+    "performance optimization"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "crypto",
+    "uk": "крипто"
+  },
+  "anti_requirements": [
+    "EU location preferred"
+  ]
+}

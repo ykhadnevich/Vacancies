@@ -1,0 +1,87 @@
+{
+  "seniority": "junior",
+  "target_roles": [
+    "Registered Nurse — Surgical/ICU",
+    "Med-Surg RN",
+    "Nurse-Educator"
+  ],
+  "domain_skills": [
+    "Vital signs monitoring",
+    "Wound assessment",
+    "Drain output tracking",
+    "IV medication administration",
+    "IV cannulation",
+    "Foley catheter insertion",
+    "NG tube management",
+    "Wound dressing changes",
+    "Multidisciplinary rounds",
+    "Patient education",
+    "BLS",
+    "ACLS",
+    "IV Therapy",
+    "EHR documentation",
+    "МIS-Health",
+    "SBAR handoff",
+    "Telemetry monitoring",
+    "Newborn care",
+    "Breastfeeding education",
+    "Post-partum monitoring",
+    "Pain assessment",
+    "Post-op mobility protocols",
+    "Basic suturing",
+    "Parenteral medication administration",
+    "Narcotic administration",
+    "Drug compatibility",
+    "Insulin protocols",
+    "Philips MX450 monitors",
+    "Alaris IV pumps",
+    "ECG reading",
+    "Epic",
+    "Nursing care plans",
+    "Incident reporting",
+    "Medication reconciliation"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [
+    "Empathy",
+    "Calm under pressure",
+    "Family communication",
+    "Attention to detail",
+    "Multitasking"
+  ],
+  "experience": [
+    {
+      "title": "Kyiv-Pechersk Medical Center",
+      "type": "PRODUCTION",
+      "duration_months": 28,
+      "years_ago": 0
+    },
+    {
+      "title": "Kyiv City Maternity Hospital #2",
+      "type": "INTERNSHIP",
+      "duration_months": 10,
+      "years_ago": 3
+    }
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Nursing",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2023
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

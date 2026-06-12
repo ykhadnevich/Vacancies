@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Manager",
+    "uk": "Engineering Manager"
+  },
+  "role_title_raw": "Engineering Manager",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "engineering management",
+    "SCRUM",
+    "Java team leadership",
+    "delivery management",
+    "stakeholder management",
+    "Agile",
+    "Java",
+    "AWS",
+    "Azure",
+    "Spring",
+    "React",
+    "test automation",
+    "relational databases"
+  ],
+  "nice_to_have_skills": [
+    "Playwright",
+    "Azure DevOps"
+  ],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": [
+    "no hands-on coding required (people-focused role)"
+  ]
+}

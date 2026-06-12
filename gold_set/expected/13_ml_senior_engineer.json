@@ -1,0 +1,113 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Senior ML Engineer",
+    "Staff ML Engineer",
+    "Applied Scientist"
+  ],
+  "domain_skills": [
+    "Python",
+    "PyTorch",
+    "HuggingFace Transformers",
+    "TensorFlow",
+    "scikit-learn",
+    "XGBoost",
+    "LightGBM",
+    "BERT",
+    "RoBERTa",
+    "XLM-RoBERTa",
+    "Sentence transformers",
+    "Embedding fine-tuning",
+    "Contrastive learning",
+    "Semantic search",
+    "RAG",
+    "Two-tower retrieval",
+    "DLRM",
+    "SASRec",
+    "Recommender systems",
+    "NLP",
+    "Named entity recognition",
+    "SQL",
+    "MLflow",
+    "Kubeflow Pipelines",
+    "Triton Inference Server",
+    "TorchServe",
+    "Feast",
+    "ONNX",
+    "Spark",
+    "PySpark",
+    "Airflow",
+    "Snowflake",
+    "BigQuery",
+    "AWS",
+    "GCP",
+    "Vertex AI",
+    "A/B testing"
+  ],
+  "technical_skills": [
+    "JAX",
+    "SageMaker",
+    "Model quantization",
+    "Databricks",
+    "Postgres",
+    "Redis",
+    "Pinecone",
+    "Bash",
+    "Go",
+    "TensorRT",
+    "YOLOv4",
+    "Object detection"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Grammarly",
+      "type": "PRODUCTION",
+      "duration_months": 34,
+      "years_ago": 0
+    },
+    {
+      "title": "Genesis",
+      "type": "PRODUCTION",
+      "duration_months": 28,
+      "years_ago": 3
+    },
+    {
+      "title": "Ring Ukraine",
+      "type": "PRODUCTION",
+      "duration_months": 17,
+      "years_ago": 5
+    },
+    {
+      "title": "Samsung R&D Ukraine",
+      "type": "INTERNSHIP",
+      "duration_months": 2,
+      "years_ago": 7
+    }
+  ],
+  "education": {
+    "degree": "phd",
+    "field": "Computer Science",
+    "is_relevant": true,
+    "status": "in_progress",
+    "current_year": null,
+    "graduation_year": 2026
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    },
+    {
+      "language": "German",
+      "level": "A1"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

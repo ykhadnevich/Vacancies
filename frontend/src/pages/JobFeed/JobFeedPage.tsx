@@ -1,139 +1,97 @@
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { jobsApi } from '../../api/jobsApi'
+import { userApi } from '../../api/userApi'
 import { useAuthStore } from '../../store/authStore'
 import { usePersistedTabs } from '../../hooks/usePersistedTabs'
 import type { SearchTab } from '../../types/tab'
-import type { JobSearchParams } from '../../types/job'
-import JobCard from '../../components/JobCard'
+import type { JobSearchParams, JobVacancy } from '../../types/job'
+import type { JobVacancyV6 } from '../../types/jobV6'
+
+import { useT } from '../../i18n/useT'
 import SearchBar from '../../components/SearchBar'
 import ManualUrlInput from '../../components/ManualUrlInput'
-import ManualVacanciesSection from '../../components/ManualVacanciesSection'
+import JobCardV6 from '../../components/jobs/JobCardV6'
+import JobCardRaw from '../../components/jobs/JobCardRaw'
+import VacancyDetailDrawer from '../../components/jobs/VacancyDetailDrawer'
+import SearchModeToggle, { type SearchMode } from '../../components/jobs/SearchModeToggle'
+import Icon from '../../components/ui/Icon'
+import Badge from '../../components/ui/Badge'
+import Card from '../../components/ui/Card'
 
-const sourceOptions = [
-    { value: '', label: 'Всі джерела' },
-    { value: '0', label: 'robota.ua' },
-    { value: '2', label: 'dou' },
-    { value: '3', label: 'linkedin' },
-    { value: '4', label: 'work.ua' },
-    { value: '5', label: 'djinni' },
-    { value: '6', label: 'вручну' },
-]
+import { Link } from 'react-router-dom'
 
-const formatOptions = [
-    { value: '', label: 'Будь-який формат' },
-    { value: '0', label: 'Офіс' },
-    { value: '1', label: 'Remote' },
-    { value: '2', label: 'Гібрид' },
-]
-
-const seniorityOptions = [
-    { value: '', label: 'Будь-який рівень' },
-    { value: '0', label: 'Intern' },
-    { value: '1', label: 'Junior' },
-    { value: '2', label: 'Middle' },
-    { value: '3', label: 'Senior' },
-    { value: '4', label: 'Lead' },
-]
-
-function MlToggle({ enabled, onChange, disabled }: {
-    enabled: boolean; onChange: () => void; disabled: boolean
-}) {
-    return (
-        <button
-            onClick={onChange}
-            disabled={disabled}
-            title={enabled ? 'Вимкнути ML-аналіз' : 'Увімкнути ML-аналіз релевантності (Gemini)'}
-            style={{
-                display: 'flex', alignItems: 'center', gap: 8,
-                padding: '7px 14px', borderRadius: 8,
-                border: `1.5px solid ${enabled ? '#7c3aed' : '#e5e7eb'}`,
-                background: enabled ? '#f5f3ff' : '#fff',
-                color: enabled ? '#7c3aed' : '#6b7280',
-                cursor: disabled ? 'wait' : 'pointer',
-                fontSize: 14, fontWeight: enabled ? 600 : 400,
-                transition: 'all 0.15s', whiteSpace: 'nowrap',
-            }}
-        >
-            <span style={{
-                position: 'relative', display: 'inline-block',
-                width: 32, height: 18, borderRadius: 9,
-                background: enabled ? '#7c3aed' : '#d1d5db',
-                transition: 'background 0.15s', flexShrink: 0,
-            }}>
-                <span style={{
-                    position: 'absolute', top: 2,
-                    left: enabled ? 16 : 2,
-                    width: 14, height: 14, borderRadius: '50%',
-                    background: '#fff', transition: 'left 0.15s',
-                    boxShadow: '0 1px 2px rgba(0,0,0,0.2)',
-                }} />
-            </span>
-            🤖 ML-аналіз
-        </button>
-    )
+const selectStyle: React.CSSProperties = {
+    padding:        '7px 12px',
+    borderRadius:   'var(--radius-md)',
+    border:         '1px solid var(--color-border-default)',
+    fontSize:       'var(--text-sm)',
+    color:          'var(--color-text-secondary)',
+    background:     'var(--color-bg-surface)',
+    cursor:         'pointer',
+    fontFamily:     'inherit',
 }
 
 function TabBar({ tabs, activeId, onSelect, onClose }: {
-    tabs: SearchTab[]
+    tabs:     SearchTab[]
     activeId: string | null
     onSelect: (id: string) => void
-    onClose: (id: string) => void
+    onClose:  (id: string) => void
 }) {
     if (tabs.length === 0) return null
-
     return (
         <div style={{
-            display: 'flex', gap: 4, overflowX: 'auto',
-            borderBottom: '2px solid #e5e7eb',
+            display:        'flex',
+            gap:            2,
+            borderBottom:   '0.5px solid var(--color-border-default)',
+            marginBottom:   16,
+            overflowX:      'auto',
             scrollbarWidth: 'none',
         }}>
-            {tabs.map(tab => {
+            {tabs.map((tab) => {
                 const isActive = tab.id === activeId
                 return (
                     <div
                         key={tab.id}
-                        style={{
-                            display: 'flex', alignItems: 'center', gap: 6,
-                            padding: '8px 14px',
-                            borderRadius: '8px 8px 0 0',
-                            border: '1px solid',
-                            borderColor: isActive ? '#e5e7eb' : 'transparent',
-                            borderBottom: isActive ? '2px solid #fff' : '1px solid transparent',
-                            marginBottom: isActive ? -2 : 0,
-                            background: isActive ? '#fff' : 'transparent',
-                            cursor: 'pointer',
-                            whiteSpace: 'nowrap',
-                            flexShrink: 0,
-                            transition: 'background 0.1s',
-                            userSelect: 'none',
-                        }}
                         onClick={() => onSelect(tab.id)}
+                        style={{
+                            display:      'flex',
+                            alignItems:   'center',
+                            gap:          6,
+                            padding:      '8px 14px',
+                            borderRadius: 'var(--radius-md) var(--radius-md) 0 0',
+                            background:   isActive ? 'var(--color-bg-surface)' : 'transparent',
+                            borderBottom: isActive ? '2px solid var(--color-primary-600)' : '2px solid transparent',
+                            marginBottom: -1,
+                            cursor:       'pointer',
+                            whiteSpace:   'nowrap',
+                            transition:   'all var(--transition-fast)',
+                        }}
                     >
-                        {tab.runMl && (
-                            <span title="ML увімкнено" style={{ fontSize: 11 }}>🤖</span>
-                        )}
                         <span style={{
-                            fontSize: 13,
-                            fontWeight: isActive ? 600 : 400,
-                            color: isActive ? '#111827' : '#6b7280',
-                            maxWidth: 160,
-                            overflow: 'hidden',
+                            fontSize:   'var(--text-sm)',
+                            fontWeight: (isActive ? 'var(--font-weight-medium)' : 'var(--font-weight-regular)') as unknown as number,
+                            color:      isActive ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
+                            maxWidth:   180,
+                            overflow:   'hidden',
                             textOverflow: 'ellipsis',
                         }}>
                             {tab.label}
                         </span>
                         <button
-                            onClick={e => { e.stopPropagation(); onClose(tab.id) }}
-                            title="Закрити таб"
+                            onClick={(e) => { e.stopPropagation(); onClose(tab.id) }}
+                            aria-label="Закрити вкладку"
                             style={{
-                                background: 'none', border: 'none',
-                                cursor: 'pointer', padding: '0 2px',
-                                color: '#9ca3af', fontSize: 16, lineHeight: 1,
-                                borderRadius: 4, display: 'flex', alignItems: 'center',
+                                background: 'none',
+                                border:     'none',
+                                cursor:     'pointer',
+                                color:      'var(--color-text-tertiary)',
+                                padding:    2,
+                                display:    'flex',
+                                fontFamily: 'inherit',
                             }}
                         >
-                            ×
+                            <Icon name="close" size={14} />
                         </button>
                     </div>
                 )
@@ -142,232 +100,344 @@ function TabBar({ tabs, activeId, onSelect, onClose }: {
     )
 }
 
+function CvWarning() {
+    return (
+        <Card padding="md" style={{
+            background: 'var(--color-warning-50)',
+            border:     '1px solid var(--color-warning-100)',
+        }}>
+            <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+                <Icon name="alert-circle" size={18} color="var(--color-warning-600)" style={{ marginTop: 2 }} />
+                <div style={{ flex: 1 }}>
+                    <p style={{
+                        margin:     0,
+                        fontSize:   'var(--text-md)',
+                        color:      'var(--color-warning-700)',
+                        fontWeight: 'var(--font-weight-medium)' as unknown as number,
+                    }}>
+                        Резюме ще не оброблене
+                    </p>
+                    <p style={{
+                        margin:    '4px 0 0',
+                        fontSize:  'var(--text-sm)',
+                        color:     'var(--color-warning-700)',
+                    }}>
+                        Завантажте та обробіть PDF у{' '}
+                        <Link to="/profile" style={{ color: 'var(--color-warning-700)', textDecoration: 'underline' }}>
+                            Профілі
+                        </Link>{' '}
+                        перед запуском пошуку з аналізом.
+                    </p>
+                </div>
+            </div>
+        </Card>
+    )
+}
+
 function JobFeedPage() {
-    const { userId } = useAuthStore()
+    const tr = useT()
+    const { isAuthenticated, userId } = useAuthStore()
+    const {
+        tabs, activeTabId, addTab, closeTab, setActiveTabId,
+    } = usePersistedTabs(userId)
 
-    const { tabs, activeTabId, addTab, closeTab, setActiveTabId } = usePersistedTabs(userId)
+    const SOURCES_LOC = [
+        { value: '',         label: tr('filter.allSources')      },
+        { value: 'RobotaUa', label: 'robota.ua'                  },
+        { value: 'Jooble',   label: 'jooble'                     },
+        { value: 'DOU',      label: 'dou'                        },
+        { value: 'LinkedIn', label: 'linkedin'                   },
+        { value: 'WorkUa',   label: 'work.ua'                    },
+        { value: 'Djinni',   label: 'djinni'                     },
+        { value: 'Manual',   label: 'manual'                     },
+    ]
+    const FORMATS_LOC = [
+        { value: '',       label: tr('filter.allFormats')          },
+        { value: 'Remote', label: tr('filter.workFormat.remote')   },
+        { value: 'Office', label: tr('filter.workFormat.office')   },
+        { value: 'Hybrid', label: tr('filter.workFormat.hybrid')   },
+    ]
+    const SENIORITIES_LOC = [
+        { value: '',           label: tr('filter.allLevels')        },
+        { value: 'Internship', label: 'Intern'                      },
+        { value: 'Junior',     label: tr('filter.level.junior')     },
+        { value: 'Middle',     label: tr('filter.level.middle')     },
+        { value: 'Senior',     label: tr('filter.level.senior')     },
+        { value: 'Lead',       label: 'Lead'                        },
+    ]
 
-    const [runMl, setRunMl]               = useState(false)
-    const [sourceFilter, setSourceFilter]  = useState('')
-    const [formatFilter, setFormatFilter]  = useState('')
+    const [searchMode,      setSearchMode]      = useState<SearchMode>('analyzed')
+    const [sourceFilter,    setSourceFilter]    = useState('')
+    const [formatFilter,    setFormatFilter]    = useState('')
     const [seniorityFilter, setSeniorityFilter] = useState('')
-    const [showDuplicates, setShowDuplicates]   = useState(false)
 
-    const activeTab = tabs.find(t => t.id === activeTabId) ?? null
+    const [v6Limit] = useState<number>(500)
+    const [drawerJob, setDrawerJob] = useState<JobVacancyV6 | null>(null)
+    const [refreshedTabs, setRefreshedTabs] = useState<Set<string>>(new Set())
 
-    const { data, isFetching, error } = useQuery({
-        queryKey: ['jobs', activeTab?.searchParams ?? null],
-        queryFn: () => jobsApi.getJobs(activeTab!.searchParams),
-        enabled: !!activeTab,
+    const activeTab = tabs.find((t) => t.id === activeTabId) ?? null
+    const activeMode: SearchMode = activeTab?.analysisMode === 'None' ? 'raw' : 'analyzed'
+
+    const { data: cvStatus } = useQuery({
+        queryKey: ['cvStatus'],
+        queryFn:  userApi.getCvStatus,
+        enabled:  isAuthenticated,
     })
 
+    // Cheap server-side snapshot — shows yesterday's analysis instantly with zero
+    // Gemini cost. Fresh v6 only runs on the user's explicit Refresh action.
+    const snapshotQuery = useQuery({
+        queryKey: ['jobs', 'v6Snapshot', activeTab?.searchParams ?? null, v6Limit],
+        queryFn:  () => jobsApi.getJobsV6Snapshot({ ...activeTab!.searchParams, limit: v6Limit }),
+        enabled:  !!activeTab && activeMode === 'analyzed',
+        staleTime:            Infinity,
+        gcTime:               24 * 60 * 60 * 1000,
+        refetchOnMount:       false,
+        refetchOnWindowFocus: false,
+        refetchOnReconnect:   false,
+    })
+    const hasSnapshot = !!snapshotQuery.data
+    const isRefreshingThisTab = activeTab ? refreshedTabs.has(activeTab.id) : false
+
+    const v6Query = useQuery({
+        queryKey: ['jobs', 'v6', activeTab?.searchParams ?? null, v6Limit, isRefreshingThisTab],
+        queryFn:  () => jobsApi.getJobsV6({ ...activeTab!.searchParams, limit: v6Limit }),
+        enabled:  !!activeTab
+                  && activeMode === 'analyzed'
+                  && snapshotQuery.isFetched
+                  && (!hasSnapshot || isRefreshingThisTab),
+        staleTime:            Infinity,
+        gcTime:               24 * 60 * 60 * 1000,
+        refetchOnMount:       false,
+        refetchOnWindowFocus: false,
+        refetchOnReconnect:   false,
+    })
+
+    const rawQuery = useQuery({
+        queryKey: ['jobs', 'raw', activeTab?.searchParams.keywords ?? null],
+        queryFn:  () => jobsApi.getRawJobs({
+            keywords: activeTab!.searchParams.keywords,
+            limit:    500,
+        }),
+        enabled:  !!activeTab && activeMode === 'raw',
+        staleTime:            Infinity,
+        gcTime:               24 * 60 * 60 * 1000,
+        refetchOnMount:       false,
+        refetchOnWindowFocus: false,
+        refetchOnReconnect:   false,
+    })
+
+    const isFetching = v6Query.isFetching || rawQuery.isFetching
+
+    const resetFilters = () => {
+        setSourceFilter('')
+        setFormatFilter('')
+        setSeniorityFilter('')
+    }
+
     const handleSearch = (keywords: string, location: string | null) => {
-        const searchParams: JobSearchParams = {
-            keywords,
-            runRelevancePipeline: runMl,
-        }
+        const searchParams: JobSearchParams = { keywords }
 
-        const existing = tabs.find(t =>
+        const existing = tabs.find((t) =>
             t.searchParams.keywords === keywords &&
-            t.runMl === runMl
+            (searchMode === 'raw' ? t.analysisMode === 'None' : t.analysisMode !== 'None'),
         )
-
         if (existing) {
             setActiveTabId(existing.id)
-            setSourceFilter('')
-            setFormatFilter('')
-            setSeniorityFilter('')
-            setShowDuplicates(false)
+            resetFilters()
             return
         }
 
         const newTab: SearchTab = {
-            id: crypto.randomUUID(),
-            label: [keywords, location].filter(Boolean).join(' · ') || 'Пошук',
+            id:           crypto.randomUUID(),
+            label:        [keywords, location].filter(Boolean).join(' · ') || 'Пошук',
             searchParams,
-            runMl,
-            createdAt: Date.now(),
+            analysisMode: searchMode === 'raw' ? 'None' : 'Gemini',
+            createdAt:    Date.now(),
         }
-
         addTab(newTab)
-
-        setSourceFilter('')
-        setFormatFilter('')
-        setSeniorityFilter('')
-        setShowDuplicates(false)
+        resetFilters()
     }
 
-    const handleSelectTab = (tabId: string) => {
-        if (tabId === activeTabId) return
-        setActiveTabId(tabId)
-        setSourceFilter('')
-        setFormatFilter('')
-        setSeniorityFilter('')
-        setShowDuplicates(false)
-    }
-
-    const jobs = (data?.jobs ?? []).filter(job => {
-        if (sourceFilter !== '' && job.source !== Number(sourceFilter)) return false
-        if (formatFilter !== '' && job.workFormat !== Number(formatFilter)) return false
-        if (seniorityFilter !== '' && job.seniorityLevel !== Number(seniorityFilter)) return false
+    const filterV6 = (jobs: JobVacancyV6[]) => jobs.filter((job) => {
+        if (sourceFilter    !== '' && job.source         !== sourceFilter)    return false
+        if (formatFilter    !== '' && job.workFormat     !== formatFilter)    return false
+        if (seniorityFilter !== '' && job.seniorityLevel !== seniorityFilter) return false
         return true
     })
 
-    const selectStyle = {
-        padding: '8px 12px', borderRadius: 8,
-        border: '1px solid #e5e7eb', fontSize: 14,
-        color: '#374151', background: '#fff', cursor: 'pointer',
+    const filterRaw = (jobs: JobVacancy[]) => jobs.filter((job) => {
+        if (sourceFilter    !== '' && job.source         !== sourceFilter)    return false
+        if (formatFilter    !== '' && job.workFormat     !== formatFilter)    return false
+        if (seniorityFilter !== '' && job.seniorityLevel !== seniorityFilter) return false
+        return true
+    })
+
+    const v6Data = v6Query.data ?? snapshotQuery.data?.response ?? null
+
+    const v6Jobs  = v6Data ? filterV6(v6Data.jobs) : []
+    const rawJobs = rawQuery.data ? filterRaw(rawQuery.data.jobs) : []
+
+    const visibleJobs = activeMode === 'analyzed' ? v6Jobs.length : rawJobs.length
+    const totalCount  = activeMode === 'analyzed' ? v6Data?.totalAvailable : rawQuery.data?.totalCount
+    const dupsRemoved = activeMode === 'analyzed' ? undefined : rawQuery.data?.duplicatesRemoved
+
+    const showCvWarning =
+        isAuthenticated && searchMode === 'analyzed' && cvStatus && cvStatus.status !== 'Ready'
+
+    const handleRefresh = () => {
+        if (!activeTab) return
+        setRefreshedTabs((prev) => {
+            const next = new Set(prev)
+            next.add(activeTab.id)
+            return next
+        })
     }
 
-    return (
-        <div style={{ maxWidth: 900, margin: '0 auto', padding: '24px 16px' }}>
+    const snapshotAgeText: string | null = (() => {
+        if (v6Query.data) return null
+        const iso = snapshotQuery.data?.executedAt
+        if (!iso) return null
+        const diffMs = Date.now() - new Date(iso).getTime()
+        const min = Math.floor(diffMs / 60_000)
+        if (min < 1)    return tr('search.snapshotFresh')
+        if (min < 60)   return tr('search.snapshotAge', { age: `${min} min` })
+        const hours = Math.floor(min / 60)
+        if (hours < 24) return tr('search.snapshotAge', { age: `${hours} h` })
+        const days = Math.floor(hours / 24)
+        return tr('search.snapshotAge', { age: `${days} d` })
+    })()
 
-            {/* Search bar */}
+    return (
+        <div style={{ width: '100%', maxWidth: 'var(--max-width-content)', margin: '0 auto', padding: '24px 16px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+
             <SearchBar onSearch={handleSearch} isLoading={isFetching} />
 
-            {/* ML toggle */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: 12, margin: '10px 0 12px', flexWrap: 'wrap' }}>
-                <MlToggle enabled={runMl} onChange={() => setRunMl(v => !v)} disabled={isFetching} />
-                {runMl && !isFetching && (
-                    <span style={{ fontSize: 13, color: '#7c3aed' }}>
-                        Gemini аналізує кожну вакансію і виставляє % відповідності до профілю
-                    </span>
-                )}
-                {runMl && isFetching && (
-                    <span style={{ fontSize: 13, color: '#9ca3af' }}>
-                        ⏳ ML-аналіз може тривати 15–30 сек...
-                    </span>
-                )}
+            <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+                <SearchModeToggle value={searchMode} onChange={setSearchMode} disabled={isFetching} />
+                <ManualUrlInput />
             </div>
 
-            <ManualUrlInput />
+            {showCvWarning && <CvWarning />}
 
-            {/* Tabs row */}
             {tabs.length > 0 && (
-                <div style={{ marginTop: 20 }}>
-                    <TabBar
-                        tabs={tabs}
-                        activeId={activeTabId}
-                        onSelect={handleSelectTab}
-                        onClose={closeTab}
-                    />
+                <div>
+                    <TabBar tabs={tabs} activeId={activeTabId} onSelect={(id) => { setActiveTabId(id); resetFilters() }} onClose={closeTab} />
                 </div>
             )}
 
-            {/* Empty state */}
             {tabs.length === 0 && (
-                <div style={{ textAlign: 'center', marginTop: 60, color: '#9ca3af' }}>
-                    <div style={{ fontSize: 40, marginBottom: 12 }}>🔍</div>
-                    <p style={{ fontSize: 15 }}>Введи ключові слова та натисни «Пошук»</p>
-                    <p style={{ fontSize: 13 }}>Кожен пошук відкривається в новому табі</p>
+                <div style={{ textAlign: 'center', padding: '64px 16px', color: 'var(--color-text-tertiary)' }}>
+                    <Icon name="search" size={28} color="var(--color-text-tertiary)" />
+                    <p style={{ marginTop: 12, fontSize: 'var(--text-lg)', color: 'var(--color-text-secondary)' }}>
+                        Введіть ключові слова та натисніть «Пошук»
+                    </p>
+                    <p style={{ marginTop: 4, fontSize: 'var(--text-sm)' }}>
+                        Кожен запит відкриється у новій вкладці
+                    </p>
                 </div>
             )}
 
-            {/* Filters */}
             {activeTab && (
-                <div style={{ display: 'flex', gap: 8, margin: '16px 0 8px', flexWrap: 'wrap' }}>
-                    <select style={selectStyle} value={sourceFilter}
-                            onChange={e => setSourceFilter(e.target.value)}>
-                        {sourceOptions.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+                <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                    <select style={selectStyle} value={sourceFilter}    onChange={(e) => setSourceFilter(e.target.value)}>
+                        {SOURCES_LOC.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
                     </select>
-                    <select style={selectStyle} value={formatFilter}
-                            onChange={e => setFormatFilter(e.target.value)}>
-                        {formatOptions.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+                    <select style={selectStyle} value={formatFilter}    onChange={(e) => setFormatFilter(e.target.value)}>
+                        {FORMATS_LOC.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
                     </select>
-                    <select style={selectStyle} value={seniorityFilter}
-                            onChange={e => setSeniorityFilter(e.target.value)}>
-                        {seniorityOptions.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+                    <select style={selectStyle} value={seniorityFilter} onChange={(e) => setSeniorityFilter(e.target.value)}>
+                        {SENIORITIES_LOC.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
                     </select>
                     {(sourceFilter || formatFilter || seniorityFilter) && (
                         <button
-                            onClick={() => { setSourceFilter(''); setFormatFilter(''); setSeniorityFilter('') }}
-                            style={{ ...selectStyle, color: '#dc2626', border: '1px solid #dc2626' }}>
+                            onClick={resetFilters}
+                            style={{ ...selectStyle, color: 'var(--color-danger-600)', borderColor: 'var(--color-danger-100)' }}
+                        >
                             Скинути фільтри
                         </button>
                     )}
                 </div>
             )}
 
-            {/* Stats bar */}
-            {data && !isFetching && activeTab && (
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10, margin: '4px 0 16px', flexWrap: 'wrap' }}>
-                    <span style={{ color: '#6b7280', fontSize: 14 }}>
-                        Показано: {jobs.length} з {data.totalCount}
-                        {data.duplicatesRemoved > 0 && ` · дублікатів прибрано: ${data.duplicatesRemoved}`}
+            {activeTab && !isFetching && (totalCount != null) && (
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+                    <span style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--text-sm)' }}>
+                        {tr('list.showing')}: <span style={{ fontVariantNumeric: 'tabular-nums', color: 'var(--color-text-primary)' }}>{visibleJobs}</span> {tr('list.of')} <span style={{ fontVariantNumeric: 'tabular-nums' }}>{totalCount}</span>
+                        {dupsRemoved != null && dupsRemoved > 0 && (
+                            <> · {tr('list.dedupRemoved')} <span style={{ fontVariantNumeric: 'tabular-nums' }}>{dupsRemoved}</span></>
+                        )}
                     </span>
-                    {data.relevancePipelineRan && (
-                        <span style={{
-                            display: 'inline-flex', alignItems: 'center', gap: 5,
-                            background: '#f5f3ff', color: '#7c3aed',
-                            border: '1px solid #ddd6fe',
-                            borderRadius: 20, padding: '2px 10px', fontSize: 12, fontWeight: 500,
-                        }}>
-                            🤖 Відсортовано за ML-релевантністю
-                        </span>
+                    {activeMode === 'analyzed' && visibleJobs > 0 && (
+                        <Badge color="primary" size="sm">{tr('list.sortedRelevance')}</Badge>
                     )}
-                    {activeTab.runMl && !data.relevancePipelineRan && (
-                        <span style={{
-                            display: 'inline-flex', alignItems: 'center', gap: 5,
-                            background: '#fefce8', color: '#92400e',
-                            border: '1px solid #fde68a',
-                            borderRadius: 20, padding: '2px 10px', fontSize: 12,
-                        }}>
-                            ⚠️ ML не виконано — потрібен профіль з навичками або CV
-                        </span>
+                    {activeMode === 'raw' && (
+                        <Badge color="neutral" size="sm">{tr('list.noAnalysis')}</Badge>
+                    )}
+                    {activeMode === 'analyzed' && snapshotAgeText && (
+                        <>
+                            <Badge color="neutral" size="sm">
+                                <Icon name="refresh" size={11} /> {snapshotAgeText}
+                            </Badge>
+                            <button
+                                onClick={handleRefresh}
+                                disabled={isFetching}
+                                style={{
+                                    background:   'transparent',
+                                    border:       '1px solid var(--color-border-default)',
+                                    borderRadius: 'var(--radius-md)',
+                                    padding:      '4px 10px',
+                                    fontSize:     'var(--text-xs)',
+                                    cursor:       isFetching ? 'not-allowed' : 'pointer',
+                                    color:        'var(--color-text-secondary)',
+                                    fontFamily:   'inherit',
+                                    display:      'inline-flex',
+                                    alignItems:   'center',
+                                    gap:          4,
+                                }}
+                            >
+                                <Icon name="sparkle" size={11} /> {tr('search.refresh')}
+                            </button>
+                        </>
                     )}
                 </div>
             )}
 
-            {/* Loading */}
             {isFetching && (
-                <p style={{ color: '#6b7280', fontSize: 14, margin: '16px 0' }}>
-                    {activeTab?.runMl ? '🤖 Завантаження з ML-аналізом...' : 'Завантаження...'}
-                </p>
-            )}
-
-            {error && (
-                <p style={{ color: 'red' }}>Помилка завантаження. Перевір чи запущений бекенд.</p>
-            )}
-
-            {/* Results */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {jobs.map(job => <JobCard key={job.id} job={job} />)}
-            </div>
-
-            {/* Duplicates */}
-            {data && (data.duplicates?.length ?? 0) > 0 && (
-                <div style={{ marginTop: 32 }}>
-                    <button
-                        onClick={() => setShowDuplicates(prev => !prev)}
-                        style={{
-                            background: 'none', border: '1px solid #e5e7eb', borderRadius: 8,
-                            padding: '8px 16px', cursor: 'pointer', fontSize: 14, color: '#6b7280',
-                            display: 'flex', alignItems: 'center', gap: 8,
-                        }}>
-                        {showDuplicates ? '▲' : '▼'}
-                        Можливі дублікати ({data.duplicates.filter(job => {
-                            if (sourceFilter !== '' && job.source !== Number(sourceFilter)) return false
-                            if (formatFilter !== '' && job.workFormat !== Number(formatFilter)) return false
-                            if (seniorityFilter !== '' && job.seniorityLevel !== Number(seniorityFilter)) return false
-                            return true
-                        }).length})
-                    </button>
-                    {showDuplicates && (
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 12, opacity: 0.75 }}>
-                            {data.duplicates
-                                .filter(job => {
-                                    if (sourceFilter !== '' && job.source !== Number(sourceFilter)) return false
-                                    if (formatFilter !== '' && job.workFormat !== Number(formatFilter)) return false
-                                    if (seniorityFilter !== '' && job.seniorityLevel !== Number(seniorityFilter)) return false
-                                    return true
-                                })
-                                .map(job => <JobCard key={job.id} job={job} />)}
-                        </div>
-                    )}
+                <div style={{ padding: 24, textAlign: 'center', color: 'var(--color-text-secondary)' }}>
+                    {tr('search.searching')}
                 </div>
             )}
 
-            <ManualVacanciesSection />
+            {!isFetching && activeMode === 'analyzed' && v6Jobs.length === 0 && (
+                <div style={{ padding: 24, textAlign: 'center', color: 'var(--color-text-secondary)' }}>
+                    {tr('list.empty')}
+                </div>
+            )}
+
+            {!isFetching && activeMode === 'raw' && rawJobs.length === 0 && (
+                <div style={{ padding: 24, textAlign: 'center', color: 'var(--color-text-secondary)' }}>
+                    {tr('list.empty')}
+                </div>
+            )}
+
+            {!isFetching && activeMode === 'analyzed' && v6Jobs.length > 0 && (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                    {v6Jobs.map((job) => (
+                        <JobCardV6 key={job.id} job={job} onOpenDetails={() => setDrawerJob(job)} />
+                    ))}
+                </div>
+            )}
+
+            {!isFetching && activeMode === 'raw' && rawJobs.length > 0 && (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                    {rawJobs.map((job) => (
+                        <JobCardRaw key={job.id} job={job} />
+                    ))}
+                </div>
+            )}
+
+            <VacancyDetailDrawer job={drawerJob} onClose={() => setDrawerJob(null)} />
         </div>
     )
 }

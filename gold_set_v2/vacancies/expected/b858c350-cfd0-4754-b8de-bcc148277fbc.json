@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "b858c350-cfd0-4754-b8de-bcc148277fbc",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Fullstack Developer (AI-Native, Fintech)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "React",
+    "AI integration",
+    "real-time analytics",
+    "Python",
+    "Go",
+    "microservices",
+    "AI",
+    "API"
+  ],
+  "nice_to_have_skills": [
+    "Kafka",
+    "RabbitMQ",
+    "Docker",
+    "CI/CD"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

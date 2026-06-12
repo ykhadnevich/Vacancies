@@ -1,0 +1,63 @@
+{
+  "vacancy_id": "312f7cc7-fbe1-4506-83ed-e6d6f2ef7294",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior ML Engineer",
+    "uk": "Senior ML інженер"
+  },
+  "role_title_raw": "Senior ML Engineer (Банківська сфера)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "feature engineering",
+    "Optuna",
+    "Ray Tune",
+    "ONNX",
+    "MLOps",
+    "tabular data",
+    "NLP",
+    "REST API",
+    "Git",
+    "ML",
+    "deep learning",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "GitLab CI",
+    "GitHub Actions",
+    "Jenkins",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "pytest",
+    "SQL",
+    "Oracle",
+    "NoSQL",
+    "code review",
+    "unit testing",
+    "integration testing"
+  ],
+  "nice_to_have_skills": [
+    "Prometheus",
+    "Grafana",
+    "ELK",
+    "cloud"
+  ],
+  "min_years_experience": 5,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

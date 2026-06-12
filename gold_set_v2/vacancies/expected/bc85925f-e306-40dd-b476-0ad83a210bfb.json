@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "bc85925f-e306-40dd-b476-0ad83a210bfb",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Tech Lead Frontend",
+    "uk": "Tech Lead Frontend"
+  },
+  "role_title_raw": "Tech Lead Frontend Engineer (Vue.js)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "Vue.js",
+    "SSR",
+    "TypeScript",
+    "frontend architecture",
+    "state management",
+    "data fetching",
+    "SEO optimization",
+    "code review",
+    "team leadership",
+    "JavaScript",
+    "GraphQL",
+    "performance optimization",
+    "mentoring"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

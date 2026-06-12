@@ -1,0 +1,64 @@
+YAN KHADNEVICH
+Junior Product Manager
+Kyiv, Ukraine  |  +380 96 093 1351  |  ykhadnevich@kse.org.ua  |  LinkedIn  |  GitHub
+PROFESSIONAL SUMMARY
+Junior Product Manager with technical background in software development (.NET, React) and formal training in mobile 
+product management. Strong foundation in market research, hypothesis validation, unit economics, and data-driven 
+decision making. Seeking to leverage technical expertise and product thinking in building impactful mobile applications.
+PRODUCT MANAGEMENT EXPERIENCE
+AI Photo Enhancement App (Training Project)  — Product Manager
+Mobile Product Manager Training Course
+•Conducted market research and competitive analysis for AI photo editing market, identifying gaps in full-photo 
+enhancement solutions
+•Formulated and prioritized 5 hypotheses using ICE framework with defined success metrics and validation criteria
+•Designed MVP scope with feature prioritization and 8-week development roadmap
+•Built financial model and calculated unit economics demonstrating positive ROI
+•Defined analytics framework using Amplitude for event tracking and retention monitoring
+FPV Drone Flight Controller Testing Platform  — Product Manager
+Genesis MVP Camp  |  4-day intensive program
+•Led product discovery for web platform automating FPV drone flight controller testing and validation
+•Conducted market research to validate product demand in FPV drone controller testing market
+•Developed Business Model Canvas and learned MVP methodology including customer discovery and rapid iteration
+TECHNICAL EXPERIENCE
+.NET Development Training  — Student
+EPAM University Program
+•Completed advanced C# courses covering design patterns, application architecture, and ASP.NET Core
+•Practiced Agile/Scrum methodology through hands-on projects and assignments
+AcademicHub Platform  — Full-Stack Developer
+Team Project (4 members)
+•Developed open-source learning platform in 4-person team using C# backend and React frontend
+•Conducted market research and utilized GitHub Actions for CI/CD workflows
+EDUCATION
+Kyiv School of Economics
+Bachelor of Science in Software Engineering and Business Analysis  |  2021 – Present (4th year)
+PROFESSIONAL TRAINING
+•Mobile Product Manager Course  — Market research, hypothesis validation, MVP development, unit economics, 
+mobile monetization
+•Genesis MVP Camp — MVP methodology, customer discovery, Business Model Canvas
+•EPAM .NET Training  — Advanced C#, design patterns, ASP.NET Core
+SKILLS
+Product Management
+•Market research & competitive analysis
+•Hypothesis formulation & validation
+•Feature prioritization (ICE framework)
+•MVP scope definition & roadmapping
+•Unit economics (LTV/CAC, retention)
+•Mobile monetization strategies
+Analytics & Data
+•Amplitude (event tracking, funnels)
+•Financial modeling
+•SQL for data analysis
+•Excel/Google Sheets (advanced)Technical Skills
+•C# (.NET Core, ASP.NET, EF Core)
+•JavaScript, TypeScript, React
+•SQL & NoSQL databases
+•REST API understanding
+•Git, GitHub Actions
+•Docker, AWS basics
+Soft Skills
+•Analytical thinking
+•Data-driven decision making
+•Technical communication
+•Cross-functional collaboration
+•Quick learner & adaptable
+Languages: English (B2), Ukrainian (Native)

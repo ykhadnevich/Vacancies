@@ -1,0 +1,74 @@
+Ihor Mazur
+Senior Data Engineer · 7 years · Spark / Airflow / Snowflake · Kyiv
+i.mazur@example.com · github.com/imazur · linkedin.com/in/imazur
+Summary
+Data engineer з 7 років production досвіду. Спеціалізація: large-scale batch + streaming
+pipelines, dimensional modeling, performance tuning warehouse queries. Останні 3 роки —
+owner data platform у B2B SaaS company (~80 daily users, ~12 TB warehouse). Strong у Spark,
+Airflow, dbt, Snowflake, Kafka.
+Experience
+Senior Data Engineer / Data Platform Lead — Restream (B2C streaming SaaS)
+Oct 2023 — Present · Kyiv (remote) · PRODUCTION
+• Owner data platform: 200+ dbt models, 60+ Airflow DAGs, ingestion з Postgres CDC
+(Debezium → Kafka → Snowflake).
+• Migrated legacy nightly batch (Airflow + Python scripts) до dbt + incremental models —
+pipeline time 6h → 45min.
+• Built streaming consumer service (Kafka → Snowflake via Snowpipe Streaming) for real-time
+event analytics; lag p99 = 8 seconds.
+• Cost optimization: reduced Snowflake monthly spend by $4.2k (24%) через warehouse-size
+right-sizing + clustering keys on top 3 fact tables.
+Data Engineer (mid → senior) — Grammarly
+May 2020 — Sep 2023 · Kyiv · PRODUCTION
+• Worked on data ingestion для ML training pipelines — Spark (Scala primarily, some PySpark),
+Delta Lake on AWS S3, Glue catalog.
+• Built feature pipelines для recsys models — pulling from event streams + dimensional dim
+tables, materialized у Feast.
+• Migrated legacy Redshift warehouse до Delta Lake + Trino → cost ↓ 35%, query latency p95
+↓ 60%.
+Data Engineer — Genesis (consumer apps)
+Aug 2018 — Apr 2020 · Kyiv · PRODUCTION
+• Apache Airflow pipelines для marketing analytics (AppsFlyer + Amplitude → BigQuery).
+• Built attribution unit-economics model used by growth team — joined cohorts × LTV × CAC
+across 6 apps.
+Junior Data Engineer — SoftServe (outsource)
+Jul 2017 — Jul 2018 · Lviv · PRODUCTION
+• First commercial role — Python ETL scripts, SQL Server → Hadoop migration for retail client.
+Data Engineering Intern — EPAM
+Feb 2017 — May 2017 · Lviv · INTERNSHIP
+• 3-month bootcamp — Hadoop + Hive + Sqoop fundamentals.
+Skills
+Languages: Python (advanced, daily 7 years — pandas, PySpark, FastAPI for internal tools), SQL
+(advanced — window functions, recursive CTEs, query optimization), Scala (intermediate, daily 2
+years at Grammarly), Bash, basic Java (Kafka clients).
+
+Warehousing: Snowflake (advanced — clustering, query profiling, resource monitors, Snowpipe
++ Snowpipe Streaming), BigQuery (mature), Redshift (legacy maintenance), Databricks Delta
+Lake.
+Processing: Spark (Scala + PySpark, batch + structured streaming), dbt (advanced — daily;
+tests, snapshots, exposures, semantic layer awareness), Trino/Presto, Apache Beam (light).
+Orchestration: Airflow (5+ years, Kubernetes executor, sensors, dynamic task mapping),
+Dagster (evaluated, used on 1 sub-project), Prefect (basic).
+Streaming + CDC: Apache Kafka (5+ years, producer/consumer Java + Python clients, Kafka
+Connect), Debezium for Postgres CDC, AWS Kinesis (limited).
+Data modeling: Kimball dimensional (star/snowflake), Data Vault basics, slowly changing
+dimensions (Type 1/2/3), incremental materializations in dbt.
+Cloud: AWS (S3, Glue, EMR, Lambda, IAM, EventBridge), GCP (BigQuery, Cloud Storage,
+Pub/Sub).
+Tools: Git, GitHub Actions, Terraform (basic — DAG infra), Looker (semantic layer), Mode
+Analytics, dbt-power-user VS Code extension, Great Expectations + Monte Carlo (data quality).
+Governance + obs: dbt tests, Great Expectations, Monte Carlo Data Observability, lineage via
+dbt + OpenLineage.
+Education
+NTUU Kyiv Polytechnic Institute (KPI)
+Master's in Computer Science · 2015–2017 · Completed
+NTUU Kyiv Polytechnic Institute (KPI)
+Bachelor's in Computer Science · 2011–2015 · Completed
+Certifications: SnowPro Core (2023), AWS Data Engineer — Associate (2024), dbt Cloud
+Analytics Engineering Certificate (2022).
+Languages
+• Ukrainian — native
+• English — C1 (daily — written design docs + remote standups)
+Target Roles
+Senior Data Engineer · Staff Data Engineer · Data Platform Engineer · Analytics Engineering Lead.
+Цікавлять product companies з real-time data needs. Не зацікавлений у Data Analyst ролях (BI
+dashboards only).

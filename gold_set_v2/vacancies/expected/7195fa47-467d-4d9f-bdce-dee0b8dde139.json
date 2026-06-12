@@ -1,0 +1,31 @@
+{
+  "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior iOS Developer",
+    "uk": "Junior iOS розробник"
+  },
+  "role_title_raw": "iOS Software Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Swift",
+    "iOS development basics",
+    "iOS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

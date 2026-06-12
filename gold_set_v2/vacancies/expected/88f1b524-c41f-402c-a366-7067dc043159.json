@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "88f1b524-c41f-402c-a366-7067dc043159",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Frontend Developer",
+    "uk": "Senior Frontend розробник"
+  },
+  "role_title_raw": "Senior Frontend Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Vue.js",
+    "Vue 3",
+    "Composition API",
+    "TypeScript",
+    "JavaScript",
+    "component architecture",
+    "code review",
+    "AI agents in development",
+    "HTML",
+    "CSS",
+    "SASS",
+    "Jest"
+  ],
+  "nice_to_have_skills": [
+    "Webpack",
+    "Vite",
+    "CI/CD",
+    "Docker"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

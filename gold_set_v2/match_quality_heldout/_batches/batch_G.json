@@ -1,0 +1,198 @@
+{
+  "agent": "G",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, expansion pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+          "role_title_en": "Senior Fullstack .NET Developer",
+          "match_quality": 8,
+          "rationale": "Senior C#/.NET/ASP.NET Core/AWS backend matches all backend must-haves; React/TypeScript frontend is the one nice-to-have gap."
+        },
+        {
+          "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+          "role_title_en": "Senior DevOps",
+          "match_quality": 6,
+          "rationale": "Adjacent family: CV has K8s/Terraform/EKS/Prometheus, but GCP, ISO27001/SOC2 compliance and security-focus are unproven gaps."
+        },
+        {
+          "vacancy_id": "337599ae-96e8-48ab-88bb-80eddf6df903",
+          "role_title_en": "Android Team Lead",
+          "match_quality": 4,
+          "rationale": "Cross-family backend → mobile (Kotlin/Android SDK/Flutter); no mobile or Java in CV, only general lead-adjacent seniority transfers."
+        },
+        {
+          "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+          "role_title_en": "Machine Learning Engineer",
+          "match_quality": 4,
+          "rationale": "Cross-family backend → ML; Docker/SQL/Git transfer but no Python, PyTorch/TF, deep learning or biometric experience."
+        },
+        {
+          "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+          "role_title_en": "Data Engineer",
+          "match_quality": 2,
+          "rationale": "Military service unit anti-flag fires; also Azure/ETL/Power BI/Python stack gap dominates over PostgreSQL/AWS overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "n_pairs": 7,
+      "ratings": [
+        {
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 4,
+          "rationale": "Stack (C#/ASP.NET Core/EF/PostgreSQL/Docker) matches exactly, but senior role vs junior CV is 2-level seniority gap."
+        },
+        {
+          "vacancy_id": "0a0cee8b-99db-4426-b2b8-90e0ca868104",
+          "role_title_en": "Fullstack Developer",
+          "match_quality": 2,
+          "rationale": "PHP/Laravel/Vue/Next stack is cross-stack from .NET CV; also high-load and affiliate-arbitrage anti-flag both fire."
+        },
+        {
+          "vacancy_id": "e66e80c0-3f42-4767-8ff8-4a8f2c9710fc",
+          "role_title_en": "QA Automation",
+          "match_quality": 2,
+          "rationale": "Cross-family dev → QA automation, requires 5yr Playwright/K8s/performance; junior backend lacks both seniority and automation depth."
+        },
+        {
+          "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+          "role_title_en": "Senior Frontend Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family backend → senior React/Next, Warsaw location anti-flag, and 2-level seniority gap stack against the match."
+        },
+        {
+          "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+          "role_title_en": "Senior DevOps",
+          "match_quality": 2,
+          "rationale": "Cross-family backend → DevOps with GCP/K8s/Terraform/ISO27001 all missing, plus 2-level seniority and C1 English gap."
+        },
+        {
+          "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+          "role_title_en": "Senior AI Engineer",
+          "match_quality": 2,
+          "rationale": "Cross-family: no Python, AWS Bedrock, RAG, GenAI or ML in junior .NET CV; 2-level seniority gap also fires."
+        },
+        {
+          "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+          "role_title_en": "Senior C# Backend Developer",
+          "match_quality": 4,
+          "rationale": "Core C#/.NET/Clean Arch/SQL match exactly, but senior role with microservices/Kafka/Redis depth needs 5yr; junior is 2 levels below."
+        }
+      ]
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 8,
+          "rationale": "Senior Python/SQL/ML/feature engineering/model deployment all covered; fintech risk-modelling domain is the only nice-to-have gap."
+        },
+        {
+          "vacancy_id": "745f0820-5b22-462d-b636-c496405427f6",
+          "role_title_en": "AI Data Engineer",
+          "match_quality": 6,
+          "rationale": "Adjacent: Python/SQL/Spark/Airflow/ETL match, but Azure/Databricks not in CV (uses AWS/GCP/Snowflake/BigQuery) — partial stack."
+        },
+        {
+          "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family ML → .NET/Azure backend; no C#/.NET/Azure Functions in CV, Lviv on-site adds friction."
+        },
+        {
+          "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+          "role_title_en": "Data Analyst",
+          "match_quality": 4,
+          "rationale": "Adjacent SQL/A/B testing transfer but overqualified senior ML for product analyst; Tableau/Power BI/Looker not in CV, Kyiv on-site."
+        },
+        {
+          "vacancy_id": "9e813597-60d6-4aa0-aba1-ed85d9a0f957",
+          "role_title_en": "Product Manager",
+          "match_quality": 4,
+          "rationale": "Cross-family ML → PM; A/B testing and analytical depth transfer but no product-management, CPA/CR/affiliate or smartlink experience."
+        },
+        {
+          "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+          "role_title_en": "Engineering Manager",
+          "match_quality": 2,
+          "rationale": "Cross-family IC senior ML → Java EM; CV lacks Java/Spring stack and people-management track record required for the role."
+        },
+        {
+          "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+          "role_title_en": "Senior Quantitative Data Scientist",
+          "match_quality": 8,
+          "rationale": "Python/PyTorch/TF/Scikit/BigQuery/SQL/ML all match; FX-trading and statistics-quant domain is the nice-to-have gap."
+        },
+        {
+          "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 8,
+          "rationale": "Python/PyTorch/TF/Spark/SQL/deep learning all match; Microsoft Fabric and EHR/healthcare domain are the gaps."
+        }
+      ]
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "f95c3798-6c5c-4d18-a746-af67b51242e4",
+          "role_title_en": "Fullstack Developer",
+          "match_quality": 6,
+          "rationale": "Node/Express/Mongo/Docker/REST overlap from Walmart era, but Vue/Quasar/Laravel/PHP/TypeScript and 10-year stale-stack gap remain."
+        },
+        {
+          "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 2,
+          "rationale": "Cross-stack JS/Java CV → senior C#/.NET RGS platform; no .NET, EF Core, MSSQL or iGaming exposure."
+        },
+        {
+          "vacancy_id": "ad1c1f88-2d3e-4976-856d-5111b7acb3a5",
+          "role_title_en": "Senior Frontend Developer",
+          "match_quality": 4,
+          "rationale": "JS/CSS frontend overlap but no Vue/Nuxt/TypeScript/Tailwind, no real-time crypto trading UI, 10-year-old production work."
+        },
+        {
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "role_title_en": "Tech Lead .NET Developer",
+          "match_quality": 2,
+          "rationale": "Cross-stack JS/Java CV → lead C#/.NET; no .NET, no lead-level role, 7yr high-load architecture requirement unmet."
+        },
+        {
+          "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+          "role_title_en": "Middle iOS Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family fullstack → iOS Swift/UIKit/SwiftUI; React Native exposure does not equate to native iOS development."
+        },
+        {
+          "vacancy_id": "994c5af7-8f40-41b2-9c63-0f64a78322c1",
+          "role_title_en": "Android Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family fullstack → Android Kotlin/Compose/KMP; no Kotlin, no Android SDK, no MVI experience in CV."
+        },
+        {
+          "vacancy_id": "c1fae7c2-ca09-4a3e-92d0-60636378bf39",
+          "role_title_en": "Fullstack JavaScript Developer",
+          "match_quality": 6,
+          "rationale": "JS/TS/React/Node/SQL match well, but .NET/C# is hard must-have not in CV; AWS and browser-extension experience also gap."
+        },
+        {
+          "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+          "role_title_en": "Middle Fullstack .NET Developer",
+          "match_quality": 4,
+          "rationale": "JS/HTML/CSS/SQL frontend half matches mid level, but C#/.NET/ASP.NET/EF Core stack absent — half of must-haves missing."
+        }
+      ]
+    }
+  ]
+}

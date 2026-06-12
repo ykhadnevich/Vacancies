@@ -1,0 +1,166 @@
+{
+  "agent": "M",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, fresh-vacancy pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "4_senior_product_manager",
+      "ratings": [
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 6,
+          "rationale": "Senior PM with strong product discovery/analytics/A-B transfers, but no iGaming/casino domain or MGA/Curacao regulatory context."
+        },
+        {
+          "vacancy_id": "workua_7920825",
+          "match_quality": 4,
+          "rationale": "Lead marketing role; PM analytics/stakeholder/KPI partially transfer, but missing ATL/BTL, brand equity, agency management craft."
+        },
+        {
+          "vacancy_id": "workua_6292172",
+          "match_quality": 2,
+          "rationale": "B2B sales/BizDev in logistics; PM background lacks CRM sales execution and cold outreach experience — cross-family."
+        },
+        {
+          "vacancy_id": "799002-customer-success-manager",
+          "match_quality": 4,
+          "rationale": "B2B SaaS CS overlap with SQL/API/Zapier; product/Fintech adjacency helps but CSM craft and ticket systems missing."
+        },
+        {
+          "vacancy_id": "workua_8164518",
+          "match_quality": 2,
+          "rationale": "SMM role requires Canva/Photoshop content craft; no marketing creative or social media production background."
+        }
+      ]
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "ratings": [
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 4,
+          "rationale": "Engineering leader; technical/team mgmt transfers but no iGaming product domain, casino content, or game analytics work."
+        },
+        {
+          "vacancy_id": "829408-account-project-manager-digital-agency",
+          "match_quality": 4,
+          "rationale": "PM/leadership transfers to project management, but no PPC/SEO/SMM/digital-agency tooling or AdTech domain."
+        },
+        {
+          "vacancy_id": "822445-creative-marketing-manager",
+          "match_quality": 2,
+          "rationale": "Performance marketing role requiring Meta/TikTok Ads, UGC, hooks; engineering background lacks marketing craft entirely."
+        },
+        {
+          "vacancy_id": "829754-senior-smm-manager",
+          "match_quality": 2,
+          "rationale": "Senior SMM with TikTok/Instagram/content strategy; eng mgmt cannot substitute creative/social-media subject matter expertise."
+        }
+      ]
+    },
+    {
+      "cv_id": "yan_pm",
+      "ratings": [
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 4,
+          "rationale": "Junior PM aspirant with analytics/MVP foundation; lacks iGaming, casino content, MGA experience and minimum 2y product role."
+        },
+        {
+          "vacancy_id": "820172-content-marketing-manager-execution-project-r",
+          "match_quality": 4,
+          "rationale": "Agile/Scrum/unit economics transfer; SaaS marketing/content/SEO/SMM craft missing for execution-focused marketing PM."
+        },
+        {
+          "vacancy_id": "workua_8047032",
+          "match_quality": 2,
+          "rationale": "Lead BizDev banking role needing 5y SME financing expertise; junior career-switcher mismatched on seniority and domain."
+        },
+        {
+          "vacancy_id": "workua_6560119",
+          "match_quality": 2,
+          "rationale": "Banking corporate sales role requiring cold calls/credit analysis; tech/PM background not aligned with active sales."
+        },
+        {
+          "vacancy_id": "workua_7153495",
+          "match_quality": 2,
+          "rationale": "Microbusiness banking sales role with presentations and active selling; no banking or sales background."
+        }
+      ]
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "ratings": [
+        {
+          "vacancy_id": "798884-application-security-engineer",
+          "match_quality": 6,
+          "rationale": "Senior DevOps with K8s/AWS/CI-CD and SOC2/Vault overlaps AppSec; lacks SAST/DAST tooling and dedicated security focus."
+        },
+        {
+          "vacancy_id": "workua_6891325",
+          "match_quality": 2,
+          "rationale": "Hardware electronics diagnostics role needing oscilloscopes/logic analyzers; cloud DevOps background is unrelated."
+        },
+        {
+          "vacancy_id": "workua_8049168",
+          "match_quality": 0,
+          "rationale": "SMM role needing Instagram/Telegram/video editing/copywriting; DevOps senior has zero overlap with social media craft."
+        }
+      ]
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "ratings": [
+        {
+          "vacancy_id": "824914-senior-application-security-engineer",
+          "match_quality": 8,
+          "rationale": "Strong OWASP/SAST/DAST/threat modeling/AWS/Python match; mid seniority slightly below 5y senior bar and AI/ML security new."
+        },
+        {
+          "vacancy_id": "824959-application-security-engineer",
+          "match_quality": 8,
+          "rationale": "Excellent fit: OWASP Top 10, secure code review, threat modeling, CORS/CSP knowledge, B2 English and CS degree all align."
+        },
+        {
+          "vacancy_id": "798884-application-security-engineer",
+          "match_quality": 8,
+          "rationale": "Strong AppSec alignment: OWASP, SAST/DAST tools, threat modeling, CI/CD, API security, fintech-adjacent SaaS experience."
+        },
+        {
+          "vacancy_id": "workua_8026338",
+          "match_quality": 0,
+          "rationale": "Field service engineer for radiation equipment requiring driver's license; entirely unrelated to security engineering."
+        },
+        {
+          "vacancy_id": "828740-broker-manager-affiliate-account-manager-cryp",
+          "match_quality": 2,
+          "rationale": "Crypto/CFD affiliate sales role; security engineering background has no overlap with broker/affiliate operations."
+        }
+      ]
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "ratings": [
+        {
+          "vacancy_id": "798884-application-security-engineer",
+          "match_quality": 4,
+          "rationale": "Junior DevOps with CI/CD and AWS adjacency, but lacks AppSec/OWASP/SAST/DAST craft and 2y security focus."
+        },
+        {
+          "vacancy_id": "workua_8026338",
+          "match_quality": 0,
+          "rationale": "Field service engineer for radiation equipment requiring driving; entirely unrelated to junior DevOps profile."
+        },
+        {
+          "vacancy_id": "workua_7963539",
+          "match_quality": 2,
+          "rationale": "Digital agency BDM/sales role with PPC/SEO/SMM/Google Ads; DevOps junior lacks sales and marketing tooling."
+        },
+        {
+          "vacancy_id": "workua_7272364",
+          "match_quality": 2,
+          "rationale": "Logistics/customs coordinator role needing SAP/customs documentation; no overlap with DevOps engineering."
+        }
+      ]
+    }
+  ]
+}

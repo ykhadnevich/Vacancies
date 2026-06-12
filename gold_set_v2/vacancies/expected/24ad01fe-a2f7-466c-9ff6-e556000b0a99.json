@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "24ad01fe-a2f7-466c-9ff6-e556000b0a99",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle / Senior Flutter Developer",
+    "uk": "Middle / Senior Flutter розробник"
+  },
+  "role_title_raw": "Middle/Senior Flutter Developer (Mobile App)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Flutter 3.x",
+    "Dart",
+    "Clean Architecture",
+    "Feature-Driven Design",
+    "Provider",
+    "RxDart",
+    "get_it",
+    "dartz",
+    "equatable",
+    "payments",
+    "biometrics",
+    "IoT integration",
+    "maps",
+    "geolocation",
+    "Flutter",
+    "SOLID",
+    "http",
+    "Analytics"
+  ],
+  "nice_to_have_skills": [
+    "Kotlin",
+    "Swift"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

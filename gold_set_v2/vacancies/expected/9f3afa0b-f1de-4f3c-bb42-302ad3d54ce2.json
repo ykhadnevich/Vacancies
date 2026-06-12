@@ -1,0 +1,50 @@
+{
+  "vacancy_id": "9f3afa0b-f1de-4f3c-bb42-302ad3d54ce2",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Software Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "Azure Functions",
+    "App Services",
+    "SQL Server",
+    "Entity Framework Core",
+    "Dapper",
+    "REST API",
+    "Polly",
+    "WCF",
+    "ASP.NET Core",
+    "SQL",
+    "HTTP",
+    "EF Core",
+    "CI/CD",
+    "GitHub Actions"
+  ],
+  "nice_to_have_skills": [
+    "Angular",
+    "RxJS",
+    "Kafka",
+    "Terraform",
+    "DNS"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

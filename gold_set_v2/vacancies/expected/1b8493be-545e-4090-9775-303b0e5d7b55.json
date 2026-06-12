@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Developer",
+    "uk": "Senior .NET розробник"
+  },
+  "role_title_raw": "Senior .NET Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "database tools",
+    "connectivity",
+    "data services",
+    "ASP.NET Core",
+    "SQL",
+    "EF Core",
+    "PostgreSQL",
+    "microservices",
+    "CI/CD",
+    "SQL Server",
+    "Docker",
+    "SOLID",
+    "OOP",
+    "Git",
+    "design patterns",
+    "REST API",
+    "performance optimization"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

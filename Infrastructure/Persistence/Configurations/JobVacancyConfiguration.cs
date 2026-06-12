@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Pgvector;
 
 namespace Infrastructure.Persistence.Configurations;
 
@@ -43,7 +44,7 @@ public class JobVacancyConfiguration : IEntityTypeConfiguration<JobVacancy>
             score.Property(s => s.Value).HasColumnName("RelevanceScore");
             score.Property(s => s.Stage).HasColumnName("RelevanceStage");
         });
-        
+
         builder.Property(x => x.Urls)
             .HasConversion(
                 v => string.Join(',', v),
@@ -63,8 +64,47 @@ public class JobVacancyConfiguration : IEntityTypeConfiguration<JobVacancy>
         builder.Property(x => x.SeniorityLevel)
             .HasConversion<string>();
 
+
+        builder.Property(x => x.Embedding)
+            .HasColumnType("vector(768)")
+            .HasConversion(
+                v => new Pgvector.Vector(v),
+                v => v.Memory.ToArray(),
+                new ValueComparer<float[]>(
+                    (a, b) => a != null && b != null && a.SequenceEqual(b),
+                    v => v.Aggregate(0, (a, e) => HashCode.Combine(a, e.GetHashCode())),
+                    v => v.ToArray()),
+                new ValueComparer<Pgvector.Vector>(
+                    (a, b) => a != null && b != null && a.Memory.ToArray().SequenceEqual(b.Memory.ToArray()),
+                    v => v.Memory.ToArray().Aggregate(0, (a, e) => HashCode.Combine(a, e.GetHashCode())),
+                    v => new Pgvector.Vector(v.Memory.ToArray())))
+            .IsRequired(false);
+
+
+        builder.Ignore(x => x.Reason);
+
+
+        builder.Property(x => x.ApplicantCount).IsRequired(false);
+        builder.Property(x => x.RecruiterRespondsQuickly).IsRequired(false);
+
+
+        builder.Property(x => x.VacancyAnalysisJson)
+            .HasColumnType("text")
+            .IsRequired(false);
+        builder.Property(x => x.VacancyAnalyzedAt).IsRequired(false);
+        builder.Property(x => x.VacancyAnalysisModelVersion)
+            .HasMaxLength(64)
+            .IsRequired(false);
+
+        builder.Property(x => x.OwnerUserId)
+            .HasColumnType("uuid")
+            .IsRequired(false);
+
         builder.HasIndex(x => x.Company);
         builder.HasIndex(x => x.PublishedAt);
         builder.HasIndex(x => x.Source);
+        builder.HasIndex(x => x.OwnerUserId)
+            .HasDatabaseName("ix_job_vacancies_owner")
+            .HasFilter("\"OwnerUserId\" IS NOT NULL");
     }
 }

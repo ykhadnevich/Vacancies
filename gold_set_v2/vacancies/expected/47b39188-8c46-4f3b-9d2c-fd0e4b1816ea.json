@@ -1,0 +1,31 @@
+{
+  "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Engineering Manager",
+    "uk": "Senior Engineering Manager"
+  },
+  "role_title_raw": "Senior Engineering Manager",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "engineering management",
+    "team leadership",
+    "delivery management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

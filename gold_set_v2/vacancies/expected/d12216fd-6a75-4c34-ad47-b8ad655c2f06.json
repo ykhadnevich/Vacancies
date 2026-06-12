@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "AI / ML Engineer",
+    "uk": "AI / ML інженер"
+  },
+  "role_title_raw": "Machine learning ( ML) engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Python",
+    "LLM",
+    "RAG",
+    "agentic systems",
+    "evaluation pipelines",
+    "prompt engineering",
+    "PostgreSQL"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

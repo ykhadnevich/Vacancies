@@ -1,6 +1,7 @@
 using System.Net;
 using System.Text.Json;
 using FluentValidation;
+using Sentry;
 
 namespace API.Middleware;
 
@@ -59,6 +60,10 @@ public class ExceptionHandlingMiddleware
         catch (Exception ex)
         {
             _logger.LogError(ex, "Unhandled exception: {Message}", ex.Message);
+
+            // Explicit capture: this middleware swallows the exception before
+            // Sentry's diagnostic-source hook would otherwise see it.
+            SentrySdk.CaptureException(ex);
 
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
             context.Response.ContentType = "application/json";

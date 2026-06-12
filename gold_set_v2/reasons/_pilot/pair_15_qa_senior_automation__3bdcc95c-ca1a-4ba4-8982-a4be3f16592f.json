@@ -1,0 +1,234 @@
+{
+  "cv_id": "15_qa_senior_automation",
+  "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+  "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+      "QA Lead",
+      "Senior SDET",
+      "Test Architect"
+    ],
+    "domain_skills": [
+      "Playwright",
+      "Selenium WebDriver",
+      "Appium",
+      "Cucumber",
+      "Java",
+      "TypeScript",
+      "Python",
+      "pytest",
+      "TestNG",
+      "JUnit",
+      "RestAssured",
+      "Postman",
+      "Newman",
+      "API testing",
+      "JMeter",
+      "GitLab CI",
+      "Jenkins",
+      "GitHub Actions",
+      "Docker",
+      "Page Object Model",
+      "Test pyramid design",
+      "BDD",
+      "Shift-left QA",
+      "Exploratory testing",
+      "Jira",
+      "Zephyr",
+      "TestRail",
+      "Allure",
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "Maven"
+    ],
+    "technical_skills": [
+      "Cypress",
+      "Gatling",
+      "Grafana",
+      "Groovy",
+      "Bash",
+      "MongoDB",
+      "Kafka",
+      "Wiremock",
+      "Pact"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "Ajax Systems",
+        "type": "PRODUCTION",
+        "duration_months": 42,
+        "years_ago": 0
+      },
+      {
+        "title": "EPAM",
+        "type": "PRODUCTION",
+        "duration_months": 31,
+        "years_ago": 4
+      },
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 18,
+        "years_ago": 6
+      },
+      {
+        "title": "Luxoft",
+        "type": "PRODUCTION",
+        "duration_months": 13,
+        "years_ago": 8
+      },
+      {
+        "title": "Datrics",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 9
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Engineering",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2017
+    },
+    "english_level": "B2",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "Russian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "B2"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Junior QA",
+      "uk": "Junior QA"
+    },
+    "role_title_raw": "Junior QA Manual Engineer",
+    "seniority_required": "junior",
+    "must_have_skills": [
+      "manual testing",
+      "test cases",
+      "banking software",
+      "Postman",
+      "Swagger",
+      "integration testing",
+      "regression testing",
+      "Jira",
+      "SQL"
+    ],
+    "nice_to_have_skills": [
+      "CI/CD",
+      "Agile",
+      "Scrum"
+    ],
+    "min_years_experience": 1,
+    "education_required": "not_specified",
+    "english_required": "not_specified",
+    "location": {
+      "city_en": "Lviv",
+      "city_uk": "Львів",
+      "remote": false,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "banking",
+      "uk": "банкінг"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.6939285714285715,
+      "reason_en": "Senior overqualified for junior role; cross-domain transition. Partial match. Strengths: SQL, Postman. Gaps: Swagger, API.",
+      "reason_uk": "Senior переоцінений для junior ролі; перехід між доменами. Часткова відповідність. Переваги: SQL, Postman. Брак: Swagger, API.",
+      "evidence": {
+        "matched_skills": [
+          "SQL",
+          "Postman",
+          "Jmeter",
+          "Jira"
+        ],
+        "missing_must_haves": [
+          "Swagger",
+          "web-додатків",
+          "API"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.61625,
+      "reason_en": "Partial match. Strengths: Jira, SQL, Postman. Gaps: functional testing, integration testing, regression testing.",
+      "reason_uk": "Часткова відповідність. Переваги: Jira, SQL, Postman. Брак: functional testing, integration testing, regression testing.",
+      "evidence": {
+        "matched_skills": [
+          "Jira",
+          "SQL",
+          "Postman",
+          "JMeter",
+          "API testing"
+        ],
+        "missing_must_haves": [
+          "functional testing",
+          "integration testing",
+          "regression testing",
+          "test documentation",
+          "test cases",
+          "checklists",
+          "SDLC",
+          "STLC",
+          "Swagger",
+          "web applications testing",
+          "test design"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.610735294117647,
+      "reason_en": "Partial match. Strengths: Jira, SQL, Postman. Gaps: functional testing, integration testing.",
+      "reason_uk": "Часткова відповідність. Переваги: Jira, SQL, Postman. Брак: functional testing, integration testing.",
+      "evidence": {
+        "matched_skills": [
+          "Jira",
+          "SQL",
+          "Postman",
+          "JMeter",
+          "API testing"
+        ],
+        "missing_must_haves": [
+          "functional testing",
+          "integration testing",
+          "regression testing",
+          "test documentation",
+          "test cases",
+          "checklists",
+          "SDLC",
+          "STLC",
+          "Swagger",
+          "bug tracking systems",
+          "test design",
+          "web applications testing"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

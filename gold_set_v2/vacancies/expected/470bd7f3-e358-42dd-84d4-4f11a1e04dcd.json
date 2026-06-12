@@ -1,0 +1,31 @@
+{
+  "vacancy_id": "470bd7f3-e358-42dd-84d4-4f11a1e04dcd",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Principal Manager",
+    "uk": "Principal Manager"
+  },
+  "role_title_raw": "Principal Manager, Applied AI",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "AI / ML leadership",
+    "engineering management",
+    "applied AI delivery"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

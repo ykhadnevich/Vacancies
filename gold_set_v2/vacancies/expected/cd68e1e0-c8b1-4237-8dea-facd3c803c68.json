@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Scientist",
+    "uk": "Senior Data Scientist"
+  },
+  "role_title_raw": "Senior Data Scientist (Finland; Risk Modelling, FinTech)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "SQL",
+    "ML",
+    "decision trees",
+    "scorecards",
+    "clustering",
+    "time-series forecasting",
+    "feature engineering",
+    "model deployment"
+  ],
+  "nice_to_have_skills": [
+    "Azure",
+    "AWS",
+    "GCP"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

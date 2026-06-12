@@ -1,0 +1,58 @@
+[
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_ids": [
+      "830205-game-product-manager",
+      "workua_7920825",
+      "workua_6292172",
+      "799002-customer-success-manager",
+      "workua_8164518"
+    ]
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_ids": [
+      "830205-game-product-manager",
+      "829408-account-project-manager-digital-agency",
+      "822445-creative-marketing-manager",
+      "829754-senior-smm-manager"
+    ]
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_ids": [
+      "830205-game-product-manager",
+      "820172-content-marketing-manager-execution-project-r",
+      "workua_8047032",
+      "workua_6560119",
+      "workua_7153495"
+    ]
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_ids": [
+      "798884-application-security-engineer",
+      "workua_6891325",
+      "workua_8049168"
+    ]
+  },
+  {
+    "cv_id": "23_security_engineer_mid",
+    "vacancy_ids": [
+      "824914-senior-application-security-engineer",
+      "824959-application-security-engineer",
+      "798884-application-security-engineer",
+      "workua_8026338",
+      "828740-broker-manager-affiliate-account-manager-cryp"
+    ]
+  },
+  {
+    "cv_id": "6_devops_junior",
+    "vacancy_ids": [
+      "798884-application-security-engineer",
+      "workua_8026338",
+      "workua_7963539",
+      "workua_7272364"
+    ]
+  }
+]

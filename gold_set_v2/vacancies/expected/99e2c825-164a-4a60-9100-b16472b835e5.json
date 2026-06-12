@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "99e2c825-164a-4a60-9100-b16472b835e5",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Marketing Manager",
+    "uk": "Product Marketing Manager"
+  },
+  "role_title_raw": "Product Marketing Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product marketing",
+    "GTM strategy",
+    "ICP",
+    "Value Proposition",
+    "JTBD",
+    "PMF",
+    "ABM",
+    "ROI",
+    "B2B international sales"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

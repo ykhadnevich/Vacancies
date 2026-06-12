@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "6d908d9f-c748-4be8-8c15-50fed8a03135",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Full-Stack PHP / React Developer (AI-assisted Development)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "PHP 8.1+",
+    "CodeIgniter 4",
+    "PostgreSQL",
+    "React 18",
+    "Vite",
+    "Nginx",
+    "AI-assisted development",
+    "PHP",
+    "React",
+    "Playwright",
+    "AI tools",
+    "ChatGPT"
+  ],
+  "nice_to_have_skills": [
+    "Firebase",
+    "FCM",
+    "Google Cloud Storage",
+    "Socket.io",
+    "Playwright"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

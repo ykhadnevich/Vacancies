@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "7c4af3e5-3f44-492d-bc16-54a5ef6b7259",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Science Developer",
+    "uk": "Data Science розробник"
+  },
+  "role_title_raw": "Data Science Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "data science",
+    "model deployment"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

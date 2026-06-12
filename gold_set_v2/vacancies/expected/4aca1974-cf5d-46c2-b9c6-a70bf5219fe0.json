@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "4aca1974-cf5d-46c2-b9c6-a70bf5219fe0",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Android Developer",
+    "uk": "Senior Android розробник"
+  },
+  "role_title_raw": "Senior Software Engineer (Android) in Thunderbolt (#1175)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Kotlin",
+    "Jetpack Compose",
+    "MVVM",
+    "MVI",
+    "Hilt",
+    "Coroutines",
+    "Flow",
+    "Android"
+  ],
+  "nice_to_have_skills": [
+    "WebRTC",
+    "VoIP",
+    "WebSockets",
+    "push notifications",
+    "CI/CD",
+    "performance optimization"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

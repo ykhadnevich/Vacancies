@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "a10929c5-ac46-4c90-89c9-8e1712fb7886",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle DevOps",
+    "uk": "Middle DevOps"
+  },
+  "role_title_raw": "Middle DevOps Engineer (AWS)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "AWS",
+    "EC2",
+    "S3",
+    "RDS",
+    "ECS",
+    "EKS",
+    "Lambda",
+    "VPC",
+    "Terraform",
+    "CloudFormation",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "GitLab CI",
+    "Jenkins",
+    "cloud",
+    "CI/CD",
+    "Prometheus",
+    "Grafana",
+    "ELK",
+    "DNS"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

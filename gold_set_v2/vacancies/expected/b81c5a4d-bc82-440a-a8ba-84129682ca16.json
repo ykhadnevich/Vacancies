@@ -1,0 +1,54 @@
+{
+  "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle SRE",
+    "uk": "Middle SRE"
+  },
+  "role_title_raw": "Middle SRE (Windows, .NET, IIS)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Windows Server",
+    "IIS",
+    ".NET",
+    "Nginx",
+    "HAProxy",
+    "Keepalived",
+    "high availability",
+    "Linux",
+    "Bash",
+    "Docker",
+    "CI/CD",
+    "GitLab CI",
+    "GitHub Actions",
+    "Zabbix",
+    "Prometheus",
+    "Grafana",
+    "Ansible",
+    "Python",
+    "HTTP",
+    "DNS"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "CI/CD",
+    "Kafka",
+    "RabbitMQ",
+    "high-load systems"
+  ],
+  "min_years_experience": 3,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

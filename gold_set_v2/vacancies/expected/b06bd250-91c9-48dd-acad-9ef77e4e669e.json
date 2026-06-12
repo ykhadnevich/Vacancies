@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "b06bd250-91c9-48dd-acad-9ef77e4e669e",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle .NET Developer",
+    "uk": "Middle .NET розробник"
+  },
+  "role_title_raw": "Middle .NET Developer (Digital Asset Management Project)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "multi-tenant architecture",
+    "distributed systems",
+    "cloud",
+    "on-premises deployment",
+    "PostgreSQL",
+    "Redis",
+    "RabbitMQ",
+    "Azure",
+    "CI/CD",
+    "Azure DevOps",
+    "NoSQL",
+    "Git",
+    "Jira",
+    "Unit testing",
+    "Integration testing"
+  ],
+  "nice_to_have_skills": [
+    "Docker",
+    "Kubernetes",
+    "Elasticsearch"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

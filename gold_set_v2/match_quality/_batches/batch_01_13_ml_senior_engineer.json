@@ -1,0 +1,158 @@
+{
+  "batch_idx": 1,
+  "cv_id": "13_ml_senior_engineer",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "match_quality": 6,
+      "rationale": "Strong ML tech fit (Python/PyTorch/TF/Docker/SQL/NoSQL/NLP). Specific gaps: biometric ID, OSINT, face/object analysis (CV has YOLO but not biometric). DefTech domain cross-family."
+    },
+    {
+      "vacancy_id": "f81356d6-fe08-4fe1-a811-d7499fc35553",
+      "match_quality": 8,
+      "rationale": "Senior DS for fraud/identity, all core skills match (Python/ML/sklearn/AWS/SQL). Snowflake gap (CV has Databricks/BigQuery). 6.6>5y, C1>B2. Fraud=recsys-adjacent."
+    },
+    {
+      "vacancy_id": "b35b6cf4-aa8a-41c1-a477-e4c732ff30d8",
+      "match_quality": 4,
+      "rationale": "DefTech RL/autonomy/unmanned systems specialized — CV has supervised/NLP/recsys, no RL. Cross-family despite Python/DL/PyTorch overlap."
+    },
+    {
+      "vacancy_id": "bc543292-a35f-4023-8fa0-c6832cc9b181",
+      "match_quality": 6,
+      "rationale": "Strong core ML fit (Python/TF/PyTorch/sklearn/AWS/CV via YOLO). Missing specific data pipeline stack: Airflow (has Kubeflow), Kafka, BigQuery, dbt, GCP, Azure."
+    },
+    {
+      "vacancy_id": "be17f702-3859-4297-9de3-ed4ebe9e385a",
+      "match_quality": 6,
+      "rationale": ".NET is significant gap (CV has Go/Bash, no .NET). Seniority off (lead vs senior), 6.6y=6y min borderline. C1 ✓. E-commerce=recsys-adjacent."
+    },
+    {
+      "vacancy_id": "15227172-726d-4cc6-8ab1-966690742f53",
+      "match_quality": 6,
+      "rationale": "LLM/RAG/agents fit core (CV has RAG explicitly). TypeScript is real gap. Otherwise strong."
+    },
+    {
+      "vacancy_id": "c6bedf09-951e-45db-9b95-e60a496810d7",
+      "match_quality": 4,
+      "rationale": "Lead seniority — candidate senior, under-qualified by 1 level. 6.6y<7y min. CV lacks explicit ML team leadership/strategy evidence. FastAPI gap."
+    },
+    {
+      "vacancy_id": "166ff5b4-0ca5-40e8-ba41-074f2b5d9aa8",
+      "match_quality": 10,
+      "rationale": "Exceptional fit: senior ML, all core ML tech (Python/TF/PyTorch/sklearn/AWS/MLOps/NLP/CV/RecSys/distributed) match exactly. GCP/Azure missing but AWS dominates. C1>B2, 6.6>5y."
+    },
+    {
+      "vacancy_id": "cb2b150f-b44b-4a0f-b483-89da55db4144",
+      "match_quality": 4,
+      "rationale": "Middle seniority + mobile app ML (CV is server-side) + Tableau gap + healthcare cross-domain. Over-qualified for middle role."
+    },
+    {
+      "vacancy_id": "84eaf0ec-b42b-4dcb-b5e7-0516355510f7",
+      "match_quality": 2,
+      "rationale": "Quant Researcher = different specialization (mathematician). Plus anti_flag: EST timezone (Ukraine→EST 8h diff). Cross-family."
+    },
+    {
+      "vacancy_id": "1c5647c9-a848-4fcd-b742-c9a2508a7d9b",
+      "match_quality": 4,
+      "rationale": "Python Developer role (not ML eng), middle seniority over-qualified. ML deployment skills match but role intent off — candidate seeks ML eng not generic Python dev."
+    },
+    {
+      "vacancy_id": "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+      "match_quality": 4,
+      "rationale": "Medical imaging/3D/X-ray specialized — CV has CV (YOLO) but not medical. Healthcare cross-domain. Core ML/PyTorch fits."
+    },
+    {
+      "vacancy_id": "219bf29a-d44c-498f-a00d-358d5a962a64",
+      "match_quality": 6,
+      "rationale": "RAG/LLM/Postgres core matches. LangGraph framework specific gap, FastAPI gap. Strong otherwise."
+    },
+    {
+      "vacancy_id": "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+      "match_quality": 8,
+      "rationale": "LLM/RAG/eval pipelines all in CV. Postgres ✓. Prompt eng/agentic — CV has RAG which is adjacent. Strong AI eng fit."
+    },
+    {
+      "vacancy_id": "26815abc-ac5e-4925-9f24-96e48277262d",
+      "match_quality": 8,
+      "rationale": "Senior ML w/ applied ML/MLOps/Go/TF/PyTorch — all match (CV has Go explicitly, rare). Airflow gap (Kubeflow), BigQuery/Snowflake missing. Strong fit."
+    },
+    {
+      "vacancy_id": "d3619987-777c-41c9-a7b0-794be197f391",
+      "match_quality": 2,
+      "rationale": "Junior role, 1y min — senior 6.6y is massively over-qualified. Role intent mismatch."
+    },
+    {
+      "vacancy_id": "312f7cc7-fbe1-4506-83ed-e6d6f2ef7294",
+      "match_quality": 8,
+      "rationale": "Senior ML w/ comprehensive stack — PyTorch/TF/ONNX/MLOps/NLP/SQL/NoSQL all match. Tabular (CV has XGBoost/LightGBM). FastAPI gap. Government domain transferable."
+    },
+    {
+      "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+      "match_quality": 6,
+      "rationale": "Real-time scoring/large-scale ML/K8s/AWS — core matches. Neo4j (identity graphs), FastAPI, GCP all gaps. MarTech transferable."
+    },
+    {
+      "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+      "match_quality": 6,
+      "rationale": "Speech Processing specialization — CV has NLP not specifically speech. Otherwise Python/ML/DL/prod fit. Telecom cross-domain."
+    },
+    {
+      "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "match_quality": 0,
+      "rationale": "Growth Marketing Manager — completely different field. Not engineering."
+    },
+    {
+      "vacancy_id": "05e3fb53-42e1-4d26-af6b-b3f22c29be61",
+      "match_quality": 4,
+      "rationale": "Middle seniority + Palantir Foundry/AIP specific stack gap. Core ML/NLP/LLM fit but Palantir is hard requirement, candidate would need to learn."
+    },
+    {
+      "vacancy_id": "446e7574-dd06-4f38-983b-f41d2e21252d",
+      "match_quality": 6,
+      "rationale": "RAG/LLM/Python core match. AWS Bedrock specific (CV has AWS via SageMaker, not Bedrock). FastAPI gap, MCP gap. 6.6>6y borderline."
+    },
+    {
+      "vacancy_id": "f22cca4c-492a-4d6d-b4de-df08c3730b41",
+      "match_quality": 6,
+      "rationale": "CV/object detection match (CV has YOLOv4, TensorRT for real-time). Jetson/ARM64/embedded inference gaps. DefTech cross-domain."
+    },
+    {
+      "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+      "match_quality": 6,
+      "rationale": "Same template as candidate 4 — core ML fits but Airflow/Kafka/BigQuery/dbt/FastAPI/GCP/Azure gaps."
+    },
+    {
+      "vacancy_id": "48396d9e-bc1c-4cf2-a5fe-9c4ef9dbf7e0",
+      "match_quality": 10,
+      "rationale": "Exceptional: open-source LLM/fine-tuning/RAG/NLP/HuggingFace/vector DBs all in CV (Pinecone explicit). PyTorch/TF/Docker/K8s match. Over-qualified for min 3y but role aligned."
+    },
+    {
+      "vacancy_id": "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+      "match_quality": 0,
+      "rationale": "Java Developer — completely different field. Not ML."
+    },
+    {
+      "vacancy_id": "91b11a12-a711-433d-8522-aabfb16b2256",
+      "match_quality": 8,
+      "rationale": "ML Scientist with research+prod scale — CV has both. Python/ML/sklearn/AWS/SQL match. Snowflake gap. Fraud detection adjacent to recsys."
+    },
+    {
+      "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+      "match_quality": 6,
+      "rationale": "GenAI/RAG/AWS core fits. Bedrock-specific stack (Lambda/S3/DynamoDB) less explicit in CV. Cloud architecture present."
+    },
+    {
+      "vacancy_id": "fc5d3bd0-0fde-4d6f-9220-169f0b98ed7d",
+      "match_quality": 8,
+      "rationale": "Excellent fit: MLflow+Kubeflow are EXACTLY in CV. K8s/Docker/containers/MLOps/AWS match. GCP/Azure gaps but AWS-only is OK."
+    },
+    {
+      "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+      "match_quality": 10,
+      "rationale": "Exceptional: recsys explicitly called out (CV has DLRM, SASRec, two-tower — perfect match). PyTorch/TF/sklearn/MLOps/AWS/DL/SQL all match."
+    }
+  ]
+}

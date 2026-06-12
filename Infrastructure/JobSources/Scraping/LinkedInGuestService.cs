@@ -47,7 +47,7 @@ public class LinkedInGuestService : IJobSourceService
                     job.UpdateDescription(HtmlHelper.ExtractLinkedInDescription(
                         HtmlHelper.StripHtml(description)));
             }
-            catch { /* ігноруємо помилки опису */ }
+            catch {  }
             return job;
         }));
 
@@ -81,7 +81,7 @@ public class LinkedInGuestService : IJobSourceService
                 card.SelectSingleNode(".//a")?.GetAttributeValue("href", string.Empty) ?? string.Empty);
 
             var dateStr = card.SelectSingleNode(".//time")
-                ?.GetAttributeValue("datetime", null);
+                ?.GetAttributeValue("datetime", string.Empty);
 
             if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(url))
                 continue;

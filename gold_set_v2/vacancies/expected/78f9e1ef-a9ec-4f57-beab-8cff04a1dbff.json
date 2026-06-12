@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "78f9e1ef-a9ec-4f57-beab-8cff04a1dbff",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "iOS Developer",
+    "uk": "iOS розробник"
+  },
+  "role_title_raw": "iOS Mobile App Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Swift",
+    "SwiftUI",
+    "Auto Layout",
+    "Xcode",
+    "CocoaPods",
+    "Swift Package Manager",
+    "REST API",
+    "push notifications",
+    "in-app purchases",
+    "iOS",
+    "CI/CD",
+    "MVC",
+    "MVVM",
+    "analytics",
+    "code review"
+  ],
+  "nice_to_have_skills": [
+    "GraphQL",
+    "Objective-C",
+    "Core Data",
+    "Realm",
+    "unit testing"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

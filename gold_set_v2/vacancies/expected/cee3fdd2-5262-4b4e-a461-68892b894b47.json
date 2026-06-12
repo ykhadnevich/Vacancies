@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "cee3fdd2-5262-4b4e-a461-68892b894b47",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Manual QA",
+    "uk": "Middle Manual QA"
+  },
+  "role_title_raw": "Middle Manual QA Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "manual testing",
+    "test cases",
+    "GIS / 3D testing",
+    "situational awareness software",
+    "Postman",
+    "Swagger"
+  ],
+  "nice_to_have_skills": [
+    "Python",
+    "Linux",
+    "Computer Vision",
+    "ML"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

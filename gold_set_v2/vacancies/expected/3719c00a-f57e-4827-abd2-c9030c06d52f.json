@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Automation QA Team Lead",
+    "uk": "Automation QA Team Lead"
+  },
+  "role_title_raw": "Automation QA Team Lead",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "test automation",
+    "automation strategy",
+    "team leadership",
+    "Zoho platform",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Selenium",
+    "Playwright",
+    "Cypress",
+    "CI/CD",
+    "leadership",
+    "mentoring"
+  ],
+  "nice_to_have_skills": [
+    "Docker",
+    "Kubernetes"
+  ],
+  "min_years_experience": 6,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

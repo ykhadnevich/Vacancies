@@ -1,4 +1,8 @@
-﻿using HtmlAgilityPack;
+﻿using System;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+using HtmlAgilityPack;
 using Application.Common.Interfaces;
 using Microsoft.Extensions.Logging;
 

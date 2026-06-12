@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "16899fdd-9080-444d-b6f1-0f84a096a608",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Product Manager",
+    "uk": "Junior Product Manager"
+  },
+  "role_title_raw": "Junior Product Manager - Brighterly",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "product management basics",
+    "hypothesis testing",
+    "analytics",
+    "stakeholder communication",
+    "Stakeholder management"
+  ],
+  "nice_to_have_skills": [
+    "EdTech experience"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "edtech",
+    "uk": "edtech"
+  },
+  "anti_requirements": []
+}

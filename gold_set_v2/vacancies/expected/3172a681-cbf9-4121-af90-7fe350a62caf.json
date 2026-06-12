@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "3172a681-cbf9-4121-af90-7fe350a62caf",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior / Middle DevOps",
+    "uk": "Junior / Middle DevOps"
+  },
+  "role_title_raw": "Strong Junior/Middle DevOps",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Terraform",
+    "Kubernetes",
+    "public clouds",
+    "Windows Server",
+    "Active Directory",
+    "networking",
+    "VPN",
+    "cloud",
+    "GCP"
+  ],
+  "nice_to_have_skills": [
+    "GCP",
+    "Tencent Cloud"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

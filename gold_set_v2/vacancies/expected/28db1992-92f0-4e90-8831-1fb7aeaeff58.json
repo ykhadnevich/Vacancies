@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "28db1992-92f0-4e90-8831-1fb7aeaeff58",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Manager",
+    "uk": "Engineering Manager"
+  },
+  "role_title_raw": "Engineering Manager, Cloud Platform (Ukraine)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "engineering management",
+    "Node.js",
+    "cloud-native",
+    "architecture",
+    "team leadership",
+    "AWS"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "Terraform",
+    "SaaS"
+  ],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

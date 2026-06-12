@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "44979ab6-0336-4ff7-8abd-055c929aee2b",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "DevOps",
+    "uk": "DevOps"
+  },
+  "role_title_raw": "DevOps Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "CI/CD",
+    "Docker",
+    "Linux",
+    "Bash",
+    "monitoring",
+    "Python",
+    "Ansible",
+    "Jenkins",
+    "Prometheus",
+    "Grafana",
+    "Zabbix"
+  ],
+  "nice_to_have_skills": [
+    "MySQL",
+    "MongoDB",
+    "Redis",
+    "PostgreSQL",
+    "Nginx",
+    "HAproxy",
+    "ELK"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

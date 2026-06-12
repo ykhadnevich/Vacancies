@@ -1,0 +1,158 @@
+{
+  "batch_idx": 12,
+  "cv_id": "5_junior_backend_engineer",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "05e537ca-170b-478f-a33d-b477f5f08223",
+      "match_quality": 6,
+      "rationale": "Senior 5y — junior 2.2y under-qualified. Stack (C#/.NET/ASP.NET/EF Core/Docker/REST/Agile/testing) all in CV."
+    },
+    {
+      "vacancy_id": "ab6d57dc-8a52-45ec-b456-973509d549bc",
+      "match_quality": 4,
+      "rationale": "Middle Fullstack + React/TS/Azure — junior under-qualified + frontend stack not in CV depth."
+    },
+    {
+      "vacancy_id": "102d5d77-0ccb-4640-be6e-8e2595afe705",
+      "match_quality": 8,
+      "rationale": "Middle 2y — matches junior 2.2y. C#/.NET/ASP.NET Core/SQL/REST/SQL Server/Git all in CV. Strong fit."
+    },
+    {
+      "vacancy_id": "b06bd250-91c9-48dd-acad-9ef77e4e669e",
+      "match_quality": 6,
+      "rationale": "Middle 3y — under by 0.8y. C#/.NET/Postgres/Docker/CI/Git/Jira/testing match. Redis/RabbitMQ/distributed systems gaps."
+    },
+    {
+      "vacancy_id": "1b8493be-545e-4090-9775-303b0e5d7b55",
+      "match_quality": 4,
+      "rationale": "Senior 5y — junior 2.2y under-qualified by 2.8y, despite full stack match."
+    },
+    {
+      "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+      "match_quality": 2,
+      "rationale": "SRE role (Linux/Bash/Ansible/Zabbix/Nginx/HAProxy) — not backend dev. Different specialization."
+    },
+    {
+      "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+      "match_quality": 6,
+      "rationale": "Middle 3y .NET — close to junior. C#/.NET/EF Core/MS SQL/ASP.NET/TDD/OOP/patterns match. WebForms legacy specific."
+    },
+    {
+      "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+      "match_quality": 4,
+      "rationale": "Senior 5y — junior 2.2y under-qualified. Stack matches."
+    },
+    {
+      "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+      "match_quality": 4,
+      "rationale": "Senior backend insurance — under-qualified. Azure/Datadog stack."
+    },
+    {
+      "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+      "match_quality": 0,
+      "rationale": "News Feed Editor — completely different field."
+    },
+    {
+      "vacancy_id": "59cb605a-3205-4ea6-8730-145723cbf85c",
+      "match_quality": 6,
+      "rationale": "Middle .NET banking — close to junior. C#/.NET/Docker/async-await/EF Core/Postgres/REST/Git match."
+    },
+    {
+      "vacancy_id": "27502427-31c4-42e7-95fb-f021aa147ed7",
+      "match_quality": 6,
+      "rationale": "Junior/Middle Fullstack — junior-friendly. ASP.NET Core/EF/SQL Server/REST/.NET/Git all in CV. Angular/TS/Neo4J gaps."
+    },
+    {
+      "vacancy_id": "f12c7a06-9702-45ca-b20c-504afa184bc4",
+      "match_quality": 4,
+      "rationale": "Senior 5y consumer apps — under-qualified by 2.8y."
+    },
+    {
+      "vacancy_id": "738bbdbd-27ea-44bf-a5a8-994cf5e24e23",
+      "match_quality": 6,
+      "rationale": "Middle Fullstack .NET edtech — close to junior level. C#/.NET/ASP.NET/SQL/EF Core/OOP/patterns match. Frontend frameworks moderate gap."
+    },
+    {
+      "vacancy_id": "38df2a39-e173-4108-8c5b-52afb1c526b3",
+      "match_quality": 6,
+      "rationale": "C#/.NET + MS SQL DBA hybrid — junior-friendly. C#/.NET/MS SQL/T-SQL/OOP/API match. DBA admin specific."
+    },
+    {
+      "vacancy_id": "393310d2-1fa3-4cff-95a5-1a4158a8bc68",
+      "match_quality": 4,
+      "rationale": "Senior 4y Fullstack + React/AWS/TS — under-qualified + frontend stack gap."
+    },
+    {
+      "vacancy_id": "0c7b3e11-9612-41e1-a47b-91c5c7282d57",
+      "match_quality": 0,
+      "rationale": ".NET Subject Matter Expert lead 8y — major over-qualification for junior 2.2y."
+    },
+    {
+      "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+      "match_quality": 4,
+      "rationale": "Senior 5y — junior under-qualified."
+    },
+    {
+      "vacancy_id": "314b593b-f49d-4d84-8c9c-232192f82f03",
+      "match_quality": 0,
+      "rationale": "News editor — different field."
+    },
+    {
+      "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+      "match_quality": 4,
+      "rationale": "Creatio platform-specific CRM development — niche skill not in CV."
+    },
+    {
+      "vacancy_id": "cdc7757a-a09b-42b9-b1d2-12a69069931f",
+      "match_quality": 4,
+      "rationale": "Senior 5y Fullstack + Angular/React legacy — under-qualified + frontend gap."
+    },
+    {
+      "vacancy_id": "66a1e453-d23c-4da9-b4db-a6664d90c2b7",
+      "match_quality": 6,
+      "rationale": "Senior 3y — junior 2.2y under by 0.8y. C#/.NET/ASP.NET MVC/ASP.NET Core/MS SQL/EF stack matches."
+    },
+    {
+      "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+      "match_quality": 0,
+      "rationale": "Tech Lead 7y — major under-qualification for junior."
+    },
+    {
+      "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+      "match_quality": 4,
+      "rationale": "Senior 5y iGaming — junior under-qualified."
+    },
+    {
+      "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+      "match_quality": 2,
+      "rationale": "Senior 5y Fullstack + Dynamics CRM + ANTI 6-month contract — multiple blockers."
+    },
+    {
+      "vacancy_id": "727b163f-8aaf-4926-9ae0-d554f00661ad",
+      "match_quality": 4,
+      "rationale": "Creatio Developer middle — Creatio specific platform skill not in CV."
+    },
+    {
+      "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+      "match_quality": 2,
+      "rationale": "Senior/Lead Fullstack + Node/Angular/ETL — under-qualified + frontend/JS stack gap."
+    },
+    {
+      "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "match_quality": 4,
+      "rationale": "Senior backend iGaming — junior under-qualified."
+    },
+    {
+      "vacancy_id": "87451c8f-0db8-43c8-bac2-52381453653b",
+      "match_quality": 6,
+      "rationale": "Same as 38df2a39 template. C#/.NET/MS SQL/DBA junior-friendly."
+    },
+    {
+      "vacancy_id": "ec9c676d-8504-4123-aac0-038fc306fcf7",
+      "match_quality": 2,
+      "rationale": "Senior 5y Fullstack + Vue.js/WMS/logistics — under-qualified + Vue stack not in CV."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "2306e535-ce66-4b70-90e5-4d9f053723e1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Product Manager",
+    "uk": "Senior Product Manager"
+  },
+  "role_title_raw": "Senior Product Manager (Contract, Remote)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product strategy",
+    "roadmap",
+    "stakeholder management",
+    "analytics",
+    "experimentation",
+    "Product Management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": "Sumy",
+    "city_uk": "Суми",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": [
+    "contract role, not permanent"
+  ]
+}

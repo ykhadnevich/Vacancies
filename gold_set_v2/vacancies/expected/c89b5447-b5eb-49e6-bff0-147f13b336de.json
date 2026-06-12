@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "c89b5447-b5eb-49e6-bff0-147f13b336de",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Event Marketing Manager",
+    "uk": "Event Marketing Manager"
+  },
+  "role_title_raw": "Event Marketing Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "event marketing",
+    "B2B event management",
+    "budget management",
+    "logistics",
+    "cross-team coordination"
+  ],
+  "nice_to_have_skills": [
+    "fintech / payments domain"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

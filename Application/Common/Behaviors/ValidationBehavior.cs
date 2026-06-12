@@ -20,7 +20,7 @@ public class ValidationBehavior<TRequest, TResponse>
         CancellationToken ct)
     {
         if (!_validators.Any())
-            return await next();
+            return await next(ct);
 
         var context = new ValidationContext<TRequest>(request);
 
@@ -33,6 +33,6 @@ public class ValidationBehavior<TRequest, TResponse>
         if (failures.Any())
             throw new ValidationException(failures);
 
-        return await next();
+        return await next(ct);
     }
 }

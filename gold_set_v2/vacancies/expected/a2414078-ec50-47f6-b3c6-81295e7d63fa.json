@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "a2414078-ec50-47f6-b3c6-81295e7d63fa",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Full-Stack Engineer (PHP/Laravel, React)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "PHP",
+    "Laravel",
+    "React",
+    "REST API",
+    "JavaScript",
+    "TypeScript",
+    "CSS",
+    "MySQL"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "Docker",
+    "TDD",
+    "CI/CD",
+    "Team Leadership",
+    "Mentoring"
+  ],
+  "min_years_experience": 8,
+  "education_required": "bachelor",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": [
+    "transitions to part-time after initial period"
+  ]
+}

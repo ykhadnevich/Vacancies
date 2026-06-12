@@ -1,0 +1,54 @@
+{
+  "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior C# Backend Developer",
+    "uk": "Senior C# Backend розробник"
+  },
+  "role_title_raw": "Senior C# Backend Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "API design",
+    "databases",
+    "SQL",
+    "LINQ",
+    "microservices",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "RabbitMQ",
+    "Kafka",
+    "Prometheus",
+    "Grafana",
+    "Docker",
+    "gRPC",
+    "CI/CD",
+    "Clean Architecture",
+    "asynchronous programming",
+    "REST API",
+    "Git",
+    "unit testing"
+  ],
+  "nice_to_have_skills": [
+    "crypto industry experience",
+    "travel domain",
+    "Terraform"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "crypto",
+    "uk": "крипто"
+  },
+  "anti_requirements": []
+}

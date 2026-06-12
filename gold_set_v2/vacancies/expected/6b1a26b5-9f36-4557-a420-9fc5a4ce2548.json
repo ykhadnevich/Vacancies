@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Quantitative Data Scientist",
+    "uk": "Senior Quantitative Data Scientist"
+  },
+  "role_title_raw": "Senior Quantitative Data Scientist",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "quantitative analysis",
+    "FX trading",
+    "statistics",
+    "ML",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "BigQuery",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "Rust"
+  ],
+  "min_years_experience": null,
+  "education_required": "master",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

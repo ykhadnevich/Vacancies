@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Director of Product, Security & DevOps",
+    "uk": "Director of Product, Security & DevOps"
+  },
+  "role_title_raw": "Director of Product, Security & DevOps",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "product strategy",
+    "security",
+    "DevOps leadership",
+    "CMDB",
+    "cloud management",
+    "Salesforce",
+    "Google Cloud",
+    "product management",
+    "stakeholder management"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

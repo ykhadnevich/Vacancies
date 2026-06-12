@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "8c03a6e9-b372-4802-84be-7d939d6ccb5a",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Oracle / .NET Developer",
+    "uk": "Oracle / .NET розробник"
+  },
+  "role_title_raw": "Oracle Software Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Oracle PL/SQL",
+    "C#",
+    ".NET",
+    "databases",
+    "banking systems",
+    "ASP.NET Core",
+    "SQL",
+    "TDD",
+    "Docker",
+    "Oracle",
+    "automated testing",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes",
+    "high-load systems"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "b6d8744a-03c5-4ba3-80e2-b09b3988b8c3",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "IT Infrastructure Team Lead",
+    "uk": "IT Infrastructure Team Lead"
+  },
+  "role_title_raw": "IT Infrastructure Team Lead",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "IT architecture",
+    "IaC",
+    "BCDR",
+    "monitoring",
+    "incident management",
+    "team leadership",
+    "Azure",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Python",
+    "Bash"
+  ],
+  "nice_to_have_skills": [
+    "high-load systems"
+  ],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

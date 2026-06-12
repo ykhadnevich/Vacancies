@@ -1,0 +1,108 @@
+{
+  "agent": "B",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out, primary pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "8_healthcare_junior",
+      "n_pairs": 8,
+      "ratings": [
+        {
+          "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+          "role_title_en": "Product Owner",
+          "match_quality": 0,
+          "rationale": "Junior nurse (IV cannulation, wound care, EHR) vs Product Owner for crypto/PSP integrations — different professional family, zero PO/API experience."
+        },
+        {
+          "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+          "role_title_en": "Strong Junior Manual QA",
+          "match_quality": 0,
+          "rationale": "Nurse CV vs Manual QA (Postman, Swagger, REST, mobile testing) — no testing or technical skills, completely different field."
+        },
+        {
+          "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+          "role_title_en": "Data Analyst",
+          "match_quality": 0,
+          "rationale": "Nurse CV vs Data Analyst (SQL, BI, product analytics) — zero SQL or analytics experience, totally different profession."
+        },
+        {
+          "vacancy_id": "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+          "role_title_en": "Middle Frontend Developer",
+          "match_quality": 0,
+          "rationale": "Nurse CV vs React/JS frontend developer — no programming skills whatsoever, complete cross-field mismatch."
+        },
+        {
+          "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+          "role_title_en": "Senior .NET Developer",
+          "match_quality": 0,
+          "rationale": "Junior nurse vs Senior .NET fintech engineer — no C#/Azure/coding skills, also seniority gap, complete mismatch."
+        },
+        {
+          "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+          "role_title_en": "Junior / Middle Product Marketing Manager",
+          "match_quality": 0,
+          "rationale": "Nurse CV vs Product Marketing (A/B testing, Amplitude, monetization) — no marketing/analytics background, different professional family."
+        },
+        {
+          "vacancy_id": "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+          "role_title_en": "Senior Engineering Manager",
+          "match_quality": 0,
+          "rationale": "Junior nurse vs Senior Engineering Manager — no engineering background, lead seniority gap, completely different field."
+        },
+        {
+          "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+          "role_title_en": "ML Engineer",
+          "match_quality": 0,
+          "rationale": "Nurse CV vs ML Engineer (Python, TensorFlow, PyTorch, cloud) — zero ML or programming skills, total cross-field mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "n_pairs": 7,
+      "ratings": [
+        {
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "role_title_en": "Tech Lead .NET Developer",
+          "match_quality": 0,
+          "rationale": "Senior cardiologist (PCI, angiography) vs Tech Lead .NET — no C#/architecture/coding skills, completely different profession."
+        },
+        {
+          "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+          "role_title_en": "Product Owner",
+          "match_quality": 0,
+          "rationale": "Cardiologist CV vs crypto Product Owner — no product management, API or fintech experience, completely different field."
+        },
+        {
+          "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+          "role_title_en": "Junior / Middle Product Marketing Manager",
+          "match_quality": 0,
+          "rationale": "Senior cardiologist vs Product Marketing Manager (A/B testing, Amplitude) — no marketing background, different profession entirely."
+        },
+        {
+          "vacancy_id": "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+          "role_title_en": "Senior BI Developer",
+          "match_quality": 0,
+          "rationale": "Cardiologist vs Senior BI Developer (MS SQL, Tableau, T-SQL) — zero BI/SQL/data modeling skills, complete mismatch."
+        },
+        {
+          "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+          "role_title_en": "Middle Data Scientist",
+          "match_quality": 0,
+          "rationale": "Cardiologist vs Data Scientist (Python, ML, SQL) — no programming or ML background despite research adjacency, completely different field."
+        },
+        {
+          "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+          "role_title_en": "Senior Mobile Developer",
+          "match_quality": 0,
+          "rationale": "Cardiologist vs Senior Mobile Engineer (Swift, Flutter, iOS) — no mobile/coding skills whatsoever, total cross-field mismatch."
+        },
+        {
+          "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+          "role_title_en": "Mobile Games QA Tester",
+          "match_quality": 0,
+          "rationale": "Cardiologist vs Mobile Games QA Tester — no testing/gaming experience, completely different professional family."
+        }
+      ]
+    }
+  ]
+}

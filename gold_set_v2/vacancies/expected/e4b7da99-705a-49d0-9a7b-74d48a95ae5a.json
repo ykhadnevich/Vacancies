@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "e4b7da99-705a-49d0-9a7b-74d48a95ae5a",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Lead",
+    "uk": "Engineering Lead"
+  },
+  "role_title_raw": "Engineering Lead",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "backend engineering leadership",
+    "data workflows",
+    "platform reliability",
+    "scalability",
+    "team leadership",
+    "Python",
+    "AWS",
+    "Kubernetes",
+    "debugging"
+  ],
+  "nice_to_have_skills": [
+    "computer vision"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

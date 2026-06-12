@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior DevOps",
+    "uk": "Senior DevOps"
+  },
+  "role_title_raw": "Senior DevOps Engineer (Infrastructure, Security and Compliance)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "DevOps",
+    "IT security",
+    "compliance",
+    "ISO 27001",
+    "SOC 2",
+    "vendor management",
+    "cloud infrastructure",
+    "GCP",
+    "Kubernetes",
+    "Terraform",
+    "IAM"
+  ],
+  "nice_to_have_skills": [
+    "Python",
+    "Go"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

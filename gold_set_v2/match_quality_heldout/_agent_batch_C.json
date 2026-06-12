@@ -1,0 +1,41 @@
+[
+  {
+    "cv_id": "10_legal_mid_corporate_lawyer",
+    "vacancy_ids": [
+      "4d925c65-1549-445e-887c-cfb20ea016c0",
+      "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+      "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+      "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+      "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+      "15227172-726d-4cc6-8ab1-966690742f53",
+      "69a20796-a021-4479-8914-266f86212e21"
+    ]
+  },
+  {
+    "cv_id": "11_education_senior_teacher",
+    "vacancy_ids": [
+      "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+      "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+      "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+      "b1e435b2-21fe-4628-b239-0a945b66811e",
+      "58da89d8-5d4c-41cf-b443-d347b3744620",
+      "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+      "e951763c-d850-4182-9f63-64e19a3354f5",
+      "585161dc-1435-4472-9e0f-354d7d03c828"
+    ]
+  },
+  {
+    "cv_id": "12_finance_senior_accountant",
+    "vacancy_ids": [
+      "e7009e48-85a2-4062-9edb-2e6a02878203",
+      "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+      "d12c42fa-20a2-4828-895e-916488950dde",
+      "8298811a-423e-456d-bb00-f04f497adbf3",
+      "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+      "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+      "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "4265f244-a5ea-43c5-9daa-f9dd73f5089b",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "iOS Developer",
+    "uk": "iOS розробник"
+  },
+  "role_title_raw": "iOS Developer (Browser / WebKit)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Swift",
+    "WebKit",
+    "WKWebView",
+    "low-level customization",
+    "WebRTC",
+    "JavaScript injection",
+    "UIKit",
+    "iOS"
+  ],
+  "nice_to_have_skills": [
+    "Objective-C"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "browser/WebKit fork customization specialty"
+  ]
+}

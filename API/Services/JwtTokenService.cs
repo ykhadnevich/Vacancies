@@ -1,11 +1,12 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Application.Common.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
 namespace API.Services;
 
-public class JwtTokenService
+public class JwtTokenService : ITokenService
 {
     private readonly IConfiguration _config;
 

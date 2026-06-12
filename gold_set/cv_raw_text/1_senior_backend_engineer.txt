@@ -1,0 +1,74 @@
+Oleksandr Petrenko
+Senior Backend Engineer · .NET · 6 years
+Kyiv, Ukraine · open to remote
+o.petrenko@example.com · github.com/opetrenko · linkedin.com/in/opetrenko
+Summary
+Senior Backend Engineer з 6 роками комерційного досвіду розробки розподілених систем на
+.NET / C#. Спеціалізуюся на високонавантажених B2B SaaS платформах: projecting domain
+models, designing event-driven microservices, оптимізацією PostgreSQL під продакшн
+навантаження 50k+ requests/min. Останні два роки — ownership-роль у командах 5–8
+інженерів: technical roadmap, code review, менторинг middle-розробників.
+Experience
+Senior Software Engineer — Plextra Systems
+Mar 2024 — Present · Kyiv (remote) · PRODUCTION
+B2B SaaS для логістичних компаній (~200 enterprise клієнтів). Tech lead команди з 5
+backend-розробників.
+• Спроектував та реалізував нову платіжну підсистему на ASP.NET Core 8 + PostgreSQL
+16: idempotency keys, sagas через MassTransit, distributed transactions через outbox
+pattern. Перші 3 місяці — 0 production incidents.
+• Перевели monolith розрахунку тарифів на microservice; вийшли на p99 latency 120 ms
+при 5x попередньому обсязі запитів (12k → 60k RPM).
+• Інфраструктура на AWS (EKS, RDS, S3, SQS) з IaC через Terraform; CI/CD на GitHub Actions
+з blue-green deploy на staging + production.
+• Менторив 2 middle-розробників — обидва за 6 місяців промоутилися до senior.
+Software Engineer — Octopus Energy Ukraine
+Aug 2021 — Feb 2024 · Kyiv · PRODUCTION
+Розробка backend для retail energy management platform (B2C).
+• Реалізував SAML/OIDC integration з enterprise SSO providers для B2B порталу (Okta,
+AzureAD); згодом використовувалась і для customer-facing app.
+• Перевів legacy SOAP-інтеграції з distribution operators на gRPC; latency скоротилася в 4–5
+разів.
+• Працював зі складною доменною моделлю енергетичного ринку (metering points, tariff
+rules, time-of-use), писав unit + integration тести на xUnit + Testcontainers.
+• Стек: C# 10, ASP.NET Core, EF Core, PostgreSQL, Redis, Kafka, RabbitMQ.
+Junior Software Engineer — EPAM Systems
+Sep 2019 — Jul 2021 · Lviv · PRODUCTION
+Розробка backend в команді на проєкті для US-клієнта (insurance domain).
+• Підтримка та розвиток rules engine на .NET Framework 4.8 (legacy) з паралельним
+поступовим перенесенням окремих модулів на .NET Core.
+• Покрив unit-тестами критичні фрагменти rules engine: code coverage піднявся з 47% до
+78%.
+• Контакт з клієнтом по requirements clarification у щотижневих syncs.
+Software Engineering Intern — Eleks
+Jun 2018 — Aug 2018 · Lviv · INTERNSHIP
+Літній intern. Участь у proof-of-concept проєкті: WebAPI на ASP.NET Core + PostgreSQL для
+документообігу. Завдання: реалізація CRUD-ендпоїнтів, аутентифікація через JWT,
+написання Swagger-документації.
+
+Skills
+Languages & Frameworks: C# 11/12, .NET 6/7/8, ASP.NET Core, Entity Framework Core,
+MassTransit, gRPC, GraphQL (HotChocolate).
+Databases & Cache: PostgreSQL 13+ (advanced — partitioning, query planning, indexes), Redis,
+MongoDB.
+Messaging: RabbitMQ, Kafka (consumer groups, partitioning), AWS SQS.
+Cloud & Infra: AWS (EKS, RDS, S3, Lambda, SQS, CloudFront), Terraform, Helm, Docker,
+Kubernetes (production operator-level), GitHub Actions CI/CD.
+Architecture: Microservices, Event-Driven, DDD, CQRS, Clean Architecture, Hexagonal, SAGA
+pattern.
+Testing & Quality: xUnit, Testcontainers, Moq, k6 (load testing), pact (contract testing).
+Other: Linux administration, Bash, Prometheus / Grafana observability, ELK stack.
+Education
+National Technical University of Ukraine "Kyiv Polytechnic Institute" (KPI)
+Bachelor's in Software Engineering · 2015–2019 · Completed.
+Дипломна робота: "Розподілені системи реального часу для енергетичного диспетчингу"
+(пов'язана з подальшою роллю в Octopus Energy).
+Languages
+Ukrainian — native
+English — B2 (Upper-Intermediate), confident in technical communication + written
+documentation; experience working in distributed UK/US teams.
+Open Source / Personal Projects
+Contributor до open-source проєкту MassTransit — 2 merged PRs (bug fixes, docs).
+Особистий blog opetrenko.dev — 15+ technical posts про performance optimization, distributed
+systems patterns. ~5k monthly readers.
+Target Roles
+Senior Backend Engineer · Senior Software Engineer · Tech Lead (with hands-on coding)

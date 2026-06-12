@@ -1,0 +1,50 @@
+{
+  "vacancy_id": "9e0729ad-6ccd-4948-af56-a325f8fcead0",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Android Developer",
+    "uk": "Senior Android розробник"
+  },
+  "role_title_raw": "Senior Android Developer (Java, Kotlin)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Kotlin",
+    "Java",
+    "Android SDK",
+    "HMI",
+    "middleware",
+    "automotive platform",
+    "Android",
+    "multithreading",
+    "coroutines",
+    "Clean Architecture",
+    "CI/CD",
+    "Agile",
+    "Scrum",
+    "code review",
+    "performance optimization",
+    "asynchronous programming",
+    "MVVM",
+    "debugging",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Linux",
+    "Jetpack Compose"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "automotive",
+    "uk": "автомобільна сфера"
+  },
+  "anti_requirements": []
+}

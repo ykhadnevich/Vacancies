@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "0806777a-efc2-420b-9295-44b1de798eb9",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Marketing Manager",
+    "uk": "Product Marketing Manager"
+  },
+  "role_title_raw": "Product Marketing Manager",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product marketing",
+    "positioning",
+    "go-to-market",
+    "growth loops",
+    "B2B SaaS",
+    "analytics",
+    "experimentation",
+    "Looker",
+    "SaaS",
+    "ownership",
+    "AI tools",
+    "Amplitude",
+    "ChatGPT"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

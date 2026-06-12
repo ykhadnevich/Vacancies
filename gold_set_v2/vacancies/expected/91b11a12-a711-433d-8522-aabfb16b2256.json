@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "91b11a12-a711-433d-8522-aabfb16b2256",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior ML Scientist",
+    "uk": "Senior ML Scientist"
+  },
+  "role_title_raw": "Senior Machine Learning Scientist",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "ML research",
+    "large-scale production ML",
+    "fraud detection",
+    "model evaluation",
+    "ML",
+    "pandas",
+    "scikit-learn",
+    "Snowflake",
+    "AWS",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "Looker",
+    "API",
+    "mentoring"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

@@ -1,9 +1,9 @@
-import type { JobSearchParams } from './job'
+import type { JobSearchParams, ReasoningProvider } from './job'
 
 export interface SearchTab {
     id: string
-    label: string        // "java · Ukraine"
+    label: string
     searchParams: JobSearchParams
-    runMl: boolean
-    createdAt: number    // Date.now() — для сортування
+    analysisMode: ReasoningProvider
+    createdAt: number
 }

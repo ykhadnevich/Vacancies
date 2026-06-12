@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "923463ed-0b3e-4018-9d75-5f7eaec451c5",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Full Stack Developer with BE Focus (React, Next.js, Supabase, PostgreSQL)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "React",
+    "Next.js",
+    "Supabase",
+    "PostgreSQL",
+    "GraphQL",
+    "REST API",
+    "data modeling",
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Express.js"
+  ],
+  "nice_to_have_skills": [
+    "Node.js",
+    "React Native"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "2a605218-858a-4179-8219-c4a4032e6765",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Quality Specialist",
+    "uk": "Спеціаліст з якості"
+  },
+  "role_title_raw": "Фахівець з якості/ QA/QC Officer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "quality assurance",
+    "quality control",
+    "demining standards",
+    "field operations"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kharkiv",
+    "city_uk": "Харків",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "non-software QA — field demining quality"
+  ]
+}

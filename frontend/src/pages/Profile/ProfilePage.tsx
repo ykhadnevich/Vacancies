@@ -1,159 +1,296 @@
 import { useState, useEffect } from 'react'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { userApi } from '../../api/userApi'
+import { userApi, type CvStatus } from '../../api/userApi'
+import Card from '../../components/ui/Card'
+import Button from '../../components/ui/Button'
+import Badge from '../../components/ui/Badge'
+import Icon from '../../components/ui/Icon'
+import { useT } from '../../i18n/useT'
+import { useAuthStore } from '../../store/authStore'
+import type { UserRole } from '../../types/recruiter'
+
+function StatusBadge({ status }: { status: CvStatus }) {
+    const t = useT()
+    if (status === 'Ready') {
+        return <Badge color="success" size="md"><Icon name="check-circle" size={12} /> {t('profile.cvReady')}</Badge>
+    }
+    if (status === 'PendingNormalization') {
+        return <Badge color="warning" size="md"><Icon name="alert-circle" size={12} /> {t('profile.cvPending')}</Badge>
+    }
+    if (status === 'Failed') {
+        return <Badge color="danger" size="md"><Icon name="alert-circle" size={12} /> {t('common.error')}</Badge>
+    }
+    return <Badge color="neutral" size="md">—</Badge>
+}
 
 function ProfilePage() {
     const queryClient = useQueryClient()
+    const t = useT()
+    const { role: storeRole, setRole: setStoreRole } = useAuthStore()
 
     const { data: profile, isLoading } = useQuery({
         queryKey: ['profile'],
-        queryFn: userApi.getProfile,
+        queryFn:  userApi.getProfile,
+    })
+
+    // Hydrate the auth store with the server-truth role whenever the profile
+    // refetches — the JWT itself does not carry the role today.
+    useEffect(() => {
+        if (profile?.role && profile.role !== storeRole) {
+            setStoreRole(profile.role)
+        }
+    }, [profile?.role, storeRole, setStoreRole])
+
+    const setRoleMut = useMutation({
+        mutationFn: (next: UserRole) => userApi.setRole(next),
+        onSuccess: (res) => {
+            setStoreRole(res.role, res.token)
+            queryClient.invalidateQueries({ queryKey: ['profile'] })
+        },
+    })
+
+    const { data: cvStatus } = useQuery({
+        queryKey: ['cvStatus'],
+        queryFn:  userApi.getCvStatus,
+        refetchInterval: (q) => q.state.data?.status === 'PendingNormalization' ? 3000 : false,
     })
 
     const [displayName, setDisplayName] = useState('')
-    const [cvFile, setCvFile] = useState<File | null>(null)
-    const [saveStatus, setSaveStatus] = useState<'idle' | 'saved' | 'error'>('idle')
+    const [saveState, setSaveState] = useState<'idle' | 'saved' | 'error'>('idle')
 
     useEffect(() => {
-        if (!profile) return
-        setDisplayName(profile.displayName ?? '')
+        if (profile) setDisplayName(profile.displayName ?? '')
     }, [profile])
 
     const saveMutation = useMutation({
-        mutationFn: () =>
-            userApi.updatePreferences({
-                displayName,
-                skills: profile?.skills ?? [],
-                seniorityLevel: profile?.seniorityLevel ?? 5,
-            }),
+        mutationFn: () => userApi.updatePreferences({
+            displayName,
+            skills:         profile?.skills ?? [],
+            seniorityLevel: profile?.seniorityLevel ?? 2,
+        }),
         onSuccess: () => {
             queryClient.invalidateQueries({ queryKey: ['profile'] })
-            setSaveStatus('saved')
-            setTimeout(() => setSaveStatus('idle'), 2500)
+            setSaveState('saved')
+            setTimeout(() => setSaveState('idle'), 2500)
         },
         onError: () => {
-            setSaveStatus('error')
-            setTimeout(() => setSaveStatus('idle'), 3000)
+            setSaveState('error')
+            setTimeout(() => setSaveState('idle'), 3000)
         },
     })
 
-    const cvMutation = useMutation({
+    const uploadMutation = useMutation({
         mutationFn: (file: File) => userApi.uploadCv(file),
-        onSuccess: () => {
+        onSuccess:  () => {
             queryClient.invalidateQueries({ queryKey: ['profile'] })
+            queryClient.invalidateQueries({ queryKey: ['cvStatus'] })
+
+
+            normalizeMutation.mutate()
         },
     })
 
-    const handleCvChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const normalizeMutation = useMutation({
+        mutationFn: () => userApi.normalizeCv(),
+        onSuccess:  () => {
+            queryClient.invalidateQueries({ queryKey: ['profile'] })
+            queryClient.invalidateQueries({ queryKey: ['cvStatus'] })
+            queryClient.invalidateQueries({ queryKey: ['jobs'] })
+        },
+    })
+
+    const onFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0]
         if (file && file.type === 'application/pdf') {
-            setCvFile(file)
-            cvMutation.mutate(file)
+            uploadMutation.mutate(file)
         }
-    }
-
-    const inputStyle: React.CSSProperties = {
-        width: '100%',
-        padding: '10px 14px',
-        borderRadius: 8,
-        border: '1px solid #e5e7eb',
-        fontSize: 15,
-        boxSizing: 'border-box',
-        outline: 'none',
-        background: '#fff',
-    }
-
-    const labelStyle: React.CSSProperties = {
-        fontSize: 13,
-        fontWeight: 600,
-        color: '#6b7280',
-        marginBottom: 6,
-        display: 'block',
-        textTransform: 'uppercase',
-        letterSpacing: '0.04em',
     }
 
     if (isLoading) {
         return (
-            <div style={{ maxWidth: 560, margin: '0 auto', padding: '48px 16px', textAlign: 'center', color: '#9ca3af' }}>
+            <div style={{ maxWidth: 560, margin: '0 auto', padding: '48px 16px', textAlign: 'center', color: 'var(--color-text-tertiary)' }}>
                 Завантаження профілю…
             </div>
         )
     }
 
-    const cvUploaded = !!(cvFile || profile?.hasCv)
-    const cvLabel = cvMutation.isPending
-        ? '⏳ Завантаження…'
-        : cvFile
-        ? `✓ ${cvFile.name}`
-        : profile?.hasCv && profile.cvFileName
-        ? `✓ ${profile.cvFileName}`
-        : '📄 Завантажити CV (PDF)'
-
-    const cvColor = cvMutation.isPending ? '#d97706' : cvUploaded ? '#16a34a' : '#2563eb'
-    const cvBg   = cvMutation.isPending ? '#fffbeb'  : cvUploaded ? '#f0fdf4' : '#eff6ff'
-    const cvBorder = cvMutation.isPending ? '#fbbf24' : cvUploaded ? '#16a34a' : '#93c5fd'
+    const status: CvStatus = cvStatus?.status ?? 'NoCv'
+    const cvProcessing = uploadMutation.isPending || normalizeMutation.isPending
 
     return (
-        <div style={{ maxWidth: 560, margin: '0 auto', padding: '28px 16px' }}>
+        <div style={{ width: '100%', maxWidth: 'var(--max-width-narrow)', margin: '0 auto', padding: '32px 16px', display: 'flex', flexDirection: 'column', gap: 20 }}>
 
-            {/* Header */}
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 24 }}>
+            {}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 4 }}>
                 <div>
-                    <h2 style={{ margin: 0, fontSize: 22, fontWeight: 700 }}>
-                        {profile?.displayName || 'Мій профіль'}
-                    </h2>
-                    <p style={{ margin: '4px 0 0', color: '#6b7280', fontSize: 14 }}>{profile?.email}</p>
-                </div>
-
-                <button
-                    onClick={() => saveMutation.mutate()}
-                    disabled={saveMutation.isPending}
-                    style={{
-                        padding: '10px 22px', borderRadius: 8, fontSize: 14, cursor: 'pointer',
-                        background: saveStatus === 'saved' ? '#16a34a' : saveStatus === 'error' ? '#dc2626' : '#2563eb',
-                        color: '#fff', border: 'none', fontWeight: 600,
-                        transition: 'background 0.2s',
-                        opacity: saveMutation.isPending ? 0.7 : 1,
-                    }}>
-                    {saveMutation.isPending ? 'Збереження…' : saveStatus === 'saved' ? '✓ Збережено' : saveStatus === 'error' ? '✗ Помилка' : 'Зберегти'}
-                </button>
-            </div>
-
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-
-                {/* Name */}
-                <div style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 12, padding: 24 }}>
-                    <label style={labelStyle}>Ім'я</label>
-                    <input
-                        style={inputStyle}
-                        value={displayName}
-                        onChange={e => setDisplayName(e.target.value)}
-                        placeholder="Як вас звати?"
-                    />
-                </div>
-
-                {/* CV */}
-                <div style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 12, padding: 24 }}>
-                    <label style={labelStyle}>CV (PDF)</label>
-                    <label style={{
-                        display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        gap: 12, padding: '22px', borderRadius: 8,
-                        cursor: cvMutation.isPending ? 'default' : 'pointer',
-                        border: `2px dashed ${cvBorder}`,
-                        background: cvBg, color: cvColor,
-                        fontWeight: 600, fontSize: 15,
-                        transition: 'all 0.2s',
-                    }}>
-                        <input type="file" accept=".pdf" onChange={handleCvChange} style={{ display: 'none' }} disabled={cvMutation.isPending} />
-                        {cvLabel}
-                    </label>
-                    <p style={{ color: '#9ca3af', fontSize: 13, margin: '8px 0 0' }}>
-                        {cvUploaded ? 'Натисніть щоб замінити' : 'ML-аналіз вакансій базується на вашому CV'}
+                    <h1 style={{ fontSize: 'var(--text-2xl)', margin: 0 }}>
+                        {profile?.displayName || 'Профіль'}
+                    </h1>
+                    <p style={{ margin: '4px 0 0', color: 'var(--color-text-secondary)', fontSize: 'var(--text-md)' }}>
+                        {profile?.email}
                     </p>
                 </div>
-
+                <Button
+                    variant={saveState === 'saved' ? 'secondary' : 'primary'}
+                    onClick={() => saveMutation.mutate()}
+                    isLoading={saveMutation.isPending}
+                >
+                    {saveState === 'saved' ? t('profile.saved') : saveState === 'error' ? t('common.error') : t('profile.save')}
+                </Button>
             </div>
+
+            {}
+            <Card padding="lg">
+                <label style={{
+                    display:        'block',
+                    fontSize:       'var(--text-xs)',
+                    textTransform:  'uppercase',
+                    letterSpacing:  '0.06em',
+                    color:          'var(--color-text-tertiary)',
+                    marginBottom:   8,
+                    fontWeight:     'var(--font-weight-medium)' as unknown as number,
+                }}>
+                    {t('profile.name')}
+                </label>
+                <input
+                    value={displayName}
+                    onChange={(e) => setDisplayName(e.target.value)}
+                    placeholder={t('auth.displayNamePlaceholder')}
+                    style={{
+                        width:          '100%',
+                        padding:        '10px 14px',
+                        fontSize:       'var(--text-md)',
+                        fontFamily:     'inherit',
+                        color:          'var(--color-text-primary)',
+                        background:     'var(--color-bg-surface)',
+                        border:         '1px solid var(--color-border-default)',
+                        borderRadius:   'var(--radius-md)',
+                        outline:        'none',
+                    }}
+                    onFocus={(e) => {
+                        e.currentTarget.style.borderColor = 'var(--color-primary-500)'
+                        e.currentTarget.style.boxShadow   = '0 0 0 3px var(--color-primary-100)'
+                    }}
+                    onBlur={(e) => {
+                        e.currentTarget.style.borderColor = 'var(--color-border-default)'
+                        e.currentTarget.style.boxShadow   = 'none'
+                    }}
+                />
+            </Card>
+
+            {}
+            <Card padding="lg">
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 12 }}>
+                    <label style={{
+                        fontSize:       'var(--text-xs)',
+                        textTransform:  'uppercase',
+                        letterSpacing:  '0.06em',
+                        color:          'var(--color-text-tertiary)',
+                        fontWeight:     'var(--font-weight-medium)' as unknown as number,
+                    }}>
+                        {t('profile.cv')}
+                    </label>
+                    <StatusBadge status={cvProcessing ? 'PendingNormalization' : status} />
+                </div>
+
+                {}
+                <label style={{
+                    display:        'flex',
+                    alignItems:     'center',
+                    justifyContent: 'center',
+                    gap:            10,
+                    padding:        '20px',
+                    borderRadius:   'var(--radius-md)',
+                    cursor:         cvProcessing ? 'wait' : 'pointer',
+                    border:         '1px dashed var(--color-border-strong)',
+                    background:     'var(--color-bg-muted)',
+                    color:          'var(--color-text-secondary)',
+                    fontSize:       'var(--text-md)',
+                    transition:     'all var(--transition-fast)',
+                }}>
+                    <input type="file" accept=".pdf" onChange={onFileChange} disabled={cvProcessing}
+                        style={{ display: 'none' }} />
+                    <Icon name={profile?.hasCv ? 'file-text' : 'upload'} size={18} />
+                    <span>
+                        {uploadMutation.isPending
+                            ? t('common.loading')
+                            : profile?.cvFileName
+                                ? profile.cvFileName
+                                : t('profile.cvUpload')}
+                    </span>
+                </label>
+
+                {}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 12, gap: 12, flexWrap: 'wrap' }}>
+                    <p style={{ margin: 0, color: 'var(--color-text-tertiary)', fontSize: 'var(--text-sm)', flex: 1 }}>
+                        {status === 'Ready'
+                            ? t('profile.cvProcessed')
+                            : status === 'PendingNormalization'
+                                ? t('profile.cvPending')
+                                : status === 'Failed'
+                                    ? t('common.error')
+                                    : ''}
+                    </p>
+
+                    {profile?.hasCv && status !== 'Ready' && (
+                        <Button
+                            size="sm"
+                            variant="secondary"
+                            onClick={() => normalizeMutation.mutate()}
+                            isLoading={normalizeMutation.isPending}
+                            leftIcon={<Icon name="sparkle" size={14} />}
+                        >
+                            {normalizeMutation.isPending ? 'Обробляємо…' : 'Обробити'}
+                        </Button>
+                    )}
+                </div>
+
+                {normalizeMutation.isError && (
+                    <p style={{ marginTop: 8, fontSize: 'var(--text-sm)', color: 'var(--color-danger-600)' }}>
+                        Не вдалося обробити резюме. Перевірте з’єднання з сервером.
+                    </p>
+                )}
+            </Card>
+
+            {/* Recruiter cabinet activation */}
+            <Card padding="lg">
+                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 16 }}>
+                    <div style={{ flex: 1 }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                            <Icon name="briefcase" size={16} color="var(--color-text-secondary)" />
+                            <span style={{ fontSize: 'var(--text-md)', fontWeight: 600, color: 'var(--color-text-primary)' }}>
+                                {t('recruiter.activate.title')}
+                            </span>
+                            {(storeRole === 'Recruiter' || storeRole === 'Both') && (
+                                <Badge color="success" size="sm">
+                                    <Icon name="check-circle" size={11} /> {t('recruiter.activate.active')}
+                                </Badge>
+                            )}
+                        </div>
+                        <p style={{ margin: 0, fontSize: 'var(--text-sm)', color: 'var(--color-text-secondary)' }}>
+                            {t('recruiter.activate.description')}
+                        </p>
+                    </div>
+                    {storeRole === 'Candidate' ? (
+                        <Button
+                            onClick={() => setRoleMut.mutate('Both')}
+                            isLoading={setRoleMut.isPending}
+                            leftIcon={<Icon name="plus" size={14} />}
+                        >
+                            {t('recruiter.activate.cta')}
+                        </Button>
+                    ) : (
+                        <Button
+                            variant="secondary"
+                            onClick={() => setRoleMut.mutate('Candidate')}
+                            isLoading={setRoleMut.isPending}
+                        >
+                            {t('recruiter.activate.deactivate')}
+                        </Button>
+                    )}
+                </div>
+            </Card>
+
         </div>
     )
 }

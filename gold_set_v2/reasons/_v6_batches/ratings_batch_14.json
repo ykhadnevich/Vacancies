@@ -1,0 +1,621 @@
+{
+ "batch_idx": 14,
+ "ratings": [
+  {
+   "cv_id": "13_ml_senior_engineer",
+   "vacancy_id": "886a40a7-50d9-43d1-b38a-244903aae0ee",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain claim plausible (consulting vs Grammarly/Genesis). LangChain/LlamaIndex listed in gaps are real missing. Misses overqualification context (Senior ML→Senior AI). Strengths AWS, Python correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 4,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Role family transition noted explicitly. But 'Senior overqualified for senior AI Engineer' is FACTUALLY WRONG — both are senior, no overqualification (factual=4). Strengths/gaps accurate. Good actionable framing if not for the seniority error."
+   }
+  },
+  {
+   "cv_id": "13_ml_senior_engineer",
+   "vacancy_id": "fc5d3bd0-0fde-4d6f-9220-169f0b98ed7d",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Role family transition correct. Strengths AWS/GCP and gap LLMs/Azure are correct. Missed mentioning Kubernetes/Docker (more critical gaps than Azure)."
+   },
+   "candidate_B": {
+    "factual_accuracy": 2,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for junior role' is FABRICATED — vacancy required senior, not junior (factual=2). Role family note correct but the seniority claim is misleading."
+   }
+  },
+  {
+   "cv_id": "14_frontend_mid_react",
+   "vacancy_id": "f9174250-646e-4845-9610-d8dc4efb954c",
+   "candidate_A": {
+    "factual_accuracy": 4,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "'Overqualified' is FABRICATED — vacancy seniority not_specified, CV is middle. Cross-domain (government?) odd given role is gamedev ads. JavaScript strength + Three.js/Babylon.js gaps correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 4,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Role family transition explicit. But 'Middle overqualified for Playable Ads role' is FABRICATED — seniority_required not_specified (factual=4). Strengths/gaps accurate."
+   }
+  },
+  {
+   "cv_id": "15_qa_senior_automation",
+   "vacancy_id": "6a47a8ba-138d-4d6b-ad39-8f7b913f95bb",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for Backend Manual QA' — fabricated since seniority not_specified, but salient signal that automation senior applying to manual QA is questionable (borderline). Strengths and gaps accurate."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "All claims factual. But missed salient seniority/domain context (automation Senior→Manual QA) — under-informative. Strengths Postman/Grafana + gaps Swagger/Charles correct."
+   }
+  },
+  {
+   "cv_id": "17_realformat_swe_fullstack",
+   "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+   "candidate_A": {
+    "factual_accuracy": 4,
+    "completeness": 8,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Role family transition note correct. But 'Middle Fullstack Developer / AI Adoption Lead' adds 'Middle' as a label which is wrong (vacancy seniority_required=senior, role title is just 'Fullstack/AI Lead'). Strengths/gaps correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Generic 'Role family mismatch' phrasing. Strengths/gaps accurate. Missed senior requirement vs middle CV context (CV is middle, vacancy senior — underqualification signal not noted)."
+   }
+  },
+  {
+   "cv_id": "17_realformat_swe_fullstack",
+   "vacancy_id": "b855ffc9-c236-4f56-ad08-c338a27bc0c4",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Verdict Mismatch correct (0.11). Strengths/gaps accurate. Missed military-service anti_flag triggered (salient!) and missed DefTech domain transition."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Same as A — identical text. Mismatch verdict correct. Missed anti-flag (military service) which is critical for user."
+   }
+  },
+  {
+   "cv_id": "19_mobile_ios_mid",
+   "vacancy_id": "776f2b42-8d59-4a57-9631-dd65e54d2ee5",
+   "candidate_A": {
+    "factual_accuracy": 4,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain to iGaming valid. But listing 'iOS development' as a Gap is FACTUALLY WRONG — CV is iOS specialist with Swift/SwiftUI/UIKit. Missed underqualification (Middle CV vs Lead vacancy 6+ years) context."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 4,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "Factual but minimal. Misses critical Lead vs Middle gap + iGaming cross-domain + Affiliate Marketing. Too thin for actionable decision."
+   }
+  },
+  {
+   "cv_id": "1_senior_backend_engineer",
+   "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Role family note Backend→.NET is borderline (both .NET backend). Strengths .NET/AWS and gaps ООП/SOLID correct from evidence. Both senior, score 0.64 partial reasonable."
+   },
+   "candidate_B": {
+    "factual_accuracy": 8,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Generic 'Role family mismatch'. Same evidence basis, less specific phrasing. SQL added to gaps (correct from evidence). Less context-lead detail."
+   }
+  },
+  {
+   "cv_id": "1_senior_backend_engineer",
+   "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain C#→fintech valid (CV is energy/SaaS). But SQL gap claim — CV has PostgreSQL+SQL Server, slightly inaccurate. Azure gap correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 6,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Senior Backend→Senior Software Developer is questionable role family note (both senior backend). Cross-domain fintech valid. NServiceBus gap accurate. SQL gap weakly accurate. Better coverage."
+   }
+  },
+  {
+   "cv_id": "20_mobile_android_senior",
+   "vacancy_id": "f0c9a922-3edb-433a-b340-3d0414262c2c",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 10,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Overqualification correct (Senior CV → Junior Kotlin role). Cross-domain iGaming correct. Strengths Kotlin/Coroutines + gaps ООП/JSON accurate. Strong actionable framing."
+   },
+   "candidate_B": {
+    "factual_accuracy": 8,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Role family Android Engineer → Kotlin Developer reasonable (Android primarily Kotlin). Overqualification correct. Misses iGaming domain context."
+   }
+  },
+  {
+   "cv_id": "22_data_engineer_senior",
+   "vacancy_id": "6b1a26b5-9f36-4557-a420-9fc5a4ce2548",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain Python/SQL→fintech correct. Strengths Python/SQL/BigQuery + gaps NumPy/Scikit-learn/PyTorch/TensorFlow all factual. Missed role family DE→Quant DS context."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 10,
+    "specificity": 10,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Both contexts (role family DE→Quant DS + cross-domain fintech) explicit. Strengths/gaps accurate. Pair-unique phrasing. Excellent actionable framing."
+   }
+  },
+  {
+   "cv_id": "2_mid_data_analyst",
+   "vacancy_id": "e94352ac-8743-4218-a2a6-2a6e7c34f3bc",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 4,
+    "specificity": 4,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "Factually OK but minimalistic. Misses telecom cross-domain context, hybrid location. SQL strength correct, ML gap correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 2,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for junior role' is COMPLETELY FABRICATED — CV is middle, vacancy seniority not_specified, no junior framing. Cross-domain telecom valid."
+   }
+  },
+  {
+   "cv_id": "4_senior_product_manager",
+   "vacancy_id": "9a897ce1-5611-457b-8528-44b176fd3cab",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for Product Manager' is FABRICATED — seniority_required=not_specified. Strengths Amplitude/Mixpanel correct. B2B/SaaS gaps correct but CV does have B2B SaaS GTM (slight inaccuracy)."
+   },
+   "candidate_B": {
+    "factual_accuracy": 6,
+    "completeness": 10,
+    "specificity": 10,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Same overqualification fabrication issue (seniority_required not_specified). But adds product discovery strength + A/B tests gap. CV does mention B2B SaaS GTM as skill — gap claim partially inaccurate."
+   }
+  },
+  {
+   "cv_id": "5_junior_backend_engineer",
+   "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Underqualified 2yr correct (junior→senior). Strengths C#/.NET/PostgreSQL accurate. 'async' gap is WRONG — CV has async/await. Distributed/concurrency gaps correct. Missed iGaming domain."
+   },
+   "candidate_B": {
+    "factual_accuracy": 6,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Underqualified and role family notes both correct. 'async' gap inaccurate (CV has async/await). Other gaps correct. Adds role family note."
+   }
+  },
+  {
+   "cv_id": "5_junior_backend_engineer",
+   "vacancy_id": "87451c8f-0db8-43c8-bac2-52381453653b",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain insurance valid. SQL gap is WRONG — CV has SQL/SQL Server. T-SQL gap accurate (CV doesn't list T-SQL specifically). Strengths C#/.NET correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 6,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Generic 'cross-domain transition' less specific. Same SQL gap inaccuracy (CV has SQL). Adds Git strength + API gap. Missed bachelor education match."
+   }
+  },
+  {
+   "cv_id": "7_devops_senior",
+   "vacancy_id": "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for DevOps role' — fabricated since seniority not_specified, but signal that role is generic DevOps. Strengths AWS/EKS/Lambda + gaps ECS/JIRA/MySQL accurate."
+   },
+   "candidate_B": {
+    "factual_accuracy": 6,
+    "completeness": 6,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Same overqualification fabrication issue. Less detail (2 strengths, 2 gaps vs 3 each)."
+   }
+  },
+  {
+   "cv_id": "yan_pm",
+   "vacancy_id": "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 10,
+    "specificity": 10,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Role family PM→SMM correct + cross-domain healthcare correct. Gaps SMM/Instagram/Facebook accurate. 'Strengths: role alignment' borderline — no actual matched skills. Solid actionable framing."
+   },
+   "candidate_B": {
+    "factual_accuracy": 4,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "'Underqualified by 2 years' — CV has no real product experience, vacancy needs 2yr SMM, so technically valid but specific year claim weak. 'Strengths: language requirements, role alignment' fabricated — no matched skills evidence."
+   }
+  },
+  {
+   "cv_id": "13_ml_senior_engineer",
+   "vacancy_id": "d72cbe9a-c794-47fd-aefe-237b03611936",
+   "candidate_A": {
+    "factual_accuracy": 4,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for role' is FABRICATED — CV senior, vacancy senior, exact match. Strengths Python/PyTorch/TF + gaps MLOps/SageMaker accurate. Strong verdict correct."
+   },
+   "candidate_B": {
+    "factual_accuracy": 4,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for senior ML Engineer role' explicitly wrong (both senior). Strengths/gaps accurate. Strong verdict correct."
+   }
+  },
+  {
+   "cv_id": "19_mobile_ios_mid",
+   "vacancy_id": "2c329996-85c5-4956-b9a7-cac4c46a45ef",
+   "candidate_A": {
+    "factual_accuracy": 2,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "'Middle overqualified for middle iOS Developer role' — CONTRADICTORY (middle for middle = exact match). MVVM gap wrong (CV has MVVM-Coordinator). Cross-domain claim weird (CV consumer apps, vacancy healthcare — direction inverted)."
+   },
+   "candidate_B": {
+    "factual_accuracy": 2,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for junior role' — completely WRONG (CV is middle, vacancy needs 5yr no seniority specified). 'Cross-domain consumer apps→SwiftUI' nonsense (SwiftUI is a tech not domain). MVVM gap wrong."
+   }
+  },
+  {
+   "cv_id": "1_senior_backend_engineer",
+   "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+   "candidate_A": {
+    "factual_accuracy": 6,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain e-commerce — vacancy domain is 'consulting' not e-commerce, FABRICATED context. Strengths C#/.NET/AWS + gaps EC2/SNS/Go correct. Missed underqualification (Senior CV → Lead role, 5yr min)."
+   },
+   "candidate_B": {
+    "factual_accuracy": 6,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Same e-commerce context error (domain is consulting). Same strengths/gaps. Both essentially identical reasons. Missed Lead role gap (CV senior)."
+   }
+  },
+  {
+   "cv_id": "22_data_engineer_senior",
+   "vacancy_id": "652bba37-6fd1-4b69-8d78-4aad7264cd37",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain Python→retail correct. Strengths SQL/BigQuery + gaps SCD/CDC accurate. Missed potential overqualification (Senior DE → generic Data Engineer)."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Same content as A with more specific cross-domain phrasing (Python/SQL/Spark→retail). Same factual accuracy."
+   }
+  },
+  {
+   "cv_id": "2_mid_data_analyst",
+   "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Strong match verdict correct (0.82). Strengths SQL/Python/Pandas + gaps BI/statistical methods accurate. Middle CV → Middle role exact alignment — no context-flag needed."
+   },
+   "candidate_B": {
+    "factual_accuracy": 2,
+    "completeness": 8,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "'Senior overqualified for junior role' is BLATANT FABRICATION — CV is middle, vacancy is middle, exact match. Cross-domain consulting plausible but unnecessary. Statistical methods gap is true."
+   }
+  },
+  {
+   "cv_id": "7_devops_senior",
+   "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 10,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Overqualification correct (Senior CV → Middle role). Strong verdict correct (0.83). Strengths AWS/Terraform + gaps Linux/PostgreSQL accurate. Linux gap odd given CV has Linux admin."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 8,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Same overqualification correct, generic 'middle role' less specific. Same gaps. Linux gap inaccurate same way."
+   }
+  },
+  {
+   "cv_id": "15_qa_senior_automation",
+   "vacancy_id": "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain e-commerce correct. Strengths Playwright/Java + gaps Scrum/Agile/Manual QA. Missed onsite anti_flag (Kryvyi Rih/Shostka — critical!). Missed senior automation → manual QA overqualification."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 4,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 4,
+    "uk_term_preservation": 10,
+    "rationale": "Factually accurate but minimal. Missed critical onsite anti_flag, missed Magento gap, missed cross-domain context, missed senior automation→manual role mismatch."
+   }
+  },
+  {
+   "cv_id": "19_mobile_ios_mid",
+   "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+   "candidate_A": {
+    "factual_accuracy": 10,
+    "completeness": 10,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Role family iOS→Flutter correct. Weak match correct (0.30). Strengths Git/Sentry + gaps Flutter/Dart accurate. Anti-flag 'unpaid position' surfaced — critical actionable. Excellent."
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 10,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Same content with slightly different phrasing. Role family + anti-flag both surfaced. Equivalent quality."
+   }
+  },
+  {
+   "cv_id": "22_data_engineer_senior",
+   "vacancy_id": "795db424-ce9f-46a2-bdcf-9a337742115d",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 6,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Cross-domain DefTech correct. Strengths Python/pandas + gaps NumPy/R/DS accurate. MISSED critical anti_flag 'military service position' — critical actionable info!"
+   },
+   "candidate_B": {
+    "factual_accuracy": 10,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 6,
+    "uk_term_preservation": 10,
+    "rationale": "Role family DE→DS correct + cross-domain DefTech correct. Same strengths/gaps. Same critical miss: military service anti_flag not surfaced."
+   }
+  },
+  {
+   "cv_id": "5_junior_backend_engineer",
+   "vacancy_id": "ec9c676d-8504-4123-aac0-038fc306fcf7",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 8,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Underqualified 2yr correct (junior→senior, 5yr min). Strengths .NET/C# + gaps Vue.js/SQL/Manufacturing accurate. SQL gap slightly inaccurate (CV has SQL Server). Missed logistics domain context."
+   },
+   "candidate_B": {
+    "factual_accuracy": 8,
+    "completeness": 8,
+    "specificity": 6,
+    "verdict_match": 10,
+    "relevance_for_user": 8,
+    "uk_term_preservation": 10,
+    "rationale": "Both underqualified + cross-domain noted. Same SQL gap inaccuracy. Less specific (no Manufacturing mention)."
+   }
+  },
+  {
+   "cv_id": "yan_pm",
+   "vacancy_id": "ea48f066-6a13-443f-b34c-263c386fd837",
+   "candidate_A": {
+    "factual_accuracy": 8,
+    "completeness": 10,
+    "specificity": 8,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Underqualified (5yr min, CV junior), cross-domain, role family all valid signals. '2 years' specific claim weak — gap much larger. Gaps Shopify/ClickUp/e-commerce/operations accurate. Strong actionable framing."
+   },
+   "candidate_B": {
+    "factual_accuracy": 8,
+    "completeness": 10,
+    "specificity": 10,
+    "verdict_match": 10,
+    "relevance_for_user": 10,
+    "uk_term_preservation": 10,
+    "rationale": "Explicit role family PM→COO + 2yr underqualified. Gaps accurate. Pair-unique phrasing with role names. Excellent actionable framing."
+   }
+  }
+ ]
+}

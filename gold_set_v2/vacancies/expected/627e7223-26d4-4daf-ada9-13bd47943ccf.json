@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Full Stack Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Node.js",
+    "NestJS",
+    "React",
+    "Next.js",
+    "MongoDB",
+    "PostgreSQL",
+    "Kafka",
+    "Redis",
+    "GraphQL",
+    "Apollo Federation",
+    "microservices",
+    "event-driven architecture",
+    "AI-assisted development",
+    "Tailwind",
+    "Terraform",
+    "Kubernetes",
+    "Docker",
+    "design patterns",
+    "performance optimization"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

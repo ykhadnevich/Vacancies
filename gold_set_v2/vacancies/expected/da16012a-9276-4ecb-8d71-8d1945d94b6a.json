@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "da16012a-9276-4ecb-8d71-8d1945d94b6a",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "C#/.NET Developer",
+    "uk": "C#/.NET розробник"
+  },
+  "role_title_raw": "C#/.NET Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    ".NET MAUI",
+    "backend integrations",
+    "REST API",
+    "Clean Architecture",
+    "SOLID",
+    "MVVM",
+    "MVC",
+    "HTTP",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "SQLite",
+    "EF Core",
+    "CI/CD",
+    "GitHub Actions",
+    "Azure DevOps",
+    "Firebase",
+    "Unit Testing"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Odesa",
+    "city_uk": "Одеса",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,77 @@
+{
+  "seniority": "senior",
+  "target_roles": ["Senior Product Manager", "Principal Product Manager", "Head of Product"],
+  "domain_skills": [
+    "Product discovery",
+    "User interviews",
+    "Design partners",
+    "Roadmapping",
+    "OKR",
+    "North-star metrics",
+    "PRD writing",
+    "RFC writing",
+    "RICE prioritization",
+    "MoSCoW prioritization",
+    "Sprint planning",
+    "Retrospectives",
+    "A/B testing design",
+    "Sample size",
+    "MDE",
+    "Sequential testing",
+    "Causal inference",
+    "Cohort analysis",
+    "Funnel decomposition",
+    "Retention curves",
+    "Amplitude",
+    "Mixpanel",
+    "Tableau",
+    "SQL",
+    "Notion",
+    "Linear",
+    "Figma",
+    "Postman",
+    "Stripe Billing",
+    "GrowthBook",
+    "ContentSquare",
+    "Jira",
+    "Confluence",
+    "Multi-currency support",
+    "Smart Tariff Switching",
+    "B2B SaaS GTM",
+    "API products",
+    "Fintech basics",
+    "Payment rails",
+    "Energy retail",
+    "Dynamic pricing"
+  ],
+  "technical_skills": [
+    "Looker"
+  ],
+  "unverified_skills": [
+    "Cross-functional leadership",
+    "C-level communication",
+    "Async-first documentation"
+  ],
+  "experience": [
+    {"title": "Fintech Pulse", "type": "PRODUCTION", "duration_months": 28, "years_ago": 0},
+    {"title": "Octopus Energy Ukraine", "type": "PRODUCTION", "duration_months": 21, "years_ago": 2},
+    {"title": "EPAM Systems", "type": "PRODUCTION", "duration_months": 24, "years_ago": 4},
+    {"title": "Genesis Investments", "type": "INTERNSHIP", "duration_months": 3, "years_ago": 7}
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Management",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2019
+  },
+  "english_level": "C1",
+  "languages": [
+    {"language": "Ukrainian", "level": "native"},
+    {"language": "English", "level": "C1"},
+    {"language": "Polish", "level": "A2"}
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

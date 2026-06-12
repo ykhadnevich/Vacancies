@@ -1,0 +1,225 @@
+{
+  "cv_id": "5_junior_backend_engineer",
+  "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+  "cv_summary": {
+    "seniority": "junior",
+    "target_roles": [
+      "Junior .NET Developer",
+      "Junior Backend Engineer",
+      "Junior Full-Stack"
+    ],
+    "domain_skills": [
+      "C#",
+      "ASP.NET Core",
+      "EF Core",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "Jira",
+      "Confluence",
+      "xUnit",
+      "Moq",
+      "RESTful API design",
+      "SOLID principles",
+      "Clean Architecture",
+      "async/await",
+      "Dependency Injection",
+      "Design patterns",
+      "Application architecture",
+      "Agile/Scrum",
+      "SQL Server",
+      "GitHub Actions",
+      "JWT",
+      "SwiftUI"
+    ],
+    "technical_skills": [
+      ".NET Core",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "LINQ"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 26,
+        "years_ago": 0
+      },
+      {
+        "title": "N-iX",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 3
+      },
+      {
+        "title": "Multi-user todo app",
+        "type": "COURSE",
+        "duration_months": 3,
+        "years_ago": 3
+      },
+      {
+        "title": "Compiler for toy language",
+        "type": "COURSE",
+        "duration_months": 3,
+        "years_ago": 3
+      },
+      {
+        "title": "Database design course final",
+        "type": "COURSE",
+        "duration_months": 3,
+        "years_ago": 3
+      },
+      {
+        "title": "Habit Tracker",
+        "type": "PET_PROJECT",
+        "duration_months": 6,
+        "years_ago": 0
+      }
+    ],
+    "education": {
+      "degree": "bachelor",
+      "field": "Software Engineering",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2024
+    },
+    "english_level": "B1",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "B1"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Middle .NET Developer",
+      "uk": "Middle .NET розробник"
+    },
+    "role_title_raw": "Middle / Strong Middle .NET Developer",
+    "seniority_required": "middle",
+    "must_have_skills": [
+      "C#",
+      ".NET",
+      "Entity Framework",
+      "ADO.NET",
+      "MS SQL Server",
+      "ASP.NET",
+      "ASP.NET WebForms",
+      "TDD",
+      "unit testing",
+      "OOP",
+      "design patterns",
+      "SQL",
+      "EF Core",
+      "Integration Testing"
+    ],
+    "nice_to_have_skills": [
+      "Azure",
+      "third-party integrations"
+    ],
+    "min_years_experience": 3,
+    "education_required": "not_specified",
+    "english_required": "B2",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": true,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "fintech",
+      "uk": "фінтех"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.6487179487179487,
+      "reason_en": "Partial match. Strengths: .NET, C#. Gaps: ADO.NET, MS SQL Server, ASP.NET WebForms.",
+      "reason_uk": "Часткова відповідність. Переваги: .NET, C#. Брак: ADO.NET, MS SQL Server, ASP.NET WebForms.",
+      "evidence": {
+        "matched_skills": [
+          ".NET",
+          "C#",
+          "EF Core",
+          "ASP.NET",
+          "design patterns"
+        ],
+        "missing_must_haves": [
+          "ADO.NET",
+          "MS SQL Server",
+          "ASP.NET WebForms",
+          "TDD",
+          "Unit Testing",
+          "Integration Testing",
+          "OOD",
+          "integration solutions"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.6487179487179487,
+      "reason_en": "Partial match. Strengths: .NET, C#. Gaps: ADO.NET, MS SQL Server, ASP.NET WebForms.",
+      "reason_uk": "Часткова відповідність. Переваги: .NET, C#. Брак: ADO.NET, MS SQL Server, ASP.NET WebForms.",
+      "evidence": {
+        "matched_skills": [
+          ".NET",
+          "C#",
+          "EF Core",
+          "ASP.NET",
+          "design patterns"
+        ],
+        "missing_must_haves": [
+          "ADO.NET",
+          "MS SQL Server",
+          "ASP.NET WebForms",
+          "TDD",
+          "Unit Testing",
+          "Integration Testing",
+          "OOD",
+          "integration solutions"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.6487179487179487,
+      "reason_en": "Cross-domain C#→fintech transition. Partial match. Strengths: .NET, C#. Gaps: ADO.NET, TDD.",
+      "reason_uk": "Перехід C#→fintech. Часткова відповідність. Переваги: .NET, C#. Брак: ADO.NET, TDD.",
+      "evidence": {
+        "matched_skills": [
+          ".NET",
+          "C#",
+          "EF Core",
+          "ASP.NET",
+          "design patterns"
+        ],
+        "missing_must_haves": [
+          "ADO.NET",
+          "MS SQL Server",
+          "ASP.NET WebForms",
+          "TDD",
+          "unit testing",
+          "integration testing",
+          "OOD",
+          "integration solutions"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

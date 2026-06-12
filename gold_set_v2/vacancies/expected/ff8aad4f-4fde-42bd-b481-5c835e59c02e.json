@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Frontend Developer",
+    "uk": "Junior Frontend розробник"
+  },
+  "role_title_raw": "Frontend Developer (React+TypeScript)",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "REST API",
+    "HTML",
+    "CSS",
+    "UX/UI",
+    "HTTP",
+    "Redux",
+    "GIT"
+  ],
+  "nice_to_have_skills": [
+    "Docker",
+    "PHP",
+    "CI/CD"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

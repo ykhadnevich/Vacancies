@@ -1,0 +1,66 @@
+Mykola Bondar
+Junior .NET Developer · 1 year commercial · 4 years studying
+Lviv, Ukraine · open to remote / hybrid
+m.bondar@example.com · github.com/mbondar · linkedin.com/in/mbondar
+Summary
+Junior Backend Engineer з 1 роком комерційного досвіду .NET-розробки після bachelor's
+degree у KPI. Зараз працюю в outsource-компанії над B2B клієнтським проєктом на ASP.NET
+Core 8 + PostgreSQL. У вільний час контриб'юджу до 2 open-source проєктів і веду pet-project
+— habit tracker з backend на .NET 8 + iOS frontend (SwiftUI).
+Шукаю Mid-level позицію або Junior+ у продуктовій компанії (ідеально fintech / dev tools / B2B
+SaaS) для глибшого технічного зростання поза outsource моделлю.
+Experience
+Junior .NET Developer — SoftServe
+Mar 2024 — Present · Lviv (hybrid) · PRODUCTION
+Outsource-проєкт для US-клієнта в insurance domain (claims-processing platform). Команда: 8
+розробників, з них 2 Junior (включно зі мною), 4 Middle, 2 Senior.
+• Beat задач за 10 місяців у Jira: 47 закритих tickets, з них 9 — bug fixes, 35 — feature work
+(CRUD endpoints, business logic, validation), 3 — невеликі refactoring chunks.
+• Реалізував модуль звітів — RESTful endpoint з complex JOIN на 4 таблицях, EF Core + raw
+SQL для performance, pagination. p99 < 350ms на 50k rows.
+• Покрив unit-тестами 1 internal service (62% coverage за рев'ю Senior).
+• Брав участь у 3 production releases (зі своєю частиною).
+• Стек: C# 11, ASP.NET Core 7/8, EF Core, PostgreSQL 14, Docker (build + run), Git, Jira,
+Confluence, xUnit, Moq.
+Software Engineering Intern — N-iX
+Jun 2023 — Aug 2023 · Lviv · INTERNSHIP
+Літній paid internship під час bachelor's останнього року.
+• Participation у internal training: ASP.NET Core fundamentals, EF Core, microservices intro.
+Final project — pair-programmed невелика REST API (auth + simple CRUD).
+• Невелика робота на real client project — wrote 3 unit tests for existing service.
+University projects (selected)
+2020–2023 · KPI · COURSE
+• Multi-user todo app (bachelor's project) — ASP.NET Core MVC, EF Core з SQL Server, basic
+role-based auth.
+• Compiler for toy language (compiler design course) — Python implementation, lexer + parser
++ simple bytecode interpreter.
+• Database design course final — designed schema для університетської бібліотечної
+системи, normalized to 3NF.
+Skills
+Languages: C# (1 year commercial, 4 years student-level), basic Python (university only), basic
+JavaScript (HTML/CSS basics).
+Frameworks & Tools: ASP.NET Core 6/7/8 (commercial), Entity Framework Core (commercial —
+basic to intermediate; LINQ, migrations), PostgreSQL 14 (intermediate — queries, indexes basics,
+EXPLAIN analysis), Docker (build + docker-compose for dev environment), xUnit, Moq, Git (daily).
+Concepts: RESTful API design, SOLID principles, Clean Architecture (applied basic structure in
+pet-project), async/await basics, Dependency Injection (built-in Microsoft.Extensions).
+
+Не знаю / shallow знаю: Kubernetes, AWS / cloud (deployed pet-project на free tier),
+microservices patterns, performance optimization beyond basic indexes, gRPC, Kafka, Redis.
+Pet Projects
+Habit Tracker (active) — github.com/mbondar/habit-tracker
+Backend: .NET 8, ASP.NET Core, EF Core, PostgreSQL, JWT auth. Frontend: iOS app у SwiftUI. REST
+API. 6 місяців, 47 commits.
+Open-source contributions: 2 merged PRs до open-source .NET library (small bug fixes).
+Education
+National Technical University of Ukraine "Kyiv Polytechnic Institute" (KPI)
+Bachelor's in Software Engineering · 2020–2024 · Completed.
+GPA: 4.3 / 5. Дипломна робота: "Multi-user task management web application".
+Languages
+Ukrainian — native
+English — B1 (Intermediate); читаю technical docs вільно, async writing (Slack/Jira comments, PR
+descriptions) — comfortable. На daily standups англійською ще не виступаю.
+Target Roles
+Junior .NET Developer · Junior Backend Engineer · Junior Full-Stack (з пріоритетом backend).
+Найцікавіше — продуктові компанії (fintech / dev tools / B2B SaaS), мене менше цікавить
+outsource. Готовий на 0-1 рік mid-tier learning curve.

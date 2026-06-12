@@ -3,10 +3,69 @@ import { JobSource } from '../types/job'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { trackerApi } from '../api/trackerApi'
 
+
+const verdictColors: Record<string, { bg: string; text: string }> = {
+    strong_fit: { bg: '#dcfce7', text: '#15803d' },
+    good_fit:   { bg: '#dbeafe', text: '#1d4ed8' },
+    partial_fit:{ bg: '#fef9c3', text: '#854d0e' },
+    weak_fit:   { bg: '#fee2e2', text: '#b91c1c' },
+}
+const verdictLabels: Record<string, string> = {
+    strong_fit:  'Сильний збіг',
+    good_fit:    'Хороший збіг',
+    partial_fit: 'Частковий збіг',
+    weak_fit:    'Слабкий збіг',
+}
+
+function RelevanceReason({ reason }: { reason: string }) {
+    const lines = reason.split('\n').map(l => l.trim()).filter(Boolean)
+    const verdict  = lines.find(l => l.startsWith('Verdict:'))?.split(':')[1]?.trim()
+    const matched  = lines.find(l => l.startsWith('Matched:'))?.split(':').slice(1).join(':').trim()
+    const gaps     = lines.find(l => l.startsWith('Gaps:'))?.split(':').slice(1).join(':').trim()
+    const isStructured = Boolean(verdict)
+
+    if (!isStructured) {
+        return (
+            <p style={{ marginTop: 10, fontSize: 13, color: '#6b7280', fontStyle: 'italic' }}>
+                {reason}
+            </p>
+        )
+    }
+
+    const colors = verdictColors[verdict!] ?? { bg: '#f3f4f6', text: '#374151' }
+
+    return (
+        <div style={{
+            marginTop: 12,
+            padding: '10px 14px',
+            borderRadius: 8,
+            background: colors.bg,
+            fontSize: 13,
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 4,
+        }}>
+            <span style={{ fontWeight: 600, color: colors.text }}>
+                {verdictLabels[verdict!] ?? verdict}
+            </span>
+            {matched && matched.toLowerCase() !== 'none' && (
+                <span style={{ color: '#374151' }}>
+                    <strong>Збіги:</strong> {matched}
+                </span>
+            )}
+            {gaps && gaps.toLowerCase() !== 'none' && (
+                <span style={{ color: '#374151' }}>
+                    <strong>Gaps:</strong> {gaps}
+                </span>
+            )}
+        </div>
+    )
+}
+
 const sourceLabels: Record<JobSource, string> = {
     [JobSource.RobotaUa]: 'robota.ua',
     [JobSource.Jooble]: 'jooble',
-    [JobSource.Dou]: 'dou',
+    [JobSource.DOU]: 'dou',
     [JobSource.LinkedIn]: 'linkedin',
     [JobSource.WorkUa]: 'work.ua',
     [JobSource.Djinni]: 'djinni',
@@ -16,7 +75,7 @@ const sourceLabels: Record<JobSource, string> = {
 const sourceColors: Record<JobSource, string> = {
     [JobSource.RobotaUa]: '#e74c3c',
     [JobSource.Jooble]: '#3498db',
-    [JobSource.Dou]: '#2ecc71',
+    [JobSource.DOU]: '#2ecc71',
     [JobSource.LinkedIn]: '#0077b5',
     [JobSource.WorkUa]: '#e67e22',
     [JobSource.Djinni]: '#9b59b6',
@@ -92,6 +151,10 @@ function JobCard({ job }: Props) {
                     <span style={{ color: '#059669', fontWeight: 600 }}>✓ {job.relevanceScore}% релевантність</span>
                 )}
             </div>
+
+            {job.relevanceReason && (
+                <RelevanceReason reason={job.relevanceReason} />
+            )}
         </div>
     )
 }

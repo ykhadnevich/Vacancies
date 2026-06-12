@@ -1,0 +1,59 @@
+{
+  "seniority": "junior",
+  "target_roles": ["Junior .NET Developer", "Junior Backend Engineer", "Junior Full-Stack"],
+  "domain_skills": [
+    "C#",
+    "ASP.NET Core",
+    "EF Core",
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "Jira",
+    "Confluence",
+    "xUnit",
+    "Moq",
+    "RESTful API design",
+    "SOLID principles",
+    "Clean Architecture",
+    "async/await",
+    "Dependency Injection",
+    "Design patterns",
+    "Application architecture",
+    "Agile/Scrum",
+    "SQL Server",
+    "GitHub Actions",
+    "JWT",
+    "SwiftUI"
+  ],
+  "technical_skills": [
+    ".NET Core",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "LINQ"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {"title": "SoftServe", "type": "PRODUCTION", "duration_months": 26, "years_ago": 0},
+    {"title": "N-iX", "type": "INTERNSHIP", "duration_months": 3, "years_ago": 3},
+    {"title": "Multi-user todo app", "type": "COURSE", "duration_months": 3, "years_ago": 3},
+    {"title": "Compiler for toy language", "type": "COURSE", "duration_months": 3, "years_ago": 3},
+    {"title": "Database design course final", "type": "COURSE", "duration_months": 3, "years_ago": 3},
+    {"title": "Habit Tracker", "type": "PET_PROJECT", "duration_months": 6, "years_ago": 0}
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Software Engineering",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2024
+  },
+  "english_level": "B1",
+  "languages": [
+    {"language": "Ukrainian", "level": "native"},
+    {"language": "English", "level": "B1"}
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

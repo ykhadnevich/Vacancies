@@ -1,0 +1,312 @@
+{
+  "agent": "E",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out coverage, primary pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "n_pairs": 2,
+      "ratings": [
+        {
+          "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+          "role_title_en": "Trainee .NET Azure Cloud Developer",
+          "match_quality": 2,
+          "rationale": "Senior C#/.NET CV vs Trainee Azure posting — anti-flag 'trainee-only' fires; ~5-level over-qualification dominates strong stack overlap."
+        },
+        {
+          "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+          "role_title_en": "Junior Frontend Developer",
+          "match_quality": 2,
+          "rationale": "Senior .NET backend CV vs Junior React/TS frontend — cross-family stack (no React/Redux/CSS), seniority inversion; clean mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "acf2b942-1198-4208-b40e-882c1058918c",
+          "role_title_en": "Middle Data Engineer",
+          "match_quality": 6,
+          "rationale": "Mid analyst (SQL/Python/Snowflake/dbt) vs Middle Data Engineer — adjacent family, transferable SQL/dbt/Snowflake but lacks Spark/Airflow/Terraform/K8s infra depth."
+        },
+        {
+          "vacancy_id": "26815abc-ac5e-4925-9f24-96e48277262d",
+          "role_title_en": "Senior Machine Learning Engineer",
+          "match_quality": 2,
+          "rationale": "Mid analyst vs Senior MLE — no PyTorch/TensorFlow/MLOps/Go; 2-level seniority gap plus cross-family ML engineering paradigm."
+        },
+        {
+          "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+          "role_title_en": "Product Manager",
+          "match_quality": 2,
+          "rationale": "Mid data analyst vs Senior hardware/intercom PM — different family, no PM/B2B/hardware experience, seniority gap."
+        }
+      ]
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+          "role_title_en": "Product Manager",
+          "match_quality": 8,
+          "rationale": "Senior PM CV (Amplitude/A/B/unit economics) vs Senior e-commerce PM — strong skill match; domain pivot from fintech/energy to D2C is nice-to-have gap."
+        },
+        {
+          "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+          "role_title_en": "Inbound Marketing Manager",
+          "match_quality": 4,
+          "rationale": "Senior PM vs Middle marketing manager — analytics/SaaS/A/B transferable, but no SEO/content/inbound craft; cross-family adjacent."
+        },
+        {
+          "vacancy_id": "3bd35b6f-3631-4819-9227-8e8fe124717d",
+          "role_title_en": "Data Analyst / Junior Data Scientist",
+          "match_quality": 4,
+          "rationale": "Senior PM with SQL/A/B vs Middle DA/JDS — no Python/pandas/credit-scoring/ML; adjacent analytics but role intent mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+          "role_title_en": "Senior .NET Backend Developer",
+          "match_quality": 2,
+          "rationale": "Junior .NET CV vs Senior .NET role — anti-flag French fluency required; 2+ seniority gap; healthcare domain new."
+        },
+        {
+          "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+          "role_title_en": "Trainee .NET Azure Cloud Developer",
+          "match_quality": 6,
+          "rationale": "Junior .NET CV vs Trainee Azure posting — stack overlap (C#/.NET/SQL/Git) strong but over-qualified by 1 level; missing Azure specifics."
+        },
+        {
+          "vacancy_id": "306f9ac1-1597-4b57-8eda-fc4b17b43590",
+          "role_title_en": "Business Data Analyst",
+          "match_quality": 2,
+          "rationale": "Junior backend .NET CV vs Business Data Analyst — cross-family, only SQL overlap; no BI tooling or analytics experience."
+        }
+      ]
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "n_pairs": 2,
+      "ratings": [
+        {
+          "vacancy_id": "4da12442-b7ac-4c81-abb4-71aa7f1c16a2",
+          "role_title_en": "DevOps",
+          "match_quality": 2,
+          "rationale": "Senior DevOps CV vs DefTech DevOps — anti-flag 'military service position' fires hard; strong tech stack match irrelevant."
+        },
+        {
+          "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+          "role_title_en": "Senior .NET Backend Developer",
+          "match_quality": 2,
+          "rationale": "Senior DevOps CV vs Senior .NET backend — cross-family (no C#/.NET); anti-flag French required; Docker/K8s/Terraform overlap superficial."
+        }
+      ]
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "caf7ce6b-f789-461e-ba10-ae0c5eb8ce35",
+          "role_title_en": "Data Analyst / Junior Data Scientist",
+          "match_quality": 4,
+          "rationale": "Senior ML CV vs Middle DA/JDS — skills exceed posting heavily but role intent inverted; over-qualified by 2 levels, no credit-scoring domain."
+        },
+        {
+          "vacancy_id": "25630527-064b-4211-9697-730a04a25a26",
+          "role_title_en": "Middle Data Analyst",
+          "match_quality": 4,
+          "rationale": "Senior ML CV vs Middle DA — adjacent skills (SQL/Python) but role intent off; over-qualified, no BI dashboard focus."
+        },
+        {
+          "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+          "role_title_en": "Android Team Lead",
+          "match_quality": 2,
+          "rationale": "Senior ML CV vs Android Team Lead — cross-family, no Kotlin/Android/Flutter; anti-flag 'apps released in 2026' fires."
+        }
+      ]
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "n_pairs": 2,
+      "ratings": [
+        {
+          "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+          "role_title_en": "Fullstack Developer / AI Adoption Lead",
+          "match_quality": 6,
+          "rationale": "Mid React/TS CV vs Senior Fullstack/AI Lead — strong React/Node overlap but 1-level seniority gap and no AI-adoption/mentorship leadership."
+        },
+        {
+          "vacancy_id": "6bcc3a0a-f614-41c3-9e96-fded168f4ed9",
+          "role_title_en": "Senior Android Developer",
+          "match_quality": 2,
+          "rationale": "Mid React frontend vs Senior Android — cross-family (no Kotlin/Android SDK/Jetpack Compose); web vs native paradigm gap."
+        }
+      ]
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+          "role_title_en": "Mobile Games QA Tester",
+          "match_quality": 4,
+          "rationale": "Senior SDET CV vs manual mobile games tester — same QA family but role intent (automation vs manual gameplay); anti-flag onsite-only."
+        },
+        {
+          "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+          "role_title_en": "Data Engineer",
+          "match_quality": 2,
+          "rationale": "Senior QA automation CV vs Middle Data Engineer — cross-family; only SQL overlap; no ETL/pipelines/warehousing."
+        },
+        {
+          "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+          "role_title_en": "Director of Product, Security & DevOps",
+          "match_quality": 2,
+          "rationale": "Senior QA automation CV vs Director Product/Security/DevOps — cross-family, no product/strategy/CMDB/Salesforce; clean mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "77ff054b-1d8f-4231-b08d-baed588bd4e0",
+          "role_title_en": "Senior Fullstack Developer",
+          "match_quality": 4,
+          "rationale": "Mid fullstack (JS/Java/Mongo) vs Senior .NET/Angular fullstack — cross-stack (no C#/.NET/Angular/TS), 1-level seniority gap."
+        },
+        {
+          "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+          "role_title_en": "Senior C# Backend Developer",
+          "match_quality": 2,
+          "rationale": "Mid JS/Java fullstack vs Senior C# backend — no .NET/LINQ/Postgres/Kafka/gRPC; cross-stack with seniority gap."
+        },
+        {
+          "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 2,
+          "rationale": "Mid JS/Java fullstack vs Senior Data Scientist — cross-family, no Python ML/Deep Learning/speech processing."
+        }
+      ]
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "n_pairs": 2,
+      "ratings": [
+        {
+          "vacancy_id": "0e5df96a-74d3-44e3-98fb-db96653b6942",
+          "role_title_en": "Middle Android Developer",
+          "match_quality": 4,
+          "rationale": "Mid iOS/Swift CV vs Middle Android — cross-platform mobile, transferable mobile fundamentals but no Kotlin/Android SDK."
+        },
+        {
+          "vacancy_id": "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+          "role_title_en": "QA",
+          "match_quality": 2,
+          "rationale": "Mid iOS developer vs Manual QA Fintech — cross-family, no Postman/Swagger/PCI-DSS/high-load testing methodology."
+        }
+      ]
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "n_pairs": 2,
+      "ratings": [
+        {
+          "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+          "role_title_en": "Senior iOS Developer",
+          "match_quality": 4,
+          "rationale": "Senior Android CV vs Senior iOS Web3 — cross-platform mobile, transferable architecture but no Swift/UIKit/Web3/blockchain."
+        },
+        {
+          "vacancy_id": "b66e9aad-8110-4d6e-87c9-e05f626b5ee4",
+          "role_title_en": "Middle Fullstack Developer",
+          "match_quality": 2,
+          "rationale": "Senior Android CV vs Middle Java/Angular fullstack — cross-family (no Spring/Angular/TS web); seniority gap plus stack mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "role_title_en": "Tech Lead .NET Developer",
+          "match_quality": 4,
+          "rationale": "Senior EM (Python/Django) vs Tech Lead .NET — leadership transfers but no C#/.NET stack; role intent IC vs management gap."
+        },
+        {
+          "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+          "role_title_en": "Product Manager / Product Owner",
+          "match_quality": 4,
+          "rationale": "Senior EM vs Product Manager energy — cross-family (eng mgmt vs product ownership), no EMS/BESS/PV/VPP domain."
+        },
+        {
+          "vacancy_id": "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+          "role_title_en": "Senior Data Scientist",
+          "match_quality": 2,
+          "rationale": "Senior EM CV vs Senior DS — cross-family, no ML/scorecards/clustering/time-series; Python overlap superficial."
+        }
+      ]
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+          "role_title_en": "Data Analyst",
+          "match_quality": 4,
+          "rationale": "Senior DE CV vs Data Analyst (portfolio/credit risk) — over-qualified, role intent inverted; no credit risk/banking domain."
+        },
+        {
+          "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+          "role_title_en": "Senior .NET Backend Developer",
+          "match_quality": 2,
+          "rationale": "Senior DE CV vs Senior .NET backend — cross-family (no C#/.NET); anti-flag French fluency required."
+        },
+        {
+          "vacancy_id": "6cd2d98d-5897-4c4b-b0b1-f2ce2b2a76ee",
+          "role_title_en": "Senior DevOps",
+          "match_quality": 6,
+          "rationale": "Senior DE CV vs Senior DevOps — adjacent family, strong AWS/K8s/Terraform/Bash overlap but no Helm/Ansible/DNS infra depth."
+        }
+      ]
+    },
+    {
+      "cv_id": "yan_pm",
+      "n_pairs": 3,
+      "ratings": [
+        {
+          "vacancy_id": "8177a254-3728-4f81-b23d-59881458e60b",
+          "role_title_en": "Product Manager",
+          "match_quality": 2,
+          "rationale": "Junior PM (career-switcher, no real product exp) vs Senior payments PM — no Open Banking/payments; 2-level seniority gap."
+        },
+        {
+          "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+          "role_title_en": "Senior Growth Marketing Manager",
+          "match_quality": 2,
+          "rationale": "Junior PM CV vs Senior Growth Marketing — cross-family, no growth/SaaS/content distribution craft; C1 English required, CV B2."
+        },
+        {
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 4,
+          "rationale": "Junior PM with C#/.NET/ASP.NET Core training vs Senior .NET backend — strong stack overlap but 2-level seniority gap, no production experience."
+        }
+      ]
+    }
+  ]
+}

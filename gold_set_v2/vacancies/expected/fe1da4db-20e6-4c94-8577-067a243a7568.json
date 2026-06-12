@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "fe1da4db-20e6-4c94-8577-067a243a7568",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Fullstack Developer",
+    "uk": "Junior Fullstack розробник"
+  },
+  "role_title_raw": "Junior Strong Full Stack Developer (USA project)",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "TypeScript",
+    "Node.js",
+    "React",
+    "REST API",
+    "third-party integrations",
+    "PostgreSQL",
+    "Redis",
+    "Next.js",
+    "relational databases",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "OpenTelemetry"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

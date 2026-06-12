@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "30423512-dc91-4ba2-a448-c65a6754f372",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior QA",
+    "uk": "Junior QA"
+  },
+  "role_title_raw": "Junior QA Engineer (Manual)",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "manual testing",
+    "mobile games testing",
+    "test cases",
+    "iOS",
+    "Android"
+  ],
+  "nice_to_have_skills": [
+    "analytics",
+    "AI tools"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "gaming",
+    "uk": "геймдев"
+  },
+  "anti_requirements": []
+}

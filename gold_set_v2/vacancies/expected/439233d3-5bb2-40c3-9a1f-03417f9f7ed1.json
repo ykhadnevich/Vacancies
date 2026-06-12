@@ -1,0 +1,31 @@
+{
+  "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Manual QA",
+    "uk": "Senior Manual QA"
+  },
+  "role_title_raw": "Senior Manual QA Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "manual testing",
+    "test cases",
+    "regression testing"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "9c76720b-6f90-46ce-8a57-001fcca261ba",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Full Stack Developer (Node/React)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "React",
+    "Node.js",
+    "TypeScript",
+    "TypeORM",
+    "Webpack",
+    "PostgreSQL",
+    "Redis",
+    "Express.js",
+    "NestJS",
+    "Express",
+    "AI tools",
+    "SaaS",
+    "REST API"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

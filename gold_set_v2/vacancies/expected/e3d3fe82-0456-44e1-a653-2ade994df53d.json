@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "e3d3fe82-0456-44e1-a653-2ade994df53d",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack .NET Developer",
+    "uk": "Senior Fullstack .NET розробник"
+  },
+  "role_title_raw": "Senior Full Stack .NET Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET",
+    "Dependency Injection",
+    "async/await",
+    "Angular",
+    "React",
+    "Microsoft CRM",
+    "Dynamics CRM",
+    "SQL",
+    "EF Core",
+    "relational databases",
+    "debugging"
+  ],
+  "nice_to_have_skills": [
+    "VB6",
+    "VBA",
+    "Access",
+    "code review"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": [
+    "6-month contract only (no long-term position)"
+  ]
+}

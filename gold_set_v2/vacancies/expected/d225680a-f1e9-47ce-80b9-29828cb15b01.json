@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "d225680a-f1e9-47ce-80b9-29828cb15b01",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Data Scientist",
+    "uk": "Middle Data Scientist"
+  },
+  "role_title_raw": "Data Scientist Middle",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "high-load systems",
+    "Git",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "Airflow",
+    "LLM"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

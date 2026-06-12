@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior AI / Machine Learning Engineer",
+    "uk": "Senior AI / Machine Learning інженер"
+  },
+  "role_title_raw": "Senior AI / Machine Learning Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "large-scale identity graphs",
+    "real-time scoring",
+    "production ML pipelines",
+    "FastAPI",
+    "Kubernetes",
+    "GCP",
+    "AWS",
+    "Neo4j",
+    "API",
+    "SQL",
+    "cloud"
+  ],
+  "nice_to_have_skills": [
+    "Kafka",
+    "Spark"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "MarTech",
+    "uk": "MarTech"
+  },
+  "anti_requirements": []
+}

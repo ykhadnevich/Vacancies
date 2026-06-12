@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Tech Lead of Account Farming",
+    "uk": "Tech Lead Account Farming"
+  },
+  "role_title_raw": "Technical Lead of Account Farming",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "account farming",
+    "automation",
+    "social media platforms",
+    "AI/ML",
+    "architecture",
+    "team leadership",
+    "Python",
+    "Bash",
+    "cloud",
+    "AI"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "media",
+    "uk": "медіа"
+  },
+  "anti_requirements": [
+    "gray-area account farming work"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior iOS Developer",
+    "uk": "Senior iOS розробник"
+  },
+  "role_title_raw": "Senior IOS Developer (Web 3)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Swift",
+    "modern iOS frameworks",
+    "security",
+    "cross-functional collaboration",
+    "Web3 / crypto",
+    "UIKit",
+    "iOS",
+    "SwiftUI",
+    "Web3",
+    "blockchain",
+    "REST API",
+    "WebSockets",
+    "CI/CD"
+  ],
+  "nice_to_have_skills": [
+    "Kotlin",
+    "Android"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "crypto",
+    "uk": "крипто"
+  },
+  "anti_requirements": []
+}

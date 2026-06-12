@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "446e7574-dd06-4f38-983b-f41d2e21252d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior AI Engineer",
+    "uk": "Senior AI інженер"
+  },
+  "role_title_raw": "Senior AI Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "AWS Bedrock",
+    "RAG pipelines",
+    "AI agents",
+    "MCP architectures",
+    "model evaluation",
+    "guardrails",
+    "production GenAI",
+    "Python",
+    "LLM",
+    "FastAPI"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 6,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "48396d9e-bc1c-4cf2-a5fe-9c4ef9dbf7e0",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "ML / AI Engineer",
+    "uk": "ML / AI інженер"
+  },
+  "role_title_raw": "ML/AI Engineer*",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Python",
+    "open-source LLM",
+    "fine-tuning",
+    "RAG",
+    "NLP",
+    "Hugging Face",
+    "LLM",
+    "vector databases",
+    "ML",
+    "PyTorch",
+    "TensorFlow",
+    "Docker",
+    "Kubernetes"
+  ],
+  "nice_to_have_skills": [
+    "ETL"
+  ],
+  "min_years_experience": 3,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

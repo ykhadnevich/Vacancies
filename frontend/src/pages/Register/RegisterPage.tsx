@@ -3,13 +3,15 @@ import { useNavigate, Link } from 'react-router-dom'
 import { useMutation } from '@tanstack/react-query'
 import { authApi } from '../../api/authApi'
 import { useAuthStore } from '../../store/authStore'
+import { useT } from '../../i18n/useT'
 
 function RegisterPage() {
-    const [displayName, setDisplayName]       = useState('')
-    const [email, setEmail]                   = useState('')
-    const [password, setPassword]             = useState('')
+    const t = useT()
+    const [displayName, setDisplayName]         = useState('')
+    const [email, setEmail]                     = useState('')
+    const [password, setPassword]               = useState('')
     const [confirmPassword, setConfirmPassword] = useState('')
-    const [showPass, setShowPass]             = useState(false)
+    const [showPass, setShowPass]               = useState(false)
 
     const { login } = useAuthStore()
     const navigate  = useNavigate()
@@ -22,7 +24,6 @@ function RegisterPage() {
         },
     })
 
-    // ── Validation ─────────────────────────────────────────────────────────
     const passwordMismatch = confirmPassword.length > 0 && password !== confirmPassword
     const passwordTooShort = password.length > 0 && password.length < 6
     const canSubmit =
@@ -32,7 +33,6 @@ function RegisterPage() {
 
     const handleSubmit = () => { if (canSubmit) mutation.mutate() }
 
-    // ── Styles ──────────────────────────────────────────────────────────────
     const inputStyle = {
         width: '100%',
         padding: '10px 14px',
@@ -60,33 +60,28 @@ function RegisterPage() {
                 padding: 32,
                 boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
             }}>
-                <h2 style={{ marginBottom: 8, textAlign: 'center', fontSize: 22 }}>Реєстрація</h2>
+                <h2 style={{ marginBottom: 8, textAlign: 'center', fontSize: 22 }}>{t('auth.signUp')}</h2>
                 <p style={{ textAlign: 'center', color: '#6b7280', fontSize: 14, marginBottom: 24 }}>
-                    Створи акаунт і починай шукати роботу
+                    {t('app.name')}
                 </p>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
 
-                    {/* Display Name (optional) */}
                     <div>
-                        <label style={labelStyle}>
-                            Ім'я{' '}
-                            <span style={{ fontWeight: 400, color: '#9ca3af' }}>(необов'язково)</span>
-                        </label>
+                        <label style={labelStyle}>{t('auth.displayName')}</label>
                         <input
                             style={inputStyle}
                             type="text"
                             value={displayName}
                             onChange={e => setDisplayName(e.target.value)}
                             onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-                            placeholder="Як до тебе звертатись?"
+                            placeholder={t('auth.displayNamePlaceholder')}
                             autoComplete="name"
                         />
                     </div>
 
-                    {/* Email */}
                     <div>
-                        <label style={labelStyle}>Email</label>
+                        <label style={labelStyle}>{t('auth.email')}</label>
                         <input
                             style={inputStyle}
                             type="email"
@@ -98,9 +93,8 @@ function RegisterPage() {
                         />
                     </div>
 
-                    {/* Password */}
                     <div>
-                        <label style={labelStyle}>Пароль</label>
+                        <label style={labelStyle}>{t('auth.password')}</label>
                         <div style={{ position: 'relative' }}>
                             <input
                                 style={{
@@ -112,7 +106,7 @@ function RegisterPage() {
                                 value={password}
                                 onChange={e => setPassword(e.target.value)}
                                 onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-                                placeholder="Мінімум 6 символів"
+                                placeholder={t('auth.passwordPlaceholder')}
                                 autoComplete="new-password"
                             />
                             <button
@@ -122,22 +116,21 @@ function RegisterPage() {
                                     position: 'absolute', right: 12, top: '50%',
                                     transform: 'translateY(-50%)',
                                     background: 'none', border: 'none',
-                                    cursor: 'pointer', color: '#9ca3af', fontSize: 16,
+                                    cursor: 'pointer', color: '#9ca3af', fontSize: 14,
                                 }}
                             >
-                                {showPass ? '🙈' : '👁️'}
+                                {showPass ? t('auth.hide') : t('auth.show')}
                             </button>
                         </div>
                         {passwordTooShort && (
                             <p style={{ color: '#dc2626', fontSize: 13, margin: '4px 0 0' }}>
-                                Пароль має бути мінімум 6 символів
+                                {t('auth.errPassword')}
                             </p>
                         )}
                     </div>
 
-                    {/* Confirm Password */}
                     <div>
-                        <label style={labelStyle}>Підтвердження пароля</label>
+                        <label style={labelStyle}>{t('auth.passwordConfirm')}</label>
                         <input
                             style={{
                                 ...inputStyle,
@@ -147,17 +140,16 @@ function RegisterPage() {
                             value={confirmPassword}
                             onChange={e => setConfirmPassword(e.target.value)}
                             onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-                            placeholder="Повтори пароль"
+                            placeholder={t('auth.passwordRepeat')}
                             autoComplete="new-password"
                         />
                         {passwordMismatch && (
                             <p style={{ color: '#dc2626', fontSize: 13, margin: '4px 0 0' }}>
-                                Паролі не співпадають
+                                {t('auth.passwordMismatch')}
                             </p>
                         )}
                     </div>
 
-                    {/* Server error */}
                     {mutation.isError && (
                         <p style={{
                             color: '#dc2626', fontSize: 14, margin: 0,
@@ -165,12 +157,11 @@ function RegisterPage() {
                             padding: '8px 12px',
                         }}>
                             {(mutation.error as any)?.response?.status === 409
-                                ? 'Цей email вже зареєстрований'
-                                : 'Помилка реєстрації. Спробуй ще раз.'}
+                                ? t('auth.errExists')
+                                : t('common.error')}
                         </p>
                     )}
 
-                    {/* Submit */}
                     <button
                         onClick={handleSubmit}
                         disabled={mutation.isPending || !canSubmit}
@@ -183,13 +174,12 @@ function RegisterPage() {
                             transition: 'opacity 0.15s',
                         }}
                     >
-                        {mutation.isPending ? 'Реєстрація...' : 'Зареєструватись'}
+                        {mutation.isPending ? t('common.loading') : t('auth.signUp')}
                     </button>
 
                     <p style={{ textAlign: 'center', fontSize: 14, color: '#6b7280', margin: 0 }}>
-                        Вже є акаунт?{' '}
                         <Link to="/login" style={{ color: '#2563eb', fontWeight: 600 }}>
-                            Увійти
+                            {t('auth.toLogin')}
                         </Link>
                     </p>
                 </div>

@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "fcb6785a-31ea-49b5-b736-dffbeb0040c8",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Frontend Developer — Defence",
+    "uk": "Frontend розробник — оборонна сфера"
+  },
+  "role_title_raw": "Frontend Developer (Vue / Nuxt)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Vue 3",
+    "Nuxt",
+    "Composition API",
+    "SSR",
+    "SPA",
+    "TypeScript",
+    "high-load systems",
+    "REST API",
+    "SCSS",
+    "HTTP",
+    "Jira",
+    "GIT"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

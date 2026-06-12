@@ -9,6 +9,13 @@ public class UserProfile
     public string? DisplayName { get; private set; }
     public string PasswordHash { get; private set; } = string.Empty;
 
+    /// <summary>
+    /// Which cabinet(s) the user can use. Default is <see cref="UserRole.Candidate"/>
+    /// — only the recruiter cabinet endpoints require this to be Recruiter or Both
+    /// (enforced via the <c>RequireRecruiterBehavior</c> MediatR pipeline behavior).
+    /// </summary>
+    public UserRole Role { get; private set; } = UserRole.Candidate;
+
     public string? Category { get; private set; }
     public List<string> Skills { get; private set; } = new();
     public decimal? ExpectedSalary { get; private set; }
@@ -18,6 +25,25 @@ public class UserProfile
 
     public string? CvFileUrl { get; private set; }
     public string? CvRawText { get; private set; }
+
+
+    public string? CvFileKey { get; private set; }
+
+
+    public float[]? CvEmbedding { get; private set; }
+
+
+    public string? CvSummary { get; private set; }
+
+
+    public string? CvSummaryModelVersion { get; private set; }
+
+
+    public string? CvSkillsExpanded { get; private set; }
+    public string? CvSkillsExpansionVersion { get; private set; }
+
+
+    public Guid CvVersionId { get; private set; } = Guid.NewGuid();
 
     public DateTime CreatedAt { get; private set; }
     public DateTime UpdatedAt { get; private set; }
@@ -32,9 +58,23 @@ public class UserProfile
             Email = email,
             PasswordHash = passwordHash,
             DisplayName = displayName,
+            Role = UserRole.Candidate,
             CreatedAt = DateTime.UtcNow,
             UpdatedAt = DateTime.UtcNow
         };
+    }
+
+    /// <summary>
+    /// Switches the user's role. Downgrading from <see cref="UserRole.Recruiter"/> /
+    /// <see cref="UserRole.Both"/> back to <see cref="UserRole.Candidate"/> is allowed
+    /// at this layer — callers (API) decide whether the recruiter still owns vacancies
+    /// that should block the transition.
+    /// </summary>
+    public void SetRole(UserRole role)
+    {
+        if (Role == role) return;
+        Role = role;
+        UpdatedAt = DateTime.UtcNow;
     }
 
     public void UpdatePreferences(
@@ -60,6 +100,11 @@ public class UserProfile
     {
         CvFileUrl = fileUrl;
         CvRawText = rawText;
+        CvSummary = null;
+        CvSummaryModelVersion = null;
+        CvSkillsExpanded = null;
+        CvSkillsExpansionVersion = null;
+        CvVersionId = Guid.NewGuid();
         UpdatedAt = DateTime.UtcNow;
     }
 
@@ -67,6 +112,52 @@ public class UserProfile
     {
         CvFileUrl = fileName;
         CvRawText = rawText;
+        CvSummary = null;
+        CvSummaryModelVersion = null;
+        CvSkillsExpanded = null;
+        CvSkillsExpansionVersion = null;
+        CvVersionId = Guid.NewGuid();
+        UpdatedAt = DateTime.UtcNow;
+    }
+
+
+    public void SetCvFileKey(string fileKey)
+    {
+        CvFileKey = fileKey;
+        UpdatedAt = DateTime.UtcNow;
+    }
+
+
+    public void ClearCvFileKey()
+    {
+        CvFileKey = null;
+        UpdatedAt = DateTime.UtcNow;
+    }
+
+    public void SetCvEmbedding(float[] embedding)
+    {
+        CvEmbedding = embedding;
+        UpdatedAt = DateTime.UtcNow;
+    }
+
+
+    public void SetCvSummary(string summary, string modelVersion)
+    {
+        CvSummary = summary;
+        CvSummaryModelVersion = modelVersion;
+
+
+        CvSkillsExpanded = null;
+        CvSkillsExpansionVersion = null;
+        UpdatedAt = DateTime.UtcNow;
+    }
+
+
+    public void SetCvSkillsExpansion(string expansionJson, string expanderVersion)
+    {
+        if (string.IsNullOrWhiteSpace(expansionJson)) return;
+        CvSkillsExpanded = expansionJson;
+        CvSkillsExpansionVersion = expanderVersion;
         UpdatedAt = DateTime.UtcNow;
     }
 }

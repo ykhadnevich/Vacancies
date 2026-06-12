@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "262c3cda-d6cb-4bbf-9ba1-810a35e726e7",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle QA",
+    "uk": "Middle QA"
+  },
+  "role_title_raw": "Middle QA Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "manual testing",
+    "test cases",
+    "mobile testing",
+    "API testing",
+    "Postman",
+    "Amplitude",
+    "API",
+    "Jira"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

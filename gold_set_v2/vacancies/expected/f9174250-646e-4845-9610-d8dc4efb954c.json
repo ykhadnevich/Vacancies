@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "f9174250-646e-4845-9610-d8dc4efb954c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Playable Ads Developer",
+    "uk": "Playable Ads розробник"
+  },
+  "role_title_raw": "Playable Ads Developer (JavaScript)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "JavaScript",
+    "HTML5 Canvas",
+    "PixiJS / Phaser",
+    "mobile ads",
+    "playable ad units",
+    "animation"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

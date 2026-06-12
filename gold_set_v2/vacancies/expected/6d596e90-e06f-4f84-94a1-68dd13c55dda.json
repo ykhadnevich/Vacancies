@@ -1,0 +1,36 @@
+{
+  "vacancy_id": "6d596e90-e06f-4f84-94a1-68dd13c55dda",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Engineer",
+    "uk": "Senior Data Engineer"
+  },
+  "role_title_raw": "Senior Data Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "DWH",
+    "data pipelines",
+    "ETL",
+    "SQL",
+    "data quality",
+    "Python"
+  ],
+  "nice_to_have_skills": [
+    "BI"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

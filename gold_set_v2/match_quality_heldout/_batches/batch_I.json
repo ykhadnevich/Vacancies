@@ -1,0 +1,201 @@
+{
+  "agent": "I",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, expansion pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "4_senior_product_manager",
+      "ratings": [
+        {
+          "vacancy_id": "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+          "score": 4,
+          "rationale": "PM family but junior posting, senior overqualified; iGaming/affiliate domain unfamiliar; Grafana not in stack."
+        },
+        {
+          "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+          "score": 6,
+          "rationale": "Cross-family (marketing) but A/B testing, Amplitude, Tableau, Looker all match; jr/mid seniority off."
+        },
+        {
+          "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+          "score": 0,
+          "rationale": "Android Team Lead engineering role; no Kotlin/Java/mobile dev skills in PM CV."
+        },
+        {
+          "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+          "score": 4,
+          "rationale": "Cross-family Data Analyst; SQL, BI, Tableau, Looker overlap but no analyst track record."
+        },
+        {
+          "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+          "score": 0,
+          "rationale": "Data Scientist ML/Deep Learning role; PM CV lacks Python, PyTorch, speech processing entirely."
+        },
+        {
+          "vacancy_id": "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+          "score": 0,
+          "rationale": "Senior .NET backend IC; PM has zero C#/.NET/Azure engineering background."
+        },
+        {
+          "vacancy_id": "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+          "score": 8,
+          "rationale": "PM same family, B2C/C2C digital product fit, customer journey strong; logistics domain new but transferable."
+        },
+        {
+          "vacancy_id": "16899fdd-9080-444d-b6f1-0f84a096a608",
+          "score": 4,
+          "rationale": "PM family but junior posting; senior overqualified; edtech domain new, hypothesis/analytics overlap."
+        }
+      ]
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "ratings": [
+        {
+          "vacancy_id": "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+          "score": 4,
+          "rationale": "Tech Lead adjacent but .NET/C# stack mismatch (CV is Python/Django); AWS, Redis, Docker, microservices overlap."
+        },
+        {
+          "vacancy_id": "281c16e7-f1cf-497a-af62-cd4222f2466c",
+          "score": 4,
+          "rationale": "Cross-discipline PM monetization role; no product management or A/B testing background."
+        },
+        {
+          "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+          "score": 2,
+          "rationale": "Growth marketing role; engineering manager skills not transferable; no SaaS marketing/content distribution."
+        },
+        {
+          "vacancy_id": "514b325d-ce89-4e78-babd-1cf9268b8714",
+          "score": 2,
+          "rationale": "Senior .NET backend IC; CV is Python/Django stack; PostgreSQL/Redis/Docker/microservices overlap only."
+        },
+        {
+          "vacancy_id": "446e7574-dd06-4f38-983b-f41d2e21252d",
+          "score": 4,
+          "rationale": "Senior AI Engineer IC; Python/FastAPI match but no LLM/RAG/Bedrock; over-qualified for leadership ask."
+        },
+        {
+          "vacancy_id": "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+          "score": 4,
+          "rationale": "Senior DevOps/SRE IC; Kubernetes, monitoring overlap but no banking, Helm/Elasticsearch specifics."
+        },
+        {
+          "vacancy_id": "bc85925f-e306-40dd-b476-0ad83a210bfb",
+          "score": 2,
+          "rationale": "Tech Lead Frontend Vue.js; backend-focused EM lacks Vue, SSR, GraphQL, frontend architecture."
+        },
+        {
+          "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+          "score": 4,
+          "rationale": "Lead role with Python/Bash/AI overlap; gray-area account farming anti-flag caps score."
+        }
+      ]
+    },
+    {
+      "cv_id": "yan_pm",
+      "ratings": [
+        {
+          "vacancy_id": "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+          "score": 4,
+          "rationale": "PM family but FMCG/retail domain unfamiliar; no pricing, assortment, retail channel experience."
+        },
+        {
+          "vacancy_id": "c89b5447-b5eb-49e6-bff0-147f13b336de",
+          "score": 2,
+          "rationale": "Event marketing manager; no event experience, C1 English required (he's B2)."
+        },
+        {
+          "vacancy_id": "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+          "score": 4,
+          "rationale": "Middle Data Analyst, 3y required; has SQL but no analytics/forecasting/BI experience, career switcher."
+        },
+        {
+          "vacancy_id": "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+          "score": 2,
+          "rationale": "Senior .NET French-required; junior CV under-leveled; French anti-flag caps score."
+        },
+        {
+          "vacancy_id": "705ffb5a-db10-4785-bd7f-a90db4721c6d",
+          "score": 2,
+          "rationale": "Middle QA, 3y required; no manual testing or test documentation experience; cross-family."
+        },
+        {
+          "vacancy_id": "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+          "score": 6,
+          "rationale": "Junior Frontend matches level; has React, TypeScript, JavaScript, REST, Git; UX/UI/Redux gaps."
+        },
+        {
+          "vacancy_id": "eed0122a-4452-438f-bf05-a25257066b12",
+          "score": 6,
+          "rationale": "Generic PM MarTech; level unclear, junior fits; transferable PM basics, no martech domain."
+        },
+        {
+          "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+          "score": 2,
+          "rationale": "Senior PM hardware/intercoms, 5y required; junior career-switcher severely under-qualified."
+        }
+      ]
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "ratings": [
+        {
+          "vacancy_id": "e7d46dc9-e4c3-41d5-a67e-0ecd2c23b536",
+          "score": 6,
+          "rationale": "DevOps family, K8s/Helm/ArgoCD/Ansible/GitHub Actions all match; middle seniority 1-level below senior."
+        },
+        {
+          "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+          "score": 2,
+          "rationale": "Middle .NET backend IC; no .NET Core/EF Core; cross-family with minimal overlap."
+        },
+        {
+          "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+          "score": 4,
+          "rationale": "Data Engineer ETL; AWS, Azure, SQL overlap but no ETL/data warehousing/Python data pipelines."
+        },
+        {
+          "vacancy_id": "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+          "score": 0,
+          "rationale": "Senior AI/ML medical imaging; no PyTorch, NumPy, computer vision, X-ray processing."
+        },
+        {
+          "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+          "score": 0,
+          "rationale": "Mobile lead role; no React Native, Swift, Flutter, mobile architecture."
+        }
+      ]
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "ratings": [
+        {
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "score": 4,
+          "rationale": "Senior backend C#/.NET; QA has SQL, CI/CD, Docker overlap; no C# or backend development experience."
+        },
+        {
+          "vacancy_id": "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+          "score": 2,
+          "rationale": "Data Engineer Airflow/dbt/BigQuery; QA has SQL, Python but no DWH/ETL/data engineering."
+        },
+        {
+          "vacancy_id": "3172a681-cbf9-4121-af90-7fe350a62caf",
+          "score": 4,
+          "rationale": "Jr/Mid DevOps; CI/CD/Docker overlap but no Terraform, K8s, Windows Server, AD, networking."
+        },
+        {
+          "vacancy_id": "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+          "score": 2,
+          "rationale": "Middle Frontend Next.js/React/Tailwind; no frontend frameworks or animation libs in QA stack."
+        },
+        {
+          "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+          "score": 2,
+          "rationale": "Tech Lead .NET high-load architecture; no C#/.NET or backend leadership experience."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "80a397d2-ccfb-4b84-acf7-8926a6640d50",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Manual / Automation QA",
+    "uk": "Manual / Automation QA"
+  },
+  "role_title_raw": "Manual/Automation QA engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "manual testing",
+    "test automation",
+    "networking products",
+    "IoT"
+  ],
+  "nice_to_have_skills": [
+    "Linux"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

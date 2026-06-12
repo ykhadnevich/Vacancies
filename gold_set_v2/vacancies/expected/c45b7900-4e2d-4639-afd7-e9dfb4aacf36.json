@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Analyst",
+    "uk": "Data Analyst"
+  },
+  "role_title_raw": "Data analyst (портфельний аналіз)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "SQL",
+    "credit risk analytics",
+    "portfolio analysis",
+    "banking reporting"
+  ],
+  "nice_to_have_skills": [
+    "Python",
+    "Power BI"
+  ],
+  "min_years_experience": null,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "government",
+    "uk": "держсектор"
+  },
+  "anti_requirements": []
+}

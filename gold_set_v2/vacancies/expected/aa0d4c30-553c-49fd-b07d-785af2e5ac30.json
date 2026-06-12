@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Frontend Developer",
+    "uk": "Middle Frontend розробник"
+  },
+  "role_title_raw": "Middle Frontend Developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Next.js",
+    "React",
+    "SSR",
+    "SSG",
+    "RTK Query",
+    "Redux Toolkit",
+    "framer-motion",
+    "GSAP",
+    "unit testing",
+    "integration testing",
+    "custom hooks",
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "REST API",
+    "Tailwind",
+    "Performance optimization"
+  ],
+  "nice_to_have_skills": [
+    "blockchain"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "crypto",
+    "uk": "крипто"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,158 @@
+{
+  "batch_idx": 7,
+  "cv_id": "20_mobile_android_senior",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "d65761e3-32e6-4e8b-b696-bc54ab640df1",
+      "match_quality": 6,
+      "rationale": "Kotlin/Compose/CI/Coroutines/Clean Arch/MVVM all match. ANTI contract June-Dec + hybrid Kraków limits engagement."
+    },
+    {
+      "vacancy_id": "0e5df96a-74d3-44e3-98fb-db96653b6942",
+      "match_quality": 6,
+      "rationale": "Minimal must-haves (Kotlin/Android SDK) trivially met. Middle role — senior 9y over-qualified."
+    },
+    {
+      "vacancy_id": "19210103-9c82-4ac6-86cc-9870639e1a51",
+      "match_quality": 2,
+      "rationale": "Flutter/Dart — CV is Android native, no Flutter experience."
+    },
+    {
+      "vacancy_id": "0fbf3c7e-1326-48c5-8282-e34a064e0dc9",
+      "match_quality": 8,
+      "rationale": "All Kotlin/Android SDK/REST/Clean Arch/Git/async match. Compose/Firebase nice-to-haves in CV. 3y vs 9y over-qualified."
+    },
+    {
+      "vacancy_id": "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+      "match_quality": 0,
+      "rationale": "Junior internship + ANTI onsite-only. Major over-qualification + location."
+    },
+    {
+      "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+      "match_quality": 0,
+      "rationale": "Fullstack JS/React/Node — completely different field from Android."
+    },
+    {
+      "vacancy_id": "285e37ac-fb2f-4e2b-b9dc-bb9efcde53a5",
+      "match_quality": 8,
+      "rationale": "All Kotlin/Java/Android/REST/Coroutines/Clean Arch/CI/MVVM/Firebase/testing match. Middle role — 9y senior over-qualified."
+    },
+    {
+      "vacancy_id": "10882f1b-d489-4a8c-a0b6-917b51d8f1b4",
+      "match_quality": 0,
+      "rationale": "ANTI volunteer position, no salary."
+    },
+    {
+      "vacancy_id": "24ad01fe-a2f7-466c-9ff6-e556000b0a99",
+      "match_quality": 2,
+      "rationale": "Flutter 3.x/Dart stack — CV is Android native."
+    },
+    {
+      "vacancy_id": "4aca1974-cf5d-46c2-b9c6-a70bf5219fe0",
+      "match_quality": 10,
+      "rationale": "Perfect: Kotlin/Compose/MVVM/MVI/Hilt/Coroutines/Flow — every must EXPLICITLY in CV. Senior 5y."
+    },
+    {
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "match_quality": 0,
+      "rationale": "Mobile QA Tester — different role + ANTI onsite."
+    },
+    {
+      "vacancy_id": "337599ae-96e8-48ab-88bb-80eddf6df903",
+      "match_quality": 8,
+      "rationale": "Android Team Lead matches target_role. Kotlin/Java/Android all in CV. Flutter mentioned but not blocker. Team leadership transferable from 9y senior."
+    },
+    {
+      "vacancy_id": "6bcc3a0a-f614-41c3-9e96-fded168f4ed9",
+      "match_quality": 10,
+      "rationale": "Perfect: Kotlin/Android SDK/mobile arch/Compose/SOLID/Clean Arch all match. Senior 4y < 9y."
+    },
+    {
+      "vacancy_id": "5583da88-e62f-4e2c-adc8-5007ec60956c",
+      "match_quality": 0,
+      "rationale": "Junior 1y + ANTI gambling vertical — multiple blockers."
+    },
+    {
+      "vacancy_id": "3dce7c15-7613-4deb-b5b8-a234e9a1b8fd",
+      "match_quality": 6,
+      "rationale": "Minimal must-haves met. Middle role over-qualified for 9y senior."
+    },
+    {
+      "vacancy_id": "89bd98dc-7338-4568-8080-eb086b9fc3eb",
+      "match_quality": 8,
+      "rationale": "Senior Android with minimal must-haves all in CV. Strong fit."
+    },
+    {
+      "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "match_quality": 4,
+      "rationale": "Cross-platform (Unity/Flutter/RN/Xamarin/C#) expectations — CV is Android native (Kotlin/Java). ANTI 2026 apps requirement."
+    },
+    {
+      "vacancy_id": "427e84c3-b873-4e3c-9af8-d43f1f45909c",
+      "match_quality": 8,
+      "rationale": "Kotlin/Android SDK/perf/Compose/Clean Arch/CI/MVVM/Git all match. 3y vs 9y over-qualified."
+    },
+    {
+      "vacancy_id": "9e0729ad-6ccd-4948-af56-a325f8fcead0",
+      "match_quality": 8,
+      "rationale": "Kotlin/Java/Android/Coroutines/Clean Arch/CI/MVVM/Git match. HMI/middleware/automotive domain specific."
+    },
+    {
+      "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+      "match_quality": 0,
+      "rationale": "Flutter + ANTI volunteer."
+    },
+    {
+      "vacancy_id": "745aea15-9729-4349-b78e-c2f10631d181",
+      "match_quality": 8,
+      "rationale": "Kotlin/Java/Android/mobile arch/multithreading/concurrency all match. Agritech transferable."
+    },
+    {
+      "vacancy_id": "d866c45f-6779-43b8-9f16-1738fab05d0a",
+      "match_quality": 8,
+      "rationale": "Kotlin/Android/Compose/OOP match. IoT/device integration specific domain."
+    },
+    {
+      "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+      "match_quality": 0,
+      "rationale": "Unity/C# game dev — different platform."
+    },
+    {
+      "vacancy_id": "ea921836-cb7a-43dd-8f61-574724779c9b",
+      "match_quality": 8,
+      "rationale": "Senior Android with minimal must-haves all in CV."
+    },
+    {
+      "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+      "match_quality": 2,
+      "rationale": "Flutter/Dart mismatch."
+    },
+    {
+      "vacancy_id": "f7bdc749-1e34-4587-9435-4735496f0f50",
+      "match_quality": 8,
+      "rationale": "Senior Android minimal must-haves all met."
+    },
+    {
+      "vacancy_id": "994c5af7-8f40-41b2-9c63-0f64a78322c1",
+      "match_quality": 10,
+      "rationale": "Exceptional: KMP (Kotlin Multiplatform in CV explicitly!) + Compose + MVI + Clean Arch + Coroutines all perfect matches. Telemetry/TDD adjacent."
+    },
+    {
+      "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+      "match_quality": 4,
+      "rationale": "Requires BOTH iOS Swift AND Android — CV is Android-only, no iOS."
+    },
+    {
+      "vacancy_id": "b6c105bb-c61d-4876-b19e-917e65947f4b",
+      "match_quality": 8,
+      "rationale": "All Kotlin/Java/Android/REST/Compose/SOLID/Coroutines/JUnit match. Middle role over-qualified."
+    },
+    {
+      "vacancy_id": "f0c9a922-3edb-433a-b340-3d0414262c2c",
+      "match_quality": 4,
+      "rationale": "Junior 9y over-qualified. KMP/Coroutines in CV but role intent off."
+    }
+  ]
+}

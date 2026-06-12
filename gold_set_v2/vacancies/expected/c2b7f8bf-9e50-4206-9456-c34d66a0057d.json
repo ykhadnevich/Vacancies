@@ -1,0 +1,55 @@
+{
+  "vacancy_id": "c2b7f8bf-9e50-4206-9456-c34d66a0057d",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Node.js / TypeScript Developer",
+    "uk": "Node.js / TypeScript розробник"
+  },
+  "role_title_raw": "Node.js / TypeScript розробник",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Node.js",
+    "TypeScript",
+    "NestJS",
+    "Express",
+    "PostgreSQL",
+    "REST API",
+    "Docker",
+    "OpenAI / Azure OpenAI",
+    "prompt engineering",
+    "embeddings",
+    "RAG",
+    "LLM",
+    "Express.js",
+    "MySQL",
+    "CI/CD",
+    "asynchronous programming",
+    "Oracle",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "fintech",
+    "vector databases",
+    "AI assistants",
+    "Elasticsearch",
+    "RabbitMQ",
+    "Kafka",
+    "microservices",
+    "Jira"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

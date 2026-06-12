@@ -1,0 +1,49 @@
+{
+  "vacancy_id": "27502427-31c4-42e7-95fb-f021aa147ed7",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior / Middle Fullstack Developer",
+    "uk": "Junior / Middle Fullstack розробник"
+  },
+  "role_title_raw": "Junior/Middle Full-stack Web Developer (Asp.net Core, Angular)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "ASP.NET Core",
+    "Angular",
+    "TypeScript",
+    "SQL Server",
+    "Entity Framework",
+    "REST API",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Azure",
+    "Visual Studio",
+    ".NET",
+    "SQL",
+    "EF Core",
+    "SCSS",
+    "Neo4J",
+    "MVC"
+  ],
+  "nice_to_have_skills": [
+    "Three.js",
+    "3D applications"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

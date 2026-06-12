@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Backend Developer",
+    "uk": "Senior Backend розробник"
+  },
+  "role_title_raw": "Senior back-end developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    "ASP.NET",
+    ".NET",
+    "SQL",
+    "ASP.NET Core",
+    "REST API",
+    "CI/CD",
+    "PostgreSQL",
+    "EF Core",
+    "Docker",
+    "Azure DevOps"
+  ],
+  "nice_to_have_skills": [
+    "Kubernetes"
+  ],
+  "min_years_experience": null,
+  "education_required": "bachelor",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "energy",
+    "uk": "енергетика"
+  },
+  "anti_requirements": []
+}

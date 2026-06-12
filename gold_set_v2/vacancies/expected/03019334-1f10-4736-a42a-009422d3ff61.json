@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "03019334-1f10-4736-a42a-009422d3ff61",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Inbound Marketing Manager",
+    "uk": "Inbound Marketing Manager"
+  },
+  "role_title_raw": "Inbound Marketing Manager (SaaS)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "inbound marketing",
+    "lead generation",
+    "SEO",
+    "content marketing",
+    "SaaS marketing",
+    "analytics",
+    "SaaS",
+    "SQL",
+    "A/B Testing"
+  ],
+  "nice_to_have_skills": [
+    "Salesforce"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "media",
+    "uk": "медіа"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Mobile Developer",
+    "uk": "Mobile розробник"
+  },
+  "role_title_raw": "Mobile App Developer (Kotlin & Swift)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Kotlin",
+    "Swift",
+    "iOS native",
+    "Android native",
+    "REST API",
+    "Git",
+    "iOS"
+  ],
+  "nice_to_have_skills": [
+    "Firebase",
+    "push notifications",
+    "Jetpack Compose",
+    "SwiftUI"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": []
+}

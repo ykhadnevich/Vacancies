@@ -1,0 +1,62 @@
+{
+  "seniority": "senior",
+  "target_roles": ["Senior Cardiologist", "Head of Cath Lab", "Director of Cardiology Department"],
+  "domain_skills": [
+    "Diagnostic coronary angiography",
+    "PCI",
+    "Percutaneous coronary intervention",
+    "Transradial access",
+    "Transfemoral access",
+    "IVUS-guided intervention",
+    "OCT-guided intervention",
+    "Structural interventions",
+    "PFO closure",
+    "TAVI assistance",
+    "Pericardiocentesis",
+    "Transvenous pacing",
+    "Transthoracic echocardiography",
+    "Transesophageal echocardiography",
+    "CT coronary angiography",
+    "Antiplatelet therapy",
+    "Anticoagulant therapy",
+    "Heart failure pharmacotherapy",
+    "Antiarrhythmic management",
+    "ACS pathophysiology",
+    "Structural heart disease",
+    "Mechanical circulatory support",
+    "Advanced heart failure",
+    "Heart team conferences",
+    "STEMI primary PCI",
+    "Clinical trials"
+  ],
+  "technical_skills": [],
+  "unverified_skills": [
+    "Multidisciplinary team leadership",
+    "Mentorship of junior cardiologists",
+    "Calm decisional thinking under emergent conditions",
+    "Patient and family communication",
+    "Research design and supervision"
+  ],
+  "experience": [
+    {"title": "Lviv Regional Cardiology Center", "type": "PRODUCTION", "duration_months": 76, "years_ago": 0},
+    {"title": "Lviv City Cardiology Center", "type": "PRODUCTION", "duration_months": 64, "years_ago": 6},
+    {"title": "Lviv Regional Cardiology Center", "type": "INTERNSHIP", "duration_months": 36, "years_ago": 12},
+    {"title": "Lviv Regional Hospital", "type": "INTERNSHIP", "duration_months": 36, "years_ago": 15}
+  ],
+  "education": {
+    "degree": "phd",
+    "field": "Cardiology",
+    "is_relevant": true,
+    "status": "in_progress",
+    "current_year": null,
+    "graduation_year": 2026
+  },
+  "english_level": "C1",
+  "languages": [
+    {"language": "Ukrainian", "level": "native"},
+    {"language": "English", "level": "C1"},
+    {"language": "Polish", "level": "B1"}
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

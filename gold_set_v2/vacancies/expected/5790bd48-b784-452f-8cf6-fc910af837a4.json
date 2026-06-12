@@ -1,0 +1,58 @@
+{
+  "vacancy_id": "5790bd48-b784-452f-8cf6-fc910af837a4",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Full Stack Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Node.js",
+    "React",
+    "TypeScript",
+    "REST API",
+    "GraphQL",
+    "databases",
+    "unit testing",
+    "integration testing",
+    "Python",
+    "Go",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "Vue",
+    "CI/CD",
+    "microservices",
+    "SOLID",
+    "Git",
+    "SQL",
+    "relational databases",
+    "Design Patterns",
+    "code review"
+  ],
+  "nice_to_have_skills": [
+    "Kafka",
+    "RabbitMQ",
+    "Azure"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "logistics",
+    "uk": "логістика"
+  },
+  "anti_requirements": []
+}

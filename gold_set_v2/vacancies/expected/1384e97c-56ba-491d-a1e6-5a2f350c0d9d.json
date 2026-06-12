@@ -1,0 +1,53 @@
+{
+  "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Lead Fullstack Developer",
+    "uk": "Lead Fullstack розробник"
+  },
+  "role_title_raw": "Lead FullStack Software Engineer with AI (.Net+React)",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "React",
+    "TypeScript",
+    "high-traffic web",
+    "AI tools",
+    "SDLC",
+    "SQL",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GraphQL",
+    "Redis",
+    "Next.js",
+    "Vue.js",
+    "Angular",
+    "AWS",
+    "Terraform",
+    "Docker",
+    "CI/CD",
+    "Datadog",
+    "NoSQL",
+    "Git",
+    "Unit testing",
+    "ChatGPT"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "automotive",
+    "uk": "автомобільна сфера"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "087647f1-ed33-4065-b137-51ccbf640bdb",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior Data Analyst",
+    "uk": "Junior Data Analyst"
+  },
+  "role_title_raw": "Junior Data Analyst (стажер)",
+  "seniority_required": "intern",
+  "must_have_skills": [
+    "Excel",
+    "SQL basics",
+    "Power BI",
+    "Tableau",
+    "Python basics",
+    "BI",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "Python"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": [
+    "onsite only",
+    "trainee program"
+  ]
+}

@@ -1,0 +1,81 @@
+Volodymyr Tsymbal
+Senior DevOps / SRE Engineer · 7 years · Kubernetes · Multi-cloud
+Lviv, Ukraine · open to remote · v.tsymbal@example.com · github.com/vtsymbal ·
+linkedin.com/in/vtsymbal · vtsymbal.dev
+Summary
+Senior DevOps / SRE Engineer з 7 роками комерційного досвіду розбудови та operations
+high-scale production infrastructure. Спеціалізуюся на Kubernetes-native платформах
+(multi-tenant, GitOps), multi-cloud architecture (AWS + GCP), та observability як SLO-driven
+product. Останні 3 роки веду команду з 4 інженерів — incident response, on-call rotation, SRE
+practices, menторing.
+Experience
+Senior SRE Engineer — Astound Commerce
+Jul 2022 — Present · Lviv (remote) · PRODUCTION
+E-commerce platform на AWS — 50+ microservices, 12k+ pods, 99.95% SLO target. Team lead
+для 4 SRE engineers.
+• Реалізував multi-cluster GitOps workflow з ArgoCD + Kustomize — 12 production clusters, 18
+staging clusters.
+• Перевів legacy Jenkins на GitHub Actions + reusable workflows; build times впали з 24 хв до
+7 хв (3.4× speedup).
+• Запровадив SLO / error-budget framework для 8 critical services; alert noise зменшено на
+70% за 6 місяців.
+• Менторив 3 middle SRE-розробників — 2 за 18 місяців промоутилися до senior.
+• Стек: AWS (EKS, RDS, S3, Lambda, CloudFront), Terraform, ArgoCD, Helm, Prometheus,
+Grafana, Datadog, Loki, Tempo, OpenTelemetry.
+DevOps Engineer — Wix.com
+Mar 2020 — Jun 2022 · Kyiv · PRODUCTION
+Cloud platform team — internal developer platform для 500+ engineers.
+• Спроектував та реалізував internal Kubernetes-as-a-Service на top of EKS — self-service
+namespace provisioning, RBAC, network policies.
+• Перевів monitoring stack з Nagios на Prometheus + Thanos для multi-region aggregation (3
+regions, 8k+ metrics).
+• On-call rotation 1-week-on / 3-weeks-off; mean-time-to-resolution знизилось з 87 хв до 23 хв
+за 12 місяців.
+• Стек: AWS, GCP (multi-cloud), Kubernetes, Terraform, Helm, Prometheus, Thanos, PagerDuty,
+Slack alerting.
+Junior DevOps Engineer — SoftServe
+Sep 2018 — Feb 2020 · Lviv · PRODUCTION
+Outsource-проєкти для UK financial-services client. Mid-size cluster (35 nodes).
+• Підтримка CI/CD на Jenkins + Bitbucket; написав 8 reusable shared libraries.
+• Перевів частину workloads з VMs на Docker; написав Perl wrappers для legacy automation
+глибокої історії.
+• Стек: Jenkins, Docker, Ansible, AWS EC2, VMware vSphere.
+DevOps Intern — N-iX
+Jun 2018 — Aug 2018 · Lviv · INTERNSHIP
+Літній paid internship. Linux administration practice + intro до AWS. Final project — простий
+CI/CD pipeline для intern course.
+Open Source / Writing
+
+Maintainer external-secrets-operator add-on для Kubernetes — 8 merged PRs, 1.2k GitHub stars
+on personal fork.
+Tech blog vtsymbal.dev — 28 posts про Kubernetes operators, GitOps patterns, on-call best
+practices. ~12k monthly readers.
+Спікер KubeCon EU 2023 (lightning talk "Multi-cluster ArgoCD без болю").
+Skills
+Container Orchestration: Kubernetes (operator-level, 5+ years), Helm 3, Kustomize, OpenShift
+basics.
+Cloud Platforms: AWS (EKS, RDS, S3, Lambda, CloudFront, IAM, Route53, certified Solutions
+Architect Professional), GCP (GKE, Cloud SQL, Pub/Sub), Azure (basics).
+IaC: Terraform (advanced — modules, workspaces, state management), Pulumi (familiar), Ansible.
+CI/CD: GitHub Actions (advanced), GitLab CI, Jenkins, ArgoCD, Flux.
+Observability: Prometheus + Thanos, Grafana, Datadog, Loki, Tempo, OpenTelemetry, PagerDuty.
+Service Mesh: Istio (production deployment), Linkerd (PoC).
+Scripting & Languages: Bash, Python, Go (small operators in production).
+Security: SOC2 compliance work, IAM design, Vault, Pod Security Policies.
+Education
+Lviv Polytechnic National University
+Master's in Computer Science · 2016–2018 · Completed.
+Bachelor's in Software Engineering · 2012–2016 · Completed.
+Certifications
+• AWS Certified Solutions Architect — Professional (renewed 2024)
+• Certified Kubernetes Administrator (CKA) — 2021
+• Certified Kubernetes Security Specialist (CKS) — 2023
+Languages
+Ukrainian — native
+English — C1 (Advanced); presented at KubeCon EU 2023, daily distributed team communication.
+German — A2 (basic).
+Target Roles
+Senior SRE / Senior DevOps Engineer · Platform Engineer · Engineering Manager (smaller team,
+hands-on).
+NOT interested in: pure operations on-call rotation 24/7, manual deployment work, pure
+Windows-based infrastructure.

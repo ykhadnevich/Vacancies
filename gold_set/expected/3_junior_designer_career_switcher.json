@@ -1,0 +1,82 @@
+{
+  "seniority": "junior",
+  "target_roles": [
+    "Junior Product Designer",
+    "Junior UX/UI Designer",
+    "Mid Product Designer"
+  ],
+  "domain_skills": [
+    "Figma",
+    "FigJam",
+    "ProtoPie",
+    "Sketch",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "Adobe InDesign",
+    "After Effects",
+    "Auto-layout",
+    "Components with variants",
+    "Design system maintenance",
+    "Design tokens",
+    "Prototyping",
+    "Wireframing",
+    "User interviews",
+    "Usability testing",
+    "Maze",
+    "Information architecture",
+    "Card sorting",
+    "Journey mapping",
+    "Brand identity",
+    "Print design",
+    "Typography",
+    "Notion",
+    "Loom"
+  ],
+  "technical_skills": [
+    "HTML",
+    "CSS",
+    "Trello"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Skylight Health Tech",
+      "type": "PRODUCTION",
+      "duration_months": 20,
+      "years_ago": 0
+    },
+    {
+      "title": "Freelance Graphic Designer",
+      "type": "FREELANCE",
+      "duration_months": 18,
+      "years_ago": 2
+    },
+    {
+      "title": "OLX Group Ukraine",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 4
+    }
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Graphic Design",
+    "is_relevant": false,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2022
+  },
+  "english_level": "B1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B1"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": true
+}

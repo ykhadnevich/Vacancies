@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "84eaf0ec-b42b-4dcb-b5e7-0516355510f7",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Mathematician / Quant Researcher",
+    "uk": "Математик / Quant Researcher"
+  },
+  "role_title_raw": "Mathematician",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "mathematics",
+    "quantitative analysis",
+    "algorithmic research",
+    "Python",
+    "Git",
+    "ML",
+    "PostgreSQL",
+    "Pandas",
+    "SQL"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "master",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "fintech",
+    "uk": "фінтех"
+  },
+  "anti_requirements": [
+    "EST timezone"
+  ]
+}

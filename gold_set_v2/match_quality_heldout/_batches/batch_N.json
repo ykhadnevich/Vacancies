@@ -1,0 +1,251 @@
+{
+  "agent": "N",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, fresh-vacancy pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "ratings": [
+        {
+          "vacancy_id": "828050-senior-marketing-manager-v2v-it",
+          "match_quality": 0,
+          "rationale": "Senior B2B marketing role; designer CV has no marketing, GTM, or B2B IT experience. Complete role family mismatch."
+        },
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 0,
+          "rationale": "iGaming Product Manager requires casino content/API/SDK knowledge; designer CV lacks PM and gaming domain entirely."
+        },
+        {
+          "vacancy_id": "workua_7590802",
+          "match_quality": 0,
+          "rationale": "Banking corporate sales role (cold calls, lending); designer CV has no sales or banking background."
+        }
+      ]
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "ratings": [
+        {
+          "vacancy_id": "825081-hr-business-partner-operations-manager",
+          "match_quality": 6,
+          "rationale": "HRBP/Ops role with recruitment included; CV is recruiter not HRBP, 5y healthcare exp required — partial adjacency."
+        },
+        {
+          "vacancy_id": "workua_8078130",
+          "match_quality": 6,
+          "rationale": "People Ops/HR Admin in iGaming; HR family with HRIS/Sheets, but admin focus rather than recruiting — partial fit."
+        },
+        {
+          "vacancy_id": "830263-account-manager-igaming",
+          "match_quality": 2,
+          "rationale": "Account Manager iGaming; people-facing adjacency only, no recruiting work — different role family."
+        },
+        {
+          "vacancy_id": "817533-customer-success-manager-full-cycle-proiekt-y",
+          "match_quality": 2,
+          "rationale": "CSM B2B SaaS requires marketing automation/CRM; recruiter people skills transferable but no CS or product experience."
+        },
+        {
+          "vacancy_id": "workua_7642363",
+          "match_quality": 2,
+          "rationale": "Banking micro-client sales; communication adjacency only, no banking or active sales background."
+        },
+        {
+          "vacancy_id": "826882-technical-writer-product-manager",
+          "match_quality": 2,
+          "rationale": "Product Marketing Manager for B2B developer audience; HR recruiter lacks marketing, SDLC, and engineering messaging."
+        }
+      ]
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "ratings": [
+        {
+          "vacancy_id": "workua_7553728",
+          "match_quality": 0,
+          "rationale": "Banking micro-business sales; nurse has no sales, banking, or commercial background."
+        },
+        {
+          "vacancy_id": "804889-junior-business-development-manager",
+          "match_quality": 0,
+          "rationale": "Affiliate/iGaming BDM (CPA, ROI, LTV); nurse has zero overlap with affiliate marketing or sales."
+        },
+        {
+          "vacancy_id": "workua_8163915",
+          "match_quality": 0,
+          "rationale": "Export Operations Manager; nurse has no operations, international trade, or coordination experience."
+        }
+      ]
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "ratings": [
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 0,
+          "rationale": "iGaming Product Manager; cardiologist's clinical expertise irrelevant to casino game management."
+        },
+        {
+          "vacancy_id": "829408-account-project-manager-digital-agency",
+          "match_quality": 0,
+          "rationale": "Digital agency AM (PPC/SEO/SMM); senior cardiologist has no agency, digital, or AM experience."
+        },
+        {
+          "vacancy_id": "workua_6196810",
+          "match_quality": 0,
+          "rationale": "Instagram SMM specialist in retail; cardiologist has no social media or content sales experience."
+        }
+      ]
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "ratings": [
+        {
+          "vacancy_id": "workua_6177913",
+          "match_quality": 8,
+          "rationale": "Head of Legal Dept: corporate, contract, M&A, due diligence — exact stack match; 1 level seniority above mid."
+        },
+        {
+          "vacancy_id": "workua_7967898",
+          "match_quality": 8,
+          "rationale": "International Lawyer fintech: contracts, IP, data privacy, corporate — strong fit, C1 English matches, fintech context novel."
+        },
+        {
+          "vacancy_id": "workua_8165226",
+          "match_quality": 8,
+          "rationale": "Contract/claim lawyer Kyiv hybrid: contract work and commercial law are CV core, 2y+ requirement met easily."
+        },
+        {
+          "vacancy_id": "workua_8167065",
+          "match_quality": 2,
+          "rationale": "Financial manager for grants/budget; some regulation adjacency but lawyer lacks financial/accounting skills required."
+        },
+        {
+          "vacancy_id": "workua_8164599",
+          "match_quality": 2,
+          "rationale": "Forensic commodity expert; legal subject knowledge adjacent but role demands expertise/commodity science not in CV."
+        },
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 0,
+          "rationale": "iGaming PM (API/SDK/casino platforms); corporate lawyer CV has no product or iGaming background."
+        }
+      ]
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "ratings": [
+        {
+          "vacancy_id": "workua_8166963",
+          "match_quality": 2,
+          "rationale": "USA-market logistics coordinator; English fluency transferable but no logistics or client-ops experience."
+        },
+        {
+          "vacancy_id": "825081-hr-business-partner-operations-manager",
+          "match_quality": 2,
+          "rationale": "HRBP/Ops requires 5y HR in healthcare; teacher has mentoring transferable but no HR/operations background."
+        },
+        {
+          "vacancy_id": "workua_7649278",
+          "match_quality": 0,
+          "rationale": "Banking micro-business sales; teacher has no sales, banking, or financial product experience."
+        }
+      ]
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "ratings": [
+        {
+          "vacancy_id": "workua_7419703",
+          "match_quality": 10,
+          "rationale": "Chief Accountant Kyiv: 1C, M.E.Doc, Excel, VAT, full UA accounting stack — exact senior match to CV."
+        },
+        {
+          "vacancy_id": "workua_8115171",
+          "match_quality": 10,
+          "rationale": "Chief Accountant (single): 1C, M.E.Doc, ЗЕД, VAT, payroll — CV matches all must-haves and seniority."
+        },
+        {
+          "vacancy_id": "workua_6869203",
+          "match_quality": 8,
+          "rationale": "Accountant TOV with VAT, 1C BAS, payroll; strong skill match though scope slightly narrower than CV's senior breadth."
+        },
+        {
+          "vacancy_id": "workua_8005767",
+          "match_quality": 2,
+          "rationale": "Lawyer role (contract/commercial); accountant has compliance adjacency only, no legal drafting expertise."
+        },
+        {
+          "vacancy_id": "workua_7462015",
+          "match_quality": 0,
+          "rationale": "Banking corporate-client sales role; accountant has no sales or banking client-acquisition experience."
+        },
+        {
+          "vacancy_id": "828798-business-development-manager",
+          "match_quality": 0,
+          "rationale": "BDM crypto/payments B2B sales; accountant has no business development, sales, or crypto experience."
+        }
+      ]
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "ratings": [
+        {
+          "vacancy_id": "822445-creative-marketing-manager",
+          "match_quality": 8,
+          "rationale": "Creative Marketing Mgr: Meta/TikTok Ads, ROAS, CTR, CPM, Figma — strong overlap with CV's paid acquisition stack."
+        },
+        {
+          "vacancy_id": "814252-crm-content-email-marketing-intern-bez-dosvid",
+          "match_quality": 2,
+          "rationale": "Intern-level CRM email role; massive seniority downgrade from middle growth marketer with 6+ years experience."
+        },
+        {
+          "vacancy_id": "828050-senior-marketing-manager-v2v-it",
+          "match_quality": 6,
+          "rationale": "Senior B2B IT marketing requiring GTM/JTBD/PR/events; CV is D2C performance-led, partial overlap, B2B strategic gap."
+        },
+        {
+          "vacancy_id": "829324-digital-account-manager-seo-technical-operati",
+          "match_quality": 4,
+          "rationale": "SEO Digital AM (SEMrush, Ahrefs, technical SEO, DNS/SSL); marketing adjacency but CV's paid focus not SEO/AM."
+        },
+        {
+          "vacancy_id": "818660-junior-middle-customer-success-manager-accoun",
+          "match_quality": 4,
+          "rationale": "CSM IT outsourcing; client metrics adjacency but CV lacks CSM/account ownership and SDLC; C1 English meets."
+        },
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 0,
+          "rationale": "iGaming Product Manager (casino content/API/SDK); CV has no PM or iGaming domain experience."
+        },
+        {
+          "vacancy_id": "816894-crm-content-manager-email-marketing-sms-push",
+          "match_quality": 4,
+          "rationale": "CRM Content Mgr (email/SMS/push, A/B); marketing family but CV centered on paid acquisition not CRM lifecycle."
+        }
+      ]
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "ratings": [
+        {
+          "vacancy_id": "795208-content-manager-news-researcher-media-pop-cul",
+          "match_quality": 2,
+          "rationale": "Pop-culture content researcher; native English and research adjacency, but academic political ecology far from pop media."
+        },
+        {
+          "vacancy_id": "workua_7715103",
+          "match_quality": 0,
+          "rationale": "Field lawyer Zaporizhzhia requiring Ukrainian legal practice; academic professor has no Ukrainian law or advocacy."
+        },
+        {
+          "vacancy_id": "830205-game-product-manager",
+          "match_quality": 0,
+          "rationale": "iGaming Product Manager; academic professor has no PM, iGaming, or technical product experience."
+        }
+      ]
+    }
+  ]
+}

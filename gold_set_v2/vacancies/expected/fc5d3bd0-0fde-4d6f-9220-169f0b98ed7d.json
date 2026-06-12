@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "fc5d3bd0-0fde-4d6f-9220-169f0b98ed7d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle / Senior AI Engineer",
+    "uk": "Middle / Senior AI інженер"
+  },
+  "role_title_raw": "Middle\\Senior AI Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "ML / LLM deployment",
+    "Kubernetes",
+    "Docker",
+    "cloud (AWS/GCP/Azure)",
+    "MLflow",
+    "Kubeflow",
+    "Git",
+    "containers",
+    "ML",
+    "AWS",
+    "GCP",
+    "Azure",
+    "CI/CD",
+    "automated testing"
+  ],
+  "nice_to_have_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "Spark"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

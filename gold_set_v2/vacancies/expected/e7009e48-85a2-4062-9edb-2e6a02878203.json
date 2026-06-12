@@ -1,0 +1,34 @@
+{
+  "vacancy_id": "e7009e48-85a2-4062-9edb-2e6a02878203",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Manager",
+    "uk": "Product Manager"
+  },
+  "role_title_raw": "Product Manager (Interceptor)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "product management",
+    "DefTech",
+    "drone autonomy",
+    "NATO standards",
+    "product roadmap",
+    "cross-functional delivery"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

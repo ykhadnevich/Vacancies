@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle DevOps",
+    "uk": "Middle DevOps"
+  },
+  "role_title_raw": "Middle DevOps Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "CI/CD",
+    "AWS",
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "monitoring",
+    "cloud",
+    "Linux",
+    "Ansible",
+    "PostgreSQL",
+    "MySQL",
+    "Bash",
+    "Python",
+    "ELK",
+    "NoSQL"
+  ],
+  "nice_to_have_skills": [
+    "GCP",
+    "Azure",
+    "GitHub Actions"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

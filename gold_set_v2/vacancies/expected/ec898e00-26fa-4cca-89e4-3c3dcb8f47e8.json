@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Growth Marketing Manager",
+    "uk": "Senior Growth Marketing Manager"
+  },
+  "role_title_raw": "Senior Growth Marketing Manager (AI)",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "growth marketing",
+    "SaaS marketing",
+    "experimentation",
+    "content distribution",
+    "AI products",
+    "SaaS",
+    "AI"
+  ],
+  "nice_to_have_skills": [
+    "AI tools"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "MarTech",
+    "uk": "MarTech"
+  },
+  "anti_requirements": []
+}

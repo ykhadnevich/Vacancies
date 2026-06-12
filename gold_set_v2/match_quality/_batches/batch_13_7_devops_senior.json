@@ -1,0 +1,153 @@
+{
+  "batch_idx": 13,
+  "cv_id": "7_devops_senior",
+  "n_pairs": 29,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+      "match_quality": 10,
+      "rationale": "Perfect: K8s/CI/Linux/HA/Helm/Grafana/Prometheus/ES all in CV. Banking transferable."
+    },
+    {
+      "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "match_quality": 10,
+      "rationale": "Senior DevOps fintech with SOC2 (in CV ✓) + GCP/K8s/Terraform/IAM all match. C1 ✓."
+    },
+    {
+      "vacancy_id": "f6f58a71-977a-44c4-b648-e67c9c3b10b8",
+      "match_quality": 4,
+      "rationale": "Support specialist for Azure Integration Platform — not DevOps engineering."
+    },
+    {
+      "vacancy_id": "a10929c5-ac46-4c90-89c9-8e1712fb7886",
+      "match_quality": 8,
+      "rationale": "All AWS stack (EC2/S3/RDS/ECS/EKS/Lambda/VPC) + Terraform/K8s/Helm/GitLab CI/Jenkins/Prom/Grafana/ELK in CV. Middle role over-qualifies senior."
+    },
+    {
+      "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+      "match_quality": 0,
+      "rationale": "Account Farming + ANTI gray-area work."
+    },
+    {
+      "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+      "match_quality": 0,
+      "rationale": "Trainee .NET Developer — different field + ANTI trainee."
+    },
+    {
+      "vacancy_id": "b97a4400-92c0-45ef-a310-f77229ee28b5",
+      "match_quality": 8,
+      "rationale": "DevOps with AWS/GCP/CI/HA/Docker/Linux/K8s/Jenkins/GHActions/Bash/Python/Grafana — all in CV. WPEngine/DigitalOcean specific."
+    },
+    {
+      "vacancy_id": "a2414078-ec50-47f6-b3c6-81295e7d63fa",
+      "match_quality": 2,
+      "rationale": "Senior Fullstack PHP/Laravel/React — completely different stack. ANTI part-time."
+    },
+    {
+      "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+      "match_quality": 8,
+      "rationale": "Senior DevOps + Linux/Docker/K8s/CI/Ansible/Terraform/Python/GCP/Grafana/Loki/Prom/ELK all match. AI infra/GPU workloads specific."
+    },
+    {
+      "vacancy_id": "b54b635f-f2b9-49e9-9657-26e936568978",
+      "match_quality": 4,
+      "rationale": "Automation/CI/Terraform match but ANTI US PST timezone."
+    },
+    {
+      "vacancy_id": "f9d92cb8-91e3-4b65-bfbd-2473ab04e884",
+      "match_quality": 8,
+      "rationale": "Strong Middle DevOps — AWS/GCP/CI/Terraform/K8s/Docker/IaC/Bash/Python/HA all in CV. Middle role over-qualifies."
+    },
+    {
+      "vacancy_id": "d2a44eb7-6490-4369-9d07-a0099388fc8c",
+      "match_quality": 6,
+      "rationale": "AWS/Terraform/GHActions/Docker match. ANTI onsite Kyiv."
+    },
+    {
+      "vacancy_id": "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+      "match_quality": 4,
+      "rationale": "Azure-specific stack + ANTI EST timezone (13:30-22:00 Kyiv)."
+    },
+    {
+      "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+      "match_quality": 2,
+      "rationale": "Senior Backend C#/.NET iGaming — different role (dev not DevOps)."
+    },
+    {
+      "vacancy_id": "068b6104-9042-404f-a23e-a8399f3c7e90",
+      "match_quality": 8,
+      "rationale": "Middle SRE — SRE matches target_role. CDN/CI/Linux/Bash/GitLab CI/Python/HTTP all in CV."
+    },
+    {
+      "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+      "match_quality": 6,
+      "rationale": "Cloud Network Developer specialty (BGP/Private Link/L4-L7 LB) — networking-focused, partial DevOps overlap."
+    },
+    {
+      "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+      "match_quality": 8,
+      "rationale": "Middle DevOps gov — Linux/K8s/CI/Docker/Helm/Ansible/Prom/Grafana/Loki/Postgres/GitLab CI/GHActions all in CV."
+    },
+    {
+      "vacancy_id": "80bec801-fe95-4b26-9c93-9189071754b7",
+      "match_quality": 6,
+      "rationale": "DevOps gov — cybersec/vuln/cloud/Linux/Azure DevOps match. ICT systems specific govt context."
+    },
+    {
+      "vacancy_id": "3172a681-cbf9-4121-af90-7fe350a62caf",
+      "match_quality": 6,
+      "rationale": "Junior/Middle DevOps — Terraform/K8s/clouds/GCP match. Windows Server/AD niche admin focus."
+    },
+    {
+      "vacancy_id": "979d43f2-d52d-450d-88be-a955614331ab",
+      "match_quality": 6,
+      "rationale": "TechOps junior 2y — Linux/Docker/cloud/monitoring match. IoT specific. Over-qualified."
+    },
+    {
+      "vacancy_id": "41c84563-a9f5-4721-a71d-bc41345d02ff",
+      "match_quality": 10,
+      "rationale": "Exceptional: Terraform/Terragrunt/IaC/CI/observability/Docker/K8s/Helm/Argo CD (in CV ✓!)/GHActions/Prom/Grafana/AWS/Python/Go all match."
+    },
+    {
+      "vacancy_id": "b6d8744a-03c5-4ba3-80e2-b09b3988b8c3",
+      "match_quality": 8,
+      "rationale": "IT Infra Team Lead — IaC/BCDR/monitoring/incident/team leadership/Azure/AWS/Docker/K8s/Terraform/Python/Bash all match. Lead matches CV senior level."
+    },
+    {
+      "vacancy_id": "44979ab6-0336-4ff7-8abd-055c929aee2b",
+      "match_quality": 8,
+      "rationale": "DevOps — CI/Docker/Linux/Bash/monitoring/Python/Ansible/Jenkins/Prom/Grafana all in CV."
+    },
+    {
+      "vacancy_id": "c2b7f8bf-9e50-4206-9456-c34d66a0057d",
+      "match_quality": 2,
+      "rationale": "Node.js/TypeScript Developer + AI/LLM — backend dev role, not DevOps."
+    },
+    {
+      "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+      "match_quality": 10,
+      "rationale": "Exceptional Senior DevOps B2B SaaS — CI/Linux/Docker/K8s/AWS/Terraform/Helm/IaC/Ansible/GCP/Prom/Grafana/HAProxy/Postgres/Redis/Kafka — ALL in CV."
+    },
+    {
+      "vacancy_id": "d9b764c5-1599-4a77-a575-8933485cebd2",
+      "match_quality": 6,
+      "rationale": "Director Product+Security+DevOps — product+DevOps lead hybrid. CV is engineering-focused."
+    },
+    {
+      "vacancy_id": "6cd2d98d-5897-4c4b-b0b1-f2ce2b2a76ee",
+      "match_quality": 10,
+      "rationale": "Exceptional Senior DevOps — AWS/K8s/Terraform/Docker/CI/distributed/Helm/GHActions/Ansible/Azure/GCP/Python/Bash/Prom/Grafana — every must in CV."
+    },
+    {
+      "vacancy_id": "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+      "match_quality": 8,
+      "rationale": "AWS+ECS/EKS/Lambda/containers/serverless/CI/Git/Terraform/Helm/Linux all match. Multi-DB (Oracle/MSSQL) breadth."
+    },
+    {
+      "vacancy_id": "72e62066-7345-4f2a-bfae-734f016550e1",
+      "match_quality": 8,
+      "rationale": "Middle DevOps — CI/AWS/Terraform/Docker/K8s/Linux/Ansible/Postgres/Python/Bash/ELK all in CV. Multi-cloud nice."
+    }
+  ]
+}

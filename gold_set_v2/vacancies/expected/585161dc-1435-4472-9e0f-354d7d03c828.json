@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "585161dc-1435-4472-9e0f-354d7d03c828",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Cloud Network Developer",
+    "uk": "Мережевий розробник з хмарних сервісів"
+  },
+  "role_title_raw": "Мережевий інженер з хмарних сервісів",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Azure",
+    "AWS",
+    "cloud networking",
+    "hub-spoke architecture",
+    "BGP",
+    "Private Link",
+    "NAT",
+    "L4/L7 load balancing",
+    "network security policies",
+    "cloud",
+    "GCP",
+    "VPC",
+    "DNS",
+    "documentation"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

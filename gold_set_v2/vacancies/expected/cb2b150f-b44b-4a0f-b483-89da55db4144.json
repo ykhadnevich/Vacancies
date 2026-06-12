@@ -1,0 +1,45 @@
+{
+  "vacancy_id": "cb2b150f-b44b-4a0f-b483-89da55db4144",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle+ Machine Learning Engineer",
+    "uk": "Middle+ Machine Learning інженер"
+  },
+  "role_title_raw": "Middle+ Machine Learning Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "mobile app ML",
+    "recommendation systems",
+    "data pipelines",
+    "CI/CD",
+    "Airflow",
+    "Pandas",
+    "Tableau",
+    "Docker",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "Power BI",
+    "Looker",
+    "Databricks",
+    "NLP",
+    "REST API"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

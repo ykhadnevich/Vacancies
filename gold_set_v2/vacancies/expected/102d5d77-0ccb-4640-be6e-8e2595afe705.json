@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "102d5d77-0ccb-4640-be6e-8e2595afe705",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle .NET Developer",
+    "uk": "Middle .NET розробник"
+  },
+  "role_title_raw": "Strong Junior — Middle .NET Developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET Core",
+    "SQL",
+    "REST API",
+    "ASP.NET",
+    "OOP",
+    "SQL Server",
+    "Azure",
+    "relational databases",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Azure",
+    "React",
+    "Angular",
+    "CI/CD"
+  ],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "insurance",
+    "uk": "страхування"
+  },
+  "anti_requirements": []
+}

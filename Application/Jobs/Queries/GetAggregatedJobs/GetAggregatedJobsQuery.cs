@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Application.Common.Enums;
 using Application.DTOs;
 using Domain.Enums;
 
@@ -12,7 +13,21 @@ public record GetAggregatedJobsQuery : IRequest<GetAggregatedJobsResult>
     public SeniorityLevel? SeniorityLevel { get; init; }
     public decimal? MinSalary { get; init; }
     public string? Category { get; init; }
-    public bool RunRelevancePipeline { get; init; } = true;
+
+
+    public ReasoningProviderType ReasoningProvider { get; init; } = ReasoningProviderType.None;
+
+
+    public ScoringModelType ScoringModel { get; init; } = ScoringModelType.Flash;
+
+
+    public CvVersionPreference CvVersion { get; init; } = CvVersionPreference.Auto;
+
+
+    public bool IncludeCompetitionSignals { get; init; } = false;
+
+
+    public bool IncludeRecencyDecay { get; init; } = false;
 }
 
 public class GetAggregatedJobsResult

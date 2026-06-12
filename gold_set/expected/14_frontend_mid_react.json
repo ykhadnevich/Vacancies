@@ -1,0 +1,101 @@
+{
+  "seniority": "middle",
+  "target_roles": [
+    "Mid Frontend Developer",
+    "Senior Frontend Developer",
+    "Frontend Engineer"
+  ],
+  "domain_skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Redux Toolkit",
+    "Zustand",
+    "TanStack Query",
+    "TanStack Router",
+    "TanStack Table",
+    "React Hook Form",
+    "Zod",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "CSS Modules",
+    "styled-components",
+    "Material UI",
+    "Vite",
+    "ESLint",
+    "Prettier",
+    "GitHub Actions",
+    "Jest",
+    "React Testing Library",
+    "Storybook",
+    "Git",
+    "Figma"
+  ],
+  "technical_skills": [
+    "Webpack",
+    "Playwright",
+    "Chromatic",
+    "Chakra UI",
+    "shadcn/ui",
+    "Node.js",
+    "Express",
+    "REST",
+    "GraphQL",
+    "Apollo",
+    "urql",
+    "WebSockets",
+    "Recharts",
+    "Chart.js",
+    "D3.js"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Effa Health",
+      "type": "PRODUCTION",
+      "duration_months": 25,
+      "years_ago": 0
+    },
+    {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 18,
+      "years_ago": 2
+    },
+    {
+      "title": "Sigma Software",
+      "type": "PRODUCTION",
+      "duration_months": 14,
+      "years_ago": 4
+    },
+    {
+      "title": "EPAM",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 5
+    }
+  ],
+  "education": {
+    "degree": "bachelor",
+    "field": "Software Engineering",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2021
+  },
+  "english_level": "B2",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "B2"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

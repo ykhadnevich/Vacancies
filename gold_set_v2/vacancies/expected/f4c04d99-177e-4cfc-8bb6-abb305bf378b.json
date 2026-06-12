@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "f4c04d99-177e-4cfc-8bb6-abb305bf378b",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "QA Tester",
+    "uk": "QA Tester"
+  },
+  "role_title_raw": "QA Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "manual testing",
+    "API testing",
+    "mobile testing",
+    "web testing",
+    "regression testing",
+    "test planning",
+    "Postman",
+    "Azure DevOps",
+    "integration testing",
+    "REST API",
+    "Android"
+  ],
+  "nice_to_have_skills": [
+    "microservices",
+    "Azure",
+    "SQL"
+  ],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "travel",
+    "uk": "туризм"
+  },
+  "anti_requirements": []
+}

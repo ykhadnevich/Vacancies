@@ -1,0 +1,186 @@
+{
+  "agent": "H",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, expansion pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "2_mid_data_analyst",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+          "role_title_en": "Data Engineer",
+          "match_quality": 4,
+          "rationale": "DA->DE cross-family; has Python/SQL/PostgreSQL/Power BI/Tableau but missing Azure stack, GIS, OSINT, image processing, ETL/ELT infra."
+        },
+        {
+          "vacancy_id": "9159aa36-e2fc-43d4-a631-cbfdca113944",
+          "role_title_en": "ML Engineer",
+          "match_quality": 4,
+          "rationale": "DA->ML cross-family; Python/SQL/dbt overlap but no TensorFlow/PyTorch, computer vision, model deployment, Airflow/Kafka pipelines."
+        },
+        {
+          "vacancy_id": "fd125a93-ce97-4995-abce-547c10bbdead",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 0,
+          "rationale": "Complete mismatch; no C#/.NET/ASP.NET Core/EF Core/Docker; DA cannot fill senior backend role."
+        },
+        {
+          "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+          "role_title_en": "Junior Product Manager",
+          "match_quality": 4,
+          "rationale": "Strong analytics/hypothesis testing overlap but no PM/stakeholder management experience; middle DA over-qualified for junior PM role."
+        },
+        {
+          "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+          "role_title_en": "Senior Python QA Automation",
+          "match_quality": 2,
+          "rationale": "Cross-family; Python overlap only, no Selenium/Appium/PyTest/automation frameworks; seniority mismatch (mid->senior QA)."
+        }
+      ]
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "c3d15a9b-99df-4782-88e4-284757b99b3a",
+          "role_title_en": "Data Analyst",
+          "match_quality": 6,
+          "rationale": "Over-qualified senior DE for middle DA; has SQL/Python/Pandas but Tableau/Power BI/product analytics weaker than dedicated DA."
+        },
+        {
+          "vacancy_id": "be17f702-3859-4297-9de3-ed4ebe9e385a",
+          "role_title_en": "Senior / Lead Machine Learning Developer",
+          "match_quality": 4,
+          "rationale": "DE->ML cross-family; Python/SQL/data analysis overlap but no end-to-end ML deployment, modern AI tools, or .NET."
+        },
+        {
+          "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+          "role_title_en": "Senior .NET Backend Developer",
+          "match_quality": 0,
+          "rationale": "Complete mismatch; no C#/.NET/ASP.NET Core/EF Core/Dapper/Azure DevOps; DE cannot fill .NET backend role."
+        },
+        {
+          "vacancy_id": "e5858d60-c1be-4359-9191-cad7dc8f2c3a",
+          "role_title_en": "DevOps",
+          "match_quality": 4,
+          "rationale": "Cross-family; AWS/Terraform/Git/Lambda overlap but ECS/EKS/Helm/Oracle/MSSQL missing; DE infra differs from pure DevOps."
+        },
+        {
+          "vacancy_id": "92cbfd7a-b6e9-4c09-97e9-772e0a011318",
+          "role_title_en": "Tech Lead of Account Farming",
+          "match_quality": 2,
+          "rationale": "Python/Bash/cloud overlap but no account farming/social media automation/AI-ML leadership; anti-flag gray-area domain mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+          "role_title_en": "Senior Fullstack Developer",
+          "match_quality": 6,
+          "rationale": "Frontend half matches (React/Next/Tailwind); backend gap (NestJS/Kafka/microservices/K8s/Terraform); seniority off 1 level."
+        },
+        {
+          "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+          "role_title_en": "Junior iOS Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family mobile; no Swift/iOS experience; web->mobile paradigm shift; only loose programming fundamentals transfer."
+        },
+        {
+          "vacancy_id": "0c26fc6d-5fca-44ff-a9ce-45a2558f48f2",
+          "role_title_en": "Junior Android Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family mobile; no Kotlin/Compose/Android SDK; intern-level role and web->mobile mismatch."
+        },
+        {
+          "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+          "role_title_en": "Senior C# Backend Developer",
+          "match_quality": 0,
+          "rationale": "Complete mismatch; no C#/.NET/SQL/microservices/RabbitMQ backend stack; pure frontend CV cannot fill senior backend."
+        },
+        {
+          "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+          "role_title_en": "Junior QA",
+          "match_quality": 2,
+          "rationale": "Cross-family; no manual testing/Postman/Swagger/banking experience; Jira/SQL overlap minimal; frontend dev to manual QA mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "b6c105bb-c61d-4876-b19e-917e65947f4b",
+          "role_title_en": "Middle Android Developer",
+          "match_quality": 4,
+          "rationale": "Cross-platform mobile; transferable fundamentals (OOP/SOLID/REST/MVVM) but no Kotlin/Compose/Android SDK/Java production experience."
+        },
+        {
+          "vacancy_id": "d2e4be03-4166-490a-b365-da422328abd7",
+          "role_title_en": "Middle Fullstack Developer",
+          "match_quality": 2,
+          "rationale": "Mobile->web cross-family; no Node.js/React/JS/TS production work; paradigm shift, only loose fundamentals transfer."
+        },
+        {
+          "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+          "role_title_en": "Senior Frontend Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family mobile->frontend; no React/Next/TS/WebSockets/Webpack; senior seniority mismatch and Warsaw location constraint."
+        },
+        {
+          "vacancy_id": "05b9129a-81f1-4143-bdc0-683523e7ec4e",
+          "role_title_en": "Senior Backend Developer",
+          "match_quality": 0,
+          "rationale": "Complete mismatch; no C#/.NET/RNG/RGS/ASP.NET Core/EF Core; iOS dev cannot fill senior backend role."
+        },
+        {
+          "vacancy_id": "80a397d2-ccfb-4b84-acf7-8926a6640d50",
+          "role_title_en": "Manual / Automation QA",
+          "match_quality": 2,
+          "rationale": "Cross-family; no manual testing/automation/networking/IoT background; iOS dev->QA networking products is significant mismatch."
+        }
+      ]
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "n_pairs": 5,
+      "ratings": [
+        {
+          "vacancy_id": "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+          "role_title_en": "Middle iOS Developer",
+          "match_quality": 4,
+          "rationale": "Cross-platform mobile; transferable fundamentals (OOP/SOLID/REST/architecture) but no Swift/UIKit/SwiftUI; senior over-qualified for middle."
+        },
+        {
+          "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+          "role_title_en": "Fullstack Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family mobile->web; no Vue/PHP/Laravel/MySQL/WebSockets; Android senior expertise non-transferable to web fullstack."
+        },
+        {
+          "vacancy_id": "27ade056-b7b9-489b-af77-53fc12dcd5b0",
+          "role_title_en": "Frontend Developer",
+          "match_quality": 2,
+          "rationale": "Cross-family mobile->frontend; no Vue/Nuxt/SCSS/Pinia/JS/TS web stack; Android->web paradigm shift."
+        },
+        {
+          "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+          "role_title_en": "Automation QA Team Lead",
+          "match_quality": 2,
+          "rationale": "Cross-family; Java/leadership overlap but no Zoho/Selenium/Playwright/Cypress/automation strategy; Android senior->QA lead is mismatch."
+        },
+        {
+          "vacancy_id": "c1d841b8-8552-4d42-a314-6b281eea45d6",
+          "role_title_en": "Senior .NET Backend Developer",
+          "match_quality": 0,
+          "rationale": "Complete mismatch; no C#/.NET/ASP.NET Core/EF Core/Azure DevOps; Android dev cannot fill senior .NET backend."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vacancy_id": "306f9ac1-1597-4b57-8eda-fc4b17b43590",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Business Data Analyst",
+    "uk": "Business Data Analyst"
+  },
+  "role_title_raw": "Business Data analyst",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "SQL",
+    "BI",
+    "business insights",
+    "Analytical thinking"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 2,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

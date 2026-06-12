@@ -1,0 +1,37 @@
+{
+  "vacancy_id": "f974f87e-cafa-47f7-9678-0ea58afb6b0c",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Delivery Manager / Project Manager",
+    "uk": "Product Delivery Manager / Project Manager"
+  },
+  "role_title_raw": "Product Delivery Manager/AdTech",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "project management",
+    "resource allocation",
+    "timeline management",
+    "cross-team coordination",
+    "SDLC",
+    "Scrum",
+    "Kanban",
+    "Product Management",
+    "Jira"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "AdTech",
+    "uk": "AdTech"
+  },
+  "anti_requirements": []
+}

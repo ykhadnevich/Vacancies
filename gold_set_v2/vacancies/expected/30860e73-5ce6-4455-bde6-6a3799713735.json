@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Mobile Games QA Tester",
+    "uk": "Тестувальник мобільних ігор"
+  },
+  "role_title_raw": "Тестувальник мобільних ігор (Android / iOS), стаціонарно",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "mobile testing",
+    "bug documentation",
+    "Android testing",
+    "iOS testing",
+    "gameplay analysis",
+    "Android",
+    "iOS",
+    "Analytical thinking"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "onsite only"
+  ]
+}

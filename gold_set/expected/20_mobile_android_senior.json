@@ -1,0 +1,122 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Senior Android Engineer",
+    "Staff Android Engineer",
+    "Android Tech Lead"
+  ],
+  "domain_skills": [
+    "Kotlin",
+    "Jetpack Compose",
+    "Coroutines",
+    "Flow",
+    "Hilt",
+    "Kotlin Multiplatform",
+    "Ktor",
+    "kotlinx.serialization",
+    "SQLDelight",
+    "Dagger 2",
+    "Room",
+    "RxJava",
+    "Retrofit",
+    "Custom IME",
+    "TFLite",
+    "Gradle",
+    "Bitrise",
+    "Modularization",
+    "R8",
+    "Crashlytics",
+    "Compose Navigation",
+    "XML Views",
+    "Material You",
+    "MVI",
+    "Clean Architecture",
+    "Koin",
+    "Navigation",
+    "DataStore",
+    "WorkManager",
+    "Paging 3",
+    "ViewModel",
+    "Lifecycle",
+    "CameraX",
+    "kotlinx.coroutines",
+    "KSP",
+    "GitHub Actions",
+    "Fastlane",
+    "Firebase App Distribution",
+    "JUnit",
+    "MockK",
+    "Turbine",
+    "Compose UI tests",
+    "Espresso",
+    "Roborazzi",
+    "Maestro",
+    "Android Studio",
+    "Charles Proxy",
+    "LeakCanary",
+    "Android Profiler",
+    "perfetto",
+    "Firebase",
+    "Sentry",
+    "Amplitude"
+  ],
+  "technical_skills": [
+    "Java",
+    "Bash",
+    "KDoc"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "MacPaw",
+      "type": "PRODUCTION",
+      "duration_months": 40,
+      "years_ago": 0
+    },
+    {
+      "title": "Grammarly",
+      "type": "PRODUCTION",
+      "duration_months": 29,
+      "years_ago": 3
+    },
+    {
+      "title": "Genesis",
+      "type": "PRODUCTION",
+      "duration_months": 23,
+      "years_ago": 6
+    },
+    {
+      "title": "Ciklum",
+      "type": "PRODUCTION",
+      "duration_months": 16,
+      "years_ago": 8
+    },
+    {
+      "title": "EPAM",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Computer Science",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2017
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

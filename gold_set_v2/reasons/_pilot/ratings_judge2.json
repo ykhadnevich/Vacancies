@@ -1,0 +1,316 @@
+{
+  "judge_id": "judge2",
+  "date": "2026-05-24",
+  "ratings": [
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths GCP/K8s/Terraform verified in CV; gaps IaC/SSO/IAM are in missing_must_haves. Misses critical must-haves like ISO 27001/SOC 2/compliance which are higher-impact for FinTech security role. Brand tokens present but no context. UK terms preserved in Latin script."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Identical to A. Strengths verified, gaps verified. Misses ISO 27001/SOC 2 compliance context for FinTech security role. Generic skill list, no overqualification or domain framing."
+      },
+      "candidate_C": {
+        "factual_accuracy": 10,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths verified. Mentions cross-domain Kubernetes→fintech context (salient). Captures the security-specific must-haves ISO 27001/SOC 2 which are the most critical gaps. Pair-unique phrasing with domain context. UK Latin script preserved."
+      }
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+      "candidate_A": {
+        "factual_accuracy": 6,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths Docker/K8s/Ansible verified. But CV explicitly lists 'Linux administration' as a domain skill — calling it a gap is factually wrong. Alloy gap is OK. Missed AI infrastructure/GPU workloads which are critical and salient for DefTech ML. UK Latin preserved."
+      },
+      "candidate_B": {
+        "factual_accuracy": 6,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths verified. Same Linux error — CV has Linux administration. 'cloud' gap is wrong — CV lists GCP/AWS/Azure. Two questionable items. Misses AI infrastructure/GPU which is the most salient must-have."
+      },
+      "candidate_C": {
+        "factual_accuracy": 6,
+        "completeness": 8,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths verified. Adds cross-domain Kubernetes→DefTech context (salient framing). But 'Cloud' as gap is wrong (CV has GCP/AWS). FinOps gap legitimate. Captures domain transition which is actionable for user."
+      }
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 0,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Score 0.71 → Partial bucket, but says 'Partial match' so verdict word matches. Wait — actually says 'Partial match'. Verdict OK. Mentions overqualification (senior for senior role is borderline, but +flag for cross-domain). Strengths verified. Gaps Nomad/Consul reasonable from HashiCorp stack. Captures salient context."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths/gaps verified. Verdict 'Partial' matches 0.73 score. Misses overqualification framing (senior 5+y for senior 5y is not overqualified — so candidate_A's flag may be a false signal). Generic skill list without context. Actionable but minimal."
+      },
+      "candidate_C": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Identical to B. Strengths/gaps verified. Verdict matches. No salient context (no overqualification or domain note). Generic skill list. UK terms preserved."
+      }
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths .NET/C# verified. Gaps ADO.NET/MS SQL Server/ASP.NET WebForms verified. Misses junior-for-middle seniority flag (CV is junior, role middle — salient context). UK preserved."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Identical to A. Strengths and gaps verified. Misses junior→middle seniority context which is salient. Generic skill list."
+      },
+      "candidate_C": {
+        "factual_accuracy": 10,
+        "completeness": 8,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths verified. Adds cross-domain C#→fintech context. Gaps reasonable. Pair-specific framing. Still misses junior-for-middle but compensates with domain transition note."
+      }
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 10,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths Python/SQL verified. Tensorflow/Keras gaps verified. Adds critical overqualification + cross-domain to DefTech framing — both salient (data engineer for ML role, defense domain). 'Middle role' slight error — vacancy says not_specified. Otherwise excellent actionable framing."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 4,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths Python/Git verified. Gaps DS/MLE/mathematics correct but abstract category names. Misses overqualification AND cross-domain DefTech AND key ML stack (Tensorflow/PyTorch). Generic phrasing. Less actionable."
+      },
+      "candidate_C": {
+        "factual_accuracy": 10,
+        "completeness": 4,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Identical to B. Strengths/gaps factually correct but high-level abstract. Misses overqualification and cross-domain salient flags. Misses ML stack specifics."
+      }
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 10,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 10,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths SQL/Postman verified. Captures BOTH overqualification (senior for junior, 8+y for 1y) AND cross-domain (Ajax Systems → banking) — highly salient. Gaps Swagger/API verifiable. Highly actionable for user decision."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths Jira/SQL/Postman verified. Gaps verified. Misses dramatic overqualification (senior for junior) AND cross-domain banking — these are the dominant signals for this match. Generic skill list."
+      },
+      "candidate_C": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Same as B. Strengths/gaps verified. Misses overqualification and banking domain transition framing. Less actionable."
+      }
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths React/Node.js verified. Mentions role family mismatch — but CV is middle fullstack targeting Senior Fullstack so it is the right family; this 'role family mismatch' framing is questionable (1 borderline item). Gaps Kafka/Next.js verified. Adds some salient context."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths/gaps verified. Misses seniority mismatch (middle CV applying for senior 5y) and stale-experience context (Walmart 10y ago). Generic skill list."
+      },
+      "candidate_C": {
+        "factual_accuracy": 10,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Identical to B. Strengths/gaps verified. Misses seniority and experience-recency context. Minimal phrasing."
+      }
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+      "candidate_A": {
+        "factual_accuracy": 10,
+        "completeness": 8,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths Postman/Jira verified. Gaps Swagger/HTTP/REST API verified. Notes cross-domain transition (relevant for edtech). Misses overqualification (senior for junior) explicitly but cross-domain hint partially addresses salient context."
+      },
+      "candidate_B": {
+        "factual_accuracy": 10,
+        "completeness": 4,
+        "specificity": 4,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths verified. Gaps phrased in Ukrainian generic categories ('теорія тестування'). Misses overqualification (senior for junior) AND cross-domain edtech. Generic phrasing, not actionable."
+      },
+      "candidate_C": {
+        "factual_accuracy": 8,
+        "completeness": 4,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths API testing/Postman verified. Gaps 'W2A testing, corporate websites testing' — these are not in vacancy must_haves which is mobile/edutainment focused. 1-2 borderline items. Misses overqualification and key must-haves like mobile testing."
+      }
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 10,
+        "verdict_match": 0,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Score 0.545 → Partial bucket and reason says 'Часткова відповідність'. Actually verdict matches. Wait — re-checking: score 0.545 is in 0.50-0.74 = Partial. Reason says 'Partial match'. Verdict actually matches=10. But ideal_verdict says Weak. Going by computed score per rubric. Adjusting: verdict=10. Gaps specific (Meta/TikTok/CPA/RoAS). Cross-domain framing salient. Missing strengths section despite empty matched_skills is reasonable."
+      },
+      "candidate_B": {
+        "factual_accuracy": 4,
+        "completeness": 4,
+        "specificity": 4,
+        "verdict_match": 10,
+        "relevance_for_user": 4,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths 'experience depth, language requirements' — false. CV has matched_skills=[] (no PM/marketing matches), only 3 months courses + pet project as a junior career-switcher. 'Experience depth' is fabricated. Generic phrasing. Misses critical career-switcher + role-family-mismatch flags."
+      },
+      "candidate_C": {
+        "factual_accuracy": 6,
+        "completeness": 6,
+        "specificity": 6,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Verdict 'Weak match' matches 0.47 score. Strengths 'language requirements, education background' — education is in_progress and unrelated (Software Eng) — partly fabricated. Gaps Creative strategy/iteration legitimate. Mixed quality."
+      }
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+      "candidate_A": {
+        "factual_accuracy": 8,
+        "completeness": 8,
+        "specificity": 10,
+        "verdict_match": 10,
+        "relevance_for_user": 8,
+        "uk_term_preservation": 10,
+        "rationale": "Score 0.79 → Strong, reason says 'Strong match'. Strengths Appium/PyTest verified. Gap 'Selenium' valid (not in CV explicitly — CV has Selenium WebDriver, so borderline). Mentions cross-domain (e-commerce). Adds salient context. Misses anti_flag '3-6 month contract' check though anti_requirements list it."
+      },
+      "candidate_B": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Strengths Python/Appium verified. Selenium gap borderline (CV has Selenium WebDriver). Misses anti_flag '3-6 month contract' which is critical for actionability. Misses cross-domain. Generic framing."
+      },
+      "candidate_C": {
+        "factual_accuracy": 8,
+        "completeness": 6,
+        "specificity": 8,
+        "verdict_match": 10,
+        "relevance_for_user": 6,
+        "uk_term_preservation": 10,
+        "rationale": "Identical to B. Same Selenium borderline. Misses anti_flag warning ('3-6 month contract') — important for candidate decision. No domain context."
+      }
+    }
+  ]
+}

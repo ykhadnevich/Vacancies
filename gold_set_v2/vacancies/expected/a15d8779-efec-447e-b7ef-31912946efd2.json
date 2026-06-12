@@ -1,0 +1,51 @@
+{
+  "vacancy_id": "a15d8779-efec-447e-b7ef-31912946efd2",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Head of Engineering / Pre-sales Solution Architect",
+    "uk": "Head of Engineering / Pre-sales Solution Architect"
+  },
+  "role_title_raw": "Head of Engineering",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "solution architecture",
+    "microservices",
+    "DDD",
+    "CQRS",
+    "messaging",
+    "AWS",
+    "GCP",
+    "Azure",
+    "AI/ML",
+    "SOLID",
+    "cloud",
+    "Java",
+    "JavaScript",
+    "Node.js",
+    "Python",
+    "C#",
+    "Go"
+  ],
+  "nice_to_have_skills": [
+    "AWS Solutions Architect certification",
+    "React",
+    "Angular",
+    "Vue.js",
+    "Technical Product Management"
+  ],
+  "min_years_experience": 5,
+  "education_required": "bachelor",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

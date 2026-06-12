@@ -1,0 +1,47 @@
+{
+  "vacancy_id": "e09c21f3-6c72-4ebe-97d2-fe53bc014778",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Data Engineer",
+    "uk": "Data Engineer"
+  },
+  "role_title_raw": "Data Engineer (Azure, ETL, PostgreSQL, Power BI)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Azure Functions",
+    "Blob Storage",
+    "Logic Apps",
+    "ETL",
+    "ELT",
+    "PostgreSQL",
+    "Power BI",
+    "OSINT",
+    "GIS",
+    "image processing",
+    "Python",
+    "BI",
+    "CI/CD",
+    "AWS",
+    "GCP",
+    "Tableau",
+    "API"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": [
+    "military service unit"
+  ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_ids": [
+      "e5eb8f2f-3507-4ada-9f8a-3a34f4d4afa8",
+      "f0b686ec-6f37-42c7-9f30-954845668593",
+      "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+      "05f8724b-1999-4847-875e-6eff702c5eae",
+      "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+      "210a253b-0be0-4901-a1ce-f5c89ef6f5d4",
+      "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+      "16899fdd-9080-444d-b6f1-0f84a096a608"
+    ]
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_ids": [
+      "d5b7073e-bbdb-46b1-a7aa-e012076f6355",
+      "281c16e7-f1cf-497a-af62-cd4222f2466c",
+      "ec898e00-26fa-4cca-89e4-3c3dcb8f47e8",
+      "514b325d-ce89-4e78-babd-1cf9268b8714",
+      "446e7574-dd06-4f38-983b-f41d2e21252d",
+      "ebda9513-ff6d-4df9-bc93-bc8b5caefdc8",
+      "bc85925f-e306-40dd-b476-0ad83a210bfb",
+      "92cbfd7a-b6e9-4c09-97e9-772e0a011318"
+    ]
+  },
+  {
+    "cv_id": "yan_pm",
+    "vacancy_ids": [
+      "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+      "c89b5447-b5eb-49e6-bff0-147f13b336de",
+      "a176fc44-9d82-42e6-b567-cb7ff96ac67f",
+      "345c5e8b-15dc-4059-ab9d-43e73ad6c446",
+      "705ffb5a-db10-4785-bd7f-a90db4721c6d",
+      "ff8aad4f-4fde-42bd-b481-5c835e59c02e",
+      "eed0122a-4452-438f-bf05-a25257066b12",
+      "646f93ed-8a4a-4498-9e5e-100b979a2153"
+    ]
+  },
+  {
+    "cv_id": "7_devops_senior",
+    "vacancy_ids": [
+      "e7d46dc9-e4c3-41d5-a67e-0ecd2c23b536",
+      "7f9ceb65-f457-4999-a112-365a1005f191",
+      "76cb5abd-f975-4f55-94b3-c26544c18e56",
+      "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+      "31bdd04e-436f-4571-9dca-8f2eede293ae"
+    ]
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_ids": [
+      "fd125a93-ce97-4995-abce-547c10bbdead",
+      "96a27c2c-42ca-4591-94b1-ecc829ef0eb9",
+      "3172a681-cbf9-4121-af90-7fe350a62caf",
+      "aa0d4c30-553c-49fd-b07d-785af2e5ac30",
+      "e07fb525-2281-4dca-b4b4-52f34b2f127d"
+    ]
+  }
+]

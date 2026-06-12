@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "219bf29a-d44c-498f-a00d-358d5a962a64",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior AI/LLM Python Developer",
+    "uk": "Senior AI/LLM Python розробник"
+  },
+  "role_title_raw": "Senior AI/LLM Python developer with LangGraph",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "LLM",
+    "LangGraph",
+    "AI agents",
+    "agentic workflows",
+    "RAG",
+    "FastAPI",
+    "PostgreSQL",
+    "ownership"
+  ],
+  "nice_to_have_skills": [
+    "React",
+    "Next.js"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

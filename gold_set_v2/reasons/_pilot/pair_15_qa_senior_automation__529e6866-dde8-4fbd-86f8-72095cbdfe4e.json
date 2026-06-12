@@ -1,0 +1,240 @@
+{
+  "cv_id": "15_qa_senior_automation",
+  "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+  "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+      "QA Lead",
+      "Senior SDET",
+      "Test Architect"
+    ],
+    "domain_skills": [
+      "Playwright",
+      "Selenium WebDriver",
+      "Appium",
+      "Cucumber",
+      "Java",
+      "TypeScript",
+      "Python",
+      "pytest",
+      "TestNG",
+      "JUnit",
+      "RestAssured",
+      "Postman",
+      "Newman",
+      "API testing",
+      "JMeter",
+      "GitLab CI",
+      "Jenkins",
+      "GitHub Actions",
+      "Docker",
+      "Page Object Model",
+      "Test pyramid design",
+      "BDD",
+      "Shift-left QA",
+      "Exploratory testing",
+      "Jira",
+      "Zephyr",
+      "TestRail",
+      "Allure",
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "Maven"
+    ],
+    "technical_skills": [
+      "Cypress",
+      "Gatling",
+      "Grafana",
+      "Groovy",
+      "Bash",
+      "MongoDB",
+      "Kafka",
+      "Wiremock",
+      "Pact"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "Ajax Systems",
+        "type": "PRODUCTION",
+        "duration_months": 42,
+        "years_ago": 0
+      },
+      {
+        "title": "EPAM",
+        "type": "PRODUCTION",
+        "duration_months": 31,
+        "years_ago": 4
+      },
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 18,
+        "years_ago": 6
+      },
+      {
+        "title": "Luxoft",
+        "type": "PRODUCTION",
+        "duration_months": 13,
+        "years_ago": 8
+      },
+      {
+        "title": "Datrics",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 9
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Engineering",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2017
+    },
+    "english_level": "B2",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "Russian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "B2"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+    "source_language": "uk",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Strong Junior Manual QA",
+      "uk": "Strong Junior Manual QA"
+    },
+    "role_title_raw": "Strong Junior Manual QA Engineer",
+    "seniority_required": "junior",
+    "must_have_skills": [
+      "manual testing",
+      "mobile testing",
+      "edutainment apps",
+      "Postman",
+      "Swagger",
+      "REST API",
+      "Jira",
+      "HTTP"
+    ],
+    "nice_to_have_skills": [],
+    "min_years_experience": 1,
+    "education_required": "not_specified",
+    "english_required": "B1",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": false,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "edtech",
+      "uk": "edtech"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.5825,
+      "reason_en": "Cross-domain transition. Partial match. Strengths: Postman, Jira. Gaps: Swagger, Testomat, HTTP, JSON, REST API.",
+      "reason_uk": "Перехід між доменами. Часткова відповідність. Переваги: Postman, Jira. Брак: Swagger, Testomat, HTTP, JSON, REST API.",
+      "evidence": {
+        "matched_skills": [
+          "Postman",
+          "Jira"
+        ],
+        "missing_must_haves": [
+          "теорія тестування",
+          "Chrome DevTools",
+          "Swagger",
+          "Testomat",
+          "HTTP",
+          "REST API",
+          "JSON",
+          "тестувати API"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.56,
+      "reason_en": "Partial match. Strengths: Postman, Jira. Gaps: теорія тестування, тестова документація.",
+      "reason_uk": "Часткова відповідність. Переваги: Postman, Jira. Брак: теорія тестування, тестова документація.",
+      "evidence": {
+        "matched_skills": [
+          "Postman",
+          "Jira"
+        ],
+        "missing_must_haves": [
+          "теорія тестування",
+          "тестова документація",
+          "чек-лісти",
+          "тест-кейси",
+          "баг-репорти",
+          "гайдлайни",
+          "Chrome DevTools",
+          "Swagger",
+          "TMS",
+          "Testomat",
+          "HTTP",
+          "REST API",
+          "JSON",
+          "API тестування"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.5585,
+      "reason_en": "Partial match. Strengths: API testing, Postman. Gaps: W2A testing, corporate websites testing.",
+      "reason_uk": "Часткова відповідність. Переваги: API testing, Postman. Брак: W2A testing, corporate websites testing.",
+      "evidence": {
+        "matched_skills": [
+          "API testing",
+          "Postman",
+          "Jira"
+        ],
+        "missing_must_haves": [
+          "W2A testing",
+          "corporate websites testing",
+          "marketing landing pages testing",
+          "internal products testing",
+          "admin panel testing",
+          "automation tools testing",
+          "payments testing",
+          "attribution testing",
+          "backend testing",
+          "A/B tests control",
+          "bug reports",
+          "test cases",
+          "descriptive documentation",
+          "risk analysis",
+          "testing theory",
+          "Chrome DevTools",
+          "Swagger",
+          "TMS",
+          "Testomat",
+          "HTTP",
+          "REST API",
+          "JSON"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

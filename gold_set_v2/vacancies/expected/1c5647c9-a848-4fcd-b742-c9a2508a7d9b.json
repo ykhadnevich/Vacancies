@@ -1,0 +1,48 @@
+{
+  "vacancy_id": "1c5647c9-a848-4fcd-b742-c9a2508a7d9b",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Python Developer",
+    "uk": "Middle Python розробник"
+  },
+  "role_title_raw": "Middle Python Engineer (MLOps-напрям)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Python",
+    "MLOps",
+    "ML model deployment",
+    "data engineering",
+    "SQL",
+    "concurrency",
+    "gRPC",
+    "microservices",
+    "Docker",
+    "Kubernetes",
+    "data structures",
+    "asynchronous programming",
+    "API",
+    "REST API"
+  ],
+  "nice_to_have_skills": [
+    "Airflow",
+    "Kafka",
+    "CI/CD",
+    "Helm",
+    "NoSQL"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

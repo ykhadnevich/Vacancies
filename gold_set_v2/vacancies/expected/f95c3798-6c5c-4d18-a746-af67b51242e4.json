@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "f95c3798-6c5c-4d18-a746-af67b51242e4",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Full-Stack (Frontend-focused) Developer (TypeScript / Quasar / Laravel)",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "TypeScript",
+    "Quasar Framework",
+    "Vue.js",
+    "Laravel",
+    "PHP",
+    "REST API",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Docker"
+  ],
+  "nice_to_have_skills": [
+    "travel domain"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "travel",
+    "uk": "туризм"
+  },
+  "anti_requirements": []
+}

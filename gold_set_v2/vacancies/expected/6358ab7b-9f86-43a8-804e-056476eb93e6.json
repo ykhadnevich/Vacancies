@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "6358ab7b-9f86-43a8-804e-056476eb93e6",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Lead Data Scientist",
+    "uk": "Lead Data Scientist"
+  },
+  "role_title_raw": "Lead Data Scientist",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "pricing models",
+    "promotions",
+    "inventory",
+    "assortment optimization",
+    "personalization",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "deep learning"
+  ],
+  "min_years_experience": 6,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "retail",
+    "uk": "рітейл"
+  },
+  "anti_requirements": []
+}

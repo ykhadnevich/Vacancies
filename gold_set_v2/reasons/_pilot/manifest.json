@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+      "ideal_score": 0.8218,
+      "ideal_verdict": "Strong"
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "db3e51c2-682e-4dc9-be6e-c969365f94fa",
+      "ideal_score": 0.8429,
+      "ideal_verdict": "Strong"
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "639ee8a5-c207-426c-aa96-63965af9c2e1",
+      "ideal_score": 0.782,
+      "ideal_verdict": "Strong"
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca",
+      "ideal_score": 0.6619,
+      "ideal_verdict": "Partial"
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "8a1b7b12-9279-4bb7-8938-972b9a7c43ef",
+      "ideal_score": 0.6013,
+      "ideal_verdict": "Partial"
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+      "ideal_score": 0.645,
+      "ideal_verdict": "Partial"
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "627e7223-26d4-4daf-ada9-13bd47943ccf",
+      "ideal_score": 0.5832,
+      "ideal_verdict": "Partial"
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+      "ideal_score": 0.5975,
+      "ideal_verdict": "Partial"
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "a16032ca-09f1-46c3-9343-980ff9f76911",
+      "ideal_score": 0.47,
+      "ideal_verdict": "Weak"
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "cdee4086-679a-4e14-8a83-a0b4a9c7448a",
+      "ideal_score": 0.4338,
+      "ideal_verdict": "Weak"
+    }
+  ]
+}

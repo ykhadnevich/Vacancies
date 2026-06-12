@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "Full Stack Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "REST API",
+    "Express",
+    "GraphQL",
+    "Clean Architecture",
+    "PostgreSQL",
+    "SQL",
+    "NoSQL",
+    "API",
+    "Firebase"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": []
+}

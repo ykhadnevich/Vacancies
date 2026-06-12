@@ -1,0 +1,182 @@
+[
+  {
+    "cv_id": "10_legal_mid_corporate_lawyer",
+    "vacancy_id": "4d925c65-1549-445e-887c-cfb20ea016c0",
+    "role": "Payment Product Manager",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "9_healthcare_senior",
+    "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+    "role": "Mobile Games QA Tester",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "8_healthcare_junior",
+    "vacancy_id": "89950026-e1d4-45c0-886c-f7700a96ba40",
+    "role": "Data Analyst",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "11_education_senior_teacher",
+    "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+    "role": "Senior AI / Machine Learning Engineer",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "8_healthcare_junior",
+    "vacancy_id": "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+    "role": "Strong Junior Manual QA",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "8_healthcare_junior",
+    "vacancy_id": "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+    "role": "Senior .NET Developer",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "8_healthcare_junior",
+    "vacancy_id": "f0b686ec-6f37-42c7-9f30-954845668593",
+    "role": "Junior / Middle Product Marketing Manager",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "6_hr_recruiter_generic",
+    "vacancy_id": "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+    "role": "Senior Manual QA",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "16_marketing_mid_growth",
+    "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+    "role": "Frontend Developer (Vue)",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "6_hr_recruiter_generic",
+    "vacancy_id": "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+    "role": "Android Team Lead",
+    "primary_score": 0
+  },
+  {
+    "cv_id": "23_security_engineer_mid",
+    "vacancy_id": "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+    "role": "Tech Lead .NET Developer",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "646f93ed-8a4a-4498-9e5e-100b979a2153",
+    "role": "Product Manager",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "92f8bd8e-b51f-40ac-a0eb-adc24ee757e9",
+    "role": "Senior C# Backend Developer",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "3f5fed6c-6ab0-4eb3-b440-249da7fba361",
+    "role": "Senior Data Scientist",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "6_devops_junior",
+    "vacancy_id": "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+    "role": "Fullstack Developer",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "76cb5abd-f975-4f55-94b3-c26544c18e56",
+    "role": "Data Engineer",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "12_finance_senior_accountant",
+    "vacancy_id": "8298811a-423e-456d-bb00-f04f497adbf3",
+    "role": "SQL / Data Engineer",
+    "primary_score": 2
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+    "role": "Mobile Games QA Tester",
+    "primary_score": 4
+  },
+  {
+    "cv_id": "21_engineering_manager_senior",
+    "vacancy_id": "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+    "role": "Product Manager / Product Owner",
+    "primary_score": 4
+  },
+  {
+    "cv_id": "20_mobile_android_senior",
+    "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+    "role": "Senior iOS Developer",
+    "primary_score": 4
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "c45b7900-4e2d-4639-afd7-e9dfb4aacf36",
+    "role": "Data Analyst",
+    "primary_score": 4
+  },
+  {
+    "cv_id": "23_security_engineer_mid",
+    "vacancy_id": "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+    "role": "Middle DevOps",
+    "primary_score": 6
+  },
+  {
+    "cv_id": "15_qa_senior_automation",
+    "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+    "role": "Mobile Games QA Tester",
+    "primary_score": 6
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+    "role": "Fullstack Developer",
+    "primary_score": 6
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_id": "5ef4320d-971c-4970-ab94-ea72fa40034b",
+    "role": "Trainee .NET Azure Cloud Developer",
+    "primary_score": 6
+  },
+  {
+    "cv_id": "14_frontend_mid_react",
+    "vacancy_id": "431ff4b3-05ae-44bd-860f-0b6ccb587cb9",
+    "role": "Fullstack Developer / AI Adoption Lead",
+    "primary_score": 6
+  },
+  {
+    "cv_id": "4_senior_product_manager",
+    "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+    "role": "Product Manager",
+    "primary_score": 8
+  },
+  {
+    "cv_id": "16_marketing_mid_growth",
+    "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+    "role": "Marketing Operations Manager",
+    "primary_score": 8
+  },
+  {
+    "cv_id": "22_data_engineer_senior",
+    "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+    "role": "Data Engineer / ETL / BI Developer",
+    "primary_score": 8
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+    "role": "Data Analyst",
+    "primary_score": 8
+  }
+]

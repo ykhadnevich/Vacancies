@@ -1,0 +1,35 @@
+{
+  "vacancy_id": "51048422-c940-428f-b81d-3cb63f7ed76a",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Engineering Manager",
+    "uk": "Engineering Manager"
+  },
+  "role_title_raw": "Engineering Manager, Go",
+  "seniority_required": "lead",
+  "must_have_skills": [
+    "engineering management",
+    "Go",
+    "team leadership",
+    "AI products",
+    "LLM"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 7,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": true
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "hybrid work"
+  ]
+}

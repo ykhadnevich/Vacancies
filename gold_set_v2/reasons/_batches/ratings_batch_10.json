@@ -1,0 +1,201 @@
+{
+  "batch_idx": 10,
+  "ratings": [
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "312f7cc7-fbe1-4506-83ed-e6d6f2ef7294",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Strengths PyTorch/XGBoost correct; ML/DL/Docker/K8s gaps verified. Cross-domain banking flag adds context. Tools named are specific brand tokens."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Facts accurate but minimal gaps mentioned (missed Docker/K8s/CI-CD). No context flag. Tools named but limited coverage."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "All factual; one extra gap (feature engineering) but missed Docker/K8s. No salient context flag mentioned."}
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "vacancy_id": "e951763c-d850-4182-9f63-64e19a3354f5",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Anti-flag (travel) explicitly mentioned, key gaps named, all factual. Highly actionable for user."},
+      "candidate_B": {"factual_accuracy": 8, "completeness": 10, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "AdTech mention slightly off (vacancy says MarTech); but includes cross-domain note, gaps, anti-flag — full coverage and actionable."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Strengths/gaps verified, anti-flag included, brand tokens used. Actionable."}
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "a24e9b83-2cbb-4b81-bfb1-5cf1fb104467",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate facts; brand-specific gaps (OneBox, MariaDB). No cross-domain note despite retail→frontend mismatch."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Adds cross-domain retail flag; lists gaps. Specific tools named."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate but lacks context flag. Brand-specific gaps mentioned."}
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "358605d1-053d-4231-9e42-df64f32771d1",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Anti-flags (writing code, gathering business requirements) explicitly called out. Strengths and key gaps mentioned with brand tokens."},
+      "candidate_B": {"factual_accuracy": 6, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 0, "rationale": "Cross-domain Playwright→retail framing odd; empty matched_skills contradicted by strengths list. UK reason uses 'написання коду' (Ukrainian translation of anti-flag) instead of preserving English."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Strengths and anti-flags clearly noted; gaps brand-specific. Actionable."}
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "0f28ff56-d10e-4946-9a98-c269be0e145e",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate facts; brand tokens used; lacks salient context (senior role but candidate middle with 10-year-old experience)."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Adds cross-domain context though generic. Strengths/gaps brand-specific and accurate."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Comprehensive gaps list with specific tools. No context flag mentioned."}
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "vacancy_id": "9f88dd86-c147-4681-9567-4b87fe913b97",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Cross-domain note added (B2B SaaS). DDD listed as gap but not in must_haves — slight inaccuracy. Misses overqualification context (senior CV for trainee role)."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 0, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Score 0.725 → Strong expected, but verdict says Partial. Facts accurate but verdict mismatched. Misses overqualification flag."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 0, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Verdict mismatch (0.725 should be Strong). Software architecture gap is abstract not brand-specific."}
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "290ea2fc-b808-4943-9496-094392bc595d",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Generic gaps (iOS frameworks, multithreading) rather than specific RevenueCat/AppsFlyer brand tokens that are critical missing must-haves."},
+      "candidate_B": {"factual_accuracy": 8, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Same as A — generic iOS-framework phrasing instead of brand-specific RevenueCat/AppsFlyer gaps."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Brand-specific gaps (MVVM, RevenueCat) + cross-domain note. More actionable."}
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "1384e97c-56ba-491d-a1e6-5a2f350c0d9d",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 10, "specificity": 10, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Detailed anti-flag (timezone constraints) included with specifics. Strengths and gaps accurate and brand-specific."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Misses anti-flag (timezone) which is salient. Strengths/gaps factual."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 0, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Score 0.569 → Partial expected, verdict matches. Wait — score 0.5692 is Partial, verdict 'Partial match' correct. But anti-flag (timezone) missed entirely from evidence in this candidate (different evidence)."}
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "ea9cef37-2c7c-4957-a156-2ce0027c569d",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate but limited gaps. No salient context."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate strengths/gaps; brand tokens used."},
+      "candidate_C": {"factual_accuracy": 6, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Vacancy domain is 'consulting' not 'healthcare' — fabricated cross-domain detail. Otherwise strengths/gaps accurate."}
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Critical Flutter/Dart gap identified. Strengths accurate. Missing cross-domain note."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 10, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Includes cross-domain Android→iGaming note + brand-specific gaps."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate but shorter gap list; no context flag."}
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "vacancy_id": "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 10, "specificity": 10, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Overqualification flag noted; brand-specific gaps (SSIS/SSRS/SSAS/T-SQL/Tableau). Comprehensive."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Truncated gaps; no overqualification flag mentioned."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Same shortened gaps; no overqualification context."}
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate strengths/gaps with brand tokens (Power BI, MS SQL via gaps). No context flag (no major salient one needed)."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Cross-domain mention generic. Brief gaps. Accurate."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Additional strength (data modeling) and accurate gaps. Brand tokens used."}
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "8177a254-3728-4f81-b23d-59881458e60b",
+      "candidate_A": {"factual_accuracy": 6, "completeness": 4, "specificity": 6, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Empty strengths section problematic; gaps too brief. Misses cross-domain (energy/fintech→banking) context."},
+      "candidate_B": {"factual_accuracy": 8, "completeness": 6, "specificity": 4, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Generic strengths phrasing ('experience depth, language requirements'). Gaps mixed UK/EN in EN reason."},
+      "candidate_C": {"factual_accuracy": 6, "completeness": 6, "specificity": 6, "verdict_match": 0, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Score 0.121 → Mismatch verdict matches. Lists 'дискримінація' as gap — that's nonsensical (it's CV/vacancy anti-discrimination clause being mis-tagged). Confusing."}
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "vacancy_id": "e1e366c2-9d8e-446e-8d41-d8f8414f4d3f",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 8, "specificity": 6, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Anti-flag (coordinator role) mentioned. Strengths generic phrasing. Brand-specific Amazon ecosystem gaps."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 10, "specificity": 10, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Cross-domain & role family mismatch noted, brand-specific gaps (Helium10, DataDive, Sellerboard), anti-flag included. Highly actionable."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Comprehensive gap list, anti-flag included. Could note cross-domain explicitly."}
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "5a4127a7-dc4c-43b5-a98b-a5f32212a60b",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate strengths/gaps with brand tokens (Creatio). Missing role-family or overqualification framing."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Role family mismatch flagged (helpful since CV is .NET, vacancy Creatio). Brand tokens used."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Brand tokens used; accurate. No context flag."}
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "979d43f2-d52d-450d-88be-a955614331ab",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Role family mismatch flagged (DevOps vs TechOps L2). Linux gap mention odd — CV has Linux administration explicitly. Slight inaccuracy."},
+      "candidate_B": {"factual_accuracy": 6, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Lists Linux/Unix as gaps but CV has 'Linux administration, Bash' — incorrect. No context flag."},
+      "candidate_C": {"factual_accuracy": 6, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Same Linux gap inaccuracy. No context flag."}
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 10, "specificity": 10, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "All salient context (underqualified, cross-domain, role family mismatch) included; brand-specific gaps. Highly actionable."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate but misses salient underqualification/role-family flags."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Same — accurate but no contextual flags. Brand tokens used."}
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "f942bb39-7ba8-4b1e-ba34-8211b7f37205",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 8, "specificity": 6, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Anti-flag (closing feature tickets) noted. Strengths are generic ('seniority level fit'). Mid-specific gap detail."},
+      "candidate_B": {"factual_accuracy": 8, "completeness": 8, "specificity": 6, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Underqualified and cross-domain noted, anti-flag included, but UK reason translates anti-flag instead of preserving English."},
+      "candidate_C": {"factual_accuracy": 8, "completeness": 6, "specificity": 6, "verdict_match": 0, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Score 0.575 → Partial verdict matches. But no anti-flag noted despite triggered_anti_flags missing here. Missed salient context."}
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "vacancy_id": "30a8adf3-869f-4761-8dbb-3b438b333135",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate, brand tokens. Misses overqualification framing (senior CV at score 0.82)."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 0, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Score 0.747 → Partial verdict matches actually (0.5-0.74). But says 'Partial match' — let me check: 0.7475 = Partial bucket (boundary <0.75). Verdict correct. Overqualification flag noted."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Same as A — accurate but no context flag."}
+    },
+    {
+      "cv_id": "1_senior_backend_engineer",
+      "vacancy_id": "689a5e83-2274-4179-aa69-84a139adab0f",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate strengths and gaps. No context flag mentioned."},
+      "candidate_B": {"factual_accuracy": 8, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Data warehouse/ClickHouse not in must_haves — slightly off. Misses cross-domain iGaming."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 10, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Cross-domain C#→iGaming flag added. Brand tokens, comprehensive."}
+    },
+    {
+      "cv_id": "20_mobile_android_senior",
+      "vacancy_id": "f7bdc749-1e34-4587-9435-4735496f0f50",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 6, "specificity": 2, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Generic 'skills overlap, seniority level fit' phrasing. No specific brand tokens despite strong match."},
+      "candidate_B": {"factual_accuracy": 8, "completeness": 6, "specificity": 2, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Identical to A — fully generic phrasing."},
+      "candidate_C": {"factual_accuracy": 8, "completeness": 2, "specificity": 0, "verdict_match": 10, "relevance_for_user": 2, "uk_term_preservation": 10, "rationale": "Empty strengths/gaps fields. Only verdict communicated."}
+    },
+    {
+      "cv_id": "2_mid_data_analyst",
+      "vacancy_id": "76d248b1-a0fe-4538-a71a-f5e1db7cc9a4",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 10, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Overqualification + cross-domain flags noted (CV middle vs junior role). Brand tokens used. Highly actionable. Slight inaccuracy: CV is middle, not senior."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Misses overqualification flag (middle CV for junior role)."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Verdict correct (0.711 = Partial). Misses overqualification context."}
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "vacancy_id": "41c84563-a9f5-4721-a71d-bc41345d02ff",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Brand-specific gaps (Terragrunt, Argo CD). Accurate. No context flag but no salient one needed for clear strong match."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Same as A — brand-specific gaps, accurate."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 10, "specificity": 10, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Includes overqualification + cross-domain DefTech context. Brand tokens. Most informative."}
+    },
+    {
+      "cv_id": "14_frontend_mid_react",
+      "vacancy_id": "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "jQuery as gap correct; Hooks listed as gap but React experience implies Hooks knowledge — slightly off. Misses Warsaw location anti-flag."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate, brand tokens. Misses Warsaw location anti-flag."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Includes underqualified + cross-domain iGaming context. Misses Warsaw location anti-flag."}
+    },
+    {
+      "cv_id": "19_mobile_ios_mid",
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "candidate_A": {"factual_accuracy": 8, "completeness": 4, "specificity": 4, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Listing Android/iOS as gaps absurd for iOS dev CV (has UIKit/Swift/iOS frameworks). Empty strengths. Missing onsite anti-flag."},
+      "candidate_B": {"factual_accuracy": 6, "completeness": 6, "specificity": 4, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Same Android/iOS gap nonsense; generic strengths phrasing. Role mismatch flag added but anti-flag (onsite) missed."},
+      "candidate_C": {"factual_accuracy": 6, "completeness": 6, "specificity": 4, "verdict_match": 10, "relevance_for_user": 4, "uk_term_preservation": 10, "rationale": "Android/iOS as gaps inaccurate; mobile games gap valid. Generic strengths. No onsite anti-flag."}
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "vacancy_id": "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate Java gap. AWS is correct strength. Misses anti-flag (no hands-on coding) — important for role framing."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 6, "specificity": 6, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Same coverage as A. Misses anti-flag."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Includes overqualification framing. More specific gaps. Still misses hands-on coding anti-flag."}
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "vacancy_id": "cdc7757a-a09b-42b9-b1d2-12a69069931f",
+      "candidate_A": {"factual_accuracy": 6, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "German anti-flag valid. SQL databases listed as gap but CV has SQL Server, PostgreSQL — questionable accuracy."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 8, "uk_term_preservation": 10, "rationale": "Anti-flag noted. Brand tokens (Angular, React). Accurate gaps."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 10, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Underqualified flag + German anti-flag both noted. Most informative."}
+    },
+    {
+      "cv_id": "yan_pm",
+      "vacancy_id": "7efc4977-6826-4062-a7c1-7eb13c489a0f",
+      "candidate_A": {"factual_accuracy": 10, "completeness": 6, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Accurate brand tokens (iGaming, B2B). Misses underqualification flag (CV junior, vacancy senior + 4 yrs)."},
+      "candidate_B": {"factual_accuracy": 10, "completeness": 10, "specificity": 8, "verdict_match": 10, "relevance_for_user": 10, "uk_term_preservation": 10, "rationale": "Underqualified by 3 years + cross-domain flags included. Comprehensive and actionable."},
+      "candidate_C": {"factual_accuracy": 10, "completeness": 8, "specificity": 8, "verdict_match": 10, "relevance_for_user": 6, "uk_term_preservation": 10, "rationale": "Detailed gap list. Brand-specific (iGaming aggregator). Misses underqualification flag."}
+    }
+  ]
+}

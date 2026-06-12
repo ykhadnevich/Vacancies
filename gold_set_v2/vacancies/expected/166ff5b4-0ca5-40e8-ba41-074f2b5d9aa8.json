@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "166ff5b4-0ca5-40e8-ba41-074f2b5d9aa8",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Machine Learning Engineer",
+    "uk": "Senior Machine Learning інженер"
+  },
+  "role_title_raw": "Senior Machine Learning Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "AWS",
+    "GCP",
+    "Azure",
+    "MLOps",
+    "NLP",
+    "Computer Vision",
+    "Recommendation Systems",
+    "distributed computing",
+    "ML",
+    "cloud",
+    "data structures"
+  ],
+  "nice_to_have_skills": [
+    "leading ML projects",
+    "Spark"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

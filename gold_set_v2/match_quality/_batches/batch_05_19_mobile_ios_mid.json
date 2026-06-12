@@ -1,0 +1,158 @@
+{
+  "batch_idx": 5,
+  "cv_id": "19_mobile_ios_mid",
+  "n_pairs": 30,
+  "rater": "Claude Sonnet 4.6",
+  "ratings": [
+    {
+      "vacancy_id": "78f9e1ef-a9ec-4f57-beab-8cff04a1dbff",
+      "match_quality": 8,
+      "rationale": "Swift/SwiftUI/CocoaPods/REST/MVVM/in-app purchases (StoreKit in CV)/CI(Bitrise)/iOS — all match. 1y min, 4.8y over-qualified."
+    },
+    {
+      "vacancy_id": "4282937a-c8f7-4849-b638-23a38a6125be",
+      "match_quality": 10,
+      "rationale": "Perfect: Swift/UIKit/SwiftUI/REST/iOS/MVC/MVVM/Git all in CV. Middle ✓, 4.8>3y. Fintech transferable."
+    },
+    {
+      "vacancy_id": "7f1ece8a-3a25-458f-94c9-6175978daa8e",
+      "match_quality": 0,
+      "rationale": "Unity/C# game dev — completely different platform from native iOS."
+    },
+    {
+      "vacancy_id": "495bf8f5-5006-401a-966f-ba29bb0b9990",
+      "match_quality": 10,
+      "rationale": "Perfect: Swift/UIKit/SwiftUI/REST/Clean Arch (in CV)/iOS/design patterns. Middle ✓."
+    },
+    {
+      "vacancy_id": "8bd19a6e-d5f4-4850-890e-a30b94912130",
+      "match_quality": 6,
+      "rationale": "Swift/Obj-C match. WebRTC/real-time video specific (AVFoundation in CV is adjacent but not WebRTC)."
+    },
+    {
+      "vacancy_id": "5ca9ee6c-1e3d-4fd8-8b52-467dccee2021",
+      "match_quality": 8,
+      "rationale": "Swift/UIKit/SwiftUI/REST/iOS/OOP/SOLID all match. High-load not explicit but mid-iOS handles it. Middle ✓."
+    },
+    {
+      "vacancy_id": "98a268d8-d06c-497a-a0aa-dbb57274dd49",
+      "match_quality": 4,
+      "rationale": "Junior + over-qualified. SQL not in CV (Core Data instead)."
+    },
+    {
+      "vacancy_id": "7c684e0a-d23e-4299-bbf6-388d55d29704",
+      "match_quality": 10,
+      "rationale": "Exceptional: HealthKit exactly in CV (rare match!). Swift/SwiftUI/UIKit/iOS native/async-await all match. Middle ✓."
+    },
+    {
+      "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+      "match_quality": 2,
+      "rationale": "Flutter/Dart — CV is native iOS, no Flutter experience."
+    },
+    {
+      "vacancy_id": "a44313fb-396b-4e17-81ce-7477515de7f9",
+      "match_quality": 10,
+      "rationale": "Perfect: Swift/UIKit/SwiftUI/REST/Git/iOS/Clean Arch/MVC/MVVM — all in CV. Middle ✓."
+    },
+    {
+      "vacancy_id": "a3e47d4e-9648-46a1-9917-2f545b413cd2",
+      "match_quality": 4,
+      "rationale": "Mobile dev requires BOTH iOS native AND Android native (Kotlin) — CV is iOS-only."
+    },
+    {
+      "vacancy_id": "cc498796-b031-411c-828e-3c0ea1d06b67",
+      "match_quality": 8,
+      "rationale": "Swift/SwiftUI/UIKit/REST/Git/iOS all match. Fastlane in CV. 1y min, over-qualified."
+    },
+    {
+      "vacancy_id": "d12c42fa-20a2-4828-895e-916488950dde",
+      "match_quality": 0,
+      "rationale": "Marketing Operations Manager — completely different role, not engineering."
+    },
+    {
+      "vacancy_id": "0c269701-4e43-4767-a42c-f88a25d8e179",
+      "match_quality": 6,
+      "rationale": "Junior 1y vs middle 4.8y — over-qualification. All tech in CV. TunnelKit/VPN specific."
+    },
+    {
+      "vacancy_id": "d15c0148-2839-4631-b0fe-c2fdde77ccec",
+      "match_quality": 6,
+      "rationale": "Swift/UIKit/SwiftUI/REST/CI all match. Web3/blockchain specialization not in CV. Senior 5y borderline vs 4.8y."
+    },
+    {
+      "vacancy_id": "1a176b19-5ba5-4ca2-8e6a-c5238bf74e6c",
+      "match_quality": 0,
+      "rationale": "System Administrator — completely different field. ANTI onsite."
+    },
+    {
+      "vacancy_id": "22b9feab-e367-4d3d-8765-da2c484052aa",
+      "match_quality": 0,
+      "rationale": "Fullstack JS/React — iOS dev has no web stack."
+    },
+    {
+      "vacancy_id": "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+      "match_quality": 6,
+      "rationale": "Swift/UIKit/iOS/SwiftUI/Clean Arch/MVVM all match. Flutter/Android required but candidate iOS-only. Senior 5y borderline."
+    },
+    {
+      "vacancy_id": "2e707afc-5d10-42be-b364-fa2e1f3119b4",
+      "match_quality": 0,
+      "rationale": "ANTI volunteer position, no salary."
+    },
+    {
+      "vacancy_id": "290ea2fc-b808-4943-9496-094392bc595d",
+      "match_quality": 8,
+      "rationale": "Strong: Swift/Obj-C/UIKit/MVVM/VIPER (in CV!)/Clean Arch/in-app purchases/iOS/Xcode all match. RevenueCat/AppsFlyer/Amplitude specific gaps."
+    },
+    {
+      "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+      "match_quality": 0,
+      "rationale": "Mobile Games QA Tester — QA role + ANTI onsite. Not dev."
+    },
+    {
+      "vacancy_id": "4d5a6aaf-6c65-4642-95ae-280665fbaf0e",
+      "match_quality": 2,
+      "rationale": "Flutter/Dart — CV is native iOS."
+    },
+    {
+      "vacancy_id": "31bdd04e-436f-4571-9dca-8f2eede293ae",
+      "match_quality": 2,
+      "rationale": "React Native + Lead level — neither in CV (middle 4.8y, native iOS only)."
+    },
+    {
+      "vacancy_id": "6d3456fc-d1d2-419b-aeaf-49e724a932a6",
+      "match_quality": 6,
+      "rationale": "Swift/UIKit/SwiftUI/iOS/REST match. Kotlin Multiplatform specific — CV is pure iOS native."
+    },
+    {
+      "vacancy_id": "4265f244-a5ea-43c5-9daa-f9dd73f5089b",
+      "match_quality": 4,
+      "rationale": "WebKit/WKWebView/JS injection — niche browser customization specialty. ANTI browser fork."
+    },
+    {
+      "vacancy_id": "7195fa47-467d-4d9f-bdce-dee0b8dde139",
+      "match_quality": 4,
+      "rationale": "Junior + iOS basics — middle 4.8y over-qualified."
+    },
+    {
+      "vacancy_id": "6dc7352a-6f08-4b53-8bb4-8e0e7893f342",
+      "match_quality": 0,
+      "rationale": "Apple Developer Farmer (ID farming/antidetect) — ANTI gray-area work."
+    },
+    {
+      "vacancy_id": "776f2b42-8d59-4a57-9631-dd65e54d2ee5",
+      "match_quality": 4,
+      "rationale": "Lead level + team management — middle candidate under-qualified. iOS native ✓ but iGaming + WebView focus."
+    },
+    {
+      "vacancy_id": "2c329996-85c5-4956-b9a7-cac4c46a45ef",
+      "match_quality": 10,
+      "rationale": "Perfect: Swift/SwiftUI/UIKit/Combine (in CV)/async-await/REST/Clean Arch/MVVM/CI all match. Healthcare transferable (CV has HealthKit)."
+    },
+    {
+      "vacancy_id": "b2956050-dd0f-4ecd-8433-ba864e60faaa",
+      "match_quality": 0,
+      "rationale": "Flutter + ANTI volunteer — Flutter not in CV plus no salary."
+    }
+  ]
+}

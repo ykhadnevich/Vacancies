@@ -1,0 +1,38 @@
+{
+  "vacancy_id": "6a47a8ba-138d-4d6b-ad39-8f7b913f95bb",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Backend Manual QA",
+    "uk": "Backend Manual QA"
+  },
+  "role_title_raw": "Backend Manual QA Engineer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "API testing",
+    "backend testing",
+    "video streaming",
+    "manual testing",
+    "Postman",
+    "Swagger",
+    "Grafana",
+    "PostgreSQL",
+    "A/B testing",
+    "Amplitude"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,228 @@
+{
+  "cv_id": "7_devops_senior",
+  "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+  "cv_summary": {
+    "seniority": "senior",
+    "target_roles": [
+      "Senior SRE",
+      "Senior DevOps Engineer",
+      "Platform Engineer"
+    ],
+    "domain_skills": [
+      "Kubernetes",
+      "ArgoCD",
+      "Kustomize",
+      "AWS",
+      "EKS",
+      "RDS",
+      "S3",
+      "Lambda",
+      "CloudFront",
+      "GCP",
+      "Terraform",
+      "Helm",
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "Loki",
+      "Tempo",
+      "OpenTelemetry",
+      "Thanos",
+      "PagerDuty",
+      "GitHub Actions",
+      "Jenkins",
+      "Bitbucket",
+      "Docker",
+      "Ansible",
+      "VMware vSphere",
+      "Linux administration",
+      "Bash",
+      "SLO",
+      "Multi-cloud architecture",
+      "GitOps"
+    ],
+    "technical_skills": [
+      "OpenShift",
+      "Pulumi",
+      "Azure",
+      "Route53",
+      "GKE",
+      "Cloud SQL",
+      "Pub/Sub",
+      "GitLab CI",
+      "Flux",
+      "Istio",
+      "Linkerd",
+      "Python",
+      "Go",
+      "SOC2 compliance",
+      "Vault",
+      "Pod Security Policies",
+      "Perl"
+    ],
+    "unverified_skills": [],
+    "experience": [
+      {
+        "title": "Astound Commerce",
+        "type": "PRODUCTION",
+        "duration_months": 46,
+        "years_ago": 0
+      },
+      {
+        "title": "Wix.com",
+        "type": "PRODUCTION",
+        "duration_months": 27,
+        "years_ago": 4
+      },
+      {
+        "title": "SoftServe",
+        "type": "PRODUCTION",
+        "duration_months": 17,
+        "years_ago": 6
+      },
+      {
+        "title": "N-iX",
+        "type": "INTERNSHIP",
+        "duration_months": 3,
+        "years_ago": 8
+      }
+    ],
+    "education": {
+      "degree": "master",
+      "field": "Computer Science",
+      "is_relevant": true,
+      "status": "completed",
+      "current_year": null,
+      "graduation_year": 2018
+    },
+    "english_level": "C1",
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "C1"
+      },
+      {
+        "language": "German",
+        "level": "A2"
+      }
+    ],
+    "has_real_product_experience": true,
+    "career_switcher": false
+  },
+  "vacancy_analysis": {
+    "vacancy_id": "8e84f5c0-cc79-4a7e-84ea-831f1a97c708",
+    "source_language": "en",
+    "model_version": "vac_v1+tech_v1",
+    "role_title": {
+      "en": "Senior DevOps",
+      "uk": "Senior DevOps"
+    },
+    "role_title_raw": "Senior DevOps Engineer (Infrastructure, Security and Compliance)",
+    "seniority_required": "senior",
+    "must_have_skills": [
+      "DevOps",
+      "IT security",
+      "compliance",
+      "ISO 27001",
+      "SOC 2",
+      "vendor management",
+      "cloud infrastructure",
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "IAM"
+    ],
+    "nice_to_have_skills": [
+      "Python",
+      "Go"
+    ],
+    "min_years_experience": 5,
+    "education_required": "not_specified",
+    "english_required": "C1",
+    "location": {
+      "city_en": null,
+      "city_uk": null,
+      "remote": true,
+      "hybrid": false
+    },
+    "domain_context": {
+      "en": "fintech",
+      "uk": "фінтех"
+    },
+    "anti_requirements": []
+  },
+  "candidates": {
+    "candidate_A": {
+      "score": 0.7985000000000001,
+      "reason_en": "Strong match. Strengths: GCP, Kubernetes, Terraform. Gaps: IaC, SSO, IAM.",
+      "reason_uk": "Сильна відповідність. Переваги: GCP, Kubernetes, Terraform. Брак: IaC, SSO, IAM.",
+      "evidence": {
+        "matched_skills": [
+          "GCP",
+          "Kubernetes",
+          "Terraform",
+          "Python",
+          "Go"
+        ],
+        "missing_must_haves": [
+          "IaC",
+          "SSO",
+          "IAM",
+          "secrets management",
+          "vulnerability management"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_B": {
+      "score": 0.7985000000000001,
+      "reason_en": "Strong match. Strengths: GCP, Kubernetes, Terraform. Gaps: IaC, SSO, IAM.",
+      "reason_uk": "Сильна відповідність. Переваги: GCP, Kubernetes, Terraform. Брак: IaC, SSO, IAM.",
+      "evidence": {
+        "matched_skills": [
+          "GCP",
+          "Kubernetes",
+          "Terraform",
+          "Python",
+          "Go"
+        ],
+        "missing_must_haves": [
+          "IaC",
+          "SSO",
+          "IAM",
+          "secrets management",
+          "vulnerability management"
+        ],
+        "triggered_anti_flags": []
+      }
+    },
+    "candidate_C": {
+      "score": 0.785,
+      "reason_en": "Cross-domain Kubernetes→fintech transition. Strong match. Strengths: GCP, Kubernetes. Gaps: ISO 27001, SOC 2.",
+      "reason_uk": "Перехід Kubernetes→fintech. Сильна відповідність. Переваги: GCP, Kubernetes. Брак: ISO 27001, SOC 2.",
+      "evidence": {
+        "matched_skills": [
+          "GCP",
+          "Kubernetes",
+          "Terraform",
+          "Python",
+          "Go"
+        ],
+        "missing_must_haves": [
+          "IaC",
+          "SSO",
+          "IAM",
+          "secrets",
+          "vulnerability management",
+          "ISO 27001",
+          "SOC 2"
+        ],
+        "triggered_anti_flags": []
+      }
+    }
+  }
+}

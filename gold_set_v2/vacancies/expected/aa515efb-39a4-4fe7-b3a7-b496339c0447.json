@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "aa515efb-39a4-4fe7-b3a7-b496339c0447",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Fullstack .NET Developer",
+    "uk": "Middle Fullstack .NET розробник"
+  },
+  "role_title_raw": "Middle .NET fullstack developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "ASP.NET",
+    "SQL",
+    "frontend frameworks",
+    ".NET Framework",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "EF Core",
+    "OOP",
+    "design patterns"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "edtech",
+    "uk": "edtech"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "9942e73c-0111-4270-9c13-d8c605c3ee52",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Flutter Developer",
+    "uk": "Senior Flutter розробник"
+  },
+  "role_title_raw": "Senior Flutter Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Flutter",
+    "Dart",
+    "mobile architecture",
+    "REST API",
+    "iOS",
+    "Android",
+    "OOP",
+    "SOLID"
+  ],
+  "nice_to_have_skills": [
+    "Kotlin",
+    "Java",
+    "Swift",
+    "CI/CD",
+    "Unit testing"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "iGaming",
+    "uk": "iGaming"
+  },
+  "anti_requirements": []
+}

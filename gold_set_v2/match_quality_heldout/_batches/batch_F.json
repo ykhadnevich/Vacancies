@@ -1,0 +1,126 @@
+{
+  "agent": "F",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out strong-fit, primary pass",
+  "ratings_by_cv": [
+    {
+      "cv_id": "2_mid_data_analyst",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "05f8724b-1999-4847-875e-6eff702c5eae",
+          "role_title_en": "Data Analyst",
+          "match_quality": 8,
+          "rationale": "Mid Data Analyst CV (SQL, Amplitude, Tableau, Power BI, Looker, ~4y) hits all BI/product-analytics must-haves; AI-tools/ChatGPT not explicit."
+        }
+      ]
+    },
+    {
+      "cv_id": "4_senior_product_manager",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "6148a8b1-eb6b-4744-9c14-45672c0654ee",
+          "role_title_en": "Product Manager",
+          "match_quality": 6,
+          "rationale": "Senior PM with Amplitude/A/B/funnels matches family+seniority, but fintech/energy domain vs D2C e-commerce; AI-tools not explicit."
+        }
+      ]
+    },
+    {
+      "cv_id": "5_junior_backend_engineer",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "7f9ceb65-f457-4999-a112-365a1005f191",
+          "role_title_en": "Middle .NET Backend Developer",
+          "match_quality": 6,
+          "rationale": "Junior .NET CV (C#, ASP.NET Core, EF Core, Postgres) on Middle posting — off by 1 level; MongoDB and mobile-backend missing."
+        }
+      ]
+    },
+    {
+      "cv_id": "7_devops_senior",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+          "role_title_en": "Middle SRE",
+          "match_quality": 6,
+          "rationale": "Senior DevOps on Middle posting (over-qualified) plus Linux-first stack vs Windows/IIS/.NET requirement — substantial stack substitution."
+        }
+      ]
+    },
+    {
+      "cv_id": "13_ml_senior_engineer",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "7d309556-2e31-465a-a802-6a405051875d",
+          "role_title_en": "Python AI/ML Developer",
+          "match_quality": 6,
+          "rationale": "Senior ML CV (Python, PyTorch, TF) but NLP/RecSys background; CV must-haves (OpenCV, face/emotion detection, FastAPI/WebSockets) only partial."
+        }
+      ]
+    },
+    {
+      "cv_id": "15_qa_senior_automation",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "30860e73-5ce6-4455-bde6-6a3799713735",
+          "role_title_en": "Mobile Games QA Tester",
+          "match_quality": 6,
+          "rationale": "Senior QA Automation CV (Appium mobile) over-qualified for manual mobile games tester; role intent (automation vs manual gameplay) misaligned."
+        }
+      ]
+    },
+    {
+      "cv_id": "17_realformat_swe_fullstack",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "3dc10175-c589-40ac-a2cc-e6b7351b94be",
+          "role_title_en": "Fullstack Developer",
+          "match_quality": 6,
+          "rationale": "Mid Fullstack JS/Java/MySQL CV matches family, but Vue/PHP/Laravel/Python stack missing — heavy stack substitution from React/Node/Java."
+        }
+      ]
+    },
+    {
+      "cv_id": "21_engineering_manager_senior",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "3719c00a-f57e-4827-abd2-c9030c06d52f",
+          "role_title_en": "Automation QA Team Lead",
+          "match_quality": 4,
+          "rationale": "Engineering Manager (general SWE/backend) vs QA Automation Team Lead — cross-family; lacks Selenium/Playwright/Cypress test-automation foundation."
+        }
+      ]
+    },
+    {
+      "cv_id": "22_data_engineer_senior",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "738933d5-c8bb-4d76-9050-aed91775329d",
+          "role_title_en": "Data Engineer / ETL / BI Developer",
+          "match_quality": 8,
+          "rationale": "Senior DE with SQL/ETL/dbt/Airflow/warehousing/BI matches all must-haves; MS SQL and Power BI specific tools missing (Snowflake/Looker instead)."
+        }
+      ]
+    },
+    {
+      "cv_id": "yan_pm",
+      "n_pairs": 1,
+      "ratings": [
+        {
+          "vacancy_id": "a80fa449-881d-418a-9fbf-647eb9458e41",
+          "role_title_en": "Product Manager / Business Analyst",
+          "match_quality": 6,
+          "rationale": "Junior career-switcher PM CV with BA degree/Agile/Amplitude on 2y+ PM/BA posting — same family, no production PM/BA experience yet."
+        }
+      ]
+    }
+  ]
+}

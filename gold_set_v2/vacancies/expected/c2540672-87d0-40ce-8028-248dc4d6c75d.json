@@ -1,0 +1,40 @@
+{
+  "vacancy_id": "c2540672-87d0-40ce-8028-248dc4d6c75d",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Fullstack Developer",
+    "uk": "Fullstack розробник"
+  },
+  "role_title_raw": "FullStack Web Developer (React/Node.js)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "React",
+    "Node.js",
+    "JavaScript",
+    "TypeScript",
+    "REST API",
+    "HTML",
+    "CSS",
+    "Express",
+    "SCSS",
+    "Angular",
+    "Next.js",
+    "microservices"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,28 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning",
+      "Microsoft.EntityFrameworkCore.Database.Command": "Warning",
+      "Microsoft.EntityFrameworkCore.Infrastructure": "Warning",
+      "Microsoft.EntityFrameworkCore.Database.Connection": "Warning",
+      "Microsoft.EntityFrameworkCore.Model": "Warning",
+      "System.Net.Http.HttpClient": "Warning",
+      "Infrastructure.MlApi": "Error",
+      "LuckyPennySoftware.MediatR.License": "Error"
+    }
+  },
+  "AllowedHosts": "*",
+
+  "_README": "Every secret and environment-specific value lives in SSM Parameter Store under /vacancies/prod/* (see aws-setup/ssm-parameters-setup.md). This file is committed to git as a reference — the actual appsettings.Production.json is gitignored. Do NOT add Cors:AllowedOrigins, ConnectionStrings, Jwt:Key, or any API key here.",
+
+  "Ml": {
+    "EnableEmbedding": false,
+    "EnableEmbeddingWorker": false
+  },
+
+  "BackgroundWorkers": {
+    "EnableCvSummary": false,
+    "EnableVacancyAnalysis": false
+  }
+}

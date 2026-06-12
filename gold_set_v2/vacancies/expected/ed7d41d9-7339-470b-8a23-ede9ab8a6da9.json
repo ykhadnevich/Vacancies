@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "ed7d41d9-7339-470b-8a23-ede9ab8a6da9",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "News Feed Editor",
+    "uk": "Редактор стрічки новин"
+  },
+  "role_title_raw": "Редактор стрічки новин Редакції ділової інформації",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "business journalism",
+    "economic news monitoring",
+    "content editing",
+    "fact-checking",
+    "HTML"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": null,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "media",
+    "uk": "медіа"
+  },
+  "anti_requirements": []
+}

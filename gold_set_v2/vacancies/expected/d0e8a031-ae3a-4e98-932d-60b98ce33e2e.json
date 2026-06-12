@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "d0e8a031-ae3a-4e98-932d-60b98ce33e2e",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior AI/ML Engineer",
+    "uk": "Senior AI/ML інженер"
+  },
+  "role_title_raw": "Senior AI/Machine Learning Engineer [Healthcare project]",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "ML/AI",
+    "medical imaging",
+    "3D reconstruction",
+    "computer vision",
+    "X-ray processing",
+    "ML",
+    "PyTorch",
+    "deep learning",
+    "NumPy",
+    "SciPy"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

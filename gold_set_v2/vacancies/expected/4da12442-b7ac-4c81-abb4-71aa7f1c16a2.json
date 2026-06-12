@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "4da12442-b7ac-4c81-abb4-71aa7f1c16a2",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "DevOps",
+    "uk": "DevOps"
+  },
+  "role_title_raw": "DevOps Engineer, військовослужбовець",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Linux",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "military logistics systems",
+    "Git",
+    "Jenkins",
+    "GitLab CI"
+  ],
+  "nice_to_have_skills": [
+    "Ansible",
+    "Prometheus",
+    "Grafana"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "DefTech",
+    "uk": "DefTech"
+  },
+  "anti_requirements": [
+    "military service position"
+  ]
+}

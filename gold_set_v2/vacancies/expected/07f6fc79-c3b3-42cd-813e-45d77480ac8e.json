@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Frontend Developer",
+    "uk": "Frontend розробник"
+  },
+  "role_title_raw": "Frontend Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Vue.js",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "REST API",
+    "Vue 3",
+    "OOP",
+    "SOLID"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": [
+    "onsite only (Kyiv office, Berestejska metro)"
+  ]
+}

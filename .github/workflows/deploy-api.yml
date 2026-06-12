@@ -1,0 +1,95 @@
+# Build the .NET 8 API Docker image and deploy it to the production EC2
+# host. Runs only on push to main, only after CI has passed.
+#
+# Required repository secrets (Settings → Secrets and variables → Actions):
+#   EC2_HOST           — public DNS or Elastic IP of the API host
+#   EC2_USER           — SSH username (e.g. ec2-user)
+#   EC2_SSH_KEY        — private key (PEM body) with access to EC2_HOST
+#   EC2_DEPLOY_PATH    — directory on EC2 containing docker-compose.production.yml
+#                        (e.g. /home/ec2-user/vacancies)
+name: Deploy API
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-api
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    name: Build image + push to EC2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build image
+        run: |
+          SHA=${GITHUB_SHA:0:7}
+          docker build \
+            --file Dockerfile \
+            --tag vacancies-api:${SHA} \
+            --tag vacancies-api:latest \
+            .
+
+      - name: Export image as tarball
+        run: |
+          SHA=${GITHUB_SHA:0:7}
+          docker save vacancies-api:${SHA} vacancies-api:latest \
+            | gzip > image.tar.gz
+          ls -lh image.tar.gz
+
+      - name: Configure SSH
+        # The PEM body is piped through `printf '%s\n'` rather than `echo` so
+        # any literal `\` or `"` in the key body (rare but possible with some
+        # PEM formats) is preserved verbatim, AND the trailing newline OpenSSH
+        # requires is guaranteed regardless of how the secret was pasted.
+        env:
+          EC2_SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
+          EC2_HOST:    ${{ secrets.EC2_HOST }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$EC2_SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # ssh-keyscan populates known_hosts; subsequent ssh/scp calls then
+          # rely on StrictHostKeyChecking (default: ask → fails if missing)
+          # which now finds the entry and accepts the connection.
+          ssh-keyscan -H "$EC2_HOST" >> ~/.ssh/known_hosts
+
+      - name: Copy image to EC2
+        run: |
+          scp image.tar.gz \
+              ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:${{ secrets.EC2_DEPLOY_PATH }}/image.tar.gz
+
+      - name: Load + restart container on EC2
+        env:
+          SHA: ${{ github.sha }}
+        run: |
+          ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} \
+              "cd ${{ secrets.EC2_DEPLOY_PATH }} && \
+               gunzip -c image.tar.gz | docker load && \
+               docker compose -f docker-compose.production.yml up -d api && \
+               docker image prune -f && \
+               rm image.tar.gz"
+
+      - name: Verify health
+        run: |
+          for i in 1 2 3 4 5 6; do
+            sleep 10
+            if curl -fsS --max-time 10 "https://${{ secrets.EC2_HOST }}/health"; then
+              echo "✓ API healthy on attempt $i"
+              exit 0
+            fi
+            echo "Attempt $i — not healthy yet"
+          done
+          echo "✗ API did not become healthy within 60s"
+          exit 1

@@ -1,0 +1,33 @@
+{
+  "vacancy_id": "1f3b8b6e-c937-4511-8f1f-30c4df4f4fec",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Product Marketing Manager",
+    "uk": "Product Marketing Manager"
+  },
+  "role_title_raw": "Product Marketing Manager",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "product marketing",
+    "content strategy",
+    "narrative development",
+    "market positioning",
+    "demand generation"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

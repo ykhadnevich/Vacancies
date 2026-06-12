@@ -1,0 +1,46 @@
+{
+  "vacancy_id": "69a20796-a021-4479-8914-266f86212e21",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior .NET Developer",
+    "uk": "Senior .NET розробник"
+  },
+  "role_title_raw": "Senior .NET Software Engineer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "C#",
+    ".NET",
+    "databases",
+    "REST API",
+    "NUnit",
+    "xUnit",
+    "MSTest",
+    "unit testing",
+    "SQL",
+    "OOP",
+    "SOLID"
+  ],
+  "nice_to_have_skills": [
+    "Azure",
+    "AWS",
+    "GCP",
+    "Angular",
+    "Vue",
+    "React"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

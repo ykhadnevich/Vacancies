@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "9dceef06-bb27-4e8b-bb56-6fe6e9239cb7",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Data Scientist",
+    "uk": "Senior Data Scientist"
+  },
+  "role_title_raw": "Senior Data Scientist / ML",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Python",
+    "ML",
+    "predictive models",
+    "Microsoft Fabric",
+    "EHR data",
+    "healthcare data",
+    "Pandas",
+    "Scikit-Learn",
+    "PyTorch",
+    "TensorFlow",
+    "deep learning",
+    "Spark",
+    "SQL"
+  ],
+  "nice_to_have_skills": [],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "healthcare",
+    "uk": "healthcare"
+  },
+  "anti_requirements": []
+}

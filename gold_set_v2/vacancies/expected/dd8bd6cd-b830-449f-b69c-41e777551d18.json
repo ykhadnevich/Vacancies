@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "dd8bd6cd-b830-449f-b69c-41e777551d18",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Fullstack Developer",
+    "uk": "Middle Fullstack розробник"
+  },
+  "role_title_raw": "Middle Full-Stack Developer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "React",
+    "REST API",
+    "PostgreSQL",
+    "HTTP",
+    "Websockets",
+    "Git"
+  ],
+  "nice_to_have_skills": [
+    "Redux"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

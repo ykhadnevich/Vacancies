@@ -1,0 +1,43 @@
+{
+  "vacancy_id": "05e3fb53-42e1-4d26-af6b-b3f22c29be61",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle AI/ML Engineer",
+    "uk": "Middle AI/ML інженер"
+  },
+  "role_title_raw": "Middle AI/ML Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "Python",
+    "Palantir Foundry",
+    "Palantir AIP",
+    "LLM",
+    "ML",
+    "NLP",
+    "scikit-learn",
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "nice_to_have_skills": [
+    "AWS",
+    "GCP",
+    "Azure",
+    "Docker",
+    "Kubernetes"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "other",
+    "uk": "інше"
+  },
+  "anti_requirements": []
+}

@@ -1,0 +1,54 @@
+{
+  "vacancy_id": "0f28ff56-d10e-4946-9a98-c269be0e145e",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Senior Fullstack Developer",
+    "uk": "Senior Fullstack розробник"
+  },
+  "role_title_raw": "Senior Full Stack Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "frontend architecture",
+    "early-stage startup mindset",
+    "CSS",
+    "REST API",
+    "Express",
+    "Angular",
+    "NestJS",
+    "Express.js",
+    "PostgreSQL",
+    "microservices"
+  ],
+  "nice_to_have_skills": [
+    "AI / LLM integrations",
+    "Elasticsearch",
+    "RabbitMQ",
+    "Redis",
+    "Docker",
+    "Kubernetes",
+    "LLM",
+    "ML",
+    "CI/CD",
+    "AWS",
+    "Kafka"
+  ],
+  "min_years_experience": 5,
+  "education_required": "not_specified",
+  "english_required": "C1",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "B2B SaaS",
+    "uk": "B2B SaaS"
+  },
+  "anti_requirements": []
+}

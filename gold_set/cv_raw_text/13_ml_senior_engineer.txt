@@ -1,0 +1,63 @@
+Maksym Yaremchuk
+Senior ML Engineer · 7 years · NLP + recsys · PhD candidate
+m.yaremchuk@example.com · github.com/myaremchuk · linkedin.com/in/myaremchuk
+Summary
+ML інженер з 7 років production досвіду. Спеціалізація: NLP (semantic search, RAG, fine-tuning
+encoders) та recommender systems (two-tower, sequential). Shipped 4 ML systems у production:
+2 recsys, 1 semantic search, 1 content classifier. Strong у MLOps — feature stores, model serving,
+online evaluation.
+Experience
+Senior ML Engineer — Grammarly (NLP product)
+Jul 2023 — Present · Kyiv (remote) · PRODUCTION
+• Lead ML engineer on suggestions-quality team: fine-tuned sentence-level encoder для
+real-time grammar suggestion scoring. Reduced false-positive rate by 23% in A/B test.
+• Designed + built feature store on Feast + Snowflake — serves 12 production models,
+sub-50ms p99 latency.
+• Migration of one suggestion model from TensorFlow Serving до Triton Inference Server — 2x
+throughput, 40% cost reduction on GPU spend.
+• Mentor для 3 ML engineers (mid-level). Drive ML system design reviews.
+ML Engineer (mid → senior) — Genesis (Universe Group product family)
+Feb 2021 — Jun 2023 · Kyiv · PRODUCTION
+• Recommender system для consumer subscription app — two-tower retrieval + DLRM ranking
+on TensorFlow. Lifted retention D7 by 11%.
+• Sequential recsys (SASRec-style transformer) для another B2C product — won A/B test
+against baseline.
+• Content classifier (toxicity + spam) — fine-tuned XLM-RoBERTa, deployed via TorchServe.
+• Set up Kubeflow Pipelines for offline training, MLflow for experiment tracking.
+Junior ML Engineer — Ring Ukraine (Amazon-owned, computer vision)
+Aug 2019 — Jan 2021 · Kyiv · PRODUCTION
+• Worked on object detection models для smart doorbell devices — YOLOv4 fine-tuning,
+dataset curation, edge deployment via TensorRT.
+Research Intern — Samsung R&D Ukraine
+Jun 2019 — Jul 2019 · Kyiv · INTERNSHIP
+• Computer vision research — paper reading group, prototype on image segmentation.
+Skills
+Modeling: Transformers (BERT, RoBERTa, XLM-R), embeddings (sentence-transformers,
+ColBERT), encoder fine-tuning (contrastive, triplet loss), classification, NER, sequence models,
+two-tower retrieval, DLRM, SASRec, BERT4Rec.
+Frameworks: PyTorch (primary, daily), HuggingFace Transformers, TensorFlow 2.x, JAX (light
+use), scikit-learn, XGBoost, LightGBM.
+MLOps: MLflow, Kubeflow Pipelines, Vertex AI, SageMaker (basic), Triton Inference Server,
+TorchServe, ONNX, model quantization, Feast feature store.
+Languages: Python (advanced, daily 6+ years), SQL (advanced), Bash, basic Go for serving infra.
+Data + Infra: Spark (PySpark), Airflow, Databricks, Snowflake, BigQuery, Postgres, Redis (vector
++ cache), Pinecone (vector DB), AWS (EC2/S3/SageMaker), GCP (Vertex/BigQuery).
+
+Evaluation: offline metrics (NDCG, MRR, AUC, F1), online A/B test design, counterfactual
+evaluation basics, fairness audits.
+Education
+NTUU Kyiv Polytechnic Institute (KPI)
+PhD in Computer Science (Machine Learning) · 2021 — In Progress (target 2026)
+PhD topic: efficient retrieval-augmented generation for low-resource languages. 2 conference
+papers (EMNLP Findings 2023, COLING 2024). Advisor: Prof. Y.S.
+NTUU Kyiv Polytechnic Institute (KPI)
+Master's in Applied Math · 2017–2019 · Completed
+NTUU Kyiv Polytechnic Institute (KPI)
+Bachelor's in Applied Math · 2013–2017 · Completed
+Languages
+• Ukrainian — native
+• English — C1 (conference presentations, paper writing)
+• German — A1
+Target Roles
+Senior / Staff ML Engineer · Applied Scientist · Senior Research Engineer. Open to: NLP, RAG/LLM
+applications, recsys. Не зацікавлений у pure data-analyst ролях або data-engineer-only.

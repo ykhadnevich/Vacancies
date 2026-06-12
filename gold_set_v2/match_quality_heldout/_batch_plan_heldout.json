@@ -1,0 +1,172 @@
+{
+  "schema_version": "match_quality_heldout_v1",
+  "generated_at": "2026-06-09T00:00:00Z",
+  "rater": "Claude Opus 4.7 (Anthropic) — Cowork session, held-out",
+  "rating_dimension": "match_quality",
+  "rating_scale": "ordinal anchor-only: 0/2/4/6/8/10",
+  "rubric": {
+    "10": "exceptional fit, exceeds all must-haves, exact target role, no anti-flags",
+    "8": "strong match, meets all must-haves, seniority aligns",
+    "6": "partial, ~70% must-haves OR seniority off 1 level OR cross-domain",
+    "4": "weak, significant gaps OR cross-family",
+    "2": "mismatch with adjacency",
+    "0": "complete mismatch (different field entirely)"
+  },
+  "methodology_basis": "Zheng et al. 2023 — anchor-only ordinal, per-rating rationale required, no intermediate values",
+  "design_note": "Pair-level held-out: 11 CVs never used during prompt iteration paired with vacancies they were never rated against. CV pool entirely held out; vacancy pool drawn from existing 357 normalized vacancies. Expected distribution skewed low because 11 CVs span non-tech domains (healthcare, legal, finance, education, marketing, HR, design, academia, security) while vacancies are mostly tech — tests prompt safety on out-of-distribution catastrophic mismatches as well as in-distribution capability for tech-adjacent CVs.",
+  "total_pairs": 86,
+  "batches": [
+    {
+      "cv_id": "3_junior_designer_career_switcher",
+      "vacancy_ids": [
+        "97a559d9-5f2b-4e4c-a4ee-9c937cfa7639",
+        "8aaa4ecc-d27b-45b0-9b13-50157aa87252",
+        "f12c7a06-9702-45ca-b20c-504afa184bc4",
+        "b1e435b2-21fe-4628-b239-0a945b66811e",
+        "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+        "cd68e1e0-c8b1-4237-8dea-facd3c803c68",
+        "2ca61d84-5691-41a7-a4e8-b2601e8f3458"
+      ],
+      "n": 7
+    },
+    {
+      "cv_id": "6_devops_junior",
+      "vacancy_ids": [
+        "b81c5a4d-bc82-440a-a8ba-84129682ca16",
+        "b97a4400-92c0-45ef-a310-f77229ee28b5",
+        "fd125a93-ce97-4995-abce-547c10bbdead",
+        "f27ad885-ca1a-412c-a18b-89b41a30e34c",
+        "866eacff-bc34-4da4-bc0d-f96e5ab2df68",
+        "8656a4d9-56ea-4739-99b8-d52175e95a8f",
+        "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+        "30100c1f-f7eb-4d38-90f6-1eb69f9013d0"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "6_hr_recruiter_generic",
+      "vacancy_ids": [
+        "03019334-1f10-4736-a42a-009422d3ff61",
+        "68d01dc6-4a27-492f-b4a9-ee35fd647be4",
+        "935c9d55-90ee-4e4c-9c70-e429bb4d3890",
+        "72392282-8ab8-4dc6-bb02-b7c4ade1205f",
+        "f2a23b3c-91bb-45cc-937b-e9481e9ffc65",
+        "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+        "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+        "bf3c13b6-3f30-416b-997a-2e3eced40e98"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "8_healthcare_junior",
+      "vacancy_ids": [
+        "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+        "529e6866-dde8-4fbd-86f8-72095cbdfe4e",
+        "89950026-e1d4-45c0-886c-f7700a96ba40",
+        "4a57e1ab-c2d6-46d5-8c16-94a5936b0dd4",
+        "f8003c2e-49ed-4f88-8f44-0adf5d74127d",
+        "f0b686ec-6f37-42c7-9f30-954845668593",
+        "47b39188-8c46-4f3b-9d2c-fd0e4b1816ea",
+        "9159aa36-e2fc-43d4-a631-cbfdca113944"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "9_healthcare_senior",
+      "vacancy_ids": [
+        "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+        "3c68ea65-1b7e-463b-ad7b-47c71597d77d",
+        "f0b686ec-6f37-42c7-9f30-954845668593",
+        "35d9093e-447c-4a6e-bedf-8b1f7b76413c",
+        "d225680a-f1e9-47ce-80b9-29828cb15b01",
+        "d7f6de40-5968-4efa-8234-b2ea5b16d6b2",
+        "30860e73-5ce6-4455-bde6-6a3799713735"
+      ],
+      "n": 7
+    },
+    {
+      "cv_id": "10_legal_mid_corporate_lawyer",
+      "vacancy_ids": [
+        "4d925c65-1549-445e-887c-cfb20ea016c0",
+        "b9cc14c7-8fe1-44b2-aca0-c138c925cd36",
+        "f0585b3f-ae3d-4b31-8bb8-1bb517c4c6ef",
+        "838072a8-8cb0-4e2e-9f6a-5a8a6bbb7dce",
+        "2e8c75fa-73b9-4ab5-89c0-03dcea153488",
+        "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+        "15227172-726d-4cc6-8ab1-966690742f53",
+        "69a20796-a021-4479-8914-266f86212e21"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "11_education_senior_teacher",
+      "vacancy_ids": [
+        "562f9b0d-e33b-49dd-8ce3-3c818efd8fee",
+        "b1732718-a3c0-4fe2-9bb6-23fd1e667bfa",
+        "ed4a04fd-f464-46c2-9ff2-ac23e8126e84",
+        "b1e435b2-21fe-4628-b239-0a945b66811e",
+        "58da89d8-5d4c-41cf-b443-d347b3744620",
+        "cbfa3e57-a78e-47c2-90cd-96b783d6d761",
+        "e951763c-d850-4182-9f63-64e19a3354f5",
+        "585161dc-1435-4472-9e0f-354d7d03c828"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "12_finance_senior_accountant",
+      "vacancy_ids": [
+        "e7009e48-85a2-4062-9edb-2e6a02878203",
+        "d1f0616f-098b-4be2-9939-749f69c3dbd0",
+        "d12c42fa-20a2-4828-895e-916488950dde",
+        "8298811a-423e-456d-bb00-f04f497adbf3",
+        "d12216fd-6a75-4c34-ad47-b8ad655c2f06",
+        "439233d3-5bb2-40c3-9a1f-03417f9f7ed1",
+        "c72d109a-fea5-407a-a9cd-04c0853b7f55",
+        "1d2ebdbd-b61e-4436-b8d3-78affd09c2ca"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "16_marketing_mid_growth",
+      "vacancy_ids": [
+        "42e4f9fa-92a9-4737-a60e-53217f66e5e6",
+        "9a897ce1-5611-457b-8528-44b176fd3cab",
+        "d12c42fa-20a2-4828-895e-916488950dde",
+        "3719c00a-f57e-4827-abd2-c9030c06d52f",
+        "5a6892b1-cd8d-4626-b1de-ebe69b71ea20",
+        "af405332-ae34-46e9-8ec8-89ed0ff6484e",
+        "07f6fc79-c3b3-42cd-813e-45d77480ac8e",
+        "585161dc-1435-4472-9e0f-354d7d03c828"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "18_academic_professor_humanities",
+      "vacancy_ids": [
+        "e2f70a9d-aa26-4c66-a12f-53f0960d17f9",
+        "60349f54-8bc7-4a4f-bd20-185d8267483e",
+        "31bdd04e-436f-4571-9dca-8f2eede293ae",
+        "f81356d6-fe08-4fe1-a811-d7499fc35553",
+        "8298811a-423e-456d-bb00-f04f497adbf3",
+        "27165f02-0dfc-4503-af0e-d6755cf5a49e",
+        "44aae2a7-4fda-4323-948f-e51fa99d933b",
+        "727b163f-8aaf-4926-9ae0-d554f00661ad"
+      ],
+      "n": 8
+    },
+    {
+      "cv_id": "23_security_engineer_mid",
+      "vacancy_ids": [
+        "d4b9add2-b7b3-4d34-8a87-73948f79fbd9",
+        "2185ff5c-e4c9-47ad-a236-f333a14157a9",
+        "fd125a93-ce97-4995-abce-547c10bbdead",
+        "e07fb525-2281-4dca-b4b4-52f34b2f127d",
+        "87451c8f-0db8-43c8-bac2-52381453653b",
+        "b1e435b2-21fe-4628-b239-0a945b66811e",
+        "bfebfebd-a1ed-4d1c-860a-7d39a9c55c61",
+        "f81356d6-fe08-4fe1-a811-d7499fc35553"
+      ],
+      "n": 8
+    }
+  ]
+}

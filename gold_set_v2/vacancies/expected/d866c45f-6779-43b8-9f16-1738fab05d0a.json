@@ -1,0 +1,42 @@
+{
+  "vacancy_id": "d866c45f-6779-43b8-9f16-1738fab05d0a",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle / Senior Android Developer",
+    "uk": "Middle / Senior Android розробник"
+  },
+  "role_title_raw": "Middle/Senior Android Developer",
+  "seniority_required": "senior",
+  "must_have_skills": [
+    "Kotlin",
+    "Android SDK",
+    "mobile architecture",
+    "IoT / device integration",
+    "Java",
+    "Android",
+    "Jetpack Compose",
+    "OOP",
+    "Git",
+    "design patterns"
+  ],
+  "nice_to_have_skills": [
+    "GitHub Actions",
+    "MVVM",
+    "Firebase"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Kyiv",
+    "city_uk": "Київ",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

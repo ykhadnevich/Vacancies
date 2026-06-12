@@ -1,0 +1,44 @@
+{
+  "vacancy_id": "f9d92cb8-91e3-4b65-bfbd-2473ab04e884",
+  "source_language": "en",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Strong Middle DevOps",
+    "uk": "Strong Middle DevOps"
+  },
+  "role_title_raw": "Strong middle DevOps (AWS and GCP)",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "AWS",
+    "GCP",
+    "CI/CD",
+    "Terraform",
+    "Kubernetes",
+    "Docker",
+    "Infrastructure as Code",
+    "cloud",
+    "IaC",
+    "Bash",
+    "Python",
+    "SaaS",
+    "high availability"
+  ],
+  "nice_to_have_skills": [
+    "MongoDB",
+    "PostgreSQL"
+  ],
+  "min_years_experience": 4,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "e-commerce",
+    "uk": "e-commerce"
+  },
+  "anti_requirements": []
+}

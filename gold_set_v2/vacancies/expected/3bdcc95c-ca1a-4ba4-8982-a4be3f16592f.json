@@ -1,0 +1,41 @@
+{
+  "vacancy_id": "3bdcc95c-ca1a-4ba4-8982-a4be3f16592f",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Junior QA",
+    "uk": "Junior QA"
+  },
+  "role_title_raw": "Junior QA Manual Engineer",
+  "seniority_required": "junior",
+  "must_have_skills": [
+    "manual testing",
+    "test cases",
+    "banking software",
+    "Postman",
+    "Swagger",
+    "integration testing",
+    "regression testing",
+    "Jira",
+    "SQL"
+  ],
+  "nice_to_have_skills": [
+    "CI/CD",
+    "Agile",
+    "Scrum"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": "Lviv",
+    "city_uk": "Львів",
+    "remote": false,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "banking",
+    "uk": "банкінг"
+  },
+  "anti_requirements": []
+}

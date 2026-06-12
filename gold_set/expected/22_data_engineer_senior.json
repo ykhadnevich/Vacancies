@@ -1,0 +1,114 @@
+{
+  "seniority": "senior",
+  "target_roles": [
+    "Senior Data Engineer",
+    "Staff Data Engineer",
+    "Data Platform Engineer"
+  ],
+  "domain_skills": [
+    "Python",
+    "SQL",
+    "Spark",
+    "PySpark",
+    "Scala",
+    "dbt",
+    "Airflow",
+    "Snowflake",
+    "Snowpipe Streaming",
+    "BigQuery",
+    "Redshift",
+    "Databricks",
+    "Delta Lake",
+    "Kafka",
+    "Debezium",
+    "Kafka Connect",
+    "AWS S3",
+    "AWS Glue",
+    "AWS EMR",
+    "Trino",
+    "Feast",
+    "Postgres CDC",
+    "Dimensional modeling",
+    "Incremental materializations",
+    "Bash",
+    "Java",
+    "FastAPI",
+    "pandas",
+    "Apache Beam",
+    "Dagster",
+    "Prefect",
+    "Kinesis",
+    "Data Vault",
+    "Slowly changing dimensions",
+    "EventBridge",
+    "IAM",
+    "Lambda",
+    "Pub/Sub",
+    "Cloud Storage",
+    "Git",
+    "GitHub Actions",
+    "Terraform",
+    "Looker",
+    "Mode Analytics",
+    "Great Expectations",
+    "Monte Carlo",
+    "OpenLineage"
+  ],
+  "technical_skills": [
+    "Pandas"
+  ],
+  "unverified_skills": [],
+  "experience": [
+    {
+      "title": "Restream",
+      "type": "PRODUCTION",
+      "duration_months": 31,
+      "years_ago": 0
+    },
+    {
+      "title": "Grammarly",
+      "type": "PRODUCTION",
+      "duration_months": 40,
+      "years_ago": 3
+    },
+    {
+      "title": "Genesis",
+      "type": "PRODUCTION",
+      "duration_months": 20,
+      "years_ago": 6
+    },
+    {
+      "title": "SoftServe",
+      "type": "PRODUCTION",
+      "duration_months": 12,
+      "years_ago": 8
+    },
+    {
+      "title": "EPAM",
+      "type": "INTERNSHIP",
+      "duration_months": 3,
+      "years_ago": 9
+    }
+  ],
+  "education": {
+    "degree": "master",
+    "field": "Computer Science",
+    "is_relevant": true,
+    "status": "completed",
+    "current_year": null,
+    "graduation_year": 2017
+  },
+  "english_level": "C1",
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    }
+  ],
+  "has_real_product_experience": true,
+  "career_switcher": false
+}

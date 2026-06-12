@@ -1,0 +1,54 @@
+{
+  "vacancy_id": "acf2b942-1198-4208-b40e-882c1058918c",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "Middle Data Engineer",
+    "uk": "Middle Data Engineer"
+  },
+  "role_title_raw": "Middle Data Engineer",
+  "seniority_required": "middle",
+  "must_have_skills": [
+    "ETL",
+    "data lake",
+    "cloud platforms",
+    "streaming",
+    "FinOps",
+    "data infrastructure",
+    "SQL",
+    "Python",
+    "Scala",
+    "Databricks",
+    "Snowflake",
+    "BigQuery",
+    "Airflow",
+    "Spark",
+    "dbt",
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Lambda"
+  ],
+  "nice_to_have_skills": [
+    "MongoDB",
+    "DynamoDB",
+    "NoSQL"
+  ],
+  "min_years_experience": 3,
+  "education_required": "not_specified",
+  "english_required": "B2",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consulting",
+    "uk": "консалтинг"
+  },
+  "anti_requirements": []
+}

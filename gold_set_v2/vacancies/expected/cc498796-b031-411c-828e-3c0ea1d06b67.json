@@ -1,0 +1,39 @@
+{
+  "vacancy_id": "cc498796-b031-411c-828e-3c0ea1d06b67",
+  "source_language": "uk",
+  "model_version": "vac_v1+tech_v1",
+  "role_title": {
+    "en": "iOS Developer",
+    "uk": "iOS розробник"
+  },
+  "role_title_raw": "iOS Developer",
+  "seniority_required": "not_specified",
+  "must_have_skills": [
+    "Swift",
+    "SwiftUI",
+    "UIKit",
+    "REST API",
+    "Git",
+    "iOS",
+    "Code Review"
+  ],
+  "nice_to_have_skills": [
+    "Firebase",
+    "Fastlane",
+    "unit testing"
+  ],
+  "min_years_experience": 1,
+  "education_required": "not_specified",
+  "english_required": "not_specified",
+  "location": {
+    "city_en": null,
+    "city_uk": null,
+    "remote": true,
+    "hybrid": false
+  },
+  "domain_context": {
+    "en": "consumer apps",
+    "uk": "consumer-застосунки"
+  },
+  "anti_requirements": []
+}

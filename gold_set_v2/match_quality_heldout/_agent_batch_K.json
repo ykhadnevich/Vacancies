@@ -1,0 +1,60 @@
+[
+  {
+    "cv_id": "1_senior_backend_engineer",
+    "vacancy_ids": [
+      "workua_7379359",
+      "workua_4037602",
+      "workua_8167305",
+      "workua_8163117",
+      "workua_7510312",
+      "workua_8163894",
+      "workua_8103537"
+    ]
+  },
+  {
+    "cv_id": "5_junior_backend_engineer",
+    "vacancy_ids": [
+      "workua_6184441",
+      "workua_8026338",
+      "824148-business-developer-at-24play",
+      "workua_8107944",
+      "workua_7553728",
+      "workua_6425878"
+    ]
+  },
+  {
+    "cv_id": "13_ml_senior_engineer",
+    "vacancy_ids": [
+      "workua_4037602",
+      "workua_896330",
+      "workua_8167305",
+      "workua_7928484",
+      "workua_8077371",
+      "830205-game-product-manager",
+      "workua_8160465"
+    ]
+  },
+  {
+    "cv_id": "17_realformat_swe_fullstack",
+    "vacancy_ids": [
+      "workua_8167305",
+      "workua_6891325",
+      "workua_8026338",
+      "798427-business-development-manager-bizdev",
+      "829450-partnership-manager",
+      "825416-marketing-manager-select-form"
+    ]
+  },
+  {
+    "cv_id": "2_mid_data_analyst",
+    "vacancy_ids": [
+      "824148-business-developer-at-24play",
+      "workua_7306804",
+      "workua_6891325",
+      "816893-chief-accountant",
+      "824915-junior-marketing-manager",
+      "830673-account-manager-payment-analyst",
+      "workua_8166963"
+    ]
+  }
+]
