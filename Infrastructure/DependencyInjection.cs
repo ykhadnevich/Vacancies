@@ -21,10 +21,12 @@ using Infrastructure.Deduplication;
 using Infrastructure.JobSources;
 using Infrastructure.Services;
 using Infrastructure.Observability;
+using Infrastructure.Resilience;
 using Application.Common.Observability;
 using Amazon.S3;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Polly;
 
 namespace Infrastructure;
 
@@ -197,7 +199,17 @@ public static class DependencyInjection
         services.AddScoped<IReasoningCacheService, ReasoningCacheService>();
 
 
-        services.AddHttpClient<IGeminiScoringService, GeminiScoringService>();
+        // Single shared retry policy for every Gemini-backed HttpClient.
+        // Exponential backoff (2s, 4s, 8s) + jitter on 429 / 5xx / network
+        // errors; wraps **around** existing fallback paths inside each
+        // service. Retry count overridable via Gemini:RetryCount.
+        var geminiRetryCount = configuration.GetValue<int?>("Gemini:RetryCount");
+        services.AddSingleton<IAsyncPolicy<HttpResponseMessage>>(sp =>
+            GeminiRetryPolicy.Build(
+                sp.GetRequiredService<ILoggerFactory>(),
+                geminiRetryCount));
+
+        services.AddHttpClient<IGeminiScoringService, GeminiScoringService>().AddGeminiRetry();
 
 
         services.AddScoped<GeminiReasoningProvider>();
@@ -209,10 +221,12 @@ public static class DependencyInjection
         services.AddScoped<IReasoningContext, ReasoningContext>();
 
 
-        services.AddHttpClient<ICvExtractionService, GeminiCvNormalizationService>();
+        services.AddHttpClient<ICvExtractionService, GeminiCvNormalizationService>()
+            .AddGeminiRetry();
 
 
-        services.AddHttpClient<IVacancyExtractionService, GeminiVacancyNormalizationService>();
+        services.AddHttpClient<IVacancyExtractionService, GeminiVacancyNormalizationService>()
+            .AddGeminiRetry();
 
 
         services.AddSingleton<IVacancyNormalizationModule,
@@ -287,6 +301,10 @@ public static class DependencyInjection
             services.AddHostedService<CvSummaryWorker>();
         if (configuration.GetValue<bool>("BackgroundWorkers:EnableVacancyAnalysis", false))
             services.AddHostedService<VacancyAnalysisWorker>();
+        if (configuration.GetValue<bool>("BackgroundWorkers:EnableCacheRetention", true))
+            services.AddHostedService<CacheRetentionWorker>();
+        if (configuration.GetValue<bool>("BackgroundWorkers:EnableDescriptionRetry", true))
+            services.AddHostedService<DescriptionRetryWorker>();
 
 
         services.AddScoped<IJobAggregationService,
@@ -324,45 +342,45 @@ public static class DependencyInjection
         if (scoringEngine == "mono")
         {
             services.AddHttpClient<IScoringService,
-                RelevancePipeline.V2.Scoring.Monolithic.MonolithicScoringService>();
-            services.AddHttpClient<RelevancePipeline.V2.Scoring.ScoringServiceV2>();
+                RelevancePipeline.V2.Scoring.Monolithic.MonolithicScoringService>().AddGeminiRetry();
+            services.AddHttpClient<RelevancePipeline.V2.Scoring.ScoringServiceV2>().AddGeminiRetry();
         }
         else
         {
             services.AddHttpClient<IScoringService,
-                RelevancePipeline.V2.Scoring.ScoringServiceV2>();
-            services.AddHttpClient<RelevancePipeline.V2.Scoring.Monolithic.MonolithicScoringService>();
+                RelevancePipeline.V2.Scoring.ScoringServiceV2>().AddGeminiRetry();
+            services.AddHttpClient<RelevancePipeline.V2.Scoring.Monolithic.MonolithicScoringService>().AddGeminiRetry();
         }
 
 
         services.AddHttpClient<ICompositeJudgeService,
-            RelevancePipeline.V2.Scoring.GeminiCompositeJudgeService>();
+            RelevancePipeline.V2.Scoring.GeminiCompositeJudgeService>().AddGeminiRetry();
         services.AddSingleton<IScoringCapService,
             RelevancePipeline.V2.Scoring.ScoringCapService>();
 
 
         services.AddHttpClient<ISkillExpansionService,
-            RelevancePipeline.V2.SkillExpansion.GeminiSkillExpansionService>();
+            RelevancePipeline.V2.SkillExpansion.GeminiSkillExpansionService>().AddGeminiRetry();
 
 
         services.AddHttpClient<IBatchSkillExpander,
-            RelevancePipeline.V2.SkillExpansion.GeminiBatchSkillExpander>();
+            RelevancePipeline.V2.SkillExpansion.GeminiBatchSkillExpander>().AddGeminiRetry();
 
 
         services.AddHttpClient<IBatchedReasonService,
-            RelevancePipeline.V2.Scoring.GeminiBatchedReasonService>();
+            RelevancePipeline.V2.Scoring.GeminiBatchedReasonService>().AddGeminiRetry();
 
 
         services.AddHttpClient<IBatchedVacancyExtractionService,
-            Services.GeminiBatchedVacancyExtractionService>();
+            Services.GeminiBatchedVacancyExtractionService>().AddGeminiRetry();
 
 
         services.AddHttpClient<IBatchedJudgeService,
-            RelevancePipeline.V2.Scoring.GeminiBatchedJudgeService>();
+            RelevancePipeline.V2.Scoring.GeminiBatchedJudgeService>().AddGeminiRetry();
 
 
         services.AddHttpClient<IRecruiterScoringService,
-            RelevancePipeline.V2.Scoring.Monolithic.RecruiterMonolithicScoringService>();
+            RelevancePipeline.V2.Scoring.Monolithic.RecruiterMonolithicScoringService>().AddGeminiRetry();
 
 
         // Loaded once at startup; falls back to NoopScoreCalibrator when path is empty/missing.

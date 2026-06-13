@@ -3,7 +3,7 @@ export type IconName =
     | 'pin' | 'calendar' | 'chevron-down' | 'chevron-up'
     | 'arrow-right' | 'arrow-up-right' | 'refresh'
     | 'upload' | 'file-text' | 'briefcase'
-    | 'sparkle' | 'alert-circle' | 'info' | 'check-circle'
+    | 'sparkle' | 'alert-circle' | 'info' | 'check-circle' | 'circle'
     | 'logout' | 'user' | 'globe' | 'trash'
     | 'sun' | 'moon'
 
@@ -35,6 +35,7 @@ const PATHS: Record<IconName, React.ReactNode> = {
     'alert-circle':   <><circle cx="12" cy="12" r="10" /><path d="M12 8v4" /><path d="M12 16h.01" /></>,
     'info':           <><circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" /></>,
     'check-circle':   <><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></>,
+    'circle':         <circle cx="12" cy="12" r="10" />,
     'logout':         <><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" /><path d="m16 17 5-5-5-5" /><path d="M21 12H9" /></>,
     'user':           <><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></>,
     'globe':          <><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></>,

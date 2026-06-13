@@ -1,5 +1,8 @@
+using System.Collections.Concurrent;
+using System.Text.RegularExpressions;
 using Application.Common.Interfaces;
 using Domain.Entities;
+using Domain.Enums;
 using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
 using Microsoft.Extensions.Caching.Memory;
@@ -18,6 +21,13 @@ public sealed class JobAggregationService : IJobAggregationService
 
 
     private static readonly TimeSpan ScrapeCacheTtl = TimeSpan.FromMinutes(30);
+    private static readonly TimeSpan EmptyResultCacheTtl = TimeSpan.FromMinutes(3);
+
+    private static readonly ConcurrentDictionary<string, Lazy<Task<JobAggregationResult>>> _inflight
+        = new();
+
+    private static readonly Regex CollapseWhitespace = new(@"\s+", RegexOptions.Compiled);
+    private static readonly Regex StripPunctuation   = new(@"[^\p{L}\p{N}\s]", RegexOptions.Compiled);
 
     public JobAggregationService(
         IEnumerable<IJobSourceService> sources,
@@ -34,12 +44,9 @@ public sealed class JobAggregationService : IJobAggregationService
     }
 
     public async Task<JobAggregationResult> ScrapeAndPersistAsync(
-        string keywords, string? location, CancellationToken ct = default)
+        string keywords, string? location, Country country = Country.Ukraine, CancellationToken ct = default)
     {
-
-
-        var cacheKey = $"scrape:{(keywords ?? "").Trim().ToLowerInvariant()}:" +
-                       $"{(location ?? "").Trim().ToLowerInvariant()}";
+        var cacheKey = BuildCacheKey(keywords, location, country);
 
         if (_cache.TryGetValue<JobAggregationResult>(cacheKey, out var hit) && hit is not null)
         {
@@ -56,32 +63,68 @@ public sealed class JobAggregationService : IJobAggregationService
                 DuplicatesRemoved: hit.DuplicatesRemoved);
         }
 
-        var result = await ScrapeAndPersistInternalAsync(keywords ?? string.Empty, location, ct);
+        var lazy = _inflight.GetOrAdd(cacheKey, key => new Lazy<Task<JobAggregationResult>>(
+            () => RunAndCacheAsync(key, keywords ?? string.Empty, location, country, ct),
+            LazyThreadSafetyMode.ExecutionAndPublication));
 
-
-        if (result.ScrapedTotal > 0)
+        try
         {
-            _cache.Set(cacheKey, result, new MemoryCacheEntryOptions
-            {
-                AbsoluteExpirationRelativeToNow = ScrapeCacheTtl,
-                Size = 1,
-            });
+            return await lazy.Value;
+        }
+        finally
+        {
+            _inflight.TryRemove(new KeyValuePair<string, Lazy<Task<JobAggregationResult>>>(cacheKey, lazy));
+        }
+    }
+
+    private async Task<JobAggregationResult> RunAndCacheAsync(
+        string cacheKey, string keywords, string? location, Country country, CancellationToken ct)
+    {
+        var result = await ScrapeAndPersistInternalAsync(keywords, location, country, ct);
+
+        var ttl = result.ScrapedTotal > 0 ? ScrapeCacheTtl : EmptyResultCacheTtl;
+        _cache.Set(cacheKey, result, new MemoryCacheEntryOptions
+        {
+            AbsoluteExpirationRelativeToNow = ttl,
+            Size = 1,
+        });
+
+        if (result.ScrapedTotal == 0)
+        {
+            _logger.LogInformation(
+                "JobAggregation: zero-result for '{Keywords}' country={Country} cached with short TTL ({Ttl} min)",
+                keywords, country, EmptyResultCacheTtl.TotalMinutes);
         }
         return result;
     }
 
+    private static string BuildCacheKey(string? keywords, string? location, Country country)
+    {
+        var k = StripPunctuation.Replace((keywords ?? string.Empty).ToLowerInvariant(), " ");
+        k = CollapseWhitespace.Replace(k, " ").Trim();
+        var l = (location ?? string.Empty).Trim().ToLowerInvariant();
+        return $"scrape:{country}:{k}:{l}";
+    }
+
     private async Task<JobAggregationResult> ScrapeAndPersistInternalAsync(
-        string keywords, string? location, CancellationToken ct)
+        string keywords, string? location, Country country, CancellationToken ct)
     {
 
 
-        var nonManualSources = _sources.Where(s => s.SourceName != "manual").ToList();
+        var nonManualSources = _sources
+            .Where(s => s.SourceName != "manual")
+            .Where(s => country == Country.All || s.SupportedCountries.Contains(country))
+            .ToList();
+
+        _logger.LogInformation(
+            "JobAggregation: country={Country} → {Count} scrapers eligible: {Sources}",
+            country, nonManualSources.Count, string.Join(", ", nonManualSources.Select(s => s.SourceName)));
 
         var fetchTasks = nonManualSources.Select(async source =>
         {
             try
             {
-                var jobs = await source.FetchJobsAsync(keywords, location, ct);
+                var jobs = await source.FetchJobsAsync(keywords, location, country, ct);
                 _logger.LogInformation(
                     "JobAggregation: {Source} returned {Count} for '{Keywords}'",
                     source.SourceName, jobs.Count, keywords);

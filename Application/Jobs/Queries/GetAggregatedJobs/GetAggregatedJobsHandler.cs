@@ -55,11 +55,12 @@ public class GetAggregatedJobsHandler
     {
         var fetchTasks = _sources
             .Where(s => s.SourceName != "manual")
+            .Where(s => query.Country == Country.All || s.SupportedCountries.Contains(query.Country))
             .Select(async source =>
             {
                 try
                 {
-                    var jobs = await source.FetchJobsAsync(query.Keywords, query.Location, ct);
+                    var jobs = await source.FetchJobsAsync(query.Keywords, query.Location, query.Country, ct);
                     _logger.LogDebug("{Source}: {Count} jobs fetched", source.SourceName, jobs.Count);
                     return jobs;
                 }

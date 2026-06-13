@@ -15,6 +15,8 @@ public class WorkUaScraperService : IJobSourceService
 
     public string SourceName => "work.ua";
 
+    public IReadOnlyList<Country> SupportedCountries => new[] { Country.Ukraine };
+
     public WorkUaScraperService(HttpClient httpClient, IJobDescriptionFetcher descriptionFetcher, ILogger<WorkUaScraperService> logger)
     {
         _httpClient = httpClient;
@@ -27,6 +29,7 @@ public class WorkUaScraperService : IJobSourceService
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
         string keywords,
         string? location = null,
+        Country country = Country.Ukraine,
         CancellationToken ct = default)
         => await FetchJobsPageAsync(keywords, page: 1, ct);
 

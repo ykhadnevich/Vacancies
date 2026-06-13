@@ -123,7 +123,7 @@ public class VacancyScrapeRunner
                     IReadOnlyList<JobVacancy> srcJobs;
                     try
                     {
-                        srcJobs = await src.FetchJobsAsync(query, null, ct);
+                        srcJobs = await src.FetchJobsAsync(query, null, ct: ct);
                     }
                     catch (Exception ex)
                     {

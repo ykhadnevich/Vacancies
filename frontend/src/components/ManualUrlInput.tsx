@@ -3,6 +3,15 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { jobsApi } from '../api/jobsApi'
 import Modal from './ui/Modal'
 import Icon from './ui/Icon'
+import { useT } from '../i18n/useT'
+import { useLanguage } from '../i18n/LanguageContext'
+
+const pluralKey = (n: number): 'one' | 'few' | 'many' => {
+    const mod10 = n % 10, mod100 = n % 100
+    if (mod10 === 1 && mod100 !== 11) return 'one'
+    if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return 'few'
+    return 'many'
+}
 
 const FIXED_HEIGHT = 38
 
@@ -28,6 +37,8 @@ const focusOff = (e: React.FocusEvent<HTMLInputElement>) => {
 }
 
 function ManualUrlInput() {
+    const t = useT()
+    const { language } = useLanguage()
     const [open, setOpen] = useState(false)
     const [url, setUrl]   = useState('')
     const [showSaved, setShowSaved] = useState(false)
@@ -74,13 +85,13 @@ function ManualUrlInput() {
                     whiteSpace:   'nowrap',
                 }}
             >
-                <Icon name="plus" size={14} /> Додати вакансії з сайту
+                <Icon name="plus" size={14} /> {t('manualUrl.addButton')}
             </button>
 
             <Modal
                 open={open}
                 onClose={() => { setOpen(false); setShowSaved(false) }}
-                title="Додати вакансії з сайту"
+                title={t('manualUrl.addButton')}
                 width="md"
             >
                 <p style={{
@@ -88,7 +99,7 @@ function ManualUrlInput() {
                     fontSize: 'var(--text-sm)',
                     color: 'var(--color-text-secondary)',
                 }}>
-                    Вставте посилання на сторінку з вакансіями. Наприклад,
+                    {t('manualUrl.hint')}
                     <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)' }}>
                         {' '}https:
                     </span>
@@ -122,18 +133,18 @@ function ManualUrlInput() {
                             whiteSpace:   'nowrap',
                         }}
                     >
-                        {addMutation.isPending ? 'Парсимо…' : 'Додати'}
+                        {addMutation.isPending ? t('manualUrl.parsing') : t('common.add')}
                     </button>
                 </div>
 
                 {addMutation.isSuccess && (
                     <p style={{ color: 'var(--color-success-700)', fontSize: 'var(--text-sm)', margin: '12px 0 0' }}>
-                        Знайдено {addMutation.data.jobsFound} вакансій.
+                        {t(`manualUrl.foundJobs.${pluralKey(addMutation.data.jobsFound)}` as 'manualUrl.foundJobs.one').replace('{n}', String(addMutation.data.jobsFound))}
                     </p>
                 )}
                 {addMutation.isError && (
                     <p style={{ color: 'var(--color-danger-600)', fontSize: 'var(--text-sm)', margin: '12px 0 0' }}>
-                        Не вдалось спарсити сторінку. Перевірте посилання.
+                        {t('manualUrl.errParse')}
                     </p>
                 )}
 
@@ -154,14 +165,14 @@ function ManualUrlInput() {
                         }}
                     >
                         <Icon name={showSaved ? 'chevron-up' : 'chevron-down'} size={12} />
-                        Збережені посилання
+                        {t('manualUrl.savedLinks')}
                     </button>
 
                     {showSaved && (
                         <div style={{ marginTop: 10, display: 'flex', flexDirection: 'column', gap: 8 }}>
                             {savedUrls.length === 0 && (
                                 <p style={{ color: 'var(--color-text-tertiary)', fontSize: 'var(--text-sm)' }}>
-                                    Немає збережених посилань
+                                    {t('manualUrl.emptySaved')}
                                 </p>
                             )}
                             {savedUrls.map((saved) => (
@@ -192,8 +203,10 @@ function ManualUrlInput() {
                                         </a>
                                         <p style={{ margin: 0, fontSize: 'var(--text-xs)', color: 'var(--color-text-tertiary)' }}>
                                             {saved.lastParsedAt
-                                                ? `Оновлено ${new Date(saved.lastParsedAt).toLocaleDateString('uk-UA')} · ${saved.lastParsedCount} вакансій`
-                                                : 'Ще не парсилось'}
+                                                ? t('manualUrl.updatedOn')
+                                                    .replace('{date}', new Date(saved.lastParsedAt).toLocaleDateString(language === 'uk' ? 'uk-UA' : 'en-GB'))
+                                                    .replace('{n}', String(saved.lastParsedCount))
+                                                : t('manualUrl.neverParsed')}
                                         </p>
                                     </div>
                                     <button
@@ -216,7 +229,7 @@ function ManualUrlInput() {
                                     >
                                         {refreshMutation.isPending
                                             ? '…'
-                                            : <><Icon name="refresh" size={12} /> Оновити</>}
+                                            : <><Icon name="refresh" size={12} /> {t('common.refresh')}</>}
                                     </button>
                                 </div>
                             ))}

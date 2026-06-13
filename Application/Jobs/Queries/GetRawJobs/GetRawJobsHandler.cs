@@ -20,7 +20,7 @@ public sealed class GetRawJobsHandler
     {
         var keywords = (request.Keywords ?? string.Empty).Trim();
 
-        var aggregation = await _aggregator.ScrapeAndPersistAsync(keywords, request.Location, ct);
+        var aggregation = await _aggregator.ScrapeAndPersistAsync(keywords, request.Location, request.Country, ct);
 
         var top = aggregation.Resolved
             .OrderByDescending(j => j.PublishedAt)

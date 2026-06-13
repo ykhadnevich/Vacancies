@@ -9,6 +9,7 @@ public record GetAggregatedJobsQuery : IRequest<GetAggregatedJobsResult>
 {
     public string Keywords { get; init; } = string.Empty;
     public string? Location { get; init; }
+    public Country Country { get; init; } = Country.Ukraine;
     public WorkFormat? WorkFormat { get; init; }
     public SeniorityLevel? SeniorityLevel { get; init; }
     public decimal? MinSalary { get; init; }

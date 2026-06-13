@@ -12,6 +12,12 @@ public class ManualUrlScraperService : IJobSourceService
 
     public string SourceName => "manual";
 
+    public IReadOnlyList<Country> SupportedCountries { get; } = new[]
+    {
+        Country.Ukraine, Country.UnitedStates, Country.UnitedKingdom,
+        Country.Germany, Country.Poland,
+    };
+
     public ManualUrlScraperService(HttpClient httpClient)
     {
         _httpClient = httpClient;
@@ -22,6 +28,7 @@ public class ManualUrlScraperService : IJobSourceService
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
         string keywords,
         string? location = null,
+        Country country = Country.Ukraine,
         CancellationToken ct = default)
     {
         if (!Uri.TryCreate(keywords, UriKind.Absolute, out _))

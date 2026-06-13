@@ -1,6 +1,8 @@
 using System.Globalization;
 using System.Text;
 using Application.Common.Interfaces;
+using Application.Jobs.Commands.PrewarmVacancies;
+using Domain.Enums;
 using Domain.Interfaces.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -142,6 +144,25 @@ public sealed class AdminController : BaseController
         return Ok(rows.Select(ToDto));
     }
 
+    [HttpPost("cache/prewarm-vacancies")]
+    public async Task<IActionResult> PrewarmVacancies(
+        [FromBody] PrewarmVacanciesRequest request,
+        CancellationToken ct)
+    {
+        if (!IsAdmin()) return Forbid();
+        if (request is null || string.IsNullOrWhiteSpace(request.Keywords))
+            return BadRequest(new { error = "keywords required" });
+
+        var cmd = new PrewarmVacanciesCommand(
+            Keywords:        request.Keywords.Trim(),
+            Location:        request.Location,
+            Country:         request.Country ?? Country.Ukraine,
+            MaxNewVacancies: Math.Clamp(request.MaxNewVacancies ?? 100, 1, 500));
+
+        var result = await Sender.Send(cmd, ct);
+        return Ok(result);
+    }
+
     private static object ToDto(Domain.Entities.AuditEntry e) => new
     {
         id          = e.Id,
@@ -172,3 +193,10 @@ public sealed class AdminController : BaseController
         return raw;
     }
 }
+
+
+public sealed record PrewarmVacanciesRequest(
+    string Keywords,
+    Country? Country = null,
+    string? Location = null,
+    int? MaxNewVacancies = null);

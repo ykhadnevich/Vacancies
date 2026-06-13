@@ -80,9 +80,9 @@ export const userApi = {
      * the "Activate recruiter cabinet" toggle on the profile page.
      */
     setRole: async (role: UserRole): Promise<{ role: UserRole; token: string }> => {
-        // Backend enum is serialised as a number — 0=Candidate, 1=Recruiter, 2=Both.
-        const roleInt = role === 'Recruiter' ? 1 : role === 'Both' ? 2 : 0
-        const response = await apiClient.post('/User/role', { role: roleInt })
+        // Backend uses JsonStringEnumConverter — expects role as string name
+        // ("Candidate" / "Recruiter" / "Both"), not integer.
+        const response = await apiClient.post('/User/role', { role })
         return response.data
     },
 }

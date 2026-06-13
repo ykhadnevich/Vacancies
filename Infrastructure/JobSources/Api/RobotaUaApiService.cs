@@ -15,6 +15,8 @@ public class RobotaUaApiService : IJobSourceService
 
     public string SourceName => "robota.ua";
 
+    public IReadOnlyList<Country> SupportedCountries => new[] { Country.Ukraine };
+
     public RobotaUaApiService(HttpClient httpClient, IJobDescriptionFetcher descriptionFetcher)
     {
         _httpClient = httpClient;
@@ -23,6 +25,7 @@ public class RobotaUaApiService : IJobSourceService
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
         string keywords,
         string? location = null,
+        Country country = Country.Ukraine,
         CancellationToken ct = default)
     {
         using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));

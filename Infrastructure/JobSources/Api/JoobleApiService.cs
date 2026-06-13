@@ -48,6 +48,15 @@ public class JoobleApiService : IJobSourceService
 
     public string SourceName => "jooble";
 
+    public IReadOnlyList<Country> SupportedCountries => new[]
+    {
+        Country.Ukraine,
+        Country.UnitedStates,
+        Country.UnitedKingdom,
+        Country.Germany,
+        Country.Poland,
+    };
+
     public JoobleApiService(HttpClient httpClient, IConfiguration configuration, ILogger<JoobleApiService> logger)
     {
         _httpClient = httpClient;
@@ -58,6 +67,7 @@ public class JoobleApiService : IJobSourceService
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
         string keywords,
         string? location = null,
+        Country country = Country.Ukraine,
         CancellationToken ct = default)
     {
         if (string.IsNullOrWhiteSpace(_apiKey))
@@ -72,7 +82,16 @@ public class JoobleApiService : IJobSourceService
             cts.CancelAfter(TimeSpan.FromSeconds(45));
             var token = cts.Token;
 
-            var locationToUse = location ?? string.Empty;
+            // Jooble's `location` filter is a strict country-match. When the
+            // caller specifies a concrete city/region we honour it. Otherwise
+            // we pass the English country name so each country selection
+            // really filters results to that country. For "All" we pass empty
+            // string — Jooble then returns its global default mix.
+            var locationToUse = !string.IsNullOrWhiteSpace(location)
+                ? location
+                : country == Country.All
+                    ? string.Empty
+                    : CountryToLocationString(country);
             var url = ApiBaseUrl + _apiKey;
             var allJobs = new List<JobVacancy>();
             var seenLinks = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -191,6 +210,17 @@ public class JoobleApiService : IJobSourceService
 
     private static string Truncate(string s, int max) =>
         s.Length <= max ? s : s[..max] + "...";
+
+    private static string CountryToLocationString(Country country) => country switch
+    {
+        Country.Ukraine => "Ukraine",
+        Country.UnitedStates => "United States",
+        Country.UnitedKingdom => "United Kingdom",
+        Country.Germany => "Germany",
+        Country.Poland => "Poland",
+        Country.All => string.Empty,
+        _ => "Ukraine",
+    };
 
     private sealed record JoobleRequest(
         [property: JsonPropertyName("keywords")]     string Keywords,

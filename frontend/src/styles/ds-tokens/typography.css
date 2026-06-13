@@ -1,0 +1,63 @@
+/* ─────────────────────────────────────────────────────────────────────
+   Vakansio — Typography
+   Newsreader (editorial serif display) · IBM Plex Sans (terminal-grade body)
+   · JetBrains Mono (tabular numerals & scores).
+   Fonts are loaded via <link> in index.html (more reliable than CSS @import
+   with Vite's bundler, which can drop nested @import rules).
+   ───────────────────────────────────────────────────────────────────── */
+
+:root {
+    /* === Families ===================================================== */
+    --font-serif: 'Newsreader', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+    --font-sans:  'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono:  'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Monaco, monospace;
+
+    /* Editorial display family alias (headlines, hero numerals' label). */
+    --font-display: var(--font-serif);
+
+    /* === Body / UI scale (compact, data-dense) ======================= */
+    --text-xs:   11px;
+    --text-sm:   12px;
+    --text-base: 13px;
+    --text-md:   14px;
+    --text-lg:   15px;
+    --text-xl:   17px;
+    --text-2xl:  20px;
+    --text-3xl:  24px;
+
+    /* === Serif display scale (headlines, section openers) ============ */
+    --display-sm:  28px;
+    --display-md:  36px;
+    --display-lg:  48px;
+    --display-xl:  64px;
+
+    /* === Score numeral scale (mono, tabular) ========================= */
+    --score-sm:  20px;
+    --score-md:  32px;
+    --score-lg:  48px;
+    --score-xl:  72px;
+
+    /* === Weights ===================================================== */
+    --font-weight-regular:  400;
+    --font-weight-medium:   500;
+    --font-weight-semibold: 600;
+    --font-weight-bold:     700;
+
+    /* === Line heights =============================================== */
+    --line-height-tight:   1.15;
+    --line-height-snug:    1.3;
+    --line-height-normal:  1.55;
+    --line-height-relaxed: 1.7;
+
+    /* === Letter spacing ============================================= */
+    --tracking-tight:   -0.02em;   /* serif display */
+    --tracking-normal:  0;
+    --tracking-wide:    0.04em;
+    --tracking-eyebrow: 0.14em;    /* uppercase terminal labels */
+}
+
+/* Optical sizing for Newsreader — large for headlines. */
+:root {
+    --opsz-display: 'opsz' 60;
+    --opsz-text:    'opsz' 16;
+}

@@ -4,6 +4,7 @@ import { useMutation } from '@tanstack/react-query'
 import { authApi } from '../../api/authApi'
 import { useAuthStore } from '../../store/authStore'
 import { useT } from '../../i18n/useT'
+import Button from '../../components/ui/Button'
 
 function LoginPage() {
     const [email, setEmail]       = useState('')
@@ -25,64 +26,81 @@ function LoginPage() {
     const canSubmit = email.trim() !== '' && password.length >= 6
     const handleSubmit = () => { if (canSubmit) mutation.mutate() }
 
-    const inputStyle = {
+    const inputStyle: React.CSSProperties = {
         width: '100%',
         padding: '10px 14px',
-        borderRadius: 8,
-        border: '1px solid #e5e7eb',
-        fontSize: 15,
-        boxSizing: 'border-box' as const,
+        borderRadius: 'var(--radius-md)',
+        border: '1px solid var(--color-border-default)',
+        background: 'var(--color-bg-elevated)',
+        color: 'var(--color-text-primary)',
+        fontFamily: 'var(--font-sans)',
+        fontSize: 'var(--text-md)',
+        boxSizing: 'border-box',
         outline: 'none',
+        boxShadow: 'var(--shadow-inset)',
+        transition: 'border-color var(--transition-fast), box-shadow var(--transition-fast)',
+    }
+    const onFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+        e.currentTarget.style.borderColor = 'var(--color-primary-600)'
+        e.currentTarget.style.boxShadow   = 'var(--ring-focus)'
+    }
+    const onBlur = (e: React.FocusEvent<HTMLInputElement>) => {
+        e.currentTarget.style.borderColor = 'var(--color-border-default)'
+        e.currentTarget.style.boxShadow   = 'var(--shadow-inset)'
     }
 
-    const labelStyle = {
-        fontSize: 14,
-        fontWeight: 600,
-        color: '#374151',
+    const labelStyle: React.CSSProperties = {
+        fontSize: 'var(--text-sm)',
+        fontWeight: 'var(--font-weight-medium)' as unknown as number,
+        color: 'var(--color-text-secondary)',
         marginBottom: 6,
-        display: 'block' as const,
+        display: 'block',
     }
 
     return (
-        <div style={{ maxWidth: 400, margin: '80px auto', padding: '0 16px' }}>
-            <div style={{
-                background: '#fff',
-                border: '1px solid #e5e7eb',
-                borderRadius: 12,
-                padding: 32,
-                boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
-            }}>
-                <h2 style={{ marginBottom: 8, textAlign: 'center', fontSize: 22 }}>{t('auth.signIn')}</h2>
-                <p style={{ textAlign: 'center', color: '#6b7280', fontSize: 14, marginBottom: 24 }}>
-                    {t('auth.signIn')} — Вакансіо
+        <div style={{ maxWidth: 420, margin: '80px auto', padding: '0 16px' }}>
+            <div style={{ textAlign: 'center', marginBottom: 24 }}>
+                <img src="/logo-mark.svg" alt="" style={{ width: 40, height: 40, marginBottom: 14 }} />
+                <h1 style={{ margin: '0 0 6px', fontSize: 'var(--display-sm)' }}>{t('auth.signIn')}</h1>
+                <p style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--text-md)', margin: 0 }}>
+                    {t('auth.signIn')} — {t('app.name')}
                 </p>
+            </div>
 
+            <div style={{
+                background: 'var(--color-bg-surface)',
+                border: '1px solid var(--color-border-default)',
+                borderRadius: 'var(--radius-xl)',
+                padding: 28,
+                boxShadow: 'var(--shadow-md)',
+            }}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-
-                    {}
                     <div>
-                        <label style={labelStyle}>Email</label>
+                        <label style={labelStyle}>{t('auth.email')}</label>
                         <input
                             style={inputStyle}
                             type="email"
                             value={email}
                             onChange={e => setEmail(e.target.value)}
                             onKeyDown={e => e.key === 'Enter' && handleSubmit()}
+                            onFocus={onFocus}
+                            onBlur={onBlur}
                             placeholder="email@example.com"
                             autoComplete="email"
                         />
                     </div>
 
-                    {}
                     <div>
                         <label style={labelStyle}>{t('auth.password')}</label>
                         <div style={{ position: 'relative' }}>
                             <input
-                                style={{ ...inputStyle, paddingRight: 44 }}
+                                style={{ ...inputStyle, paddingRight: 64 }}
                                 type={showPass ? 'text' : 'password'}
                                 value={password}
                                 onChange={e => setPassword(e.target.value)}
                                 onKeyDown={e => e.key === 'Enter' && handleSubmit()}
+                                onFocus={onFocus}
+                                onBlur={onBlur}
                                 placeholder={t('auth.passwordPlaceholder')}
                                 autoComplete="current-password"
                             />
@@ -90,46 +108,42 @@ function LoginPage() {
                                 type="button"
                                 onClick={() => setShowPass(v => !v)}
                                 style={{
-                                    position: 'absolute', right: 12, top: '50%',
+                                    position: 'absolute', right: 10, top: '50%',
                                     transform: 'translateY(-50%)',
-                                    background: 'none', border: 'none',
-                                    cursor: 'pointer', color: '#9ca3af', fontSize: 16,
+                                    background: 'transparent', border: 'none', cursor: 'pointer',
+                                    color: 'var(--color-text-secondary)', fontFamily: 'var(--font-sans)',
+                                    fontSize: 'var(--text-xs)', fontWeight: 600, letterSpacing: '0.04em',
+                                    textTransform: 'uppercase', padding: 4,
                                 }}
                             >
-                                {showPass ? '🙈' : '👁️'}
+                                {showPass ? t('auth.hide') : t('auth.show')}
                             </button>
                         </div>
                     </div>
 
-                    {}
                     {mutation.isError && (
                         <p style={{
-                            color: '#dc2626', fontSize: 14, margin: 0,
-                            background: '#fef2f2', borderRadius: 8,
+                            color: 'var(--color-danger-700)', fontSize: 'var(--text-sm)', margin: 0,
+                            background: 'var(--color-danger-50)', borderRadius: 'var(--radius-md)',
                             padding: '8px 12px',
                         }}>
                             {t('auth.errInvalid')}
                         </p>
                     )}
 
-                    {}
-                    <button
+                    <Button
+                        variant="primary"
+                        size="lg"
+                        fullWidth
                         onClick={handleSubmit}
-                        disabled={mutation.isPending || !canSubmit}
-                        style={{
-                            padding: '12px', borderRadius: 8, fontSize: 15,
-                            cursor: !canSubmit ? 'not-allowed' : 'pointer',
-                            background: '#2563eb', color: '#fff',
-                            border: 'none', fontWeight: 600,
-                            opacity: !canSubmit ? 0.5 : 1,
-                            transition: 'opacity 0.15s',
-                        }}
+                        disabled={!canSubmit}
+                        isLoading={mutation.isPending}
                     >
-                        {mutation.isPending ? t('common.loading') : t('auth.signIn')}
-                    </button>
+                        {t('auth.signIn')}
+                    </Button>
 
-                    <p style={{ textAlign: 'center', fontSize: 14, color: '#6b7280', margin: 0 }}>
-                        <Link to="/register" style={{ color: '#2563eb', fontWeight: 600 }}>
+                    <p style={{ textAlign: 'center', fontSize: 'var(--text-sm)', color: 'var(--color-text-secondary)', margin: 0 }}>
+                        <Link to="/register" style={{ color: 'var(--color-primary-600)', fontWeight: 600 }}>
                             {t('auth.toRegister')}
                         </Link>
                     </p>

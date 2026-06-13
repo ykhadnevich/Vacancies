@@ -1,5 +1,5 @@
 import apiClient from './client'
-import type { JobsResponse, JobSearchParams, JobVacancy } from '../types/job'
+import type { Country, JobsResponse, JobSearchParams, JobVacancy } from '../types/job'
 import type { JobsV6Response } from '../types/jobV6'
 
 export interface SavedUrl {
@@ -18,7 +18,14 @@ export const jobsApi = {
     },
 
     getJobsV6: async (params: JobSearchParams & { limit?: number }): Promise<JobsV6Response> => {
-        const response = await apiClient.get('/jobs/v6', { params })
+        const query: Record<string, string | number> = {
+            keywords: params.keywords,
+            limit:    params.limit ?? 50,
+        }
+        if (params.location)          query.location          = params.location
+        if (params.country)           query.country           = params.country
+        if (params.reasoningProvider) query.reasoningProvider = params.reasoningProvider
+        const response = await apiClient.get('/jobs/v6', { params: query })
         return response.data
     },
 
@@ -31,15 +38,22 @@ export const jobsApi = {
     getJobsV6Snapshot: async (
         params: JobSearchParams & { limit?: number },
     ): Promise<{ response: JobsV6Response; executedAt: string; queryHash: string } | null> => {
+        const query: Record<string, string | number> = {
+            keywords: params.keywords,
+            limit:    params.limit ?? 50,
+        }
+        if (params.location)          query.location          = params.location
+        if (params.country)           query.country           = params.country
+        if (params.reasoningProvider) query.reasoningProvider = params.reasoningProvider
         const response = await apiClient.get('/jobs/v6/snapshot', {
-            params,
+            params: query,
             validateStatus: (s) => s === 200 || s === 204,
         })
         if (response.status === 204) return null
         return response.data
     },
 
-    getRawJobs: async (params: { keywords: string; location?: string; limit?: number }): Promise<{
+    getRawJobs: async (params: { keywords: string; location?: string; country?: Country; limit?: number }): Promise<{
         jobs:              JobVacancy[]
         totalCount:        number
         duplicatesRemoved: number

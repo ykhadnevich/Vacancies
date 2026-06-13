@@ -58,8 +58,11 @@ export interface JobsResponse {
 
 export type ReasoningProvider = 'None' | 'Groq' | 'Gemini'
 
+export type Country = 'Ukraine' | 'UnitedStates' | 'UnitedKingdom' | 'Germany' | 'Poland' | 'All'
+
 export interface JobSearchParams {
     keywords: string
     location?: string
+    country?: Country
     reasoningProvider?: ReasoningProvider
 }

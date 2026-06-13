@@ -1,4 +1,5 @@
 using Domain.Entities;
+using Domain.Enums;
 
 namespace Application.Common.Interfaces;
 
@@ -8,6 +9,7 @@ public interface IJobAggregationService
     Task<JobAggregationResult> ScrapeAndPersistAsync(
         string keywords,
         string? location,
+        Country country = Country.Ukraine,
         CancellationToken ct = default);
 }
 

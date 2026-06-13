@@ -3,6 +3,7 @@ using Application.Common.Exceptions;
 using Application.Common.Interfaces;
 using Application.DTOs;
 using Application.Jobs.Queries.GetAggregatedJobsV6;
+using Domain.Entities;
 using Domain.Interfaces.Repositories;
 using MediatR;
 using Microsoft.Extensions.Logging;
@@ -35,6 +36,14 @@ public sealed class GetLastSearchSnapshotHandler
         var queryHash = V6QueryHasher.Compute(query.SearchParams);
         var snapshot = await _snapshots.GetByQueryAsync(userId, queryHash, ct);
         if (snapshot is null) return null;
+
+        if (!snapshot.IsCurrentSchema())
+        {
+            _logger.LogInformation(
+                "UserSearchSnapshot {Id} schema {Old} != current {Current} — treating as cache miss; UI will trigger fresh /v6.",
+                snapshot.Id, snapshot.SchemaVersion, UserSearchSnapshot.CurrentSchemaVersion);
+            return null;
+        }
 
         try
         {

@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers;
 
+[Authorize]
 public sealed class TrackerController : BaseController
 {
     private readonly ICurrentUserService _currentUser;
@@ -36,12 +37,27 @@ public sealed class TrackerController : BaseController
     {
         var command = new AddToTrackerCommand
         {
-            JobVacancyId = request.JobVacancyId,
-            Title = request.Title,
-            Company = request.Company,
-            Url = request.Url,
-            Salary = request.Salary,
-            SeniorityLevel = request.SeniorityLevel ?? SeniorityLevel.NotSpecified
+            JobVacancyId       = request.JobVacancyId,
+            Title              = request.Title,
+            Company            = request.Company,
+            Location           = request.Location,
+            Url                = request.Url,
+            Salary             = request.Salary,
+            SeniorityLevel     = request.SeniorityLevel ?? SeniorityLevel.NotSpecified,
+            Score              = request.Score,
+            Verdict            = request.Verdict,
+            MatchedSkills      = request.MatchedSkills,
+            MissingMustHaves   = request.MissingMustHaves,
+            TriggeredAntiFlags = request.TriggeredAntiFlags,
+            ReasonShort        = request.ReasonShort,
+            StrengthsEn        = request.StrengthsEn,
+            StrengthsUk        = request.StrengthsUk,
+            GapsEn             = request.GapsEn,
+            GapsUk             = request.GapsUk,
+            RecommendationEn   = request.RecommendationEn,
+            RecommendationUk   = request.RecommendationUk,
+            SubScores          = request.SubScores,
+            PipelineVersion    = request.PipelineVersion,
         };
 
         var result = await Sender.Send(command, ct);
@@ -81,12 +97,27 @@ public sealed class TrackerController : BaseController
 }
 
 public record AddToTrackerRequest(
-    Guid? JobVacancyId,
-    string? Title,
-    string? Company,
-    string? Url,
-    string? Salary,
-    SeniorityLevel? SeniorityLevel);
+    Guid?                       JobVacancyId,
+    string?                     Title,
+    string?                     Company,
+    string?                     Location,
+    string?                     Url,
+    string?                     Salary,
+    SeniorityLevel?             SeniorityLevel,
+    double?                     Score,
+    string?                     Verdict,
+    List<string>?               MatchedSkills,
+    List<string>?               MissingMustHaves,
+    List<string>?               TriggeredAntiFlags,
+    string?                     ReasonShort,
+    string?                     StrengthsEn,
+    string?                     StrengthsUk,
+    string?                     GapsEn,
+    string?                     GapsUk,
+    string?                     RecommendationEn,
+    string?                     RecommendationUk,
+    Dictionary<string, double>? SubScores,
+    string?                     PipelineVersion);
 
 public record UpdateApplicationRequest(
     ApplicationStatus? Status,

@@ -5,6 +5,7 @@ import BilingualReason from './BilingualReason'
 import VerdictBadge from './VerdictBadge'
 import Icon from '../ui/Icon'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { useT } from '../../i18n/useT'
 import { type JobVacancyV6, primaryUrlOf } from '../../types/jobV6'
 
 interface Props {
@@ -13,7 +14,8 @@ interface Props {
 }
 
 function VacancyDetailDrawer({ job, onClose }: Props) {
-    const { language, toggle } = useLanguage()
+    const { toggle } = useLanguage()
+    const t = useT()
 
     useEffect(() => {
         if (!job) return
@@ -50,7 +52,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
             <aside
                 role="dialog"
                 aria-modal="true"
-                aria-label="Деталі вакансії"
+                aria-label={t('vacancy.details.aria')}
                 style={{
                     position:      'fixed',
                     top:           0,
@@ -99,7 +101,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                 </div>
                                 <button
                                     onClick={onClose}
-                                    aria-label="Закрити"
+                                    aria-label={t('common.close')}
                                     style={{
                                         background:   'transparent',
                                         border:       'none',
@@ -119,7 +121,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                 <VerdictBadge verdict={job.verdict} score={job.score} />
                                 <button
                                     onClick={toggle}
-                                    title="Перемкнути мову"
+                                    title={t('nav.langSwitchTitle')}
                                     style={{
                                         background:    'var(--color-bg-muted)',
                                         border:        'none',
@@ -134,7 +136,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                         fontFamily:    'inherit',
                                     }}
                                 >
-                                    {language === 'uk' ? 'UK' : 'EN'}
+                                    {t('nav.langSwitch')}
                                 </button>
                             </div>
                         </header>
@@ -150,7 +152,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                     margin:        '0 0 12px',
                                     fontWeight:    'var(--font-weight-medium)' as unknown as number,
                                 }}>
-                                    {language === 'uk' ? 'Чому такий збіг' : 'Why this match'}
+                                    {t('reason.whySuchMatch')}
                                 </h3>
                                 <BilingualReason
                                     strengths={{      en: job.strengthsEn ?? null,      uk: job.strengthsUk ?? null }}
@@ -169,7 +171,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                     margin:        '0 0 12px',
                                     fontWeight:    'var(--font-weight-medium)' as unknown as number,
                                 }}>
-                                    {language === 'uk' ? 'Деталізація оцінки' : 'Score breakdown'}
+                                    {t('reason.scoreBreakdown')}
                                 </h3>
                                 <SubScoresBar subScores={job.subScores ?? {}} />
                             </section>
@@ -185,7 +187,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                         margin:        '0 0 12px',
                                         fontWeight:    'var(--font-weight-medium)' as unknown as number,
                                     }}>
-                                        {language === 'uk' ? 'Збіги і прогалини' : 'Evidence'}
+                                        {t('reason.evidence')}
                                     </h3>
                                     <EvidenceChips
                                         matched={job.matchedSkills ?? []}
@@ -215,7 +217,7 @@ function VacancyDetailDrawer({ job, onClose }: Props) {
                                         textDecoration: 'none',
                                     }}
                                 >
-                                    {language === 'uk' ? 'Відкрити на сайті' : 'Open on source'}
+                                    {t('reason.openOnSource')}
                                     <Icon name="arrow-up-right" size={14} />
                                 </a>
                             </section>

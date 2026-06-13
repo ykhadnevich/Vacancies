@@ -14,6 +14,15 @@ public class LinkedInGuestService : IJobSourceService
 
     public string SourceName => "linkedin";
 
+    public IReadOnlyList<Country> SupportedCountries => new[]
+    {
+        Country.Ukraine,
+        Country.UnitedStates,
+        Country.UnitedKingdom,
+        Country.Germany,
+        Country.Poland,
+    };
+
     public LinkedInGuestService(HttpClient httpClient, IJobDescriptionFetcher descriptionFetcher)
     {
         _httpClient = httpClient;
@@ -25,6 +34,7 @@ public class LinkedInGuestService : IJobSourceService
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
         string keywords,
         string? location = null,
+        Country country = Country.Ukraine,
         CancellationToken ct = default)
     {
         using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));
@@ -32,7 +42,7 @@ public class LinkedInGuestService : IJobSourceService
 
         var url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search" +
                   $"?keywords={Uri.EscapeDataString(keywords)}" +
-                  $"&location={Uri.EscapeDataString(location ?? "Ukraine")}" +
+                  $"&location={Uri.EscapeDataString(location ?? CountryToLocationString(country))}" +
                   "&start=0&sortBy=DD";
 
         var html = await _httpClient.GetStringAsync(url, token);
@@ -53,6 +63,17 @@ public class LinkedInGuestService : IJobSourceService
 
         return enriched.ToList();
     }
+
+    private static string CountryToLocationString(Country country) => country switch
+    {
+        Country.Ukraine => "Ukraine",
+        Country.UnitedStates => "United States",
+        Country.UnitedKingdom => "United Kingdom",
+        Country.Germany => "Germany",
+        Country.Poland => "Poland",
+        Country.All => string.Empty,
+        _ => "Ukraine",
+    };
 
     private static IReadOnlyList<JobVacancy> ParseHtml(string html)
     {

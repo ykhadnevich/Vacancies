@@ -1,5 +1,6 @@
 import { useEffect, type ReactNode } from 'react'
 import Icon from './Icon'
+import { useT } from '../../i18n/useT'
 
 interface Props {
     open:      boolean
@@ -14,6 +15,7 @@ const WIDTHS = { sm: 360, md: 480, lg: 640 } as const
 
 
 function Modal({ open, onClose, title, children, width = 'md' }: Props) {
+    const t = useT()
     useEffect(() => {
         if (!open) return
         const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
@@ -78,7 +80,7 @@ function Modal({ open, onClose, title, children, width = 'md' }: Props) {
                         </h3>
                         <button
                             onClick={onClose}
-                            aria-label="Закрити"
+                            aria-label={t('common.close')}
                             style={{
                                 background: 'transparent',
                                 border:     'none',

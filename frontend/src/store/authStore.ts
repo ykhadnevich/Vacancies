@@ -46,7 +46,7 @@ export const useAuthStore = create<AuthStore>((set) => ({
         localStorage.removeItem('email')
         localStorage.removeItem('role')
         Object.keys(localStorage)
-            .filter((k) => k.startsWith('vacancies_tabs:'))
+            .filter((k) => k.startsWith('vacancies_tabs_') || k.startsWith('vacancies_active_'))
             .forEach((k) => localStorage.removeItem(k))
         try {
             await del(QUERY_STORAGE_KEY)

@@ -32,10 +32,10 @@ function SearchModeToggle({ value, onChange, disabled = false }: Props) {
                             display:        'inline-flex',
                             alignItems:     'center',
                             justifyContent: 'center',
-                            gap:            8,
+                            gap:            10,
                             width:          BUTTON_WIDTH,
                             height:         38,
-                            padding:        '0 12px',
+                            padding:        '0 18px',
                             border:         `1px solid ${active ? 'var(--color-primary-600)' : 'var(--color-border-default)'}`,
                             background:     active ? 'var(--color-primary-50)' : 'var(--color-bg-surface)',
                             color:          active ? 'var(--color-primary-700)' : 'var(--color-text-secondary)',
@@ -52,9 +52,10 @@ function SearchModeToggle({ value, onChange, disabled = false }: Props) {
                         <Icon name={opt.icon} size={14} />
                         <span>{opt.label}</span>
                         <span style={{
-                            color:    active ? 'var(--color-primary-600)' : 'var(--color-text-tertiary)',
-                            opacity:  0.85,
-                            fontSize: 'var(--text-xs)',
+                            color:       active ? 'var(--color-primary-600)' : 'var(--color-text-tertiary)',
+                            opacity:     0.85,
+                            fontSize:    'var(--text-xs)',
+                            marginLeft:  4,
                         }}>
                             · {opt.hint}
                         </span>

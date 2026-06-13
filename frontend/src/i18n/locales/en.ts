@@ -52,9 +52,11 @@ export const en = {
     'filter.workFormat.remote': 'Remote',
     'filter.workFormat.office': 'Office',
     'filter.workFormat.hybrid': 'Hybrid',
+    'filter.level.internship': 'Internship',
     'filter.level.junior': 'Junior',
     'filter.level.middle': 'Middle',
     'filter.level.senior': 'Senior',
+    'filter.level.lead':   'Lead',
 
 
     'list.showing': 'Showing',
@@ -257,5 +259,124 @@ export const en = {
     'skills.count.few': '{count} skills',
     'skills.count.many': '{count} skills',
     'skills.count.other': '{count} skills',
+
+
+    // ─── Phase 1 i18n expansion ────────────────────────────────────────────
+
+    // Common shared
+    'common.add':            'Add',
+    'common.delete':         'Delete',
+    'common.link':           'link',
+    'common.open':           'Open',
+    'common.refresh':        'Refresh',
+    'common.reset':          'Reset',
+    'common.status':         'Status',
+    'common.unit.minutes':   'min',
+    'common.unit.hours':     'h',
+    'common.unit.days':      'd',
+
+    // Tracker — pipeline, table, form
+    'tracker.viewBoard':              'Board',
+    'tracker.status.inReview':        'In review',
+    'tracker.status.archived':        'Archived',
+    'tracker.addManual.title':        'Add vacancy manually',
+    'tracker.form.title':             'Position *',
+    'tracker.form.company':           'Company *',
+    'tracker.form.salary':            'Salary',
+    'tracker.form.url':               'Vacancy URL',
+    'tracker.locationUnknown':        'Location not specified',
+    'tracker.analysisDetails':        'Analysis details',
+    'tracker.analyzedOn':             'Analysed {date}',
+    'tracker.cvLabel':                'CV',
+    'tracker.table.position':         'Position',
+    'tracker.table.company':          'Company',
+    'tracker.table.location':         'Location',
+    'tracker.table.score':            'Score',
+    'tracker.pipeline.cvSent.label':              'CV sent',
+    'tracker.pipeline.cvSent.short':              'CV',
+    'tracker.pipeline.replied.label':             'Replied',
+    'tracker.pipeline.replied.short':             'Repl.',
+    'tracker.pipeline.followUp.label':            'Follow-up',
+    'tracker.pipeline.followUp.short':            'F/U',
+    'tracker.pipeline.shortInterview.label':      'Short interview',
+    'tracker.pipeline.shortInterview.short':      'Short',
+    'tracker.pipeline.testTask.label':            'Test task',
+    'tracker.pipeline.testTask.short':            'Test',
+    'tracker.pipeline.technicalInterview.label':  'Technical',
+    'tracker.pipeline.technicalInterview.short':  'Tech.',
+    'tracker.pipeline.finalInterview.label':      'Final',
+    'tracker.pipeline.finalInterview.short':      'Final',
+    'tracker.pipeline.offer.label':               'Offer',
+    'tracker.pipeline.offer.short':               'Offer',
+    'tracker.entries.one':    '{count} application',
+    'tracker.entries.few':    '{count} applications',
+    'tracker.entries.many':   '{count} applications',
+    'tracker.entries.other':  '{count} applications',
+
+    // Manual URL input
+    'manualUrl.addButton':            'Add jobs from URL',
+    'manualUrl.hint':                 'Paste a link to a page with job postings. For example,',
+    'manualUrl.parsing':              'Parsing…',
+    'manualUrl.foundJobs.one':        'Found {n} job.',
+    'manualUrl.foundJobs.few':        'Found {n} jobs.',
+    'manualUrl.foundJobs.many':       'Found {n} jobs.',
+    'manualUrl.foundJobs.other':      'Found {n} jobs.',
+    'manualUrl.errParse':             'Failed to parse the page. Check the URL.',
+    'manualUrl.savedLinks':           'Saved links',
+    'manualUrl.emptySaved':           'No saved links',
+    'manualUrl.updatedOn':            'Updated {date} · {n} jobs',
+    'manualUrl.neverParsed':          'Never parsed',
+
+    // Manual vacancies section
+    'manualVacancies.empty':          'No vacancies. Add a URL to a job-board page via the button above.',
+
+    // Job feed sidebar / hints
+    'jobFeed.savedSearches':          'Saved searches',
+    'jobFeed.closeTab':               'Close tab',
+    'jobFeed.cvWarn.title':           'CV not processed yet',
+    'jobFeed.cvWarn.body':            'Upload and process your PDF in Profile before running an analysed search.',
+    'jobFeed.search':                 'Search',
+    'jobFeed.filters':                'Filters',
+    'jobFeed.emptyState.title':       'Enter keywords and press “Search”',
+    'jobFeed.emptyState.body':        'Each query opens as a saved search',
+
+    // Card edge cases (no analysis yet)
+    'card.noGaps':                    'no gaps found',
+    'card.noMatches':                 'no direct matches',
+    'card.skillsAfterCv':             'skills will appear after CV analysis',
+    'card.runAnalysisHint':           'run analysis to see the score',
+    'card.noVerdict':                 'verdict not yet determined',
+
+    // Source labels
+    'source.manual':                  'manual',
+
+    // Navbar tooltip
+    'nav.langSwitchTitle':            'Switch language',
+
+    // Recruiter page extras
+    'recruiter.vacancy.createdAt':    'Created',
+    'recruiter.vacancy.ready':        'Ready',
+    'recruiter.results.verdict':      'Verdict',
+    'recruiter.results.axes':         'Axes',
+    'recruiter.list.addedAt':         'Added',
+
+    // Profile extras
+    'profile.cvNormalize':            'Process',
+    'profile.cvNormalizing':          'Processing…',
+    'profile.cvErrServer':            'Failed to process the resume. Check your server connection.',
+
+    // Reason / evidence
+    'reason.evidence':                'Matches and gaps',
+
+    // Country selector
+    'search.country':         'Country',
+    'country.ukraine':        'Ukraine',
+    'country.unitedStates':   'United States',
+    'country.unitedKingdom':  'United Kingdom',
+    'country.germany':        'Germany',
+    'country.poland':         'Poland',
+    'country.all':            'All countries',
+
+    'vacancy.details.aria':   'Vacancy details',
 
 } as const

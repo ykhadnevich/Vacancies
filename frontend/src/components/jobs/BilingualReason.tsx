@@ -1,4 +1,5 @@
 import { useLanguage } from '../../i18n/LanguageContext'
+import { useT } from '../../i18n/useT'
 
 interface Section {
     en: string | null
@@ -16,6 +17,7 @@ interface Props {
 
 function BilingualReason({ strengths, gaps, recommendation, flat }: Props) {
     const { language } = useLanguage()
+    const t = useT()
 
     const pick = (s: Section) => (language === 'uk' ? s.uk : s.en) ?? (language === 'uk' ? s.en : s.uk)
 
@@ -67,7 +69,7 @@ function BilingualReason({ strengths, gaps, recommendation, flat }: Props) {
             {s && (
                 <div style={sectionStyle}>
                     <span style={{ ...labelStyle, color: 'var(--color-success-600)' }}>
-                        {language === 'uk' ? 'Переваги' : 'Strengths'}
+                        {t('reason.strengths')}
                     </span>
                     <span style={bodyStyle}>{s}</span>
                 </div>
@@ -75,7 +77,7 @@ function BilingualReason({ strengths, gaps, recommendation, flat }: Props) {
             {g && (
                 <div style={sectionStyle}>
                     <span style={{ ...labelStyle, color: 'var(--color-danger-600)' }}>
-                        {language === 'uk' ? 'Прогалини' : 'Gaps'}
+                        {t('reason.gaps')}
                     </span>
                     <span style={bodyStyle}>{g}</span>
                 </div>
@@ -83,7 +85,7 @@ function BilingualReason({ strengths, gaps, recommendation, flat }: Props) {
             {r && (
                 <div style={sectionStyle}>
                     <span style={{ ...labelStyle, color: 'var(--color-primary-600)' }}>
-                        {language === 'uk' ? 'Рекомендація' : 'Recommendation'}
+                        {t('reason.recommendation')}
                     </span>
                     <span style={bodyStyle}>{r}</span>
                 </div>

@@ -12,7 +12,7 @@ export const uk = {
     'auth.signUp': 'Створити акаунт',
     'auth.toRegister': 'Немає акаунту? Зареєструватись',
     'auth.toLogin': 'Уже є акаунт? Увійти',
-    'auth.errInvalid': 'Невірний email або пароль',
+    'auth.errInvalid': 'Неправильний email або пароль',
     'auth.errExists': 'Email уже зареєстровано',
     'auth.errPassword': 'Пароль має бути від 6 символів',
     'auth.passwordPlaceholder': 'Мінімум 6 символів',
@@ -52,9 +52,11 @@ export const uk = {
     'filter.workFormat.remote': 'Дистанційно',
     'filter.workFormat.office': 'Офіс',
     'filter.workFormat.hybrid': 'Гібрид',
+    'filter.level.internship': 'Стажування',
     'filter.level.junior': 'Junior',
     'filter.level.middle': 'Middle',
     'filter.level.senior': 'Senior',
+    'filter.level.lead':   'Lead',
 
 
     'list.showing': 'Показано',
@@ -70,8 +72,8 @@ export const uk = {
     'nav.tracker': 'Трекер',
     'nav.profile': 'Профіль',
     'nav.about':   'Про систему',
-    'nav.themeDark':  'Темна тема',
-    'nav.themeLight': 'Світла тема',
+    'nav.themeDark':  'Перемкнути на темну',
+    'nav.themeLight': 'Перемкнути на світлу',
     'nav.login': 'Увійти',
     'nav.register': 'Реєстрація',
     'nav.logout': 'Вийти',
@@ -240,7 +242,7 @@ export const uk = {
     'recruiter.analyze.alreadyRunning':  'Аналіз уже виконується для цієї вакансії',
     'recruiter.analyze.notNormalized':   'Вакансія не нормалізована — створіть її заново.',
     'recruiter.analyze.nothingToScore':  'Немає готових кандидатів для аналізу',
-    'recruiter.analyze.summary':         'Нових: {newly} · Існуючих: {already} · Пропущено: {skipped} · Помилок: {failed}',
+    'recruiter.analyze.summary':         'Нових: {newly} · З кешу: {already} · Пропущено: {skipped} · Помилок: {failed}',
 
     'recruiter.results.title':   'Ранжування',
     'recruiter.results.empty':   'Запустіть аналіз, щоб побачити ранжовані результати.',
@@ -258,5 +260,124 @@ export const uk = {
     'skills.count.few': '{count} навички',
     'skills.count.many': '{count} навичок',
     'skills.count.other': '{count} навичок',
+
+
+    // ─── Phase 1 i18n expansion ────────────────────────────────────────────
+
+    // Common shared
+    'common.add':            'Додати',
+    'common.delete':         'Видалити',
+    'common.link':           'посилання',
+    'common.open':           'Відкрити',
+    'common.refresh':        'Оновити',
+    'common.reset':          'Скинути',
+    'common.status':         'Статус',
+    'common.unit.minutes':   'хв',
+    'common.unit.hours':     'год',
+    'common.unit.days':      'д',
+
+    // Tracker — pipeline, table, form
+    'tracker.viewBoard':              'Дошка',
+    'tracker.status.inReview':        'В розгляді',
+    'tracker.status.archived':        'Архів',
+    'tracker.addManual.title':        'Додати вакансію вручну',
+    'tracker.form.title':             'Посада *',
+    'tracker.form.company':           'Компанія *',
+    'tracker.form.salary':            'Зарплата',
+    'tracker.form.url':               'URL вакансії',
+    'tracker.locationUnknown':        'Локацію не вказано',
+    'tracker.analysisDetails':        'Деталі аналізу',
+    'tracker.analyzedOn':             'Проаналізовано {date}',
+    'tracker.cvLabel':                'резюме',
+    'tracker.table.position':         'Посада',
+    'tracker.table.company':          'Компанія',
+    'tracker.table.location':         'Локація',
+    'tracker.table.score':            'Оцінка',
+    'tracker.pipeline.cvSent.label':              'CV надіслано',
+    'tracker.pipeline.cvSent.short':              'CV',
+    'tracker.pipeline.replied.label':             'Відгукнулись',
+    'tracker.pipeline.replied.short':             'Відг.',
+    'tracker.pipeline.followUp.label':            'Фолоу-ап',
+    'tracker.pipeline.followUp.short':            'Ф/А',
+    'tracker.pipeline.shortInterview.label':      'Коротке інтервʼю',
+    'tracker.pipeline.shortInterview.short':      'Коротке',
+    'tracker.pipeline.testTask.label':            'Тестове',
+    'tracker.pipeline.testTask.short':            'Тест',
+    'tracker.pipeline.technicalInterview.label':  'Технічне',
+    'tracker.pipeline.technicalInterview.short':  'Тех.',
+    'tracker.pipeline.finalInterview.label':      'Фінальне',
+    'tracker.pipeline.finalInterview.short':      'Фінал',
+    'tracker.pipeline.offer.label':               'Оффер',
+    'tracker.pipeline.offer.short':               'Оффер',
+    'tracker.entries.one':    '{count} заявка',
+    'tracker.entries.few':    '{count} заявки',
+    'tracker.entries.many':   '{count} заявок',
+    'tracker.entries.other':  '{count} заявок',
+
+    // Manual URL input
+    'manualUrl.addButton':            'Додати вакансії з сайту',
+    'manualUrl.hint':                 'Вставте посилання на сторінку з вакансіями. Наприклад,',
+    'manualUrl.parsing':              'Парсимо…',
+    'manualUrl.foundJobs.one':        'Знайдено {n} вакансію.',
+    'manualUrl.foundJobs.few':        'Знайдено {n} вакансії.',
+    'manualUrl.foundJobs.many':       'Знайдено {n} вакансій.',
+    'manualUrl.foundJobs.other':      'Знайдено {n} вакансій.',
+    'manualUrl.errParse':             'Не вдалось спарсити сторінку. Перевірте посилання.',
+    'manualUrl.savedLinks':           'Збережені посилання',
+    'manualUrl.emptySaved':           'Немає збережених посилань',
+    'manualUrl.updatedOn':            'Оновлено {date} · {n} вакансій',
+    'manualUrl.neverParsed':          'Ще не парсилось',
+
+    // Manual vacancies section
+    'manualVacancies.empty':          'Немає вакансій. Додайте посилання на сторінку з вакансіями через кнопку вище.',
+
+    // Job feed sidebar / hints
+    'jobFeed.savedSearches':          'Збережені пошуки',
+    'jobFeed.closeTab':               'Закрити вкладку',
+    'jobFeed.cvWarn.title':           'Резюме ще не оброблене',
+    'jobFeed.cvWarn.body':            'Завантажте та обробіть PDF у Профілі перед запуском пошуку з аналізом.',
+    'jobFeed.search':                 'Пошук',
+    'jobFeed.filters':                'Фільтри',
+    'jobFeed.emptyState.title':       'Введіть ключові слова та натисніть «Пошук»',
+    'jobFeed.emptyState.body':        'Кожен запит відкриється як збережений пошук',
+
+    // Card edge cases (no analysis yet)
+    'card.noGaps':                    'прогалин не знайдено',
+    'card.noMatches':                 'немає прямих збігів',
+    'card.skillsAfterCv':             'навички зʼявляться після аналізу CV',
+    'card.runAnalysisHint':           'запусти аналіз щоб побачити оцінку',
+    'card.noVerdict':                 'вердикт ще не визначений',
+
+    // Source labels
+    'source.manual':                  'вручну',
+
+    // Navbar tooltip
+    'nav.langSwitchTitle':            'Перемкнути мову',
+
+    // Recruiter page extras
+    'recruiter.vacancy.createdAt':    'Створено',
+    'recruiter.vacancy.ready':        'Готово',
+    'recruiter.results.verdict':      'Вердикт',
+    'recruiter.results.axes':         'Осі',
+    'recruiter.list.addedAt':         'Додано',
+
+    // Profile extras
+    'profile.cvNormalize':            'Обробити',
+    'profile.cvNormalizing':          'Обробляємо…',
+    'profile.cvErrServer':            'Не вдалося обробити резюме. Перевірте зʼєднання з сервером.',
+
+    // Reason / evidence
+    'reason.evidence':                'Збіги і прогалини',
+
+    // Country selector
+    'search.country':         'Країна',
+    'country.ukraine':        'Україна',
+    'country.unitedStates':   'США',
+    'country.unitedKingdom':  'Велика Британія',
+    'country.germany':        'Німеччина',
+    'country.poland':         'Польща',
+    'country.all':            'Усі країни',
+
+    'vacancy.details.aria':   'Деталі вакансії',
 
 } as const

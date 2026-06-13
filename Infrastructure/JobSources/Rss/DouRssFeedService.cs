@@ -11,9 +11,12 @@ public class DouRssFeedService : IJobSourceService
 {
     public string SourceName => "dou";
 
+    public IReadOnlyList<Country> SupportedCountries => new[] { Country.Ukraine };
+
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
         string keywords,
         string? location = null,
+        Country country = Country.Ukraine,
         CancellationToken ct = default)
     {
         using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(30));

@@ -39,7 +39,8 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                 style={{
                     position: 'fixed',
                     inset: 0,
-                    background: 'rgba(26, 31, 54, 0.32)',
+                    background: 'rgba(20, 17, 11, 0.42)',
+                    backdropFilter: 'blur(1.5px)',
                     opacity: isOpen ? 1 : 0,
                     pointerEvents: isOpen ? 'auto' : 'none',
                     transition: 'opacity var(--transition-base)',
@@ -56,7 +57,7 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                     top: 0,
                     right: 0,
                     bottom: 0,
-                    width: 'min(560px, 100vw)',
+                    width: 'clamp(min(100vw, 440px), 50vw, 860px)',
                     background: 'var(--color-bg-surface)',
                     boxShadow: 'var(--shadow-xl)',
                     transform: isOpen ? 'translateX(0)' : 'translateX(100%)',
@@ -74,45 +75,44 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                                 position: 'sticky',
                                 top: 0,
                                 background: 'var(--color-bg-surface)',
-                                borderBottom: '0.5px solid var(--color-border-default)',
-                                padding: '20px 24px 16px',
+                                borderBottom: '1px solid var(--color-border-default)',
+                                padding: '22px 28px 18px',
                                 display: 'flex',
                                 flexDirection: 'column',
-                                gap: 10,
+                                gap: 12,
                             }}
                         >
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
-                                <h2 style={{ fontSize: 'var(--text-xl)', margin: 0, lineHeight: 'var(--line-height-tight)' }}>
-                                    {result.candidateName || result.candidateId.slice(0, 8)}
-                                </h2>
+                                <div style={{ minWidth: 0 }}>
+                                    <span style={{
+                                        fontFamily: 'var(--font-sans)', fontSize: 'var(--text-xs)', fontWeight: 600,
+                                        letterSpacing: '0.08em', textTransform: 'uppercase',
+                                        color: `var(--color-${verdictColor(result.verdict)}-700)`,
+                                    }}>
+                                        {(result.score * 100).toFixed(1)}%
+                                    </span>
+                                    <h2 style={{
+                                        fontFamily: 'var(--font-serif)', fontSize: 'var(--text-3xl)', margin: '4px 0 0',
+                                        lineHeight: 1.1, letterSpacing: '-0.02em',
+                                    }}>
+                                        {result.candidateName || result.candidateId.slice(0, 8)}
+                                    </h2>
+                                </div>
                                 <button
                                     onClick={onClose}
                                     aria-label={t('common.close')}
                                     style={{
-                                        background: 'transparent',
-                                        border: 'none',
-                                        cursor: 'pointer',
-                                        padding: 6,
-                                        borderRadius: 'var(--radius-md)',
-                                        color: 'var(--color-text-secondary)',
-                                        display: 'flex',
+                                        background: 'transparent', border: '1px solid var(--color-border-default)',
+                                        cursor: 'pointer', padding: 8, borderRadius: 'var(--radius-md)',
+                                        color: 'var(--color-text-secondary)', display: 'flex', flexShrink: 0,
                                     }}
                                 >
                                     <Icon name="close" size={18} />
                                 </button>
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-                                <Badge color={verdictColor(result.verdict)} size="md">
-                                    <span style={{ fontVariantNumeric: 'tabular-nums' }}>
-                                        {(result.score * 100).toFixed(1)}%
-                                    </span>
-                                </Badge>
                                 {typeof result.confidence === 'number' && result.confidence < 0.7 && (
-                                    <Badge
-                                        color={result.confidence < 0.5 ? 'danger' : 'warning'}
-                                        size="sm"
-                                        title={t('recruiter.confidence.tooltip')}
-                                    >
+                                    <Badge color={result.confidence < 0.5 ? 'danger' : 'warning'} size="sm" title={t('recruiter.confidence.tooltip')}>
                                         <Icon name="alert-circle" size={11} />
                                         {' '}{t('recruiter.confidence.label')} {(result.confidence * 100).toFixed(0)}%
                                     </Badge>
@@ -123,46 +123,34 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                                     </Badge>
                                 )}
                                 <Badge color="neutral" size="sm" title="Gemini tokens: input → output">
-                                    <span style={{ fontVariantNumeric: 'tabular-nums' }}>
+                                    <span style={{ fontVariantNumeric: 'tabular-nums', fontFamily: 'var(--font-mono)' }}>
                                         {result.inputTokens.toLocaleString()} → {result.outputTokens.toLocaleString()} tok
                                     </span>
                                 </Badge>
                                 <Badge color="neutral" size="sm" title="Estimated Gemini cost (input $0.30/M + output $2.50/M)">
-                                    <span style={{ fontVariantNumeric: 'tabular-nums' }}>
+                                    <span style={{ fontVariantNumeric: 'tabular-nums', fontFamily: 'var(--font-mono)' }}>
                                         ${result.estimatedCostUsd.toFixed(4)}
                                     </span>
                                 </Badge>
-                                {/* Calibrated-score trust badge — shown only when the production scoring
-                                    service has applied the post-hoc isotonic calibrator (raw composite ⇒
-                                    held-out-calibrated percentage). The marker is the "+cal:" suffix that
-                                    RecruiterMonolithicScoringService appends to ModelVersion when
-                                    IScoreCalibrator.IsEnabled returns true. */}
                                 {result.modelVersion?.includes('+cal:') && (
-                                    <Badge
-                                        color="success"
-                                        size="sm"
-                                        title={t('recruiter.calibratedTooltip')}
-                                    >
+                                    <Badge color="success" size="sm" title={t('recruiter.calibratedTooltip')}>
                                         <Icon name="check-circle" size={11} />
                                         {' '}{t('recruiter.calibratedBadge')}
                                     </Badge>
                                 )}
                             </div>
-                            <div
-                                title={formatAbsolute(result.scoredAt, language)}
-                                style={{ fontSize: 'var(--text-xs)', color: 'var(--color-text-tertiary)' }}
-                            >
+                            <div title={formatAbsolute(result.scoredAt, language)} style={{ fontSize: 'var(--text-xs)', color: 'var(--color-text-tertiary)', fontFamily: 'var(--font-mono)' }}>
                                 {result.modelVersion} · {formatRelative(result.scoredAt, language)}
                             </div>
                         </header>
 
-                        <div style={{ padding: '20px 24px', display: 'flex', flexDirection: 'column', gap: 18 }}>
+                        <div style={{ padding: '22px 28px 40px', display: 'flex', flexDirection: 'column', gap: 22 }}>
                             {(language === 'uk' ? result.reasonUk : result.reasonEn) && (
-                                <section>
-                                    <ExpandableText
-                                        text={(language === 'uk' ? result.reasonUk : result.reasonEn) ?? ''}
-                                        threshold={50}
-                                    />
+                                <section style={{
+                                    fontFamily: 'var(--font-serif)', fontSize: 'var(--text-xl)', lineHeight: 1.55,
+                                    color: 'var(--color-text-primary)', letterSpacing: '-0.01em',
+                                }}>
+                                    <ExpandableText text={(language === 'uk' ? result.reasonUk : result.reasonEn) ?? ''} threshold={50} />
                                 </section>
                             )}
 
@@ -175,9 +163,7 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                                 <section>
                                     <h3 style={sectionTitle}>{t('recruiter.results.matched')}</h3>
                                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                                        {result.matchedSkills.map((s) => (
-                                            <Badge key={`m-${s}`} color="success" size="sm">{s}</Badge>
-                                        ))}
+                                        {result.matchedSkills.map((s) => (<Badge key={`m-${s}`} color="success" size="sm">{s}</Badge>))}
                                     </div>
                                 </section>
                             )}
@@ -186,9 +172,7 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                                 <section>
                                     <h3 style={sectionTitle}>{t('recruiter.results.missing')}</h3>
                                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                                        {result.missingMustHaves.map((s) => (
-                                            <Badge key={`x-${s}`} color="warning" size="sm">— {s}</Badge>
-                                        ))}
+                                        {result.missingMustHaves.map((s) => (<Badge key={`x-${s}`} color="warning" size="sm">— {s}</Badge>))}
                                     </div>
                                 </section>
                             )}
@@ -197,9 +181,7 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
                                 <section>
                                     <h3 style={sectionTitle}>Anti-flags</h3>
                                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                                        {result.triggeredAntiFlags.map((s) => (
-                                            <Badge key={`a-${s}`} color="danger" size="sm">{s}</Badge>
-                                        ))}
+                                        {result.triggeredAntiFlags.map((s) => (<Badge key={`a-${s}`} color="danger" size="sm">{s}</Badge>))}
                                     </div>
                                 </section>
                             )}
@@ -212,10 +194,10 @@ function CandidateDetailDrawer({ result, onClose }: Props) {
 }
 
 const sectionTitle: React.CSSProperties = {
-    margin: '0 0 8px',
+    margin: '0 0 10px',
     fontSize: 'var(--text-xs)',
     textTransform: 'uppercase',
-    letterSpacing: '0.06em',
+    letterSpacing: '0.1em',
     color: 'var(--color-text-tertiary)',
     fontWeight: 600,
 }

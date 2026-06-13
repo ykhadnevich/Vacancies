@@ -21,6 +21,7 @@ const FILTER_THRESHOLD = 0.50
 function EvidenceChips({ matched, missing, antiFlags, limit, showAntiFlags = false, score }: Props) {
     const t = useT()
     const [expanded, setExpanded] = useState(false)
+    const [matchedExpanded, setMatchedExpanded] = useState(false)
 
 
     const isFiltering = score !== undefined && score >= FILTER_THRESHOLD
@@ -38,7 +39,7 @@ function EvidenceChips({ matched, missing, antiFlags, limit, showAntiFlags = fal
     const hiddenCount  = moreSpecific.length + conceptMissing.length
 
 
-    const m = limit ? matched.slice(0, limit) : matched
+    const m = limit && !matchedExpanded ? matched.slice(0, limit) : matched
     const af = limit ? antiFlags.slice(0, limit) : antiFlags
     const mExtra  = limit && matched.length   > limit ? matched.length   - limit : 0
     const afExtra = limit && antiFlags.length > limit ? antiFlags.length - limit : 0
@@ -62,7 +63,28 @@ function EvidenceChips({ matched, missing, antiFlags, limit, showAntiFlags = fal
                 <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
                     <span style={labelStyle}>{t('card.skillsMatched')}</span>
                     {m.map((s) => <Badge key={s} color="success" size="sm">{s}</Badge>)}
-                    {mExtra > 0 && <Badge color="neutral" size="sm">+{mExtra}</Badge>}
+                    {mExtra > 0 && !matchedExpanded && (
+                        <span
+                            style={counterStyle}
+                            onClick={() => setMatchedExpanded(true)}
+                            role="button"
+                            tabIndex={0}
+                            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setMatchedExpanded(true) }}
+                        >
+                            +{mExtra}
+                        </span>
+                    )}
+                    {matchedExpanded && mExtra > 0 && (
+                        <span
+                            style={counterStyle}
+                            onClick={() => setMatchedExpanded(false)}
+                            role="button"
+                            tabIndex={0}
+                            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setMatchedExpanded(false) }}
+                        >
+                            {t('common.showLess')}
+                        </span>
+                    )}
                 </div>
             )}
             {(initialShown.length > 0 || hiddenCount > 0) && (
@@ -79,7 +101,7 @@ function EvidenceChips({ matched, missing, antiFlags, limit, showAntiFlags = fal
                             tabIndex={0}
                             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setExpanded(!expanded) }}
                         >
-                            {expanded ? 'згорнути' : `ще ${hiddenCount} подібних`}
+                            {expanded ? t('common.showLess') : `+${hiddenCount}`}
                         </span>
                     )}
                 </div>

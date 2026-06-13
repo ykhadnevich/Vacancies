@@ -1,0 +1,7 @@
+﻿{
+    "DeployedAt":  "2026-06-13T19:53:49.3253515+03:00",
+    "EipAllocationId":  "eipalloc-0587fc74a54069b7a",
+    "EipAddress":  "18.199.45.202",
+    "InstanceId":  "i-037e7739d050849bf",
+    "RdsEndpoint":  "vacancies-db.cluk4u60w0a2.eu-central-1.rds.amazonaws.com"
+}

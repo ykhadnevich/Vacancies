@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers;
 
+[Authorize]
 public sealed class JobsController : BaseController
 {
     [HttpGet]
@@ -61,6 +62,7 @@ public sealed class JobsController : BaseController
     public async Task<IActionResult> GetV6(
         [FromQuery] string keywords,
         [FromQuery] string? location = null,
+        [FromQuery] Country country = Country.Ukraine,
         [FromQuery] WorkFormat? workFormat = null,
         [FromQuery] SeniorityLevel? seniorityLevel = null,
         [FromQuery] decimal? minSalary = null,
@@ -72,6 +74,7 @@ public sealed class JobsController : BaseController
         {
             Keywords       = keywords ?? string.Empty,
             Location       = location,
+            Country        = country,
             WorkFormat     = workFormat,
             SeniorityLevel = seniorityLevel,
             MinSalary      = minSalary,
@@ -104,6 +107,7 @@ public sealed class JobsController : BaseController
     public async Task<IActionResult> GetV6Snapshot(
         [FromQuery] string keywords,
         [FromQuery] string? location = null,
+        [FromQuery] Country country = Country.Ukraine,
         [FromQuery] WorkFormat? workFormat = null,
         [FromQuery] SeniorityLevel? seniorityLevel = null,
         [FromQuery] decimal? minSalary = null,
@@ -115,6 +119,7 @@ public sealed class JobsController : BaseController
         {
             Keywords       = keywords ?? string.Empty,
             Location       = location,
+            Country        = country,
             WorkFormat     = workFormat,
             SeniorityLevel = seniorityLevel,
             MinSalary      = minSalary,
@@ -136,6 +141,7 @@ public sealed class JobsController : BaseController
     public async Task<IActionResult> GetRaw(
         [FromQuery] string keywords,
         [FromQuery] string? location = null,
+        [FromQuery] Country country = Country.Ukraine,
         [FromQuery] int limit = 500,
         CancellationToken ct = default)
     {
@@ -143,6 +149,7 @@ public sealed class JobsController : BaseController
         {
             Keywords = keywords ?? string.Empty,
             Location = location,
+            Country  = country,
             Limit    = limit,
         };
         var result = await Sender.Send(query, ct);

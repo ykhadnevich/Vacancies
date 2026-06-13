@@ -39,6 +39,10 @@ public interface IJobVacancyRepository
         Guid vacancyId, string analysisJson, string modelVersion, CancellationToken ct = default);
 
 
+    Task<IReadOnlyList<JobVacancy>> GetJobsWithEmptyDescriptionAsync(
+        int batch, int maxAgeDays, CancellationToken ct = default);
+
+
     /// <summary>Vacancies created by the given recruiter through the recruiter cabinet.</summary>
     Task<IReadOnlyList<JobVacancy>> ListByOwnerAsync(Guid ownerUserId, CancellationToken ct = default);
 }

@@ -1,0 +1,156 @@
+/* ─────────────────────────────────────────────────────────────────────
+   Vakansio — Colors
+   "Bloomberg terminal meets editorial magazine."
+   Variable NAMES match the production app (src/styles/tokens.css) so the
+   live React app reskins automatically. Values are re-pitched:
+   purple → deep emerald, cool gray → warm paper & ink.
+   ───────────────────────────────────────────────────────────────────── */
+
+:root {
+    /* === Brand — Deep Emerald ===========================================
+       The single committed accent. #047857 is the brand primary; #0f9d6f is
+       the vivid "strong match" tint. Replaces the old Stripe purple. */
+    --emerald-50:   #e9f4ef;
+    --emerald-100:  #cde8dc;
+    --emerald-200:  #9fd3bf;
+    --emerald-300:  #67b89a;
+    --emerald-400:  #2f9c77;
+    --emerald-500:  #0f9d6f;
+    --emerald-600:  #047857;
+    --emerald-700:  #03604a;
+    --emerald-800:  #094a3b;
+    --emerald-900:  #0a2e26;
+
+    /* Production aliases — the app reads --color-primary-* everywhere. */
+    --color-primary-50:  var(--emerald-50);
+    --color-primary-100: var(--emerald-100);
+    --color-primary-200: var(--emerald-200);
+    --color-primary-500: var(--emerald-500);
+    --color-primary-600: var(--emerald-600);
+    --color-primary-700: var(--emerald-700);
+
+    /* === Semantic — Match verdict scale ================================
+       Green = strong (brand emerald), Amber = partial/weak, Red = mismatch.
+       Tuned warm/editorial, not neon. */
+    --color-success-50:  #e9f4ed;
+    --color-success-100: #cfe8da;
+    --color-success-300: #67b89a;
+    --color-success-500: #0f9d6f;
+    --color-success-600: #047857;
+    --color-success-700: #03604a;
+
+    --color-warning-50:  #fbf2e2;
+    --color-warning-100: #f6e2bd;
+    --color-warning-300: #e0a64c;
+    --color-warning-500: #d4860f;   /* warm amber — the Bloomberg note */
+    --color-warning-600: #b45309;
+    --color-warning-700: #8a3f08;
+
+    --color-danger-50:   #f8ece8;
+    --color-danger-100:  #f1d4cb;
+    --color-danger-300:  #d68a78;
+    --color-danger-500:  #c0492f;   /* brick, not fire-engine */
+    --color-danger-600:  #a33a26;
+    --color-danger-700:  #822e1e;
+
+    --color-info-50:     #e8eef4;
+    --color-info-100:    #ccdcea;
+    --color-info-300:    #7ba2c4;
+    --color-info-500:    #2f6ea3;   /* steel ledger blue */
+    --color-info-600:    #245785;
+    --color-info-700:    #1c4467;
+
+    /* === Surfaces — warm paper (NOT plain white) ======================
+       The desk is greige; cards are warm paper sitting on it; elevated
+       surfaces lift toward warm white. */
+    --paper-desk:      #ece6da;
+    --paper-card:      #f7f3ea;
+    --paper-raised:    #fffdf7;
+    --paper-sunken:    #e3dccc;
+    --ink:             #211d16;
+
+    --color-bg-page:     var(--paper-desk);
+    --color-bg-surface:  var(--paper-card);
+    --color-bg-muted:    var(--paper-sunken);
+    --color-bg-elevated: var(--paper-raised);
+
+    --color-text-primary:   #211d16;
+    --color-text-secondary: #6b6253;
+    --color-text-tertiary:  #9c9281;
+    --color-text-inverse:   #f7f3ea;
+
+    /* Warm hairline borders — the editorial rule. */
+    --color-border-subtle:  rgba(33, 29, 22, 0.07);
+    --color-border-default: rgba(33, 29, 22, 0.13);
+    --color-border-strong:  rgba(33, 29, 22, 0.22);
+    --color-border:         var(--color-border-default);
+
+    /* Score bar gradient — emerald sweeping into teal (committed). */
+    --score-bar-fill-start: #0f9d6f;
+    --score-bar-fill-end:   #0e7490;
+    --score-bar-track:      rgba(33, 29, 22, 0.09);
+
+    /* #1 leaderboard accent — gilded emerald frame. */
+    --rank-top-frame:  #047857;
+    --rank-top-wash:   #e9f4ef;
+    --rank-top-foil:   #b88a2a;   /* restrained brass for the "01" numeral */
+}
+
+/* ============================================================
+   Dark theme — the terminal. Warm near-black surfaces, vivid
+   emerald, parchment text. Activated by <html data-theme="dark">.
+   Brand / status hues lift for contrast; surfaces & text flip.
+   ============================================================ */
+:root[data-theme='dark'] {
+    --paper-desk:      #14110b;
+    --paper-card:      #1c1810;
+    --paper-raised:    #221d14;
+    --paper-sunken:    #110e09;
+    --ink:             #ece5d4;
+
+    --color-bg-page:     var(--paper-desk);
+    --color-bg-surface:  var(--paper-card);
+    --color-bg-muted:    var(--paper-sunken);
+    --color-bg-elevated: var(--paper-raised);
+
+    --color-text-primary:   #ece5d4;
+    --color-text-secondary: #a89d87;
+    --color-text-tertiary:  #6f6655;
+    --color-text-inverse:   #1c1810;
+
+    --color-border-subtle:  rgba(236, 229, 212, 0.07);
+    --color-border-default: rgba(236, 229, 212, 0.13);
+    --color-border-strong:  rgba(236, 229, 212, 0.24);
+
+    --color-primary-500: #18b681;
+    --color-primary-600: #14a574;
+    --color-primary-700: #4cc79b;
+
+    --color-success-50:  rgba(15, 157, 111, 0.14);
+    --color-success-100: rgba(15, 157, 111, 0.22);
+    --color-success-300: rgba(15, 157, 111, 0.45);
+    --color-success-500: #18b681;
+    --color-success-700: #5fd0a6;
+
+    --color-warning-50:  rgba(212, 134, 15, 0.15);
+    --color-warning-100: rgba(212, 134, 15, 0.24);
+    --color-warning-300: rgba(212, 134, 15, 0.45);
+    --color-warning-700: #e6a83f;
+
+    --color-danger-50:   rgba(192, 73, 47, 0.15);
+    --color-danger-100:  rgba(192, 73, 47, 0.24);
+    --color-danger-300:  rgba(192, 73, 47, 0.45);
+    --color-danger-700:  #e07a5f;
+
+    --color-info-50:     rgba(47, 110, 163, 0.16);
+    --color-info-100:    rgba(47, 110, 163, 0.26);
+    --color-info-700:    #6ca6d6;
+
+    --score-bar-fill-start: #18b681;
+    --score-bar-fill-end:   #14a0b5;
+    --score-bar-track:      rgba(236, 229, 212, 0.10);
+
+    --rank-top-frame:  #18b681;
+    --rank-top-wash:   rgba(15, 157, 111, 0.12);
+    --rank-top-foil:   #d4a94e;
+}

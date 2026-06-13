@@ -12,6 +12,8 @@ public class DjinniScraperService : IJobSourceService
 
     public string SourceName => "djinni";
 
+    public IReadOnlyList<Country> SupportedCountries => new[] { Country.Ukraine };
+
     // IJobDescriptionFetcher was previously injected to do a second GET per
     // card for the description text. We now pull the description out of the
     // already-loaded HTML in ExtractDescription, so the dependency is gone
@@ -31,6 +33,7 @@ public class DjinniScraperService : IJobSourceService
     public async Task<IReadOnlyList<JobVacancy>> FetchJobsAsync(
     string keywords,
     string? location = null,
+    Country country = Country.Ukraine,
     CancellationToken ct = default)
     {
     using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));

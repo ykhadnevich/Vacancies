@@ -3,8 +3,10 @@ import { useQuery } from '@tanstack/react-query'
 import { jobsApi } from '../api/jobsApi'
 import JobCard from './JobCard'
 import Icon from './ui/Icon'
+import { useT } from '../i18n/useT'
 
 function ManualVacanciesSection() {
+    const t = useT()
     const [expanded, setExpanded] = useState(false)
 
     const { data: jobs = [], isLoading } = useQuery({
@@ -31,15 +33,15 @@ function ManualVacanciesSection() {
                     fontFamily:   'inherit',
                 }}>
                 <Icon name={expanded ? 'chevron-up' : 'chevron-down'} size={14} />
-                Вакансії з моїх посилань
+                {t('list.savedUrls')}
             </button>
 
             {expanded && (
                 <div style={{ marginTop: 16 }}>
-                    {isLoading && <p style={{ color: 'var(--color-text-tertiary)', fontSize: 'var(--text-sm)' }}>Завантаження…</p>}
+                    {isLoading && <p style={{ color: 'var(--color-text-tertiary)', fontSize: 'var(--text-sm)' }}>{t('common.loading')}</p>}
                     {!isLoading && jobs.length === 0 && (
                         <p style={{ color: 'var(--color-text-tertiary)', fontSize: 'var(--text-sm)' }}>
-                            Немає вакансій. Додайте посилання на сторінку з вакансіями через кнопку вище.
+                            {t('manualVacancies.empty')}
                         </p>
                     )}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

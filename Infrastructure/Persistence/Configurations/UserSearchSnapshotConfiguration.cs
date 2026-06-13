@@ -16,6 +16,7 @@ public sealed class UserSearchSnapshotConfiguration : IEntityTypeConfiguration<U
         b.Property(x => x.QueryHash).HasColumnType("varchar(64)").HasMaxLength(64).IsRequired();
         b.Property(x => x.Keywords).HasColumnType("varchar(512)").HasMaxLength(512).IsRequired();
         b.Property(x => x.ResponseJson).HasColumnType("jsonb").IsRequired();
+        b.Property(x => x.SchemaVersion).HasColumnType("integer").IsRequired().HasDefaultValue(0);
         b.Property(x => x.ExecutedAt).HasColumnType("timestamp with time zone").IsRequired();
 
         b.HasIndex(x => new { x.UserId, x.QueryHash })

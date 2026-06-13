@@ -1,5 +1,6 @@
 using MediatR;
 using Application.DTOs;
+using Domain.Enums;
 
 namespace Application.Jobs.Queries.GetRawJobs;
 
@@ -8,6 +9,7 @@ public sealed record GetRawJobsQuery : IRequest<GetRawJobsResult>
 {
     public string  Keywords { get; init; } = string.Empty;
     public string? Location { get; init; }
+    public Country Country  { get; init; } = Country.Ukraine;
     public int     Limit    { get; init; } = 100;
 }
 

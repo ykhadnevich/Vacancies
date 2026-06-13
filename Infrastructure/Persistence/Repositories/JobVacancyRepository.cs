@@ -156,6 +156,19 @@ public class JobVacancyRepository : IJobVacancyRepository
             .Take(batch)
             .ToListAsync(ct);
 
+    public async Task<IReadOnlyList<JobVacancy>> GetJobsWithEmptyDescriptionAsync(
+        int batch, int maxAgeDays, CancellationToken ct = default)
+    {
+        var cutoff = DateTime.UtcNow - TimeSpan.FromDays(maxAgeDays);
+        return await _context.JobVacancies
+            .Where(j => (j.Description == null || j.Description == "")
+                        && j.PublishedAt >= cutoff
+                        && !j.IsDuplicate)
+            .OrderByDescending(j => j.PublishedAt)
+            .Take(batch)
+            .ToListAsync(ct);
+    }
+
     public async Task SaveVacancyAnalysisAsync(
         Guid vacancyId, string analysisJson, string modelVersion, CancellationToken ct = default)
     {

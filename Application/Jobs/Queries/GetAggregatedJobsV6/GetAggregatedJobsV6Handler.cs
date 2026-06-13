@@ -158,7 +158,7 @@ public sealed class GetAggregatedJobsV6Handler
         if (!string.IsNullOrWhiteSpace(request.Keywords))
         {
             var agg = await _aggregator.ScrapeAndPersistAsync(
-                request.Keywords, request.Location, ct);
+                request.Keywords, request.Location, request.Country, ct);
             newlyInserted = agg.NewlyInserted;
 
 
