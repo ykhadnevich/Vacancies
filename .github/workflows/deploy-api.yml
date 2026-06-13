@@ -85,11 +85,11 @@ jobs:
         run: |
           for i in 1 2 3 4 5 6; do
             sleep 10
-            if curl -fsS --max-time 10 "https://${{ secrets.EC2_HOST }}/health"; then
-              echo "✓ API healthy on attempt $i"
+            if curl -fsSk --max-time 10 "https://${{ secrets.EC2_HOST }}/health"; then
+              echo "API healthy on attempt $i"
               exit 0
             fi
-            echo "Attempt $i — not healthy yet"
+            echo "Attempt $i - not healthy yet"
           done
-          echo "✗ API did not become healthy within 60s"
+          echo "API did not become healthy within 60s"
           exit 1
