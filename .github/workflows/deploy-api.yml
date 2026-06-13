@@ -58,7 +58,7 @@ jobs:
           EC2_HOST:    ${{ secrets.EC2_HOST }}
         run: |
           mkdir -p ~/.ssh
-          printf '%s\n' "$EC2_SSH_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+          echo "$EC2_SSH_KEY" | base64 -d > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           # ssh-keyscan populates known_hosts; subsequent ssh/scp calls then
           # rely on StrictHostKeyChecking (default: ask → fails if missing)
