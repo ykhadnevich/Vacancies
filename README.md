@@ -2,9 +2,9 @@
 
 > CV ↔ vacancy matching for the Ukrainian job market — built on .NET 8 + React 19 + PostgreSQL + Gemini 2.5 Flash, with a calibrated scoring pipeline whose every prompt change is regression-tested against a 398-pair held-out gold set.
 
-[![CI](https://github.com/yankhodnevitsch/vacancies/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/yankhodnevitsch/vacancies/actions/workflows/ci.yml)
-[![Deploy API](https://github.com/yankhodnevitsch/vacancies/actions/workflows/deploy-api.yml/badge.svg?branch=main)](https://github.com/yankhodnevitsch/vacancies/actions/workflows/deploy-api.yml)
-[![Deploy Frontend](https://github.com/yankhodnevitsch/vacancies/actions/workflows/deploy-frontend.yml/badge.svg?branch=main)](https://github.com/yankhodnevitsch/vacancies/actions/workflows/deploy-frontend.yml)
+[![CI](https://github.com/ykhadnevich/Vacancies/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ykhadnevich/Vacancies/actions/workflows/ci.yml)
+[![Deploy API](https://github.com/ykhadnevich/Vacancies/actions/workflows/deploy-api.yml/badge.svg?branch=main)](https://github.com/ykhadnevich/Vacancies/actions/workflows/deploy-api.yml)
+[![Deploy Frontend](https://github.com/ykhadnevich/Vacancies/actions/workflows/deploy-frontend.yml/badge.svg?branch=main)](https://github.com/ykhadnevich/Vacancies/actions/workflows/deploy-frontend.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
@@ -75,9 +75,9 @@ Reported against a 398-pair held-out gold set rated by Claude Opus 4.7 (test-ret
 | NDCG@5 | 0.82 | — |
 | Mean absolute error (0–10) | 1.65 | [1.55, 1.76] |
 | Midrange Spearman ρ (n=110, gold ∈ {4,6,8,10}) | **0.74** | — |
-| Expected Calibration Error (after calibration) | **0.025** | (5-fold CV) |
+| Expected Calibration Error (after calibration) | **0.027** | (5-fold CV) |
 
-The ECE reduction from 0.141 to 0.025 (~82% relative) is delivered by a post-hoc isotonic-regression calibrator fitted on the held-out and loaded by `CalibratorLoader` at production startup.
+The ECE reduction from 0.140 to 0.027 (~80.6% relative) is delivered by a post-hoc isotonic-regression calibrator fitted on the held-out and loaded by `CalibratorLoader` at production startup.
 
 ## Repository layout
 
@@ -158,7 +158,7 @@ API runs on a single EC2 host behind Caddy (auto-Let's Encrypt). Postgres is on 
 
 ## Thesis
 
-The methodology, evaluation, and architectural decisions are documented in the master's thesis under [`thesis/`](thesis/). Built with Typst.
+The methodology, evaluation, and architectural decisions are documented in the bachelor's thesis under [`thesis/`](thesis/). Built with Typst.
 
 ## License
 
